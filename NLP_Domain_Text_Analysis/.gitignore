@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Phase 1 generated artefacts (regenerate with: python -m src.phase1.run)
+# The registries and manifests are kept because they carry the stable ids.
+data/corpus/raw/
+data/corpus/cleaned/
+data/corpus/structured/
+data/corpus/pages/
+data/corpus/tables/
+data/corpus/figures/
+data/corpus/metadata/unit_registry.csv
+data/corpus/metadata/sections_index.csv
+data/corpus/metadata/corpus_index.csv
+data/corpus/metadata/vocabulary_baseline.csv
+data/corpus/metadata/baseline_term_dictionary.csv
+results/phase1/
+logs/
+
+# Never commit the source PDFs - the originals live outside the project and are
+# read-only. data/source_pdfs/ stays empty on purpose.
+data/source_pdfs/*
+!data/source_pdfs/.gitkeep

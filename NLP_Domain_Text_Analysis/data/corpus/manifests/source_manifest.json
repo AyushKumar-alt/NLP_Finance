@@ -1,0 +1,205 @@
+{
+  "generated_at": "2026-10-01T11:20:58+00:00",
+  "sources": [
+    {
+      "source_id": "SRC01",
+      "source_title": "Economic Survey 2025-26",
+      "publisher": "Ministry of Finance, Government of India",
+      "publisher_provenance": "inferred_from_folder",
+      "year": "2026",
+      "year_provenance": "inferred_from_folder",
+      "source_type": "economic_survey",
+      "description": "Economic Survey of India - chapter-wise PDF parts (echapNN.pdf).",
+      "files_count": 17,
+      "total_pages": 676,
+      "notes": "Chapter-level files of one parent report; NOT independent reports.",
+      "documents": [
+        {
+          "document_id": "D01",
+          "filename": "echap01.pdf",
+          "page_count": 35
+        },
+        {
+          "document_id": "D02",
+          "filename": "echap02.pdf",
+          "page_count": 42
+        },
+        {
+          "document_id": "D03",
+          "filename": "echap03.pdf",
+          "page_count": 65
+        },
+        {
+          "document_id": "D04",
+          "filename": "echap04.pdf",
+          "page_count": 57
+        },
+        {
+          "document_id": "D05",
+          "filename": "echap05.pdf",
+          "page_count": 21
+        },
+        {
+          "document_id": "D06",
+          "filename": "echap06.pdf",
+          "page_count": 33
+        },
+        {
+          "document_id": "D07",
+          "filename": "echap07.pdf",
+          "page_count": 33
+        },
+        {
+          "document_id": "D08",
+          "filename": "echap08.pdf",
+          "page_count": 45
+        },
+        {
+          "document_id": "D09",
+          "filename": "echap09.pdf",
+          "page_count": 38
+        },
+        {
+          "document_id": "D10",
+          "filename": "echap10.pdf",
+          "page_count": 41
+        },
+        {
+          "document_id": "D11",
+          "filename": "echap11.pdf",
+          "page_count": 48
+        },
+        {
+          "document_id": "D12",
+          "filename": "echap12.pdf",
+          "page_count": 45
+        },
+        {
+          "document_id": "D13",
+          "filename": "echap13.pdf",
+          "page_count": 35
+        },
+        {
+          "document_id": "D14",
+          "filename": "echap14.pdf",
+          "page_count": 37
+        },
+        {
+          "document_id": "D15",
+          "filename": "echap15.pdf",
+          "page_count": 40
+        },
+        {
+          "document_id": "D16",
+          "filename": "echap16-1.pdf",
+          "page_count": 25
+        },
+        {
+          "document_id": "D17",
+          "filename": "echap16-2.pdf",
+          "page_count": 36
+        }
+      ]
+    },
+    {
+      "source_id": "SRC02",
+      "source_title": "Financial Stability Report",
+      "publisher": "Reserve Bank of India",
+      "publisher_provenance": "inferred_from_folder",
+      "year": "2026",
+      "year_provenance": "inferred_from_folder",
+      "source_type": "financial_stability_report",
+      "description": "RBI Financial Stability Report material (June 2026).",
+      "files_count": 2,
+      "total_pages": 15,
+      "notes": "Contains a takeaways document and a Union Budget analysis note.",
+      "documents": [
+        {
+          "document_id": "D18",
+          "filename": "Financial-stability-report-June-2026-some-important-takeaways.pdf",
+          "page_count": 6
+        },
+        {
+          "document_id": "D19",
+          "filename": "Union_Budget_Analysis-2026-27.pdf",
+          "page_count": 9
+        }
+      ]
+    },
+    {
+      "source_id": "SRC03",
+      "source_title": "SEBI Annual Report",
+      "publisher": "Securities and Exchange Board of India",
+      "publisher_provenance": "inferred_from_folder",
+      "year": "2026",
+      "year_provenance": "inferred_from_folder",
+      "source_type": "regulator_annual_report",
+      "description": "SEBI Annual Report - chapter-wise PDF files (Chapter NN.pdf).",
+      "files_count": 12,
+      "total_pages": 194,
+      "notes": "Chapter-level files of one parent report.",
+      "documents": [
+        {
+          "document_id": "D20",
+          "filename": "Chapter 02.pdf",
+          "page_count": 12
+        },
+        {
+          "document_id": "D21",
+          "filename": "Chapter 03.pdf",
+          "page_count": 17
+        },
+        {
+          "document_id": "D22",
+          "filename": "Chapter 04.pdf",
+          "page_count": 39
+        },
+        {
+          "document_id": "D23",
+          "filename": "Chapter 05.pdf",
+          "page_count": 19
+        },
+        {
+          "document_id": "D24",
+          "filename": "Chapter 06.pdf",
+          "page_count": 7
+        },
+        {
+          "document_id": "D25",
+          "filename": "Chapter 07.pdf",
+          "page_count": 3
+        },
+        {
+          "document_id": "D26",
+          "filename": "Chapter 08.pdf",
+          "page_count": 15
+        },
+        {
+          "document_id": "D27",
+          "filename": "Chapter 09.pdf",
+          "page_count": 13
+        },
+        {
+          "document_id": "D28",
+          "filename": "Chapter 10.pdf",
+          "page_count": 38
+        },
+        {
+          "document_id": "D29",
+          "filename": "Chapter 11.pdf",
+          "page_count": 7
+        },
+        {
+          "document_id": "D30",
+          "filename": "Chapter 12.pdf",
+          "page_count": 6
+        },
+        {
+          "document_id": "D31",
+          "filename": "Chapter 13.pdf",
+          "page_count": 18
+        }
+      ]
+    }
+  ]
+}

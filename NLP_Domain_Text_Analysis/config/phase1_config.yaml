@@ -1,0 +1,274 @@
+# ==========================================================================
+# Phase 1 configuration - Domain-Specific Text Analysis & Information Retrieval
+# Domain: Financial / Economic Documents
+# University: Vidyashilp University - Bangalore      Course: NLP
+# ==========================================================================
+# NOTE: This file is the ONLY place where filesystem paths and extraction
+#       policies are declared. No path is hard-coded inside the source code.
+# ==========================================================================
+
+run:
+  project_name: "NLP_Domain_Text_Analysis"
+  phase: "phase1"
+  id_prefix: "D"
+  id_padding: 2
+  source_id_prefix: "SRC"
+  source_id_padding: 2
+  unknown_label: "UNKNOWN"
+  encoding: "utf-8"
+  read_only_source: true
+
+# --------------------------------------------------------------------------
+# 1. INPUT
+# --------------------------------------------------------------------------
+input:
+  directory: "C:\\Users\\user\\Downloads\\NLP Assigment 1\\NLP document"
+  project_copy_directory: "data/source_pdfs"
+  supported_extensions:
+    - ".pdf"
+  recursive: true
+  exclude_directories:
+    - ".git"
+    - ".kilo"
+    - "__pycache__"
+    - ".ipynb_checkpoints"
+    - "data"
+    - "results"
+    - "logs"
+
+# --------------------------------------------------------------------------
+# 2. OUTPUT DIRECTORY MAP (relative to project root)
+# --------------------------------------------------------------------------
+output:
+  root: "."
+  # Purge the generated artefact folders at the start of a run so a stale unit
+  # can never survive from a previous extraction. The input directory is never
+  # touched (enforced by a runtime guard).
+  clean_before_write: true
+  corpus_root: "data/corpus"
+  raw_text_dir: "data/corpus/raw"
+  cleaned_text_dir: "data/corpus/cleaned"
+  structured_dir: "data/corpus/structured"
+  pages_dir: "data/corpus/pages"
+  tables_dir: "data/corpus/tables"
+  figures_dir: "data/corpus/figures"
+  metadata_dir: "data/corpus/metadata"
+  manifests_dir: "data/corpus/manifests"
+  results_dir: "results/phase1"
+  log_dir: "logs"
+  log_file: "logs/phase1.log"
+
+# --------------------------------------------------------------------------
+# 3. EXTRACTION LIBRARY
+# --------------------------------------------------------------------------
+extraction:
+  # Primary engine: PyMuPDF (fitz) - exposes font size, line direction and
+  # span coordinates, which is what the structural detectors need.
+  # Secondary engine: pdfplumber - ruled-table detection + word-level fallback.
+  extraction_library: "PyMuPDF+pdfplumber"
+  primary_engine: "pymupdf"
+  secondary_engine: "pdfplumber"
+  use_secondary_engine: true
+  preserve_raw: true
+  secondary_engine_on_failure_only: true
+
+# --------------------------------------------------------------------------
+# 4. VALIDATION THRESHOLDS (page level)
+# --------------------------------------------------------------------------
+validation:
+  low_text_char_threshold: 120
+  low_text_word_threshold: 20
+  scanned_char_threshold: 60
+  scanned_image_char_threshold: 15
+  min_text_page_fraction: 0.5
+  min_valid_file_size_bytes: 512
+
+# --------------------------------------------------------------------------
+# 5. STRUCTURE DETECTION
+# --------------------------------------------------------------------------
+structure:
+  sections:
+    numbered_pattern: "^(?P<number>(?:[0-9]{1,2}\\.){0,3}[0-9]{1,2}\\.?|[IVXLC]{1,6}\\.\\d{1,2}\\.?)\\s*(?P<title>.+)$"
+    allow_uppercase_heading: true
+    allow_titlecase_heading: true
+    max_heading_words: 20
+    min_heading_font_ratio: 1.0
+    fallback_section_id: "UNKNOWN"
+  paragraphs:
+    paragraph_gap_factor: 1.45
+    min_paragraph_words: 4
+    min_paragraph_chars: 40
+    merge_wrapped_lines: true
+  tables:
+    enable_ruled_detection: true
+    enable_alignment_detection: true
+    caption_pattern: "(?i)^\\s*(table|tab\\.?)\\s*[0-9IVXA-Z]+(?:[\\.\\-][0-9A-Za-z]+)*\\s*[:.\\-]"
+    source_note_pattern: "(?i)^\\s*(source|note[s]?|sources?)\\s*[:.\\-]"
+    min_rows: 2
+    min_cols: 2
+    column_tolerance_pt: 9.0
+    column_gap_min_pt: 6.0
+    row_tolerance_pt: 5.0
+    max_rows_stored: 400
+    max_cols_stored: 40
+  figures:
+    caption_patterns:
+      - "(?i)^\\s*(chart|figure|fig\\.?|exhibit)\\s*[0-9IVXA-Z]+(?:[\\.\\-][0-9A-Za-z]+)*\\s*[:.\\-]"
+      - "(?i)^\\s*(graph|plate)\\s+[0-9IVXA-Z]+(?:[\\.\\-][0-9A-Za-z]+)*\\s*[:.\\-]"
+    collect_axis_labels: true
+    claim_data_only_if_tabular: true
+    # A figure region stops when genuine full-width body prose begins, so a
+    # chart caption never swallows the paragraph that follows it.
+    max_surrounding_words: 60
+    max_box_words: 80
+    drop_page_number_labels: true
+  boxes:
+    caption_pattern: "(?i)^\\s*box\\s*[0-9IVXA-Z]+(?:[\\.\\-][0-9A-Za-z]+)*\\s*[:.\\-]"
+  footnotes:
+    bottom_band_fraction: 0.72
+    max_font_ratio: 0.93
+    numbered_pattern: "^\\s*(?:\\(?\\d{1,3}\\)?[\\.\\)]?|[-*\\u2013\\u2014\\u2022])\\s+\\S"
+    citation_pattern: "\\(\\s*(?:19|20)\\d{2}\\s*\\)|https?://|doi\\s*:"
+    max_words: 90
+    separator_gap_tolerance_pt: 14.0
+    preserve_urls: true
+
+# --------------------------------------------------------------------------
+# 6. LIGHT CLEANING (conservative - Phase 1 only)
+# --------------------------------------------------------------------------
+cleaning:
+  enabled: true
+  normalize_line_endings: true
+  collapse_internal_whitespace: true
+  strip_trailing_whitespace: true
+  remove_repeated_blank_lines: true
+  max_consecutive_blank_lines: 1
+  join_wrapped_lines: true
+  remove_repeated_headers_footers: true
+  header_footer_match_count: 3
+  header_footer_min_page_fraction: 0.5
+  strip_private_use_glyphs: true
+  # Everything below is intentionally DISABLED in Phase 1.
+  lowercase: false
+  remove_stopwords: false
+  stem: false
+  lemmatize: false
+  tokenize: false
+  strip_punctuation: false
+  remove_numbers: false
+  remove_urls: false
+  remove_currency_symbols: false
+
+# --------------------------------------------------------------------------
+# 7. BASELINE STATISTICS (NOT the Phase 2 tokenization experiments)
+# --------------------------------------------------------------------------
+statistics:
+  sentence_tokenizer: "nltk_punkt_tab"
+  fallback_sentence_tokenizer: "regex_abbreviation_aware"
+  # Punkt is trained on general English and splits economic abbreviations such as
+  # "RBI." / "IMF." / "GDP.". This documented post-guard merges those fragments
+  # again; the reported method name records that it was applied.
+  abbreviation_post_guard: true
+  nltk_search_paths:
+    - "nltk_data"
+  download_missing_nltk_data: false
+  # Baseline word token pattern. Deliberately KEEPS numbers, percentages,
+  # currency symbols and fiscal-period abbreviations such as FY26 / Q3 / H1.
+  baseline_token_pattern: "(?:US\\$|Rs\\.)|[₹$€£¥]\\s?\\d+(?:[.,]\\d+)*|%|\\b(?:USD|EUR|GBP|JPY|INR|bps)\\b|(?:FY|H|Q|CY)[0-9]{1,4}\\b|\\b[A-Za-z]{1,4}[0-9]{1,4}[A-Za-z]*\\b|[A-Za-z][A-Za-z'\\u2019\\-]*|\\d+(?:[.,]\\d+)*(?:\\s?(?:per\\s?cent|percent|pct|bps|basis\\s+points|%|bn|mn|cr|tr))?|\\d+(?:\\.\\d+)?(?:st|nd|rd|th)"
+  baseline_normalization: "NFKC + casefold (no stemming, no lemmatization)"
+  lowercase_for_baseline: true
+  vocabulary_min_length: 1
+  term_dictionary_min_length: 1
+  term_dictionary_max_rows: 200000
+  vocabulary_max_rows: 200000
+
+# --------------------------------------------------------------------------
+# 8. DUPLICATE DETECTION
+# --------------------------------------------------------------------------
+duplicates:
+  hash_algorithm: "sha256"
+  hash_chunk_bytes: 1048576
+  detect_extracted_text_duplicates: true
+  near_duplicate_min_ratio: 0.995
+  near_duplicate_min_chars: 5000
+  delete_duplicates: false
+
+# --------------------------------------------------------------------------
+# 9. EXTRACTION QUALITY SCORE
+#    score = 100 * (0.45*text_coverage + 0.25*page_completeness
+#                  + 0.15*unit_density + 0.15*structure)
+# --------------------------------------------------------------------------
+quality:
+  weights:
+    text_coverage: 0.30
+    page_completeness: 0.20
+    unit_density: 0.15
+    structure: 0.15
+    structural_fidelity: 0.20
+  # Component calibration (see README "Extraction quality score").
+  unit_density_target: 6.0            # units per page that saturate the component
+  structure_per_element_pages: 4.0    # one structural element per N pages saturates
+  min_units_per_page: 1
+  grade_thresholds:
+    A: 85
+    B: 70
+    C: 50
+    D: 0
+
+# --------------------------------------------------------------------------
+# 10. SOURCE (PARENT DOCUMENT) IDENTIFICATION
+# --------------------------------------------------------------------------
+sources:
+  rules:
+    - source_id: "SRC01"
+      match_parent_folder: ".*"
+      match_filename: "(?i)^echap[0-9\\-]+\\.pdf$"
+      source_title: "Economic Survey 2025-26"
+      publisher: "Ministry of Finance, Government of India"
+      year: "2026"
+      source_type: "economic_survey"
+      description: "Economic Survey of India - chapter-wise PDF parts (echapNN.pdf)."
+      notes: "Chapter-level files of one parent report; NOT independent reports."
+    - source_id: "SRC02"
+      match_parent_folder: "(?i)FINANCIAL\\s+STABILITY\\s+REPORT"
+      match_filename: ".*"
+      source_title: "Financial Stability Report"
+      publisher: "Reserve Bank of India"
+      year: "2026"
+      source_type: "financial_stability_report"
+      description: "RBI Financial Stability Report material (June 2026)."
+      notes: "Contains a takeaways document and a Union Budget analysis note."
+    - source_id: "SRC03"
+      match_parent_folder: "(?i)sebi\\s+annual\\s+report"
+      match_filename: "(?i)^chapter\\s*[0-9]+\\.pdf$"
+      source_title: "SEBI Annual Report"
+      publisher: "Securities and Exchange Board of India"
+      year: "2026"
+      source_type: "regulator_annual_report"
+      description: "SEBI Annual Report - chapter-wise PDF files (Chapter NN.pdf)."
+      notes: "Chapter-level files of one parent report."
+  trust_pdf_metadata_title: true
+  infer_year_from_filename: true
+
+# --------------------------------------------------------------------------
+# 11. OUTPUT ARTEFACT FILENAMES
+# --------------------------------------------------------------------------
+artifacts:
+  file_inventory: "file_inventory.csv"
+  pdf_validation: "pdf_validation.csv"
+  document_statistics: "document_statistics.csv"
+  extraction_quality_report: "extraction_quality_report.csv"
+  errors: "errors.csv"
+  validation_report: "validation_report.json"
+  duplicate_report: "duplicate_report.csv"
+  sections_index: "sections_index.csv"
+  corpus_jsonl: "corpus.jsonl"
+  corpus_index: "corpus_index.csv"
+  all_documents_txt: "all_documents.txt"
+  document_registry: "document_registry.csv"
+  source_registry: "source_registry.csv"
+  unit_registry: "unit_registry.csv"
+  baseline_term_dictionary: "baseline_term_dictionary.csv"
+  vocabulary_baseline: "vocabulary_baseline.csv"
+  source_manifest: "source_manifest.json"
+  run_manifest: "run_manifest.json"
