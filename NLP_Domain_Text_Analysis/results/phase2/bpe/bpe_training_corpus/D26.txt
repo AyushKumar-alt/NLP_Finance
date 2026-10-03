@@ -1,0 +1,1547 @@
+To inform investors against the various types of frauds,  from fraudulent schemes and misleading financial ad- vice, SEBI launched an awareness campaign, popular- ly known as SEBI vs SCAM. The campaign strategically  leverages social media platforms like YouTube, Insta- gram, Facebook, X and WhatsApp to share impactful ed- ucational content. overarching message was to encourage investors to be cautious and research thoroughly before acting on any investment tips. The campaign witnessed the launch of theme based campaigns leveraging on popularity of Bollywood, pop- ular folk tales like Digital villains of India, Akbar-Birbal tales, Scams vs ladders etc., collaborations like “NSE SEBI, in collaboration with MIIs and AMFI, has developed  creative multi-media content such as videos, podcasts,  and infographics to highlight various scams and their  modus operandi. Innovative outreach efforts included an  Augmented Reality Filter Game on Instagram for avoid- ing a scam, the multilingual “Slam the Scam” rap song,  and an “Audio Stories” series, targeting the younger au- dience. Additionally, several notable educational videos  were released on social media cautioning against un- registered investment advisors, fake trading app scams,  phishing links, FPI scams, pump and dump schemes,  finfluencers and deepfake scams, etc. Other important  themes include risks of taking loans for trading, dan- gers of courses promising guaranteed returns, and dis- tinguishing genuine investment advice from fraud. The Ki Paathshaala” on Kaun Banega Crorepati, “Slam the Scams” rap video, digital collaboration with digital cre- ators like Anand Bazar Social for Bangla speaking au- dience, WeAreYuvaa for Gen-Z/Youth and Banda Rupaya for Marathi speaking audience etc. Engaging formats such as memes, gamified quizzes, vox pops, and short awareness challenges further en- hanced public participation. Culturally inspired initia- tives like “Nine Money Mantras” during Navratri and “Financial Lessons with Squid Game” blended entertain- ment with education. Games like Scams and Ladders were designed and published in the newspapers to help investor identify the scams.
+The Problem: Rise of fake trading apps protocol prior to initiating any financial transfer. SEBI  ‘CVV’ is defined as under: In recent times, retail investors have increasingly been  targeted by scammers using spoof or fraudulent trading  applications. These illicit platforms are meticulously  designed to mimic the platforms of well-known, SEBI- registered brokers. Investors often download these  fake applications, believing that their transactions are  being executed within the regulated securities market.  In reality, the funds are stolen by scammers, while the  investments displayed within such applications are  entirely fabricated. C – Check: Use the SEBI Check feature in the Saa₹thi  app to confirm the legitimacy of the recipient bank  account. V – Validate: Ensure the authenticity of UPI ID through  the SEBI Check tool from Saa₹thi app V – Verify: Always look for the “Verified” label on the  google play store before downloading and using any  stock trading application. The Solution: SEBI’s partnership with Google The Goal: Identify Before Investing To combat this, SEBI has collaborated with Google  to introduce a first-of-its-kind “Verified” Label on  the Google Play Store. Now, any stock trading app  that belongs to a genuine, SEBI-registered broker  will display a “Verified” badge. This simple visual tool  allows investors to confirm at a glance that they are  downloading a legitimate app from a regulated entity.  While this has started with stock brokers, the idea is  to expand this verification to other apps, such as those  for mutual funds and investment advisers, in the future. This unique initiative is a major step towards making  the digital space safer. By prioritising the verification of  app’s identity, investors can proactively safeguard their  capital against fraudulent activities. Notification of SEBI as an Authorised Agency MoF, vide gazette notification dated December 8, 2025,  has notified SEBI as an authorised agency under  section 79(3)(b) of the Information Technology Act, 2000  read with rule 3(1)(d) of the Information Technology  (Intermediary Guidelines and Digital Media Ethics Code)  Rules, 2021. The “CVV” Safety Checklist To ensure safety in the digital investment ecosystem,  the investors are encouraged to follow the “CVV” v.  In  order  to  provide  investors  with vii. To enhance digital security for mutual  fund holdings, SEBI introduced a voluntary  debit freeze facility for both demat and  non-demat folios, allowing investors to  prevent unauthorized debits through a  secure locking and unlocking mechanism  managed via the MF Central platform. independent verification of the risk and return metrics claims of IAs, RAs and algorithmic trading providers, PaRRVA for risk-return performance verification was introduced. vi.  In an effort to enhance investor protection viii. To enhance investor convenience and reduce  operational risks, SEBI dispensed with the  issuance of the Letter of Confirmation,  enabling the direct credit of securities into  demat accounts and reducing the service  timeline from approximately 150 days to 30  days. and curb financial fraud, SEBI has advised its regulated/ registered entities to only use the ‘1600’ phone number series exclusively for service and transactional voice calls to their existing customers. This will enhance investor security and minimise the risk of fraud by unscrupulous entities using regular 10 digit numbers.
+8.1.1  Investor education and awareness programmes
+initiatives, both SEBI and MIIs encourage investors
+to practice due diligence before investing and also
+SEBI, in co-ordination with MIIs conducts investor
+remain vigilant against online investment scams
+education and awareness programs across the
+through unsolicited advice and misleading messages
+country. Additionally, AMFI along with AMCs
+on social media or messaging platforms. These
+organizes awareness programmes specifically
+collective efforts aim to empower investors with
+related to mutual fund investments. These programs
+knowledge for informed financial decisions and
+are free of cost for participants and are conducted in
+ensure confident participation in the securities
+various regional languages, in addition to Hindi and
+market. This chapter gives details on i) education and
+English. Following are some of the major programs
+awareness initiatives for investor empowerment; ii)
+major investor-centric policy measures; and iii)
+measures adopted for the redressal of investor
+A. SMARTs programmes: Under Securities Market
+Trainers (SMARTs) program, the trainers are
+empanelled as SMARTS, subject to fulfilling
+the required eligibility criteria. As on March
+Based on the premise that “an educated investor is a
+31, 2026, SEBI has empanelled a total of 822
+protected investor,” SEBI focuses on education and
+SMARTs (comprising of 725 individuals and
+awareness among investors and the public about
+97 organisations) spread across 245 districts
+the basic concepts related to the securities market.
+nationwide. During 2025-26, 105 new SMARTs
+These efforts cover a wide range of important topics,
+(95 individuals and 10 organizations) were
+empanelled, while 19 (14 individuals and 5
+• The variety of products and services
+available in the market;
+The SMARTs programmes for investors and
+• Investment best practices, including do’s
+general public are organized by MIIs under
+SEBI’s overall supervision, with expenses
+• Investor rights, obligations, and available
+funded from their respective investor protection
+or service funds. In 2025-26, a total of 42,743
+SMARTs programmes were conducted, covering
+• Strategies for protection against online
+774 districts across all 36 states and UTs.
+Chapter 8 Protection of the Investor Interests
+By fostering informed and responsible participation,
+The mandate of investor protection is outlined in
+the preamble of the SEBI Act, 1992. To achieve this,
+these initiatives aim to reduce the chances of
+SEBI consistently emphasizes on several key areas,
+investors being misled by fraudulent promises or
+such as investor education, responsible investing,
+and informed decision-making. Through various
+B. Regional Investor Seminars for Awareness:
+E. Programmes by investor associations: SEBI
+recognises Investor Associations (IAs) for
+Regional Investor Seminars for Awareness
+their role in investor education and grievance
+(RISAs) are jointly conducted across cities
+redressal. As of March 31, 2026, there were
+and towns by MIIs and SEBI to disseminate
+24 SEBI-recognised IAs. These IAs conduct
+information on the securities market.
+workshops predominantly in Tier-II and Tier-III
+These seminars provide comprehensive
+cities, covering essential subjects such as the
+understanding of basic investment concepts,
+fundamentals of securities markets, investment
+recent regulatory and market developments,
+precautions and mechanisms for grievance
+grievance redressal mechanisms and essential
+resolution. During 2025-26, IAs conducted 122
+investment guidelines (do’s and don’ts). A key
+programmes covering 56 districts across 13
+feature of these seminars is a collaborative
+approach to cyber security education, which
+involves inviting cyber police officials to conduct
+F. Visit to SEBI/visit by SEBI: The ‘Visit to SEBI’
+sessions on cyber-crimes and preventive
+initiative facilitates learning about securities
+measures. RISAs function as vital interactive
+market for students from educational and
+platforms, facilitating direct engagement
+professional institutions. Additionally, SEBI
+between general public and SEBI/ MII officials.
+officials conduct awareness programs by
+During 2025-26, 1,802 RISA programmes were
+visiting institutions on-site. SEBI also conducts
+conducted, covering 526 districts across 35
+sessions on awareness tailored for officials
+of various government departments/ bodies.
+In 2025-26, 167 such programmes were
+C. Mega Regional Investor Seminar for Awareness
+conducted. These reached approximately 7,568
+(Mega RISA): The ‘Mega RISA’ initiative was
+participants across 16 districts in 10 states/
+launched in 2024-25 as a full-day investor
+UTs. Since 2010, a total of 4,376 programmes
+awareness program conducted under the aegis
+covering approximately 1.97 lakh participants
+of SEBI, MIIs and AMFI. Designed to engage a
+larger audience, these programs cover critical
+topics such as financial planning, investment,
+G. Interactive programs on DD channels: To
+fraud prevention, etc. In 2025-26, the Mega
+leverage the broad reach of television, SEBI
+RISAs were held at Agra, Chhatrapati Sambhaji
+collaborated with Doordarshan to conduct
+Nagar, Chandigarh, Varanasi, Vishakhapatnam,
+interactive programs aimed at investor
+Dehradun, Jamshedpur, Rajkot and Jaipur. The
+awareness in regional languages. In these
+events received an overwhelming response
+programs, SEBI senior officials who are well-
+from both existing investors and potential
+versed with the regional language, interact with
+investors from these Tier-II and Tier-III cities.
+existing investors and prospective investors.
+During 2025-26, SEBI participated in 13 such
+D. Programmes by AMFI and AMCs: AMFI and
+AMCs also play an important role in investor
+awareness in the mutual fund sector. During
+H. National Financial Literacy Quiz (NFLQ) 2025:
+2025-26, AMFI and AMCs conducted 18,342
+SEBI, in co-ordination with NISM conducted
+programmes across 573 districts in 35 states/
+NFLQ 2025 for undergraduate and postgraduate
+(UG/PG) college students. The quiz was
+8.1.3  Digital channels for investors
+investor education and awareness initiatives,
+Complementing the physical programs conducted
+the Saa₹thi mobile app, an educational app for
+nationwide, SEBI also utilizes following digital
+investors is available on both iOS & android
+platforms to significantly expand its investor
+platforms. Like the investor website, the
+education and awareness initiatives.
+Saa₹thi Mobile app also features ‘SEBI
+Check’ tool, financial calculators, modules
+A. SEBI investor website: SEBI maintains a
+on introduction to securities market, mutual
+dedicated website, https://investor.sebi.gov.in.
+funds, ETFs, buying and selling shares on stock
+The website has comprehensive education and
+exchanges, investor grievances redressal
+awareness content, such as workbooks for
+mechanism, and the ODR platform. Further,
+NISM certification examinations, financial
+the app features a range of videos designed
+education booklet in multiple Indian languages,
+to assist investors in their personal finance
+24 financial calculators, spot a scam tool,
+planning, increase awareness and invest in
+chatbot, etc. All the contents of the website is
+securities market. The number of downloads
+available free of cost. The website also features
+reached to 7.2 lakh at the end of 2025-26 as
+a link to ‘SEBI Check’ tool. SEBI Check helps
+investors to independently verify and confirm
+compared to 5.7 lakh till last year.
+Chapter 8 Protection of the Investor Interests
+available at https://nflq.nism.ac.in/ without
+the authenticity of the bank account details, UPI
+any participation fee. Around 2,50,000 students
+IDs, QR codes of SEBI registered intermediaries.
+attempted the online quiz. After first online
+Additionally, the website also features
+round, regional rounds were held at Kolkata,
+schedules of various investor and financial
+Bengaluru, Gurugram, Indore and Ahmedabad
+education programs, list of web links for
+during June to September 2025 while the
+authorized mobile applications of registered
+grand finale was held at NISM campus during
+trading members as sourced from stock
+November 08-09, 2025, where national winners
+exchanges. A section on video based learning is
+a vast repository of curated videos on investor
+I. In total, 63,176 investor awareness programmes
+awareness and education created by the MIIs,
+were conducted across 36 states/UTs during
+AMFI, National Centre for Financial Education
+2025-26. The detailed breakdown is provided in
+(NCFE) and neutral educational sources on
+different aspects of securities market. The
+videos uploaded on the website have been
+translated into multiple vernacular languages
+A. Training of SMARTs: Eligible applicants
+and some are also available in sign language to
+for SMARTs undergo training before
+cater to the audience with special needs.
+empanelment. During 2025-26, SEBI, in co-
+During 2025-26, the SEBI investor website
+ordination with NISM, provided training to 85
+recorded 85,53,120 total visitors, reflecting a
+individuals and 14 organisations. Training on
+nearly three-fold increase over the previous
+commodity derivatives was also provided to
+year’s total of 21,50,076. The number of average
+30 empanelled SMARTs in co-ordination with
+monthly visitors reached to 7,12,760.
+B. Saa₹thi Mobile App: To expand the reach of SEBI’s
+Chapter 8 Protection of the Investor Interests
+C. SEBI Investor Awareness Test: To enhance
+B. Launch of AI-driven Calling Campaign: SEBI conducted a multilingual, AI-enabled public outreach initiative to enhance investor awareness regarding the ‘SEBI Check’ tool and validated UPI handles. This initiative has been undertaken on pilot basis in collaboration with Sarvam, a generative AI company that develops AI models for Indian languages. Under this initiative, a sample set of individual investors received informational calls regarding the SEBI Check Tool, validated UPI handles, and related FAQs. Such awareness calls originated only from the SEBI-authorised number 1600-313- 384. The campaign was conducted in eight languages, namely English, Hindi, Gujarati, Marathi, Tamil, Telugu, Kannada, and Bengali. In less than one week, the campaign reached approximately 3.6 lakh investors and generated nearly 4 lakh minutes of engagement.
+awareness on securities markets among
+investing public, SEBI in collaboration with NISM,
+introduced the online “SEBI Investor Awareness
+Test’. Currently, the test is available in English,
+Hindi, Marathi and Bengali. Anyone can register
+and can appear for this test, available online
+at https://sice.nism.ac.in/. Suitable study
+resources for the test are also available on
+SEBI investor website free of cost. During 2025-
+26, the initiative recorded individual enrolments
+of nearly 2.29 lakh and participation of 1.61 lakh
+8.1.4  New initiatives for investor awareness and
+A. Collaboration with Ministry of Panchayati
+Raj: SEBI, in collaboration with the Ministry
+of Panchayati Raj has launched a nationwide
+C. SEBI Arth Yatra Contest 2025: SEBI, in collaboration with NISM conducted a nationwide creative expression contest during August - October 2025. The objective of this contest was to spread investor awareness through creative participation. The contest invited submission in 13 Indian languages across three core themes: “Invest responsibly, prosper wisely”, “Investor- friendly initiatives to empower investors” and “Bust the scam”. Participants were allowed to submit their creative expressions in two categories – short video/reel and static post, leveraging social media platforms like X, Instagram and YouTube. Popularised jointly by SEBI, MIIs and AMFI, the contest received over 1000 submissions from 27 states and UTs in 10 languages. The initiative concluded with an award ceremony at NISM Patalganga on November 09, 2025, where winners were honoured with cash prizes and mementos.
+training initiative for block level/ panchayat
+representatives. The initiative inter-alia aims
+to promote financial literacy and investor
+education at grassroots level by empowering
+representatives with requisite knowledge to
+educate rural communities. Its objective is
+to strengthen gram panchayats as centres of
+financial literacy and investor protection by
+creating a sustainable and scalable Train-the-
+Trainer model. Under this model, block-level /
+gram panchayat representatives are trained as
+Resource Persons, who can educate and explain
+to their communities about basic concepts of
+personal finance, regulated financial products,
+awareness about securities market, and the
+prevention from ponzi schemes and cyber
+Under this initiative, over 550 trainers have
+been trained through 5 pilot training programs
+in the states of Maharashtra, Chhattisgarh,
+D. Niveshak Shivir: SEBI along with the Investor
+Tripura, Uttarakhand, and Gujarat.
+Education and Protection Fund Authority
+(IEPFA) - Ministry of Corporate Affairs
+8.1.5  Joint programmes with stock exchanges and depositories
+has launched “Niveshak Shivir” initiative
+to create awareness regarding unclaimed
+By collaborating with different stakeholders, SEBI is leveraging a collective effort to strengthen its investor education and outreach initiatives.
+shares and dividends of the investors with
+the listed companies. The objective is to
+assist shareholders for reclaiming unpaid
+A. Digital Strategy for Investor Education and Awareness: As part of the digital strategy, MIIs and AMFI harnessed multimedia content to broaden their reach across social and traditional media. To maximize impact, they developed a wide array of engaging content, including videos, shorts, reels, infographics, quizzes, crosswords, and newsletters. This diverse range of material was deployed across major social media handles (YouTube, Meta, X, and LinkedIn), as well as traditional media like TV, print and radio. Furthermore, WhatsApp was utilized as a key tool for the direct circulation of awareness messages. During 2025-26, the dissemination efforts of all MIIs across various social media platforms witnessed a substantial surge in reach and engagement.
+dividends and shares and thereby, reduce the
+volume of unclaimed investor assets. This is
+achieved through - Assistance in claim filing
+(Form IEPF-5), dematerialisation support
+and KYC and nomination updates. In this
+endeavour, dedicated seva kendras are also
+made functional across six states. In 2025-26,
+six Niveshak Shivirs have been successfully
+organised in the cities of Pune, Hyderabad,
+Amritsar, Jaipur, Bengaluru, Bhubaneswar.
+E. Dharohar at Western Regional Office: SEBI
+Western Regional Office has established an
+in-house museum dedicated to chronicling
+the historical evolution, landmark milestones,
+and regulatory journey of the SEBI. As part of
+visits to SEBI, the visiting students are given
+a tour of “Dharohar” at WRO, wherein they are
+provided information on the evolution of market,
+i. SEBI vs SCAM campaign: To strengthen investor protection and actively combat financial fraud and scams, SEBI undertook the ‘SEBI vs SCAM’ campaign, which was executed in collaboration with AMFI and MIIs. The campaign aimed to educate investors about prevalent fraudulent schemes, and also highlighted illicit “dabba” and “opinion” trading. Key areas of focus for the campaign included raising awareness of red flags, verification protocols, utilizing the SEBI Check tool, following good digital practices, dealing exclusively with registered intermediaries and using trusted redressal mechanisms. Executed in more than 15 languages, the campaign achieved approximately 61.2 crore impressions, 5.7
+information about the commodity derivatives,
+old physical share certificates, etc. while giving
+an overview of the developmental work done by
+SEBI over the years.
+F. Investor Service Camp: SEBI-WRO in
+Ahmedabad hosted a pilot investor service
+camp on October 8, 2025, at its office premises
+as part of World Investor Week. The camp
+was organized in collaboration MIIs and RTAs,
+namely, KFin Technologies Ltd., MUFG Intime
+India Pvt. Ltd., Bigshare Services Pvt. Ltd. and
+CAMS. The purpose of this under one roof camp
+was to provide end-to-end and on the spot
+assistance to investors for their needs. Based
+on the feedback of investors, similar camps
+were also organized in Indore and Rajkot.
+Chapter 8 Protection of the Investor Interests
+crore engagements, 20 crore video views,
+regulated entities and fraudulent entities
+7 crore print readership, etc. (Box 8.1)
+by verifying their payment details while
+making payments. Centering on the action-
+ii. SEBI Check campaign: As a follow-up
+oriented tagline “Payment Tab Karo, Jab
+campaign to the SEBI vs SCAM campaign,
+SEBI Check Karo”, the campaign was
+SEBI Check campaign was also rolled out
+branded under the unified #SEBICheck
+in December 2025. Through a collaborative
+identity across social, digital, and traditional
+effort by SEBI, MIIs and AMFI, the
+campaign aimed to develop a culture of
+“Verify Before You Pay” among Indian
+The campaign for promoting the SEBI Check
+retail investors. The campaign focused
+tool was successfully run on business
+on transitioning investors from passive
+and regional TV channels radio channels
+awareness to active verification using two
+and published in the national and regional
+primary digital safeguards – SEBI Check
+newspapers. It was also disseminated
+and Validated UPI handle. It aimed to make
+through social media channels of SEBI (X
+investors aware about the “digital shield”
+platform - @SEBI_India and handles of
+against impersonation fraud and empower
+MIIs and AMFI). Leveraging the power of
+investors to distinguish between legitimate
+digital media was also explored through
+The WIW-2025 witnessed several unique launches, such as a standup comedy show ‘Nivesh Ka Hasyamanch’, cycle rallies, financial literacy canvas painting competition, Slam the Scam themed Rangoli, Bharat Nivesh Run, a financial learning game, release of a novel “The Final Quest for an invaluable treasure” etc. With joint efforts of MIIs, mutual funds, AMFI, NISM and other organizations associated with securities markets, over 4,500 webinars and investor awareness programs were organised with the reach of approximately 4.53 lakh people, while the number of viewers reached out through TV shows, interviews and radio programs were around 36.9 crore.
+digital content partnerships with the
+news channels, influencer marketing
+for meme amplification, out of the home
+advertising including branding on auto
+rickshaws, metro stations, bus stands etc.
+The campaign achieved around 31 crore
+impressions, 42 lakh engagement, 9 crore
+video views, 6 crore print readership, etc.
+C. State project initiative: Similar to the past year,
+SEBI, in collaboration with the MIIs and AMFI
+continued its initiative to educate and upskill
+young individuals aged 18 to 30 years across
+15 states. This initiative provides necessary
+knowledge and skills to navigate the complex
+world of finance and develop understanding
+about securities market. Participants undergo
+self-paced learning, attend investor awareness
+B. Participation in book fairs and trade fairs
+programs and prepare for NISM certification
+exams, which help candidates for careers
+i. India International Trade Fair 2025: SEBI in collaboration with MIIs, NISM, AMFI and RTAs, organised the “Bharat Ka Share Bazaar” Pavilion at the India International Trade Fair 2025 during November 14-27, 2025. Apart from distinguished leaders, senior officials of Government, Delhi Police, armed forces and various institutions, the pavilion was visited by more than one lakh attendees The visitors appreciated pavilion’s technology-driven initiatives for investor awareness, including mixed reality ads, scambush game, wheel of financial freedom, online quizzes, and lucky draw- based awareness messaging.
+in securities market and also enhance their
+8.1.6  Other investor awareness initiatives
+A. Celebration of global and national events
+i. World Investor Week 2025: SEBI was the
+national coordinator of 9th edition of World
+Investor Week (WIW) 2025, an initiative of
+International Organization of Securities
+Commission (IOSCO), which was celebrated
+from October 06 - 12, 2025 in India. The key
+theme of WIW 2025 was “Fraud and Scam
+Prevention”. The sub-theme was ‘Basics of
+Investing and the key message was: ‘A smart
+ii. Participation in Conferences/Fairs
+investor relies on verified sources while
+investing and ignores unsolicited offers on
+a. With the objective to contribute towards investor education and awareness, SEBI along with MIIs participated in the 28th Edition of CII – Chandigarh Fair 2025 organised by CII during October 9-13, 2025. The theme
+social media.’ SEBI in co-ordination with
+other participating stakeholders carried
+out several nationwide activities/ events/
+programs through physical and digital
+media in multiple languages.
+Chapter 8 Protection of the Investor Interests
+of the pavilion was “Viksit Bharat ka Aadhar, Bharat Ka Share Bazar”. The pavilion witnessed more than 50,000 visitors.
+e. A stall of SEBI at Global Fintech
+Festival 2025 showcased tech-driven
+investor awareness initiatives such as
+Saa₹thi Mobile app and SEBI investor
+website, Artha Yatra, SEBI Investor
+b. SEBI along with MIIs and AMFI, actively participated in the Vibrant Gujarat Regional Conferences event at Mehsana (October 9-13, 2025) and Rajkot (January 11-15, 2025). Both events underscored SEBI’s strategic goal of engaging with the public beyond major cities. Large number of small business owners, who were eager to explore ways to expand their enterprises, benefitted from the engagement with SEBI officials and MIIs representatives at these conferences. A variety of live events and interactive activities such as puppet shows, quizzes and educational sessions were conducted to convey awareness messages in an impactful manner including in regional language.
+Awareness Test, Dharohar, SEBI
+Check and Valid UPI, MITRA, CeFCoM
+f. The International Kolkata Book Fair
+was one of the major event held
+during January 22- February 03, 2026.
+witnessing footfall of over 1,25,000
+visitors at the pavilion with the theme
+SEBI vs SCAM. This theme was
+expressed through Gombhira art and
+dance form of Bengal.
+g. SEBI also participated at Odisha State
+Book Festival 2025 at Bhubaneswar,
+Assam Book Fair 2025-26 at Guwahati
+and Silchar in Assam, Swadeshi Mela
+2025 at Jamshedpur in Jharkhand,
+Hornbill Festival 2025 at Kohima in
+c. Advantage Vidarbha – 2026, was held from February 06-08, 2026, in which SEBI, along with MIIs and AMFI participated to promote investor awareness and education. SEBI stall at this event witnessed footfall of over 60,000 visitors. SEBI also led two sessions on the side-lines of the event i.e. “Opportunities and Risks for Investors in the Securities Market” which was open for all and “Fund Raising in Securities Markets Through SME IPO” along with BSE and NSE, which was available only for business leaders by invitation.
+at Shillong in Meghalaya, Agartala
+Book Fair 2026 at Agartala in Tripura,
+16 District Book Fairs across several
+districts in West Bengal, Kolkata
+in December 2025, Indian National
+Exhibition 2025-26 in Kolkata and
+the Bihar Diwas celebrations 2026 at
+C. Specialized awareness programmes: During
+2025-26, SEBI conducted specialized financial
+awareness programs. These include:
+i. “Heroes in Uniform” for the Police, (UP,
+d. A stall for investor awareness was put up during Samvad 2026, where more than 1500 visitors participated.
+etc.) and for Army at Leh, Ladakh
+implement “Verified” badge on Google Play,
+The objective of investor protection is intrinsic to
+for all stock trading apps in India that are
+most of the policy measures taken up by SEBI, which
+offered by entities registered with SEBI.
+investor centric policy measures adopted during
+ii. Programmes for law enforcement
+agencies in order to sensitize them of
+SEBI, its regulatory functions and inter-
+i. To safeguard investors from cyber frauds,
+agency coordination for investigation
+a new sub-system of UPI -“Validated UPI
+and enforcement. These programs were
+handles” have been enabled for securities
+conducted for CBI, FIU, SFIO, NCRB, etc.
+market. w.e.f. October 01, 2025. The ‘Valid
+UPI Handles’ and the ‘SEBI Check’ utility
+iii. Programmes for senior civil servants such
+has created a secure digital pathway for
+investors, ensuring that payments go only
+iv. Programmes for officials of CISF posted
+across various locations such as Mumbai,
+ii. Digitisation of onboarding and the
+Pune, Nagpur, Goa etc.
+establishment of a unified authenticated
+v. Programmes for senior officials of armed
+KYC framework in securities market
+forces and para military
+through KYC Registration Agencies have
+reduced duplication and made access more
+vi. Program for staff working at Mantralaya,
+seamless. All digital platforms of regulated
+entities mandated to be compliant with
+D. Co-ordination with international and domestic
+the provisions of the RPwD Act, 2016 and
+a) SEBI remains actively engaged in policy
+iii. In order to facilitate ease of investing and
+initiatives and conferences organized by
+to secure the rights of investors in the
+international bodies like IOSCO, OECD-INFE
+securities which were purchased by them,
+etc. This includes active participation in the
+a special window has been opened for re-
+IOSCO Committee 8 on retail investors.
+lodgement of transfer requests of physical
+SEBI also provides inputs to reports of
+shares for a period of one year from
+the Committee and OECD-INFE, with a
+focus on promoting investor education and
+iv. To enhance investor trust and distinguish
+regulated content from that of unregistered
+b) SEBI also participates in various investor-
+persons, SEBI has mandated that all
+centric measures taken by organizations,
+regulated entities and their agents must
+such as NCFE. According to NCFE, 11,496
+prominently disclose their registered
+financial education programs were
+name and SEBI registration number on
+social media platforms. In collaboration
+with Google, SEBI has taken an initiative to
+are detailed in the respective Chapters. A few key
+Chapter 8 Protection of the Investor Interests
+8.3.2  SECURE and MI Portals
+SCORES, CPGRAMS and SECURE is given in Table 8.2,
+while aging analysis of the grievances is presented
+During the last year, two online portals namely SECURE (https://secure.sebi.gov.in) and Market Intelligence (MI) Portal (https://mi.sebi.gov.in/) were
+SCORES enables the investor to directly lodge
+the complaints online and such complaints are
+considered as ‘E-complaint’. Also, any physical
+Complaints pending for less than 3 months 1,212 138 1
+Complaints pending for more than 3 months 42 30 0
+Total complaints pending 1,254 168 1
+8.3.3  Status of Investor Grievances Received,
+The status of investor grievances/alerts through
+launched. The SECURE portal, launched on April
+1, 2024, deals with complaints related to freezing
+and unfreezing of accounts pursuant to orders of
+In order to strengthen the investor grievance redressal mechanism through SEBI Complaint Redressal System (SCORES) and make the process efficient by reducing timelines and by introducing auto-routing and auto-escalation of complaint, SEBI during September 2023 had notified revised process flow. Accordingly, the technologically upgraded version, SCORES 2.0 was launched by SEBI on April 01, 2024. SEBI also receives complaints through Centralized Public Grievance Redress and Monitoring System (CPGRAMS) of Department of Administrative Reforms and Public Grievances. The CPGRAMS portal has been integrated with SCORES portal.
+Whole Time Members of SEBI/ Courts/Tribunals or
+completion of debarment period. On the other hand,
+the MI Portal which became operational during May
+2024 was for market participants to provide inputs
+pertaining to market abuse. Through MI Portal, the
+inputs/alerts received during the year increased to
+860 from 440 during the last year. Any regulatory
+actions pursuant to the scrutiny of the inputs/alerts
+received are published on the SEBI website.
+Chapter 8 Protection of the Investor Interests
+The category-wise and region-wise distribution of the complaints received and redressed in 2025-26 are given in Table 8.4 and 8.5 respectively.
+28 pending cases as compared to 55 at the end of previous year. The details of complaints received, resolved and pending are given in Table 8.6.
+during previous year. The resolution of 13,223 complaints resulted in pendency of 1,089 complaints (Table 8.7).
+The number of complaints against listed companies received by the stock exchanges also increased marginally to 13,621 cases, up from 12,473 received
+The details of complaints/arbitration cases with stock exchanges related to other intermediaries through SMART ODR is given in Table 8.8.
+Chapter 8 Protection of the Investor Interests
+8.4.1  Investor Protection and Education Fund of SEBI
+The details of the inflow and utilization of the IPEF of
+SEBI is provided in Table 8.9 and 8.10, respectively.
+8.4.2  Investor Protection Funds of MIIs: Inflow and
+used for compensating investors if a defaulting member’s assets are insufficient to meet claims, while for depositories, the fund is utilized to settle the claims of beneficial owners. Capital expenditure from IPF is permissible only with respect to setting up of Investor Service Centre by stock exchanges. The income earned on IPF corpus can be utilized in other manner as prescribed/permitted by SEBI from time to time. The details regarding the inflow of fund into and utilization of IPFs of MIIs are given in Table 8.11.
+A brief account of the inflow and utilization of
+Investor Protection and Education Funds (IPEFs) of
+SEBI and MIIs is given below:
+Stock exchanges and depositories are mandated
+to establish an Investor Protection Fund (IPF) to
+support market integrity, investor welfare and
+A. Opening Balance 3,044.8 3,614.2
+B. Addition to the Fund (a+b) 662.26 646.3
+A. Opening Balance 130.0 156.4
+B. Additions to the Fund (a+b) 48.0 59.1
+a. Income from Investments 9.4 11.7
+b. Other Receipts 38.5 47.4
+State/UT 
+ SMARTs 
+ RISA 
+ AMFI and AMCs 
+ Investor 
+Associations 
+ Visit to SEBI/
+Visit by SEBI 
+ Total
+Sr. 
+No.
+No. of 
+Pro-
+grams
+No. of 
+Partici-
+pants
+No. of 
+Pro-
+grams
+No. of 
+Partici-
+pants
+No. of 
+Pro-
+grams
+No. of 
+Partici-
+pants
+No. of 
+Pro-
+grams
+No. of 
+Partici-
+pants
+No. of 
+Pro-
+grams
+No. of 
+Partici-
+pants
+No. of 
+Pro-
+grams
+No. of 
+Partici-
+pants
+1 
+ Maharashtra 
+7,048 3,86,409
+211
+15,286
+3,574 2,69,857
+34
+2,163
+42
+1,459
+10,909
+6,75,174
+2 
+ Gujarat 
+2,502
+1,29,230
+132
+10,001
+3,866 4,31,900
+26
+2,409
+10
+499
+6,536
+5,74,039
+3 
+ Uttar Pradesh 
+5,944 2,79,224
+199
+21,270
+1,791
+1,14,672
+-
+-
+-
+-
+7,934
+4,15,166
+4 
+ Karnataka 
+2,630
+1,42,609
+89
+7,904
+1,068
+77,131
+-
+-
+-
+-
+3,787
+2,27,644
+5 
+ Rajasthan 
+2,671
+1,36,677
+98
+8,253
+891
+64,232
+-
+-
+1
+50
+3,661
+2,09,212
+6 
+ West Bengal 
+1,673
+80,006
+107
+9,286
+1,211
+1,11,227
+30
+2,065
+9
+1,265
+3,030
+2,03,849
+7 
+ Tamil Nadu 
+2,406
+1,31,341
+100
+9,322
+785
+57,853
+6
+548
+33
+1,315
+3,330
+2,00,379
+8 
+ Madhya Pradesh 
+2,068
+1,02,222
+76
+6,194
+535
+41,177
+2
+121
+-
+-
+2,681
+1,49,714
+9 
+ Bihar 
+2,064
+1,01,276
+97
+7,207
+445
+32,689
+-
+-
+-
+-
+2,606
+1,41,172
+10 Delhi 
+1,019
+48,969
+74
+5,293
+440
+55,159
+5
+208
+66
+2,520
+1,604
+1,12,149
+11 
+ Odisha 
+1,373
+70,294
+64
+4,871
+355
+23,880
+6
+471
+1
+50
+1,799
+99,566
+12 Haryana 
+1,301
+63,592
+48
+3,669
+447
+27,367
+-
+-
+-
+-
+1,796
+94,628
+13 Andhra Pradesh 
+1,268
+69,297
+53
+4,629
+282
+17,792
+-
+-
+-
+-
+1,603
+91,718
+14 Telangana 
+1,042
+62,306
+67
+7,171
+264
+20,543
+-
+-
+-
+-
+1,373
+90,020
+15 Kerala 
+1,184
+62,135
+51
+3,368
+334
+18,804
+-
+-
+-
+-
+1,569
+84,307
+16 Jharkhand 
+962
+48,168
+46
+4,363
+355
+29,148
+2
+127
+-
+-
+1,365
+81,806
+17 Punjab 
+987
+48,912
+39
+3,428
+468
+26,609
+2
+213
+-
+-
+1,496
+79,162
+18 Chhattisgarh 
+946
+48,615
+24
+1,786
+180
+14,474
+-
+-
+-
+-
+1,150
+64,875
+19 Assam 
+780
+42,251
+38
+2,546
+136
+8,529
+2
+150
+1
+40
+957
+53,516
+20 Uttarakhand 
+506
+24,944
+33
+4,014
+210
+13,311
+-
+-
+-
+-
+749
+42,269
+21 Himachal Pradesh 
+429
+23,478
+29
+2,101
+204
+8,683
+-
+-
+-
+-
+662
+34,262
+22 Jammu and 
+Kashmir 
+595
+26,475
+22
+1,574
+95
+5,099
+-
+-
+-
+-
+712
+33,148
+23 Goa 
+286
+13,596
+9
+512
+157
+10,942
+-
+-
+1
+50
+453
+25,100
+24 Chandigarh 
+86
+4,251
+15
+1,532
+108
+8,911
+1
+110
+-
+-
+210
+14,804
+25 Meghalaya 
+115
+5,917
+9
+611
+24
+3,250
+-
+-
+-
+-
+148
+9,778
+26 Nagaland 
+111
+5,849
+7
+457
+16
+1,699
+-
+-
+-
+-
+134
+8,005
+27 Tripura 
+110
+5,698
+15
+1,452
+10
+796
+-
+-
+-
+-
+135
+7,946
+28 Mizoram 
+121
+6,199
+6
+320
+2
+292
+4
+398
+-
+-
+133
+7,209
+29 Puducherry 
+75
+4,287
+7
+814
+15
+1,106
+-
+-
+-
+-
+97
+6,207
+30 Manipur 
+94
+4,511
+-
+-
+4
+1,200
+-
+-
+-
+-
+98
+5,711
+31 Arunachal Pradesh 
+83
+4,033
+13
+1,137
+4
+265
+-
+-
+-
+-
+100
+5,435
+32 Sikkim 
+85
+4,402
+8
+696
+5
+200
+2
+117
+-
+-
+100
+5,415
+33 Ladakh 
+20
+1,074
+6
+3,481
+8
+664
+-
+-
+-
+-
+34
+5,219
+34 Dadra and Nagar 
+Haveli and Daman 
+and Diu
+56
+2,796
+6
+418
+24
+913
+-
+-
+-
+-
+86
+4,127
+35 Andaman and 
+Nicobar Islands 
+33
+1,590
+2
+95
+8
+236
+-
+-
+3
+320
+46
+2,241
+36 Lakshadweep 
+2
+88
+2
+86
+-
+-
+-
+-
+-
+-
+4
+174
+37 PAN INDIA* 
+ 68 3,963 
+ - 
+ - 
+ 21 
+20,610 
+ - 
+ - 
+ - 
+ - 
+ 89 
+24,573
+Total
+42,743 21,96,684
+1,802 1,55,147
+18,342 15,21,220
+122
+9,100
+167
+7,568
+63,176 38,89,719
+* Includes those programs open to all the participants, and not specific to any State/UT.
+complaint (P-complaint) along with mandatory
+Source of Grievance Received
+2024-25
+2025-26
+details received against any registered entity is
+Grievances Received
+uploaded on SCORES which are then handled
+SCORES
+68,132
+61,788
+in SCORES online. Similarly, SEBI also receives
+CPGRAMS
+2,973
+3,188
+complaints through mobile app (M-complaint). Out
+SECURE
+365^
+320
+of 61,788 complaints received during 2025-26, 54,064
+Grievances Disposed~
+SCORES
+63,971
+60,213$
+(87.5 per cent) were E-complaints while 4,012 (6.5
+CPGRAMS
+2,858
+3,135
+per cent) were P-complaints and remaining 3,712 (6
+SECURE
+309 
+375
+per cent) were M-complaints.
+Pending Actionable Grievances#
+SECURE
+56
+1
+Particulars
+Total Pending Actionable Cases
+(As on March 31, 2026)
+Sr. 
+No. Category
+SCORES SECURE
+1
+Stock Broker
+20,756
+3
+2
+Listed Company- Equity Issue 
+(Dividend/Transfer/Transmission/
+Duplicate Shares/Bonus Shares etc.)
+12,316
+4
+8.3.4  Analysis of investor complaints
+During 2025-26, out of 61,788 complaints received on 
+SCORES, 10,660, i.e. 17.2 per cent were escalated to 
+SEBI.
+3
+Registrar and Share Transfer Agent
+11,519
+17
+4
+Mutual Fund
+3,516
+14
+5
+Depository Participant
+2,705
+NA
+6
+Research Analyst
+2,582
+NA
+7
+Exchange
+1,511
+172
+8
+Listed Company-IPO/Prelisting /Offer 
+Document (Debenture and Bonds)
+1,216
+NA
+8.3.5  SEBI toll-free helpline
+SEBI, in 2011, had launched toll-free helpline service 
+numbers 1800 266 7575/1800 22 7575 to facilitate 
+replies to various queries of the general public on 
+matters pertaining to securities market. This service 
+is available every day from 9:00 a.m. to 6:00 p.m. 
+(except on declared public holidays in Maharashtra 
+and Sundays) in English, Hindi and four other 
+regional languages, namely Marathi, Tamil, Bengali, 
+Telugu. During 2025-26, SEBI toll-free helpline 
+numbers attended 62,298 calls.
+9
+Listed Company-IPO/Prelisting/Offer 
+document (shares)
+1,122
+NA
+10
+Investment Advisors
+973
+NA
+11
+Depository
+920
+110
+12
+Bankers to the issue
+478
+NA
+13
+Listed Company- Debt Issue (Interest/
+Redemption/Transfer/Transmission etc.)
+329
+NA
+14
+Debenture Trustee
+307
+NA
+15
+KYC Registration Agency
+239
+NA
+16
+Listed Company-Delisting of securities
+229
+NA
+17
+Portfolio Manager
+220
+NA
+18
+Merchant Bankers
+204
+NA
+19
+Clearing Corporation
+120
+NA
+20 Category 2 Alternative Investment Fund
+110
+NA
+21
+Mutual Fund trading on Exchange Platform
+98
+NA
+22 Listed Company- Buy Back of Securities
+52
+NA
+23 Category 3 Alternative Investment Fund
+50
+NA
+24 Venture Capital Fund
+46
+NA
+25 Credit Rating Agencies
+44
+NA
+26 Small and Medium Real Estate 
+Investment Trusts (SM REITs)
+37
+NA
+8.3.6  Complaints and Arbitration Cases Against 
+Trading Members
+During 2025-26, the number of complaints received 
+by the exchanges against trading members 
+decreased to 19,908 from 24,950 during 2024-25, 
+while the number of complaints pending increased 
+marginally to 1,911 from 1,435 at the end of previous 
+year. This increase is majorly on account of increase 
+in service related complaints. In addition, 299 cases
+27 Category 1 Alternative Investment Fund
+29
+NA
+28 Share based Employee benefits
+21
+NA
+29 Infrastructure Investment Trust
+15
+NA
+30 Real Estate Investment Trust ( REIT)
+14
+NA
+31
+Securitised Debt Instruments (SDIs)
+6
+NA
+32 Vault Manager
+3
+NA
+33 Collective Investment Scheme
+1
+NA
+Total
+61,788
+320
+for arbitration were received as compared to 288
+in the previous year, however, there were only
+Region
+SCORES
+SECURE
+Received Redressed
+Received Redressed
+Head Office Region (Maharashtra, Diu & Daman)
+14,092
+13,747
+77 
+76
+Northern Region (Delhi, Punjab, Himachal Pradesh, Jammu & Kashmir, Uttar 
+Pradesh and Uttarakhand)
+15,015
+14,627
+112
+112
+Southern Region (Andhra Pradesh, Telangana, Tamilnadu, Karnataka and Kerala)
+11,931
+11,483
+46 
+46
+Eastern Region (West Bengal, Assam, Odisha, Jharkhand and Bihar)
+8,095
+7,985
+38 
+38
+Western Regional Office (Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh and Goa)
+12,655
+12,371
+103
+103
+Total
+61,788
+60,213
+376*
+375* 
+Note: *includes 56 carried forward complaints from 2024-25.
+Details
+2024-25
+2025-26
+Received
+Resolved
+Pending
+Received
+Resolved
+Pending
+A. Complaints against Trading Members
+Non-Receipt of Payment/Securities
+ 1,756 
+ 1,773 
+ 99 
+ 1,302 
+ 1,299 
+ 102
+Unauthorized Trades
+ 5,348 
+ 5,160 
+ 372 
+ 4,389 
+ 4,270 
+ 491
+Brokerage and Charges
+ 1,310 
+ 1,232 
+ 109 
+ 1,189 
+ 1,220 
+ 78
+Service Related
+ 9,520 
+ 9,382 
+ 554 
+ 9,159 
+ 8,758 
+ 955
+Others
+ 7,016 
+ 6,855 
+ 301 
+ 3,869 
+ 3,884 
+ 286
+Total
+ 24,950 
+ 24,402 
+ 1,435 
+ 19,908 
+ 19,431 
+ 1,911
+B. Arbitration Cases
+ 288 
+ 328 
+ 55 
+299
+326
+28
+Source: BSE, NSE, MSEI, MCX, and NCDEX
+Details
+2024-25*
+2025-26
+Received
+Resolved
+Pending
+Received
+Resolved
+Pending
+A. Complaints against Listed Companies
+Public/Further Offerings
+ 842 
+ 881 
+ 12 
+494
+482
+24
+Corporate Actions
+ 2,586 
+ 2,556 
+ 135 
+2,474
+2,438
+171
+Transfer of Securities
+ 3,343 
+ 3,244 
+ 210 
+3,999
+3,855
+354
+Miscellaneous
+ 5,702 
+ 5,567 
+ 334 
+6654
+6374
+614
+Total
+ 12,473 
+ 12,248 
+ 691 
+13,621
+13,149
+1,163
+B. Arbitration Cases
+35
+28
+7
+10
+15
+2
+Details
+2024-25*
+2025-26
+Received 
+Resolved 
+Pending 
+Received 
+Resolved
+Pending
+A. Complaints
+Non-Receipt of Payment/ Securities
+36
+36
+1
+35
+32
+4
+Brokerage and Charges
+20
+18
+3
+20
+15
+8
+Service Related
+877
+868
+62
+613
+598
+77
+Others
+778
+744
+69
+831
+791
+109
+Total
+1,711
+1,666
+135
+1,499
+1,436
+198
+B. Arbitration Cases
+28
+21
+23
+21
+36
+8
+promote investor education. Apart from these
+Particulars
+As at end of
+common objectives, IPF of stock exchanges is also
+2024-25
+2025-26
+Investor Protection Funds of Stock Exchanges
+Particulars
+As at the end of
+a. Income from Investments
+ 209.1 
+ 246.8
+March 
+31, 2025
+March 
+31, 2026*
+b. Other Receipts
+ 453.1 
+ 399.5
+C. Utilisation/Expenses incurred from 
+the Fund (a+b+c)
+ 92.5 
+ 91.3
+Opening Balance (A)
+533.2
+761.5
+Additions to the Fund (B)
+231.0
+208.3
+a. Investor awareness and education
+ 34.1 
+ 48.1
+a. Income from Investments
+42.9
+67.7
+b. Other expenses
+ 22.9 
+ 20.0
+b. Other Receipts
+188.1
+140.6
+c. Payment to clients of defaulters
+ 35.5 
+ 23.1
+Utilisation of Fund (C)
+2.7
+4.7
+Net Balance (A+B-C)
+3,614.6 
+ 4,169.3
+Net Balance (D) = (A+B-C)
+761.5
+965.1
+Investor Protection Fund of Depositories
+Utilization of IPEF
+2024-25
+2025-26
+C. Utilisation/Expenses incurred from 
+the Fund
+ 21.6 
+ 32.52
+Investor Education
+ 2,25,48,060 
+2,25,92,307
+a. investor awareness and education
+ 21.5 
+ 32.5
+Seminar/Workshop
+ 23,49,330 
+1,43,06,592
+b. other expenses
+ 0.1 
+ 0.1
+Financial Literacy
+ 19,39,168 
+99,70,013
+Net Balance (A+B-C)
+156.4 
+ 183.0
+Committee Meeting
+ 27,020 
+17,527

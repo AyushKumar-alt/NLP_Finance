@@ -1,0 +1,18 @@
+rule_id,priority,pattern,description,example,expected_behavior,actual_behavior
+R01,100,"\b\d{1,3}(?:,\d{2,3})++(?:\.\d++)?\s*+(?:lakh\s+crore|trillion|billion|million|crore|lakh|thousand|bn|mn)\b","Indian-style grouped magnitude with a scale word (e.g. '1,25,000 crore', '5 lakh crore')","1,25,000 crore",kept as a single magnitude token,"1,25,000 crore"
+R02,99,"(?:\u20b9|US\s?\$|US\$|Rs\.?|rs\.?|INR|inr|USD|usd|\$|\u20ac|EUR|eur|GBP|gbp|\u00a3)\s*+\d++[\d,]*+(?:\.\d++)?\s*+(?:lakh\s+crore|trillion|billion|million|crore|lakh|bn|mn)?",currency-marked amount (symbol + number + optional scale word),"₹51,000 crore",kept whole - the currency symbol changes the meaning of the magnitude,"₹51,000 crore"
+R03,98,"\b\d++[\d,]*+(?:\.\d++)?\s*+(?:lakh\s+crore|trillion|billion|million|crore|lakh|thousand|bn|mn)\b",bare magnitude with an English/Indian scale word,2.5 billion,kept whole so the unit stays attached to the number,2.5 billion
+R04,97,"\b\d++[\d,]*+(?:\.\d++)?\s*+(?:per\s+cent|percent|pct\.?|basis\s+points?|bps)\b",percentage written out as words,7.4 per cent,kept whole,7.4 per cent
+R05,96,"[+-]?\d++[\d,]*+(?:\.\d++)?\s*+%","symbol percentage (sign, grouped digits, decimals)",7.4%,kept whole - see module docstring for the justification,7.4%
+R06,95,"\bFY\s*+\d{2,4}\s*+[-/\u2013\u2014]\s*+\d{2,4}+\b|\bFY\s*+\d{2,4}+\b|\b\d{4}\s*+[-/\u2013\u2014]\s*+\d{2,4}+\b",fiscal year / financial-year range with or without the 'FY' prefix,FY2025-26,kept whole - the fiscal year is the primary temporal index,FY2025-26
+R07,94,"\bQ[1-4]\s*+(?:FY\s*+\d{2,4}(?:\s*+[-/\u2013\u2014]\s*+\d{2,4}+)?|'?\d{2,4}(?:\s*+[-/\u2013]\s*+\d{2,4}+)?)?\b|\b[1-4](?:st|nd|rd|th)\s+quarter\b",fiscal quarter reference,Q1 FY26,kept whole,Q1 FY26
+R08,93,"\b\d{1,2}\s*+(?:of\s+)?(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept|Sep|Oct|Nov|Dec)[a-z]*\.?\s*+\d{4}+\b",day-month-year date (numeric day first),31 March 2026,kept whole,31 March 2026
+R09,92,"\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}+\b|\b\d{1,2}\s*/\s*\d{1,2}\s*/\s*\d{2,4}+\b|\b\d{4}\s*/\s*\d{2,4}+\b","month-year, day/month/year and year/slash-year forms",January 2026,kept whole,January 2026
+R10,91,"\b(?:[A-Za-z]\.){2,}+[A-Za-z]{1,6}+\b|\b[A-Za-z]{1,6}+\.(?:[A-Za-z]\.){1,}+[A-Za-z]{0,6}\b|\b[A-Za-z]{1,4}+\.(?:[A-Za-z]{1,4}+\.){1,3}+(?![\w])|\b[A-Za-z]\.[A-Za-z]{1,6}+\b","dotted abbreviation / qualification (e.g. 'B.Tech', 'M.Sc.', 'M. finance')",B.Tech,"kept whole - the dots are part of the abbreviation, not sentence punctuation",B.Tech
+R12,90.5,"\b[A-Za-z]{2,}+\s*+[-/\u2013]\s*+\d++[A-Za-z0-9\-]*+\b|\b[A-Z]{2,}+\d++[A-Za-z0-9\-]*+\b|\b[A-Za-z]+\d++[A-Za-z0-9]*+\b",alphanumeric code / coined term containing digits,COVID-19,kept whole,COVID-19
+R11,90,"\b[A-Z]{2,6}+\b","all-caps domain acronym (GDP, GVA, CPI, WPI, FDI, RBI, SEBI, IMF, NPA, GST)",GDP,kept as one acronym token,GDP
+R13,88,"\b[A-Za-z]{2,}+(?:[-/][A-Za-z]{2,}+)+\b","hyphenated or slashed economic term (year-on-year, repo-rate, mark-to-market, FDI/FPI)",year-on-year,kept whole - splitting it makes a domain query unmatchable,year-on-year
+R14,87,"[+-]?\d++[\d,]*+(?:\.\d++)?","plain number, including Indian digit grouping and decimals","1,25,000",kept whole - digit grouping is not a token boundary,"1,25,000"
+R15,86,\b[A-Za-z]+['\u2019](?:s|t|re|ve|ll|d|m)\b,English contraction,bank's,kept whole,bank's
+R16,85,[A-Za-z]+(?:['\u2019][A-Za-z]+)*+,ordinary alphabetic word,growth,emitted as a word token,growth
+R17,84,[^\sA-Za-z0-9],standalone punctuation or symbol (kept because the POS/NER experiments need it),.,emitted as a single punctuation token,.

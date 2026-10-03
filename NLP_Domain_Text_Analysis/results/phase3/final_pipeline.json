@@ -1,0 +1,97 @@
+{
+  "final_pipeline": "pipeline_b",
+  "final_pipeline_name": "Pipeline B - stemming then stopword removal",
+  "score": 0.827162,
+  "margin_over_runner_up": 0.041666,
+  "reason": "Pipeline B - stemming then stopword removal wins on the weighted score (0.8272 vs 0.7855, margin +0.0417). Decomposition: financial_expression_preservation 3048/3792 = 0.8038 x0.35 = 0.2813; domain_term_recall 101/101 = 1.0000 x0.25 = 0.2500; variant_collapse_rate 7/12 = 0.5833 x0.25 = 0.1458; query_answerability 15/15 = 1.0000 x0.15 = 0.1500. The two pipelines are equal on 3 of 4 criteria; the margin comes from variant_collapse_rate (7/12 = 0.5833 vs 5/12 = 0.4167, +0.1667 x0.25 = +0.0417).",
+  "criteria_weights": {
+    "financial_expression_preservation": 0.35,
+    "domain_term_recall": 0.25,
+    "variant_collapse_rate": 0.25,
+    "query_answerability": 0.15
+  },
+  "tie_breakers": [
+    "smaller index vocabulary",
+    "fewer index terms per posting",
+    "lexicographically first pipeline name"
+  ],
+  "excluded_from_score": [
+    "processing_time_seconds"
+  ],
+  "scores": {
+    "pipeline_a": {
+      "pipeline_name": "Pipeline A - domain-aware stopwords then lemmatization",
+      "total_score": 0.785496,
+      "criteria": {
+        "financial_expression_preservation": {
+          "rate": 0.803797,
+          "weight": 0.35,
+          "weighted": 0.281329,
+          "numerator": 3048,
+          "denominator": 3792
+        },
+        "domain_term_recall": {
+          "rate": 1.0,
+          "weight": 0.25,
+          "weighted": 0.25,
+          "numerator": 101,
+          "denominator": 101
+        },
+        "variant_collapse_rate": {
+          "rate": 0.416667,
+          "weight": 0.25,
+          "weighted": 0.104167,
+          "numerator": 5,
+          "denominator": 12
+        },
+        "query_answerability": {
+          "rate": 1.0,
+          "weight": 0.15,
+          "weighted": 0.15,
+          "numerator": 15,
+          "denominator": 15
+        }
+      },
+      "index_terms": 22552,
+      "total_postings": 186189,
+      "processing_time_seconds": 12.616
+    },
+    "pipeline_b": {
+      "pipeline_name": "Pipeline B - stemming then stopword removal",
+      "total_score": 0.827162,
+      "criteria": {
+        "financial_expression_preservation": {
+          "rate": 0.803797,
+          "weight": 0.35,
+          "weighted": 0.281329,
+          "numerator": 3048,
+          "denominator": 3792
+        },
+        "domain_term_recall": {
+          "rate": 1.0,
+          "weight": 0.25,
+          "weighted": 0.25,
+          "numerator": 101,
+          "denominator": 101
+        },
+        "variant_collapse_rate": {
+          "rate": 0.583333,
+          "weight": 0.25,
+          "weighted": 0.145833,
+          "numerator": 7,
+          "denominator": 12
+        },
+        "query_answerability": {
+          "rate": 1.0,
+          "weight": 0.15,
+          "weighted": 0.15,
+          "numerator": 15,
+          "denominator": 15
+        }
+      },
+      "index_terms": 21305,
+      "total_postings": 191817,
+      "processing_time_seconds": 21.636
+    }
+  }
+}

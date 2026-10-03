@@ -1,0 +1,94 @@
+# ==========================================================================
+# PHASE 4 CONFIGURATION - evaluation, relevance judgments, API and GUI feed
+# --------------------------------------------------------------------------
+# Phase 4 is a *consumer* of Phases 1-3. It never rewrites a Phase 1/2/3
+# artefact: it reads them, calls the existing Phase 3 retrieval engine, and
+# writes exclusively to output.results_dir (results/phase4).
+# ==========================================================================
+
+project:
+  title: "Domain-Specific Text Analysis and Retrieval System"
+  domain: "Financial / Economic documents"
+  phase: 4
+
+input:
+  phase3_config: "config/phase3_config.yaml"
+  phase3_results_dir: "results/phase3"
+  phase3_index: "results/phase3/inverted_index.json"
+  phase3_summary: "results/phase3/phase3_summary.json"
+  phase3_final_pipeline: "results/phase3/final_pipeline.json"
+  phase3_pipeline_comparison: "results/phase3/pipeline_comparison.csv"
+  phase3_query_registry: "results/phase3/query_registry.csv"
+  phase3_retrieval_results: "results/phase3/retrieval_results.csv"
+  phase1_validation: "results/phase1/validation_report.json"
+  phase1_document_statistics: "results/phase1/document_statistics.csv"
+  phase1_document_registry: "data/corpus/metadata/document_registry.csv"
+  phase1_source_registry: "data/corpus/metadata/source_registry.csv"
+  phase1_sections_index: "data/corpus/metadata/sections_index.csv"
+  phase2_summary: "results/phase2/phase2_summary.json"
+  phase2_validation: "results/phase2/phase2_validation_report.csv"
+
+# --------------------------------------------------------------------------
+# RELEVANCE JUDGMENTS
+# --------------------------------------------------------------------------
+# Labels are human judgments on a *pooled* candidate set, which is the standard
+# way relevance labels are produced for IR evaluation. The pool is the top-N
+# retrieved units per query; pool_depth is recorded in the artefact so the
+# boundedness of the resulting recall is visible rather than hidden.
+#
+# A label is NEVER derived from the ranker's own score: a metric computed from
+# the same similarity function it is meant to evaluate would not evaluate it.
+# --------------------------------------------------------------------------
+relevance:
+  pool_depth: 10
+  annotator: "single annotator: implementing author (Phase 4)"
+  judgment_method: "pooled manual judgment; rubric recorded per row in the notes column"
+  rubric: |
+    relevance = 1 when the content unit's own text substantively discusses the
+    query's concept in an economic or financial sense - it would be a useful
+    answer to "what does this corpus say about <query>".
+    relevance = 0 when the unit matches only lexically: a table cell, a passing
+    enumeration, a chart label, a boilerplate footer, a coincidental number, or a
+    mention that the unit itself does not develop.
+    A unit is judged on its own text, not on its rank or its score.
+  judgments_file: "results/phase4/relevance_judgments.csv"
+
+# --------------------------------------------------------------------------
+# EVALUATION
+# --------------------------------------------------------------------------
+evaluation:
+  # cut-offs for Precision@K and Recall@K
+  k_values: [5, 10]
+  # unit-level evaluation: Phase 3 indexes content units, so relevance is
+  # judged on content units. Document-level metrics are additionally reported
+  # as a secondary view, not as a substitute.
+  granularity: "content_unit"
+  include_document_granularity: true
+  average_precision: true
+  # The judge pool is the union of the pools of every query, so a unit that is
+  # unjudged for query q has not been declared non-relevant; it is excluded
+  # from that query's metric denominator and counted in `unjudged` instead.
+  unjudged_policy: "exclude_from_precision_denominator"   # exclude | count_as_not_relevant
+  pipelines: ["pipeline_b"]      # the Phase 3 selected pipeline is the primary one
+  compare_pipelines: true        # also evaluate the runner-up for Table J
+
+# --------------------------------------------------------------------------
+# OUTPUT
+# --------------------------------------------------------------------------
+output:
+  results_dir: "results/phase4"
+  log_dir: "logs"
+  log_file: "logs/phase4.log"
+  relevance_judgments_csv: "results/phase4/relevance_judgments.csv"
+  evaluation_results_csv: "results/phase4/evaluation_results.csv"
+  evaluation_summary_csv: "results/phase4/evaluation_summary.csv"
+  pipeline_final_comparison_csv: "results/phase4/pipeline_final_comparison.csv"
+  final_summary_csv: "results/phase4/final_summary.csv"
+  final_summary_json: "results/phase4/final_summary.json"
+  gui_summary_json: "results/phase4/gui_summary.json"
+  validation_report_csv: "results/phase4/validation_report.csv"
+  readme: "results/phase4/README.md"
+
+reproducibility:
+  random_seed: 42
+  deterministic_ordering: true

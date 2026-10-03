@@ -1,0 +1,40 @@
+Query Q10: GDP OR GVA
+Type: boolean_or (Either national accounts aggregate)
+Expected domain: economic
+Pipeline-normalized terms: GDP, GVA
+Matched terms: gdp, gva
+Missing terms: (none)
+Results: 50 content unit(s) in 10 document(s)
+Execution time: 406.587 ms
+
+   1. score=2.1505 D01 | p15 | 1.19 | D01_P015_SEC_1_19_PAR001
+      matched: gdp, gva
+      1.19. Regarding the industry, a concern is often raised about its declining share in GVA. The compression in manufacturing’s GVA share stems from relative price effects rather than reflecting a decline in...
+   2. score=2.1505 D05 | p14 | 5.25 | D05_P014_SEC_5_25_PAR001
+      matched: gdp, gva
+      5.25. Following the logic of GDP deflators, one could find the implicit price deflator for a sector as the ratio of its Nominal or Current price GVA to Real or Constant price GVA. It’s essentially a price index for...
+   3. score=2.1193 D01 | p9 | 1.8 | D01_P009_SEC_1_8_PAR002
+      matched: gdp, gva
+      ...nistry of Statistics and Programme Implementation (MoSPI). These estimates place the real GDP growth rate at 7.4 per cent and the GVA growth rate at 7.3 per cent, surpassing earlier projections by various agencies...
+   4. score=2.1193 D01 | p17 | 1.24 | D01_P017_SEC_1_24_PAR001
+      matched: gdp, gva
+      1.24. GVA in services grew by 9.3 per cent in H1 of FY26, exceeding the 7.0 per cent growth recorded in H1 of FY25 and the pre-pandemic average of 7.9 per cent (Chart I.18). This momentum gained further traction in...
+   5. score=2.1193 D01 | p9 | 1.8 | D01_T002
+      matched: gdp, gva
+      ...Services 6.9 9.9 7.2 9.9 Public Administration, Defence & Other Services 8.9 9.7 8.9 9.9 GVA at Basic Prices 6.2 7.9 6.4 7.3 Expenditure Components (Demand Side) Private Final Consumption Expenditure (PFCE) 7.3...
+   6. score=2.1193 D07 | p6 | 7.11 | D07_P006_SEC_7_11_PAR001
+      matched: gdp, gva
+      ...se conditions, the services sector in India gained momentum in H1 FY26, with its share in GDP rising to 53.6 per cent, higher than that in H1 FY25 and the pre-pandemic period (H1 FY16-H1 FY20) (Chart VII.5)....
+   7. score=2.1193 D08 | p17 | 8.35 | D08_P017_SEC_8_35_PAR001
+      matched: gdp, gva
+      ...extile industry, with a size of about USD 179 billion, contributes close to 2 per cent of GDP and accounts for about 11 per cent of the manufacturing GVA. India is the world's largest cultivator of cotton by...
+   8. score=1.2500 D02 | p41 | 2.56 | D02_P041_SEC_2_56_PAR003
+      matched: gdp
+      ...ry and World Bank’s world development indicators’ database, general government revenue to GDP ratios for OECD countries at middle-income per capita GDP levels (US$2,000-US$3,000 in current prices, comparable to...
+   9. score=1.1945 D02 | p4 | 2.7 | D02_P004_SEC_2_7_PAR001
+      matched: gdp
+      ...strong performance, with collections increasing from an average of about 2.4 per cent of GDP in the pre- pandemic period to around 3.3 per cent of GDP in the post-pandemic period. Even within the post-pandemic...
+  10. score=1.1747 D02 | p3 | 2.4 | D02_P003_SEC_2_4_PAR001
+      matched: gdp
+      2.4 Accordingly, the fiscal deficit declined from 9.2 per cent of GDP in FY21 to 4.8 per cent of GDP in FY25 [Provisional Accounts, (PA)] and is budgeted at 4.4 per cent of GDP in FY26 (Chart II.1). Over the same...
+  ... 40 further results in retrieval_results.csv

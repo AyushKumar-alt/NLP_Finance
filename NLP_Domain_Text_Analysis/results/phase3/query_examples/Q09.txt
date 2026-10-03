@@ -1,0 +1,40 @@
+Query Q09: banking AND credit
+Type: boolean_and (Banking sector with credit)
+Expected domain: banking
+Pipeline-normalized terms: banking, credit
+Matched terms: bank, credit
+Missing terms: (none)
+Results: 50 content unit(s) in 11 document(s)
+Execution time: 200.285 ms
+
+   1. score=2.2603 D18 | p2 | II | D18_P002_II_PAR001
+      matched: bank, credit
+      ▪ The RBI notes that credit growth of Scheduled Commercial Banks (SCBs) remained robust at 14.5% year-on-year during 2025–26, reflecting broad-based strengthening in credit demand across all major sectors of the...
+   2. score=2.2386 D06 | p17 | 6.24 | D06_P017_SEC_6_24_PAR001
+      matched: bank, credit
+      6.24 Ground Level Credit (GLC) disbursement stood at ₹28.69 lakh crore, which includes ₹15.93 lakh crore under short term loans and ₹12.77 lakh crore under term loans, surpassing the ₹27.5 lakh crore target in FY...
+   3. score=2.2258 D01 | p27 | 1.34 | D01_P027_SEC_1_34_PAR001
+      matched: bank, credit
+      1.34. While YoY growth of outstanding non-food credit stands at a reasonably stable rate of around 11.4 per cent as of November 2025 (Chart I.23), India’s commercial sector is tapping into alternative sources of...
+   4. score=2.2258 D06 | p17 | 6.23 | D06_P017_SEC_6_23_PAR001
+      matched: bank, credit
+      6.23 Access to institutional credit boosts agricultural productivity by enabling investment in quality inputs, mechanisation, irrigation, improved technologies, and climate-resilient practices, particularly for small...
+   5. score=2.2258 D08 | p33 | 8.61 | D08_P033_SEC_8_61_PAR001
+      matched: bank, credit
+      8.61. Despite expanding credit footprints and rising digital integration, access to formal credit remains a binding constraint for many micro-enterprises due to limited collateral and documentation readiness, as is...
+   6. score=2.2258 D08 | p37 | 8.66 | D08_P037_SEC_8_66_PAR003
+      matched: bank, credit
+      This expansion in credit availability has also been accompanied by a gradual shift towards formal financing channels, which is a welcome trend. The share of unincorporated manufacturing establishments accessing...
+   7. score=2.2113 D03 | p10 | 3.13 | D03_P010_SEC_3_13_PAR001
+      matched: bank, credit
+      ...ing the same period, broad money (M3) growth, including the impact of the merger of a non-bank with a bank (with effect from 1 July 2023), was 12.1 per cent, as compared with 9 per cent a year ago. This trend in...
+   8. score=2.2113 D03 | p14 | 3.24 | D03_P014_SEC_3_24_PAR001
+      matched: bank, credit
+      3.24 In FY26, a moderation in bank credit growth was observed across major sectors compared to the same period last year, though recent months have shown an uptick. As of 31 December 2025, the (YoY) growth in...
+   9. score=2.2113 D03 | p16 | 3.26 | D03_P016_SEC_3_26_PAR001
+      matched: bank, credit
+      3.26 While the YoY growth trend in credit for industry and services has demonstrated a moderate increase in FY26 thus far, within industry, the bank credit to the MSME sector continues to show momentum and remains...
+  10. score=2.2113 D03 | p17 | 3.31 | D03_P017_SEC_3_31_PAR001
+      matched: bank, credit
+      ...ase in the flow of financial resources to the commercial sector, bolstered by greater non-bank intermediation, has accompanied the slowdown in bank credit growth in early FY26. This trend indicates that non-bank...
+  ... 40 further results in retrieval_results.csv

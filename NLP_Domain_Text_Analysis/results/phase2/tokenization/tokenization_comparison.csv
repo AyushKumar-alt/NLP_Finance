@@ -1,0 +1,5 @@
+tokenizer,description,documents_processed,units_processed,sentences,total_tokens,unique_tokens,vocabulary_size,avg_tokens_per_document,avg_tokens_per_sentence,avg_tokens_per_unit,numeric_tokens,date_tokens,fiscal_year_tokens,percentage_tokens,currency_tokens,abbreviation_tokens,hyphenated_tokens,special_financial_tokens,execution_time_seconds
+nltk,NLTK word_tokenize (Treebank word tokenizer + Punkt sentence splitter),31,6005,15425,349891,27497,18080,11286.81,22.68,58.27,18823,6952,1675,361,1014,7477,6364,7505,3.156
+custom,Phase 2 financial rule-based tokenizer (17 ordered rules),31,6005,15425,346276,27422,18684,11170.19,22.45,57.66,18316,6179,1838,2170,1044,8105,5173,2805,2.392
+spacy,spaCy en_core_web_sm tokenizer,31,6005,15425,366035,25002,15942,11807.58,23.73,60.96,20819,7100,659,356,1034,7975,1062,7625,29.135
+hybrid,NLTK word_tokenize + domain protection/repair layer,31,6005,15425,344722,28112,19519,11120.06,22.35,57.41,18380,6618,1805,2258,1154,7401,6472,2558,6.014

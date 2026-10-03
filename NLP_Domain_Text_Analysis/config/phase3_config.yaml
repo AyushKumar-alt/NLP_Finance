@@ -1,0 +1,244 @@
+# ==========================================================================
+# PHASE 3 CONFIGURATION - pipeline comparison and retrieval subsystem
+# --------------------------------------------------------------------------
+# Phase 3 is a *consumer* of Phase 1 (structured corpus) and Phase 2 (NLP
+# experiment results). It never rewrites either phase's artefacts; everything
+# it produces lands under output.results_dir (results/phase3 by default).
+# ==========================================================================
+
+input:
+  corpus_jsonl: "data/corpus/structured/corpus.jsonl"
+  document_registry: "data/corpus/metadata/document_registry.csv"
+  source_registry: "data/corpus/metadata/source_registry.csv"
+  phase2_config: "config/phase2_config.yaml"
+
+  # Phase 2 results consumed as *evidence* and as shared metadata. Every path
+  # is checked at start-up; a missing file is reported, never invented.
+  phase2_results_dir: "results/phase2"
+  phase2_tokenization_comparison: "results/phase2/tokenization/tokenization_comparison.csv"
+  phase2_stopword_comparison: "results/phase2/preprocessing/stopword_comparison.csv"
+  phase2_stemming_comparison: "results/phase2/stemming/stemming_comparison.csv"
+  phase2_order_comparison: "results/phase2/stemming/stopword_stemming_order_comparison.csv"
+  phase2_lemmatization_comparison: "results/phase2/lemmatization/lemmatization_comparison.csv"
+  phase2_date_number_comparison: "results/phase2/tokenization/date_number_comparison.csv"
+  phase2_pos_comparison: "results/phase2/comparisons/pos_comparison.csv"
+  phase2_ngram_summary: "results/phase2/phase2_summary.json"
+  phase2_ngrams_dir: "results/phase2/ngrams"
+  phase2_domain_phrases: "results/phase2/ngrams/domain_phrases.csv"
+  phase2_ner_entities: "results/phase2/ner/ner_entities.csv"
+  phase2_domain_entities: "results/phase2/ner/custom_ner_results.csv"
+  phase2_validation_report: "results/phase2/phase2_validation_report.csv"
+
+# --------------------------------------------------------------------------
+# TEXT SELECTION - identical policy to Phase 2 so the pipeline comparison and
+# the index are computed on exactly the same text as the Phase 2 experiments.
+# --------------------------------------------------------------------------
+text_selection:
+  policy: "prose_tables"
+
+# --------------------------------------------------------------------------
+# FINANCIAL EXPRESSIONS THAT MUST SURVIVE TOKENIZATION
+# These are measured, never assumed: every entry is counted in the raw text and
+# again in the pipeline's index vocabulary to quantify preservation.
+# --------------------------------------------------------------------------
+financial_expressions:
+  percentage_pattern: "\\d+(?:\\.\\d+)?\\s*(?:%|per\\s*cent|percent)"
+  fiscal_year_pattern: "FY\\d{2,4}(?:-\\d{2,4})?|fiscal\\s+\\d{4}"
+  currency_pattern: "(?:Rs\\.?|INR|₹|US\\$|\\$)\\s*\\d[\\d,.]*"
+  reference_terms:
+    - "gdp"
+    - "gva"
+    - "cpi"
+    - "wpi"
+    - "fdi"
+    - "fpi"
+    - "rbi"
+    - "sebi"
+    - "imf"
+    - "repo rate"
+    - "policy rate"
+    - "monetary policy"
+    - "fiscal policy"
+    - "financial stability"
+    - "current account deficit"
+    - "capital expenditure"
+    - "economic growth"
+    - "banking"
+    - "investment"
+    - "financial institutions"
+
+# --------------------------------------------------------------------------
+# MORPHOLOGICAL VARIANT GROUPS
+# Used to measure variant collapse: a pipeline is better for retrieval when all
+# surface forms of a group map onto one index term (so a query for one form
+# finds the others).
+# --------------------------------------------------------------------------
+variant_groups:
+  - ["inflation", "inflationary", "inflated"]
+  - ["investment", "investments", "investor", "investors", "invest"]
+  - ["growth", "growing", "grew"]
+  - ["stability", "stable", "stabilise", "stabilise", "stabilised"]
+  - ["expenditure", "expenditures"]
+  - ["deficit", "deficits"]
+  - ["lending", "lender", "lenders", "loans", "loan"]
+  - ["payment", "payments"]
+  - ["savings", "saving"]
+  - ["investment", "invest"]
+  - ["export", "exports", "exported"]
+  - ["import", "imports", "imported"]
+
+# --------------------------------------------------------------------------
+# DOMAIN TERM PRESERVATION MEASUREMENT
+# --------------------------------------------------------------------------
+domain_preservation:
+  # A domain term counts as retrievable when it exists as an index term, i.e.
+  # its normalised form survived the whole pipeline.
+  source: "phase2_domain_vocabulary"   # phase2_domain_vocabulary | config_list
+  config_terms: []
+
+# --------------------------------------------------------------------------
+# N-GRAMS
+# --------------------------------------------------------------------------
+ngrams:
+  sizes: [2, 3]
+  min_frequency: 5
+  max_indexed_phrases: 20000
+  join_with: "_"
+  filter_all_punctuation: true
+
+# --------------------------------------------------------------------------
+# PIPELINE A - stopwords first, then lemmatization
+# --------------------------------------------------------------------------
+pipeline_a:
+  name: "Pipeline A - domain-aware stopwords then lemmatization"
+  tokenizer: "hybrid"                       # Phase 2 hybrid_tokenize
+  date_number_strategy: "typed_protect"     # Phase 2 date_number_tokenizer
+  stopword_strategy: "domain_aware"         # Phase 2 stopwords.build_strategies
+  morphology: "lemmatize"                   # Phase 2 lemmatization.lemmatize_view
+  morphology_algorithm: "wordnet_lookup_pos_agnostic"
+  # order decides the sequence of morphology and stopword removal
+  order: ["tokenize", "date_number", "stopwords", "morphology", "pos", "ner", "ngrams"]
+  pos_strategy: "phase2_evidence"           # spaCy tags measured in Phase 2 (V12/V13)
+  ner_strategy: "phase2_consumed"           # Phase 2 ner_entities.csv + custom_ner_results.csv
+  ngram_max: 5
+  index_representation: "lemma_terms_with_positions"
+  notes: >-
+    Baseline order recommended by the assignment; the Phase 2 order experiment
+    (stopword_removal_then_stemming vs stemming_then_stopword_removal) is the
+    evidence for putting stopword removal before morphology.
+
+# --------------------------------------------------------------------------
+# PIPELINE B - morphology first (stemming), then stopword removal
+# --------------------------------------------------------------------------
+pipeline_b:
+  name: "Pipeline B - stemming then stopword removal"
+  tokenizer: "hybrid"
+  date_number_strategy: "typed_protect"
+  stopword_strategy: "standard_english"
+  morphology: "stem"
+  morphology_algorithm: "porter"
+  order: ["tokenize", "date_number", "morphology", "stopwords", "pos", "ner", "ngrams"]
+  pos_strategy: "phase2_evidence"
+  ner_strategy: "phase2_consumed"
+  ngram_max: 5
+  index_representation: "stem_terms_with_positions"
+  notes: >-
+    Tests the effect of changing the processing order: morphology is applied
+    first, so stopword matching happens on stems.
+
+# --------------------------------------------------------------------------
+# FINAL PIPELINE SELECTION
+# Deterministic and declared before the measurements are taken. Timing is
+# measured and reported but deliberately excluded from the score.
+# --------------------------------------------------------------------------
+selection:
+  criteria:
+    financial_expression_preservation: 0.35   # higher is better
+    domain_term_recall: 0.25                  # higher is better
+    variant_collapse_rate: 0.25               # higher is better
+    query_answerability: 0.15                  # higher is better (queries returning >=1 result)
+  tie_breakers:
+    - "smaller index vocabulary"
+    - "fewer index terms per posting"
+    - "lexicographically first pipeline name"
+  exclude_from_score:
+    - "processing_time_seconds"
+
+# --------------------------------------------------------------------------
+# RETRIEVAL ENGINE
+# --------------------------------------------------------------------------
+retrieval:
+  index_unit: "content_unit"
+  case_sensitive: false
+  lowercase_terms: true
+  enable_positions: true
+  enable_phrase_search: true
+  enable_boolean: true
+  boolean_not_form: "A AND NOT B"          # unrestricted NOT is refused
+  enable_parentheses: true
+  snippet_chars: 220
+  snippet_context_chars: 90
+  max_results_per_query: 50
+  ranking:
+    # deterministic, documented score
+    term_weight: 1.0
+    phrase_bonus: 2.0
+    tf_log_weight: 0.25
+    document_id_bonus: 0.0
+    tie_break: "unit_id ascending"
+  export_positional_index: true
+  top_terms_to_report: 25
+
+# --------------------------------------------------------------------------
+# DOMAIN QUERY SET (15 queries; vocabulary verified against the corpus at run
+# time and recorded in query_registry.csv)
+# --------------------------------------------------------------------------
+queries:
+  - {id: "Q01", query: "inflation", type: "keyword", description: "Single economic indicator", expected_domain: "economic", terms: ["inflation"]}
+  - {id: "Q02", query: "GDP", type: "keyword", description: "Gross domestic product acronym", expected_domain: "economic", terms: ["gdp"]}
+  - {id: "Q03", query: "FDI", type: "keyword", description: "Foreign direct investment flow", expected_domain: "economic", terms: ["fdi"]}
+  - {id: "Q04", query: "monetary policy", type: "phrase", description: "Ordered two-word policy phrase", expected_domain: "economic", terms: ["monetary", "policy"]}
+  - {id: "Q05", query: "financial stability", type: "phrase", description: "Ordered two-word stability phrase", expected_domain: "financial_stability", terms: ["financial", "stability"]}
+  - {id: "Q06", query: "current account deficit", type: "phrase", description: "Ordered three-word external sector phrase", expected_domain: "economic", terms: ["current", "account", "deficit"]}
+  - {id: "Q07", query: "GDP AND inflation", type: "boolean_and", description: "Both terms in the same content unit", expected_domain: "economic", terms: ["gdp", "inflation"]}
+  - {id: "Q08", query: "RBI AND \"repo rate\"", type: "boolean_and", description: "Central bank and its policy instrument", expected_domain: "regulator", terms: ["rbi", "repo rate"]}
+  - {id: "Q09", query: "banking AND credit", type: "boolean_and", description: "Banking sector with credit", expected_domain: "banking", terms: ["banking", "credit"]}
+  - {id: "Q10", query: "GDP OR GVA", type: "boolean_or", description: "Either national accounts aggregate", expected_domain: "economic", terms: ["gdp", "gva"]}
+  - {id: "Q11", query: "inflation OR disinflation", type: "boolean_or", description: "Price movement alternatives", expected_domain: "economic", terms: ["inflation", "disinflation"]}
+  - {id: "Q12", query: "inflation AND NOT food", type: "boolean_not", description: "Inflation excluding food-price passages", expected_domain: "economic", terms: ["inflation"], excluded: ["food"]}
+  - {id: "Q13", query: "banking AND NOT insurance", type: "boolean_not", description: "Banking passages without insurance", expected_domain: "banking", terms: ["banking"], excluded: ["insurance"]}
+  - {id: "Q14", query: "GDP AND investment", type: "boolean_and", description: "Growth aggregate with investment", expected_domain: "economic", terms: ["gdp", "investment"]}
+  - {id: "Q15", query: "(GDP OR GVA) AND policy", type: "boolean_group", description: "Grouped OR inside AND", expected_domain: "economic", terms: ["gdp", "gva", "policy"]}
+
+# --------------------------------------------------------------------------
+# OUTPUT
+# --------------------------------------------------------------------------
+output:
+  root: "."
+  results_dir: "results/phase3"
+  log_dir: "logs"
+  log_file: "logs/phase3.log"
+  pipeline_comparison_csv: "results/phase3/pipeline_comparison.csv"
+  pipeline_comparison_md: "results/phase3/pipeline_comparison.md"
+  final_pipeline_json: "results/phase3/final_pipeline.json"
+  final_pipeline_md: "results/phase3/final_pipeline.md"
+  inverted_index_json: "results/phase3/inverted_index.json"
+  index_statistics_csv: "results/phase3/index_statistics.csv"
+  index_manifest_json: "results/phase3/index_manifest.json"
+  query_registry_csv: "results/phase3/query_registry.csv"
+  retrieval_results_csv: "results/phase3/retrieval_results.csv"
+  retrieval_summary_csv: "results/phase3/retrieval_summary.csv"
+  document_results_csv: "results/phase3/document_results.csv"
+  query_examples_dir: "results/phase3/query_examples"
+  validation_report_csv: "results/phase3/validation_report.csv"
+  summary_json: "results/phase3/phase3_summary.json"
+  readme: "results/phase3/README.md"
+
+# --------------------------------------------------------------------------
+run:
+  encoding: "utf-8"
+  strict_input_check: true
+
+reproducibility:
+  random_seed: 42
+  deterministic_ordering: true

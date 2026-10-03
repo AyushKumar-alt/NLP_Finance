@@ -1,0 +1,408 @@
+# ==========================================================================
+# Phase 2 configuration - Domain-Specific Text Analysis & Retrieval System
+# Domain: Financial / Economic Documents
+#
+# This file is the ONLY place where Phase 2 filesystem paths and
+# experimental policies are declared. Nothing is hard-coded in the code.
+# ==========================================================================
+
+run:
+  project_name: "NLP_Domain_Text_Analysis"
+  phase: "phase2"
+  encoding: "utf-8"
+  # Phase 1 must never be modified by Phase 2.
+  read_only_phase1: true
+  clean_phase2_output_before_write: true
+  # 0 = full policy-selected corpus; set >0 only for smoke tests
+  debug_sample_limit_units: 0
+
+# --------------------------------------------------------------------------
+# 1. INPUT (Phase 1 structured corpus - consumed, never rewritten)
+# --------------------------------------------------------------------------
+input:
+  corpus_jsonl: "data/corpus/structured/corpus.jsonl"
+  document_registry: "data/corpus/metadata/document_registry.csv"
+  source_registry: "data/corpus/metadata/source_registry.csv"
+  unit_registry: "data/corpus/metadata/unit_registry.csv"
+  baseline_term_dictionary: "data/corpus/metadata/baseline_term_dictionary.csv"
+  source_pdfs_dir: "data/source_pdfs"
+  expected_unit_types:
+    - paragraph
+    - table
+    - figure
+    - heading
+    - footnote
+    - reference
+    - box
+    - other
+
+# --------------------------------------------------------------------------
+# 2. TEXT SELECTION POLICY
+#    Unit types that feed the NLP experiments. Exactly one policy is active
+#    per run and it is stamped onto every artefact.
+# --------------------------------------------------------------------------
+text_selection:
+  active_policy: "prose_tables"
+  policies:
+    prose_only: ["paragraph", "reference", "box"]
+    prose_tables: ["paragraph", "reference", "box", "table"]
+    all_textual: ["paragraph", "reference", "box", "table", "heading", "footnote", "figure", "other"]
+  min_unit_characters: 1
+  # Phase 1 sometimes emits U+FFFD where a publisher glyph could not be mapped.
+  # It is kept in the text but is treated as a separator by every tokenizer.
+  replacement_char_handling: "separator"
+
+# --------------------------------------------------------------------------
+# 3. LANGUAGE / TOOLING
+# --------------------------------------------------------------------------
+language:
+  code: "en"
+  spacy_model: "en_core_web_sm"
+  nltk_punkt_resource: "tokenizers/punkt_tab"
+  # NLTK corpora (wordnet / averaged_perceptron_tagger / stopwords) could not be
+  # downloaded in this environment. The fallbacks below are real, versioned
+  # library resources, and whichever one is used is written into the report.
+  nltk_wordnet_available: false
+  nltk_stopwords_available: false
+  nltk_tagger_available: false
+  wordnet_fallback: "spacy_lookups_data.en.lemma_lookup"
+  stopword_fallbacks:
+    - "nltk.corpus.stopwords"
+    - "spacy.lang.en.stop_words.STOP_WORDS"
+    - "sklearn.feature_extraction.text.ENGLISH_STOP_WORDS"
+  lemmatization_fallback: "lemminflect"
+
+# --------------------------------------------------------------------------
+# 4. TOKENIZATION
+# --------------------------------------------------------------------------
+tokenization:
+  nltk:
+    method: "word_tokenize"          # TreebankWordTokenizer behind the scenes
+    keep_punctuation: true
+  spacy:
+    method: "nlp.tokenizer"
+    batch_size: 128
+    # units longer than this are split on whitespace before the spaCy pass, so
+    # a single very long table unit cannot exhaust memory inside the parser
+    max_chars_per_chunk: 20000
+  custom:
+    # Rules live in src/phase2/custom_tokenizer.py (RULES table) and are dumped
+    # to results/phase2/tokenization/custom_tokenizer_rules.csv.
+    keep_single_symbol_tokens: false
+    lowercase: false
+  hybrid:
+    # standard tokenizer + domain pre-segmentation
+    base: "nltk_word_tokenize"
+    pre_split_custom: true
+    post_split_custom: true
+  example_sample_size: 12
+  common_manifest_max_rows_per_experiment: 0   # 0 = no cap
+
+# --------------------------------------------------------------------------
+# 5. DATE / NUMBER AWARE TOKENIZATION
+# --------------------------------------------------------------------------
+date_number:
+  detect_fiscal_years: true
+  detect_percentages: true
+  detect_currency: true
+  fiscal_year_patterns_are_domain_rules: true
+  example_sample_size: 14
+
+# --------------------------------------------------------------------------
+# 6. STOPWORDS
+# --------------------------------------------------------------------------
+stopwords:
+  strategies:
+    - "none"
+    - "standard_english"
+    - "domain_aware"
+  # Terms that carry retrieval signal in financial/economic documents and are
+  # therefore protected by the domain-aware strategy. The list is validated
+  # against the actual corpus: only terms that really occur are reported as
+  # "preserved/removed" evidence.
+  protected_financial_terms:
+    - "may"
+    - "can"
+    - "will"
+    - "shall"
+    - "rate"
+    - "rates"
+    - "growth"
+    - "policy"
+    - "policies"
+    - "bank"
+    - "banks"
+    - "banking"
+    - "market"
+    - "markets"
+    - "economy"
+    - "economic"
+    - "income"
+    - "price"
+    - "prices"
+    - "demand"
+    - "supply"
+    - "tax"
+    - "taxes"
+    - "debt"
+    - "investment"
+    - "investments"
+    - "sector"
+    - "sectors"
+    - "risk"
+    - "risks"
+    - "return"
+    - "returns"
+    - "credit"
+    - "capital"
+    - "market"
+    - "trade"
+    - "exports"
+    - "imports"
+    - "financial"
+    - "finance"
+    - "budget"
+    - "inflation"
+    - "fiscal"
+    - "monetary"
+  # Function words the domain-aware list adds on top of the standard list
+  # (removed by the domain strategy, kept by the standard strategy).
+  domain_function_words:
+    - "thereof"
+    - "namely"
+    - "moreover"
+    - "furthermore"
+    - "hence"
+    - "thus"
+    - "whereas"
+    - "notwithstanding"
+    - "respectively"
+    - "per"
+    - "within"
+    - "upon"
+    - "shall"
+    - "must"
+    - "may"
+    - "would"
+    - "could"
+  top_terms_to_report: 25
+
+# --------------------------------------------------------------------------
+# 7. STEMMING
+# --------------------------------------------------------------------------
+stemming:
+  algorithms:
+    - "porter"
+    - "snowball_english"
+    - "lancaster"
+  nltk_classic_mode: false
+  # Words explicitly inspected for over/under-stemming behaviour.
+  probe_words:
+    - banking
+    - banks
+    - banked
+    - inflation
+    - inflating
+    - economic
+    - economics
+    - economy
+    - growth
+    - growing
+    - investment
+    - invested
+    - investments
+    - regulation
+    - regulated
+    - lending
+    - loans
+    - liquidity
+    - securities
+    - exports
+    - productivity
+    - inflation
+    - disinflation
+  order_experiment_pipelines:
+    - "stopword_then_stem"
+    - "stem_then_stopword"
+
+# --------------------------------------------------------------------------
+# 8. LEMMATIZATION
+# --------------------------------------------------------------------------
+lemmatization:
+  methods:
+    - "wordnet_lookup_pos_agnostic"   # WordNet table, noun-first fallback
+    - "wordnet_lookup_pos_aware"      # same table, driven by spaCy POS
+    - "spacy_rule_based"
+    - "lemminflect_rulebased"
+  probe_words:
+    - inflation
+    - inflating
+    - investments
+    - invested
+    - banks
+    - banking
+    - economic
+    - economies
+    - regulatory
+    - regulated
+    - markets
+    - prices
+    - growth
+  pos_dependency_documented: true
+
+# --------------------------------------------------------------------------
+# 9. POS TAGGING
+# --------------------------------------------------------------------------
+pos:
+  default:
+    engine: "spacy"
+    use_attr: "tag_"
+  custom_rules:
+    # The dictionary itself is *derived from observed corpus behaviour* in
+    # custom_pos.py; these entries are only the candidate investigation seeds.
+    candidate_terms:
+      - repo
+      - refinancing
+      - disinflation
+      - demonetisation
+      - securitisation
+      - GDP
+      - GVA
+      - CPI
+      - WPI
+      - FDI
+      - benchmark
+      - repo-rate
+      - policy-rate
+    min_evidence_occurrences: 3
+    max_dictionary_size: 60
+  ml:
+    classifier: "sklearn.svm.SGDClassifier(loss=log_loss)"
+    random_seed: 42
+    test_size: 0.30
+    features:
+      - token
+      - lower
+      - prefix1
+      - prefix2
+      - prefix3
+      - suffix1
+      - suffix2
+      - suffix3
+      - shape
+      - prev_lower
+      - next_lower
+      - is_numeric
+      - contains_digit
+      - contains_percentage
+      - contains_currency
+      - is_capitalised
+      - is_all_caps
+    annotation:
+      # Gold labels below are produced by an explicit annotation protocol
+      # documented in src/phase2/ml_pos.py and stored in data/phase2/.
+      # Auto-generated spaCy labels are NEVER treated as ground truth.
+      gold_file: "data/phase2/annotations/pos_gold_annotations.csv"
+      silver_file: "data/phase2/annotations/pos_silver_annotations.csv"
+
+# --------------------------------------------------------------------------
+# 10. NER
+# --------------------------------------------------------------------------
+ner:
+  engine: "spacy"
+  entity_types_investigated: ["PERSON", "ORG", "GPE", "DATE", "MONEY", "PRODUCT", "EVENT"]
+  spaCy_labels_reported: true
+  max_entities_written: 50000
+  max_context_chars: 160
+  domain_dictionary:
+    file: "results/phase2/ner/domain_entity_dictionary.csv"
+    categories:
+      - FINANCIAL_INSTITUTION
+      - ECONOMIC_INDICATOR
+      - FINANCIAL_INSTRUMENT
+      - POLICY_TERM
+      - COUNTRY_OR_REGION
+      - GOVERNMENT_BODY
+      - REGULATORY_BODY
+      - ECONOMIC_EVENT
+  error_analysis:
+    # The reviewed subset is annotated explicitly (see ner.py) and persisted so
+    # every precision/recall number can be recomputed.
+    reviewed_file: "data/phase2/annotations/ner_reviewed_annotations.csv"
+
+# --------------------------------------------------------------------------
+# 11. N-GRAMS
+# --------------------------------------------------------------------------
+ngrams:
+  sizes: [1, 2, 3, 4, 5]
+  lowercase: true
+  tokens_for_ngrams: "hybrid"        # see tokenization.hybrid
+  apply_stopwords: false
+  top_n_written: 25
+  full_vocabulary_written_top: 5000  # per-n file size control
+  document_frequency_granularity: "document"
+  domain_phrase_min_frequency: 5
+  domain_phrase_min_documents: 3
+  domain_phrase_max_n: 4
+  phrase_filter_blocklist_ratio: 0.85  # drop phrases that are mostly function words
+  compare_with_and_without_stopwords: true
+
+# --------------------------------------------------------------------------
+# 12. BPE
+# --------------------------------------------------------------------------
+bpe:
+  library: "huggingface tokenizers ByteLevelBPETokenizer"
+  vocab_size: 8000
+  min_frequency: 2
+  training_corpus: "all_selected_units"   # or "train_split"
+  train_split_document_ratio: 0.20
+  special_tokens: ["<unk>", "<pad>"]
+  lowercase: false
+  probe_words:
+    common: ["the", "growth", "market", "investment", "government"]
+    financial: ["inflation", "disinflation", "securitisation", "demonetisation",
+                "refinancing", "macroeconomic", "unemployment", "capitalisation",
+                "financialisation", "repo", "repo-rate", "fiscal"]
+    abbreviations: ["GDP", "GVA", "CPI", "WPI", "FDI", "RBI", "SEBI", "IMF"]
+    numbers: ["7.4%", "1,25,000", "FY2025-26", "2024-25"]
+  max_examples_written: 200
+  persist_trained_tokenizer: true
+
+# --------------------------------------------------------------------------
+# 13. OUTPUT DIRECTORIES
+# --------------------------------------------------------------------------
+output:
+  root: "."
+  results_dir: "results/phase2"
+  tokenization_dir: "results/phase2/tokenization"
+  preprocessing_dir: "results/phase2/preprocessing"
+  stemming_dir: "results/phase2/stemming"
+  lemmatization_dir: "results/phase2/lemmatization"
+  pos_dir: "results/phase2/pos"
+  ner_dir: "results/phase2/ner"
+  ngrams_dir: "results/phase2/ngrams"
+  bpe_dir: "results/phase2/bpe"
+  comparisons_dir: "results/phase2/comparisons"
+  summaries_dir: "results/phase2/summaries"
+  figures_dir: "results/phase2/figures"
+  annotations_dir: "data/phase2/annotations"
+  bpe_model_dir: "results/phase2/bpe/tokenizer_model"
+  log_dir: "logs"
+  log_file: "logs/phase2.log"
+  summary_csv: "results/phase2/phase2_summary.csv"
+  summary_json: "results/phase2/phase2_summary.json"
+  validation_report: "results/phase2/phase2_validation_report.csv"
+  readme: "results/phase2/README.md"
+  methodology: "results/phase2/summaries/phase2_methodology_justification.md"
+
+# --------------------------------------------------------------------------
+# 14. REPRODUCIBILITY
+# --------------------------------------------------------------------------
+reproducibility:
+  random_seed: 42
+  deterministic_sorting: true
+  python_hash_seed_note: "sorted() is used everywhere; no set-iteration order leaks into output"
+  charts:
+    dpi: 140
+    format: "png"
+    style: "seaborn-v0_8-whitegrid"

@@ -1,0 +1,38 @@
+metric,value,detail
+vocabulary_size,8000,size of the trained BPE vocabulary (includes special tokens)
+merge_operations,7998,vocabulary entries beyond the special tokens; each corresponds to one learned merge
+training_units,6005,corpus units used for training (policy 'prose_tables')
+corpus_token_count,469401,tokens produced by BPE over the whole experiment sample
+corpus_characters,2084810,characters in the experiment sample (compression reference)
+bytes_per_token,4.441,characters per BPE token
+observed_word_types,25186,distinct whitespace word types in the sample (pre-tokenization reference)
+out_of_vocabulary_words,0,byte-level BPE has no OOV: every byte sequence is representable
+subword_tokens[common],1,the -> the
+subword_tokens[common],1,growth -> growth
+subword_tokens[common],1,market -> market
+subword_tokens[common],1,investment -> investment
+subword_tokens[common],1,government -> government
+subword_tokens[financial],1,inflation -> inflation
+subword_tokens[financial],2,disinflation -> dis + inflation
+subword_tokens[financial],4,securitisation -> s + ecur + iti + sation
+subword_tokens[financial],5,demonetisation -> d + em + on + eti + sation
+subword_tokens[financial],3,refinancing -> re + fin + ancing
+subword_tokens[financial],3,macroeconomic -> m + acro + economic
+subword_tokens[financial],2,unemployment -> un + employment
+subword_tokens[financial],3,capitalisation -> cap + ital + isation
+subword_tokens[financial],2,financialisation -> financial + isation
+subword_tokens[financial],2,repo -> rep + o
+subword_tokens[financial],4,repo-rate -> rep + o + - + rate
+subword_tokens[financial],2,fiscal -> f + iscal
+subword_tokens[abbreviation],1,GDP -> GDP
+subword_tokens[abbreviation],2,GVA -> G + VA
+subword_tokens[abbreviation],2,CPI -> C + PI
+subword_tokens[abbreviation],2,WPI -> W + PI
+subword_tokens[abbreviation],2,FDI -> F + DI
+subword_tokens[abbreviation],2,RBI -> R + BI
+subword_tokens[abbreviation],1,SEBI -> SEBI
+subword_tokens[abbreviation],2,IMF -> I + MF
+subword_tokens[number_date],4,7.4% -> 7 + . + 4 + %
+subword_tokens[number_date],5,"1,25,000 -> 1 + , + 25 + , + 000"
+subword_tokens[number_date],4,FY2025-26 -> FY + 2025 + - + 26
+subword_tokens[number_date],3,2024-25 -> 2024 + - + 25

@@ -1,0 +1,100 @@
+i. Separate email IDs and website sections for grievances and disclosures related to non-SEBI regulated instruments.
+A. Measures for Ease of Doing Business: The regulatory framework for ESG Rating Providers (ERPs) is part of the SEBI (Credit Rating Agencies) Regulations, 1999. Accordingly, the following amendments were made to the SEBI (Credit Rating Agencies) Regulations, 1999 to facilitate the objective of ease of doing business for ERPs:
+ii. All rating reports and marketing materials were required to explicitly state the applicable regulator and clarify that SEBI’s investor protection framework does not apply to those specific instruments.
+iii. To ensure that minimum net worth requirements prescribed by SEBI were strictly maintained; any additional capital requirements from other regulators has to be met independently.
+i. ERPs operating on a subscriber-pays model were permitted to share rating reports with both the subscriber and the issuer simultaneously, rather than being required to share a draft in advance.
+C. Rating of Municipal Bonds: To address the need for a more comprehensive assessment of municipal bonds issued for infrastructure development, SEBI determined that Expected Loss (EL) ratings could better reflect the recovery prospects of these project-based
+ii. ERPs were permitted to rate products/ issuers under the guidelines of other financial regulators, provided the governing authority is explicitly disclosed on their website and all specific laws are adhered to.
+Credit rating agencies (CRAs) are critical intermediaries that bridge the information asymmetry between issuers and investors by simplifying complex credit profiles into standardized ratings. This ensures efficient capital allocation and accurate risk pricing across the credit spectrum. Given their systemic importance in shaping investment decisions, SEBI’s policy initiatives during 2025-26 have focused on enhancing ease of doing business, refining rating methodologies and improving disclosure standards to foster greater transparency and standardization within the industry. This chapter outlines policy measures taken by SEBI to strengthen the credit rating ecosystem and market activity and trends observed in credit rating ecosystem during 2025-26.
+iii. Subscriber-pays ERPs were permitted to withdraw ratings if there are no active subscribers (unless part of a package like Nifty 50), while Issuer-pays ERPs can withdraw after three years or upon reaching 50 per cent of the security’s tenure with the consent of bondholders.
+B. Credit Rating under other Financial Sector Regulators: CRAs were permitted to undertake the ratings of financial instruments under the purview of other financial sector regulators. However, CRAs were required to clearly ring- fence SEBI-regulated activities from non- SEBI regulated activities. The conditions for segregation of non-SEBI activities were as follows:
+instruments when used alongside standard probability of default ratings. In view of the same, CRAs were permitted to extend the EL based rating scale to municipal bonds, in addition to the existing standardised rating scale.
+As on March 31, 2026, the total number of outstanding ratings across all CRAs stood at 1,942. Of these, 88.4 per cent were rated above investment grade (BBB and above) – a marginal increase from 85.8 per cent as on March 31, 2025 (Chart 7.2). The highest concentration of ratings was in the AA category.
+back from non-investment to investment – happened on same day. These instances were not driven by credit deterioration, but by operational delays in transferring the required amount to escrow account on the due date as per the regulatory mandate.
+year (Chart 7.4). Specifically, downgrades from
+investment to non-investment grade fell from 19
+to 17 while downgrades within investment or non-
+investment categories declined from 80 to 67.
+Among the CRAs, CARE and India Ratings reported
+the highest number of downgrades (20), followed by
+During 2025-26, the total number of rating downgrades declined to 84 from 99 in the previous
+CRISIL (14) and ICRA (12).
+CRAs
+Year
+Total Defaults
+Defaults from 
+Non-investment Grade
+Defaults from Investment 
+Grade
+Acuite 
+2024-25
+5
+2
+3
+2025-26
+-
+-
+-
+Brickworks 
+2024-25
+1
+1
+-
+2025-26
+-
+-
+-
+CARE 
+2024-25
+4
+2
+2
+2025-26
+3
+3
+-
+CRISIL 
+2024-25
+2
+1
+1
+2025-26
+2
+-
+2
+ICRA 
+2024-25
+3
+-
+3
+2025-26
+2
+2
+-
+India Ratings
+2024-25
+3
+1
+2
+2025-26
+2
+1
+1
+Infomerics 
+2024-25
+4
+4
+-
+2025-26
+2
+2
+-
+Total
+2024-25
+22
+11
+11
+2025-26
+11
+8
+3

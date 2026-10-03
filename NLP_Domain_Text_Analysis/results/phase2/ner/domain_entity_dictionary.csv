@@ -1,0 +1,185 @@
+term,domain_category,token_length,corpus_mentions,documents_mentioned,general_ner_equivalent_labels,justification
+India,COUNTRY_OR_REGION,1,1347,1347,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+SEBI,FINANCIAL_INSTITUTION,1,845,845,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+GDP,ECONOMIC_INDICATOR,1,192,192,none,"a measured quantity, not a named entity; no general NER label exists for it"
+equity,FINANCIAL_INSTRUMENT,1,132,132,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+inflation,ECONOMIC_INDICATOR,1,117,117,none,"a measured quantity, not a named entity; no general NER label exists for it"
+pandemic,ECONOMIC_EVENT,1,106,106,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+RBI,FINANCIAL_INSTITUTION,1,97,97,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+FDI,ECONOMIC_INDICATOR,1,86,86,none,"a measured quantity, not a named entity; no general NER label exists for it"
+GST,POLICY_TERM,1,67,67,none,"a policy concept or facility, not a named entity; invisible to general NER"
+World,COUNTRY_OR_REGION,1,67,67,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+derivatives,FINANCIAL_INSTRUMENT,1,67,67,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+FPI,ECONOMIC_INDICATOR,1,62,62,none,"a measured quantity, not a named entity; no general NER label exists for it"
+China,COUNTRY_OR_REGION,1,49,49,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+options,FINANCIAL_INSTRUMENT,1,47,47,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+capital expenditure,POLICY_TERM,2,42,42,none,"a policy concept or facility, not a named entity; invisible to general NER"
+financial inclusion,POLICY_TERM,2,36,36,none,"a policy concept or facility, not a named entity; invisible to general NER"
+United States,COUNTRY_OR_REGION,2,34,34,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+loan,FINANCIAL_INSTRUMENT,1,34,34,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+Japan,COUNTRY_OR_REGION,1,33,33,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+mutual fund,FINANCIAL_INSTRUMENT,2,33,33,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+GVA,ECONOMIC_INDICATOR,1,30,30,none,"a measured quantity, not a named entity; no general NER label exists for it"
+Supreme Court,REGULATORY_BODY,2,29,29,GPE;ORG,the body that issues the rules; general NER usually ORG but often missed when abbreviated
+Germany,COUNTRY_OR_REGION,1,26,26,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+corporate bond,FINANCIAL_INSTRUMENT,2,26,26,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+futures,FINANCIAL_INSTRUMENT,1,26,26,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+GDP growth,ECONOMIC_INDICATOR,2,23,23,none,"a measured quantity, not a named entity; no general NER label exists for it"
+High Court,REGULATORY_BODY,2,22,22,GPE;ORG,the body that issues the rules; general NER usually ORG but often missed when abbreviated
+advanced economies,COUNTRY_OR_REGION,2,21,21,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+fiscal deficit,ECONOMIC_INDICATOR,2,21,21,none,"a measured quantity, not a named entity; no general NER label exists for it"
+budget,POLICY_TERM,1,19,19,none,"a policy concept or facility, not a named entity; invisible to general NER"
+monetary policy,POLICY_TERM,2,18,18,none,"a policy concept or facility, not a named entity; invisible to general NER"
+Brazil,COUNTRY_OR_REGION,1,15,15,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+CPI,ECONOMIC_INDICATOR,1,15,15,none,"a measured quantity, not a named entity; no general NER label exists for it"
+fiscal policy,POLICY_TERM,2,15,15,none,"a policy concept or facility, not a named entity; invisible to general NER"
+NITI Aayog,GOVERNMENT_BODY,2,14,14,GPE;ORG,a ministry or public institution; general NER is inconsistent on Indian ministries
+Reserve Bank of India,FINANCIAL_INSTITUTION,4,14,14,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+Russia,COUNTRY_OR_REGION,1,13,13,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+Finance Commission,GOVERNMENT_BODY,2,12,12,GPE;ORG,a ministry or public institution; general NER is inconsistent on Indian ministries
+PFRDA,FINANCIAL_INSTITUTION,1,11,11,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+COVID-19 pandemic,ECONOMIC_EVENT,2,10,10,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+NBFC,FINANCIAL_INSTITUTION,1,10,10,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+PMI,ECONOMIC_INDICATOR,1,10,10,none,"a measured quantity, not a named entity; no general NER label exists for it"
+disinvestment,POLICY_TERM,1,10,10,none,"a policy concept or facility, not a named entity; invisible to general NER"
+fiscal consolidation,POLICY_TERM,2,10,10,none,"a policy concept or facility, not a named entity; invisible to general NER"
+CAD,ECONOMIC_INDICATOR,1,9,9,none,"a measured quantity, not a named entity; no general NER label exists for it"
+EPFO,FINANCIAL_INSTITUTION,1,9,9,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+IIP,ECONOMIC_INDICATOR,1,9,9,none,"a measured quantity, not a named entity; no general NER label exists for it"
+IRDAI,FINANCIAL_INSTITUTION,1,9,9,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+GNPA,ECONOMIC_INDICATOR,1,8,8,none,"a measured quantity, not a named entity; no general NER label exists for it"
+SIP,FINANCIAL_INSTRUMENT,1,8,8,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+United Kingdom,COUNTRY_OR_REGION,2,8,8,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+BRICS,COUNTRY_OR_REGION,1,7,7,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+NABARD,FINANCIAL_INSTITUTION,1,7,7,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+EMDE,COUNTRY_OR_REGION,1,6,6,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+NCLT,REGULATORY_BODY,1,6,6,GPE;ORG,the body that issues the rules; general NER usually ORG but often missed when abbreviated
+SBI,FINANCIAL_INSTITUTION,1,6,6,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+CRR,ECONOMIC_INDICATOR,1,5,5,none,"a measured quantity, not a named entity; no general NER label exists for it"
+NPA,ECONOMIC_INDICATOR,1,5,5,none,"a measured quantity, not a named entity; no general NER label exists for it"
+current account deficit,ECONOMIC_INDICATOR,3,5,5,none,"a measured quantity, not a named entity; no general NER label exists for it"
+disinflation,ECONOMIC_INDICATOR,1,5,5,none,"a measured quantity, not a named entity; no general NER label exists for it"
+fiscal stimulus,POLICY_TERM,2,5,5,none,"a policy concept or facility, not a named entity; invisible to general NER"
+liquidity management,POLICY_TERM,2,5,5,none,"a policy concept or facility, not a named entity; invisible to general NER"
+European Union,COUNTRY_OR_REGION,2,4,4,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+Ministry of Corporate Affairs,GOVERNMENT_BODY,4,4,4,GPE;ORG,a ministry or public institution; general NER is inconsistent on Indian ministries
+Ministry of Finance,GOVERNMENT_BODY,3,4,4,GPE;ORG,a ministry or public institution; general NER is inconsistent on Indian ministries
+corporate tax,POLICY_TERM,2,4,4,none,"a policy concept or facility, not a named entity; invisible to general NER"
+debenture,FINANCIAL_INSTRUMENT,1,4,4,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+repo rate,ECONOMIC_INDICATOR,2,4,4,none,"a measured quantity, not a named entity; no general NER label exists for it"
+sovereign bond,FINANCIAL_INSTRUMENT,2,4,4,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+unemployment rate,ECONOMIC_INDICATOR,2,4,4,none,"a measured quantity, not a named entity; no general NER label exists for it"
+Cabinet Secretariat,GOVERNMENT_BODY,2,3,3,GPE;ORG,a ministry or public institution; general NER is inconsistent on Indian ministries
+ESIC,FINANCIAL_INSTITUTION,1,3,3,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+G7,COUNTRY_OR_REGION,1,3,3,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+Ministry of Statistics and Programme Implementation,GOVERNMENT_BODY,6,3,3,GPE;ORG,a ministry or public institution; general NER is inconsistent on Indian ministries
+NCD,FINANCIAL_INSTRUMENT,1,3,3,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+West Asia,COUNTRY_OR_REGION,2,3,3,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+cash reserve ratio,POLICY_TERM,3,3,3,none,"a policy concept or facility, not a named entity; invisible to general NER"
+current account balance,ECONOMIC_INDICATOR,3,3,3,none,"a measured quantity, not a named entity; no general NER label exists for it"
+customs duty,POLICY_TERM,2,3,3,none,"a policy concept or facility, not a named entity; invisible to general NER"
+policy repo rate,ECONOMIC_INDICATOR,3,3,3,none,"a measured quantity, not a named entity; no general NER label exists for it"
+priority sector lending,FINANCIAL_INSTRUMENT,3,3,3,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+repo,FINANCIAL_INSTRUMENT,1,3,3,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+swap,FINANCIAL_INSTRUMENT,1,3,3,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+CCI,REGULATORY_BODY,1,2,2,GPE;ORG,the body that issues the rules; general NER usually ORG but often missed when abbreviated
+Financial Stability Board,GOVERNMENT_BODY,3,2,2,GPE;ORG,a ministry or public institution; general NER is inconsistent on Indian ministries
+MSF,ECONOMIC_INDICATOR,1,2,2,none,"a measured quantity, not a named entity; no general NER label exists for it"
+SIDBI,FINANCIAL_INSTITUTION,1,2,2,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+South Asia,COUNTRY_OR_REGION,2,2,2,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+deflation,ECONOMIC_INDICATOR,1,2,2,none,"a measured quantity, not a named entity; no general NER label exists for it"
+per capita income,ECONOMIC_INDICATOR,3,2,2,none,"a measured quantity, not a named entity; no general NER label exists for it"
+taper tantrum,ECONOMIC_EVENT,2,2,2,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+CAG,REGULATORY_BODY,1,1,1,GPE;ORG,the body that issues the rules; general NER usually ORG but often missed when abbreviated
+Central Board of Direct Taxes,REGULATORY_BODY,5,1,1,GPE;ORG,the body that issues the rules; general NER usually ORG but often missed when abbreviated
+ETF,FINANCIAL_INSTRUMENT,1,1,1,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+G20,COUNTRY_OR_REGION,1,1,1,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+Global Financial Crisis,ECONOMIC_EVENT,3,1,1,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+Ministry of Commerce and Industry,GOVERNMENT_BODY,5,1,1,GPE;ORG,a ministry or public institution; general NER is inconsistent on Indian ministries
+OPEC,COUNTRY_OR_REGION,1,1,1,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+PPI,ECONOMIC_INDICATOR,1,1,1,none,"a measured quantity, not a named entity; no general NER label exists for it"
+WPI,ECONOMIC_INDICATOR,1,1,1,none,"a measured quantity, not a named entity; no general NER label exists for it"
+budget announcement,ECONOMIC_EVENT,2,1,0,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+commercial paper,FINANCIAL_INSTRUMENT,2,1,1,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+election,ECONOMIC_EVENT,1,1,1,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+open market operations,POLICY_TERM,3,1,1,none,"a policy concept or facility, not a named entity; invisible to general NER"
+output gap,ECONOMIC_INDICATOR,2,1,1,none,"a measured quantity, not a named entity; no general NER label exists for it"
+potential GDP,ECONOMIC_INDICATOR,2,1,1,none,"a measured quantity, not a named entity; no general NER label exists for it"
+reverse repo,FINANCIAL_INSTRUMENT,2,1,1,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+standing deposit facility,POLICY_TERM,3,1,1,none,"a policy concept or facility, not a named entity; invisible to general NER"
+ASEAN,COUNTRY_OR_REGION,1,0,0,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+Central Board of Revenue and Customs,GOVERNMENT_BODY,6,0,0,GPE;ORG,a ministry or public institution; general NER is inconsistent on Indian ministries
+Central Statistical Organisation,GOVERNMENT_BODY,3,0,0,GPE;ORG,a ministry or public institution; general NER is inconsistent on Indian ministries
+EXIM Bank,FINANCIAL_INSTITUTION,2,0,0,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+Election Commission of India,GOVERNMENT_BODY,4,0,0,GPE;ORG,a ministry or public institution; general NER is inconsistent on Indian ministries
+Emerging markets,COUNTRY_OR_REGION,2,0,0,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+Euro area,COUNTRY_OR_REGION,2,0,0,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+FD,FINANCIAL_INSTRUMENT,1,0,0,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+G-sec,FINANCIAL_INSTRUMENT,1,0,0,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+Global Recession,ECONOMIC_EVENT,2,0,0,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+India's States,COUNTRY_OR_REGION,2,0,0,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+MUDRA loan,FINANCIAL_INSTRUMENT,2,0,0,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+NABAM,FINANCIAL_INSTITUTION,1,0,0,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+NIM,ECONOMIC_INDICATOR,1,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"
+NNPA,ECONOMIC_INDICATOR,1,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"
+Nabard,REGULATORY_BODY,1,0,0,GPE;ORG,the body that issues the rules; general NER usually ORG but often missed when abbreviated
+Planning Commission,GOVERNMENT_BODY,2,0,0,GPE;ORG,a ministry or public institution; general NER is inconsistent on Indian ministries
+RBI Monetary Policy Committee,REGULATORY_BODY,4,0,0,GPE;ORG,the body that issues the rules; general NER usually ORG but often missed when abbreviated
+ROA,ECONOMIC_INDICATOR,1,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"
+ROE,ECONOMIC_INDICATOR,1,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"
+SAARC,COUNTRY_OR_REGION,1,0,0,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+SLR,ECONOMIC_INDICATOR,1,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"
+Southeast Asia,COUNTRY_OR_REGION,2,0,0,GPE;LOC;NORP,country or region; general NER covers only a subset of the world and of regional groupings
+State Bank of India,FINANCIAL_INSTITUTION,4,0,0,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+T-bill,FINANCIAL_INSTRUMENT,1,0,0,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+TRAI,REGULATORY_BODY,1,0,0,GPE;ORG,the body that issues the rules; general NER usually ORG but often missed when abbreviated
+WACC,ECONOMIC_INDICATOR,1,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"
+assembly elections,ECONOMIC_EVENT,2,0,0,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+balance of payments,ECONOMIC_INDICATOR,3,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"
+bank rate,ECONOMIC_INDICATOR,2,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"
+banking crisis,ECONOMIC_EVENT,2,0,0,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+bill of exchange,FINANCIAL_INSTRUMENT,3,0,0,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+certificate of deposit,FINANCIAL_INSTRUMENT,3,0,0,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+co-operative bank,FINANCIAL_INSTITUTION,2,0,0,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+commercial bank,FINANCIAL_INSTITUTION,2,0,0,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+credit cooperative bank,FINANCIAL_INSTITUTION,3,0,0,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+currency crisis,ECONOMIC_EVENT,2,0,0,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+development finance institution,FINANCIAL_INSTITUTION,3,0,0,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+distress avenue,POLICY_TERM,2,0,0,none,"a policy concept or facility, not a named entity; invisible to general NER"
+dividend tax,POLICY_TERM,2,0,0,none,"a policy concept or facility, not a named entity; invisible to general NER"
+earnings season,POLICY_TERM,2,0,0,none,"a policy concept or facility, not a named entity; invisible to general NER"
+employment rate,ECONOMIC_INDICATOR,2,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"
+exim,ECONOMIC_INDICATOR,1,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"
+financial crisis,ECONOMIC_EVENT,2,0,0,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+gold bond,FINANCIAL_INSTRUMENT,2,0,0,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+government security,FINANCIAL_INSTRUMENT,2,0,0,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+index fund,FINANCIAL_INSTRUMENT,2,0,0,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+inflation spiral,ECONOMIC_EVENT,2,0,0,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+inflation target,ECONOMIC_INDICATOR,2,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"
+insolvency and bankruptcy,POLICY_TERM,3,0,0,none,"a policy concept or facility, not a named entity; invisible to general NER"
+liquidity crunch,ECONOMIC_EVENT,2,0,0,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+macro-prudential policy,POLICY_TERM,2,0,0,none,"a policy concept or facility, not a named entity; invisible to general NER"
+microfinance institution,FINANCIAL_INSTITUTION,2,0,0,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+microfinance loan,FINANCIAL_INSTRUMENT,2,0,0,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+monetary policy statement,ECONOMIC_EVENT,3,0,0,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+money supply,ECONOMIC_INDICATOR,2,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"
+non-banking financial company,FINANCIAL_INSTITUTION,3,0,0,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+payments bank,FINANCIAL_INSTITUTION,2,0,0,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+policy-rate,POLICY_TERM,1,0,0,none,"a policy concept or facility, not a named entity; invisible to general NER"
+poverty ratio,ECONOMIC_INDICATOR,2,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"
+priority sector,POLICY_TERM,2,0,0,none,"a policy concept or facility, not a named entity; invisible to general NER"
+promissory note,FINANCIAL_INSTRUMENT,2,0,0,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+recession,ECONOMIC_EVENT,1,0,0,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+recurring deposit,FINANCIAL_INSTRUMENT,2,0,0,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+repo window,POLICY_TERM,2,0,0,none,"a policy concept or facility, not a named entity; invisible to general NER"
+repo-rate,POLICY_TERM,1,0,0,none,"a policy concept or facility, not a named entity; invisible to general NER"
+resolution framework,POLICY_TERM,2,0,0,none,"a policy concept or facility, not a named entity; invisible to general NER"
+reverse repo rate,ECONOMIC_INDICATOR,3,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"
+savings deposit,FINANCIAL_INSTRUMENT,2,0,0,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+small finance bank,FINANCIAL_INSTITUTION,3,0,0,ORG,"entity that lends, regulates or supervises money; general NER tags many of these as ORG, but has no class for the sector"
+sovereign debt crisis,ECONOMIC_EVENT,3,0,0,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+stagflation,ECONOMIC_EVENT,1,0,0,EVENT,a macro-financial event with economic consequences; general NER EVENT is trained on news and rarely fires on economic writing
+statutory liquidity ratio,POLICY_TERM,3,0,0,none,"a policy concept or facility, not a named entity; invisible to general NER"
+targeted refinancing,POLICY_TERM,2,0,0,none,"a policy concept or facility, not a named entity; invisible to general NER"
+treasury bill,FINANCIAL_INSTRUMENT,2,0,0,ORG;PRODUCT,a tradable/lendable instrument; general NER only covers a few as PRODUCT
+triple defic,ECONOMIC_INDICATOR,2,0,0,none,"a measured quantity, not a named entity; no general NER label exists for it"

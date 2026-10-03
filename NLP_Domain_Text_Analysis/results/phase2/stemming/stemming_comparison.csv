@@ -1,0 +1,4 @@
+algorithm,description,total_tokens_before,unique_tokens_before,vocabulary_before,total_tokens_after,unique_tokens_after,unique_stems,vocabulary_reduction,vocabulary_reduction_percent,unique_token_reduction_percent,avg_tokens_per_document,type_token_ratio,distinct_stems,colliding_stems,execution_time_seconds
+porter,"Porter (1980) - original Porter stemmer, the classic baseline",344722,28112,19505,344722,19242,14295,5210,26.71,31.55,11120.06,0.055819,19242,7189,1.557
+snowball_english,Snowball 'english' (Porter2) - improved Porter algorithm,344722,28112,19505,344722,19248,14301,5204,26.68,31.53,11120.06,0.055836,19248,7162,0.752
+lancaster,"Lancaster (Paice/Husk) - aggressive, most aggressive of the three",344722,28112,19505,344722,18016,13069,6436,33,35.91,11120.06,0.052262,18016,6290,0.796

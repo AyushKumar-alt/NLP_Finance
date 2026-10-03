@@ -1,0 +1,40 @@
+Query Q01: inflation
+Type: keyword (Single economic indicator)
+Expected domain: economic
+Pipeline-normalized terms: inflat
+Matched terms: inflat
+Missing terms: (none)
+Results: 50 content unit(s) in 7 document(s)
+Execution time: 476.482 ms
+
+   1. score=1.2603 D05 | p7 | 5.9 | D05_P007_SEC_5_9_PAR002
+      matched: inflat
+      5. 10. The apparent divergence between headline and core inflation creates an impression of sticky core inflation, suggesting that underlying price pressures are firming even as headline inflation softens. The average re
+   2. score=1.2500 D05 | p2 | 5.2 | D05_P002_SEC_5_2_PAR001
+      matched: inflat
+      5.2. In the United States, headline inflation declined from 3.0 per cent in 2024 to 2.7 per cent in 2025, driven largely by moderating core services inflation, along with continued negative inflation in major commodity p
+   3. score=1.2500 D05 | p15 | 5.30 | D05_P015_SEC_5_30_PAR001
+      matched: inflat
+      5.30. Throughout much of 2023 and 2024, rural inflation remained above urban inflation (Chart V. 17). This pattern reflects differences in consumption weights across rural and urban baskets, particularly the larger share
+   4. score=1.2500 D05 | p19 | 5.35 | D05_P019_SEC_5_35_PAR001
+      matched: inflat
+      examination of inflation and wage rates at the state-level over a decade indicates that the states with an average wage rate above the national wage (i.e. positive mean wage gap) tend to experience a relatively higher in
+   5. score=1.2258 D01 | p24 | 1.29 | D01_P024_SEC_1_29_PAR001
+      matched: inflat
+      1.29. The demand-led growth in the economy has unfolded alongside a marked easing of inflation, which has improved real purchasing power and supported consumption. Domestic inflation dynamics in FY26 (April-December) ref
+   6. score=1.2113 D05 | p18 | 5.33 | D05_P018_SEC_5_33_PAR001
+      matched: inflat
+      5.33. Using monthly State-wise CPI inflation data from January 2014 to December 2025, Chart V. 19 examines how inflation outcomes across states compare with the All-India average and whether such differences tend to pers
+   7. score=1.2113 D20 | p4 | II | D20_P004_II_PAR001
+      matched: inflat
+      On the inflation front, 2025-26 was a landmark year for India. Consumer Price Index (CPI) inflation followed a sharply declining path, averaging approximately 2.1 per cent for the full year - its lowest level in several
+   8. score=1.1945 D05 | p4 | 5.6 | D05_P004_SEC_5_6_PAR001
+      matched: inflat
+      5.6. While economic growth in a majority of EMDEs remained below the EMDE average of 4.2 per cent, inflation outcomes varied widely across countries (Chart V. 4). In Brazil, headline inflation rose steadily from 4.4 per
+   9. score=1.1945 D05 | p16 | 5.32 | D05_P016_SEC_5_32_PAR001
+      matched: inflat
+      5.32. The state-level incidence of inflation in 2025-26 (April-December) followed the national trend, with an across-the-board reduction in inflation, except in Kerala and Lakshadweep, where retail inflation breached the
+  10. score=1.1747 D01 | p2 | 1.1 | D01_T001
+      matched: inflat
+      Growth outlook stabilises after Apr ’25 downward revisions Growth forecasts – 2025 (percent) Growth forecasts – 2026 (percent) Jan '25 Apr '25 Oct '25 Jan '26 Apr '25 Jan '25 Oct '25 Jan '26 +0.5 AE 1.8 1.5 1.6 1.8 1.9 1
+  ... 40 further results in retrieval_results.csv

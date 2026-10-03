@@ -1,0 +1,56 @@
+expression,category,source_id,document_id,page_number,section_id,section_number,section_title,unit_id,corpus_units_containing,test_id,expression_type,source,corpus_occurrences,nltk_tokens,nltk_token_count,custom_tokens,custom_token_count,hybrid_tokens,hybrid_token_count,date_number_tokens,preserved_as_single_token_custom,preserved_as_single_token_hybrid,nltk_splits_expression
+31 March 2026,Dates,SRC01,D04,25,D04_SEC_4_54,4.54,Industry Response,D04_P025_SEC_4_54_PAR001,1,DT001,date,corpus,1,31;March;2026,3,31 March 2026,1,31 March 2026,1,31;March;2026,true,true,true
+January 2026,Dates,SRC01,D01,2,D01_SEC_1_1,1.1,GLOBAL ECONOMIC GROWTH – FRAGILE AND DIVERGING,D01_P002_SEC_1_1_PAR001,24,DT002,month_year,corpus,30,January;2026,2,January 2026,1,January 2026,1,January;2026,true,true,true
+2025,Dates,SRC01,D01,2,D01_SEC_1_1,1.1,GLOBAL ECONOMIC GROWTH – FRAGILE AND DIVERGING,D01_P002_SEC_1_1_PAR001,1010,DT003,calendar_year,corpus,1508,2025,1,2025,1,2025,1,2025,true,true,false
+2024-25,Dates,SRC01,D01,9,D01_SEC_1_8,1.8,TRENDS IN THE DOMESTIC ECONOMY,D01_P009_SEC_1_8_PAR002,184,DT004,year_range,corpus,256,2024-25,1,2024-25,1,2024-25,1,2024;25,true,true,false
+FY2025-26,Fiscal years,SRC01,D08,3,D08_SEC_8_6,8.6,UNKNOWN,D08_P003_SEC_8_6_PAR001,1,DT005,fiscal_year_range,corpus,1,FY2025-26,1,FY2025-26,1,FY2025-26,1,FY;2025;26,true,true,false
+FY26,Fiscal years,SRC01,D01,1,UNKNOWN,UNKNOWN,UNKNOWN,D01_P001_UNKNOWN_PAR003,161,DT006,fiscal_year,corpus,213,FY26,1,FY26,1,FY26,1,FY;26,true,true,false
+FY 2025-26,Fiscal years,SRC01,D06,3,D06_SEC_6_6,6.6,INTRODUCTION,D06_P003_SEC_6_6_PAR001,3,DT007,fiscal_year_spaced,corpus,3,FY;2025-26,2,FY 2025-26,1,FY 2025-26,1,FY;2025;26,true,true,true
+Q1 FY26,Fiscal years,SRC01,D01,13,D01_SEC_1_13,1.13,TRENDS IN THE DOMESTIC ECONOMY,D01_T005,7,DT008,fiscal_quarter,corpus,7,Q1;FY26,2,Q1 FY26,1,Q1 FY26,1,Q1;FY26,true,true,true
+7.4%,Percentages,SRC02,D19,6,D19_SEC_S03,UNKNOWN,Policy Highlights,D19_P006_UNKNOWN_PAR005,2,DT009,percentage,corpus,2,7.4;%,2,7.4%,1,7.4%,1,7.4;%,true,true,true
+7.4 per cent,Percentages,SRC01,D01,1,UNKNOWN,UNKNOWN,UNKNOWN,D01_P001_UNKNOWN_PAR003,11,DT010,percentage_words,corpus,11,7.4;per;cent,3,7.4 per cent,1,7.4 per cent,1,7.4;per cent,true,true,true
+10.5%,Percentages,,,,,,,,0,DT011,percentage,assignment_spec,0,10.5;%,2,10.5%,1,10.5%,1,10.5;%,true,true,true
+"₹50,000",Currency,SRC01,D03,28,D03_SEC_3_49,3.49,FINANCIAL INTERMEDIATION,D03_P028_SEC_3_49_PAR001,4,DT012,currency_rupees,corpus,5,"₹50,000",1,"₹50,000",1,"₹50,000",1,"₹;50,000",true,true,false
+"Rs. 50,000",Currency,,,,,,,,0,DT013,currency_rupees_words,assignment_spec,0,"Rs;.;50,000",3,"Rs. 50,000",1,"Rs. 50,000",1,"Rs.;50,000",true,true,true
+₹1.25 lakh crore,Currency,,,,,,,,0,DT014,currency_lakh_crore,assignment_spec,0,₹1.25;lakh;crore,3,₹1.25 lakh crore,1,₹1.25 lakh crore,1,₹;1.25;lakh crore,true,true,true
+$2.5 billion,Currency,,,,,,,,0,DT015,currency_dollars,assignment_spec,0,$;2.5;billion,3,$2.5 billion,1,$2.5 billion,1,$;2.5;billion,true,true,true
+US$ 2.5 billion,Currency,,,,,,,,0,DT016,currency_us_dollars,assignment_spec,0,US;$;2.5;billion,4,US$ 2.5 billion,1,US$ 2.5 billion,1,US$;2.5;billion,true,true,true
+₹5 lakh crore,Currency,SRC03,D21,5,D21_SEC_3_1_2,3.1.2,PRIMARY MARKETS,D21_BOX003,1,DT017,currency_lakh_crore,corpus,1,₹5;lakh;crore,3,₹5 lakh crore,1,₹5 lakh crore,1,₹;5;lakh crore,true,true,true
+3.2 million,Large numbers,,,,,,,,0,DT018,magnitude_million,assignment_spec,0,3.2;million,2,3.2 million,1,3.2 million,1,3.2;million,true,true,true
+1.2 trillion,Large numbers,SRC01,D08,20,D08_SEC_8_41,8.41,National Manufacturing Mission,D08_BOX007,2,DT019,magnitude_trillion,corpus,2,1.2;trillion,2,1.2 trillion,1,1.2 trillion,1,1.2;trillion,true,true,true
+"1,25,000 crore",Large numbers,,,,,,,,0,DT020,indian_grouping,assignment_spec,0,"1,25,000;crore",2,"1,25,000 crore",1,"1,25,000 crore",1,"1,25,000;crore",true,true,true
+GDP,Economic indicators,SRC01,D01,18,D01_SEC_1_27,1.27,TRENDS IN THE DOMESTIC ECONOMY,D01_BOX003,154,DT021,acronym,corpus,250,GDP,1,GDP,1,GDP,1,GDP,true,true,false
+GVA,Economic indicators,SRC01,D01,9,D01_SEC_1_8,1.8,TRENDS IN THE DOMESTIC ECONOMY,D01_P009_SEC_1_8_PAR002,30,DT022,acronym,corpus,38,GVA,1,GVA,1,GVA,1,GVA,true,true,false
+CPI,Economic indicators,SRC01,D01,23,D01_SEC_1_28,1.28,Methodology,D01_P023_SEC_1_28_PAR008,21,DT023,acronym,corpus,27,CPI,1,CPI,1,CPI,1,CPI,true,true,false
+WPI,Economic indicators,SRC01,D05,6,D05_SEC_5_8,5.8,DOMESTIC INFLATION,D05_P006_SEC_5_8_PAR001,2,DT024,acronym,corpus,2,WPI,1,WPI,1,WPI,1,WPI,true,true,false
+RBI,Financial institutions,SRC01,D01,23,D01_SEC_1_28,1.28,Methodology,D01_P023_SEC_1_28_PAR009,113,DT025,institution,corpus,130,RBI,1,RBI,1,RBI,1,RBI,true,true,false
+SEBI,Financial institutions,SRC01,D03,36,D03_SEC_3_71,3.71,FINANCIAL INTERMEDIATION,D03_BOX013,610,DT026,institution,corpus,929,SEBI,1,SEBI,1,SEBI,1,SEBI,true,true,false
+IMF,Financial institutions,SRC01,D01,2,D01_SEC_1_1,1.1,GLOBAL ECONOMIC GROWTH – FRAGILE AND DIVERGING,D01_P002_SEC_1_1_PAR001,19,DT027,institution,corpus,24,IMF,1,IMF,1,IMF,1,IMF,true,true,false
+World Bank,Financial institutions,SRC01,D01,29,D01_SEC_1_41,1.41,Methodology,D01_P029_SEC_1_41_PAR001,29,DT028,institution_phrase,corpus,30,World;Bank,2,World;Bank,2,World;Bank,2,World;Bank,false,false,true
+repo rate,Financial instruments,SRC01,D01,25,D01_SEC_1_32,1.32,Methodology,D01_P025_SEC_1_32_PAR001,7,DT029,instrument,corpus,8,repo;rate,2,repo;rate,2,repo;rate,2,repo;rate,false,false,true
+reverse repo,Financial instruments,SRC01,D03,10,D03_SEC_3_14,3.14,MONETARY DEVELOPMENTS,D03_P010_SEC_3_14_PAR001,1,DT030,instrument,corpus,1,reverse;repo,2,reverse;repo,2,reverse;repo,2,reverse;repo,false,false,true
+treasury bill,Financial instruments,SRC01,D02,34,D02_SEC_2_45,2.45,Central Government Debt,D02_P034_SEC_2_45_PAR001,3,DT031,instrument,corpus,3,treasury;bill,2,treasury;bill,2,treasury;bill,2,treasury;bill,false,false,true
+mutual fund,Financial instruments,SRC01,D03,1,UNKNOWN,UNKNOWN,UNKNOWN,D03_P001_UNKNOWN_PAR003,82,DT032,instrument,corpus,123,mutual;fund,2,mutual;fund,2,mutual;fund,2,mutual;fund,false,false,true
+year-on-year,Hyphenated expressions,SRC01,D05,8,D05_SEC_5_11,5.11,DOMESTIC INFLATION,D05_P008_SEC_5_11_PAR001,16,DT033,hyphenated,corpus,16,year-on-year,1,year-on-year,1,year-on-year,1,year-on-year,true,true,false
+month-on-month,Hyphenated expressions,SRC01,D05,8,D05_SEC_5_11,5.11,DOMESTIC INFLATION,D05_P008_SEC_5_11_PAR001,1,DT034,hyphenated,corpus,1,month-on-month,1,month-on-month,1,month-on-month,1,month-on-month,true,true,false
+repo-rate,Hyphenated expressions,,,,,,,,0,DT035,hyphenated,assignment_spec,0,repo-rate,1,repo-rate,1,repo-rate,1,repo-rate,true,true,false
+mark-to-market,Hyphenated expressions,SRC03,D22,14,D22_SEC_4_3_2,4.3.2,SECONDARY MARKETS,D22_P014_SEC_4_3_2_PAR002,2,DT036,hyphenated,corpus,2,mark-to-market,1,mark-to-market,1,mark-to-market,1,mark-to-market,true,true,false
+FDI,Abbreviations,SRC01,D01,4,D01_SEC_1_5,1.5,GLOBAL ECONOMIC GROWTH – FRAGILE AND DIVERGING,D01_P004_SEC_1_5_PAR001,68,DT037,acronym,corpus,107,FDI,1,FDI,1,FDI,1,FDI,true,true,false
+FPI,Abbreviations,SRC01,D01,28,D01_SEC_1_36,1.36,Methodology,D01_P028_SEC_1_36_PAR001,74,DT038,acronym,corpus,115,FPI,1,FPI,1,FPI,1,FPI,true,true,false
+NPA,Abbreviations,SRC01,D01,26,D01_SEC_1_33,1.33,Methodology,D01_P026_SEC_1_33_PAR001,23,DT039,acronym,corpus,35,NPA,1,NPA,1,NPA,1,NPA,true,true,false
+GST,Abbreviations,SRC01,D01,2,D01_SEC_1_1,1.1,GLOBAL ECONOMIC GROWTH – FRAGILE AND DIVERGING,D01_P002_SEC_1_1_PAR001,65,DT040,acronym,corpus,85,GST,1,GST,1,GST,1,GST,true,true,false
+NITI Aayog,Abbreviations,SRC01,D03,46,D03_SEC_3_85,3.85,Conclusion,D03_BOX019,16,DT041,abbreviation_phrase,corpus,17,NITI;Aayog,2,NITI;Aayog,2,NITI;Aayog,2,NITI;Aayog,false,false,true
+disinflation,Rare economic terminology,SRC01,D01,24,D01_SEC_1_29,1.29,Methodology,D01_P024_SEC_1_29_PAR001,11,DT042,rare_term,corpus,13,disinflation,1,disinflation,1,disinflation,1,disinflation,true,true,false
+securitisation,Rare economic terminology,SRC01,D03,43,D03_SEC_3_74,3.74,Conclusion,D03_P043_SEC_3_74_PAR003,4,DT043,rare_term,corpus,4,securitisation,1,securitisation,1,securitisation,1,securitisation,true,true,false
+demonetisation,Rare economic terminology,,,,,,,,0,DT044,rare_term,assignment_spec,0,demonetisation,1,demonetisation,1,demonetisation,1,demonetisation,true,true,false
+macroeconomic,Rare economic terminology,SRC01,D01,21,D01_SEC_1_28,1.28,Methodology,D01_BOX005,62,DT045,rare_term,corpus,66,macroeconomic,1,macroeconomic,1,macroeconomic,1,macroeconomic,true,true,false
+financialisation,Rare economic terminology,SRC01,D03,1,UNKNOWN,UNKNOWN,UNKNOWN,D03_P001_UNKNOWN_PAR003,6,DT046,rare_term,corpus,6,financialisation,1,financialisation,1,financialisation,1,financialisation,true,true,false
+refinancing,Rare economic terminology,SRC01,D02,36,D02_SEC_2_48,2.48,Fiscal Developments,D02_P036_SEC_2_48_PAR001,4,DT047,rare_term,corpus,4,refinancing,1,refinancing,1,refinancing,1,refinancing,true,true,false
+real GDP growth,Multiword financial phrases,SRC01,D01,1,UNKNOWN,UNKNOWN,UNKNOWN,D01_P001_UNKNOWN_PAR003,6,DT048,phrase,corpus,7,real;GDP;growth,3,real;GDP;growth,3,real;GDP;growth,3,real;GDP;growth,false,false,true
+monetary policy,Multiword financial phrases,SRC01,D01,3,D01_SEC_1_3,1.3,GLOBAL ECONOMIC GROWTH – FRAGILE AND DIVERGING,D01_P003_SEC_1_3_PAR001,22,DT049,phrase,corpus,23,monetary;policy,2,monetary;policy,2,monetary;policy,2,monetary;policy,false,false,true
+fiscal policy,Multiword financial phrases,SRC01,D01,1,UNKNOWN,UNKNOWN,UNKNOWN,D01_P001_UNKNOWN_PAR005,16,DT050,phrase,corpus,19,fiscal;policy,2,fiscal;policy,2,fiscal;policy,2,fiscal;policy,false,false,true
+current account deficit,Multiword financial phrases,SRC01,D01,27,D01_SEC_1_35,1.35,Methodology,D01_P027_SEC_1_35_PAR001,6,DT051,phrase,corpus,6,current;account;deficit,3,current;account;deficit,3,current;account;deficit,3,current;account;deficit,false,false,true
+foreign direct investment,Multiword financial phrases,SRC01,D01,4,D01_SEC_1_5,1.5,GLOBAL ECONOMIC GROWTH – FRAGILE AND DIVERGING,D01_P004_SEC_1_5_PAR001,9,DT052,phrase,corpus,9,foreign;direct;investment,3,foreign;direct;investment,3,foreign;direct;investment,3,foreign;direct;investment,false,false,true
+financial stability,Multiword financial phrases,SRC01,D03,2,D03_SEC_3_1,3.1,INTRODUCTION,D03_P002_SEC_3_1_PAR001,25,DT053,phrase,corpus,31,financial;stability,2,financial;stability,2,financial;stability,2,financial;stability,false,false,true
+capital expenditure,Multiword financial phrases,SRC01,D01,12,D01_SEC_1_12,1.12,TRENDS IN THE DOMESTIC ECONOMY,D01_P012_SEC_1_12_PAR001,45,DT054,phrase,corpus,55,capital;expenditure,2,capital;expenditure,2,capital;expenditure,2,capital;expenditure,false,false,true
+consumer price index,Multiword financial phrases,SRC01,D01,23,D01_SEC_1_28,1.28,Methodology,D01_P023_SEC_1_28_PAR008,4,DT055,phrase,corpus,4,consumer;price;index,3,consumer;price;index,3,consumer;price;index,3,consumer;price;index,false,false,true

@@ -1,0 +1,61 @@
+original_word,observed_pos_in_corpus,wordnet_lookup_pos_agnostic,wordnet_lookup_pos_aware,spacy_rule_based,lemminflect_rulebased,from_probe_list,notes
+inflation,NOUN,inflation,inflation,over,inflation,true,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+inflating,VERB,inflate,inflate,over,inflating,true,unchanged by: lemminflect_rulebased
+investments,NOUN,investment,investment,over,investments,true,unchanged by: lemminflect_rulebased
+invested,VERB,invest,invest,over,invested,true,unchanged by: lemminflect_rulebased
+banks,NOUN,bank,bank,over,banks,true,unchanged by: lemminflect_rulebased
+banking,NOUN,bank,bank,over,banking,true,unchanged by: lemminflect_rulebased
+economic,PROPN,economic,economic,over,economic,true,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+economies,NOUN,economy,economy,over,economies,true,unchanged by: lemminflect_rulebased
+regulatory,ADJ,regulatory,regulatory,over,regulatory,true,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+regulated,VERB,regulate,regulate,over,regulated,true,unchanged by: lemminflect_rulebased
+markets,NOUN,market,market,over,markets,true,unchanged by: lemminflect_rulebased
+prices,NOUN,price,price,over,prices,true,unchanged by: lemminflect_rulebased
+growth,NOUN,growth,growth,over,growth,true,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+2nd,PROPN,2nd,2nd,over,2nd,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+3rd,PROPN,3rd,3rd,over,3rd,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+ali,PROPN,ali,ali,over,ali,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+as,NOUN,as,as,over,as,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+at,NOUN,at,at,over,at,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+barnow,PROPN,barnow,barnow,over,barnow,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+ccpa,NOUN,ccpa,ccpa,over,ccpa,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+centre,PROPN,centre,centre,over,centre,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+dedicated,PROPN,dedicated,dedicated,over,dedicated,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+demir,PROPN,demir,demir,over,demir,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+encouraging,PROPN,encouraging,encouraging,over,encouraging,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+finally,PROPN,finally,finally,over,finally,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+fowler,PROPN,fowler,fowler,over,fowler,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+global,PROPN,global,global,over,global,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+governance,PROPN,governance,governance,over,governance,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+higher,NOUN,higher,higher,over,higher,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+holt,NOUN,holt,holt,over,holt,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+https://dataforgood.facebook.com/,PROPN,https://dataforgood.facebook.com/,https://dataforgood.facebook.com/,over,https://dataforgood.facebook.com/,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+huber,PROPN,huber,huber,over,huber,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+ibid,PROPN,ibid,ibid,over,ibid,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+ies,NOUN,ies,ies,over,ies,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+information,PROPN,information,information,over,information,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+integration,PROPN,integration,integration,over,integration,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+interest,PROPN,interest,interest,over,interest,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+labour,ADJ,labour,labour,over,labour,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+maritime,PROPN,maritime,maritime,over,maritime,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+meaningful,ADJ,meaningful,meaningful,over,meaningful,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+monetisation,NOUN,monetisation,monetisation,over,monetisation,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+more,ADJ,more,more,over,more,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+most,NOUN,most,most,over,most,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+mumbai,PROPN,mumbai,mumbai,over,mumbai,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+non,ADJ,non,non,over,non,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+repeat,ADJ,repeat,repeat,over,repeat,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+simpler,NOUN,simpler,simpler,over,simpler,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+streets,PROPN,streets,streets,over,streets,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+telecommunication,NOUN,telecommunication,telecommunication,over,telecommunication,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+the,PROPN,the,the,over,the,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+time,PROPN,time,time,over,time,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+tourism,PROPN,tourism,tourism,over,tourism,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+transport,PROPN,transport,transport,over,transport,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+tsochantaridou,PROPN,tsochantaridou,tsochantaridou,over,tsochantaridou,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+wrzus,PROPN,wrzus,wrzus,over,wrzus,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+'s,PART,have,have,over,'s,false,unchanged by: lemminflect_rulebased
+-advance,PROPN,-advance,-advance,over,-advance,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+-from,ADP,-from,-from,over,-from,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+-fy20,ADJ,-fy20,-fy20,over,-fy20,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"
+-fy30,PROPN,-fy30,-fy30,over,-fy30,false,"unchanged by: lemminflect_rulebased, wordnet_lookup_pos_agnostic, wordnet_lookup_pos_aware"

@@ -1,0 +1,278 @@
+Q01|inflation|keyword|rank1|D05_P007_SEC_5_9_PAR002|D05|p7|sec 5.9|paragraph
+   TEXT: 5. 10. The apparent divergence between headline and core inflation creates an impression of sticky core inflation, suggesting that underlying price pressures are firming even as headline inflation softens. The average re
+Q01|inflation|keyword|rank2|D05_P002_SEC_5_2_PAR001|D05|p2|sec 5.2|paragraph
+   TEXT: 5.2. In the United States, headline inflation declined from 3.0 per cent in 2024 to 2.7 per cent in 2025, driven largely by moderating core services inflation, along with continued negative inflation in major commodity p
+Q01|inflation|keyword|rank3|D05_P015_SEC_5_30_PAR001|D05|p15|sec 5.30|paragraph
+   TEXT: 5.30. Throughout much of 2023 and 2024, rural inflation remained above urban inflation (Chart V. 17). This pattern reflects differences in consumption weights across rural and urban baskets, particularly the larger share
+Q01|inflation|keyword|rank4|D05_P019_SEC_5_35_PAR001|D05|p19|sec 5.35|paragraph
+   TEXT: examination of inflation and wage rates at the state-level over a decade indicates that the states with an average wage rate above the national wage (i.e. positive mean wage gap) tend to experience a relatively higher in
+Q01|inflation|keyword|rank5|D01_P024_SEC_1_29_PAR001|D01|p24|sec 1.29|paragraph
+   TEXT: 1.29. The demand-led growth in the economy has unfolded alongside a marked easing of inflation, which has improved real purchasing power and supported consumption. Domestic inflation dynamics in FY26 (April-December) ref
+Q01|inflation|keyword|rank6|D05_P018_SEC_5_33_PAR001|D05|p18|sec 5.33|paragraph
+   TEXT: 5.33. Using monthly State-wise CPI inflation data from January 2014 to December 2025, Chart V. 19 examines how inflation outcomes across states compare with the All-India average and whether such differences tend to pers
+Q01|inflation|keyword|rank7|D20_P004_II_PAR001|D20|p4|sec II|paragraph
+   TEXT: On the inflation front, 2025-26 was a landmark year for India. Consumer Price Index (CPI) inflation followed a sharply declining path, averaging approximately 2.1 per cent for the full year - its lowest level in several
+Q01|inflation|keyword|rank8|D05_P004_SEC_5_6_PAR001|D05|p4|sec 5.6|paragraph
+   TEXT: 5.6. While economic growth in a majority of EMDEs remained below the EMDE average of 4.2 per cent, inflation outcomes varied widely across countries (Chart V. 4). In Brazil, headline inflation rose steadily from 4.4 per
+Q01|inflation|keyword|rank9|D05_P016_SEC_5_32_PAR001|D05|p16|sec 5.32|paragraph
+   TEXT: 5.32. The state-level incidence of inflation in 2025-26 (April-December) followed the national trend, with an across-the-board reduction in inflation, except in Kerala and Lakshadweep, where retail inflation breached the
+Q01|inflation|keyword|rank10|D01_T001|D01|p2|sec 1.1|table
+   TEXT: Growth outlook stabilises after Apr ’25 downward revisions Growth forecasts – 2025 (percent) Growth forecasts – 2026 (percent) Jan '25 Apr '25 Oct '25 Jan '26 Apr '25 Jan '25 Oct '25 Jan '26 +0.5 AE 1.8 1.5 1.6 1.8 1.9 1
+Q02|GDP|keyword|rank1|D02_P041_SEC_2_56_PAR003|D02|p41|sec 2.56|paragraph
+   TEXT: ...ry and World Bank’s world development indicators’ database, general government revenue to GDP ratios for OECD countries at middle-income per capita GDP levels (US$2,000-US$3,000 in current prices, comparable to India's current per capita GDP trajectory) typically ranged about 20 per cent to 28 per cent per ce...
+Q02|GDP|keyword|rank2|D02_P004_SEC_2_7_PAR001|D02|p4|sec 2.7|paragraph
+   TEXT: ...strong performance, with collections increasing from an average of about 2.4 per cent of GDP in the pre- pandemic period to around 3.3 per cent of GDP in the post-pandemic period. Even within the post-pandemic years, these collections rose from 3 per cent of GDP in FY22 to about 3.7 per cent of GDP in FY25(P...
+Q02|GDP|keyword|rank3|D02_P003_SEC_2_4_PAR001|D02|p3|sec 2.4|paragraph
+   TEXT: 2.4 Accordingly, the fiscal deficit declined from 9.2 per cent of GDP in FY21 to 4.8 per cent of GDP in FY25 [Provisional Accounts, (PA)] and is budgeted at 4.4 per cent of GDP in FY26 (Chart II.1). Over the same period, the revenue deficit as a proportion of GDP has narrowed steadily,...
+Q02|GDP|keyword|rank4|D02_P004_SEC_2_6_PAR001|D02|p4|sec 2.6|paragraph
+   TEXT: 2.6 Revenue receipts increased from an average of about 8.5 per cent of GDP during the pre-pandemic period (FY16-FY20) to around 9.1 per cent of GDP in the post-pandemic period (FY22-FY25 PA).3 This improvement was driven primarily by higher gross tax revenue, which rose from an average of 1...
+Q02|GDP|keyword|rank5|D02_P018_SEC_2_29_PAR001|D02|p18|sec 2.29|paragraph
+   TEXT: ...Centre has progressively scaled up capital expenditure from an average of 1.7 per cent of GDP in the pre-pandemic period to an average of 2.9 per cent of GDP in the years after the pandemic (Chart II.5). At the same time, effective capex, a broader measure which includes capital expenditure along with grants-...
+Q02|GDP|keyword|rank6|D03_P047_SEC_3_85_PAR006|D03|p47|sec 3.85|paragraph
+   TEXT: ...tal cost in the long run are given by the current account balance (CAB as a percentage of GDP), government debt (as a share of GDP), the extent of financial deepening measured by credit to the private sector (as a percentage of GDP), and GDP growth. Further, short-run interest rates are used to capture synchr...
+Q02|GDP|keyword|rank7|D19_P003_UNKNOWN_PAR007|D19|p3|sec UNKNOWN|paragraph
+   TEXT: ▪ Deficits: Revenue deficit is targeted at 1.5% of GDP, similar to the revised estimate for 2025-26 (1.5% of GDP). Fiscal deficit is targeted at 4.3% of GDP in 2026-27, lower than the revised estimate for 2025-26 (4.4% of GDP).
+Q02|GDP|keyword|rank8|D20_T001|D20|p5|sec 2.1.3|table
+   TEXT: Parameter/Countries 2024 2025 2026* Real GDP growth (Y-o-Y) World 3.4 3.4 3.1 G7 1.7 1.5 1.6 India’s economic outlook, in contrast, remains relatively more resilient. The IMF has estimated India’s real GDP growth at 7.6 per cent for 2025-26 and 6.5 per cent for...
+Q02|GDP|keyword|rank9|D01_P025_SEC_1_31_PAR001|D01|p25|sec 1.31|paragraph
+   TEXT: ...increased from about 12.5 per cent to 22.6 per cent, while effective capex as a share of GDP rose from roughly 2.6 per cent to 4.0 per cent. Even as the states are overshooting their revenue deficit, the central government, through its Special Assistance to States for Capital Expenditure/Investment (SASCI),...
+Q02|GDP|keyword|rank10|D02_P001_UNKNOWN_PAR004|D02|p1|sec UNKNOWN|paragraph
+   TEXT: ...n improvement in expenditure quality. Revenue expenditure moderated from 13.6 per cent of GDP in FY22 to 10.9 per cent in FY25, creating space for productive capital outlays. Capital expenditure was scaled up from an average of 1.7 per cent of GDP in the pre-pandemic period to approximately 3 per cent in the...
+Q03|FDI|keyword|rank1|D04_BOX003|D04|p34|sec 4.78|box
+   TEXT: Returns on inward FDI are estimated as FDI equity income receipts expressed as a percentage of the total inward FDI stock.80 This indicator provides information on the profitability of direct investment enterprises. For example, when the...
+Q03|FDI|keyword|rank2|D04_BOX007|D04|p39|sec 4.81|box
+   TEXT: International investment flows reflect growing economic integration, with inward FDI signalling investor confidence and outward FDI reflecting the internationalisation and competitiveness of domestic firms. In recent decades, developing economies have become increasingly prominent sources of outward...
+Q03|FDI|keyword|rank3|D07_P005_SEC_7_9_PAR001|D07|p5|sec 7.9|paragraph
+   TEXT: ...ng shift in capital allocation. Services accounted for an average 53.5 per cent of global FDI5 during 2022-2024, up from 50.9 per cent in the pre-pandemic period, with inflows becoming increasingly concentrated. Energy and gas supply, information and communication, construction, and transportation together ab...
+Q03|FDI|keyword|rank4|D01_P004_SEC_1_5_PAR001|D01|p4|sec 1.5|paragraph
+   TEXT: ...croeconomic developments, has led to a deterioration in global foreign direct investment (FDI) flows. As per the United Nations Conference on Trade and Development’s (UNCTAD) World Investment Report 20254, FDI flows in 2024, barring those in certain conduit economies, declined by 11 per cent YoY (Chart I.6)....
+Q03|FDI|keyword|rank5|D04_P034_SEC_4_77_PAR001|D04|p34|sec 4.77|paragraph
+   TEXT: 4.77 FDI outflows from India increased to USD 22.1 billion during April-November 2025. Despite this, improvements in gross inflows along with a moderation in profit repatriation by foreign investors led to a strengthening of...
+Q03|FDI|keyword|rank6|D04_P034_SEC_4_78_PAR001|D04|p34|sec 4.78|paragraph
+   TEXT: 4.78 It is important to examine the return on inward FDI, while there is a recent slowdown in net FDI, which would indicate the profitability of the investments. Box IV.2 presents evidence on India’s inward FDI returns, providing a useful complement to the analysis of gros...
+Q03|FDI|keyword|rank7|D03_BOX021|D03|p60|sec 3.99|box
+   TEXT: ...The Act was notified on 21 December 2025. Important provisions are as below: • Increased FDI limit: The amendment has raised the FDI limit in Indian insurance companies from 74 per cent to 100 per cent. This will help in attracting stable and sustainable investment, facilitate technology transfer, enhance in...
+Q03|FDI|keyword|rank8|D04_P001_UNKNOWN_PAR004|D04|p1|sec UNKNOWN|paragraph
+   TEXT: ...ss investment inflows despite a subdued global environment for foreign direct investment (FDI) and volatile portfolio flows. Gross FDI inflows have remained resilient, supported by equity investments and greenfield projects, while portfolio flows have been volatile, reflecting global financial conditions. Ext...
+Q03|FDI|keyword|rank9|D04_P030_SEC_4_67_PAR001|D04|p30|sec 4.67|paragraph
+   TEXT: 4.67 An assessment of India’s FDI flows needs to be placed in the context of broader global investment trends. The global FDI landscape has remained subdued through CY
+Q03|FDI|keyword|rank10|D04_P031_SEC_4_67_PAR001|D04|p31|sec 4.67|paragraph
+   TEXT: ...in recent years.72 According to the latest UNCTAD’s World Investment Report 2025, global FDI inflows declined by 11 per cent (YoY) in CY 2024, marking the second consecutive year of contraction (excluding European conduit economies).73 The downturn was driven by a 58 per cent fall in FDI to Europe and a 29 p...
+Q04|monetary policy|phrase|rank1|D03_P001_UNKNOWN_PAR002|D03|p1|sec UNKNOWN|paragraph
+   TEXT: India's monetary and financial sectors have exhibited robust performance in FY26 (April-December 2025), underpinned by strategic policy actions and structural resilience across financial intermediation channels. In respo
+Q04|monetary policy|phrase|rank2|D03_P009_SEC_3_10_PAR001|D03|p9|sec 3.10|paragraph
+   TEXT: 3.10 In the light of the evolving macroeconomic and financial developments outlined in the previous section, the RBI undertook several key monetary policy actions in FY26 (April-December). These measures were designed to
+Q04|monetary policy|phrase|rank3|D03_P034_SEC_3_64_PAR001|D03|p34|sec 3.64|paragraph
+   TEXT: 3.64 Capital markets help finance economic growth by channelising savings to investments. They are catalysts for wealth creation in the economy. The year FY26, so far, has been eventful for the economies and markets worl
+Q04|monetary policy|phrase|rank4|D05_P001_UNKNOWN_PAR002|D05|p1|sec UNKNOWN|paragraph
+   TEXT: This chapter provides a comprehensive analysis of recent trends in global and domestic inflation, with a particular focus on the period up to December 2025. Globally, inflation has moderated significantly from its post-p
+Q04|monetary policy|phrase|rank5|D16_P004_SEC_16_10_PAR001|D16|p4|sec 16.10|paragraph
+   TEXT: 16.10. Presciently, in February 2020, shortly after the COVID-19 pandemic broke out, fund manager Alberto Gallo warned that the extraordinary monetary easing that followed the 2008 Global Financial Crisis — and the even
+Q04|monetary policy|phrase|rank6|D17_P009_SEC_16_99_PAR003|D17|p9|sec 16.99|paragraph
+   TEXT: By global standards, India’s RTI Act is relatively expansive. In the United States, internal personnel rules, inter-agency memos, and financial regulation reports are exempt from disclosure. Sweden protects fiscal and mo
+Q04|monetary policy|phrase|rank7|D01_P003_SEC_1_3_PAR001|D01|p3|sec 1.3|paragraph
+   TEXT: 1.3. Globally, the shift from aggressive monetary policy tightening to a neutral or accommodative stance is still underway. However, the aforementioned variance in growth-inflation dynamics has led to divergent trajector
+Q04|monetary policy|phrase|rank8|D03_P009_SEC_3_9_PAR001|D03|p9|sec 3.9|paragraph
+   TEXT: 3.9 India’s approach to monetary management balances macroeconomic objectives with social goals. By maintaining price stability, supporting financial stability, and promoting inclusive growth, monetary policy acts as a k
+Q04|monetary policy|phrase|rank9|D03_P011_SEC_3_16_PAR001|D03|p11|sec 3.16|paragraph
+   TEXT: 3.16 Throughout FY26, the RBI remained agile in its liquidity management, ensuring that adequate liquidity was maintained in the banking system. This proactive approach facilitated effective transmission to the money and
+Q04|monetary policy|phrase|rank10|D03_P012_SEC_3_17_PAR001|D03|p12|sec 3.17|paragraph
+   TEXT: 3.17 Monetary policy transmission to lending and deposit rates of scheduled commercial banks (SCBs) has been robust amid surplus liquidity conditions. In response to the 100-bps cumulative cut in the policy repo rate, th
+Q05|financial stability|phrase|rank1|D03_P004_SEC_3_7_PAR001|D03|p4|sec 3.7|paragraph
+   TEXT: 3.7 In addition to the above risks, global financial markets grapple with the impact introduced by new technologies such as artificial intelligence (AI). The IMF’s Financial Stability Report (FSR) of October 2025 notes t
+Q05|financial stability|phrase|rank2|D18_P001_UNKNOWN_PAR002|D18|p1|sec UNKNOWN|paragraph
+   TEXT: The Financial Stability Report (FSR)1, published by the Reserve Bank of India (RBI) on a half-yearly basis, is one of the most significant policy documents assessing the resilience of India's financial system. FSR is pre
+Q05|financial stability|phrase|rank3|D03_P002_SEC_3_1_PAR001|D03|p2|sec 3.1|paragraph
+   TEXT: supply, interest rates, and liquidity to ensure price stability while supporting sustainable economic growth. It also directly influences financial stability. Effective policy transmission through the banking and financi
+Q05|financial stability|phrase|rank4|D12_P018_SEC_12_28_PAR003|D12|p18|sec 12.28|paragraph
+   TEXT: Financial well-being with earned wage access (EWA): EWA, also known as on-demand pay, is a service designed to meet the immediate short-term liquidity needs of workers. It allows users to access part or all of their wage
+Q05|financial stability|phrase|rank5|D29_P001_SEC_11_1_PAR005|D29|p1|sec 11.1|paragraph
+   TEXT: II. Engagement with FSB: Financial Stability Board (FSB) is an international body which monitors and makes recommendations about the global financial system and promotes international financial stability. SEBI is one of
+Q05|financial stability|phrase|rank6|D31_P009_SEC_13_4_7_PAR004|D31|p9|sec 13.4.7|paragraph
+   TEXT: I. Inter-Regulatory Interface Group: The Inter- Regulatory Interface Group (IRIG), housed within DEPA, serves as SEBI’s nodal unit for co-ordination and engagement with key inter- regulatory and financial stability fora,
+Q05|financial stability|phrase|rank7|D03_P044_SEC_3_75_PAR001|D03|p44|sec 3.75|paragraph
+   TEXT: 3.75 A well-developed corporate bond market is indispensable to India's financial system and its path toward becoming a Viksit Bharat by 2047. Such a market channels institutional and household savings into productive se
+Q05|financial stability|phrase|rank8|D18_P006_UNKNOWN_PAR001|D18|p6|sec UNKNOWN|paragraph
+   TEXT: The Financial Stability Report, June 2026 presents a reassuring picture of the Indian financial system, with banks and NBFCs continuing to demonstrate strong capital positions, healthy asset quality, robust profitability
+Q05|financial stability|phrase|rank9|D20_P005_SEC_2_1_3_PAR003|D20|p5|sec 2.1.3|paragraph
+   TEXT: For emerging market and developing economies (EMDE), the impact is expected to be disproportionately severe. The IMF has forecast EMDE growth at 3.9 per cent for 2026, revised down from the pre-conflict estimate of 4.2 p
+Q05|financial stability|phrase|rank10|D03_P012_SEC_3_18_PAR001|D03|p12|sec 3.18|paragraph
+   TEXT: 3.18 Financial intermediaries implement monetary policy by transmitting the central bank’s decisions on interest rates, liquidity management, and credit supply to the real economy. Central banks set policy rates and cond
+Q06|current account deficit|phrase|rank1|D01_P027_SEC_1_35_PAR001|D01|p27|sec 1.35|paragraph
+   TEXT: ...ed by 5.9 per cent. Following the trends in previous years, the rise in merchandise trade deficit has been counterbalanced by an increase in services trade surplus, while the growth in remittances has bolstered this balance (Chart I.25). In most years, remittances have surpassed gross FDI inflows, underscorin...
+Q06|current account deficit|phrase|rank2|D03_P047_SEC_3_85_PAR003|D03|p47|sec 3.85|paragraph
+   TEXT: ...financed either by domestic savings or by foreign savings; the latter is reflected in the current account deficit (CAD). Economies that run persistent CADs are, by construction, dependent on external capital inflows to support domestic investment and consumption. This dependence introduces a risk premium, whi...
+Q06|current account deficit|phrase|rank3|D04_P028_SEC_4_61_PAR002|D04|p28|sec 4.61|paragraph
+   TEXT: ...providing a stable, counter-cyclical buffer. These components have collectively kept the current account deficit (CAD) within manageable levels. In H1 FY26, the CAD moderated to USD 15 billion (0.8 per cent of GDP) from USD 25.3 billion (1.3 per cent of GDP) in H1 FY25.
+Q06|current account deficit|phrase|rank4|D16_P002_SEC_16_1_PAR001|D16|p2|sec 16.1|paragraph
+   TEXT: ...is investing, but can do more. Capital formation as a percentage of GDP is above 30%. The current account deficit is comfortably low. Foreign exchange reserves are ample. External remittances are strong. The agricultural sector is doing well. Monsoons have been good, and a good Rabi crop is expected. Rural se...
+Q06|current account deficit|phrase|rank5|D20_P012_SEC_2_3_PAR002|D20|p12|sec 2.3|paragraph
+   TEXT: ...ant net importer of crude oil, higher energy prices elevate the import bill and widen the current account deficit, while posing upside risks to fuel and food inflation. The effective management of these imported commodity price pressures, through strategic petroleum reserve utilisation, import diversification...
+Q06|current account deficit|phrase|rank6|D20_T001|D20|p5|sec 2.1.3|table
+   TEXT: ...flict that sustains elevated crude oil prices above USD 100 per barrel would increase the current account deficit and import-led inflationary pressures, warranting close monitoring. Brazil 3.4 2.3 1.9 China 5.0 5.0 4.4 India 7.1 7.6 6.5 Russia 4.9 1.0 1.1 South Africa 0.5 1.1 1.0 Gross national savings, per c...
+Q07|GDP AND inflation|boolean_and|rank1|D05_P019_SEC_5_35_PAR001|D05|p19|sec 5.35|paragraph
+   TEXT: ...evel inflation rates show a significant positive association with wage rates, state-level GDP growth rates and COVID impact (indicating inflation increases with the increase in wage rate and GSDP growth rate, and that COVID had a structural step-up influence on the price situation). However, the share of indu...
+Q07|GDP AND inflation|boolean_and|rank2|D20_T001|D20|p5|sec 2.1.3|table
+   TEXT: Parameter/Countries 2024 2025 2026* Real GDP growth (Y-o-Y) World 3.4 3.4 3.1 G7 1.7 1.5 1.6 India’s economic outlook, in contrast, remains relatively more resilient. The IMF has estimated India’s real GDP growth at 7.6 per cent for 2025-26 and 6.5 per cent for...
+Q07|GDP AND inflation|boolean_and|rank3|D05_P004_SEC_5_6_PAR001|D05|p4|sec 5.6|paragraph
+   TEXT: ...re easing in subsequent months as service inflation moderated. Russia experienced subdued GDP growth alongside persistently high inflation, reflecting the ongoing conflict in Ukraine and related trade sanctions. In contrast, inflation moderated in several major Southeast Asian economies, including Malaysia, I...
+Q07|GDP AND inflation|boolean_and|rank4|D03_P047_SEC_3_85_PAR006|D03|p47|sec 3.85|paragraph
+   TEXT: ...tal cost in the long run are given by the current account balance (CAB as a percentage of GDP), government debt (as a share of GDP), the extent of financial deepening measured by credit to the private sector (as a percentage of GDP), and GDP growth. Further, short-run interest rates are used to capture synchr...
+Q07|GDP AND inflation|boolean_and|rank5|D05_P001_UNKNOWN_PAR002|D05|p1|sec UNKNOWN|paragraph
+   TEXT: ...s. India stands out for achieving a sharp decline in headline inflation, alongside robust GDP growth, reflecting strong macroeconomic fundamentals and effective monetary policy.
+Q07|GDP AND inflation|boolean_and|rank6|D05_P005_SEC_5_7_PAR001|D05|p5|sec 5.7|paragraph
+   TEXT: ...centage points (Chart V. 5). Importantly, this disinflation has occurred alongside robust GDP growth of 8 per cent in the H1 of FY26, underscoring India’s strong macroeconomic fundamentals and its ability to sustain growth while effectively managing price pressures, or in other words, without overheating. Whi...
+Q07|GDP AND inflation|boolean_and|rank7|D01_P003_SEC_1_2_PAR002|D01|p3|sec 1.2|paragraph
+   TEXT: ...sinesses on equipment and software to facilitate AI use, has accounted for nearly half of GDP growth in recent quarters, helping to mitigate the negative effects of trade tariffs on growth.1 This strong growth has been accompanied by inflation remaining stubbornly above the 2 per cent target and a rising unem...
+Q07|GDP AND inflation|boolean_and|rank8|D01_P010_SEC_1_9_PAR001|D01|p10|sec 1.9|paragraph
+   TEXT: ...FY26. According to the FAE, the share of final private consumption expenditure (PFCE) in GDP rose to 61.5 per cent in FY26, the highest level since FY12. This is corroborated by the strong performance during the first half of the year, with PFCE growing by 7.5 per cent in H1 of FY26, and its share in GDP ris...
+Q07|GDP AND inflation|boolean_and|rank9|D19_P001_UNKNOWN_PAR003|D19|p1|sec UNKNOWN|paragraph
+   TEXT: ▪ GDP: The government has estimated a nominal GDP growth rate of 10% in 2026-27 (i.e., real growth plus inflation).
+Q07|GDP AND inflation|boolean_and|rank10|D02_P007_SEC_2_14_PAR001|D02|p7|sec 2.14|paragraph
+   TEXT: ...cent (Chart II.3). The GST revenue growth has broadly aligned with the prevailing nominal GDP growth conditions, thus influenced in part by lower inflation (Chart II.4a). As a result, while growth rates appear lower in percentage terms, collections in absolute terms have recorded multiple all-time highs durin...
+Q08|RBI AND "repo rate"|boolean_and|rank1|D03_P009_SEC_3_10_PAR001|D03|p9|sec 3.10|paragraph
+   TEXT: ...e evolving macroeconomic and financial developments outlined in the previous section, the RBI undertook several key monetary policy actions in FY26 (April-December). These measures were designed to support economic growth while maintaining price stability. In response to the easing inflation, the RBI’s Moneta...
+Q08|RBI AND "repo rate"|boolean_and|rank2|D20_P004_II_PAR001|D20|p4|sec II|paragraph
+   TEXT: ...was supported by good monsoons, higher agricultural output, easing supply chains, and GST rate rationalisation from September 2025. The Reserve Bank of India (RBI), responding to the benign inflation environment, undertook a cumulative 125 basis point reduction in the repo rate over the course of the year beg...
+Q08|RBI AND "repo rate"|boolean_and|rank3|D03_P011_SEC_3_16_PAR001|D03|p11|sec 3.16|paragraph
+   TEXT: 3.16 Throughout FY26, the RBI remained agile in its liquidity management, ensuring that adequate liquidity was maintained in the banking system. This proactive approach facilitated effective transmission to the money and credit markets, meeting t...
+Q09|banking AND credit|boolean_and|rank1|D18_P002_II_PAR001|D18|p2|sec II|paragraph
+   TEXT: ▪ The RBI notes that credit growth of Scheduled Commercial Banks (SCBs) remained robust at 14.5% year-on-year during 2025–26, reflecting broad-based strengthening in credit demand across all major sectors of the economy. Public Sector Banks...
+Q09|banking AND credit|boolean_and|rank2|D06_P017_SEC_6_24_PAR001|D06|p17|sec 6.24|paragraph
+   TEXT: 6.24 Ground Level Credit (GLC) disbursement stood at ₹28.69 lakh crore, which includes ₹15.93 lakh crore under short term loans and ₹12.77 lakh crore under term loans, surpassing the ₹27.5 lakh crore target in FY 25.74 The KCC scheme, whi...
+Q09|banking AND credit|boolean_and|rank3|D01_P027_SEC_1_34_PAR001|D01|p27|sec 1.34|paragraph
+   TEXT: 1.34. While YoY growth of outstanding non-food credit stands at a reasonably stable rate of around 11.4 per cent as of November 2025 (Chart I.23), India’s commercial sector is tapping into alternative sources of financing, thereby offsetting any moderation in bank cr...
+Q09|banking AND credit|boolean_and|rank4|D06_P017_SEC_6_23_PAR001|D06|p17|sec 6.23|paragraph
+   TEXT: 6.23 Access to institutional credit boosts agricultural productivity by enabling investment in quality inputs, mechanisation, irrigation, improved technologies, and climate-resilient practices, particularly for small and marginal farmers. Agricultur...
+Q09|banking AND credit|boolean_and|rank5|D08_P033_SEC_8_61_PAR001|D08|p33|sec 8.61|paragraph
+   TEXT: 8.61. Despite expanding credit footprints and rising digital integration, access to formal credit remains a binding constraint for many micro-enterprises due to limited collateral and documentation readiness, as is generally the case worldwide....
+Q09|banking AND credit|boolean_and|rank6|D08_P037_SEC_8_66_PAR003|D08|p37|sec 8.66|paragraph
+   TEXT: This expansion in credit availability has also been accompanied by a gradual shift towards formal financing channels, which is a welcome trend. The share of unincorporated manufacturing establishments accessing formal sources of credit ro...
+Q09|banking AND credit|boolean_and|rank7|D03_P010_SEC_3_13_PAR001|D03|p10|sec 3.13|paragraph
+   TEXT: ...ing the same period, broad money (M3) growth, including the impact of the merger of a non-bank with a bank (with effect from 1 July 2023), was 12.1 per cent, as compared with 9 per cent a year ago. This trend in the broad money growth indicates that the banks have effectively leveraged the liquidity released...
+Q09|banking AND credit|boolean_and|rank8|D03_P014_SEC_3_24_PAR001|D03|p14|sec 3.24|paragraph
+   TEXT: 3.24 In FY26, a moderation in bank credit growth was observed across major sectors compared to the same period last year, though recent months have shown an uptick. As of 31 December 2025, the (YoY) growth in outstanding credit by SCBs increased to 1...
+Q09|banking AND credit|boolean_and|rank9|D03_P016_SEC_3_26_PAR001|D03|p16|sec 3.26|paragraph
+   TEXT: 3.26 While the YoY growth trend in credit for industry and services has demonstrated a moderate increase in FY26 thus far, within industry, the bank credit to the MSME sector continues to show momentum and remains robust. In November 2025, bank credit to...
+Q09|banking AND credit|boolean_and|rank10|D03_P017_SEC_3_31_PAR001|D03|p17|sec 3.31|paragraph
+   TEXT: ...ase in the flow of financial resources to the commercial sector, bolstered by greater non-bank intermediation, has accompanied the slowdown in bank credit growth in early FY26. This trend indicates that non-bank sources have effectively offset the decline in bank credit. The quicker transmission of monetary p...
+Q10|GDP OR GVA|boolean_or|rank1|D01_P015_SEC_1_19_PAR001|D01|p15|sec 1.19|paragraph
+   TEXT: 1.19. Regarding the industry, a concern is often raised about its declining share in GVA. The compression in manufacturing’s GVA share stems from relative price effects rather than reflecting a decline in manufacturing activities (See section ‘GDP Deflators: Manufacturing’s Reversal in Terms of Trade’ in...
+Q10|GDP OR GVA|boolean_or|rank2|D05_P014_SEC_5_25_PAR001|D05|p14|sec 5.25|paragraph
+   TEXT: 5.25. Following the logic of GDP deflators, one could find the implicit price deflator for a sector as the ratio of its Nominal or Current price GVA to Real or Constant price GVA. It’s essentially a price index for that sector, pivoting around the b...
+Q10|GDP OR GVA|boolean_or|rank3|D01_P009_SEC_1_8_PAR002|D01|p9|sec 1.8|paragraph
+   TEXT: ...nistry of Statistics and Programme Implementation (MoSPI). These estimates place the real GDP growth rate at 7.4 per cent and the GVA growth rate at 7.3 per cent, surpassing earlier projections by various agencies and our own estimates in the Economic Survey of 2024-25, and reaffirming India's status as the f...
+Q10|GDP OR GVA|boolean_or|rank4|D01_P017_SEC_1_24_PAR001|D01|p17|sec 1.24|paragraph
+   TEXT: 1.24. GVA in services grew by 9.3 per cent in H1 of FY26, exceeding the 7.0 per cent growth recorded in H1 of FY25 and the pre-pandemic average of 7.9 per cent (Chart I.18). This momentum gained further traction in H1 FY26, wi...
+Q10|GDP OR GVA|boolean_or|rank5|D01_T002|D01|p9|sec 1.8|table
+   TEXT: ...Services 6.9 9.9 7.2 9.9 Public Administration, Defence & Other Services 8.9 9.7 8.9 9.9 GVA at Basic Prices 6.2 7.9 6.4 7.3 Expenditure Components (Demand Side) Private Final Consumption Expenditure (PFCE) 7.3 7.5 7.2 7.0 Government Final Consumption Expenditure (GFCE) 1.9 2.5 2.3 5.2 Gross Fixed Capital Fo...
+Q10|GDP OR GVA|boolean_or|rank6|D07_P006_SEC_7_11_PAR001|D07|p6|sec 7.11|paragraph
+   TEXT: ...se conditions, the services sector in India gained momentum in H1 FY26, with its share in GDP rising to 53.6 per cent, higher than that in H1 FY25 and the pre-pandemic period (H1 FY16-H1 FY20) (Chart VII.5). Underlying this acceleration is the growth in services GVA by 9.3 per cent in H1 FY26, up from 7.0 per...
+Q10|GDP OR GVA|boolean_or|rank7|D08_P017_SEC_8_35_PAR001|D08|p17|sec 8.35|paragraph
+   TEXT: ...extile industry, with a size of about USD 179 billion, contributes close to 2 per cent of GDP and accounts for about 11 per cent of the manufacturing GVA. India is the world's largest cultivator of cotton by acreage and the largest producer of jute, as well as the second-largest producer of silk and cotton. B...
+Q10|GDP OR GVA|boolean_or|rank8|D02_P041_SEC_2_56_PAR003|D02|p41|sec 2.56|paragraph
+   TEXT: ...ry and World Bank’s world development indicators’ database, general government revenue to GDP ratios for OECD countries at middle-income per capita GDP levels (US$2,000-US$3,000 in current prices, comparable to India's current per capita GDP trajectory) typically ranged about 20 per cent to 28 per cent per ce...
+Q10|GDP OR GVA|boolean_or|rank9|D02_P004_SEC_2_7_PAR001|D02|p4|sec 2.7|paragraph
+   TEXT: ...strong performance, with collections increasing from an average of about 2.4 per cent of GDP in the pre- pandemic period to around 3.3 per cent of GDP in the post-pandemic period. Even within the post-pandemic years, these collections rose from 3 per cent of GDP in FY22 to about 3.7 per cent of GDP in FY25(P...
+Q10|GDP OR GVA|boolean_or|rank10|D02_P003_SEC_2_4_PAR001|D02|p3|sec 2.4|paragraph
+   TEXT: 2.4 Accordingly, the fiscal deficit declined from 9.2 per cent of GDP in FY21 to 4.8 per cent of GDP in FY25 [Provisional Accounts, (PA)] and is budgeted at 4.4 per cent of GDP in FY26 (Chart II.1). Over the same period, the revenue deficit as a proportion of GDP has narrowed steadily,...
+Q11|inflation OR disinflation|boolean_or|rank1|D01_P024_SEC_1_29_PAR001|D01|p24|sec 1.29|paragraph
+   TEXT: 1.29. The demand-led growth in the economy has unfolded alongside a marked easing of inflation, which has improved real purchasing power and supported consumption. Domestic inflation dynamics in FY26 (April-December) ref
+Q11|inflation OR disinflation|boolean_or|rank2|D20_P004_II_PAR001|D20|p4|sec II|paragraph
+   TEXT: On the inflation front, 2025-26 was a landmark year for India. Consumer Price Index (CPI) inflation followed a sharply declining path, averaging approximately 2.1 per cent for the full year - its lowest level in several
+Q11|inflation OR disinflation|boolean_or|rank3|D05_P005_SEC_5_7_PAR001|D05|p5|sec 5.7|paragraph
+   TEXT: 5.7. Among major EMDEs, India has recorded one of the sharpest declines in headline inflation, amounting to about 1.8 percentage points (Chart V. 5). Importantly, this disinflation has occurred alongside robust GDP growt
+Q11|inflation OR disinflation|boolean_or|rank4|D05_P005_SEC_5_8_PAR001|D05|p5|sec 5.8|paragraph
+   TEXT: 5.8. Over the past four years, average retail inflation, as measured by the Consumer Price Index (CPI), has followed a clear downward trajectory (Chart V.6), declining steadily from 6.7 per cent in the financial year (FY
+Q11|inflation OR disinflation|boolean_or|rank5|D05_P006_SEC_5_9_PAR001|D05|p6|sec 5.9|paragraph
+   TEXT: 5.9. The current disinflationary phase commenced in October 2024, when retail inflation stood at 6.2 per cent. During the first half of 2025–26 (H1 of FY26), headline inflation declined sharply from 3.2 per cent in April
+Q11|inflation OR disinflation|boolean_or|rank6|D05_P013_SEC_5_22_PAR001|D05|p13|sec 5.22|paragraph
+   TEXT: 5. 23. Inflation in ‘clothing and footwear’ fell sharply from elevated levels in early 2023 to lower levels by 2024-25. This disinflation reflects easing input costs, improved supply conditions and competitive pressures
+Q11|inflation OR disinflation|boolean_or|rank7|D05_P012_SEC_5_21_PAR001|D05|p12|sec 5.21|paragraph
+   TEXT: 5.21. The four major components of the core CPI basket – (i) clothing and footwear, (ii) housing, (iii) health and (iv) transport and communication – account for nearly one-third of the CPI basket and more than 60 per ce
+Q11|inflation OR disinflation|boolean_or|rank8|D05_P011_SEC_5_18_PAR001|D05|p11|sec 5.18|paragraph
+   TEXT: 5.18. Amid the sharp disinflation observed across several food items, the experience of edible oils stands out. The edible oil market in India is characterised by structural excess demand, with over 50 per cent of domest
+Q11|inflation OR disinflation|boolean_or|rank9|D05_P007_SEC_5_9_PAR002|D05|p7|sec 5.9|paragraph
+   TEXT: 5. 10. The apparent divergence between headline and core inflation creates an impression of sticky core inflation, suggesting that underlying price pressures are firming even as headline inflation softens. The average re
+Q11|inflation OR disinflation|boolean_or|rank10|D05_P002_SEC_5_2_PAR001|D05|p2|sec 5.2|paragraph
+   TEXT: 5.2. In the United States, headline inflation declined from 3.0 per cent in 2024 to 2.7 per cent in 2025, driven largely by moderating core services inflation, along with continued negative inflation in major commodity p
+Q12|inflation AND NOT food|boolean_not|rank1|D05_P007_SEC_5_9_PAR002|D05|p7|sec 5.9|paragraph
+   TEXT: 5. 10. The apparent divergence between headline and core inflation creates an impression of sticky core inflation, suggesting that underlying price pressures are firming even as headline inflation softens. The average re
+Q12|inflation AND NOT food|boolean_not|rank2|D05_P019_SEC_5_35_PAR001|D05|p19|sec 5.35|paragraph
+   TEXT: examination of inflation and wage rates at the state-level over a decade indicates that the states with an average wage rate above the national wage (i.e. positive mean wage gap) tend to experience a relatively higher in
+Q12|inflation AND NOT food|boolean_not|rank3|D05_P018_SEC_5_33_PAR001|D05|p18|sec 5.33|paragraph
+   TEXT: 5.33. Using monthly State-wise CPI inflation data from January 2014 to December 2025, Chart V. 19 examines how inflation outcomes across states compare with the All-India average and whether such differences tend to pers
+Q12|inflation AND NOT food|boolean_not|rank4|D05_P004_SEC_5_6_PAR001|D05|p4|sec 5.6|paragraph
+   TEXT: 5.6. While economic growth in a majority of EMDEs remained below the EMDE average of 4.2 per cent, inflation outcomes varied widely across countries (Chart V. 4). In Brazil, headline inflation rose steadily from 4.4 per
+Q12|inflation AND NOT food|boolean_not|rank5|D05_P016_SEC_5_32_PAR001|D05|p16|sec 5.32|paragraph
+   TEXT: 5.32. The state-level incidence of inflation in 2025-26 (April-December) followed the national trend, with an across-the-board reduction in inflation, except in Kerala and Lakshadweep, where retail inflation breached the
+Q12|inflation AND NOT food|boolean_not|rank6|D01_T001|D01|p2|sec 1.1|table
+   TEXT: Growth outlook stabilises after Apr ’25 downward revisions Growth forecasts – 2025 (percent) Growth forecasts – 2026 (percent) Jan '25 Apr '25 Oct '25 Jan '26 Apr '25 Jan '25 Oct '25 Jan '26 +0.5 AE 1.8 1.5 1.6 1.8 1.9 1
+Q12|inflation AND NOT food|boolean_not|rank7|D05_P002_SEC_5_1_PAR001|D05|p2|sec 5.1|paragraph
+   TEXT: 5.1. The world has seen a broad-based and sustained moderation in inflation across advanced, emerging, and developing economies this year. The global headline inflation (Chart V. 1) has declined from a peak of 8.7 per ce
+Q12|inflation AND NOT food|boolean_not|rank8|D05_P005_SEC_5_7_PAR001|D05|p5|sec 5.7|paragraph
+   TEXT: 5.7. Among major EMDEs, India has recorded one of the sharpest declines in headline inflation, amounting to about 1.8 percentage points (Chart V. 5). Importantly, this disinflation has occurred alongside robust GDP growt
+Q12|inflation AND NOT food|boolean_not|rank9|D05_P020_SEC_5_36_PAR001|D05|p20|sec 5.36|paragraph
+   TEXT: 5.36. To conclude, the RBI and IMF have projected a progressive increase in headline inflation in the upcoming fiscal, bringing the levels within the targeted range of 4 per cent (± 2 per cent). In December 2025, the RBI
+Q12|inflation AND NOT food|boolean_not|rank10|D20_T001|D20|p5|sec 2.1.3|table
+   TEXT: Parameter/Countries 2024 2025 2026* Real GDP growth (Y-o-Y) World 3.4 3.4 3.1 G7 1.7 1.5 1.6 India’s economic outlook, in contrast, remains relatively more resilient. The IMF has estimated India’s real GDP growth at 7.6
+Q13|banking AND NOT insurance|boolean_not|rank1|D03_P010_SEC_3_13_PAR001|D03|p10|sec 3.13|paragraph
+   TEXT: ...ing the same period, broad money (M3) growth, including the impact of the merger of a non-bank with a bank (with effect from 1 July 2023), was 12.1 per cent, as compared with 9 per cent a year ago. This trend in the broad money growth indicates that the banks have effectively leveraged the liquidity released...
+Q13|banking AND NOT insurance|boolean_not|rank2|D03_BOX023|D03|p64|sec UNKNOWN|box
+   TEXT: ...n and innovation while safeguarding stability. Credit and capital supply must move beyond bank dominance through deeper markets and modern financial infrastructure. Administrative processes should be centred on timeliness, proportionality, and citizen service. Recasting financial regulation Finance influences...
+Q13|banking AND NOT insurance|boolean_not|rank3|D06_P017_SEC_6_23_PAR001|D06|p17|sec 6.23|paragraph
+   TEXT: ...marginal farmers. Agricultural credit flows from both formal sources, such as commercial banks, Regional rural banks (RRBs), cooperatives, small finance banks, and Microfinance Institutions (MFIs), and informal sources, including moneylenders, traders, and personal networks. Key frameworks, such as the Lead...
+Q13|banking AND NOT insurance|boolean_not|rank4|D06_P017_SEC_6_24_PAR001|D06|p17|sec 6.24|paragraph
+   TEXT: 6.24 Ground Level Credit (GLC) disbursement stood at ₹28.69 lakh crore, which includes ₹15.93 lakh crore under short term loans and ₹12.77 lakh crore under term loans, surpassing the ₹27.5 lakh crore target in FY 25.74 T
+Q13|banking AND NOT insurance|boolean_not|rank5|D18_P002_II_PAR001|D18|p2|sec II|paragraph
+   TEXT: ▪ The RBI notes that credit growth of Scheduled Commercial Banks (SCBs) remained robust at 14.5% year-on-year during 2025–26, reflecting broad-based strengthening in credit demand across all major sectors of the economy. Public Sector Banks (PSBs) continued to outperform Private...
+Q13|banking AND NOT insurance|boolean_not|rank6|D01_P026_SEC_1_33_PAR001|D01|p26|sec 1.33|paragraph
+   TEXT: 1.33. Alongside the fiscal stimulus provided by higher public capital expenditure and tax reductions, monetary support was delivered through a cumulative reduction of 125 basis points in the policy repo rate since Februa
+Q13|banking AND NOT insurance|boolean_not|rank7|D01_P027_SEC_1_34_PAR001|D01|p27|sec 1.34|paragraph
+   TEXT: ...or is tapping into alternative sources of financing, thereby offsetting any moderation in bank credit. The faster transmission of monetary policy has enabled market-based financial instruments to serve as a viable funding source for large corporations. Additionally, as the profitability of these corporations...
+Q13|banking AND NOT insurance|boolean_not|rank8|D03_P001_UNKNOWN_PAR002|D03|p1|sec UNKNOWN|paragraph
+   TEXT: ...cross financial intermediation channels. In response to moderating inflation, the Reserve Bank of India's Monetary Policy Committee reduced the repo rate, while injecting durable liquidity through cash reserve ratio cuts and open market operations. These measures have been effectively transmitted to lending r...
+Q13|banking AND NOT insurance|boolean_not|rank9|D03_P017_SEC_3_31_PAR001|D03|p17|sec 3.31|paragraph
+   TEXT: ...ase in the flow of financial resources to the commercial sector, bolstered by greater non-bank intermediation, has accompanied the slowdown in bank credit growth in early FY26. This trend indicates that non-bank sources have effectively offset the decline in bank credit. The quicker transmission of monetary p...
+Q13|banking AND NOT insurance|boolean_not|rank10|D03_P020_SEC_3_39_PAR001|D03|p20|sec 3.39|paragraph
+   TEXT: ...egulated entities. Additionally, instructions issued by NABARD to RRBs, State Cooperative Banks, and Central Cooperative Banks were also consolidated in consultation with NABARD. As part of this initiative, the central bank will repeal 9,446 circulars, of which 3,809 have been incorporated into Master Circula...
+Q14|GDP AND investment|boolean_and|rank1|D01_P012_SEC_1_12_PAR001|D01|p12|sec 1.12|paragraph
+   TEXT: ...as evident from corporate announcements.13 Reflecting this strength, the share of GFCF in GDP remained steady at 30.5 per cent in H1 of FY26, well above the pre- pandemic average of 28.6 per cent (Chart I.10). Together, these developments indicate a strengthening of the investment cycle, supporting growth.
+Q14|GDP AND investment|boolean_and|rank2|D01_P025_SEC_1_31_PAR001|D01|p25|sec 1.31|paragraph
+   TEXT: ...increased from about 12.5 per cent to 22.6 per cent, while effective capex as a share of GDP rose from roughly 2.6 per cent to 4.0 per cent. Even as the states are overshooting their revenue deficit, the central government, through its Special Assistance to States for Capital Expenditure/Investment (SASCI),...
+Q14|GDP AND investment|boolean_and|rank3|D02_T009|D02|p40|sec UNKNOWN|table
+   TEXT: ...of public investment efficiency. In FY24, general government investment was 4 per cent of GDP, amounting to about one-fifth of total government revenue, much higher than in most peer economies. When OECD countries were at income levels similar to India today, their general government investment was about 2 to...
+Q14|GDP AND investment|boolean_and|rank4|D20_T001|D20|p5|sec 2.1.3|table
+   TEXT: Parameter/Countries 2024 2025 2026* Real GDP growth (Y-o-Y) World 3.4 3.4 3.1 G7 1.7 1.5 1.6 India’s economic outlook, in contrast, remains relatively more resilient. The IMF has estimated India’s real GDP growth at 7.6 per cent for 2025-26 and 6.5 per cent for...
+Q14|GDP AND investment|boolean_and|rank5|D02_P029_UNKNOWN_PAR002|D02|p29|sec UNKNOWN|paragraph
+   TEXT: ...health and personal needs. Some view it as a return for their unpaid contribution to the GDP.32 However, their rapid scale-up and persistence raise concerns about fiscal sustainability and medium-term growth, particularly when not complemented by investments in employment, skills, and human capital. Reports...
+Q14|GDP AND investment|boolean_and|rank6|D03_P041_SEC_3_73_PAR003|D03|p41|sec 3.73|paragraph
+   TEXT: ...a’s corporate bond market remains underdeveloped, accounting for around 16-17 per cent of GDP, compared with the equity market capitalisation of over 130 per cent of GDP. This is substantially lower than in major peer economies, such as the United States and China, where corporate bond markets constitute appr...
+Q14|GDP AND investment|boolean_and|rank7|D01_P003_SEC_1_2_PAR002|D01|p3|sec 1.2|paragraph
+   TEXT: ...sinesses on equipment and software to facilitate AI use, has accounted for nearly half of GDP growth in recent quarters, helping to mitigate the negative effects of trade tariffs on growth.1 This strong growth has been accompanied by inflation remaining stubbornly above the 2 per cent target and a rising unem...
+Q14|GDP AND investment|boolean_and|rank8|D02_P026_SEC_2_40_PAR002|D02|p26|sec 2.40|paragraph
+   TEXT: ...the revenue account. The overall capital outlay of States increased from 2.17 per cent of GDP in FY22 to 2.37 per cent in FY25(PA); however, excluding SASCI-linked capital spending, States’ capex declined from 2.11 per cent to 1.92 per cent of GDP over the same period. The scheme has therefore helped States a...
+Q14|GDP AND investment|boolean_and|rank9|D08_BOX011|D08|p24|sec 8.47|box
+   TEXT: ...ing R&D expenditure intensity. India's Gross Expenditure on R&D (GERD) as a percentage of GDP stands at a modest 0.64 per cent, substantially below the global average. Leading economies, such as the US (3.48 per cent), China (2.43 per cent), and South Korea (4.91 per cent), invest significantly more. 8.49. Lo...
+Q14|GDP AND investment|boolean_and|rank10|D08_BOX017|D08|p31|sec 8.57|box
+   TEXT: ...eater Bay Area, for example, generates 35 per cent of national exports and 11 per cent of GDP while occupying less than 1 per cent of land. Vietnam’s two key economic regions contribute nearly two-thirds of GDP and trade within just 11 per cent of its land area. These examples highlight a consistent pattern:...
+Q15|(GDP OR GVA) AND policy|boolean_group|rank1|D02_P004_SEC_2_6_PAR001|D02|p4|sec 2.6|paragraph
+   TEXT: 2.6 Revenue receipts increased from an average of about 8.5 per cent of GDP during the pre-pandemic period (FY16-FY20) to around 9.1 per cent of GDP in the post-pandemic period (FY22-FY25 PA).3 This improvement was driven primarily by higher gross tax revenue, which rose from an average of 1...
+Q15|(GDP OR GVA) AND policy|boolean_group|rank2|D03_P047_SEC_3_85_PAR006|D03|p47|sec 3.85|paragraph
+   TEXT: ...tal cost in the long run are given by the current account balance (CAB as a percentage of GDP), government debt (as a share of GDP), the extent of financial deepening measured by credit to the private sector (as a percentage of GDP), and GDP growth. Further, short-run interest rates are used to capture synchr...
+Q15|(GDP OR GVA) AND policy|boolean_group|rank3|D02_P034_UNKNOWN_PAR002|D02|p34|sec UNKNOWN|paragraph
+   TEXT: ...after debt and/or deficit ratios come meaningfully closer to 50 per cent or 3 per cent of GDP, respectively.
+Q15|(GDP OR GVA) AND policy|boolean_group|rank4|D05_P001_UNKNOWN_PAR002|D05|p1|sec UNKNOWN|paragraph
+   TEXT: ...s. India stands out for achieving a sharp decline in headline inflation, alongside robust GDP growth, reflecting strong macroeconomic fundamentals and effective monetary policy.
+Q15|(GDP OR GVA) AND policy|boolean_group|rank5|D07_P011_SEC_7_17_PAR001|D07|p11|sec 7.17|paragraph
+   TEXT: ...me a central pillar of India’s external sector and a key driver of growth. Their share in GDP averaged 9.7 per cent during FY23-FY25,9 up from 7.4 per cent in the pre-pandemic period (Chart VII.10a). Amid subdued global goods trade due to policy uncertainty and geopolitical disruptions, services exports have...
+Q15|(GDP OR GVA) AND policy|boolean_group|rank6|D12_P007_SEC_12_12_PAR001|D12|p7|sec 12.12|paragraph
+   TEXT: ...ipation to around 55 per cent by the 2050 could be critical for maintaining a high annual GDP growth trajectory.22 While women’s participation in paid work is rising slowly, the imbalance underscores the need for policies that promote shared domestic responsibilities and better care infrastructure. Box XII.2...
+Q15|(GDP OR GVA) AND policy|boolean_group|rank7|D01_P031_SEC_1_46_PAR001|D01|p31|sec 1.46|paragraph
+   TEXT: ...ins broadly even. Taking these considerations together, the Economic Survey projects real GDP growth in FY27 in the range of 6.8 to 7.2 per cent. The outlook, therefore, is one of steady growth amid global uncertainty, requiring caution, but not pessimism.
+Q15|(GDP OR GVA) AND policy|boolean_group|rank8|D02_BOX019|D02|p39|sec UNKNOWN|box
+   TEXT: ...n (1998)49. Using over a century of U.S. data, Bohn showed that if the primary surplus-to-GDP ratio rises systematically with the lagged debt-to-GDP ratio (β > 0), fiscal policy is sustainable regardless of whether interest rate (r) > nominal GDP growth (g). This insight shifted the focus from arbitrary debt...
+Q15|(GDP OR GVA) AND policy|boolean_group|rank9|D02_P003_SEC_2_3_PAR001|D02|p3|sec 2.3|paragraph
+   TEXT: ...22 articulated a medium-term glide path, targeting a fiscal deficit below 4.5 per cent of GDP by FY26, instead of binding annual targets, to ensure that growth-enhancing expenditure, particularly capex, was not compromised.
+Q15|(GDP OR GVA) AND policy|boolean_group|rank10|D02_P034_UNKNOWN_PAR001|D02|p34|sec UNKNOWN|paragraph
+   TEXT: ...nunciated in 2003 as the FRBM Act, and commit to a fiscal deficit target of 3 per cent of GDP for the Central Government. While it appears prima facie appropriate, in the highly uncertain current global environment, it is important to retain greater policy freedom and commit to targets that the government can...

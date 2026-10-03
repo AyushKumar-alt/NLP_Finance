@@ -1,0 +1,15 @@
+rule_id,rule,status,detail,evidence
+V01,Phase 1 structured corpus loaded successfully (documents > 0 and units > 0),PASS,"31 documents, 885 pages, 8104 units",C:\Users\user\Downloads\NLP document\NLP_Domain_Text_Analysis\data\corpus\structured\corpus.jsonl
+V02,every unit keeps document_id / page_id / section_id / unit_id traceability,PASS,8104/8104 units fully traceable,no missing provenance
+V03,no token / n-gram count is negative,PASS,checked 4 tokenizers and 5 n-gram sizes,all counts >= 0
+V04,vocabulary size <= unique tokens <= total tokens for every method,PASS,"checked nltk:18080/27497/349891, custom:18684/27422/346276, spacy:15942/25002/366035, hybrid:19519/28112/344722",ordering holds for all methods
+V05,every required Phase 2 output file exists,PASS,50/50 files present,all required artefacts written
+V06,every output CSV can be opened and has a header row,PASS,54/54 CSV files readable,all CSVs parse cleanly
+V07,every output JSON file is valid JSON,PASS,4/4 JSON files valid,all JSON parses cleanly
+V08,n-gram counts are positive and unique <= total for every n,PASS,"n=1: 24452/344722, n=2: 157151/338717, n=3: 268828/332716, n=4: 303942/326715, n=5: 310349/320715",all n-gram tables consistent
+V09,a trained BPE vocabulary and persisted model exist,PASS,vocabulary entries: 8000; corpus BPE tokens: 469401,"vocab csv: True, model dir: True"
+V10,no experiment silently processed an empty corpus,PASS,5 experiment tables checked,every experiment produced rows
+V11,no source PDF was modified (SHA-256 re-verified against the Phase 1 registry),PASS,0/0 PDF hashes match the Phase 1 registry,source PDFs byte-identical to Phase 1 ingestion
+V12,no accuracy/precision/recall/F1 value is reported without an evaluation sample size,PASS,POS metrics are computed only on the manually annotated gold subset,every reported score carries its sample size
+V13,POS/NER evaluation is backed by a persisted manual annotation file (no invented ground truth),PASS,gold POS file: 412 manually annotated tokens in 30 sentences,pos_gold_annotations.csv present
+V14,example tables retain document_id / page_number / unit_id traceability,PASS,3 example tables checked,all example tables are traceable

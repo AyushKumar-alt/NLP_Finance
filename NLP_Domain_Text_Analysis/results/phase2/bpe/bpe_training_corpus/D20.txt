@@ -1,0 +1,236 @@
+Geopolitical shocks and policy pivots originating in the  United States have historically cast a long shadow over  global economic sentiment. Measuring this shadow has  been made possible by WUI and the World Uncertainty  Spillover Index - United States (WUSI-USA)1, both derived  from the frequency of uncertainty-related language  in Economist Intelligence Unit (EIU) country reports  across 142 economies. The data from 1996Q1 to 2026Q1  reveals a striking discontinuity: the current episode  of US-generated uncertainty is not merely acute, but  uniquely persistent; and for India, the spillover has been  unlike anything witnessed over the past three decades. century, with the US share in overall uncertainty rising  sharply, such surges were episodic and short-lived. The  COVID-19 shock, though it propelled overall uncertainty  to 49,821 (the then-highest on record), was primarily a  global phenomenon and the US-specific share remained  modest. The current episode is categorically different. Beginning  in 2025Q1, both overall and US-specific uncertainty  have risen in tandem and to heights not seen before. By  2025Q3, overall uncertainty had surged to about 50 per  cent above the COVID-era peak, with the US contributing  roughly 25 per cent for four consecutive quarters  spanning 2025Q2 to 2026Q1. The primary drivers have  been the sweeping tariff regime announced by the US  and the escalating Iran-US tensions, each feeding a  sustained repricing of global risk. This marks the first  time since the pandemic that world uncertainty has  risen sharply, but unlike 2020, the uncertainty is clearly  flowing from the US. I. The United States as a Driver of Global Uncertainty Chart 1 plots the GDP-weighted WUI (overall uncertainty)  and the US-related component alongside their ratio (a  proxy for the US share in world uncertainty). Through  much of the late 1990s, the US contribution was  negligible. Though this changed post the onset of 21st
+The financial year 2025-26 was defined by a series of high-impact global events that fundamentally altered the trajectory of the global economy. The year began in the shadow of the US trade tariff regime that had intensified through the year, with the United States having imposed sweeping reciprocal import duties across a wide range of trading partners. While some diplomatic engagements during the year (including a US Supreme Court ruling that curtailed certain IEEPA-based tariffs) moderated the most extreme measures, the underlying uncertainty around trade policy persisted through much of the first three quarters. Global supply chains, which were still recalibrating from the pandemic-era dislocations,
+These developments were clearly reflected in global uncertainty indices, as captured in Chart 2.1. Both
+faced renewed pressure as trade flows became uncertain and capital redirected away from trade- exposed sectors. The net effect was a discernible softening of global growth momentum as the first half of the year progressed.
+This Chapter analyses the economic and investment environment in India and presents their comparison with advanced as well as some peer emerging market economies during the financial year 2025-26. The year was marked by an extraordinary convergence of geopolitical, macroeconomic, and financial market developments that collectively reshaped global economic expectations and capital allocation decisions.
+The most decisive event of the year, however, unfolded in the latter part of 2025-26 with the outbreak of armed conflict in the Middle East in late February 2026. The conflict led to the near-closure of the Strait of Hormuz - the world’s most critical energy transit chokepoint through which roughly one-quarter of global oil supply and about one-fifth of global liquefied natural gas (LNG) trade normally transit. This triggered what the International Energy Agency described as the largest supply disruption in the history of the global oil market. Brent crude prices surged above USD 100 per barrel, European gas prices jumped by roughly 60 per cent, and cascading price pressures spread across fertilisers, aluminium, and food supply chains. A ceasefire was announced in early April 2026, providing partial relief, though normalisation of supply through the Strait was still incomplete at the close of the financial year.
+the Trade Policy Uncertainty (TPU) index and the Economic Policy Uncertainty (EPU) index climbed sharply during H1 of the fiscal on account of trade tariff confrontations, while the Geopolitical Risk Index (GPR) surged following the Middle East war outbreak, to levels comparable to that of Russia- Ukraine conflict. The interplay between trade policy
+anxiety during the first half and geopolitical risk in the second half created a sustained environment of uncertainty. The World Uncertainty Index (WUI) surged to unprecedented highs, surpassing even the peaks recorded during the height of the COVID-19 pandemic (Box 2.1).
+On the inflation front, 2025-26 was a landmark year for India. Consumer Price Index (CPI) inflation followed a sharply declining path, averaging approximately 2.1 per cent for the full year - its lowest level in several years. Headline inflation touched a historic low of 0.25 per cent in October 2025, driven by a sustained decline in food prices. This prolonged disinflation was supported by good monsoons, higher agricultural output, easing supply chains, and GST rate rationalisation from September 2025. The Reserve Bank of India (RBI), responding to the benign inflation environment, undertook a cumulative 125 basis point reduction in the repo rate over the course of the year beginning February 2025 (100 basis point during the fiscal), taking the policy rate to 5.25 per cent by March 2026. CPI inflation for 2025-26 was well below RBI’s medium-term target of 4 per cent, creating significant policy space for pro-growth measures. However, the outbreak of the Middle East conflict raised concerns about potential upside risks to energy and food prices in the near term, adding an element of uncertainty to the inflation trajectory.
+the broader global backdrop was marked by trade tensions and a sharp deterioration in geopolitical conditions in the fourth quarter, India’s growth remained anchored to its structural domestic drivers: private consumption, sustained government capital expenditure, and a vibrant services sector, insulating the economy, to a significant degree, from the full force of external headwinds.
+According to the provisional estimates released by the National Statistics Office (NSO) under the new GDP series with base year 2022-23, real GDP growth for 2025-26 is estimated at 7.7 per cent, representing a notable acceleration from 7.1 per cent recorded in 2024-25. This makes India one of the fastest- growing major economies in the world. Nominal GDP for the year was projected to reach ₹346 lakh crore, growing at 8.9 per cent.
+The secondary sector (growing at 8.8 per cent, at constant prices) and the tertiary sector (at 9.3 per cent) were the primary growth engines, while the primary sector moderated to 3.2 per cent. Manufacturing emerged as a standout performer, recording double-digit growth for the second time in three years. Private Final Consumption Expenditure (PFCE) and Gross Fixed Capital Formation (GFCF) accounted for 56.7 per cent and 31.9 per cent share in nominal GDP respectively, reflecting healthy consumption demand and sustained investment activity.
+The global economic outlook heading into 2026-27 is characterised by heightened uncertainty and material downside risk, dominated by the course of the Middle East conflict. Under the IMF’s reference
+forecast, which assumes hostilities remain limited in scope and that the most acute phase of supply disruptions fades by mid-2026, global growth is projected at 3.1 per cent in 2026 and 3.2 per cent in 2027 (Table 2.1), below the long-run historical average of 3.7 per cent for 2000-2019. These projections remain contingent on the ceasefire announced on April 7, 2026, holding and on shipping through the Strait of Hormuz progressively returning to pre-war levels. The IMF has noted that risks are decisively tilted to the downside: a prolonged conflict, deeper
+geopolitical fragmentation, or renewed trade tensions could weaken growth significantly.
+For emerging market and developing economies (EMDE), the impact is expected to be disproportionately severe. The IMF has forecast EMDE growth at 3.9 per cent for 2026, revised down from the pre-conflict estimate of 4.2 per cent. Economies heavily reliant on energy imports face a double burden of higher input costs and weaker external demand, while those with limited fiscal buffers face compounded vulnerabilities. The Financial Stability Board has also flagged risks to global financial stability from rising market volatility, stretched asset valuations, and tighter financial conditions that could amplify the shock across sovereign bond and credit markets.
+The interplay between these two forces: trade policy overhang in the first half and geopolitical energy disruption in the second, produced a year of striking inter-market divergences. Extraordinary gains in AI and semiconductor-linked equity markets contrasted with significant losses in energy- importing EM equities; gold and energy assets reached multi-year or all-time highs while most fixed income markets saw elevated yield volatility; and the US dollar’s moderate decline over the year masked sharp cross-currency movements in the second half.
+of rate cutting cycles by central banks, resilient technology earnings, and fiscal stimulus across several economies. Fixed income markets, in turn, reflected a gradual recalibration, with yields in most advanced economies declining modestly in response to monetary easing expectations, even as concerns about elevated fiscal deficits in the United States kept long-duration yield spreads from compressing sharply.
+The second phase (from January-March 2026) was defined by the acute geopolitical shock from the Middle East war, which sent energy prices soaring, triggered a broad-based flight to safety, and prompted central banks to pause their easing cycles as inflation risks re-emerged. This led to a sharp repricing of risk across equities, bonds, currencies, and commodities, and fundamentally altered the near-term investment outlook across asset classes.
+Global equity markets delivered highly divergent returns in 2025-26, with the bifurcation between the first and second halves of the year starkly apparent. The first half (H1: 2025-26, April to September
+2025) was characterised by broad-based gains across emerging and developed market indices alike, driven by easing monetary policy, improving corporate earnings expectations, and a resilient technology sector. MSCI World and MSCI EM indices both advanced meaningfully in H1, before the second half saw conditions reverse sharply on account of geopolitical tensions and elevated energy prices.
+gains of 9 per cent and 7 per cent respectively, with European equity markets broadly supported in H1 by fiscal stimulus and infrastructure investment plans, but pressured in H2 by the energy shock, given Europe’s significant dependence on Gulf LNG and oil. Hong Kong closed the year up 6 per cent, having experienced a sharp H2 sell-off of 8.4 per cent, reversing its earlier 16 per cent H1 gain.
+As depicted in Chart 2.4, returns across major global equity markets in 2025-26 reflected this pattern. South Korean equities led global markets with a remarkable full-year return of 99 per cent in US dollar terms, driven by a AI-driven boom in the semiconductor sector, strong exports, and recovery in consumer electronics. Taiwan followed with a 60 per cent return, similarly benefiting from the global technology boom and robust semiconductor demand, though the index did experience volatility in the second half. Brazilian equities gained 58 per cent, supported by commodity price gains in the latter part of the year as the Middle East conflict elevated oil and metal prices. South African equities also benefited from commodity tailwinds, rising 39 per cent. Japan’s Nikkei posted a 35 per cent gain, supported by continued structural reforms.
+Indian equity markets had a particularly challenging year. The Nifty 50 and broader Indian equity indices declined approximately 14 per cent in US dollar terms over 2025-26 on a full-year basis, with H2 performance a sharp -14.6 per cent contrasting with a modest 1 per cent gain in H1. The underperformance was attributable to a confluence of factors: sustained FPI selling pressure throughout much of the year, a weakening rupee that eroded dollar-denominated returns, valuation concerns given India’s elevated price-to-earnings multiples, slowdown in corporate earnings growth, and the shock from the Middle East conflict in the fourth quarter. Despite the headline weakness, domestic institutional investors (DIIs) provided a significant buffer, with domestic mutual fund SIP flows remaining robust and partially offsetting FPI outflows.
+Among major markets, the United States equity market gained 10 per cent over the full year in dollar terms, having given up a significant portion of its H1 gains in the face of the Middle East-driven sell-off. Germany and France experienced modest
+of expectations, though India continued to trade at a premium to the broader MSCI EM universe.
+significant correction in H2 following the outbreak of Middle East hostilities. MSCI EM underperformed MSCI World for much of the second half, reflecting the asymmetric impact of higher energy costs on energy-importing emerging economies.
+The 10-year US Treasury yield ended 2025-26 at 4.3 per cent, broadly similar to the level at the close of 2024-25 (Table 2.2). However, the within-year trajectory was non-linear: the yield declined from a Q1 average of 4.4 per cent to 4.1 per cent in Q3, as Federal Reserve rate cuts and improving inflation data supported prices, before rising to an average of 4.2 per cent in Q4 as Middle East-driven energy inflation expectations, safe-haven demand, and fiscal concerns created cross-currents. German 10-
+Forward price-to-earnings (P/E) ratios across major MSCI indices, shown in Chart 2.6, moderated during the year relative to their March 2025 levels as equity markets corrected, particularly in the second half. MSCI US equities continued trading at elevated forward PEs. MSCI India’s forward PE moderated from its elevated March 2025 levels as the market corrected and relative earnings delivery fell short
+3
+6
+year Bund yields rose from 2.7 per cent at end March 2025 to 3.0 per cent by end-March 2026, as European energy vulnerability from the Gulf crisis re-elevated fiscal risk premiums and tempered the ECB’s easing ambitions. UK Gilts also moved higher, with the 10- year yield rising from 4.7 per cent to 4.9 per cent, reflecting persistent domestic inflation concerns and fiscal pressures. Japan, which had been gradually exiting its ultra-accommodative monetary policy regime, saw its 10-year yield rise from 1.5 per cent to 2.4 per cent, as the Bank of Japan continued its normalisation path despite global headwinds.
+cent at end-March 2025, averaging 6.3 per cent in Q1, 6.4 per cent in Q2, and 6.5 per cent in Q3. However, Q4 saw a reversal: the yield rose to an average of 6.7 per cent in Q4 and ended the year at 7.0 per cent, driven by energy-led inflationary concerns from the Middle East conflict, rising global yield benchmarks, concerns about India’s current account trajectory from elevated oil prices, and some FPI selling in the debt segment.
+In the foreign exchange market, the US Dollar Index experienced a notable downward trend, characterized by significant volatility (Chart 2.8). The Dollar index faced steep declines during the H1 of the fiscal, hitting multi-year lows before stabilizing during the latter part of the year on the back of a brief safe-haven surge following the outbreak of Middle East hostilities in late February 2026.
+Among BRICS economies, Brazil’s 10-year yield declined from 15.1 per cent at end-March 2025 to 14.0 per cent by end-March 2026, with the compression reflecting improved fiscal credibility and commodity windfall revenues. China’s 10-year yield remained effectively flat at 1.8 per cent at both ends of the year, constrained at low levels by deflationary pressures and policy support measures. South Africa’s benchmark yield declined notably from 10.6 per cent to 9.3 per cent, supported by improved fiscal management and resilient commodity export revenues.
+During 2025-26, the rupee depreciated the most among the basket, by approximately 9 per cent. The rupee started the financial year at approximately ₹85 per US dollar and progressively weakened: it moved into the ₹86-88 range through August- October 2025, breached ₹90 per dollar in December 2025 amid sharp FPI outflows and trade deadlock with the US, and closed the fiscal at ₹94.8 per dollar.
+India’s 10-year G-Sec yield followed a noteworthy trajectory over the year, as depicted in Chart 2.7. Underpinned by the RBI’s cumulative 100 basis point rate cut and a materially benign domestic inflation environment, the yield eased steadily from 6.6 per
+US 10 year G-Sec yield India 10 year G-Sec yield-RHS
+The rupee’s depreciation reflected a combination of factors: imposition of trade tariffs by the US, persistent FPI equity outflows reducing dollar supply, India’s large oil import dependence making it particularly vulnerable to the energy price surge in Q4, and the broader risk-off global environment that channelled capital toward perceived safe-haven assets.
+H2, resulting in net outflows of USD 36 billion and USD 8 billion from South Korea and Taiwan equity markets for the fiscal. On the other hand, China’s equity market recorded a whopping net FPI inflow of USD 130 billion during 2025-26, notwithstanding USD 64 billion net outflows in March 2026 following the outbreak of war in the Middle East.
+In the debt segment, FPI flows into India were more resilient in the first three quarters, supported by India’s ongoing integration into the JPMorgan EM Bond Index and anticipation of potential Bloomberg Global Aggregate Index inclusion. Flows moderated as the fiscal year came to close, with the Middle East conflict raising concerns about India’s fiscal and current account trajectory. The benchmark 10-year G-Sec yield’s rise to 7.0 per cent by year-end also tempered enthusiasm for Indian debt among some global investors.
+India’s outflows, while significant, were cushioned by the counterbalancing strength of DIIs, who deployed record capital into Indian equities during the year, with domestic mutual funds providing a vital stabilising force during periods of FPI-led selling.
+Looking ahead, tighter global financial conditions from the Middle East conflict are expected to continue placing downward pressure on portfolio flows to emerging markets. Nevertheless, the structural reconfiguration of global trade and supply chains is expected to create new investment opportunities in select emerging economies including India. A sustained resolution of the Middle East conflict and normalisation of energy prices would likely be the most significant near-term catalyst for a recovery in FPI flows to India.
+and precious metals began ascending from the very outset of the financial year, supported by global trade uncertainty, steady central bank gold accumulation, and unprecedented ETF inflows into gold and silver.
+Global commodity markets in 2025-26 experienced one of their most turbulent years in recent memory, shaped decisively by the geopolitical shock of the Middle East war that erupted in late February 2026. The year began on a relatively subdued note, with commodity prices continuing their broad-based easing trend from the previous year, supported by moderating global demand, ample supply in most agricultural segments, and the ongoing rebalancing of energy markets. However, the outbreak of conflict in the Middle East, and the near-closure of the Strait of Hormuz, triggered a historically significant commodity price shock that reversed these trends sharply, sending energy and several industrial and precious metals prices to multi-year or all-time highs.
+The energy market witnessed a dramatic transformation in Q4 of 2025-26. Prior to the Middle East conflict, Brent crude oil had remained in the USD 64-69 per barrel range through much of 2025. Following Iran’s effective closure of the Strait of Hormuz in late February 2026, Brent crude surged above USD 100 per barrel, registering its largest single-month price increase on record. The disruption amounted to the largest oil supply loss in the history of the global oil market according to the International Energy Agency, with initial production losses exceeding 10 million barrels per day. A partial ceasefire in early April 2026 provided some stabilisation, but prices remained more than 50 per cent above their start-of-year levels. The World Bank’s Commodity Markets Outlook of April 2026 projected Brent to average USD 86 per barrel for full year 2026, significantly above the USD 69 per barrel average of 2025, with upside scenarios envisaging prices as high as USD 115 per barrel if disruptions proved more severe or prolonged.
+As shown in Chart 2.10, the S&P GSCI Composite Commodity Index experienced distinct phases during the year. The first three quarters (April to December 2025) witnessed broadly stable to moderately declining commodity prices, with the energy sub-index under pressure from weakening global oil demand expectations and ample OPEC+ supply. Industrial metals, however, performed strongly, driven by structural demand from the energy transition, electric vehicle adoption, and data centre build-outs. The agricultural index remained relatively soft, reflecting improved global harvest conditions and easing supply chain pressures. Gold
+Natural gas prices also surged dramatically in the wake of the conflict. Strikes on critical gas fields triggered sharp jump in European gas prices by approximately 60 per cent as European economies, which relied heavily on LNG imports, scrambled to secure alternative supplies.
+In metals, the World Bank April 2026 Commodity Markets Outlook projected average metal and mineral prices to rise 17 per cent in 2026. Base metal prices, including aluminium, copper, and tin, were expected to reach all-time highs, driven by the structural demand pull from data centres, electric vehicles, and renewable energy infrastructure, compounded by supply disruptions affecting the Gulf region’s aluminium and petrochemical output.
+sharp drop in beverage prices (around -30 per cent) more than offsetting a modest 2 per cent increase in food prices. The food price stability was, however, conditional on fertiliser supply disruptions not intensifying through the planting season. The United Nations World Food Programme estimated that if crude oil remained above USD 100 per barrel for an extended period, up to 45 million additional people could face acute food insecurity, underscoring the severe human dimension of the commodity market disruptions.
+The World Bank’s April 2026 report characterised 2026 as potentially the most volatile year for commodity markets in over 50 years, carrying significant inflationary and growth implications for the global economy. For India, the commodity market developments presented a dual challenge: as a significant net importer of crude oil, higher energy prices elevate the import bill and widen the current account deficit, while posing upside risks to fuel and food inflation. The effective management of these imported commodity price pressures, through strategic petroleum reserve utilisation, import diversification, and targeted fiscal support, will be central to sustaining India’s macroeconomic stability in the period ahead.
+Parameter/Countries
+2024
+2025
+2026*
+Real GDP growth (Y-o-Y)
+World
+3.4
+3.4
+3.1
+G7 
+1.7
+1.5
+1.6
+India’s economic outlook, in contrast, remains 
+relatively more resilient. The IMF has estimated 
+India’s real GDP growth at 7.6 per cent for 2025-26 
+and 6.5 per cent for 2026-27 under its reference 
+forecast. The RBI has projected growth of 6.6 per 
+cent for 2026-27, CPI inflation at 5.1 per cent, and core 
+inflation at 4.7 per cent. While the Middle East Conflict 
+introduces near-term risks through higher energy 
+import costs, India being a significant net oil importer, 
+the overall macroeconomic framework remains 
+sound. India’s adherence to a fiscal consolidation 
+path, improving inflation dynamics, strengthened 
+corporate balance sheets, and resilient domestic 
+institutional investment are factors expected to 
+support continued outperformance relative to global 
+peers. However, a prolonged conflict that sustains 
+elevated crude oil prices above USD 100 per barrel 
+would increase the current account deficit and 
+import-led inflationary pressures, warranting close 
+monitoring.
+Brazil
+3.4
+2.3
+1.9
+China
+5.0
+5.0
+4.4
+India
+7.1
+7.6
+6.5
+Russia
+4.9
+1.0
+1.1
+South Africa
+0.5
+1.1
+1.0
+Gross national savings, per cent of GDP
+World
+26.4
+26.1
+26.2
+G7
+19.7
+19.8
+20.2
+Brazil
+14.0
+13.8
+14.1
+China
+42.8
+42.5
+42.3
+India
+33.7
+32.9
+31.9
+Russia
+29.4
+28.0
+28.9
+South Africa
+13.4
+13.3
+12.6
+Gross capital formation, per cent of GDP
+World
+26.2
+25.8
+25.9
+G7
+22.0
+21.9
+22.0
+Brazil
+17.0
+16.8
+16.8
+China
+40.6
+38.8
+38.8
+India
+34.3
+33.9
+34.0
+2.2 SECURITIES MARKET
+Russia
+26.5
+26.4
+25.9
+South Africa
+14.1
+13.9
+13.5
+Global securities markets during 2025-26 navigated 
+two distinct phases, each characterised by a 
+different dominant risk. The first phase (broadly 
+covering April through December 2025) saw global 
+equity markets adapt to the trade tariff environment, 
+finding support in cooling inflation, the initiation
+Country
+Yield as on 
+Average yield during 2025-26
+March 31, 2026
+March 31, 2025
+Q1
+Q2
+Q3
+Q4
+Select G7 Countries
+Germany
+3.0
+2.7
+2.6
+2.7
+2.7
+2.9
+Japan
+2.4
+1.5
+1.4
+1.6
+1.8
+2.2
+UK
+4.9
+4.7
+4.6
+4.6
+4.5
+4.5
+US
+4.3
+4.2
+4.4
+4.3
+4.1
+4.2
+BRICS*
+Brazil
+14.0
+15.1
+14.2
+13.9
+13.7
+13.8
+China
+1.8
+1.8
+1.7
+1.7
+1.8
+1.8
+India
+7.0
+6.6
+6.3
+6.4
+6.5
+6.7
+South Africa
+9.3
+10.6
+10.5
+9.6
+8.7
+8.4

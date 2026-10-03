@@ -1,0 +1,16 @@
+category,pattern,description
+fiscal_year_range,"\bFY\s*\d{2,4}\s*[-/\u2013\u2014]\s*\d{2,4}\b",fiscal year range with FY prefix (FY2025-26)
+fiscal_year,"\bFY\s*\d{2,4}\b","fiscal year with FY prefix (FY26, FY 2025)"
+year_range,"\b(?:19|20)\d{2}\s*[-/\u2013\u2014]\s*\d{2,4}\b",bare year range (2024-25)
+quarter,"\bQ[1-4]\s*(?:FY\s*\d{2,4}|'?\d{2,4})?|\b[1-4](?:st|nd|rd|th)\s+quarter\b",fiscal quarter (Q1 FY26)
+day_month_year,"\b\d{1,2}\s*(?:of\s+)?(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sept|Sep|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}\b",numeric day-month-year date (31 March 2026)
+month_year,\b(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sept|Sep|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}\b,month and year (January 2026)
+day_month,"\b\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sept|Sep|Oct|Nov|Dec)[a-z]*\b",day and month (31 March)
+slash_date,"\b\d{1,2}\s*/\s*\d{1,2}\s*/\s*\d{2,4}\b|\b(?:19|20)\d{2}\s*/\s*\d{2,4}\b","numerically written date (31/03/2026, 2025/26)"
+year,\b(?:19|20)\d{2}\b,bare calendar year (2025)
+percentage,"[+-]?\d[\d,]*(?:\.\d+)?\s*(?:per\s+cent|percent|pct\.?|%)","percentage, symbol or written out (7.4%, 7.4 per cent)"
+currency_amount,"(?:\u20b9|US\s?\$|US\$|Rs\.?|INR|USD|\$|\u20ac|EUR|GBP|\u00a3)\s*\d[\d,]*(?:\.\d+)?\s*(?:(?:lakh\s+crore|trillion|billion|million|crore|lakh|thousand|bn|mn))?","currency-marked amount (Rs 1.25 lakh crore, US$ 2.5 billion)"
+scaled_magnitude,"\b\d[\d,]*(?:\.\d+)?\s+(?:lakh\s+crore|trillion|billion|million|crore|lakh|thousand|bn|mn)\b","magnitude with a scale word (5 lakh crore, 3.2 million)"
+grouped_number,"\b\d{1,3}(?:,\d{2,3})+(?:\.\d+)?\b","digit-grouped number (1,25,000)"
+decimal_number,[+-]?\d+\.\d+,decimal number (7.4)
+integer,[+-]?\d+,integer (250)

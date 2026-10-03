@@ -1,0 +1,803 @@
+{
+  "phase": 3,
+  "final_pipeline": "pipeline_b",
+  "final_pipeline_name": "Pipeline B - stemming then stopword removal",
+  "selection": {
+    "final_pipeline": "pipeline_b",
+    "final_pipeline_name": "Pipeline B - stemming then stopword removal",
+    "score": 0.827162,
+    "margin_over_runner_up": 0.041666,
+    "reason": "Pipeline B - stemming then stopword removal wins on the weighted score (0.8272 vs 0.7855, margin +0.0417). Decomposition: financial_expression_preservation 3048/3792 = 0.8038 x0.35 = 0.2813; domain_term_recall 101/101 = 1.0000 x0.25 = 0.2500; variant_collapse_rate 7/12 = 0.5833 x0.25 = 0.1458; query_answerability 15/15 = 1.0000 x0.15 = 0.1500. The two pipelines are equal on 3 of 4 criteria; the margin comes from variant_collapse_rate (7/12 = 0.5833 vs 5/12 = 0.4167, +0.1667 x0.25 = +0.0417).",
+    "criteria_weights": {
+      "financial_expression_preservation": 0.35,
+      "domain_term_recall": 0.25,
+      "variant_collapse_rate": 0.25,
+      "query_answerability": 0.15
+    },
+    "tie_breakers": [
+      "smaller index vocabulary",
+      "fewer index terms per posting",
+      "lexicographically first pipeline name"
+    ],
+    "excluded_from_score": [
+      "processing_time_seconds"
+    ],
+    "scores": {
+      "pipeline_a": {
+        "pipeline_name": "Pipeline A - domain-aware stopwords then lemmatization",
+        "total_score": 0.785496,
+        "criteria": {
+          "financial_expression_preservation": {
+            "rate": 0.803797,
+            "weight": 0.35,
+            "weighted": 0.281329,
+            "numerator": 3048,
+            "denominator": 3792
+          },
+          "domain_term_recall": {
+            "rate": 1.0,
+            "weight": 0.25,
+            "weighted": 0.25,
+            "numerator": 101,
+            "denominator": 101
+          },
+          "variant_collapse_rate": {
+            "rate": 0.416667,
+            "weight": 0.25,
+            "weighted": 0.104167,
+            "numerator": 5,
+            "denominator": 12
+          },
+          "query_answerability": {
+            "rate": 1.0,
+            "weight": 0.15,
+            "weighted": 0.15,
+            "numerator": 15,
+            "denominator": 15
+          }
+        },
+        "index_terms": 22552,
+        "total_postings": 186189,
+        "processing_time_seconds": 12.616
+      },
+      "pipeline_b": {
+        "pipeline_name": "Pipeline B - stemming then stopword removal",
+        "total_score": 0.827162,
+        "criteria": {
+          "financial_expression_preservation": {
+            "rate": 0.803797,
+            "weight": 0.35,
+            "weighted": 0.281329,
+            "numerator": 3048,
+            "denominator": 3792
+          },
+          "domain_term_recall": {
+            "rate": 1.0,
+            "weight": 0.25,
+            "weighted": 0.25,
+            "numerator": 101,
+            "denominator": 101
+          },
+          "variant_collapse_rate": {
+            "rate": 0.583333,
+            "weight": 0.25,
+            "weighted": 0.145833,
+            "numerator": 7,
+            "denominator": 12
+          },
+          "query_answerability": {
+            "rate": 1.0,
+            "weight": 0.15,
+            "weighted": 0.15,
+            "numerator": 15,
+            "denominator": 15
+          }
+        },
+        "index_terms": 21305,
+        "total_postings": 191817,
+        "processing_time_seconds": 21.636
+      }
+    }
+  },
+  "inputs": {
+    "phase1_corpus": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\data\\corpus\\structured\\corpus.jsonl",
+    "phase2_config": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\config\\phase2_config.yaml",
+    "phase2_files_read": [
+      "phase2_config",
+      "phase2_results_dir",
+      "phase2_tokenization_comparison",
+      "phase2_stopword_comparison",
+      "phase2_stemming_comparison",
+      "phase2_order_comparison",
+      "phase2_lemmatization_comparison",
+      "phase2_date_number_comparison",
+      "phase2_pos_comparison",
+      "phase2_ngram_summary",
+      "phase2_ngrams_dir",
+      "phase2_domain_phrases",
+      "phase2_ner_entities",
+      "phase2_domain_entities",
+      "phase2_validation_report"
+    ],
+    "phase2_evidence": [
+      "Phase 2 tokenization: hybrid produced 344722 tokens (fewest of the four methods) and kept 2258 percentage tokens against NLTK's 361 (tokenization/tokenization_comparison.csv)",
+      "Phase 2 tokenization: hybrid kept 1805 fiscal-year tokens against spaCy's 659 (tokenization/tokenization_comparison.csv)",
+      "Phase 2 tokenization: the custom rule tokenizer detected 2170 percentage tokens against NLTK's 361 (tokenization/tokenization_comparison.csv)",
+      "Phase 2 date/number experiment: 49926 typed financial expressions were detected but only 6413 (12.85%) survived standard tokenization intact (tokenization/date_number_comparison.csv)",
+      "Phase 2 stopwords: standard list removed 103444 tokens (30.01%), domain-aware 102745 (29.81%), because 43 protected financial terms survive (preprocessing/stopword_comparison.csv)",
+      "Phase 2 order experiment: stopword-removal-then-stemming left 241977 tokens, stemming-then-stopword-removal left 247815; the wrong order left 1 unmatched stems such as 'abov', 'everi', 'furthermor' (stemming/stopword_stemming_order_comparison.csv)",
+      "Phase 2 lemmatization: WordNet POS-agnostic lookup reduced the vocabulary to 12195 (23.44% reduction) (lemmatization/lemmatization_comparison.csv)",
+      "Phase 2 lemmatization: spaCy's rule lemmatizer kept 13330 lemmas, i.e. it normalizes less aggressively than the WordNet lookup (lemmatization/lemmatization_comparison.csv)",
+      "Phase 2 POS: default_pos scored 0.9223 accuracy on 412 manually annotated tokens (comparisons/pos_comparison.csv)",
+      "Phase 2 POS: custom_rule_pos scored 0.7913 accuracy on 412 manually annotated tokens (comparisons/pos_comparison.csv)",
+      "Phase 2 POS: custom_ml_pos scored 0.8769 accuracy on 130 manually annotated tokens (comparisons/pos_comparison.csv)"
+    ]
+  },
+  "index_statistics": {
+    "index_terms": 21305,
+    "unigram_terms": 18735,
+    "phrase_terms": 2570,
+    "total_postings": 191817,
+    "unigram_postings": 168445,
+    "phrase_postings": 23372,
+    "postings_per_term": 9.0034,
+    "indexed_units": 6005,
+    "indexed_documents": 31,
+    "units_per_document": 193.71,
+    "total_positions": 226368,
+    "mean_positions_per_posting": 1.1801,
+    "postings_per_unit": 31.9429,
+    "singleton_terms": 10857,
+    "terms_in_90_percent_of_postings": 6934,
+    "mean_term_frequency": 10.6251,
+    "mean_document_frequency": 3.2179,
+    "longest_posting_list": 1074,
+    "longest_posting_term": "thi",
+    "hapax_ratio": 0.5096,
+    "top_terms": "india(1396);thi(1327);ha(1255);market(983);ai(980);sebi(897);sector(810);global(798);develop(785);invest(746);growth(724);servic(709);govern(689);financi(679);state(647);dure(635);increas(627);year(614);wa(603);2025-26(588);support(581);improv(578);trade(577);product(560);capit(547)",
+    "top_phrases": "dure_2025-26(227);march_31(128);mutual_fund(126);secur_market(112);2024-25_2025-26(96);india_ha(78);suppli_chain(77);labour_market(73);dure_year(70);previou_year(68);dure_period(67);stock_exchang(65);eas_busi(59);0_0(57);skill_develop(57);govern_ha(56);revis_estim(56);valu_chain(55);h_1(54);strateg_indispens(54);strateg_resili(54);capit_expenditur(53);sebi_act(53);sebi_ha(53);servic_export(52)"
+  },
+  "retrieval_statistics": {
+    "queries": 15,
+    "answered": 15,
+    "answerability": 1.0,
+    "total_units_returned": 506,
+    "total_documents_returned": 122,
+    "mean_units_per_query": 33.7333,
+    "median_units_per_query": 50,
+    "mean_documents_per_query": 8.1333,
+    "mean_execution_time_ms": 239.54,
+    "max_execution_time_ms": 536.471,
+    "total_execution_time_ms": 3593.101,
+    "by_query_type": {
+      "keyword": {
+        "queries": 3,
+        "answered": 3,
+        "units": 150
+      },
+      "phrase": {
+        "queries": 3,
+        "answered": 3,
+        "units": 54
+      },
+      "boolean_and": {
+        "queries": 4,
+        "answered": 4,
+        "units": 87
+      },
+      "boolean_or": {
+        "queries": 2,
+        "answered": 2,
+        "units": 100
+      },
+      "boolean_not": {
+        "queries": 2,
+        "answered": 2,
+        "units": 100
+      },
+      "boolean_group": {
+        "queries": 1,
+        "answered": 1,
+        "units": 15
+      }
+    }
+  },
+  "query_coverage": {
+    "queries": 15,
+    "answered": 15,
+    "answerability": 1.0,
+    "syntax_valid": 15,
+    "by_type": {
+      "boolean_and": {
+        "queries": 4,
+        "answered": 4,
+        "units": 87
+      },
+      "boolean_group": {
+        "queries": 1,
+        "answered": 1,
+        "units": 15
+      },
+      "boolean_not": {
+        "queries": 2,
+        "answered": 2,
+        "units": 100
+      },
+      "boolean_or": {
+        "queries": 2,
+        "answered": 2,
+        "units": 100
+      },
+      "keyword": {
+        "queries": 3,
+        "answered": 3,
+        "units": 150
+      },
+      "phrase": {
+        "queries": 3,
+        "answered": 3,
+        "units": 54
+      }
+    },
+    "expected_domains": [
+      "banking",
+      "economic",
+      "financial_stability",
+      "regulator"
+    ],
+    "queries_without_results": [],
+    "queries_with_missing_terms": []
+  },
+  "queries": [
+    {
+      "query_id": "Q01",
+      "query": "inflation",
+      "query_type": "keyword",
+      "description": "Single economic indicator",
+      "expected_domain": "economic",
+      "configured_terms": "inflation",
+      "excluded_terms": "",
+      "normalized_terms": "inflat",
+      "matched_terms": "inflat",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 50,
+      "result_documents": 7,
+      "execution_time_ms": 476.482,
+      "top_unit_ids": "D05_P007_SEC_5_9_PAR002;D05_P002_SEC_5_2_PAR001;D05_P015_SEC_5_30_PAR001;D05_P019_SEC_5_35_PAR001;D01_P024_SEC_1_29_PAR001",
+      "top_documents": "D01;D03;D05;D16;D20;D21;D28",
+      "error": ""
+    },
+    {
+      "query_id": "Q02",
+      "query": "GDP",
+      "query_type": "keyword",
+      "description": "Gross domestic product acronym",
+      "expected_domain": "economic",
+      "configured_terms": "gdp",
+      "excluded_terms": "",
+      "normalized_terms": "gdp",
+      "matched_terms": "gdp",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 50,
+      "result_documents": 14,
+      "execution_time_ms": 357.755,
+      "top_unit_ids": "D02_P041_SEC_2_56_PAR003;D02_P004_SEC_2_7_PAR001;D02_P003_SEC_2_4_PAR001;D02_P004_SEC_2_6_PAR001;D02_P018_SEC_2_29_PAR001",
+      "top_documents": "D01;D02;D03;D04;D05;D07;D08;D09;D13;D15;D19;D20;D22;D29",
+      "error": ""
+    },
+    {
+      "query_id": "Q03",
+      "query": "FDI",
+      "query_type": "keyword",
+      "description": "Foreign direct investment flow",
+      "expected_domain": "economic",
+      "configured_terms": "fdi",
+      "excluded_terms": "",
+      "normalized_terms": "fdi",
+      "matched_terms": "fdi",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 50,
+      "result_documents": 4,
+      "execution_time_ms": 157.501,
+      "top_unit_ids": "D04_BOX003;D04_BOX007;D07_P005_SEC_7_9_PAR001;D01_P004_SEC_1_5_PAR001;D04_P034_SEC_4_77_PAR001",
+      "top_documents": "D01;D03;D04;D07",
+      "error": ""
+    },
+    {
+      "query_id": "Q04",
+      "query": "monetary policy",
+      "query_type": "phrase",
+      "description": "Ordered two-word policy phrase",
+      "expected_domain": "economic",
+      "configured_terms": "monetary;policy",
+      "excluded_terms": "",
+      "normalized_terms": "monetari;polici",
+      "matched_terms": "monetari;polici",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 23,
+      "result_documents": 6,
+      "execution_time_ms": 149.71,
+      "top_unit_ids": "D03_P001_UNKNOWN_PAR002;D03_P009_SEC_3_10_PAR001;D03_P034_SEC_3_64_PAR001;D05_P001_UNKNOWN_PAR002;D16_P004_SEC_16_10_PAR001",
+      "top_documents": "D01;D03;D05;D16;D17;D20",
+      "error": ""
+    },
+    {
+      "query_id": "Q05",
+      "query": "financial stability",
+      "query_type": "phrase",
+      "description": "Ordered two-word stability phrase",
+      "expected_domain": "financial_stability",
+      "configured_terms": "financial;stability",
+      "excluded_terms": "",
+      "normalized_terms": "financi;stabil",
+      "matched_terms": "financi;stabil",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 25,
+      "result_documents": 9,
+      "execution_time_ms": 372.893,
+      "top_unit_ids": "D03_P004_SEC_3_7_PAR001;D18_P001_UNKNOWN_PAR002;D03_P002_SEC_3_1_PAR001;D12_P018_SEC_12_28_PAR003;D29_P001_SEC_11_1_PAR005",
+      "top_documents": "D03;D12;D13;D16;D18;D20;D22;D29;D31",
+      "error": ""
+    },
+    {
+      "query_id": "Q06",
+      "query": "current account deficit",
+      "query_type": "phrase",
+      "description": "Ordered three-word external sector phrase",
+      "expected_domain": "economic",
+      "configured_terms": "current;account;deficit",
+      "excluded_terms": "",
+      "normalized_terms": "current;account;deficit",
+      "matched_terms": "current;account;deficit",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 6,
+      "result_documents": 5,
+      "execution_time_ms": 140.48,
+      "top_unit_ids": "D01_P027_SEC_1_35_PAR001;D03_P047_SEC_3_85_PAR003;D04_P028_SEC_4_61_PAR002;D16_P002_SEC_16_1_PAR001;D20_P012_SEC_2_3_PAR002",
+      "top_documents": "D01;D03;D04;D16;D20",
+      "error": ""
+    },
+    {
+      "query_id": "Q07",
+      "query": "GDP AND inflation",
+      "query_type": "boolean_and",
+      "description": "Both terms in the same content unit",
+      "expected_domain": "economic",
+      "configured_terms": "gdp;inflation",
+      "excluded_terms": "",
+      "normalized_terms": "GDP;inflation",
+      "matched_terms": "gdp;inflat",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 11,
+      "result_documents": 7,
+      "execution_time_ms": 123.265,
+      "top_unit_ids": "D05_P019_SEC_5_35_PAR001;D20_T001;D05_P004_SEC_5_6_PAR001;D03_P047_SEC_3_85_PAR006;D05_P001_UNKNOWN_PAR002",
+      "top_documents": "D01;D02;D03;D05;D07;D19;D20",
+      "error": ""
+    },
+    {
+      "query_id": "Q08",
+      "query": "RBI AND \"repo rate\"",
+      "query_type": "boolean_and",
+      "description": "Central bank and its policy instrument",
+      "expected_domain": "regulator",
+      "configured_terms": "rbi;repo rate",
+      "excluded_terms": "",
+      "normalized_terms": "RBI;repo rate",
+      "matched_terms": "rate;rbi;repo",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 3,
+      "result_documents": 2,
+      "execution_time_ms": 21.094,
+      "top_unit_ids": "D03_P009_SEC_3_10_PAR001;D20_P004_II_PAR001;D03_P011_SEC_3_16_PAR001",
+      "top_documents": "D03;D20",
+      "error": ""
+    },
+    {
+      "query_id": "Q09",
+      "query": "banking AND credit",
+      "query_type": "boolean_and",
+      "description": "Banking sector with credit",
+      "expected_domain": "banking",
+      "configured_terms": "banking;credit",
+      "excluded_terms": "",
+      "normalized_terms": "banking;credit",
+      "matched_terms": "bank;credit",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 50,
+      "result_documents": 11,
+      "execution_time_ms": 200.285,
+      "top_unit_ids": "D18_P002_II_PAR001;D06_P017_SEC_6_24_PAR001;D01_P027_SEC_1_34_PAR001;D06_P017_SEC_6_23_PAR001;D08_P033_SEC_8_61_PAR001",
+      "top_documents": "D01;D03;D04;D06;D07;D08;D09;D10;D11;D14;D18",
+      "error": ""
+    },
+    {
+      "query_id": "Q10",
+      "query": "GDP OR GVA",
+      "query_type": "boolean_or",
+      "description": "Either national accounts aggregate",
+      "expected_domain": "economic",
+      "configured_terms": "gdp;gva",
+      "excluded_terms": "",
+      "normalized_terms": "GDP;GVA",
+      "matched_terms": "gdp;gva",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 50,
+      "result_documents": 10,
+      "execution_time_ms": 406.587,
+      "top_unit_ids": "D01_P015_SEC_1_19_PAR001;D05_P014_SEC_5_25_PAR001;D01_P009_SEC_1_8_PAR002;D01_P017_SEC_1_24_PAR001;D01_T002",
+      "top_documents": "D01;D02;D03;D04;D05;D07;D08;D15;D19;D20",
+      "error": ""
+    },
+    {
+      "query_id": "Q11",
+      "query": "inflation OR disinflation",
+      "query_type": "boolean_or",
+      "description": "Price movement alternatives",
+      "expected_domain": "economic",
+      "configured_terms": "inflation;disinflation",
+      "excluded_terms": "",
+      "normalized_terms": "inflation;disinflation",
+      "matched_terms": "disinfl;inflat",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 50,
+      "result_documents": 7,
+      "execution_time_ms": 272.722,
+      "top_unit_ids": "D01_P024_SEC_1_29_PAR001;D20_P004_II_PAR001;D05_P005_SEC_5_7_PAR001;D05_P005_SEC_5_8_PAR001;D05_P006_SEC_5_9_PAR001",
+      "top_documents": "D01;D03;D05;D16;D20;D21;D28",
+      "error": ""
+    },
+    {
+      "query_id": "Q12",
+      "query": "inflation AND NOT food",
+      "query_type": "boolean_not",
+      "description": "Inflation excluding food-price passages",
+      "expected_domain": "economic",
+      "configured_terms": "inflation",
+      "excluded_terms": "food",
+      "normalized_terms": "inflation;food",
+      "matched_terms": "inflat",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 50,
+      "result_documents": 7,
+      "execution_time_ms": 233.77,
+      "top_unit_ids": "D05_P007_SEC_5_9_PAR002;D05_P019_SEC_5_35_PAR001;D05_P018_SEC_5_33_PAR001;D05_P004_SEC_5_6_PAR001;D05_P016_SEC_5_32_PAR001",
+      "top_documents": "D01;D02;D03;D05;D20;D21;D28",
+      "error": ""
+    },
+    {
+      "query_id": "Q13",
+      "query": "banking AND NOT insurance",
+      "query_type": "boolean_not",
+      "description": "Banking passages without insurance",
+      "expected_domain": "banking",
+      "configured_terms": "banking",
+      "excluded_terms": "insurance",
+      "normalized_terms": "banking;insurance",
+      "matched_terms": "bank",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 50,
+      "result_documents": 14,
+      "execution_time_ms": 536.471,
+      "top_unit_ids": "D03_P010_SEC_3_13_PAR001;D03_BOX023;D06_P017_SEC_6_23_PAR001;D06_P017_SEC_6_24_PAR001;D18_P002_II_PAR001",
+      "top_documents": "D01;D02;D03;D05;D06;D08;D09;D10;D12;D13;D18;D22;D28;D29",
+      "error": ""
+    },
+    {
+      "query_id": "Q14",
+      "query": "GDP AND investment",
+      "query_type": "boolean_and",
+      "description": "Growth aggregate with investment",
+      "expected_domain": "economic",
+      "configured_terms": "gdp;investment",
+      "excluded_terms": "",
+      "normalized_terms": "GDP;investment",
+      "matched_terms": "gdp;invest",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 23,
+      "result_documents": 10,
+      "execution_time_ms": 83.681,
+      "top_unit_ids": "D01_P012_SEC_1_12_PAR001;D01_P025_SEC_1_31_PAR001;D02_T009;D20_T001;D02_P029_UNKNOWN_PAR002",
+      "top_documents": "D01;D02;D03;D04;D07;D08;D09;D10;D16;D20",
+      "error": ""
+    },
+    {
+      "query_id": "Q15",
+      "query": "(GDP OR GVA) AND policy",
+      "query_type": "boolean_group",
+      "description": "Grouped OR inside AND",
+      "expected_domain": "economic",
+      "configured_terms": "gdp;gva;policy",
+      "excluded_terms": "",
+      "normalized_terms": "GDP;GVA;policy",
+      "matched_terms": "gdp;gva;polici",
+      "missing_terms": "",
+      "syntax_valid": true,
+      "answered": true,
+      "result_units": 15,
+      "result_documents": 9,
+      "execution_time_ms": 60.405,
+      "top_unit_ids": "D02_P004_SEC_2_6_PAR001;D03_P047_SEC_3_85_PAR006;D02_P034_UNKNOWN_PAR002;D05_P001_UNKNOWN_PAR002;D07_P011_SEC_7_17_PAR001",
+      "top_documents": "D01;D02;D03;D04;D05;D06;D07;D08;D12",
+      "error": ""
+    }
+  ],
+  "validation": {
+    "passed": 18,
+    "total": 18,
+    "results": [
+      {
+        "rule_id": "P01",
+        "rule": "the inverted index passes its own structural validation (no duplicate, unsorted or dangling postings)",
+        "status": "PASS",
+        "detail": "21305 terms, 191817 postings, 0 structural problem(s)",
+        "evidence": "every posting is unique, sorted and resolvable"
+      },
+      {
+        "rule_id": "P02",
+        "rule": "every posting resolves to a provenance record in the index",
+        "status": "PASS",
+        "detail": "191817 postings checked against 6005 unit records",
+        "evidence": "no dangling unit references"
+      },
+      {
+        "rule_id": "P03",
+        "rule": "posting lists are sorted by unit_id and contain no duplicate units",
+        "status": "PASS",
+        "detail": "21305 posting lists checked",
+        "evidence": "all posting lists sorted and duplicate-free"
+      },
+      {
+        "rule_id": "P04",
+        "rule": "source_id -> document_id -> page_number -> section_id -> unit_id is preserved for every indexed unit",
+        "status": "PASS",
+        "detail": "6005 unit records checked across 31 documents",
+        "evidence": "full provenance chain present for every unit"
+      },
+      {
+        "rule_id": "P05",
+        "rule": "every posting carries token positions, so phrase search is positional",
+        "status": "PASS",
+        "detail": "21305 terms carry positions",
+        "evidence": "all postings positional"
+      },
+      {
+        "rule_id": "P06",
+        "rule": "a final pipeline is selected from the measured criteria with a stated reason",
+        "status": "PASS",
+        "detail": "pipeline_a=0.7855; pipeline_b=0.8272",
+        "evidence": "Pipeline B - stemming then stopword removal wins on the weighted score (0.8272 vs 0.7855, margin +0.0417). Decomposition: financial_expression_preservation 3048/3792 = 0.8038 x0.35 = 0.2813; domain_term_recall 101/101 = 1.0000 x0.25 = 0.2500; variant_collapse_rate 7/12 = 0.5833 x0.25 = 0.1458; query_answerability 15/15 = 1.0000 x0.15 = 0.1500. The two pipelines are equal on 3 of 4 criteria; the margin comes from variant_collapse_rate (7/12 = 0.5833 vs 5/12 = 0.4167, +0.1667 x0.25 = +0.0417)."
+      },
+      {
+        "rule_id": "P07",
+        "rule": "every criterion rate is in [0, 1] and the weights sum to 1.0",
+        "status": "PASS",
+        "detail": "weights: {'financial_expression_preservation': 0.35, 'domain_term_recall': 0.25, 'variant_collapse_rate': 0.25, 'query_answerability': 0.15} (sum 1.0)",
+        "evidence": "all normalized scores and weights are valid"
+      },
+      {
+        "rule_id": "P08",
+        "rule": "every phrase term is composed of index terms that exist on their own",
+        "status": "PASS",
+        "detail": "2570 phrase terms checked",
+        "evidence": "all phrase terms decompose into indexed unigrams"
+      },
+      {
+        "rule_id": "P09",
+        "rule": "at least one configured domain query is answered by the final index",
+        "status": "PASS",
+        "detail": "15/15 queries answered",
+        "evidence": "Q01=50; Q02=50; Q03=50; Q04=23; Q05=25; Q06=6; Q07=11; Q08=3; Q09=50; Q10=50; Q11=50; Q12=50; Q13=50; Q14=23; Q15=15"
+      },
+      {
+        "rule_id": "P10",
+        "rule": "no unit is returned twice for the same query",
+        "status": "PASS",
+        "detail": "506 result rows checked",
+        "evidence": "every (query, unit) pair appears once"
+      },
+      {
+        "rule_id": "P11",
+        "rule": "every result row carries provenance that matches the index",
+        "status": "PASS",
+        "detail": "506 rows verified against the provenance store",
+        "evidence": "all rows traceable to their Phase 1 unit"
+      },
+      {
+        "rule_id": "P12",
+        "rule": "the Boolean parser rejects bare NOT, unbalanced parentheses and malformed operators without using eval()",
+        "status": "PASS",
+        "detail": "6 malformed queries tested, 6 rejected",
+        "evidence": "all malformed queries raised QuerySyntaxError"
+      },
+      {
+        "rule_id": "P13",
+        "rule": "the Boolean parser accepts AND, OR, A AND NOT B and parenthesized groups",
+        "status": "PASS",
+        "detail": "6 supported forms tested",
+        "evidence": "all supported forms parsed"
+      },
+      {
+        "rule_id": "P14",
+        "rule": "A AND NOT B returns a strict subset of A (set difference, not a full-corpus scan)",
+        "status": "PASS",
+        "detail": "'inflation' -> 98 units; 'inflation AND NOT food' -> 81 units; removed 17 of 17 co-occurring unit(s)",
+        "evidence": "no unit outside the positive set was returned"
+      },
+      {
+        "rule_id": "P15",
+        "rule": "every required Phase 3 output file exists and is non-empty",
+        "status": "PASS",
+        "detail": "14/14 files present and non-empty",
+        "evidence": "all required artefacts written"
+      },
+      {
+        "rule_id": "P16",
+        "rule": "every Phase 3 CSV and JSON output parses cleanly",
+        "status": "PASS",
+        "detail": "7 CSV and 4 JSON files checked",
+        "evidence": "all outputs parse cleanly"
+      },
+      {
+        "rule_id": "P17",
+        "rule": "results are ranked deterministically: ranks are contiguous, scores are non-increasing and ties break on unit_id",
+        "status": "PASS",
+        "detail": "15 queries checked over 506 rows",
+        "evidence": "ordering is deterministic for every query"
+      },
+      {
+        "rule_id": "P18",
+        "rule": "Phase 3 writes only under its own declared output paths; no Phase 1 or Phase 2 artefact is a write target",
+        "status": "PASS",
+        "detail": "15/15 managed outputs are inside phase3/, plus the run log",
+        "evidence": "all Phase 3 outputs are confined to the declared results directory and logs/"
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "path": "phase3/document_results.csv",
+      "description": "The same queries aggregated to document level"
+    },
+    {
+      "path": "phase3/final_pipeline.json",
+      "description": "The selection decision as data (scores, weights, reason, tie-breakers)"
+    },
+    {
+      "path": "phase3/final_pipeline.md",
+      "description": "The selected pipeline, its index statistics and its query coverage"
+    },
+    {
+      "path": "phase3/index_manifest.json",
+      "description": "What was indexed, from which inputs, with what settings and hashes"
+    },
+    {
+      "path": "phase3/index_statistics.csv",
+      "description": "Index size, distribution and concentration measurements"
+    },
+    {
+      "path": "phase3/inverted_index.json",
+      "description": "The serialized inverted index: terms, postings, positions and provenance"
+    },
+    {
+      "path": "phase3/phase3_summary.json",
+      "description": "The machine-readable summary of the whole Phase 3 run"
+    },
+    {
+      "path": "phase3/pipeline_comparison.csv",
+      "description": "One row per pipeline with every criterion, raw rate and weighted score"
+    },
+    {
+      "path": "phase3/pipeline_comparison.md",
+      "description": "The A vs B write-up, with the Phase 2 evidence it relies on"
+    },
+    {
+      "path": "phase3/query_examples/Q01.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_examples/Q02.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_examples/Q03.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_examples/Q04.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_examples/Q05.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_examples/Q06.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_examples/Q07.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_examples/Q08.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_examples/Q09.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_examples/Q10.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_examples/Q11.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_examples/Q12.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_examples/Q13.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_examples/Q14.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_examples/Q15.txt",
+      "description": "Readable result example for one query"
+    },
+    {
+      "path": "phase3/query_registry.csv",
+      "description": "The 15 domain queries with their normalization, results and timing"
+    },
+    {
+      "path": "phase3/README.md",
+      "description": "How to read this directory"
+    },
+    {
+      "path": "phase3/retrieval_results.csv",
+      "description": "One row per retrieved content unit, ranked, with provenance and snippet"
+    },
+    {
+      "path": "phase3/retrieval_summary.csv",
+      "description": "One row per query: answerability, coverage and execution time"
+    },
+    {
+      "path": "phase3/validation_report.csv",
+      "description": "Every Phase 3 validation rule with its status and evidence"
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+Over the years, SEBI has undertaken progressive  steps to make the onboarding and participation of FPIs  smoother through measures such as risk-based KYC  requirements, simplification of documentation and the  introduction of the Common Application Form. Building  upon these efforts and the feedback received during  global investor roadshows, there was a recognized  need to further ease regulatory provisions, particularly  for objectively identified and verified low-risk FPIs. relaxed onboarding and compliance regime. This culminated in the launch of two key initiatives as below: The SWAGAT-FI Framework The Single Window Automatic and Generalised Access for Trusted Foreign Investors (SWAGAT-FI) framework is designed specifically for eligible low-risk FPIs such as central banks, sovereign wealth funds, appropriately regulated pension and mutual funds, and insurance companies. Adopting the principle of proportionality in To address this, SEBI, under the aegis of FPI Advisory  Committee, deliberated on establishing a relatively regulation, this framework offers a significantly lighter (Contd.)
+liquidity, improve price discovery, and supplement
+domestic sources of financing for capital formation.
+A. Single Window Automatic and Generalised
+The year 2025-26 presented a more challenging
+Access for Trusted Foreign Investors
+external environment for portfolio flows to India.
+(SWAGAT-FI) framework and ‘India Market
+Net FPI outflows accelerated during the year, driven
+Access’ website: By offering a single-window
+by heightened global risk aversion amid geopolitical
+access mechanism, SWAGAT-FI framework
+tensions in West Asia that kept crude oil prices
+minimizes regulatory hurdles and streamlines
+elevated, elevated higher US bond yields and portfolio
+compliance, strengthening India’s position as
+rebalancing with preference for markets with
+a premier global investment hub. Alongside
+emerging technology focused companies. Persistent
+it, the ‘India Market Access’ digital initiative
+rupee depreciation, relative underperformance
+simplifies access to regulatory and procedural
+of Indian equities vis-à-vis other major markets,
+information for FPIs (Box 6.1).
+relatively elevated market valuations, and concerns
+weighed on foreign investor sentiment.
+Foreign Portfolio Investors (FPIs) and Foreign
+Venture Capital Investors (FVCIs) occupy a central
+This chapter highlights important policy
+place in India’s capital market architecture. By
+developments undertaken to facilitate FPIs in the
+directing cross-border capital into listed equities,
+country and provides an overview of key market
+government and corporate debt, derivatives, and
+other financial instruments, they enhance market
+Chapter 6 Foreign Portfolio Investors and Foreign Venture Capital Investors
+FOREIGN PORTFOLIO INVESTORS AND FOREIGN VENTURE CAPITAL INVESTORS
+over moderating corporate earnings growth further
+contribution cap applicable to Non-Resident
+touch for verified low-risk and regulated entities,
+easing the regulatory burden and operational costs
+Indians, Overseas Citizens of India, and Resident
+while encouraging larger stable inflows. Eligible FPI
+Indian individuals in FPIs.
+applicants may opt for SWAGAT-FI identification at the
+India Market Access Website for FPIs
+time of initial registration, and existing FPIs meeting
+To address the compliance challenges faced by FPIs
+the criteria may also convert to SWAGAT-FI status. To
+due to multiple regulatory frameworks prescribed
+facilitate this streamlined experience, the framework
+extends the following key relaxations to eligible entities:
+by various authorities such as RBI, SEBI and CBDT,
+an ‘India Market Access’ (www.indiamarketaccess.in)
+i. Option to register as FVCI without additional
+website, a centralized digital repository was developed
+documentation, if already registered or applying as
+in collaboration with MIIs. This unified, single-window
+platform streamlines the investment journey by offering
+ii. Exemption from the FVCI Regulation requiring at
+step-by-step registration guidance, comprehensive
+least 66 per cent investment in eligible unlisted
+advisory on documentation, and real-time updates on
+SEBI and RBI regulations, taxation, and repatriation
+iii. Registration validity, KYC review, and fee payment
+guidelines. Designed to be a dynamic, user-friendly
+(USD 2,500) to be applicable for a 10-year block
+resource, the portal significantly enhances the ease of
+instead of the standard 3-year cycle.
+doing business and reinforces investor confidence in
+iv. Exemption from the 50 per cent aggregate
+the Indian securities market.
+individuals in funds set up in IFSCs as specified by SEBI and IFSCA, and permit overseas Mutual Funds / Unit Trusts registering as FPIs to include Indian mutual funds as constituents.
+B. Relaxations for FPIs investing only in Government Securities (G-Secs): In order to enhance ease of doing business through a risk-based approach and optimum regulation, certain relaxations were granted in onboarding and ongoing compliances for FPIs exclusively investing in G-Secs. These included exempting them from investor group details at registration under Fully Accessible Route (FAR); relaxing KYC review periodicity cycle to align with their bank account KYC review cycle; and requirement of reporting material change within 30 days, amongst other measures. SEBI also introduced a GS-FPI category for FPIs investing exclusively in Government Securities.
+D. Digital Signature Certificate functionality: Earlier, SEBI had permitted FPIs to use digital signatures for execution of the Common Application Form (CAF) and other registration- related documents. As a key step towards digitising the FPI onboarding process, a new Digital Signature Certificate (DSC) functionality from Indian DSC issuers has been developed within the CAF portal. This feature integrates the FPI registration application and DSC application into a single, unified process, thereby easing onboarding and further streamlining the registration process, as applicants can now directly apply for DSC while submitting the CAF on the portal.
+C. Ease of doing business for FPIs based in IFSCs: In order to enhance ease of doing business for FPIs operating from IFSCs, the SEBI (FPI) Regulations, 2019 were amended to allow retail schemes in IFSCs with a resident Indian sponsor or manager to register as FPIs, align limits on sponsor contribution by resident Indian non-
+E. Amendment to additional disclosures framework: To facilitate ease of compliance
+Chapter 6 Foreign Portfolio Investors and Foreign Venture Capital Investors
+by FPIs, additional disclosures framework (specified on August 24, 2023) was amended to increase the threshold under size criteria for submission of additional disclosures from ₹25,000 crore to ₹50,000 crore.
+i. Enhancement of the minimum net worth requirement from ₹50 crore to ₹75 crore.
+ii. Incorporation of additional clauses, including provisions relating to redressal of client grievances, in the code of conduct to ensure uniformity with other intermediaries.
+crore, driven primarily by the FAR category (₹15,449 crore) and the General Limit route (₹12,429 crore), reflecting continued interest in Indian fixed income supported by residual passive flows linked to India’s JP Morgan bond index inclusion. The equity outflows in 2025-26 were driven by a combination of US tariff-related uncertainties, geopolitical tensions in West Asia, subdued corporate earnings due to higher input cost and uncertainties over medium to long term inflation projection. Outflows were particularly intense in March 2026, which alone accounted for equity outflows of approximately ₹1.17 lakh crore. Q1 (April-June 2025) was the only quarter of net FPI equity buying, supported by RBI rate cuts and transitory improvement in global sentiment.
+41 per cent, from ₹1,20,944 crore in 2024- 25 to ₹70,822 crore in 2025-26. In contrast, net outflows through stock exchanges remained broadly unchanged across both the years, reflecting sustained secondary market selling by FPIs (Chart 6.3).
+Chapter 6 Foreign Portfolio Investors and Foreign Venture Capital Investors
+Telecom (₹24,746 crore), and Metals & Mining (₹20,305 crore) attracted substantial investments, indicating investor interest in infrastructure-linked and cyclical sectors. In contrast, IT recorded the highest net outflows (₹81,239 crore) owing to AI led disruption, followed by Financial Services (₹58,066 crore), FMCG (₹33,728 crore), and Healthcare (₹30,351 crore). This suggests sectoral rebalancing by FPIs amid evolving global growth expectations, valuation considerations, and changing risk sentiment (Chart 6.4).
+B. Assets under custody of custodians
+assets constituted 89.8 per cent of total assets held by FPIs while debt constituted 9.2 per cent as on March 31, 2026 (Chart 6.5).
+i. Segment wise distribution: FPI Assets Under Custody (AUC) in India declined to ₹69,57,108 crore as on March 31, 2026 (a fall of 5.7 per cent) from ₹73,76,495 crore at the end of March 31, 2025, reflecting the combined impact of net selling by FPIs, and mark-to-market valuation losses arising from broader market correction. The decline was primarily driven by equity assets, which fell from ₹66,80,481 crore to ₹62,46,545 crore. In contrast, debt AUC remained broadly stable and increased marginally from ₹6,32,048 crore to ₹6,41,933 crore consistent with the net inflows recorded in the segment. Equity
+ii. Sectoral distribution of FPI Assets: Of the total equity AUC of ₹62.5 lakh crore as on March 31, 2026, the largest share remained with Financial Services (₹19.0 lakh crore; 30.5 per cent), followed by Oil & Gas (₹4.9 lakh crore; 7.9 per cent), Automobile (₹4.7 lakh crore; 7.5 per cent), and Healthcare (₹4.4 lakh crore; 7.1 per cent). The most notable shifts relative to March 2025 were the 2.7 percentage point decline in IT’s share - from 9.0 per cent to 6.3 per cent, reflecting FPI selling in technology stocks
+iii. Geographical distribution of FPI Assets: As on March 31, 2026, a total of 12,199 FPIs were registered in India - an increase of 333 (2.8 per cent) from March 2025. The USA retained its dominant position, with 3,602 entities accounting for 40.7 per cent (₹28,35,005 crore) of total AUC. Ireland and France were the only top-10 jurisdictions to record AUC increases (+8.4 per cent and +8.1 per cent respectively) (Table 6.2). Norway, with only 24 registered FPIs, accounted for ₹2,48,525 crore in AUC, resulting in the highest AUC-per-FPI ratio (approximately ₹10,355 crore per entity) among top 10 jurisdictions.
+amid global AI-disruption concerns - and a 1.7 percentage point increase in Capital Goods (Chart 6.6).
+C. FPI Limits in corporate bonds and their utilisation : In 2025-26, the overall upper limit for investment by FPIs in corporate bonds increased from ₹7,63,503 crore in 2024-25 to ₹8,80,835 crore. However, the overall debt utilisation as a percentage of total investment limits in the corporate bond category declined from 15.8 per cent as on March 31, 2025 to 15.0 per cent as on March 31, 2026 (Table 6.3).
+Of the total debt AUC (comprising Debt- General Limit, Debt VRR and Debt FAR) of ₹6.4 lakh crore as on March 31, 2026, the largest share is of Sovereign Sector (53 per cent), followed by Financial Services (5 per cent).
+Chapter 6 Foreign Portfolio Investors and Foreign Venture Capital Investors
+To augment the domestic pool of risk capital and facilitate cross-border investment into innovative enterprises, SEBI has put in place a regulatory framework for Foreign Venture Capital Investors (FVCIs). Registered FVCIs are permitted to invest directly in venture capital undertakings or route investments through domestic Venture Capital Funds (VCFs) registered as Category I Alternative Investment Funds, across instruments such as equity, equity-linked securities, and debt. The eligible investee universe encompasses knowledge-intensive and technology-driven sectors including biotechnology, information technology, nanotechnology, and infrastructure, among others. The framework offers select operational flexibilities
+iv. 
+Sector-wise FPI flows in Equity Segment: 
+FPI flows in the equity segment during 
+2025-26 exhibited significant variation in 
+investment allocation patterns. Among the 
+sectors, Capital Goods (₹25,923 crore),
+iii. 
+Investment Route-wise FPI flows in Equity 
+Segment: The net inflows through the 
+primary market route declined by around
+Segment
+2024-25
+2025-26
+Equity
+-1,27,041
+-1,80,832
+Debt-General Limit
+55,734
+12,429
+Debt
+Debt-VRR
+6,737
+-2,071
+Debt-FAR
+80,691
+15,449
+Hybrid
+4,425
+-371
+Equity
+-667
+2,750
+Debt
+-124
+-595
+Mutual 
+fund
+Hybrid
+-9
+-56
+Solution Oriented
+-
+-3
+Other
+271
+603
+AIF
+-
+5
+Total
+20,018
+-1,52,692
+Sr. 
+No.
+Country
+No. of FPIs as on
+AUC as on (₹crore)
+March 31, 
+2025
+March 31, 
+2026
+Change %
+March 31, 
+2025
+March 31, 
+2026
+Change %
+Share (%) 
+as on Mar 
+31, 2025
+Share (%) 
+as on Mar 
+31, 2026
+1
+USA
+ 3,571 
+ 3,602 
+0.9
+29,38,081
+28,35,018
+-3.5
+39.8
+40.7
+2
+Singapore
+631
+ 679 
+7.6
+6,93,651
+5,64,016
+-18.7
+9.4
+8.1
+3
+Luxembourg
+ 1,448 
+ 1,456 
+0.6
+5,50,966
+5,05,664
+-8.2
+7.5
+7.3
+4
+Ireland
+ 846 
+ 897 
+6.0
+4,23,013
+4,58,376
+8.4
+5.7
+6.6
+5
+Mauritius
+ 596 
+ 630 
+5.7
+3,57,244
+3,12,774
+-12.4
+4.8
+4.5
+6
+United Kingdom
+ 655 
+ 650 
+-0.8
+3,42,027
+2,94,635
+-13.9
+4.6
+4.2
+7
+Norway
+ 24 
+ 24 
+0.0
+2,64,594
+2,48,525
+-6.1
+3.6
+3.6
+8
+Japan
+ 480 
+ 476 
+-0.8
+2,22,407
+2,11,759
+-4.8
+3.0
+3.0
+9
+Canada
+ 825 
+ 830 
+0.6
+2,00,465
+1,92,262
+-4.1
+2.7
+2.8
+10
+France
+ 65 
+ 75 
+15.4
+ 1,47,042
+1,58,880
+8.1
+2.0
+2.3
+11
+Others*
+ 2,725 
+ 2,880
+5.7
+12,37,005 
+11,75,197
+-5.0
+16.8
+16.9
+Total
+11,866
+12,199
+2.8
+73,76,495
+69,57,108
+-5.7
+100
+100
+Year
+Upper Limit
+(A)
+Investment
+(B)
+Unutilised Auctioned 
+Limits available with FPIs
+(C)
+Total Investment
+(D)=(B)+(C)
+% of Limits Utilised
+(E)
+Limit Available 
+for Investment
+(F)
+2024-25
+7,63,503 
+ 1,20,559 
+ - 
+ 1,20,559 
+15.8
+ 6,42,944
+2025-26
+8,80,835 
+ 1,31,941
+- 
+ 1,31,941 
+15.0
+ 7,48,894 
+Source: NSDL
+D. 
+Offshore derivatives instruments: ODIs or 
+participatory notes (PNs) are instruments 
+issued by SEBI-registered FPIs to overseas 
+investors seeking exposure to Indian securities 
+and derivatives without directly registering as 
+FPIs. The value of investments in ODIs on equity 
+and debt (including derivatives) decreased 
+by seven per cent from ₹1,35,764 crore as on 
+March 31, 2025 to ₹1,25,939 crore as on March 
+31, 2026 (Table 6.4).
+- including exemption from pricing guidelines 
+applicable to foreign portfolio investors - making it a 
+preferred route for long-horizon, early-stage capital, 
+and has contributed meaningfully to deepening 
+India’s venture capital ecosystem.
+As on March 31, 2026, the number of registered 
+FVCIs in India stood at 275. During 2025-26, 29 
+new FVCIs were registered, while an equal number 
+of registrations were cancelled or surrendered, 
+resulting in no net increase over the previous year. 
+The sector-wise cumulative net investment by FVCIs 
+is given in Table 6.5. The cumulative net investment 
+of FVCIs increased by 36 per cent during 2025-26, as 
+compared to 2024-25.
+6.2  FOREIGN VENTURE CAPITAL INVESTORS
+Sectors
+2024-25
+2025-26
+Information Technology
+1,023
+3,045
+Telecommunication
+328
+2,075
+Pharmaceuticals
+51
+51
+Biotechnology
+0
+78
+Media/Entertainment
+64
+330
+Services sector
+254
+97
+Industrial products
+0
+103
+Others
+45,945 
+ 58,967
+Total
+47,665
+64,745
+As at the 
+end of
+Notional Value 
+of ODIs
+Notional Value 
+of ODIs on 
+Equity
+Notional Value 
+of ODIs on Debt
+Notional 
+Value of ODIs 
+on Hybrid 
+Securities
+AUC of FPIS
+Notional Value 
+of ODIs as a % of 
+AUC of FPIs
+2024-25
+1,35,764
+98,669
+36,597
+498
+73,76,495
+1.8
+2025-26
+1,25,939 
+ 1,07,707 
+ 18,088 
+ 144 
+69,57,108
+1.8

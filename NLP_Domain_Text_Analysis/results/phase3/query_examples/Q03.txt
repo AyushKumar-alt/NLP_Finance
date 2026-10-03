@@ -1,0 +1,40 @@
+Query Q03: FDI
+Type: keyword (Foreign direct investment flow)
+Expected domain: economic
+Pipeline-normalized terms: fdi
+Matched terms: fdi
+Missing terms: (none)
+Results: 50 content unit(s) in 4 document(s)
+Execution time: 157.501 ms
+
+   1. score=1.2500 D04 | p34 | 4.78 | D04_BOX003
+      matched: fdi
+      Returns on inward FDI are estimated as FDI equity income receipts expressed as a percentage of the total inward FDI stock.80 This indicator provides information on the profitability of direct investment enterprises....
+   2. score=1.1747 D04 | p39 | 4.81 | D04_BOX007
+      matched: fdi
+      International investment flows reflect growing economic integration, with inward FDI signalling investor confidence and outward FDI reflecting the internationalisation and competitiveness of domestic firms. In recent...
+   3. score=1.1747 D07 | p5 | 7.9 | D07_P005_SEC_7_9_PAR001
+      matched: fdi
+      ...ng shift in capital allocation. Services accounted for an average 53.5 per cent of global FDI5 during 2022-2024, up from 50.9 per cent in the pre-pandemic period, with inflows becoming increasingly concentrated....
+   4. score=1.1505 D01 | p4 | 1.5 | D01_P004_SEC_1_5_PAR001
+      matched: fdi
+      ...croeconomic developments, has led to a deterioration in global foreign direct investment (FDI) flows. As per the United Nations Conference on Trade and Development’s (UNCTAD) World Investment Report 20254, FDI...
+   5. score=1.1505 D04 | p34 | 4.77 | D04_P034_SEC_4_77_PAR001
+      matched: fdi
+      4.77 FDI outflows from India increased to USD 22.1 billion during April-November 2025. Despite this, improvements in gross inflows along with a moderation in profit repatriation by foreign investors led to a...
+   6. score=1.1505 D04 | p34 | 4.78 | D04_P034_SEC_4_78_PAR001
+      matched: fdi
+      4.78 It is important to examine the return on inward FDI, while there is a recent slowdown in net FDI, which would indicate the profitability of the investments. Box IV.2 presents evidence on India’s inward FDI...
+   7. score=1.1193 D03 | p60 | 3.99 | D03_BOX021
+      matched: fdi
+      ...The Act was notified on 21 December 2025. Important provisions are as below: • Increased FDI limit: The amendment has raised the FDI limit in Indian insurance companies from 74 per cent to 100 per cent. This will...
+   8. score=1.1193 D04 | p1 | UNKNOWN | D04_P001_UNKNOWN_PAR004
+      matched: fdi
+      ...ss investment inflows despite a subdued global environment for foreign direct investment (FDI) and volatile portfolio flows. Gross FDI inflows have remained resilient, supported by equity investments and...
+   9. score=1.1193 D04 | p30 | 4.67 | D04_P030_SEC_4_67_PAR001
+      matched: fdi
+      4.67 An assessment of India’s FDI flows needs to be placed in the context of broader global investment trends. The global FDI landscape has remained subdued through CY
+  10. score=1.1193 D04 | p31 | 4.67 | D04_P031_SEC_4_67_PAR001
+      matched: fdi
+      ...in recent years.72 According to the latest UNCTAD’s World Investment Report 2025, global FDI inflows declined by 11 per cent (YoY) in CY 2024, marking the second consecutive year of contraction (excluding European...
+  ... 40 further results in retrieval_results.csv

@@ -1,0 +1,40 @@
+Query Q15: (GDP OR GVA) AND policy
+Type: boolean_group (Grouped OR inside AND)
+Expected domain: economic
+Pipeline-normalized terms: GDP, GVA, policy
+Matched terms: gdp, gva, polici
+Missing terms: (none)
+Results: 15 content unit(s) in 9 document(s)
+Execution time: 60.405 ms
+
+   1. score=2.1945 D02 | p4 | 2.6 | D02_P004_SEC_2_6_PAR001
+      matched: gdp, polici
+      2.6 Revenue receipts increased from an average of about 8.5 per cent of GDP during the pre-pandemic period (FY16-FY20) to around 9.1 per cent of GDP in the post-pandemic period (FY22-FY25 PA).3 This improvement was...
+   2. score=2.1945 D03 | p47 | 3.85 | D03_P047_SEC_3_85_PAR006
+      matched: gdp, polici
+      ...tal cost in the long run are given by the current account balance (CAB as a percentage of GDP), government debt (as a share of GDP), the extent of financial deepening measured by credit to the private sector (as a...
+   3. score=2.1505 D02 | p34 | UNKNOWN | D02_P034_UNKNOWN_PAR002
+      matched: gdp, polici
+      ...after debt and/or deficit ratios come meaningfully closer to 50 per cent or 3 per cent of GDP, respectively.
+   4. score=2.1505 D05 | p1 | UNKNOWN | D05_P001_UNKNOWN_PAR002
+      matched: gdp, polici
+      ...s. India stands out for achieving a sharp decline in headline inflation, alongside robust GDP growth, reflecting strong macroeconomic fundamentals and effective monetary policy.
+   5. score=2.1505 D07 | p11 | 7.17 | D07_P011_SEC_7_17_PAR001
+      matched: gdp, polici
+      ...me a central pillar of India’s external sector and a key driver of growth. Their share in GDP averaged 9.7 per cent during FY23-FY25,9 up from 7.4 per cent in the pre-pandemic period (Chart VII.10a). Amid subdued...
+   6. score=2.1505 D12 | p7 | 12.12 | D12_P007_SEC_12_12_PAR001
+      matched: gdp, polici
+      ...ipation to around 55 per cent by the 2050 could be critical for maintaining a high annual GDP growth trajectory.22 While women’s participation in paid work is rising slowly, the imbalance underscores the need for...
+   7. score=2.1193 D01 | p31 | 1.46 | D01_P031_SEC_1_46_PAR001
+      matched: gdp, polici
+      ...ins broadly even. Taking these considerations together, the Economic Survey projects real GDP growth in FY27 in the range of 6.8 to 7.2 per cent. The outlook, therefore, is one of steady growth amid global...
+   8. score=2.1193 D02 | p39 | UNKNOWN | D02_BOX019
+      matched: gdp, polici
+      ...n (1998)49. Using over a century of U.S. data, Bohn showed that if the primary surplus-to-GDP ratio rises systematically with the lagged debt-to-GDP ratio (β > 0), fiscal policy is sustainable regardless of...
+   9. score=2.1193 D02 | p3 | 2.3 | D02_P003_SEC_2_3_PAR001
+      matched: gdp, polici
+      ...22 articulated a medium-term glide path, targeting a fiscal deficit below 4.5 per cent of GDP by FY26, instead of binding annual targets, to ensure that growth-enhancing expenditure, particularly capex, was not...
+  10. score=2.1193 D02 | p34 | UNKNOWN | D02_P034_UNKNOWN_PAR001
+      matched: gdp, polici
+      ...nunciated in 2003 as the FRBM Act, and commit to a fiscal deficit target of 3 per cent of GDP for the Central Government. While it appears prima facie appropriate, in the highly uncertain current global...
+  ... 5 further results in retrieval_results.csv

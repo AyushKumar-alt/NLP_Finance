@@ -1,0 +1,1178 @@
+{
+  "corpus": {
+    "documents": 31,
+    "pages": 885,
+    "units_total": 8104,
+    "units_by_type": {
+      "box": 153,
+      "figure": 340,
+      "footnote": 1047,
+      "heading": 360,
+      "other": 349,
+      "paragraph": 5631,
+      "reference": 4,
+      "table": 220
+    },
+    "text_selection_policy": "prose_tables",
+    "policy_unit_types": [
+      "paragraph",
+      "reference",
+      "box",
+      "table"
+    ],
+    "selected_units": 6005,
+    "selected_characters": 2084810,
+    "gold_tokens": 412,
+    "gold_sentences": 30,
+    "bpe_vocabulary_size": 8000,
+    "bpe_corpus_tokens": 469401,
+    "figures": [
+      "01_token_count_by_tokenizer",
+      "02_vocabulary_by_tokenizer",
+      "03_stopword_reduction",
+      "04_stemming_vocabulary_reduction",
+      "05_lemmatization_vocabulary_reduction",
+      "06_pos_distribution",
+      "07_top_unigrams",
+      "08_top_bigrams",
+      "09_top_trigrams",
+      "10_ngram_vocabulary_growth",
+      "11_bpe_token_vocabulary_comparison"
+    ],
+    "runtime_seconds": 267.64,
+    "unit_type_distribution": {
+      "box": 153,
+      "figure": 340,
+      "footnote": 1047,
+      "heading": 360,
+      "other": 349,
+      "paragraph": 5631,
+      "reference": 4,
+      "table": 220
+    },
+    "spacy_max_chars_per_chunk": 20000,
+    "validation_passed": 14,
+    "validation_total": 14
+  },
+  "outputs": [
+    "README.md",
+    "bpe/bpe_examples.csv",
+    "bpe/bpe_statistics.csv",
+    "bpe/bpe_training_corpus/D01.txt",
+    "bpe/bpe_training_corpus/D02.txt",
+    "bpe/bpe_training_corpus/D03.txt",
+    "bpe/bpe_training_corpus/D04.txt",
+    "bpe/bpe_training_corpus/D05.txt",
+    "bpe/bpe_training_corpus/D06.txt",
+    "bpe/bpe_training_corpus/D07.txt",
+    "bpe/bpe_training_corpus/D08.txt",
+    "bpe/bpe_training_corpus/D09.txt",
+    "bpe/bpe_training_corpus/D10.txt",
+    "bpe/bpe_training_corpus/D11.txt",
+    "bpe/bpe_training_corpus/D12.txt",
+    "bpe/bpe_training_corpus/D13.txt",
+    "bpe/bpe_training_corpus/D14.txt",
+    "bpe/bpe_training_corpus/D15.txt",
+    "bpe/bpe_training_corpus/D16.txt",
+    "bpe/bpe_training_corpus/D17.txt",
+    "bpe/bpe_training_corpus/D18.txt",
+    "bpe/bpe_training_corpus/D19.txt",
+    "bpe/bpe_training_corpus/D20.txt",
+    "bpe/bpe_training_corpus/D21.txt",
+    "bpe/bpe_training_corpus/D22.txt",
+    "bpe/bpe_training_corpus/D23.txt",
+    "bpe/bpe_training_corpus/D24.txt",
+    "bpe/bpe_training_corpus/D25.txt",
+    "bpe/bpe_training_corpus/D26.txt",
+    "bpe/bpe_training_corpus/D27.txt",
+    "bpe/bpe_training_corpus/D28.txt",
+    "bpe/bpe_training_corpus/D29.txt",
+    "bpe/bpe_training_corpus/D30.txt",
+    "bpe/bpe_training_corpus/D31.txt",
+    "bpe/bpe_vocabulary.csv",
+    "bpe/tokenizer_model/merges.txt",
+    "bpe/tokenizer_model/tokenizer.json",
+    "bpe/tokenizer_model/training_manifest.json",
+    "bpe/tokenizer_model/vocab.json",
+    "comparisons/bpe_tokenization_comparison.csv",
+    "comparisons/domain_tokenization_testset.csv",
+    "comparisons/experiment_manifest.csv",
+    "comparisons/ngram_comparison.csv",
+    "comparisons/phase2_master_comparison.csv",
+    "comparisons/pos_comparison.csv",
+    "comparisons/representative_sample.csv",
+    "comparisons/tokenization_method_comparison.csv",
+    "figures/01_token_count_by_tokenizer.png",
+    "figures/02_vocabulary_by_tokenizer.png",
+    "figures/03_stopword_reduction.png",
+    "figures/04_stemming_vocabulary_reduction.png",
+    "figures/05_lemmatization_vocabulary_reduction.png",
+    "figures/06_pos_distribution.png",
+    "figures/07_top_unigrams.png",
+    "figures/08_top_bigrams.png",
+    "figures/09_top_trigrams.png",
+    "figures/10_ngram_vocabulary_growth.png",
+    "figures/11_bpe_token_vocabulary_comparison.png",
+    "lemmatization/lemmatization_comparison.csv",
+    "lemmatization/lemmatization_examples.csv",
+    "ner/custom_ner_results.csv",
+    "ner/domain_entity_dictionary.csv",
+    "ner/ner_entities.csv",
+    "ner/ner_error_analysis.csv",
+    "ner/ner_label_distribution.csv",
+    "ngrams/bigram_results.csv",
+    "ngrams/domain_phrases.csv",
+    "ngrams/fivegram_results.csv",
+    "ngrams/fourgram_results.csv",
+    "ngrams/trigram_results.csv",
+    "ngrams/unigram_results.csv",
+    "phase2_summary.csv",
+    "phase2_summary.json",
+    "phase2_validation_report.csv",
+    "pos/custom_pos_candidates.csv",
+    "pos/custom_pos_changes.csv",
+    "pos/custom_pos_dictionary.csv",
+    "pos/default_pos_coarse.csv",
+    "pos/default_pos_distribution.csv",
+    "pos/default_pos_examples.csv",
+    "pos/gold_annotation_alignment.csv",
+    "pos/ml_pos_classification_report.csv",
+    "pos/ml_pos_misclassifications.csv",
+    "pos/ml_pos_results.csv",
+    "pos/pos_gold_errors.csv",
+    "preprocessing/before_after_examples.csv",
+    "preprocessing/domain_stopword_analysis.csv",
+    "preprocessing/final_stopwords.txt",
+    "preprocessing/preprocessing_comparison.csv",
+    "preprocessing/stopword_comparison.csv",
+    "preprocessing/stopwords_protected_terms.csv",
+    "stemming/stemming_comparison.csv",
+    "stemming/stemming_examples.csv",
+    "stemming/stemming_families.csv",
+    "stemming/stopword_stemming_order_comparison.csv",
+    "summaries/phase2_methodology_justification.md",
+    "tokenization/custom_examples.csv",
+    "tokenization/custom_tokenizer_rules.csv",
+    "tokenization/date_number_comparison.csv",
+    "tokenization/date_number_patterns.csv",
+    "tokenization/hybrid_examples.csv",
+    "tokenization/nltk_examples.csv",
+    "tokenization/spacy_examples.csv",
+    "tokenization/tokenization_comparison.csv",
+    "tokenization/tokenization_examples_comparison.csv"
+  ],
+  "tokenization": [
+    {
+      "tokenizer": "nltk",
+      "description": "NLTK word_tokenize (Treebank word tokenizer + Punkt sentence splitter)",
+      "documents_processed": 31,
+      "units_processed": 6005,
+      "sentences": 15425,
+      "total_tokens": 349891,
+      "unique_tokens": 27497,
+      "vocabulary_size": 18080,
+      "avg_tokens_per_document": 11286.81,
+      "avg_tokens_per_sentence": 22.68,
+      "avg_tokens_per_unit": 58.27,
+      "numeric_tokens": 18823,
+      "date_tokens": 6952,
+      "fiscal_year_tokens": 1675,
+      "percentage_tokens": 361,
+      "currency_tokens": 1014,
+      "abbreviation_tokens": 7477,
+      "hyphenated_tokens": 6364,
+      "special_financial_tokens": 7505,
+      "execution_time_seconds": 3.156
+    },
+    {
+      "tokenizer": "custom",
+      "description": "Phase 2 financial rule-based tokenizer (17 ordered rules)",
+      "documents_processed": 31,
+      "units_processed": 6005,
+      "sentences": 15425,
+      "total_tokens": 346276,
+      "unique_tokens": 27422,
+      "vocabulary_size": 18684,
+      "avg_tokens_per_document": 11170.19,
+      "avg_tokens_per_sentence": 22.45,
+      "avg_tokens_per_unit": 57.66,
+      "numeric_tokens": 18316,
+      "date_tokens": 6179,
+      "fiscal_year_tokens": 1838,
+      "percentage_tokens": 2170,
+      "currency_tokens": 1044,
+      "abbreviation_tokens": 8105,
+      "hyphenated_tokens": 5173,
+      "special_financial_tokens": 2805,
+      "execution_time_seconds": 2.392
+    },
+    {
+      "tokenizer": "spacy",
+      "description": "spaCy en_core_web_sm tokenizer",
+      "documents_processed": 31,
+      "units_processed": 6005,
+      "sentences": 15425,
+      "total_tokens": 366035,
+      "unique_tokens": 25002,
+      "vocabulary_size": 15942,
+      "avg_tokens_per_document": 11807.58,
+      "avg_tokens_per_sentence": 23.73,
+      "avg_tokens_per_unit": 60.96,
+      "numeric_tokens": 20819,
+      "date_tokens": 7100,
+      "fiscal_year_tokens": 659,
+      "percentage_tokens": 356,
+      "currency_tokens": 1034,
+      "abbreviation_tokens": 7975,
+      "hyphenated_tokens": 1062,
+      "special_financial_tokens": 7625,
+      "execution_time_seconds": 29.135
+    },
+    {
+      "tokenizer": "hybrid",
+      "description": "NLTK word_tokenize + domain protection/repair layer",
+      "documents_processed": 31,
+      "units_processed": 6005,
+      "sentences": 15425,
+      "total_tokens": 344722,
+      "unique_tokens": 28112,
+      "vocabulary_size": 19519,
+      "avg_tokens_per_document": 11120.06,
+      "avg_tokens_per_sentence": 22.35,
+      "avg_tokens_per_unit": 57.41,
+      "numeric_tokens": 18380,
+      "date_tokens": 6618,
+      "fiscal_year_tokens": 1805,
+      "percentage_tokens": 2258,
+      "currency_tokens": 1154,
+      "abbreviation_tokens": 7401,
+      "hyphenated_tokens": 6472,
+      "special_financial_tokens": 2558,
+      "execution_time_seconds": 6.014
+    }
+  ],
+  "stopwords": [
+    {
+      "strategy": "none",
+      "description": "no removal (baseline)",
+      "stopword_list_size": 0,
+      "stopword_list_source": "spacy.lang.en.stop_words.STOP_WORDS",
+      "total_tokens": 344722,
+      "tokens_removed": 0,
+      "unique_tokens": 28112,
+      "vocabulary_size": 19505,
+      "token_reduction_percent": 0.0,
+      "vocabulary_reduction_percent": 0.0,
+      "avg_tokens_per_document": 11120.06,
+      "top_remaining_terms": [
+        ",:20724",
+        "the:13263",
+        ".:12575",
+        "and:11255",
+        "of:8863",
+        "to:6803",
+        "in:6420",
+        "a:4370",
+        "):3802",
+        "(:3781",
+        "for:3157",
+        "as:2397",
+        "by:2211",
+        "is:2114",
+        "with:2084",
+        "on:1771",
+        "from:1518",
+        "that:1515",
+        "::1484",
+        "'s:1447",
+        "india:1396",
+        "this:1327",
+        "has:1253",
+        "are:1237",
+        "ai:973"
+      ]
+    },
+    {
+      "strategy": "standard_english",
+      "description": "standard English stopword list applied unchanged",
+      "stopword_list_size": 326,
+      "stopword_list_source": "spacy.lang.en.stop_words.STOP_WORDS",
+      "total_tokens": 241278,
+      "tokens_removed": 103444,
+      "unique_tokens": 27652,
+      "vocabulary_size": 19244,
+      "token_reduction_percent": 30.01,
+      "vocabulary_reduction_percent": 1.34,
+      "avg_tokens_per_document": 7783.16,
+      "top_remaining_terms": [
+        ",:20724",
+        ".:12575",
+        "):3802",
+        "(:3781",
+        "::1484",
+        "india:1396",
+        "ai:973",
+        "sebi:897",
+        "-:771",
+        "global:733",
+        "growth:724",
+        "':688",
+        "financial:662",
+        "market:661",
+        "2025-26:588",
+        "sector:567",
+        "services:566",
+        "capital:542",
+        "investment:506",
+        "development:497",
+        "2025:494",
+        "infrastructure:457",
+        "policy:454",
+        "economic:449",
+        "total:422"
+      ]
+    },
+    {
+      "strategy": "domain_aware",
+      "description": "standard list minus protected financial terms, plus domain function words",
+      "stopword_list_size": 329,
+      "stopword_list_source": "spacy.lang.en.stop_words.STOP_WORDS",
+      "total_tokens": 241977,
+      "tokens_removed": 102745,
+      "unique_tokens": 27650,
+      "vocabulary_size": 19241,
+      "token_reduction_percent": 29.81,
+      "vocabulary_reduction_percent": 1.35,
+      "avg_tokens_per_document": 7805.71,
+      "top_remaining_terms": [
+        ",:20724",
+        ".:12575",
+        "):3802",
+        "(:3781",
+        "::1484",
+        "india:1396",
+        "ai:973",
+        "sebi:897",
+        "-:771",
+        "global:733",
+        "growth:724",
+        "':688",
+        "financial:662",
+        "market:661",
+        "2025-26:588",
+        "sector:567",
+        "services:566",
+        "can:566",
+        "capital:542",
+        "investment:506",
+        "development:497",
+        "2025:494",
+        "infrastructure:457",
+        "policy:454",
+        "economic:449"
+      ]
+    }
+  ],
+  "stemming": [
+    {
+      "algorithm": "porter",
+      "description": "Porter (1980) - original Porter stemmer, the classic baseline",
+      "total_tokens_before": 344722,
+      "unique_tokens_before": 28112,
+      "vocabulary_before": 19505,
+      "total_tokens_after": 344722,
+      "unique_tokens_after": 19242,
+      "unique_stems": 14295,
+      "vocabulary_reduction": 5210,
+      "vocabulary_reduction_percent": 26.71,
+      "unique_token_reduction_percent": 31.55,
+      "avg_tokens_per_document": 11120.06,
+      "type_token_ratio": 0.055819,
+      "distinct_stems": 19242,
+      "colliding_stems": 7189,
+      "execution_time_seconds": 1.557
+    },
+    {
+      "algorithm": "snowball_english",
+      "description": "Snowball 'english' (Porter2) - improved Porter algorithm",
+      "total_tokens_before": 344722,
+      "unique_tokens_before": 28112,
+      "vocabulary_before": 19505,
+      "total_tokens_after": 344722,
+      "unique_tokens_after": 19248,
+      "unique_stems": 14301,
+      "vocabulary_reduction": 5204,
+      "vocabulary_reduction_percent": 26.68,
+      "unique_token_reduction_percent": 31.53,
+      "avg_tokens_per_document": 11120.06,
+      "type_token_ratio": 0.055836,
+      "distinct_stems": 19248,
+      "colliding_stems": 7162,
+      "execution_time_seconds": 0.752
+    },
+    {
+      "algorithm": "lancaster",
+      "description": "Lancaster (Paice/Husk) - aggressive, most aggressive of the three",
+      "total_tokens_before": 344722,
+      "unique_tokens_before": 28112,
+      "vocabulary_before": 19505,
+      "total_tokens_after": 344722,
+      "unique_tokens_after": 18016,
+      "unique_stems": 13069,
+      "vocabulary_reduction": 6436,
+      "vocabulary_reduction_percent": 33.0,
+      "unique_token_reduction_percent": 35.91,
+      "avg_tokens_per_document": 11120.06,
+      "type_token_ratio": 0.052262,
+      "distinct_stems": 18016,
+      "colliding_stems": 6290,
+      "execution_time_seconds": 0.796
+    }
+  ],
+  "lemmatization": [
+    {
+      "method": "wordnet_lookup_pos_agnostic",
+      "pos_required": false,
+      "pos_source": "none",
+      "lemma_resource": "spacy-lookups-data en lemma_lookup + en lemma_index (WordNet-derived)",
+      "total_tokens": 366035,
+      "unique_tokens": 20173,
+      "unique_lemmas": 12195,
+      "vocabulary_before": 15929,
+      "vocabulary_reduction": 3734,
+      "vocabulary_reduction_percent": 23.44,
+      "avg_tokens_per_document": 11807.58,
+      "type_token_ratio": 0.055112,
+      "limitations": "no POS input, so verbs and adjectives are lemmatized as nouns; domain coinages absent from WordNet are returned unchanged"
+    },
+    {
+      "method": "wordnet_lookup_pos_aware",
+      "pos_required": true,
+      "pos_source": "spaCy universal POS from the shared pass",
+      "lemma_resource": "spacy-lookups-data en lemma_lookup + en lemma_index (WordNet-derived)",
+      "total_tokens": 366035,
+      "unique_tokens": 20173,
+      "unique_lemmas": 12195,
+      "vocabulary_before": 15929,
+      "vocabulary_reduction": 3734,
+      "vocabulary_reduction_percent": 23.44,
+      "avg_tokens_per_document": 11807.58,
+      "type_token_ratio": 0.055112,
+      "limitations": "needs reliable POS, so a POS-tagging error propagates into the lemma; domain coinages still unchanged"
+    },
+    {
+      "method": "spacy_rule_based",
+      "pos_required": false,
+      "pos_source": "none",
+      "lemma_resource": "spaCy en_core_web_sm rule-based lemmatizer",
+      "total_tokens": 366035,
+      "unique_tokens": 21257,
+      "unique_lemmas": 13330,
+      "vocabulary_before": 15929,
+      "vocabulary_reduction": 2599,
+      "vocabulary_reduction_percent": 16.32,
+      "avg_tokens_per_document": 11807.58,
+      "type_token_ratio": 0.058074,
+      "limitations": "trained on general English; financial coinages (e.g. disinflation) are usually left unchanged"
+    },
+    {
+      "method": "lemminflect_rulebased",
+      "pos_required": true,
+      "pos_source": "spaCy universal POS from the shared pass",
+      "lemma_resource": "lemminflect rule tables",
+      "total_tokens": 366035,
+      "unique_tokens": 21108,
+      "unique_lemmas": 13169,
+      "vocabulary_before": 15929,
+      "vocabulary_reduction": 2760,
+      "vocabulary_reduction_percent": 17.33,
+      "avg_tokens_per_document": 11807.58,
+      "type_token_ratio": 0.057667,
+      "limitations": "rule tables cover standard English inflections only; irregular financial nouns are unchanged"
+    }
+  ],
+  "preprocessing": [
+    {
+      "stage": "1_tokenized_baseline",
+      "method": "hybrid domain-aware tokenizer (no filtering)",
+      "total_tokens": 344722,
+      "unique_tokens": 28112,
+      "vocabulary_size": 19505,
+      "type_token_ratio": 0.08155,
+      "documents": 31,
+      "units": 6005,
+      "avg_tokens_per_document": 11120.06,
+      "avg_tokens_per_unit": 57.41,
+      "token_change_vs_baseline_percent": 0.0,
+      "vocabulary_change_vs_baseline_percent": 0.0,
+      "avg_tokens_per_unit_baseline": 57.41,
+      "avg_tokens_per_unit_change_percent": 0.0
+    },
+    {
+      "stage": "2_stopword_removed",
+      "method": "domain-aware stopword strategy",
+      "total_tokens": 241977,
+      "unique_tokens": 27650,
+      "vocabulary_size": 19241,
+      "type_token_ratio": 0.114267,
+      "documents": 31,
+      "units": 6005,
+      "avg_tokens_per_document": 7805.71,
+      "avg_tokens_per_unit": 40.3,
+      "token_change_vs_baseline_percent": 29.81,
+      "vocabulary_change_vs_baseline_percent": 1.35,
+      "avg_tokens_per_unit_baseline": 57.41,
+      "avg_tokens_per_unit_change_percent": 29.8
+    },
+    {
+      "stage": "3_stemmed",
+      "method": "Porter stemmer applied after stopword removal",
+      "total_tokens": 241977,
+      "unique_tokens": 19033,
+      "vocabulary_size": 14086,
+      "type_token_ratio": 0.078656,
+      "documents": 31,
+      "units": 6005,
+      "avg_tokens_per_document": 7805.71,
+      "avg_tokens_per_unit": 40.3,
+      "token_change_vs_baseline_percent": 29.81,
+      "vocabulary_change_vs_baseline_percent": 27.78,
+      "avg_tokens_per_unit_baseline": 57.41,
+      "avg_tokens_per_unit_change_percent": 29.8
+    },
+    {
+      "stage": "4_lemmatized",
+      "method": "WordNet lookup lemmatizer applied after stopword removal",
+      "total_tokens": 241977,
+      "unique_tokens": 22977,
+      "vocabulary_size": 15620,
+      "type_token_ratio": 0.094955,
+      "documents": 31,
+      "units": 6005,
+      "avg_tokens_per_document": 7805.71,
+      "avg_tokens_per_unit": 40.3,
+      "token_change_vs_baseline_percent": 29.81,
+      "vocabulary_change_vs_baseline_percent": 19.92,
+      "avg_tokens_per_unit_baseline": 57.41,
+      "avg_tokens_per_unit_change_percent": 29.8
+    },
+    {
+      "stage": "5_standard_stopwords",
+      "method": "standard English stopword list (for comparison)",
+      "total_tokens": 241278,
+      "unique_tokens": 27652,
+      "vocabulary_size": 19244,
+      "type_token_ratio": 0.114606,
+      "documents": 31,
+      "units": 6005,
+      "avg_tokens_per_document": 7783.16,
+      "avg_tokens_per_unit": 40.18,
+      "token_change_vs_baseline_percent": 30.01,
+      "vocabulary_change_vs_baseline_percent": 1.34,
+      "avg_tokens_per_unit_baseline": 57.41,
+      "avg_tokens_per_unit_change_percent": 30.01
+    }
+  ],
+  "pos": {
+    "distribution_top": [
+      {
+        "tag": "NN",
+        "coarse_category": "noun",
+        "tag_description": "",
+        "count": 60271,
+        "percent_of_tokens": 16.4659,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "IN",
+        "coarse_category": "adposition",
+        "tag_description": "",
+        "count": 42750,
+        "percent_of_tokens": 11.6792,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "NNP",
+        "coarse_category": "proper_noun",
+        "tag_description": "",
+        "count": 32456,
+        "percent_of_tokens": 8.8669,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "JJ",
+        "coarse_category": "adjective",
+        "tag_description": "",
+        "count": 29503,
+        "percent_of_tokens": 8.0602,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "NNS",
+        "coarse_category": "noun",
+        "tag_description": "",
+        "count": 27438,
+        "percent_of_tokens": 7.496,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "DT",
+        "coarse_category": "determiner",
+        "tag_description": "",
+        "count": 21456,
+        "percent_of_tokens": 5.8617,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": ",",
+        "coarse_category": "other",
+        "tag_description": "",
+        "count": 20666,
+        "percent_of_tokens": 5.6459,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "CD",
+        "coarse_category": "number",
+        "tag_description": "",
+        "count": 19807,
+        "percent_of_tokens": 5.4112,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "CC",
+        "coarse_category": "coordinator",
+        "tag_description": "",
+        "count": 12699,
+        "percent_of_tokens": 3.4693,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": ".",
+        "coarse_category": "other",
+        "tag_description": "",
+        "count": 11863,
+        "percent_of_tokens": 3.2409,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "VBN",
+        "coarse_category": "verb",
+        "tag_description": "",
+        "count": 10809,
+        "percent_of_tokens": 2.953,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "VBG",
+        "coarse_category": "verb",
+        "tag_description": "",
+        "count": 8260,
+        "percent_of_tokens": 2.2566,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "RB",
+        "coarse_category": "adverb",
+        "tag_description": "",
+        "count": 8052,
+        "percent_of_tokens": 2.1998,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "VBZ",
+        "coarse_category": "verb",
+        "tag_description": "",
+        "count": 6863,
+        "percent_of_tokens": 1.875,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "VB",
+        "coarse_category": "verb",
+        "tag_description": "",
+        "count": 6522,
+        "percent_of_tokens": 1.7818,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "HYPH",
+        "coarse_category": "other",
+        "tag_description": "",
+        "count": 4824,
+        "percent_of_tokens": 1.3179,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "_SP",
+        "coarse_category": "other",
+        "tag_description": "",
+        "count": 4779,
+        "percent_of_tokens": 1.3056,
+        "documents_containing_tag": 30
+      },
+      {
+        "tag": "VBP",
+        "coarse_category": "verb",
+        "tag_description": "",
+        "count": 4082,
+        "percent_of_tokens": 1.1152,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "VBD",
+        "coarse_category": "verb",
+        "tag_description": "",
+        "count": 4076,
+        "percent_of_tokens": 1.1136,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "-LRB-",
+        "coarse_category": "other",
+        "tag_description": "",
+        "count": 3668,
+        "percent_of_tokens": 1.0021,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "-RRB-",
+        "coarse_category": "other",
+        "tag_description": "",
+        "count": 3590,
+        "percent_of_tokens": 0.9808,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "TO",
+        "coarse_category": "particle",
+        "tag_description": "",
+        "count": 3530,
+        "percent_of_tokens": 0.9644,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "NNPS",
+        "coarse_category": "proper_noun",
+        "tag_description": "",
+        "count": 2113,
+        "percent_of_tokens": 0.5773,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": ":",
+        "coarse_category": "other",
+        "tag_description": "",
+        "count": 2048,
+        "percent_of_tokens": 0.5595,
+        "documents_containing_tag": 31
+      },
+      {
+        "tag": "MD",
+        "coarse_category": "auxiliary",
+        "tag_description": "",
+        "count": 1664,
+        "percent_of_tokens": 0.4546,
+        "documents_containing_tag": 31
+      }
+    ],
+    "comparison": [
+      {
+        "method": "default_pos",
+        "dataset_size": 412,
+        "gold_sentences": 30,
+        "accuracy_if_available": 0.9223,
+        "precision_if_available": 0.7461,
+        "recall_if_available": 0.7928,
+        "f1_if_available": 0.7571,
+        "domain_terms_corrected": 0,
+        "observed_changes": "baseline distribution over the whole corpus",
+        "limitations": "no domain awareness; acronyms and -isation nouns mis-tagged"
+      },
+      {
+        "method": "custom_rule_pos",
+        "dataset_size": 412,
+        "gold_sentences": 30,
+        "accuracy_if_available": 0.7913,
+        "precision_if_available": 0.6678,
+        "recall_if_available": 0.6168,
+        "f1_if_available": 0.6139,
+        "domain_terms_corrected": 665,
+        "observed_changes": "665 of 366035 corpus tokens re-tagged (0.1817%)",
+        "limitations": "dictionary based; no context beyond the token itself"
+      },
+      {
+        "method": "custom_ml_pos",
+        "dataset_size": 130,
+        "gold_sentences": 9,
+        "accuracy_if_available": 0.8769,
+        "precision_if_available": 0.7991,
+        "recall_if_available": 0.8001,
+        "f1_if_available": 0.7764,
+        "domain_terms_corrected": "",
+        "observed_changes": "trained on 366317 tokens (366035 silver, 282 gold)",
+        "limitations": "single annotator gold set of 130 tokens; silver training labels come from spaCy"
+      }
+    ],
+    "gold_set": {
+      "file": "data/phase2/annotations/pos_gold_annotations.csv",
+      "tokens": 412,
+      "sentences": 30,
+      "annotation": "manual, single annotator, UPOS-17"
+    }
+  },
+  "ner": {
+    "total_entities": 26793,
+    "labels": [
+      {
+        "entity_label": "CARDINAL",
+        "count": 6715,
+        "distinct_surface_forms": 12682,
+        "percent_of_entities": 25.0625
+      },
+      {
+        "entity_label": "ORG",
+        "count": 6507,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 24.2862
+      },
+      {
+        "entity_label": "DATE",
+        "count": 4502,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 16.8029
+      },
+      {
+        "entity_label": "GPE",
+        "count": 3043,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 11.3574
+      },
+      {
+        "entity_label": "MONEY",
+        "count": 2493,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 9.3047
+      },
+      {
+        "entity_label": "PERSON",
+        "count": 1171,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 4.3705
+      },
+      {
+        "entity_label": "NORP",
+        "count": 473,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 1.7654
+      },
+      {
+        "entity_label": "PERCENT",
+        "count": 351,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 1.31
+      },
+      {
+        "entity_label": "LAW",
+        "count": 318,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 1.1869
+      },
+      {
+        "entity_label": "ORDINAL",
+        "count": 316,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 1.1794
+      },
+      {
+        "entity_label": "PRODUCT",
+        "count": 230,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 0.8584
+      },
+      {
+        "entity_label": "LOC",
+        "count": 176,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 0.6569
+      },
+      {
+        "entity_label": "QUANTITY",
+        "count": 138,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 0.5151
+      },
+      {
+        "entity_label": "WORK_OF_ART",
+        "count": 128,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 0.4777
+      },
+      {
+        "entity_label": "EVENT",
+        "count": 74,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 0.2762
+      },
+      {
+        "entity_label": "TIME",
+        "count": 74,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 0.2762
+      },
+      {
+        "entity_label": "FAC",
+        "count": 66,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 0.2463
+      },
+      {
+        "entity_label": "LANGUAGE",
+        "count": 18,
+        "distinct_surface_forms": "",
+        "percent_of_entities": 0.0672
+      }
+    ],
+    "domain_mentions": 4951,
+    "domain_categories": {
+      "COUNTRY_OR_REGION": 1925,
+      "FINANCIAL_INSTITUTION": 1103,
+      "ECONOMIC_INDICATOR": 788,
+      "FINANCIAL_INSTRUMENT": 560,
+      "POLICY_TERM": 342,
+      "ECONOMIC_EVENT": 127,
+      "REGULATORY_BODY": 62,
+      "GOVERNMENT_BODY": 44
+    },
+    "error_rows": 146
+  },
+  "ngrams": [
+    {
+      "n": 1,
+      "total_ngrams": 344722,
+      "unique_ngrams": 24452,
+      "top_ngram": ",",
+      "top_ngram_frequency": 20724,
+      "top_content_ngram": "over",
+      "top_content_ngram_frequency": 530,
+      "singletons": 12716
+    },
+    {
+      "n": 2,
+      "total_ngrams": 338717,
+      "unique_ngrams": 157151,
+      "top_ngram": ", and",
+      "top_ngram_frequency": 2728,
+      "top_content_ngram": "over the",
+      "top_content_ngram_frequency": 194,
+      "singletons": 117875
+    },
+    {
+      "n": 3,
+      "total_ngrams": 332716,
+      "unique_ngrams": 268828,
+      "top_ngram": "ai ai ai",
+      "top_ngram_frequency": 393,
+      "top_content_ngram": "over the past",
+      "top_content_ngram_frequency": 51,
+      "singletons": 242118
+    },
+    {
+      "n": 4,
+      "total_ngrams": 326715,
+      "unique_ngrams": 303942,
+      "top_ngram": "ai ai ai ai",
+      "top_ngram_frequency": 330,
+      "top_content_ngram": "over the past few",
+      "top_content_ngram_frequency": 5,
+      "singletons": 291874
+    },
+    {
+      "n": 5,
+      "total_ngrams": 320715,
+      "unique_ngrams": 310349,
+      "top_ngram": "ai ai ai ai ai",
+      "top_ngram_frequency": 284,
+      "top_content_ngram": "over the past few years",
+      "top_content_ngram_frequency": 3,
+      "singletons": 304410
+    }
+  ],
+  "bpe": {
+    "vocabulary_size": 8000,
+    "corpus_token_count": 469401,
+    "statistics": [
+      {
+        "metric": "vocabulary_size",
+        "value": 8000,
+        "detail": "size of the trained BPE vocabulary (includes special tokens)"
+      },
+      {
+        "metric": "merge_operations",
+        "value": 7998,
+        "detail": "vocabulary entries beyond the special tokens; each corresponds to one learned merge"
+      },
+      {
+        "metric": "training_units",
+        "value": 6005,
+        "detail": "corpus units used for training (policy 'prose_tables')"
+      },
+      {
+        "metric": "corpus_token_count",
+        "value": 469401,
+        "detail": "tokens produced by BPE over the whole experiment sample"
+      },
+      {
+        "metric": "corpus_characters",
+        "value": 2084810,
+        "detail": "characters in the experiment sample (compression reference)"
+      },
+      {
+        "metric": "bytes_per_token",
+        "value": 4.441,
+        "detail": "characters per BPE token"
+      },
+      {
+        "metric": "observed_word_types",
+        "value": 25186,
+        "detail": "distinct whitespace word types in the sample (pre-tokenization reference)"
+      },
+      {
+        "metric": "out_of_vocabulary_words",
+        "value": 0,
+        "detail": "byte-level BPE has no OOV: every byte sequence is representable"
+      },
+      {
+        "metric": "subword_tokens[common]",
+        "value": 1,
+        "detail": "the -> the"
+      },
+      {
+        "metric": "subword_tokens[common]",
+        "value": 1,
+        "detail": "growth -> growth"
+      },
+      {
+        "metric": "subword_tokens[common]",
+        "value": 1,
+        "detail": "market -> market"
+      },
+      {
+        "metric": "subword_tokens[common]",
+        "value": 1,
+        "detail": "investment -> investment"
+      }
+    ]
+  },
+  "date_number": [
+    {
+      "category": "TOTAL",
+      "class": "summary",
+      "expressions_detected": 49926,
+      "expressions_intact_after_standard_tokenization": 6413,
+      "intact_rate_percent": 12.85,
+      "typed_component_tokens": 27718,
+      "tokens_equal_to_whole_expression": 14960
+    }
+  ],
+  "validation": [
+    {
+      "rule_id": "V01",
+      "rule": "Phase 1 structured corpus loaded successfully (documents > 0 and units > 0)",
+      "status": "PASS",
+      "detail": "31 documents, 885 pages, 8104 units",
+      "evidence": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\data\\corpus\\structured\\corpus.jsonl"
+    },
+    {
+      "rule_id": "V02",
+      "rule": "every unit keeps document_id / page_id / section_id / unit_id traceability",
+      "status": "PASS",
+      "detail": "8104/8104 units fully traceable",
+      "evidence": "no missing provenance"
+    },
+    {
+      "rule_id": "V03",
+      "rule": "no token / n-gram count is negative",
+      "status": "PASS",
+      "detail": "checked 4 tokenizers and 5 n-gram sizes",
+      "evidence": "all counts >= 0"
+    },
+    {
+      "rule_id": "V04",
+      "rule": "vocabulary size <= unique tokens <= total tokens for every method",
+      "status": "PASS",
+      "detail": "checked nltk:18080/27497/349891, custom:18684/27422/346276, spacy:15942/25002/366035, hybrid:19519/28112/344722",
+      "evidence": "ordering holds for all methods"
+    },
+    {
+      "rule_id": "V05",
+      "rule": "every required Phase 2 output file exists",
+      "status": "PASS",
+      "detail": "50/50 files present",
+      "evidence": "all required artefacts written"
+    },
+    {
+      "rule_id": "V06",
+      "rule": "every output CSV can be opened and has a header row",
+      "status": "PASS",
+      "detail": "54/54 CSV files readable",
+      "evidence": "all CSVs parse cleanly"
+    },
+    {
+      "rule_id": "V07",
+      "rule": "every output JSON file is valid JSON",
+      "status": "PASS",
+      "detail": "4/4 JSON files valid",
+      "evidence": "all JSON parses cleanly"
+    },
+    {
+      "rule_id": "V08",
+      "rule": "n-gram counts are positive and unique <= total for every n",
+      "status": "PASS",
+      "detail": "n=1: 24452/344722, n=2: 157151/338717, n=3: 268828/332716, n=4: 303942/326715, n=5: 310349/320715",
+      "evidence": "all n-gram tables consistent"
+    },
+    {
+      "rule_id": "V09",
+      "rule": "a trained BPE vocabulary and persisted model exist",
+      "status": "PASS",
+      "detail": "vocabulary entries: 8000; corpus BPE tokens: 469401",
+      "evidence": "vocab csv: True, model dir: True"
+    },
+    {
+      "rule_id": "V10",
+      "rule": "no experiment silently processed an empty corpus",
+      "status": "PASS",
+      "detail": "5 experiment tables checked",
+      "evidence": "every experiment produced rows"
+    },
+    {
+      "rule_id": "V11",
+      "rule": "no source PDF was modified (SHA-256 re-verified against the Phase 1 registry)",
+      "status": "PASS",
+      "detail": "0/0 PDF hashes match the Phase 1 registry",
+      "evidence": "source PDFs byte-identical to Phase 1 ingestion"
+    },
+    {
+      "rule_id": "V12",
+      "rule": "no accuracy/precision/recall/F1 value is reported without an evaluation sample size",
+      "status": "PASS",
+      "detail": "POS metrics are computed only on the manually annotated gold subset",
+      "evidence": "every reported score carries its sample size"
+    },
+    {
+      "rule_id": "V13",
+      "rule": "POS/NER evaluation is backed by a persisted manual annotation file (no invented ground truth)",
+      "status": "PASS",
+      "detail": "gold POS file: 412 manually annotated tokens in 30 sentences",
+      "evidence": "pos_gold_annotations.csv present"
+    },
+    {
+      "rule_id": "V14",
+      "rule": "example tables retain document_id / page_number / unit_id traceability",
+      "status": "PASS",
+      "detail": "3 example tables checked",
+      "evidence": "all example tables are traceable"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+Query Q11: inflation OR disinflation
+Type: boolean_or (Price movement alternatives)
+Expected domain: economic
+Pipeline-normalized terms: inflation, disinflation
+Matched terms: disinfl, inflat
+Missing terms: (none)
+Results: 50 content unit(s) in 7 document(s)
+Execution time: 272.722 ms
+
+   1. score=2.2386 D01 | p24 | 1.29 | D01_P024_SEC_1_29_PAR001
+      matched: disinfl, inflat
+      1.29. The demand-led growth in the economy has unfolded alongside a marked easing of inflation, which has improved real purchasing power and supported consumption. Domestic inflation dynamics in FY26 (April-December) ref
+   2. score=2.2258 D20 | p4 | II | D20_P004_II_PAR001
+      matched: disinfl, inflat
+      On the inflation front, 2025-26 was a landmark year for India. Consumer Price Index (CPI) inflation followed a sharply declining path, averaging approximately 2.1 per cent for the full year - its lowest level in several
+   3. score=2.1945 D05 | p5 | 5.7 | D05_P005_SEC_5_7_PAR001
+      matched: disinfl, inflat
+      5.7. Among major EMDEs, India has recorded one of the sharpest declines in headline inflation, amounting to about 1.8 percentage points (Chart V. 5). Importantly, this disinflation has occurred alongside robust GDP growt
+   4. score=2.1747 D05 | p5 | 5.8 | D05_P005_SEC_5_8_PAR001
+      matched: disinfl, inflat
+      5.8. Over the past four years, average retail inflation, as measured by the Consumer Price Index (CPI), has followed a clear downward trajectory (Chart V.6), declining steadily from 6.7 per cent in the financial year (FY
+   5. score=2.1747 D05 | p6 | 5.9 | D05_P006_SEC_5_9_PAR001
+      matched: disinfl, inflat
+      5.9. The current disinflationary phase commenced in October 2024, when retail inflation stood at 6.2 per cent. During the first half of 2025–26 (H1 of FY26), headline inflation declined sharply from 3.2 per cent in April
+   6. score=2.1747 D05 | p13 | 5.22 | D05_P013_SEC_5_22_PAR001
+      matched: disinfl, inflat
+      5. 23. Inflation in ‘clothing and footwear’ fell sharply from elevated levels in early 2023 to lower levels by 2024-25. This disinflation reflects easing input costs, improved supply conditions and competitive pressures
+   7. score=2.1505 D05 | p12 | 5.21 | D05_P012_SEC_5_21_PAR001
+      matched: disinfl, inflat
+      5.21. The four major components of the core CPI basket – (i) clothing and footwear, (ii) housing, (iii) health and (iv) transport and communication – account for nearly one-third of the CPI basket and more than 60 per ce
+   8. score=2.1193 D05 | p11 | 5.18 | D05_P011_SEC_5_18_PAR001
+      matched: disinfl, inflat
+      5.18. Amid the sharp disinflation observed across several food items, the experience of edible oils stands out. The edible oil market in India is characterised by structural excess demand, with over 50 per cent of domest
+   9. score=1.2603 D05 | p7 | 5.9 | D05_P007_SEC_5_9_PAR002
+      matched: inflat
+      5. 10. The apparent divergence between headline and core inflation creates an impression of sticky core inflation, suggesting that underlying price pressures are firming even as headline inflation softens. The average re
+  10. score=1.2500 D05 | p2 | 5.2 | D05_P002_SEC_5_2_PAR001
+      matched: inflat
+      5.2. In the United States, headline inflation declined from 3.0 per cent in 2024 to 2.7 per cent in 2025, driven largely by moderating core services inflation, along with continued negative inflation in major commodity p
+  ... 40 further results in retrieval_results.csv

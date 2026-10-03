@@ -1,0 +1,40 @@
+Query Q13: banking AND NOT insurance
+Type: boolean_not (Banking passages without insurance)
+Expected domain: banking
+Pipeline-normalized terms: banking, insurance
+Matched terms: bank
+Missing terms: (none)
+Results: 50 content unit(s) in 14 document(s)
+Execution time: 536.471 ms
+
+   1. score=1.1945 D03 | p10 | 3.13 | D03_P010_SEC_3_13_PAR001
+      matched: bank
+      ...ing the same period, broad money (M3) growth, including the impact of the merger of a non-bank with a bank (with effect from 1 July 2023), was 12.1 per cent, as compared with 9 per cent a year ago. This trend in...
+   2. score=1.1747 D03 | p64 | UNKNOWN | D03_BOX023
+      matched: bank
+      ...n and innovation while safeguarding stability. Credit and capital supply must move beyond bank dominance through deeper markets and modern financial infrastructure. Administrative processes should be centred on...
+   3. score=1.1747 D06 | p17 | 6.23 | D06_P017_SEC_6_23_PAR001
+      matched: bank
+      ...marginal farmers. Agricultural credit flows from both formal sources, such as commercial banks, Regional rural banks (RRBs), cooperatives, small finance banks, and Microfinance Institutions (MFIs), and informal...
+   4. score=1.1747 D06 | p17 | 6.24 | D06_P017_SEC_6_24_PAR001
+      matched: bank
+      6.24 Ground Level Credit (GLC) disbursement stood at ₹28.69 lakh crore, which includes ₹15.93 lakh crore under short term loans and ₹12.77 lakh crore under term loans, surpassing the ₹27.5 lakh crore target in FY 25.74 T
+   5. score=1.1747 D18 | p2 | II | D18_P002_II_PAR001
+      matched: bank
+      ▪ The RBI notes that credit growth of Scheduled Commercial Banks (SCBs) remained robust at 14.5% year-on-year during 2025–26, reflecting broad-based strengthening in credit demand across all major sectors of the...
+   6. score=1.1505 D01 | p26 | 1.33 | D01_P026_SEC_1_33_PAR001
+      matched: bank
+      1.33. Alongside the fiscal stimulus provided by higher public capital expenditure and tax reductions, monetary support was delivered through a cumulative reduction of 125 basis points in the policy repo rate since Februa
+   7. score=1.1505 D01 | p27 | 1.34 | D01_P027_SEC_1_34_PAR001
+      matched: bank
+      ...or is tapping into alternative sources of financing, thereby offsetting any moderation in bank credit. The faster transmission of monetary policy has enabled market-based financial instruments to serve as a viable...
+   8. score=1.1505 D03 | p1 | UNKNOWN | D03_P001_UNKNOWN_PAR002
+      matched: bank
+      ...cross financial intermediation channels. In response to moderating inflation, the Reserve Bank of India's Monetary Policy Committee reduced the repo rate, while injecting durable liquidity through cash reserve...
+   9. score=1.1505 D03 | p17 | 3.31 | D03_P017_SEC_3_31_PAR001
+      matched: bank
+      ...ase in the flow of financial resources to the commercial sector, bolstered by greater non-bank intermediation, has accompanied the slowdown in bank credit growth in early FY26. This trend indicates that non-bank...
+  10. score=1.1505 D03 | p20 | 3.39 | D03_P020_SEC_3_39_PAR001
+      matched: bank
+      ...egulated entities. Additionally, instructions issued by NABARD to RRBs, State Cooperative Banks, and Central Cooperative Banks were also consolidated in consultation with NABARD. As part of this initiative, the...
+  ... 40 further results in retrieval_results.csv

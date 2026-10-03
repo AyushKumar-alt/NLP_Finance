@@ -1,0 +1,11 @@
+n,total_ngrams,unique_ngrams,top_ngram,top_ngram_frequency,singletons,meaningful_domain_phrases,raw_unique_ngrams,stopword_removed_unique_ngrams,unique_ngrams_after_removal,multiword_phrases_raw,multiword_phrases_after_removal,shared_multiword_phrases,phrases_lost_after_stopword_removal,phrases_introduced_after_stopword_removal,examples_lost,examples_introduced
+1,344722,24452,",",20724,12716,0,,,,,,,,,,
+2,338717,157151,", and",2728,117875,864,,,,,,,,,,
+3,332716,268828,ai ai ai,393,242118,273,,,,,,,,,,
+4,326715,303942,ai ai ai ai,330,291874,63,,,,,,,,,,
+5,320715,310349,ai ai ai ai ai,284,304410,0,,,,,,,,,,
+1,,,,,,,24452,24188,0,0,0,0,0,0,,
+2,,,,,,,157151,147600,147600,157151,147600,89975,67176,57625,# one;$ 6.1 billion during;$55 billion per;% of;& a;& below;& i;& other,# advisory;# member;$ 6.1 billion april 2020;$55 billion annum-into;% auc;% gdp;% limits;% nominal
+3,,,,,,,268828,207159,207159,268828,207159,87474,181354,119685,# 1.4 others;# indicates that;# one advisory;# one member;$ 6.1 billion during april 2020;$25 billion . these;$55 billion per annum-into;$840 billion 51 over,# 1.4 (;# advisory letter;# indicates data;# member added;$ 6.1 billion april 2020 -;$25 billion . measures;$55 billion annum-into urban;$840 billion 51 15
+4,,,,,,,303942,215607,215607,303942,215607,64041,239901,151566,# 1.4 others (;# 39 registrar to;# indicates that data;# one advisory letter;# one member not;$ 6.1 billion during april 2020 -;$25 billion . these measures;$55 billion per annum-into urban,# 1.4 ( deputation;# 39 registrar issue;# advisory letter issued;# indicates data revised;# member added list;$ 6.1 billion april 2020 - september 2023;$25 billion . measures effectively;$55 billion annum-into urban infrastructure
+5,,,,,,,310349,213584,213584,310349,213584,46111,264238,167473,# /en/home 7 ger is;# 1.4 others ( on;# 31 32 registrar to;# 39 registrar to issue;# indicates that data has;# one advisory letter issued;# one member not added;$ ( 87.5 per cent ) were,# /en/home 7 ger total;# 1.4 ( deputation );# 31 32 registrar issue;# 39 registrar issue share;# advisory letter issued context;# indicates data revised .;# member added list sebi;$ ( 87.5 per cent ) e-complaints

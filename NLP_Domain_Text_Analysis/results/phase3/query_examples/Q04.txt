@@ -1,0 +1,40 @@
+Query Q04: monetary policy
+Type: phrase (Ordered two-word policy phrase)
+Expected domain: economic
+Pipeline-normalized terms: monetari, polici
+Matched terms: monetari, polici
+Missing terms: (none)
+Results: 23 content unit(s) in 6 document(s)
+Execution time: 149.710 ms
+
+   1. score=4.1747 D03 | p1 | UNKNOWN | D03_P001_UNKNOWN_PAR002
+      matched: monetari, polici
+      India's monetary and financial sectors have exhibited robust performance in FY26 (April-December 2025), underpinned by strategic policy actions and structural resilience across financial intermediation channels. In respo
+   2. score=4.1747 D03 | p9 | 3.10 | D03_P009_SEC_3_10_PAR001
+      matched: monetari, polici
+      3.10 In the light of the evolving macroeconomic and financial developments outlined in the previous section, the RBI undertook several key monetary policy actions in FY26 (April-December). These measures were designed to
+   3. score=4.1747 D03 | p34 | 3.64 | D03_P034_SEC_3_64_PAR001
+      matched: monetari, polici
+      3.64 Capital markets help finance economic growth by channelising savings to investments. They are catalysts for wealth creation in the economy. The year FY26, so far, has been eventful for the economies and markets worl
+   4. score=4.1747 D05 | p1 | UNKNOWN | D05_P001_UNKNOWN_PAR002
+      matched: monetari, polici
+      This chapter provides a comprehensive analysis of recent trends in global and domestic inflation, with a particular focus on the period up to December 2025. Globally, inflation has moderated significantly from its post-p
+   5. score=4.1747 D16 | p4 | 16.10 | D16_P004_SEC_16_10_PAR001
+      matched: monetari, polici
+      16.10. Presciently, in February 2020, shortly after the COVID-19 pandemic broke out, fund manager Alberto Gallo warned that the extraordinary monetary easing that followed the 2008 Global Financial Crisis — and the even
+   6. score=4.1747 D17 | p9 | 16.99 | D17_P009_SEC_16_99_PAR003
+      matched: monetari, polici
+      By global standards, India’s RTI Act is relatively expansive. In the United States, internal personnel rules, inter-agency memos, and financial regulation reports are exempt from disclosure. Sweden protects fiscal and mo
+   7. score=4.1505 D01 | p3 | 1.3 | D01_P003_SEC_1_3_PAR001
+      matched: monetari, polici
+      1.3. Globally, the shift from aggressive monetary policy tightening to a neutral or accommodative stance is still underway. However, the aforementioned variance in growth-inflation dynamics has led to divergent trajector
+   8. score=4.1505 D03 | p9 | 3.9 | D03_P009_SEC_3_9_PAR001
+      matched: monetari, polici
+      3.9 India’s approach to monetary management balances macroeconomic objectives with social goals. By maintaining price stability, supporting financial stability, and promoting inclusive growth, monetary policy acts as a k
+   9. score=4.1505 D03 | p11 | 3.16 | D03_P011_SEC_3_16_PAR001
+      matched: monetari, polici
+      3.16 Throughout FY26, the RBI remained agile in its liquidity management, ensuring that adequate liquidity was maintained in the banking system. This proactive approach facilitated effective transmission to the money and
+  10. score=4.1505 D03 | p12 | 3.17 | D03_P012_SEC_3_17_PAR001
+      matched: monetari, polici
+      3.17 Monetary policy transmission to lending and deposit rates of scheduled commercial banks (SCBs) has been robust amid surplus liquidity conditions. In response to the 100-bps cumulative cut in the policy repo rate, th
+  ... 13 further results in retrieval_results.csv

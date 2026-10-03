@@ -1,0 +1,951 @@
+Overview of SEBI (Delisting of Equity Shares) Regulations shall be at least 15 per cent premium over the floor  price. Under Delisting Regulations, delisting of a company is  considered successful only if the post-offer shareholding  of the promoter/promoter group along with the shares  tendered/offered by public shareholders reaches at least  90 per cent of the company’s issued capital. Additionally,  Regulation 19A stipulates that the final exit price offered  to shareholders cannot be lower than the stipulated  floor price. While these safeguards protect investor  interests, certain institutional challenges necessitated  a more nuanced approach for PSUs. iii.  Enhanced Floor Price Methodology: The floor price  under this route should be at least the highest of: • The volume-weighted average price paid  or payable for acquisitions by the acquirer  during the 52 weeks immediately preceding  the reference date; • The highest price paid or payable for any  acquisition by the acquirer during the 26  weeks immediately preceding the reference  date; The PSU Challenge: Valuation Disconnect In certain PSUs with low public float, share prices  often trade at levels that do not reflect the company’s  actual financial performance, net worth, or operations.  Because these entities are government-backed, they  are perceived as lower risk, leading to inflated market  prices that far exceed their book value. Under the  erstwhile framework, the floor price was determined  using a 60-day volume-weighted average market price.  For frequently traded PSUs, this methodology often  resulted in an inflated floor price that did not reflect  intrinsic value, thereby imposing a disproportionate  budgetary burden on the Government. • The price determined by a joint valuation  report from two independent registered  valuers, taking into account various financial  parameters as on reference date. iv.  Post-Delisting Voluntary Strike-Off: If an eligible  PSU undergoes a voluntary strike-off within  30 days from the expiry of the one-year period  subsequent to delisting: • Any amount due to the public shareholders  who did not tender their shares during the  period of one year from the date of delisting  shall be transferred to an appropriate account  of designated stock exchange. The amount  would be held for a period of seven years  during which investors can claim their dues  from the exchange. Special Measures for PSU Delisting To address these challenges and facilitate the ease of  doing business, SEBI introduced a dedicated carve-out  for eligible PSUs as below: i.  Eligibility Criteria: PSUs (other than banks, NBFCs  and insurance companies) in which aggregate  shareholding of Government of India and/or any  PSUs equals or exceeds 90 per cent of total issued  shares. • After seven years, the remaining amount,  if any, shall be transferred to the IEPF for  entities established under Companies Act,  2013 or SEBI’s IPEF. For any claims to be made  subsequent to such transfer, the investors  can approach the designated stock exchange,  which will be reimbursed by IEPF or IPEF as  applicable. ii.  Procedural Relaxations: The requirement for a two- thirds majority approval in favour of the delisting  from public shareholders is waived. Delisting will  occur through a fixed price delisting process which shares from converted CCS. Further, founders removing the previous requirement to liquidate  them. who transitioned into official promoter roles were legally permitted to retain their existing C.  Reforms  on  anchor  investor  allocation  framework in IPOs: Anchor investor allocations  were modified to enhance the participation  of long-term institutional investors in IPOs, ESOPs and share-based benefits, provided those options were granted at least one year before filing the draft red herring prospectus,
+Background during 2018-2022. Recent years show a relative  decline in OFS share, indicating a partial shift  towards fresh capital raising. Over the past decade, India’s IPO market has matured  into a vibrant ecosystem that enables companies to  finance growth through fresh capital, and offers a  transparent avenue for orderly shareholder exits via  OFS. ii. Across almost all years, larger IPOs consistently  exhibit higher OFS proportions. The ₹1000+ crore  segment shows persistently high OFS, generally in  the 60–90 per cent range from 2016 onwards. An analysis of the IPO activity of the companies listed  on Indian stock exchanges between April 2011 and  December 2025, captured the trends of fresh capital  raising and OFS across 543 mainboard IPOs and 1,391  SME IPOs. These IPOs mobilized ₹7.9 lakh crore during  the said period, out of which ₹2.9 lakh crore (37 per cent  of the total) were fresh proceeds while ₹5 lakh crore (63  per cent) went to selling shareholders (OFS). iii. The share of ‘OFS-Dominant’ main board IPOs  (having OFS proportion above 70 per cent) has  declined significantly from over a half during 2017– 2021 to about one-fourth in recent years, indicating  a shift towards more balanced, capital formation  oriented IPO structures. iv. SME IPOs remained predominantly fresh-issue, with  OFS generally remaining in the range of 0 to 27 per  cent. Further, the analysis also covered utilization of net IPO  proceeds (as disclosed in the offer documents) for 1,620  IPOs during the period, revealing the trends in intended  deployment of the capital mobilized. India consistently exhibits the higher OFS proportion Across almost all years since 2013, India’s OFS share  dominated other markets, often exceeding 50 per cent  of total IPO size. In contrast, as per the data available  in Bloomberg, IPOs of China and Hong Kong showed  negligible OFS share (0-4 per cent), while US (ranging  from 6-29 per cent) and South Korea (7-49 per cent)  issues recorded moderate and cyclical OFS usage. Trends of Fresh Issue/OFS in IPOs i.  For Mainboard IPOs, proportion of OFS rose from  sub-50 per cent levels (2011–2015) to consistently  above 60 per cent from 2016 onwards. OFS reached  peak of 87 per cent in 2020 and remained very high
+exceeding ₹500 crore accounted for 41.6 per cent of the total funds mobilized (Table 3.8). B.  Listed Commercial Papers: The value of CPs C.  Issuance of Municipal Bonds: During 2025-26,  the municipal bond market witnessed a surge listed on exchanges increased by 7.8 per cent
+During 2025-26, SEBI conducted 22 outreach programs  aimed at deepening institutional participation, enhancing  investor awareness and strengthening issuer capacity  across the REIT/InvIT, corporate bond and municipal  bond markets. companies, 12 pension funds, IRDAI, PFRDA, Bharat  InvIT Association, Indian REIT Association and REIT/ InvIT Managers participated. The recommendations  of the participants were shared with PFRDA and  IRDAI. • Four outreach programmes were conducted with  State governments namely Uttar Pradesh, Rajasthan,  Tamil Nadu and Gujarat to create awareness  regarding the use of REITs and InvITs as innovative  instruments for monetisation of State Government  assets and accelerating infrastructure development. REITs & InvITs • A Pan-India outreach programme was organised  to promote greater participation by insurance  companies and pension funds in REITs and InvITs.  In this program representatives of 49 insurance (Contd...)
+Overview ii.  Continuous disclosures: Annual reports must  include the utilization of proceeds (verified by an  external auditor), the performance of selected  KPIs and the qualitative/quantitative impact of the  projects. SEBI has introduced a comprehensive operational  framework for Environment, Social, and Governance  (ESG) Debt Securities. The Government’s focus on  enhancing capital availability for climate adaptation  and mitigation directly complements SEBI’s efforts to  broaden the sustainable finance landscape. While the  regulatory landscape for green debt securities was  already established, this new framework expands  the sustainable finance frontier to include social,  sustainability, and sustainability-linked bonds, providing  corporate issuers a structured and transparent  pathway to mobilize capital for both social impact and  environmental resilience. iii. Impact reporting: Issuers of social bonds must  report social impacts on a project-by-project basis,  following recognized standards or taxonomies. Independent review and oversight i.  Mandatory external review: Issuers have to appoint  an independent third-party reviewer or certifier to  verify alignment with recognized international or  Indian standards. ii.  Eligible entities: Reviewers are independent of the  issuer’s management and possess ESG expertise.  SEB registered ERPs are also eligible for this role. Scope and Taxonomy of ESG Instruments The framework defines three primary categories of ESG  debt securities (excluding green debt securities) which  are listed or proposed to be listed on a recognized stock  exchange. The definitions of these bonds as per SEBI  NCS Regulations and SEBI LODR regulations are given  below: iii. Review scope: The reviewers are required to assess  the relevance and reliability of KPIs, the ambition  level of sustainability targets, and the credibility of  the strategy to achieve them. Mitigating “Purpose-Washing” i.  Social bonds: Securities raised for social projects  aiming to mitigate specific social issues or achieve  positive outcomes for target populations. Eligible  projects include affordable housing, clean drinking  water, healthcare, education, and employment  generation. To prevent misleading claims and ensure market  credibility, the framework mandates: i.  Issuers to continuously monitor operations to  ensure they reduce the adverse social/sustainable  impacts as mentioned in the offer documents. ii.  Funds should only be used for the specific social or  sustainability categories defined in the framework. ii.  Sustainability bonds: Securities where proceeds  are utilized for a combination of eligible green and  social projects. iii. If an issuer fails to meet these standards, they have  to inform investors and, if required, by a majority  of debenture holders, they have to undertake early  redemption of the securities. iii. Sustainability-linked  bonds:  Securities  with  financial or structural characteristics linked to  predefined sustainability objectives, measured  through key performance indicators (KPIs) and  sustainability performance targets. iv. Issuers are prohibited from using misleading  labels, hiding negative trade-offs, or cherry-picking  data from research to highlight social practices/  sustainable practices better than they are. Disclosure Requirements v.  Issuers  to  maintain  the  highest  standards  associated with their bond labels while adhering to  their assigned credit ratings. To ensure transparency and market integrity, issuers  are required to adhere to following stringent disclosure  standards: vi. The issuers to quantify negative externalities  associated with the use of funds. i.  Initial disclosures: Offer documents must detail  social/sustainability objectives, project selection  processes, tracking procedures for funds, and  perceived social or achievement risks. vii. Issuers should not make untrue statements about  being certified by a third party if they are not.
+A. Special measures to facilitate voluntary delisting: SEBI has eased voluntary delisting norms for Public Sector Undertakings (PSUs) where the government and/or other PSUs hold 90 per cent or more of the shares (Box 3.1).
+Primary market is built on a foundation of public trust, providing a transparent and regulated environment for companies to raise capital and for investors to grow their wealth. It ensures that the entire process of capital formation is rooted in the core values of investor protection, informed decision-making and fair disclosures. By effectively bridging the gap between idle savings and productive investments in equity and debt, a well- functioning primary market serves as a catalyst for national growth. Reflecting this robustness, the total resource mobilization from primary markets stood at ₹13.6 lakh crore in 2025-26. Although this represents a 4.4 per cent moderation from the preceding year, the underlying activity underscores the continued depth and maturity of India’s primary markets (Chart 3.1).
+In a year marked by global headwinds and domestic volatility, India’s primary equity markets demonstrated remarkable resilience, scaling a new peak in capital mobilisation. Total fundraising through IPOs, FPOs, and rights issues reached ₹2.3 lakh crore, a 11.7 per cent increase over the preceding year. This momentum was fuelled by strong macroeconomic fundamentals and deepening retail participation, which effectively cushioned the impact of geopolitical shifts and FPI outflows. To support this momentum, SEBI streamlined capital raising processes and introduced measures to further bolster market trust. The following section outlines the key developmental and regulatory policies implemented by SEBI to foster the primary equity markets during 2025-26:
+The following sections provide various policy measures taken by SEBI during 2025-26 to further refine the primary market landscape, alongside a review of market trends that highlight its robustness.
+F. Review of SSE framework: To enhance the efficiency and reach of the Social Stock Exchange (SSE), following measures were implemented vide amendments to ICDR Regulations and LODR Regulations:
+categories I (up to ₹10 crore) and II (₹10 crore to ₹250 crore) were merged into a single category for allocations up to ₹250 crore, which allows 2 to 15 allottees with a minimum investment of ₹5 crore per investor. For allocations exceeding ₹250 crore, a minimum of 5 and a maximum of 15 investors are permitted, with an additional 15 investors allowed for every extra ₹250 crore or part thereof, subject to the same ₹5 crore minimum allotment. Further, IRDAI-registered life insurance companies and PFRDA-registered pension funds have been included alongside domestic mutual funds in the reserved anchor portion, expanding the total anchor reservation to 40 per cent, with 33.33 per cent for mutual funds and 6.67 per cent for life insurance/ pension funds.
+i. Inclusion of additional legal structures, such as trusts registered under the Indian Registration Act, 1908, and alignment of eligible social activities with Schedule VII of the Companies Act.
+ii. Disclosure requirements for not-for-profit organizations (NPOs) were bifurcated into separate financial and non-financial aspects, with distinct timelines.
+iii. NPOs were permitted to self-report their annual impact reports for projects that were not funded through the SSE mechanism.
+D. Revamped framework for MPO and MPS norms: The framework for minimum public offer and minimum public shareholding norms was revamped into a six-tier post-issue capital- based structure. This reform permitted large issuers to undertake smaller IPOs, thereby reducing the initial dilution burden requirements and providing extended, flexible timelines to meet the 25 per cent MPS threshold.
+iv. To make individual investing more accessible, the minimum investment for Social Impact Funds was slashed from ₹2 lakh to ₹1,000, aligning it with the minimum application size for subscribing to zero coupon zero principal instruments.
+E. Rationalized related party transaction framework: Related party transaction (RPT) framework was rationalized by replacing the flat ₹1,000 crore materiality threshold with a scale-based cap of up to ₹5,000 crore linked to a listed entity’s annual consolidated turnover (and a ₹50 crore or 10 per cent limit for SMEs effective from April 1, 2025). The revised rules streamline subsidiary RPTs by requiring audit committee approval only if transactions exceed ₹1 crore and 10 per cent of the subsidiary’s turnover, while simplifying disclosure mandates by exempting smaller transactions under ₹1 crore from detailed reporting. Additionally, the framework codifies shareholder omnibus approval validity periods directly into the regulations and clarifies that holding company strictly refers to a listed holding company.
+G. Facilitating ease of doing business: In order to facilitate ease of doing business, enhance retail participation and to streamline the listing process, SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, and SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018 were amended to bring in the following measures:
+i. The lock-in requirements for pre-issue capital held by non-promoters were amended to allow for pledged securities. Depositories are now mandated to mark such pledged shares as non-transferable for the lock-in duration, ensuring that any invocation or release of the pledge automatically maintains the lock-in for the remaining period.
+ii. To streamline disclosures, a concise and standardized summary of the offer document in the form of abridged prospectus must now be filed at the DRHP stage and hosted online for easier investor access.
+3.1.2  Market Activity and Trends Observed
+A. Resource mobilisation through public and rights issues: During 2025-26, fundraising through equity public issues (IPOs and FPOs) declined by 0.9 percent compared to 2024-25, reaching ₹1.9 lakh crore (Chart 3.2a). Despite this dip in value, the number of newly listed companies rose to 366, up from 320 in the previous year (Chart 3.2b). Notably, SME listings reached a historic peak of 257, compared to 241 in 2024-25. On the main board, IPOs totalled 109 during the year, with the median issue size increasing to ₹760 crore from ₹740 crore in 2024-25. These main board IPOs successfully raised ₹1.8 lakh crore, marking an 8.9 percent increase over the previous year.
+iii. Mandatory dematerialization requirements were extended to include the promoter group, selling shareholders, KMPs, senior management, QIBs, directors etc. Consequently, these stakeholders were required to dematerialize their holdings prior to the filing of the DRHP by the issuer.
+iv. Placement document for QIP by listed entities were simplified and streamlined by leveraging existing public information to reduce data duplication. The disclosures in the following areas were converted into concise summaries:
+During 2025-26, the number of rights issues declined slightly to 139, compared to 142 in 2024-25; however, the total amount mobilized surged by 134.2 percent (Table 3.1). The largest rights issue was particularly dominant, accounting for approximately 54 percent of the total amount raised through rights issues during 2025-26.
+• Risk factors specified in relation to the issue, the objects of the issue and the material risks;
+• Providing summary of financial position;
+• Providing a summary of issuer’s business and the industry in which it operates.
+An analysis was conducted on 543 mainboard IPOs and 1,391 SME IPOs listed between April
+2011 and December 2025, highlighting trends in fresh capital raising and OFS (Box 3.2). i. Sector-wise resource mobilisation: During 2025-26, of the 506 issues that accessed
+the market, 504 were from private sector while only two belonged to the public sector. Consequently, private sector accounted for 98.8 percent of the total resources mobilized during the year.
+over the amount raised in 2024-25
+iii. Industry-wise Resource Mobilisation: From an industrial perspective, the ‘Financial Services’ category led resource mobilization in 2025-26, accounting for 28.6 percent of the total capital raised. This was followed by ‘Metals & Mining’ at 12.0 percent and ‘Consumer Services’ at 11.3 percent (Table 3.3).
+(Chart 3.3). The average issue size grew
+to ₹45.1 crore, up from ₹40.7 crore in the
+During 2025-26, out of 257 issues listed
+on the SME platform, three issues were of
+issue size ‘₹5 crore or more but less than
+₹10 crore’, 197 issues were of issue size
+iv. Resource mobilisation on SME Platform: The SME platform maintained its upward trajectory during 2025-26, seeing growth in both the number of listings and the total capital raised. A total of 257 companies were listed on the platform, mobilizing ₹11,587 crore - an increase of 18.1 percent
+‘₹10 crore or more but less than ₹25 crore’
+and 57 issues were of issue size ‘₹25 crore
+or more’ (Chart 3.4).
+B. Resource mobilisation through QIP: QIP is an
+alternative mechanism for the listed companies
+to raise funds from qualified institutional
+27
+investors in the domestic market. During 2025-26, ₹67,853 crore was raised through QIPs
+(including institutional placement programme
+- IIP), representing a 50 percent decline from
+the ₹1,35,597 crore raised during 2024-25
+≥ ₹ 5 crore & < ₹ 10 crore
+C. Resource mobilisation through preferential
+D. Resource mobilisation through social stock
+ii. During 2025-26, the median (average) time taken including the time for which the queries were pending with intermediary or with other regulator is 84 (86) working days.
+exchange: During 2025-26, five non-profit
+organizations were listed on the SSE of the BSE/
+NSE. These listings raised ₹21.9 crore, up from
+previous year, of which, 247 offer documents were processed. The median processing time for these applications (excluding the time for which queries were pending with intermediaries or with other regulator) was 25 working days. By the end of 2025-26, 58 applications remained pending (Table 3.6).
+₹14.8 crore mobilized through six issuances in
+E. Regulatory approvals: During 2025-26, 244 new
+applications for public issuances were received
+and 61 applications were carried over from the
+A. Streamlining Cash Flow Disclosure: The Request for Quote platform (RFQ) framework was reviewed and the yield-to-price computation for non-convertible securities (NCS) was streamlined by using scheduled due dates instead of actual payment dates. Further, issuers were mandated to submit a detailed interest/ dividend/redemption cash flow schedule to the centralised database upon ISIN activation.
+D. Framework for independent review of green debt securities: Green debt securities framework was revised by aligning third-party reviewer requirements with broader ESG debt instrument norms to prevent greenwashing. The updated mandate required issuers to appoint independent external reviewers, including SEBI-registered ESG rating providers, to certify that all issuances met regulatory definitions, project eligibility criteria, and disclosure standards. To ensure impartiality, these expert reviewers operated completely independent of the issuer’s management and under conflict- free remuneration structures, while issuers disclosed the exact scope of this certification within their official offer documents.
+B. Enhancing utility of EBP Platform: To enhance the efficacy and utility of private debt placements, the provisions related to the Electronic Book Provider (EBP) platform were revised as follows:
+i. Mandatory EBP threshold was reduced from ₹50 crore to ₹20 crore.
+ii. Private placements of securitised debt instruments, REITs, SM REITs and InvITs were permitted on the EBP platform.
+iii. Anchor investor portion was enhanced based on credit rating of the instrument.
+E. Transfer of unclaimed amount to the IEPF: SEBI (LODR) Regulations were amended, to align the timelines for transferring unclaimed interest and principal on listed NCS with Section 125 of the Companies Act and the Investor Education and Protection Fund (IEPF) Rules. Earlier, the Companies Act mandated transfers seven years after maturity, while LODR regulations required transfers seven years after the funds entered an escrow account. The amendment resolved this discrepancy by synchronizing both frameworks, mandating all listed entities to transfer unclaimed amounts to the IEPF only after seven years from the actual date of maturity of the security.
+iv. Submission timelines for placement memoranda was reduced for first-time issuers.
+v. Disclosure requirements were strengthened related to green shoe option.
+vi. Disclosures by EBP on their website upon completion of the issue were enhanced.
+vii. Allotment on pro-rata basis was permitted, where two or more bids were received at the same cut-off coupon/price/spread.
+C. Permitting debt issuers to offer incentives in public issues: To encourage broader participation of certain categories of investors
+Key policy initiatives implemented by SEBI during 2025-26 to foster and develop the corporate debt market are detailed below:
+and provide a significant fillip to public issuances in the debt market, issuers were permitted to provide incentives such as additional interest or price discounts to specific retail investor categories, including senior citizens, women, and defence personnel, to boost participation in the corporate debt market. These financial benefits are restricted to initial allottees and cease upon any transfer or transmission of the securities.
+annual credit rating reviews to strictly protect investor interests through heightened asset oversight.
+F. Reporting timelines for NCS Issuers: The reporting framework for issuers of NCS was streamlined to ensure debenture trustees received timely information for protecting investor interests and monitoring security cover. Issuers were required to submit security cover certificates, pledged security values, and debt service reserve account values quarterly within 60 days, or 75 days for the final quarter. Personal guarantors’ net worth certificates were mandated half-yearly within 60 days, while corporate guarantors’ audited financials or valuations were due annually within 60 days of the financial year’s end. Furthermore, asset valuations and title search reports for immovable or movable assets had to be submitted every three years within 60 days from the end of the financial year.
+3.2.2  Market Activity and Trends Observed
+A. Corporate Bonds: Despite a consistent upward trend since 2021-22, the total funds mobilized through debt issuances declined by 8.4 per cent to ₹9,11,078 crore during 2025-26 (Chart 3.6 and Table 3.7). The market remained skewed toward private placements, which accounted for 98.8 per cent of the total funds mobilized. While resource mobilization through public issuances increased by 39.2 per cent to ₹11,343 crore.
+During 2025-26, ₹11,343 crore was raised through 43 public issues, comprising 40 issues from the financial sector and three from the
+G. Periodic disclosure requirements for Securitised Debt Instruments: To enhance transparency and provide investors with periodic, granular data regarding the quality and performance of underlying assets, trustees of Special Purpose Distinct Entities (SPDEs) were mandated to submit specific disclosures on a half-yearly basis to both the Board and designated stock exchanges. This regulatory shift aligned disclosure norms with banking standards, forcing originators to deliver audited quarterly data to trustees and necessitating
+non-financial sector. Size-wise comparison
+to ₹16,68,834 crore in 2025-26 as compared to ₹15,48,091 crore in 2024-25 (Table 3.9).
+shows that 50.1 per cent of the total funds were
+mobilized through issues ranging between
+₹100 crore and ₹500 crore. Similarly, issues
+in activity, as 14 issues raised ₹1,756 crore.
+This marked a significant expansion compared
+to the previous year, during which the market
+saw a single issuance that raised ₹100 crore
+(Chart 3.7). This increased traction was backed
+by SEBI’s targeted outreach by conducting four
+municipal bond awareness programs during
+3.3.2  Merger and Acquisition Deals
+The following sections highlight the major policy
+measures taken by SEBI in 2025-26 for enhancing
+A. Open Offer: During 2025-26, 122 open offers with offer size of ₹35,185 crore were closed compared to 71 open offers with open offer size
+transparency and governance of listed entities and
+also show key trends in corporate restructuring.
+3.3  CORPORATE GOVERNANCE AND CORPORATE RESTRUCTURING
+• A Pan-India outreach program to encourage corporates to leverage the bond market for their capital requirements was conducted. In this program, four investor awareness videos, a documentary on the evolution of India’s bond market, and the “Bonds – Ek Sashakt Bandhan” campaign identity were launched.
+• Four municipal bond outreach programmes were organised across Kerala, Madhya Pradesh, Chhattisgarh and Tamil Nadu to build awareness among Urban Local Bodies and State Government departments about raising funds through municipal bond.
+Going forward, SEBI will continue to engage with the stakeholders to support the development of India’s Corporate Bond, Municipal Bond and REIT/InvIT markets.
+• 12 bond-focused investor awareness programmes across country for students, corporates, public sector officials, law enforcement personnel and industry associations were conducted.
+B. Buy-Back: Buyback is the process by which a company repurchases its own shares from the marketplace. During 2025-26, the total buyback offer size surged to ₹19,238 crore, marking 143.6 percent increase over the ₹7,897 crore in 2024-25. The average utilization reached 99.9 percent of the total offer size, up from 98.8 percent in the preceding year. All 17 buyback offers during 2025-26 were conducted through the tender offer route, compared to 36 tender offers in 2024-25 (Table 3.11). This shift aligned with the regulatory phase-out of open market buybacks, which took full effect on April 1, 2025.
+ii. Structural ring-fencing: Trustees must segregate non-SEBI regulated activities into separate business units protected by Chinese walls, ensuring operational independence through distinct staff and records while disclosing that SEBI protections do not apply to unregulated services.
+A. SEBI (Merchant Bankers) Regulations, 1992: Merchant Bankers regulations were amended to permit registered entities to undertake non- SEBI regulated, fee-based financial services through a strictly segregated separate business unit protected by a Chinese wall. This regulatory framework ring-fenced a merchant banker’s net worth from unregulated activities and mandated explicit client disclosures stating that SEBI’s investor protection mechanisms did not apply to such services. Further, the amendments restructured merchant bankers into a two-tier system, designating Category 1 firms with a minimum net worth of ₹50 crore for all permitted activities and Category 2 firms with a minimum net worth of ₹10 crore for all functions except the management of Main Board equity issues. Additionally, the updated rules required these professionals to maintain 25 percent of their net worth in liquid assets, meet specific three-year cumulative revenue targets, and ensure that all compliance officers held professional legal or secretarial qualifications.
+iii. Streamlined expense recovery: The framework now permits DTs to utilize the recovery expense fund for predefined legal and recovery costs without prior investor consent, enabling swifter action to protect stakeholder interests during defaults.
+3.4.2  Market Activity and Trends Observed
+A. Registered intermediaries associated with the primary market: During 2025-26, new registrations were granted to 17 merchant bankers, seven registrars to issue and share transfer agent and one banker to an issue (Table 3.16).
+As on March 31, 2026, there were 240 merchant bankers, 80 registrar to issue and share transfer agents, 60 bankers to an issue and 25 debenture trustees registered with SEBI (Table 3.17).
+B. Strengthening the role of Debenture Trustees: To strengthen the position of debenture trustees (DTs) and enhance their supervisory powers, structural independence, and operational efficiency during issuer defaults, the SEBI (DT), Regulations, 1993 were amended to introduce the following:
+Market intermediaries occupy a pivotal position within the securities ecosystem, serving as critical conduits between issuers and investors to facilitate efficient market operations. To maintain high standards of market integrity and safeguard investor interests, SEBI regulates these entities through comprehensive frameworks while implementing measures to enhance the ease of doing business. The subsequent sections provide the major policy developments and the market trends related to intermediaries associated with primary market.
+i. Expanded supervisory powers: DTs are now explicitly authorized to inspect corporate records and access books of accounts directly, replacing passive inspection clauses with the power to demand information from issuers and intermediaries.
+ii. During 2025-26, the median processing time for Merchant Banker and Bankers to an Issue applications was 89 and 94 days, respectively. These figures include the 90-day grace period provided to applicants for completing documentation.
+Particulars
+2024-25
+2025-26
+Percentage Share in 
+Total Amount Raised
+No.
+Amount 
+(₹crore)
+No.
+Amount
+(₹crore)
+2024-25
+2025-26
+1) Public Issues, of which
+322
+1,90,478
+367
+1,88,704
+90.6
+80.3
+A) IPOs of which
+320
+1,72,328
+366
+1,88,616
+82.0
+80.3
+a) Only OFS Issue
+15
+58,994
+19
+50,849
+28.1
+21.6
+b) Only Fresh Issue
+215
+22,108
+214
+21,866
+10.5
+9.3
+c) Both (OFS + Fresh Issue)
+90
+91,226
+133
+1,15,901
+43.4
+49.3
+Breakup of Both (OFS + Fresh Issue)
+OFS component
+- 
+46,630
+-
+57,735
+22.2
+24.6
+Fresh capital component 
+- 
+44,596
+-
+58,166
+21.2
+24.8
+B) FPOs
+2
+18,150
+1
+88
+8.6
+0.04
+2) Rights Issues
+142
+19,712
+139
+46,168
+9.4
+19.7
+Total (1+2)
+464
+2,10,190
+506
+2,34,872
+100
+100
+Issue Size
+2024-25
+2025-26
+Percentage Share in 
+Total Amount
+No.
+Amount
+(₹crore)
+No.
+Amount
+(₹crore)
+2024-25
+2025-26
+< ₹ 5 crore
+9
+30
+ 2 
+ 8 
+0.0
+0.0
+≥ ₹ 5 crore & < ₹ 10 crore
+28
+207
+ 15 
+ 113 
+0.1
+0.0
+≥ ₹ 10 crore & < ₹ 50 crore
+256
+8,098
+ 251 
+ 7,860 
+3.9
+3.3
+≥ ₹ 50 crore & < ₹ 100 crore
+54
+3,694
+ 86 
+ 6,199 
+1.8
+2.6
+≥ ₹ 100 crore & < ₹ 500 crore
+55
+12,182
+ 74 
+ 19,074 
+5.8
+8.1
+≥ ₹ 500 crore 
+62
+1,85,979
+ 78 
+2,01,619 
+88.5
+85.8
+Total
+464
+2,10,190
+ 506 
+2,34,872 
+100
+100
+2024-25
+2025-26
+Percentage 
+Share in 
+Total Amount
+No.
+Amount
+(₹crore)
+Percentage 
+Share in 
+Total Amount
+Sector
+No.
+Amount
+(₹crore)
+Automobile and Auto Components
+19
+36,659
+17.4
+13
+10,788
+4.6
+Capital Goods
+86
+18,127
+8.6
+92
+20,658
+8.8
+Chemicals
+23
+4,611
+2.2
+33
+4,325
+1.8
+Construction
+26
+9,425
+4.5
+28
+5,068
+2.2
+Construction Materials
+1
+400
+0.2
+2
+4,100
+1.7
+Consumer Durables
+24
+3,128
+1.5
+37
+18,432
+7.8
+Consumer Services
+23
+28,696
+13.7
+27
+26,455
+11.3
+Fast Moving Consumer Goods
+38
+6,689
+3.2
+43
+5,137
+2.2
+Financial Services
+43
+23,962
+11.4
+43
+67,241
+28.6
+Forest Materials
+2
+85
+0.0
+6
+247
+0.1
+Healthcare
+23
+14,820
+7.1
+32
+9,784
+4.2
+Information Technology
+22
+14,566
+6.9
+37
+8,329
+3.5
+Media, Entertainment & Publication
+8
+221
+0.1
+13
+1,005
+0.4
+Metals & Mining
+4
+342
+0.2
+12
+28,222
+12.0
+Power
+3
+10,298
+4.9
+2
+3,129
+1.3
+Oil, Gas & Consumables Fuels
+3
+79
+0.0
+4
+3,928
+1.7
+Realty
+8
+2,643
+1.3
+5
+4,061
+1.7
+Services
+64
+9,306
+4.4
+49
+11,855
+5.0
+Telecommunication
+4
+22,725
+10.8
+2
+844
+0.4
+Textiles
+29
+1,597
+0.8
+23
+1,201
+0.5
+Utilities
+10
+1,803
+0.9
+2
+57
+0.0
+Diversified
+1
+7
+0.0
+1
+6
+0.0
+Total
+464
+2,10,190
+100
+506
+2,34,872
+100
+3
+Year
+Total
+0
+< ₹ 5 crore
+0
+No. of Issues
+Amount (₹crore)
+2024-25
+91
+1,35,597
+0
+2000
+4000
+6000
+8000
+10000
+12000
+2025-26
+36
+67,853
+Amount
+Number
+Year
+Only NSE
+Only BSE
+Only MSEI
+Common
+Total
+No. of 
+Issues
+Amount
+(₹crore)
+No. of 
+Issues
+Amount
+(₹crore)
+No. of 
+Issues
+Amount
+(₹crore)
+No. of 
+Issues
+Amount
+(₹crore)
+No. of 
+Issues
+Amount
+(₹crore)
+2024-25
+149
+4,198
+478
+20,194
+6
+87
+355
+59,604
+988
+84,084
+2025-26
+203
+3,679
+691
+17,029
+7
+71
+403
+1,27,441
+1,304
+1,48,219
+allotments: Preferential allotment serves as
+an alternative mode of resource mobilization
+Median 
+(Average) 
+Time for 
+Processing of 
+Applications* 
+(Working days)
+for listed companies, enabling the issuance
+Year
+Total 
+Applications 
+received 
+Processed Pending
+of shares or convertible securities to a select
+group of investors. During 2025-26, the capital
+raised through preferential issues reached
+2024-25
+190
+164
+61
+26 (28)
+₹1,48,219 crore, marking a significant increase
+2025-26*
+244
+247
+58
+25 (27)
+of 76.3 per cent compared to previous year
+Category
+2024-25
+2025-26
+No. of Issues
+Amount (₹crore)
+No. of Issues
+Amount (₹crore)
+Public Issues# 
+43
+8,149
+43
+11,343
+Private Placement*, of which
+1,659
+9,86,735
+1,924
+8,99,736
+EBP Issues
+1,347
+9,52,521
+1,602
+8,60,614
+Total 
+1,702
+9,94,884
+1,967
+9,11,078
+2024-25
+2025-26
+Percentage 
+Share in 
+Total Amount
+Percentage 
+Share in 
+Total Amount
+Issue Size
+No. of 
+Issues
+Amount
+(₹crore)
+No. of 
+Issues
+Amount
+(₹crore)
+< ₹ 50 crore
+0
+0
+0.0
+0
+0
+0.0
+≥ ₹ 50 crore & < ₹ 100 crore
+14
+1022
+12.5
+11
+941
+8.3
+≥ ₹ 100 crore & < ₹ 500 crore
+27
+5,327
+65.4
+26
+5,679
+50.1
+≥ ₹ 500 crore
+2
+1,800
+22.1
+6
+4,722
+41.6
+Total
+43
+8,149
+100
+43
+11,343
+100
+Year
+No. of Issuers which 
+Listed CPs
+No. of Unique 
+ISINs
+Value of Listed CPs 
+(₹ crore) at the end of 
+the period
+Total Amount Outstanding of 
+Listed CPs at the end of the 
+period (₹ crore)
+2024-25
+245
+4,222
+15,48,091
+4,30,663
+2025-26
+275
+4,492
+16,68,834
+4,46,583
+Objectives
+Total
+Change in Control 
+Consolidation of 
+Holdings
+Substantial 
+Acquisition
+No. of 
+Offers
+Amount 
+(₹crore) 
+No. of 
+Offers
+Amount 
+(₹crore) 
+No. of 
+Offers
+Amount 
+(₹crore) 
+No. of 
+Offers
+Amount
+(₹crore)
+Year
+2024-25
+70
+15,451
+1
+6
+-
+-
+71
+15,457
+2025-26
+ 118 
+ 35,135 
+ 2 
+ 31 
+ 2 
+ 19 
+ 122 
+ 35,185
+of ₹15,457 crore during 2024-25. Out of the 122 
+open offers closed during the year, 118 open 
+offers with offer size of ₹35,135 crore were 
+made with the objective of change in control and 
+two open offers of size ₹31 crore were made 
+with the objective of consolidation of holdings 
+(Table 3.10).
+carried over from the previous year. SEBI issued 
+observations for 125 filings, while no filings 
+were withdrawn. As of March 31, 2026, 31 draft 
+letters of offer remained pending with SEBI for 
+the issuance of observation letters (Table 3.12).
+Regulation 11 of the SEBI (Substantial Acquisition 
+of Shares and Takeovers) Regulations, 2011, 
+provides a formal mechanism for acquirers 
+to seek an exemption from the mandatory 
+open offer obligations. During 2025-26, 47 
+applications were filed with SEBI seeking
+Status
+2024-25
+2025-26
+Pending draft letters of offer at the 
+beginning of the year
+23
+43
+Draft letters of offer received 
+during the period
+107
+113
+Total
+130
+156
+3.3.3  Issuance of observations on offer documents
+Observations issued by SEBI 
+during the year
+86
+125
+A. 
+Observations on offer documents: During 
+2025-26, 156 draft letters of offer were 
+processed, comprising 113 letters of offer 
+received during the year and 43 that had been
+Offers withdrawn
+1
+0
+Draft letter of offers in process at 
+the end of the year
+43
+31
+2024-25
+2025-26
+Buy-
+back Size 
+(₹crore)
+Actual Amount 
+Utilized for Buy- 
+back (₹crore)
+Buy-
+back Size 
+(₹crore)
+Actual Amount 
+Utilized for Buy- 
+back (₹crore)
+Particulars
+No. of 
+Cases
+No. of 
+Cases
+Cases Received and Closed
+36
+7,897
+7,800
+16
+19,216
+19,212
+Cases Received but not Closed
+-
+-
+-
+1
+22
+-
+Table 3.13: Exemption applications under Regulation 11 of Takeover Regulations
+Year
+Observations Issued
+Status
+2024-25
+2025-26
+2024-25
+65
+Application pending at the 
+beginning of year
+15
+13
+2025-26
+92
+Applications received during 
+the year
+43
+47
+amalgamation, reduction of capital) are required 
+to file draft documents with stock exchanges for 
+an observation/no-objection letter, according 
+to SEBI LODR Regulation 37, before filing with 
+any Court or Tribunal. SEBI receives draft 
+documents from stock exchanges and issues 
+observations. During 2025-26, SEBI issued 
+observations on 92 draft scheme documents, 
+compared to 65 in 2024-25 (Table 3.14).
+Total applications
+58
+60
+Applications disposed during 
+the year
+45
+47
+of which
+Exemption granted
+19
+33
+Exemption not granted
+-
+-
+Returned/Withdrawn/Not 
+maintainable (without passing 
+order)
+26
+14
+3.3.4  Defaulter companies listed at exchanges and 
+penal action
+Applications in process at the end 
+of the year
+13
+13
+SEBI issued a SOP outlining the punitive measures 
+to be taken by stock exchanges in case listed 
+entities are non-compliant with the provisions 
+of SEBI (LODR) Regulations, 2015. The SOP 
+encourages better compliance culture by outlining 
+a well-defined procedure for stock exchanges to 
+follow while levying penalties and taking subsequent 
+actions. During 2025-26, the demat account of 
+promoter(s) of 626 companies were frozen, 31 
+companies were suspended and fines aggregating 
+₹64 crore were levied for non-compliance with the 
+SOP (Table 3.15).
+exemption as compared to 43 during 2024-25.
+Among the outstanding 60 applications, 33
+applications were granted exemption from
+making open offer vis-à-vis 19 during 2024-25,
+14 applications were returned/withdrawn/not
+maintainable (disposed without passing an
+order) and 13 applications were under process
+as on March 31, 2026 (Table 3.13).
+B. 
+Schemes of arrangement: Listed entities
+undertaking a scheme of arrangement (merger,
+Table 3.15: Actions Taken by Exchanges for Non-compliance
+Actions Taken
+2024-25
+2025-26
+BSE
+NSE
+MSEI
+BSE
+NSE
+MSEI
+Fines Levied* (₹crore)
+34.5
+29.8
+2.9
+32.1*
+29.5*
+2.3*
+No. of Companies in which Demat Account of 
+Promoter(s) were Frozen
+457
+73
+36
+486
+99
+41
+No. of Companies Suspended (Non-Compliance 
+with SOP)
+32
+9#
+0
+22
+8#
+1
+Table 3.15: Actions Taken by Exchanges for Non-compliance
+Median time for 
+Processing Applications 
+(in Working Days)
+Application 
+Rejected/Returned/ 
+Withdrawn during 
+2025-26
+Application 
+Received
+during 2025-26
+Registration 
+Granted during 
+2025-26
+Pending 
+as on March 
+31, 2026
+Type of Intermediary
+Opening 
+Balance
+2025-26
+2024-25
+Merchant Banker
+1
+29
+17
+5
+8
+5#
+39
+Registrar to Issue and 
+Share Transfer Agent
+2
+15
+7
+3
+7
+48
+50
+Bankers to an Issue
+1
+3
+1
+0
+3
+3#
+39
+No. of Registered intermediaries
+Registration 
+Granted during 
+2025-26
+Registration 
+Surrendered/Cancelled 
+during 2025-26
+Type of Intermediary
+Registered as on 
+March 31, 2025
+Registered as on 
+March 31, 2026
+Merchant Bankers
+230
+17
+7
+240
+Registrar to Issue and 
+Share Transfer Agent
+77
+7
+4
+80
+Bankers to an Issue
+60
+1
+1
+60
+Debenture Trustees
+25
+0
+0
+25

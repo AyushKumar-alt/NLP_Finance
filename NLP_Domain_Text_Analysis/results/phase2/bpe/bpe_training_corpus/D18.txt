@@ -1,0 +1,94 @@
+FINANCIAL STABILITY REPORT JUNE 2026 - SOME IMPORTANT
+The Financial Stability Report (FSR)1, published by the Reserve Bank of India (RBI) on a half-yearly basis, is one of the most significant policy documents assessing the resilience of India's financial system. FSR is prepared with inputs from all financial sector regulators; it reflects the collective assessment of the Sub-Committee of the Financial Stability and Development Council (FSDC-SC) on the current state of the financial sector, emerging vulnerabilities, systemic risks and the capacity of regulated entities to withstand adverse macroeconomic and financial shocks.
+Unlike regulatory circulars or policy directions that prescribe legal obligations, the FSR serves as the RBI's principal forward-looking surveillance document. It combines macroeconomic analysis, sectoral assessment and stress-testing of banks, non-banking financial companies (NBFCs), insurance companies, mutual funds and financial market infrastructures to evaluate the overall soundness of the financial system. Equally important, the Report identifies emerging areas of concern and outlines the regulatory priorities that are likely to shape future policy interventions.
+From a banking and finance perspective, the FSR assumes considerable significance as it provides valuable insights into the evolving regulatory expectations of the RBI. The observations made in the Report often precede important regulatory and supervisory measures relating to capital adequacy, asset quality, liquidity management, credit growth, consumer lending, governance, risk management and financial sector resilience.
+Key Financial Indicators at a Glance
+Indicator June 2026 FSR
+SCB Credit Growth 14.5%
+GNPA Ratio 1.8% (multi-decadal low)
+Profit After Tax ₹4.05 lakh crore
+Liquidity Coverage Ratio 124.2%
+Net Stable Funding Ratio 122.1%
+Consumer Inflation Projection 5.1%
+Gold Loans Fastest growing retail segment
+© Economic Laws Practice 2026
+▪ The FSR also note that while the liquidity position of scheduled commercial banks moderated marginally during 2025–26, the sector continues to remain well-positioned to meet its short-term and long-term funding obligations.
+▪ Both the Liquidity Coverage Ratio (LCR)2 and the Net Stable Funding Ratio (NSFR)3 remained comfortably above the regulatory minimum prescribed by the RBI across all bank groups. This indicates that the banking system continues to maintain adequate liquidity buffers to withstand periods of financial stress. Nevertheless, banks should continue
+© Economic Laws Practice 2026
+▪ The RBI notes that credit growth of Scheduled Commercial Banks (SCBs) remained robust at 14.5% year-on-year during 2025–26, reflecting broad-based strengthening in credit demand across all major sectors of the economy. Public Sector Banks (PSBs) continued to outperform Private Sector Banks (PVBs), with credit growth of approximately 16.4% compared with around 13.5% for PVBs. Lending to the services sector and personal loans remained the principal drivers of overall credit growth, while credit growth also strengthened across agriculture and industry, indicating a broad-based expansion in bank credit.
+▪ Lending to the services sector and personal loans emerged as the primary drivers of overall credit expansion, while the share of credit to industry moderated. Within the retail segment, growth remained particularly strong in personal loans. The RBI's assessment indicates that credit demand continues to remain healthy across the economy; however, banks should ensure that rapid growth in retail and services lending is supported by prudent credit appraisal and effective risk management to preserve asset quality.
+▪ One of the key takeaways from the RBI's Financial Stability Report is that the Indian economy continues to remain resilient despite heightened geopolitical tensions and an uncertain global environment. According to the RBI, India entered the recent global disruptions from a position of strength, supported by stable economic growth, a healthy banking system, adequate capital and liquidity buffers, and improved asset quality. These factors have helped cushion the impact of external shocks and maintain overall financial stability.
+▪ However, the RBI cautions that India is not insulated from global developments. As a major importer of crude oil and several essential commodities, the country remains vulnerable to higher energy prices and supply chain disruptions arising from geopolitical conflicts. Inflation, although still within the RBI's tolerance band, has started inching up due to rising oil prices and could face further pressure from adverse weather conditions. At the same time, weaker global capital flows and increasing global debt levels continue to pose risks to financial markets. The RBI's overall assessment is that while India's economic fundamentals remain strong enough to absorb these shocks, continued vigilance will be necessary as global uncertainties persist.
+The RBI's stress tests also indicate that the banking system remains resilient even under severe macroeconomic stress scenarios, with capital adequacy expected to remain above the prescribed regulatory minimum. This reinforces the assessment that Indian banks are well-positioned to absorb potential external shocks.
+This article analyses the key findings of the June 2026 Financial Stability Report from the perspective of the banking and financial services sector. It examines the themes that are likely to have the greatest regulatory, commercial and legal significance for banks, NBFCs and other financial market participants, and the possible implications for future policy and compliance.
+to closely monitor their liquidity profile and funding mix in light of evolving market conditions and potential external shocks.
+▪ The RBI notes that the banking sector remains financially strong, with the gross non-performing asset (GNPA)4 ratio of scheduled commercial banks declining to a multi-decadal low of 1.8% in March 2026, reflecting broad-based improvement across all bank groups.
+▪ Profitability also remained healthy, supported by sustained credit growth, stable net interest margins and strong growth in non-interest income, resulting in a rise in aggregate profit after tax to INR 4.05 lakh crore during 2025-26. While return on assets and return on equity remained broadly stable, public-sector banks recorded a marginal improvement in profitability.
+▪ The RBI notes that banks are increasingly expanding credit to higher-yielding segments such as MSMEs and retail loans, which has helped cushion the impact of rising funding costs and protect net interest margins despite a decline in low-cost CASA5 deposits. Encouragingly, asset quality in both segments remains stable, with gross NPAs continuing to improve, although early signs of stress are visible in the micro-enterprise segment.
+▪ The retail portfolio also continues to perform well, with low delinquency levels across both secured and unsecured loans. While credit growth in the microfinance sector has resumed after a prolonged decline and asset quality has improved, the borrower base continues to contract.
+▪ The RBI, however, cautions that banks should closely monitor these segments as geopolitical developments, particularly the West Asia conflict, and any slowdown in economic activity could adversely impact borrower cash flows and asset quality. The Report also flags cyber risk as an emerging systemic concern, underscoring the need for stronger operational resilience even as the overall stability of the banking sector continues to improve.
+VII. Based on the FSR, the following are the key challenges and areas of caution for banks: Key Challenges and Caution Areas for Banks
+While the overall assessment of the banking sector remains positive, the Report also flags several emerging risks that require continued vigilance. These observations are particularly relevant for banks while framing their lending, credit appraisal and risk management policies. The key areas highlighted by the RBI are as follows:
+© Economic Laws Practice 2026
+▪ The RBI has identified cyber risk as one of the most significant emerging threats to financial stability, driven by the rapid digitalisation of financial services and increasing dependence on technology. While most banks and NBFCs reported that a substantial majority of customer transactions are now conducted digitally and expressed confidence in their cyber resilience, the RBI cautions that the growing frequency of cyberattacks, particularly in India, requires continued vigilance.
+▪ A major area of concern is the increasing reliance on third-party technology service providers for critical functions such as cloud services, cybersecurity operations and incident response, which exposes financial institutions to supply chain and concentration risks.
+▪ Accordingly, banks and NBFCs should continue to strengthen their cyber security framework, regularly upgrade technology infrastructure, reduce dependence on critical third-party vendors wherever feasible, and enhance operational resilience to safeguard customer confidence and financial stability.
+➢ India's continued dependence on imported crude oil makes borrowers vulnerable to rising energy costs, particularly
+in energy-intensive sectors such as power, steel, cement, aviation and logistics.
+✓ Therefore, the Banks need to incorporate commodity price sensitivity into credit appraisal and stress testing.
+B. Geopolitical Risks and Supply Chain Disruptions
+➢ The Report also highlight the ongoing geopolitical conflicts may disrupt global supply chains, resulting in cost
+escalation, project delays and working capital stress.
+✓ In view of the above, the lending policies should adequately evaluate supply chain concentration and import
+➢ The Report notes that while inflation remains within the RBI's tolerance band, it is expected to rise due to higher
+oil prices and adverse weather conditions.
+✓ Persistent inflation could increase borrowing costs and weaken the debt servicing capacity of borrowers.
+D. Climate and Weather-Related Risks
+➢ The possibility of a weak monsoon and extreme weather events poses risks to agriculture and allied sectors.
+✓ Banks need to strengthen climate-risk assessment, particularly for sectors dependent on weather conditions.
+➢ The report highlights that slower global economic growth may adversely affect export-oriented industries.
+✓ It calls for banks to closely monitor borrowers with significant overseas exposure.
+➢ The report also mentions that continued weakness in foreign capital inflows and global financial market volatility
+may affect liquidity and funding conditions.
+✓ To safeguard their operations, the Banks should maintain prudent liquidity management and funding diversification
+and also tight credit norms.
+G. Technology and AI-Related Concentration Risks
+➢ The FSR highlights rapidly increasing debt-funded investments in Artificial Intelligence infrastructure globally.
+✓ Although largely a global concern at present, banks financing technology companies or investment vehicles should
+assess concentration risk and valuation assumptions carefully.
+➢ The Report also highlight that despite the improvement in asset quality, banks should avoid excessive
+concentration in specific sectors or borrower groups and ensure adequate portfolio diversification.
+I. Maintain Strong Credit Underwriting Standards
+➢ The Report also cautions that strong financial indicators should not lead to dilution of underwriting standards.
+✓ The Banks may need to ensure rigorous due diligence, cash flow-based lending, regular stress testing and early
+The RBI's message is that although India's banking system is currently well-capitalised, profitable and resilient, banks should not become complacent. Lending policies must increasingly factor in geopolitical uncertainty, commodity price shocks, climate risks, global financial market volatility and sector-specific concentration risks.
+© Economic Laws Practice 2026
+▪ The RBI observes that the financial health of the corporate sector continues to be a key source of stability for the Indian financial system. Corporate balance sheets remain strong, supported by healthy sales growth, stable operating margins and improved debt servicing capacity, with companies generally better placed to meet their repayment obligations.
+▪ Leverage levels have continued to decline, while cash reserves have increased, reflecting a more prudent financial position.
+▪ Although private investment has moderated and businesses continue to face uncertainties arising from geopolitical tensions and global supply chain disruptions, capacity utilisation remains above its long-term average and credit support from banks and NBFCs continues to facilitate investment.
+▪ Overall, the RBI's assessment suggests that the corporate sector remains resilient, though lenders should continue to monitor sector-specific risks and the impact of external shocks on borrower performance.
+▪ The RBI also notes that the NBFC sector continues to remain financially resilient, supported by strong capitalisation, healthy profitability, stable net interest margins and improving asset quality. Although overall credit growth has moderated, lending to retail borrowers remains robust, largely driven by a sharp increase in gold loans, while NBFCs continue to play a key role in financing MSMEs and the microfinance sector, thereby supporting financial inclusion. Asset quality in these segments has also shown improvement with declining credit costs.
+▪ Fintech Loan – A Risk Factor: The RBI cautions that rapid growth in unsecured small-ticket personal loans, particularly those originated through fintech platforms, warrants close monitoring. Fintechs now account for more than half of such loans, with a significant proportion extended to younger borrowers, and the rising delinquency levels in this segment indicate increasing asset quality risks. Accordingly, while the overall health of the NBFC sector remains strong, lenders closely monitor risks arising from unsecured retail lending and fintech-driven credit expansion.
+▪ Rapid Growth in Gold Loans Warrants Close Monitoring
+- The RBI has identified gold loans as the fastest-growing segment of retail credit, with both banks and NBFCs
+significantly expanding their lending against gold during 2025–26. The growth has been largely driven by existing borrowers leveraging the sharp rise in gold prices to obtain larger loans and refinance existing borrowings.
+- While rising gold prices have strengthened collateral cover and reduced loan-to-value (LTV)6 ratios, thereby keeping
+asset quality risks contained, the RBI cautions that the pace of growth warrants close monitoring.
+- A sharp or prolonged correction in gold prices could erode collateral values, increase borrower stress and lead to
+higher defaults. Accordingly, banks and NBFCs should continue to maintain prudent lending standards, closely monitor LTV ratios and ensure that the rapid expansion of gold loan portfolios does not compromise credit quality.
+▪ The RBI notes that household debt continues to increase, largely driven by consumption-related borrowing, particularly personal loans, which now account for nearly half of total household borrowings.
+▪ While banks have also witnessed a shift towards higher-value housing loans, asset quality in the housing segment remains robust with very low NPAs.
+▪ Encouragingly, despite the rise in household debt, the overall credit profile of borrowers has improved, with a larger share of borrowers falling in the higher credit rating categories.
+▪ Nevertheless, the RBI advises lenders to remain vigilant as rising household leverage, especially through unsecured consumption loans, could pose risks if economic conditions weaken.
+© Economic Laws Practice 2026
+The Financial Stability Report, June 2026 presents a reassuring picture of the Indian financial system, with banks and NBFCs continuing to demonstrate strong capital positions, healthy asset quality, robust profitability and adequate liquidity buffers. Credit growth remains broad-based, the corporate sector continues to exhibit financial resilience, and improvements in borrower profiles have supported the stability of retail and MSME portfolios.
+At the same time, the Report serves as a reminder that financial stability is not static. Geopolitical uncertainties, inflationary pressures, rising household leverage, rapid growth in unsecured and gold-backed lending, increasing dependence on digital infrastructure, cyber risks and evolving global financial conditions continue to pose potential challenges. While these risks are presently well contained, they underscore the need for banks and financial institutions to maintain prudent credit assessment standards, strengthen risk management frameworks and preserve adequate capital and liquidity buffers.
+Disclaimer: This write-up is based on the Financial Stability Report (FSR) released by the Reserve Bank of India on 30 June 2026 and is intended solely for general information and academic discussion. It reflects the author's understanding of the Report and should not be construed as legal, regulatory, financial or investment advice. Readers are advised to seek independent professional advice before acting on any of the matters discussed herein.
+We trust you will find this an interesting read. For any queries or comments on this update, please feel free to contact us at insights@elp-in.com or write to our authors:
+Mukesh Chand, Senior Counsel – mukeshchand@elp-in.com
+Disclaimer: The information provided in this update is intended for informational purposes only and does not constitute legal opinion or advice.
+© Economic Laws Practice 2026
+▪ The RBI notes that consumer credit continues to be a key driver of lending growth for both banks and NBFCs, with credit expanding at a faster pace than overall advances. Demand for retail credit remains strong, supported by a growing base of active borrowers.
+▪ Encouragingly, asset quality in the consumer lending segment has continued to improve, with lower levels of non- performing loans, reduced slippages from stressed accounts and a gradual increase in loan upgradations.
+▪ Further, the predominance of prime and above-rated borrowers provides comfort on the overall credit profile.
+▪ Accordingly, banks and NBFCs should continue to maintain prudent underwriting standards and closely monitor the quality of retail credit portfolios.

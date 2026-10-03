@@ -1,0 +1,2613 @@
+The  Indian  capital  markets  have  witnessed  a  transformative shift toward passive investing, with  passive funds now accounting for approximately 30  per cent of FPI equity AUM and 28 per cent of domestic  mutual fund equity AUM as of March 31, 2026. This  growth, coupled with the rising weight of Indian stocks  in global indices like MSCI and FTSE, where they  command weights between 12 per cent and 30 per cent,  has intensified the demand for precise execution at  closing prices to minimize tracking errors. continuous trading session in the cash segment, CAS  concentrates liquidity into a single and transparent  auction. By allowing all buy and sell interests to interact  simultaneously, the mechanism facilitates the formation  of a single equilibrium price based on the maximum  matching of supply and demand. This process ensures  lower price disruption and greater execution certainty,  providing a more stable and reliable closing price even  during periods of high trading volume. The new framework is scheduled to come into force on  August 03, 20F26, with the auction session conducted  between 03:15 pm and 03:35 pm. In the initial phase,  CAS will apply to stocks in the equity cash segment  on which derivative contracts are available. For all  other securities, the closing price will continue to be  determined based on the existing 30-minute VWAP  methodology. Historically, India’s reliance on the volume weighted  average price (VWAP) methodology often led to intraday  price swings and volatility, particularly during index  rebalancing, as the market struggled to absorb large  institutional flows in real-time. To address these challenges and align with international  best practices seen in markets like the NYSE, LSE, and  HKEX, SEBI has introduced the closing auction session  (CAS). Unlike the VWAP approach, which averages  trades executed during the last 30 minutes of the This strategic transition marks a significant step in  achieving cross-market consistency and enhancing the  robustness of India’s price discovery mechanism. pressure of domestic equity corrections and  exchange rate headwinds (Chart 4.1). by the escalation of the Iran-U.S. conflict, which  triggered a steady 15.2 per cent correction from  the peak, as markets responded to rising crude  oil prices and global risk aversion. 2025-26 was characterized by two distinct  phases of heightened volatility, reflecting Indian  market’s sensitivity to global macroeconomic  shifts  and  geopolitical  risks.  The  year
+In view of the evolving market dynamics in derivatives  segment in recent years, with increased retail  participation and heightened trading volumes in index  derivatives on expiry day, real time risk management,  adequate surveillance and smooth settlement of trades  are absolutely crucial to safeguard investors and to  ensure integrity of capital market ecosystem. development and strengthening of equity Futures and  Options (F&O) market, SEBI deliberated the matter with  expert working group on derivatives and with Secondary  Market Advisory Committee along with stock exchanges  and CCs, to improve risk metrics with the following  objectives: i.  Better monitoring and disclosure of risks in F&O ii.  Reduce instances of spurious F&O ban periods in  single stocks (Contd.) In order to review the existing regulatory measures  for investor protection while ensuring the orderly
+Rationale and Objective derivatives in India. A formal delineation of jurisdictions was established and a joint working group was setup India is the world’s third-largest electricity market, with  generation expanding from 1,168 billion units in FY16 to  an estimated 1,837 billion units in FY26. As the country  balances the twin goals of rapid economic growth and  a sustainable energy transition, its share in global  primary energy consumption is projected to double by  2035. While the physical power market has matured,  the sector historically lacked structured financial  instruments to manage price volatility - a critical gap  given that electricity is one of the 104 commodities  notified by the Central Government for the purposes of  commodity derivatives. between SEBI and CERC to work out the modalities for introduction of electricity derivatives. SEBI and CERC have followed a robust, consultative, and data-driven approach to design the contract specifications and risk management norms to ensure that electricity derivatives remain tools of hedging, rather than undue speculation, for power distribution companies, generators, and large industrial consumers with a regulated mechanism Globally, electricity derivatives markets are well established. In regions like the EU and the USA, they Institutional Framework and Global Best Practices support deeper competition, better investment signals and efficient price discovery and the launch aligns The lack of forward price signals has been a structural  gap in India’s power market evolution. To address  this gap, a coordinated effort was undertaken by the  Ministry of Power, SEBI and the Central Electricity  Regulatory Commission (CERC) to facilitate electricity India with global best practices observed in mature markets like the European Energy Exchange (EEX), where derivative volumes often exceed physical market volumes. By providing a financial hedge for intermittent (Contd.)
+Background recognised stock exchange acting as the PDC. PaRRVA is responsible for verification methodology and oversight, SEBI registered intermediaries and other entities  showcase their performance to investors to attract more  clients and grow and continue to do business. However,  the pursuit of more client acquisition may lead some  entities to inflate or provide misleading performance  claims, as claims made by these intermediaries/entities  are mostly self-verified. while PDC shall manage data processing and system operations. The framework also provides standardised methodologies, disclosure norms and mandatory disclaimers for presenting verified performance, along with governance mechanisms such as an oversight committee for monitoring and dispute resolution. Interim arrangement for certified past performance of To address the issue, and as a measure of ease of doing  business for SEBI registered intermediaries and other  entities, SEBI came up with a proposal for creation of an  independent Past Risk and Return Verification Agency  (PaRRVA) to validate any claims of performance by SEBI  registered intermediaries and other entities. IAs and RAs SEBI, further introduced an interim framework to facilitate sharing of past performance by IAs and RAs for period prior to operationalisation of PaRRVA. Recognising that PaRRVA would verify performance The PaRRVA Framework only prospectively, the framework allows IAs/RAs to communicate historical performance data for the pre- Accordingly, pursuant to the consultative process,  the comprehensive framework for recognition and  operationalisation of PaRRVA was introduced. The  framework mandates that risk-return metrics of IAs,  RAs, algorithmic trading providers and similar regulated  entities can be used in their communications only if  verified by a SEBI-recognised PaRRVA, thereby, curbing  misleading claims and improving investor protection. PaRRVA period. Under the interim framework, the past performance data must be certified by a member of ICAI or ICMAI and can be shared only upon specific request of a client (including prospective clients) on a one-to-one basis. Public dissemination of such certified performance data through advertisements, websites or social media is prohibited. The communication must include standard The eligibility criteria for entities to act as PaRRVA and  PaRRVA Data Centre (PDC) were also specified, wherein  only established credit rating agencies meeting specified  track record, net worth and operational requirements  can be recognised as PaRRVA, in partnership with a disclaimers clarifying that the data is not verified by PaRRVA and may not be comparable, along with cautionary statements on market risks and limitations of past performance.
+A. Review of Block Deal Framework: In response to evolving market dynamics and based on
+4.1.2  Market Activity and Trends Observed
+A. Performance of Indices: During 2025-26, the Indian capital market exhibited notable resilience, navigating a complex volatile landscape of substantial FPI outflows, evolving global trade policies, and heightened geopolitical uncertainties. The benchmark Index Nifty 50 exhibited strong early momentum, surging 11.9 per cent to reach a historic closing high of 26,328.6 on January 2, 2026. However, this growth trajectory was subsequently reversed
+The Indian securities market exhibited resilient performance during 2025-26, amidst heightened geopolitical uncertainty, sustained FPI outflows, and shifting global trade dynamics. While the benchmark Nifty 50 scaled a historic peak of 26,328.6 in early January 2026, the trajectory moderated in the final quarter as the escalation of the Iran-U.S. conflict triggered a spike in crude oil prices and surge in global risk aversion. A defining feature of the fiscal year was the maturing role of DIIs, who acted as a critical countervailing force by absorbing persistent foreign selling with a record net inflow of ₹8.5 lakh crore. This institutional depth culminated in a fundamental structural shift: by March 2026, DII holdings in the NSE-listed universe reached an all-time high of 17 per cent, consistently outpacing FPI shareholding throughout the year. Despite a marginal contraction in aggregate market capitalisation to ₹411.6 trillion by March 31, 2026, India successfully maintained its standing as the world’s fifth-largest stock market, underscoring its enduring appeal and systemic stability within the global financial architecture.
+feedback received from various stakeholders, SEBI has reviewed the block deal framework. Key revisions include increase in price bands from +/-1 per cent to +/-3 per cent to facilitate increased participation of large trades in the block deal window and increasing minimum order size from ₹10 crore to ₹25 crore, which shall push block trades below the revised threshold to the normal market thereby improving cash market liquidity and depth.
+B. Introduction of Closing Auction Session (CAS): In order to align the determination of closing prices of stocks in equity cash segment with that in other major jurisdictions globally and to provide fair, equal and transparent access to all categories of investors, a framework for CAS has been introduced (Box 4.1).
+C. Relaxation in timeline: In order to ensure ease of doing business, the requirement to submit the net worth certificate by the stock brokers for margin trading facility was aligned with the requirement of submitting financial results by the listed companies i.e., by May 31 and November 15 for the half years ended on March 31 and September 30, respectively.
+During the year, SEBI implemented several measures aimed at enhancing transparency, ease of doing business, reducing speculative activities, and strengthening the market infrastructure across equity-cash, debt, and derivatives segments. This chapter provides a comprehensive overview of these key policy initiatives, alongside detailed analyses of market trends, trading volumes, and the evolving role of intermediaries within the secondary market ecosystem.
+During this period of heightened volatility and sustained FPI selling, DIIs continued to provide stability to the equity market with a record net inflow of ₹8.5 lakh crore in 2025-26. However, despite the domestic support, the Indian market witnessed a 5.1 per cent decline during 2025-26, marking a period of underperformance relative to global peers. In contrast, the MSCI Emerging Market Index and MSCI World Index witnessed robust growth of 24.7 per cent and 17.2 per cent, respectively during the same period. The impact of this divergence was further compounded by currency volatility; the Indian Rupee’s depreciation against the U.S. Dollar led to a more pronounced decline in dollar-adjusted terms. Consequently, Nifty 50 recorded 13.9 per cent decline in USD terms, highlighting the dual
+Majority of the Indian broader market indices also went down during 2025-26, with Nifty 500 and Nifty Smallcap 100 declining by 3.8 per cent and 5.5 per cent, respectively. This is in line with the 5.1 per cent and 7.1 per cent fall witnessed by Nifty 50 and Sensex respectively. However, Nifty Midcap 100 index witnessed a marginal gain of 1.9 per cent during the same period. Among sectoral indices, Nifty PSU Bank emerged as the top performer with a return of 25.7 per cent, followed by Nifty Metal (22.5 per cent) and Nifty Auto (11.6 per cent). Conversely, the Realty and IT sectors were the weakest performers, recording declines of 23.5 per cent and 21.2 per cent respectively (Chart 4.4).
+commenced with a sharp spike in global risk aversion, triggered by escalating U.S.-China trade tensions. The CBOE VIX, which is widely regarded as a key indicator of expected volatility in the US equity markets, surged by 134.9 per cent in just six trading days, rising from 22.3 (March 31, 2025) to 52.3 on April 8, 2025. Mirroring this global volatility, India VIX also increased by 60.7 per cent, climbing from 12.7 to 20.4 during the same window. However, following the initial spikes, the volatility indices CBOE VIX and India VIX stabilized and maintained yearly averages of 19.4 and 13.7, respectively.
+Further, again in March 2026, both the volatility indices went up steadily, triggered by the U.S.- Iran conflict. During March 2026, India VIX went up by 103.6 per cent, significantly outpacing the 27.1 per cent rise witnessed by CBOE VIX, majorly due to heightened sensitivity of Indian markets to escalating crude oil prices and the subsequent depreciation of the domestic currency (Chart 4.2).
+B. Turnover and Market Capitalisation in Cash Segment: During 2025-26, trading activity in cash segment moderated, with total turnover across all the exchanges declining by 6.8 per cent to ₹280 trillion from ₹301 trillion in 2024-25. Similarly, the combined average daily turnover (ADT) across exchanges fell by 6 per cent to ₹1,13,467 crore from ₹1,20,730 crore during the same period. This decline may be attributed to a confluence of factors, including falling benchmark indices, valuation concerns, and a notable shift in retail investment toward alternate assets like gold and silver amid high interest rate environment, among other factors.
+However, among the major global markets, the annualized volatility of Indian market remained relatively low, along with UK market. Conversely, Japan recorded the highest level of volatility, followed closely by Taiwan, Hong Kong and USA (Chart 4.3).
+that Mumbai/ Thane continued to be the top contributor with a 60.1 per cent market share in 2025-26, followed by Ahmedabad with a share of 16.5 per cent. Bangalore, Delhi, Kolkata, and Hyderabad were the only other cities to have turnover share exceeding one per cent during the same period (Table 4.2).
+Further, in line with the weak performance exhibited by Indian benchmark indices, the all India market capitalisation declined marginally (0.5 per cent) to ₹411.6 trillion as of March 31, 2026, from ₹413.8 trillion recorded a year earlier, although ₹16 trillion was added to market capitalization by the newly listed companies during the year. However, despite this moderation, India maintained its position as the world’s fifth-largest stock market by market capitalization as of March 31, 2026 (Table 4.1).
+C. Stock Market Indicators: The market capitalisation-to-GDP ratio serves as a key parameter to measure growth of the financial market relative to real economy. As of March 31, 2026, India’s market capitalization to GDP ratio declined to 118.8 per cent from 130.1 a year ago, driven by a broad-based contraction in total market capitalisation. Trading activity also moderated relative to economic output: the cash turnover-to-GDP ratio fell to 80.9 per cent (from 94.5 per cent in 2024–25), while the equity derivatives (premium turnover)-to-GDP ratio decreased to 169 per cent from 201.6 per cent during the same period (Table 4.3).
+slightly to 91.6 per cent, down from 92.1 per cent in 2024-25. Conversely, at BSE, the share of frequently traded stocks rose to 83.3 per cent, compared to 82.3 per cent in the previous year (Table 4.4).
+Consequent to the correction in price levels and moderated earnings, the trailing Price- to-Earnings (P/E) ratio for Nifty 50 moderated to 19.6 at the end of March 31, 2026, down from 21.4 at end of 2024-25. However, India’s valuation remained elevated compared to Brazil, Hong Kong, China and UK except Japan and USA (Chart 4.5).
+71-80 30 13 39 20
+61-70 33 20 43 21
+2024-25 and provisional estimate for 2025-26, have
+been taken for computation based on new series of
+GDP estimates with base year 2022-23;
+ii. For options, premium turnover has been considered
+80
+E. Participation of DIIs: DIIS, comprising banks, DFIs, insurance, mutual funds and NPS continued to provide stability to the equity market, amid sustained FPI outflows witnessed during 2025- 26. DIIs effectively counteracted persistent foreign selling with a record cumulative net inflows of ₹8.5 trillion during 2025-26 against FPI net equity outflows of ₹1.8 trillion. This robust participation represents a significant 44 per cent increase in net investments compared to previous year, underscoring the growing depth and resilience of domestic capital pools. The expanding role of DIIs has helped cushion market volatility and mitigate the impact of foreign divestment.
+consistent outperformance by DIIs across all quarters of 2025-26 reflects a significant shift toward domestic ownership in India’s equity markets.
+F. Settlement: Clearing corporations carry out clearing and settlement functions according to the settlement cycles outlined in the settlement schedule. Clearing involves the post-trade process of determining members’ obligations to deliver and their entitlements to receive on the settlement date. Settlement is the final step where the actual transfer occurs - securities are moved to the buyer’s demat account and funds to the seller’s bank account on a designated settlement date. A multilateral netting procedure is employed to determine the net settlement obligations of clearing members, resulting in a single pay-in or pay-out position for funds and securities, respectively. However, for specific categories such as auction trades and the Trade-for-Trade - surveillance segment, obligations are determined on a gross basis.
+The surge in net investment by DIIs was predominantly led by mutual funds, contributing nearly 75 per cent of total DII net inflows. Mutual funds contributed ₹6.4 trillion during 2025-26 compared to ₹4.9 trillion in 2024-25. Driven by sustained momentum in SIP inflows, mutual funds continue to engage retail investors, reinforcing the structural shift toward disciplined, long-term financial savings (Chart 4.6).
+During 2025-26, the ratio of delivery-to-traded quantity across both the clearing corporations, NCL and ICCL, went up to 29.3 per cent from 23.6 per cent in 2024-25. Similarly, the ratio of delivery-to-traded value increased to 27.4 per cent from 24.4 per cent during the same period. The rise in delivery share highlights a growing preference for ownership transfers over intra- day activity. The clearing corporation-wise delivery statistics is given in Table 4.5.
+Amid continued net outflows by FPIs during 2025-26, FPI shareholding in the NSE-listed universe declined to a 15-year low of 15.8 per cent. Conversely, the share of DIIs in NSE total market capitalization increased to a record high of 17 per cent at end of March 2026. This
+G. Dematerialisation: Post-COVID-19, the Indian capital market has witnessed an unprecedented surge in individual and DII participation. The ease of investing via digital platforms and
+of listed equity in demat form saw a marginal year-on-year decline of 0.4 per cent, falling to ₹412 trillion from ₹413 trillion (Table 4.6).
+the widespread adoption of mobile trading apps by discount brokers have acted as key catalysts, significantly deepening retail investor engagement across the country. At the end of 2025-26, the total number of demat accounts across NSDL and CDSL reached 22.5 crore, with a staggering 18.8 crore of these opened since April 2020. Concurrently, the number of unique demat accounts more than tripled to 12.2 crore from 3.3 crore over the same period.
+A. Suspension of Scrips: During 2025-26, a total of 60 scrips at BSE, 33 scrips at NSE and one scrip at MSEI were suspended on account of surveillance measures, non-payment of fees and non-compliance of various regulations and procedures. At NSE, most suspensions were attributed to procedural reasons. Conversely, the majority of suspensions at the BSE stemmed from violations of the SEBI (Depositories and Participants) Regulations, 2018 (Table 4.7).
+During 2025-26, the number of listed companies opting for dematerialisation grew by 6.1 per cent at NSDL and 5.2 per cent at CDSL compared to 2024-25. However, despite the surge in volume of listed demat equities, the total value
+ii. # indicates that data has been revised.
+ii. ^Revised data excludes one company previously included, following the SAT order of February 19, 2026, which withdrew
+Conversely, participation from corporates and the ‘others’ category-which comprised of individual domestic investors, partnership firms/LLPs, trust/society, AIFs, depository receipts, portfolio management service (PMS) clients, statutory bodies, venture capital funds (VCFs), non-banking financial companies (NBFC), etc.-experienced decline. Their respective market shares fell to 3.7 per cent and 38.4 per cent, compared to 4.7 per cent and 40.5 per cent recorded during 2024-25 (Table 4.9).
+B. Delisting: During 2025-26, a total of 60 scrips were delisted from BSE, while NSE and MSEI saw 13 and eight delistings, respectively (Table 4.8).
+A. Share of Participants in Annual Cash Segment Turnover: During 2025-26, the share of proprietary traders, domestic institutions and mutual funds in annual cash market turnover increased to 31.3 per cent, 2.8 per cent and 9.9 per cent respectively from 29.7 per cent, 2.3 per cent and 8.7 per cent in the previous year.
+ii. **Others include individual domestic investors, Partnership Firms/LLPs, Trust/Society, AIFs, Depository Receipts, PMS
+clients, Statutory Bodies, VCFs, NBFC, etc.;
+iii. ^Data for 2024-25 for BSE and NSE has been revised.
+Co-location remained the dominant trading mode during 2025-26, accounting for 38.7 per cent of total cash market turnover, followed by mobile trading at 21.7 per cent. In both modes, the share of value traded across NSE and BSE saw a year-on-year increase (Table 4.10).
+The top 10 brokers in the cash segment of BSE, who represent 32.7 per cent of the total clients, contributed 53.2 per cent of its gross turnover in 2025-26. On the other hand, top 10 brokers in the cash segment of NSE, who represent 51.5 per cent of the total clients, contributed 41.6 per cent to its gross turnover (Table 4.12).
+B. Share of Top-100 Brokers/ Securities: During 2025-26, the top 100 brokers in equity cash segment across NSE and BSE accounted for 91 per cent of the aggregate cash turnover, up marginally from 90.5 per cent in the previous year. Conversely, the market exhibited a trend toward greater asset diversification, as the turnover share of the top 100 securities declined to 48.8 per cent from 50.5 per cent during the same period (Table 4.11).
+During 2025-26, SEBI introduced several policy measures in debt segment to encourage market participation, simplify processes and facilitate the ease of doing business and compliance. While these are detailed in Chapter 3, policy initiative for secondary market trading in debt securities is given below:
+A. Review of RFQ Platform framework: To improve price discovery and simplify yield- to-price computations for non-convertible securities, SEBI streamlined the operational processes and provided clarifications regarding the cash flow disclosure in corporate bond database. This initiative enhances transparency by establishing a centralized, real-time database for tracking the cash flows of debt securities traded on the RFQ platform.
+B. Request for Quote Platform (RFQ): The RFQ platform was established to revitalise trading in the corporate bond market by transitioning from traditional OTC-based methods to a transparent and fully electronic trading system. Functioning as a multi-asset marketplace, the platform facilitates trading in corporate bonds, commercial papers (CPs), certificates of deposit (CDs), government securities (G-Secs), State Development Loans (SDLs), and Treasury Bills. Since its launch in February 2020, and in alignment with SEBI regulatory mandates, institutional participants - including mutual funds, AIFs, portfolio managers, and FPIs – and stock brokers have been required to
+4.2.2  Market Activity and Trends
+A. Settled Trades: During 2025-26, the traded value of corporate bonds settled through clearing corporations (ICCL and NCL) rose by 27.9 per cent to ₹21.2 trillion, up from ₹16.6 trillion in 2024-25. Listed corporate bonds dominated this segment, accounting for 89.5 per cent of
+ii. **Trades settled through Off-market at depositories (CDSL and NSDL).
+4.2 SECONDARY MARKET: DEBT MARKET AND HYBRIDS
+the total settled value. Additionally, the value of corporate bonds settled off-market through depositories (NSDL and CDSL) increased by 65.5 per cent to ₹89,293 crore in 2025-26, compared to ₹53,950 crore in the previous year. Unlike exchange-settled trades, the majority of off-market transactions involved unlisted corporate bonds, which comprised 64.1 per cent of the total off-market value in 2025-26. Furthermore, the number of trades settled through clearing corporations and off-market platforms also increased by 143.3 per cent and 46.5 per cent, respectively during the same period (Table 4.13).
+execute a specified threshold percentage of their corporate bond trades through the RFQ platform. Consequently, the platform has seen consistent growth in adoption, with market participants increasingly utilizing it for active trading in corporate bond market. During 2025- 26, the RFQ platform experienced an exponential growth, with the total number of trades initiated via the RFQ platform increased by nearly 5.9 times. This led to a 6.5-fold rise in trades on the RFQ platform, contributing to 38.3 per cent rise in the total amount traded compared to previous year. Consequently, the average monthly turnover on the RFQ platform reached ₹60,985 crore during 2025-26, up significantly from ₹44,096 crore in 2024-25 (Table 4.14 and Chart 4.7).
+Charts 4.7: Trends in RFQ Platform during 2025-26
+No. of Trades (LHS) Amount Traded (₹ 000 crore) (RHS)
+Source: NSE and BSE
+an LPCC, functioning as a central counterparty for tri-party repo trades in corporate debt securities. During 2025-26, the average monthly trading volume in corporate bonds under ARCL went up by 2.6 times to ₹63,893 crore, rising from ₹24,817 crore in 2024-25. Since commencing operations on July 28, 2023, ARCL has facilitated cumulative repo transactions in corporate debt securities exceeding ₹10.98 trillion. On a year- on-year basis, the turnover has grown by 157 per cent, highlighting strong and accelerating adoption of ARCL’s tri-party repo platform by market participants. Additionally, the average monthly funds settled more than doubled to ₹15,983 crore, compared to ₹7,368 crore in 2024-25.
+C. Participation in Debt and Hybrid Market: Mutual funds remain the primary participants in the Indian corporate bond market, followed by banks and corporates. During 2025-26, the turnover share of mutual funds grew to 32.1 per cent, up from 29 per cent in the previous year. Conversely, the market shares of both banks and corporates contracted, declining to 18.7 per cent and 9.4 per cent, respectively, compared to 21.1 per cent and 9.8 per cent a year earlier (Table 4.15).
+D. Limited Purpose Clearing Corporation (LPCC): AMC Repo Clearing Limited (ARCL) serves as
+A. Strengthening risk metrics and enhancing trading convenience: In order to review the existing regulatory measures for investor protection while ensuring the orderly development and strengthening of equity Futures and Options (F&O) market, SEBI introduced various measures to strengthen the equity derivatives framework (Box 4.2).
+years to strengthen the equity derivatives market. The measures taken during 2025-26 are given in following section:
+The Indian equity derivatives market has experienced phenomenal growth over the last five years, driven by enhanced digital access, the proliferation of mobile applications from discount brokers and simplified on-boarding processes. While shorter contract durations and social media education have boosted trading in index options, the surge in speculative activity - particularly among individual traders - poses risks to investor protection and market stability. Consequently, SEBI has implemented several policy measures over the past two financial
+iii. Better oversight over the possibility of concentration or manipulation risk in index options
+expiry days, a framework for intraday position limits was introduced in equity index options. The framework provides for separate intraday limits for index options and mandates stock exchanges to monitor the intraday positions of entities through a minimum of four random snapshots during the day. This ensures market stability, while facilitating participation by various market participants.
+Based on the deliberations, SEBI introduced following measures to strengthen the equity derivatives framework:
+• Formulation of Future Equivalent Open Interest (FutEq OI)
+As a better measure to gauge risk in equity derivatives segment, FutEq OI was introduced to calculate open interest, which computes the net delta adjusted open positions at portfolio level across futures and options for an underlying at a given point in time. The definition of MWPL was also calibrated using future-equivalent Open Interest metrics and also linked to cash market trading activity.
+• Introduction of pre-open session
+The pre-open session was extended to current- month futures contracts on both single stocks and indices, mirroring the modalities of the cash market’s pre-open and post-closing sessions.
+• Derivatives on existing non-benchmark indices
+With a view to ensure robustness and integrity of derivatives products, additional eligibility criteria for derivatives on non-benchmark indices was mandated in consultation with market participants and stock exchanges.
+• Framework for intraday position limits monitoring
+To prevent undetected breaches of position limits during trading hours, especially on high-volume
+margin on the expiry day or to roll over / close calendar spread positions on expiry day.
+B. Framework for Final settlement day (expiry day): To reduce expiry-day hyperactivity, manage concentration risks and ensure orderly market functioning, a framework for final settlement (expiry) day of equity derivatives contracts was specified. The said framework, inter-alia, mandates the stock exchanges to designate either Tuesday or Thursday as the uniform expiry day for all equity derivatives contracts on their exchange. Further, exchanges are permitted to offer only one weekly benchmark index options contract, while all other equity derivatives contracts shall have a minimum tenor of one month and expire in the last week of the month on the designated day.
+D. Revision of Order-to-Trade ratio (OTR): With a view to rationalize the OTR framework, it was mandated that for equity options contracts, orders within ±40 per cent of last traded price (premium) or ±INR 20, whichever is higher, shall be exempted from the framework for imposing penalty for high OTR. Further, the orders placed by designated market makers for market marking activity shall not be considered towards computation of OTR.
+4.3.2  Market Activity and Trends Observed
+A. Trading Activity: As on March 31, 2026, at NSE, 211 stocks and five indices were eligible for trading in equity derivatives segment, whereas, at BSE, 203 stocks and three indices were eligible.
+C. Review of calendar spread margin benefit: The margin benefit on offsetting single stock derivatives positions across different expiries was discontinued on the day of expiry of first leg of position. The measure was implemented with a view to provide sufficient time to the end entities / trading members to bring additional
+During 2025-26, the combined notional turnover in the equity derivatives segment across NSE and BSE went up by 4.3 per cent to ₹1,10,418 lakh
+crore, up from ₹1,05,916 lakh crore in 2024-25. While the options segment witnessed growth in both premium and notional terms, the turnover in futures segment declined by 14.8 per cent, falling to ₹395 trillion from ₹463 trillion during the same period. The trend remained similar in the average daily turnover (ADT), where futures ADT went down by 14.1 per cent year-on-year, while options notional ADT and premium ADT rose by 5.2 per cent and 8.1 per cent, respectively.
+B. Settlement: In India, index futures and options are cash settled for both daily Mark-to-Market (MTM) and final expiry. In contrast, physical settlement is mandatory for stock futures and options if positions are held until expiry. During 2025-26, the options segment saw significant decline, with the premium and exercise settlements dropping by 20.7 per cent and 40.5 per cent respectively. Consequently, the total options settlement fell to ₹1.8 trillion, down from ₹2.4 trillion in the previous year. Although the futures segment - including MTM and final settlements rose by 4 per cent, the total equity F&O settlement value decreased by 5 per cent to ₹7.3 trillion (Table 4.17).
+Furthermore, during 2025-26, the volume of contracts traded in the options segment dropped significantly by 51.5 per cent to 6,460 crore, down from 13,321 crore in 2024-25. The futures segment also witnessed contraction, with the number of contracts traded declining by 17.7 per cent during the same period. This significant decline in F&O volumes during 2025-26 was possibly driven by a series of regulatory interventions –including increased contract sizes, the rationalization of weekly expiries, mandatory upfront premium collection etc. alongside an increase in the securities transaction tax.
+4.3.3  Market Concentration and Risk Management Measures
+While NSE leads in both stock and index derivatives, BSE has a significant presence primarily in index derivatives. In the index futures segment, NSE maintained a dominant 98.9 per cent market share during 2025-26. However, in terms of index options premium turnover, NSE's share
+declined to 72.1 per cent (down from 85.9 per cent in 2024-25), while BSE's share expanded to 27.9 per cent from 14.1 per cent over the same period.
+a marginal increase from 74.1 per cent in the previous year. On the other hand, the share of monthly options accounted for 25.3 per cent of the total turnover, a marginal decrease from 25.6 per cent recorded for the previous year. (Chart 4.8).
+i. Product-wise: Index options continue to dominate the equity derivatives segments of both BSE and NSE, accounting for 98.5 per cent of the aggregate notional turnover. At BSE, trading activity is almost entirely concentrated in index options, with the SENSEX alone contributing 99.6 per cent share of the exchange’s derivative volume. Similarly, index options at NSE represented 97.5 per cent of its total notional turnover during 2025-26, driven majorly by Nifty 50 and Bank Nifty. The share of Nifty 50 options surged to 93.1 per cent, a significant rise from 45.4 per cent in the previous year, following the regulatory mandate to restrict weekly derivatives to a single benchmark index per exchange. Conversely, the Bank Nifty’s share contracted to 6 per cent, down from 34.8 per cent a year earlier, as the trading activity shifted to Nifty 50 option contracts.
+iii. Participant-wise: During 2025-26, the overall notional turnover in the equity F&O segment experienced a shift in participant composition. The share of proprietary traders, FPIs and corporates declined at both NSE and BSE. In contrast, domestic institutional participation went up. Notional turnover by mutual funds rose by 17 per cent to ₹98 trillion, while other domestic institutions (excluding banks and insurance) also saw a 7 per cent increase to ₹1.5 trillion during the same period. The category-wise share of notional turnover in equity F&O segment for both exchanges during 2025-26 is illustrated in Chart 4.9.
+During 2025-26, at BSE, top 10 brokers (including proprietary traders) dominated the equity derivatives segment, accounting for 72.7 per cent of the client base and 69 per cent of total gross notional turnover. In contrast, while top 10 brokers at NSE contributed a comparable 65.9 per cent to gross notional turnover, they represented a much smaller share of the exchange’s total client base at 41.2 per cent (Table 4.18).
+iv. Member-wise: In terms of member categories, during 2025-26, trading-cum- clearing members (TM_CM) - eligible for clearing both their own trades and those of others were dominant group at NSE. They represented 65.2 per cent of total notional turnover. This was followed by trading members (TM) at 22.2 per cent and trading- cum-self clearing members (TM_ SCM) at 12.6 per cent. Conversely, at BSE, TMs were dominant with share of 75.8 per cent followed by TM_SCMs at 20.9 per cent (Chart 4.10).
+v. Mode of Trading: During 2025-26, co- location remained the major trading mode in the equity F&O segment, accounting for 51.4 per cent of total turnover at NSE and 56.5 per cent at BSE. This was followed by direct market access (DMA) and mobile trading as the next most utilized channels for market participation (Chart 4.11).
+A. Review of Settlement Guarantee Fund Norms: The framework for settlement guarantee framework (SGF) coverage was revised to improve capital efficiency and maintain adequate
+B. Launch of Electricity Derivatives: Electricity Futures were launched at MCX on July 10, 2025 and at NSE on July 14, 2025 (Box 4.3).
+risk safeguards. Clearing Corporations were mandated to calculate the credit exposure due to simultaneous default of at least three clearing members (CMs) (and their associates) causing highest credit exposure. The earlier requirement of 50 per cent credit exposure due to default of all CMs was removed. SEBI may grant exemptions or relaxations from the strict enforcement of provisions relating to the SGF in the commodity derivatives segment, on a case to case basis after taking into account the prevailing market conditions, the adequacy of applicable risk management framework and keeping in view the overall objective of investor protection.
+The commodity derivatives market plays a vital role in India’s economy by enabling price discovery, mitigating price risks for producers, and offering robust hedging mechanisms for industrial consumers. While the Government of India has notified 104 distinct commodities for trading as of March 2026, the active market currently features 55 commodities across BSE, MCX, NCDEX, and NSE. This includes 24 agricultural and 31 non-agricultural products (including options on index). Notably, the segment has seen a steady rise in trading volumes, driven largely by non-agricultural commodities.
+renewable generators, electricity derivatives support
+During 2025-26, the IMF’s All Commodity Price Index surged by 30.7 per cent, primarily driven by a 67.2 per cent jump in precious metals and a 40.3 per cent rise in energy prices. Base metals also grew by 19.0 per cent, while the agriculture index declined marginally by 0.3 per cent (Chart 4.12).
+4.4.3  Price Discovery in Indian Markets
+A. Movement of Commodity Futures Indices: MCX iCOMDEX Composite index increased by 56.4 per cent in 2025-26 over last year reflecting a broad-based increase in prices across commodity segments including bullion, base metals and energy. Among sectoral indices, MCX iCOMDEX Bullion recorded gain of 69.2 per cent followed by MCX iCOMDEX Energy index (45.9 per cent), MCX iCOMDEX Metal (18.6 per cent) (Table 4.19).
+India’s net-zero transition and the broader Viksit
+A significant milestone in the instrument’s adoption has been the progressive enablement by State Electricity Regulatory Commissions. In February 2026, Uttar Pradesh Electricity Regulatory Commission became the first regulator to permit State power distribution companies to participate in electricity derivatives on a pilot basis. Similarly, Haryana Electricity Regulatory Commission directed its two power distribution utilities to examine the feasibility of using these futures as a hedging tool.
+Bharat vision. The contracts provide transparent price
+discovery, allowing participants to lock in future prices
+and stabilize procurement costs.
+Market Performance and Impact
+Since its inception in June 2025, the contract has
+demonstrated reliable spot-market linkage and healthy
+liquidity. Currently traded on both MCX and NSE, the
+electricity futures recorded a total turnover of ₹16,010
+crore during FY26. The market activity during 2025-26
+Moving forward, increased participation from power distribution companies is expected to further catalyse market depth, establishing electricity as a robust tradable asset class while enhancing systemic financial stability in the energy sector.
+reflects growing confidence across the value chain,
+supported by extensive capacity-building initiatives
+comprising over 350 seminars and webinars for
+institutional and retail participants.
+These divergent trends reflected shifting global demand-supply dynamics. Precious metals rose sharply on safe-haven demand amid geopolitical instability. Conversely, agricultural prices softened due to improved supply conditions, despite volatile input costs and trade disruptions. Though energy prices saw a sharp spike in March 2026, the annual average softened compared to the previous year.
+C. Review of Provisions relating to Product Advisory Committee: Relaxing the earlier mandate, the Product Advisory Committee for agricultural commodities was allowed to meet at least once in a year, instead of twice a year.
+B. Commodity Price Movements for Key Traded Commodities: A total of 56 commodity futures contracts were traded on the Indian exchanges during 2025-26. Of these, 37 posted gains, while 12 recorded declines (excluding seven commodities which reported nil trading during previous or current year). The Bullion segment led the market, with silver and gold contracts
+primarily driven by composition and weightage
+within indices. The return variation was the
+highest between MCX composite index and
+S&P GSCI Composite at 25.3 percentage point,
+followed by bullion (+15.3 percent) energy
+(+4.5 percent) and base metals (-8.5 per cent)
+4.4.4  Market Activity and Trends Observed
+The surge in gold and silver prices was driven by safe haven demand amid geopolitical tensions and shifting US trade policies while structural supply deficits in the silver market pushed prices to lifetime highs during 2025-26. The crude oil market rallied in March 2026 due to geopolitical uncertainties; however, for most part of the year, crude oil prices moved sideways due to increase in supply in the face of varied demand. The global transition to green energy and AI infrastructure drove the demand for copper and aluminium while mining disruptions in South America and production caps in China created deep market deficits. Natural gas prices declined till March due to record US supply, mild weather and high storage levels.
+A. Market Activity: Across all the exchanges, commodity contracts of 34 commodities were traded in 2025-26. Exchange-wise commodities traded are given in Table 4.20.
+i. Trends in Turnover: During 2025-26, in aggregate, the futures turnover increased by 133.1 per cent to ₹166.4 trillion, whereas the options turnover (notional) increased by 140.3 per cent to ₹1,221.7 trillion. The premium turnover also increased by 107.2 per cent to ₹16.8 trillion from ₹8.1 trillion during the period (Table 4.21).
+ii. Turnover of Agri and Non-Agri Contracts: The suspension of trading in derivative contracts of major essential agricultural commodities (initially started on December 2021) was further extended till March 31
+During 2025-26, five most actively traded commodities on Indian exchanges (based on turnover) were gold, silver, natural gas, copper
+and crude oil. The spot price (based on the 2nd session) of silver surged by 127 per cent followed by gold (65 per cent), copper (30 per cent) and crude oil (59 per cent). In contrast, natural gas declined by 18 per cent during the period.
+soaring by 140.7 per cent and 66.2 per cent, followed by Dhaniya (58.7 per cent) and crude oil (56.2 per cent). Conversely, Natural gas futures fell by 21.9 per cent during the financial year, followed by maize (17.8 per cent) and cotton (12.6 per cent) (Chart 4.14).
+ii. Non-agri commodities include derivatives on commodity indices.
+2027. The trading activities at exchanges were concentrated on non-agri segment throughout the year (Chart 4.15).
+During 2025-26, the turnover (futures and notional turnover for options) in the agri segment increased by 16.8 per cent to ₹1.8 trillion from ₹1.5 trillion in 2024-25. In the non-agri segment, the turnover increased to ₹1,386 trillion in 2025-26 from ₹578 trillion in 2024-25. Within the non-agri segment, the notional turnover of bullion contracts increased by 491.7 per cent to ₹817 trillion from ₹138 trillion in the previous year. Similarly, notional turnover of energy contracts increased by 27.6 per cent to ₹551 trillion from ₹432 trillion, while that of base metal contracts increased by 114.4 per cent to ₹18.4 trillion from ₹8.6 trillion.
+Futures 5 0 -100.0
+The rise in non-agri turnover was mainly due to significant trading activities in both futures and options segment since September 2025. In the metal segment at MCX, during second half of 2025-26, the monthly average number of contracts in the options (put and call) traded increased by 10.9 times over first half of 2025-26. In case of bullion and energy, the monthly average number of contracts traded increased by 3.2 times and 1.8 times during the period.
+two options on futures contract during 2025-26. The details of new contracts approved by SEBI and time taken for regulatory approval are given in Table 4.23.
+C. Commodities Physically Delivered through the Platform: During 2025-26, the quantity of physical delivery across all exchanges decreased by 15.5 per cent to 2.8 lakh MT. In agri segment, the physical delivery stood at 1.9 lakh MT compared to 1.7 lakh MT recorded last year. In case of non-agri, the physical delivery increased to one lakh MT from 0.7 lakh MT during the same period.
+iii. Participant-wise Turnover: In the agri segment, the proportionate share of proprietary traders in total turnover increased to 32 per cent, up from 26.7 per cent in the previous year, while that of ‘others’ declined to 54.5 per cent in 2025-26 from 60.3 per cent in 2024-25. The share of FPOs/farmers/ VCPs/hedgers remained almost same.
+During 2025-26, the quantity of physical delivery at commodity level was the highest in case of cotton seed oil cake at NCDEX (79,510 MT), followed by MCX copper (40,068 MT), NCDEX Guar seed (32,395 MT), MCX Aluminium (25,460 MT), NCDEX castor seed (24,350 MT), NCDEX Guargum (17,805 MT). During 2025-26, the delivery of gold and silver stood at 120 MT (two per cent of traded amount) and 404 MT (0.1 per cent of traded amount), respectively.
+In the non-agri segment, proprietary traders accounted for 57 per cent of the total turnover, followed by others at 39.5 per cent, FPIs at 2.2 per cent, and VCPs/hedgers at 1.2 per cent in 2025-26 (Table 4.22).
+D. Warehouse Capacity Utilization: The warehousing capacity indicates storage space available for various clearing members and their respective constituents/ depositors who are willing to store goods and give delivery on
+B. Details of New Products Approved by SEBI: SEBI approved five commodity futures contracts and
+information from the exchanges.
+respective CC’s platform. During 2025-26, agri warehouse capacity for storage was utilised to the extent of 43.5 per cent by NCDEX and 2.4 per cent by MCX. In case of non-agri commodities,
+the storage capacity utilisation for bullion and metal was 39.1 per cent and 54.7 per cent, respectively at MCX (Table 4.24).
+were introduced in August 2008, followed by options in October 2010. While three exchanges namely BSE, MSEI and NSE are authorized to offer currency derivatives products, trading activity is concentrated on NSE. Currently, trading is permitted in four major INR-based pairs viz., USD-INR, EUR-INR, GBP-INR, and JPY-INR and also three cross-currency pairs, viz. EUR-USD, GBP-USD, and USD-JPY on these exchanges.
+During 2025-26, agri segment constituted less than one per cent of total turnover. Commodity derivatives trading remains highly concentrated, with MCX accounting for 98.9 per cent in total turnover while non-agri commodities dominate with 99.9 per cent share. Trading in bullion segment accounted for 58.9 per cent of the total turnover across exchanges, followed by energy at 39.7 per cent, metal at 1.3 per cent and agri segment at 0.1 per cent in 2025-26 (Chart 4.16).
+4.4.6  Discontinued Contracts from Trading
+During 2025-26, no commodity contracts have been discontinued. However, since December 19, 2021, stock exchanges having commodity derivatives have been directed to suspend trading in select agricultural commodities. The suspension, which has been extended till March 31, 2027, applies to paddy (non-basmati), wheat, chana, mustard seeds and its derivatives complex, soybean and its derivatives complex, crude palm oil, and moong.
+No specific policy development w.r.t. currency derivatives was initiated during 2025-26. However, the overall policy developments for various products traded in derivatives segment are detailed in Sections 4.3 and 4.4.
+4.5.2  Global Currency Movements and Performance of Indian Rupee
+During 2025-26, the global currency markets experienced significant volatility amidst escalating geopolitical tensions. The US Dollar index, a key benchmark measuring the value of the USD against a weighted basket of six major foreign currencies, declined by 4.3 per cent during 2025-26. This was primarily driven by evolving trade tensions, a pivotal Federal Reserve policy shift toward easing, and heightened geopolitical uncertainties.
+Exchange traded currency derivatives serve as one of the major tools for managing foreign exchange risk, enabling market participants to hedge or capitalize on currency fluctuations. In India, currency futures
+4.5.3  Market Activity and Trends Observed
+deficit and straining the current account balance.
+In the currency derivatives segment, total premium turnover from futures and options across all exchanges fell by 39.6 per cent to ₹8.9 lakh
+The performance of the Indian Rupee stood in sharp
+contrast to several other major global currencies
+Despite the broad-based weakness in the dollar
+that recorded gains against the USD during the same period. The Brazilian Real witnessed the highest appreciation of 9.2 per cent against USD, followed by South African Rand (7.5 per cent), Euro (6.4 per cent), Chinese Renminbi (5 per cent) and British Pound (2.3 per cent). Conversely, the Japanese Yen depreciated, recording a 5.8 per cent decline against the USD during the same period (Chart 4.17 and 4.18).
+globally, the Indian Rupee faced significant
+downward pressure, reaching a historic all-time low
+of approximately ₹94.8 against the USD on March 30,
+2026. This resulted in 11 per cent annual depreciation
+of Indian rupee against USD. This decline was
+primarily driven by sustained FPI outflows and the
+escalation of the U.S-Iran conflict, which led to sharp
+rise in crude oil prices, thereby, widening the trade
+1.5.4  Market Concentration and Risk Management Measures
+crore in 2025-26, down from ₹14.7 lakh crore in 2024-25. This trend is a continuation of the 84.8 per cent decline witnessed during the previous financial year (Table 4.25). The sharp drop may be attributed to the stipulation that exchange-traded currency derivatives could only be utilized for hedging against foreign exchange rate fluctuations, effectively restricting market participation to participants with underlying exposure.
+In the currency derivatives market, proprietary traders remained the largest participant group with a 56.2 per cent market share, despite a significant decline from 73.3 per cent in the previous year. They were followed
+derivatives segment are detailed in Sections 4.3 and 4.4.
+ii. Calculation is based on notional turnover.
+by FPIs at 15.8 per cent and corporates at 15.4 per cent (Table 4.28).
+4.6.3  Market Concentration and Risk Management Measures
+Exchange-traded interest rate derivatives (IRD) are standardised contracts traded on recognised stock exchanges, where the contract value is derived from reference interest rates or the market prices of interest-rate securities. Currently, in India, interest rate futures contracts are traded only at NSE and available on Government of India (GoI) securities, Treasury bills, and MIBOR, while interest rate options contracts are limited to GoI securities. Institutional participants—including banks, corporates, and insurance companies—leverage these instruments to hedge interest rate risks within their government securities portfolios.
+During 2025-26, the share of proprietary trades in total turnover in IRDs increased from 10.6 per cent in 2024–25 to 36.2 per cent. Conversely, corporate participation saw a significant decline, with its share of total turnover falling to 56.3 per cent, down from 72.7 per cent in the previous year (Table 4.31).
+ii. #One member not added in the list as SEBI registration is awaited. Source: All exchanges
+During 2025-26, the number of SEBI-registered stock brokers grew across most market segments, with the debt segment leading the surge at 5.9 per cent year-on-year. This was followed by 4.5 per cent growth in the commodity derivatives and 3.9 per cent growth in the equity F&O segment respectively. Conversely, the currency derivatives segment was the sole outlier, witnessing a 2.4 per cent decline in broker registrations across exchanges (Table 4.32).
+Further, corporates continued to constitute the majority of registered stock brokers across all market segments - including cash, equity F&O, currency derivatives, debt, and commodity derivatives - on all major exchanges (Table 4.33).
+In 2025-26, the number of registered clearing members (CMs) across ICCL and NCL declined by 0.9 per cent in cash segment and 2.3 per cent in currency derivatives segment, compared to the previous year. In contrast, equity derivatives and debt segments witnessed an expansion of 3.3 per cent and 6.2 per cent, respectively during the same period (Table 4.34). Furthermore, corporates constitute the majority of clearing members across all market segments (Table 4.35).
+As of March 31, 2026, the composition of SEBI- registered CMs varied across segments. The cash segment recorded the highest concentration of Self- Clearing Members (SCMs) at 94.4 per cent, whereas the currency derivatives segment saw the lowest at 47.4 per cent. In other segments, SCMs accounted for 67.3 per cent of CMs in equity derivatives, 79.2 per cent in commodity derivatives, and 61.7 per cent in the debt segment.
+applications for depository participants, Investment Advisers (IAs), and Research Analysts (RAs) saw faster turnaround times, with a median of 15 working days each (Table 4.38).
+During the fiscal year 2025–26, the total number of depository participants saw a net increase of 28, comprising 17 new additions to NSDL and 11 to CDSL. As of March 31, 2026, the total count of registered depository participants stood at 294 for NSDL and 585 for CDSL (Table 4.36).
+Intermediary registrations grew across most categories in 2025-26. Most other registered categories saw a year-on-year increase in their total count, led by research analysts, who witnessed 15.8 per cent surge in total registrations as of March 31, 2026 (Table 4.37).
+4.7.5  Process of Registration of Various Intermediaries
+During 2025-26, the median processing time for intermediary applications was the highest for RTAs at 48 working days, followed by stockbrokers at 22 working days. In contrast,
+ii. *indicates that data has been revised.
+i. Stock Brokers/Depository Participant: Common Contract Note: In a significant step toward promoting ease of doing business for institutional investors and market participants, common contract note with a single Volume Weighted Average Price (VWAP) was made mandatory with effect from June 27, 2025. The objective of the reform was to simplify the post-trade reporting process by consolidating trades executed across multiple exchanges into a single, harmonized document, eliminating the need to process multiple contract notes. This measure aimed at increasing cost efficiency, reducing compliance burden and ensuring consistent trade reporting aligned with the CC interoperability framework.
+ii. Upgradation of Super App: In order to provide investors with a bird’s eye view of their securities related data across stock brokers and depository participants, a unified app was launched on February 20, 2025. Building upon the existing features such as consolidated view of clients’ securities across depositories, transaction and holding statements at one place, monitoring of open positions and margin details across exchanges and CCs, e-voting on company resolutions, etc., further enhancements were undertaken during 2025-26. These include features such as complaint/dispute resolution, access to recommendations of proxy advisers on resolutions and removal of recommendations of proxy advisor against whom an enforcement action has been taken.
+iv. Rationalisation and standardisation of penalties: To enhance ease of doing business for stock brokers, a comprehensive review and rationalisation of the penalty framework was undertaken by stock exchanges in consultation with SEBI. The key reforms include uniform penalty structure across all exchanges to ensure consistency, introduction of lead exchange mechanism to levy penalty in order to avoid jeopardy, replacement of the term ‘penalty’ with ‘financial disincentive’ for minor procedural violations to remove stigma on the stock brokers etc.
+v. Facilitation to SEBI registered stock brokers in GIFT-IFSC: In order to enhance operational efficiency and facilitate SEBI registered stock brokers to undertake securities market related activities in GIFT-IFSC, SEBI, vide circular dated May 02, 2025 enabled these entities to operate through a Separate Business Unit (SBU) of the stock broking entity itself in addition to the existing subsidiary route. In a significant move to streamline the on-boarding process, the requirement for obtaining specific prior approval from SEBI was done away with. Stock brokers are required to ensure ring-fencing of their stock broking operations from that of the SBU and maintain separate account and net worth for their activities in IFSC and securities market.
+iii. Review of Basic Services Demat Account (BSDA) framework: In order to enhance financial inclusion and ease of investing for investors, the BSDA framework was reviewed and strengthened. The key measures included exclusion of Zero Coupon Zero Principal bonds and delisted securities for eligibility determination, valuation of illiquid securities at last closing price, periodic reassessment of eligibility by Depository Participants and enabling digital modes for consent by investors for availing BSDA facility.
+vi. Samuhik Prativedan Manch for stock brokers: To enhance ease of doing business and to rationalize the compliance reporting for stock brokers, SEBI introduced the Samuhik Prativedan Manch, a technology-driven common reporting mechanism for stockbrokers. The platform eliminates the requirement for brokers to submit compliance reports to multiple exchanges, a framework expected to substantially reduce compliance costs for stock brokers.
+intermediaries, the technical glitch framework was revised. Key modifications in the new framework include streamlining eligibility criteria by excluding small stock brokers, providing exemptions for specific glitch scenarios, simplifying reporting requirements, rationalizing overall technology compliance for brokerage firms and financial disincentive structure.
+A. Registrars to an Issue and Share Transfer Agents
+vii. Notification of SEBI (Stock Brokers) Regulations, 2026: SEBI (Stock Brokers) Regulations, 2026 (SB Regulations) were notified on January 07, 2026 to simplify and modernize the existing framework for stock brokers with the objective to provide clarity, remove redundancies, align with contemporary market environment and practices and to facilitate ease of compliance. These regulations replaced the erstwhile SEBI (Stock Brokers) Regulations, 1992. The key changes include reorganizing the regulations into 11 chapters, deleting unnecessary schedules and integrating relevant content into the main regulations, and prescribing registration forms via circulars (in consultation with the Industry Standard Forum). The SB Regulations streamline the regulatory framework by consolidating duplicate provisions (e.g., underwriting, code of conduct), clarify key definitions (e.g., clearing member, proprietary trading, designated director), and introduce compliance-friendly measures such as enabling joint inspections, allowing electronic maintenance of books, etc.
+i. Amendment to LODR Regulations
+a. Amendment to Regulation 39 (Dispensing with Letter of Confirmation (LoC) and enabling direct demat credit of securities in demat account): Under the revised framework, instead of issuing an LoC, the RTA/listed company is required to directly credit the securities into the investor’s demat account through the depository-enabled process after necessary due diligence. This was done to streamline the end-to-end process, reduce risks like LoC loss/ pilferage and significantly compress timelines, bringing demat credit down from ~150 days to ~30 days, thereby improving investor convenience and efficiency of service requests.
+b. Amendment to Regulation 40 (Facilitating transfer of physical securities purchased before April 01, 2019): To facilitate long-pending cases relating to transfer of physical securities, investors, who possess the original physical share certificates along with the transfer deed evidencing purchase before April 1, 2019, were allowed to lodge these documents during a special window, subject to conditions to be prescribed by SEBI and due diligence by RTAs/
+viii. Master circular for stock brokers: In order to enable the stakeholders to have an access to provisions of all applicable requirements at one place, all circulars issued till June 03, 2025 were rescinded and replaced with the Master Circular for Stock Brokers dated June 17, 2025.
+ix. Review of Framework to address technical glitches: To enhance ease of compliance and facilitate ease of doing business for market
+certificates, thereby enabling faster and more efficient processing of investor requests.
+listed companies. The facility explicitly excludes dispute/fraud cases, aiming to provide a controlled, one-time- type route for genuine legacy holders to regularize ownership and move toward dematerialised holdings. Vide circular dated January 30, 2026, a special window was opened for a period of one year from February 05, 2026 to February 04, 2027.
+iii. Measures for transmission of securities: To enhance ease of investing and to address operational and tax-related challenges in transmission cases, standardised reporting mechanism was introduced to streamline processes and to facilitate smooth transfer of securities from nominees (acting as trustees) to rightful beneficiaries.
+c. In order to encourage dematerialisation of securities and streamline processes in line with the current regulatory landscape, amendments were carried out to certain provisions of LODR Regulations. By inserting Regulation 39(2A) under LODR Regulations, listed entities were mandated to issue securities only in dematerialised form pursuant to corporate actions such as consolidation, split/sub-division of face value and schemes of arrangement so that such actions do not result in fresh creation of physical holdings. Further, amendments were made to Schedule VII of LODR Regulations to remove the requirement for listed entities to maintain proof of delivery (speed post acknowledgements) for certain signature-mismatch intimations, since entities already keep proof of dispatch and postal/courier systems retain delivery proof for up to six months, making the additional record keeping requirement redundant.
+iv. Notification of SEBI (Registrar to an Issue & Share Transfer Agent) Regulations, 2025: In order to align regulatory oversight with evolving market practices and to improve ease of compliance, a comprehensive overhaul of the RTA regulatory framework was undertaken and new SEBI (Registrar to an Issue and Share Transfer Agent) Regulations, 2025 were notified. Key features of the revised regulatory framework include introduction of activity- based regulations for RTAs, unified RTA definition, net-worth requirement, revision in fee structure, introduction of institutional mechanism for RTAs etc.
+v. Master circular for RTAs: In order to enable the stakeholders to have an access to provisions of all applicable requirements at one place, all circulars issued till January 30, 2026 were rescinded and replaced with the Master circular for RTAs dated February 06, 2026.
+vi. Investor charter for RTAs: In view of recent securities market developments, including the launch of SCORES 2.0 and the Online Dispute Resolution (ODR) platform, the Investor Charter for RTAs has been revised. The revised framework strengthens financial consumer protection by adopting G-20 and OECD principles, ensuring that investor rights evolve alongside efforts toward financial inclusion and financial literacy.
+ii. Review of process for issuance of duplicate certificates: To enhance ease of investing for investors and reduce procedural complexities, the process for issuance of duplicate security certificates was streamlined. The circular adopts a risk-based approach and standardises documentation requirements for processing request for issuance of duplicate security
+B. Investment Advisers and Research Analysts
+ii. Amendments to SEBI (Investment Advisers) Regulations, 2013 (IA Regulations) and SEBI (Research Analysts) Regulations, 2014 (RA Regulations): To simplify the advisory ecosystem and encourage formalisation, certain provisions of the IA and RA Regulations were amended. The key changes include relaxed eligibility criteria,
+i. Risk and Return Verification Agency (PaRRVA) for risk-return performance verification: To standardise verification of performance claims made by market intermediaries, a comprehensive framework for PaRRVA was introduced (Box 4.4).
+4.8.2  Ownership and Governance of MIIs
+The SECC Regulations and D&P Regulations, along with various circulars issued thereunder prescribe the framework for ownership and governance of MIIs. These norms, prescribed by SEBI, are periodically updated to reflect the evolving role of MIIs as systemically important public utilities with significant regulatory and supervisory mandates. Under SECC and D&P Regulations, eligible domestic and foreign entities are allowed to hold up to 15 per cent equity in an MII, while all other individuals or entities are restricted to a maximum holding of 5 per cent. The regulations further require entities intending to acquire or hold shares in an MII to meet specific eligibility criteria and to seek prior or post- facto approval from SEBI, depending on the scale of the acquisition.
+v. Master Circular for IAs and RAs: In order to enable the stakeholders to have an access to provisions of all applicable requirements at one place, all circulars issued till December 10, 2025 were rescinded and replaced with the Master Circular for IAs and RAs dated February 06, 2026.
+vi. Investor Charter for IAs and RAs: In view of recent securities market developments, including the launch of SCORES 2.0 and the Online Dispute Resolution (ODR) platform, the Investor Charter for IAs and RAs has been revised. The revised framework strengthens financial consumer protection by adopting G-20 and OECD principles, ensuring that investor rights evolve alongside efforts toward financial inclusion and financial literacy.
+A. Stock Exchanges: Stock exchanges in India are recognised under Section 4 of the Securities Contracts (Regulation) Act, 1956 (SCRA). As of
+simplified documentation through use of declarations, eased transition norms for corporatisation of IAs etc.
+Market Infrastructure Institutions (MIIs) in India- comprising of stock exchanges, clearing corporations, and depositories—provide the essential framework for the trading, clearing, settlement, and record-keeping of securities. By maintaining robust governance and adhering to international risk management standards, MIIs ensure the transparency, efficiency, and structural integrity of the financial market ecosystem.
+iii. Enabling IAs to provide second opinion to clients: As a measure of ease-of-doing- business and to provide investors the opportunity of obtaining a second opinion on assets under pre-existing distribution arrangement with other entity, IAs were permitted to charge assets under advice based fee and provide second opinion to their clients on investments held under pre-existing distribution arrangements with other entities.
+The Securities Contracts (Regulation) (Stock Exchanges and Clearing Corporations) Regulations, 2018 (SECC Regulations) govern the functioning of stock exchanges and clearing corporations, while the functioning of depositories is governed by the SEBI (Depositories and Participants) Regulations, 2018 (D&P Regulations), and various circulars issued thereunder.
+iv. Relaxation for Persons Associated with Research Services (PARS): In order to ease compliance requirements, a lighter NISM certification module “NISM Series- XXV-A: Persons Associated with Research Services (Sales and Other Non-Core Services) Certification Examination” has been specified for PARS.
+March 31, 2026, there were five permanently recognised stock exchanges (BSE, NSE, CSE, MCX, and NCDEX) in India. Among them, MCX and BSE have been listed since 2012 and 2017, respectively. Calcutta Stock Exchange (CSE) has applied for exit and the same is under process.
+As at end of March 2026, the shareholding of top 10 shareholders at BSE, NSE and MSEI stands at 20 per cent, 39 per cent and 25.5 per cent, respectively.
+B. Clearing Corporation: Clearing Corporations (CCs) perform essential market functions, including clearing, settlement, collateral management and risk management. As of March 31, 2026, India’s clearing infrastructure comprised four primary CCs- Indian Clearing Corporation Limited (ICCL), NSE Clearing Limited (NCL), National Commodity Clearing Limited (NCCL), and Multi Commodity Exchange Clearing Corporation Limited (MCXCCL) - all of which operate as wholly-owned subsidiaries of their parent exchanges. Additionally, AMC Repo Clearing Limited (ARCL) was incorporated in April 2021 with share capital contribution from AMCs based on their debt assets under
+SEBI renewed the MSEI’s recognition vide notification dated September 09, 2025, for one year to September 15, 2026. As of March 31, 2026, individual investors emerged as the largest shareholder group in NSE and MSEI, holding 24 per cent and 48.3 per cent of shares, respectively. In contrast, corporates held the majority stake in the BSE (39.2 per cent) and NCDEX (35.9 per cent).
+Meanwhile, mutual funds remained the dominant shareholders in MCX with a 34 per cent stake (Table 4.39)
+ii. ^Data for 2024-25 for NSE has been revised.
+C. Review of penalty framework: To enhance ease of doing business for members/participants of MIIs, the framework pertaining to request for review, appeal or waiver of penalty filed for actions taken against members of MIIs has been rationalized and standardised. For actions taken by the member committee (MC), the framework mandated MIIs to establish a first level appellate mechanism under their governing board, composed of PIDs and/or independent external professionals not forming part of the MC. The governing board shall issue the Standard Operating Procedures with regard to handling of such review, appeal or waiver of penalty requests, if any, emanating out of actions taken by the MC.
+A. Norms for internal audit mechanism and composition of audit committee of MIIs: To strengthen the governance mechanism at MIIs, norms for internal audit mechanism and composition of audit committee have been prescribed. Further, it was prescribed that the audit committee of the MIIs shall not consist of the Managing Director and Executive Directors. The KMPs shall have a right to be heard in the meetings of the audit committee when it considers the auditor‘s report but shall not have the right to vote.
+B. Revision in governance framework of MIIs: In order to further strengthen the governance framework of MIIs and pursuant to approval of the Board, the Securities Contracts (Regulation) (Stock Exchanges and Clearing Corporations) Regulations, 2018 and SEBI (Depositories and Participants) Regulations 2018 were suitably amended and operational guidelines were broadly prescribed with regard to process for appointment, re-appointment, termination or acceptance of resignation of specific KMPs of an MII, cooling-off period for directors and KMPs of an MII joining a competing MII and provisions relating to re-appointment of public interest directors.
+D. Provisions relating to strengthening governance of MIIs: Reflecting the securities market’s significant growth and the critical public interest role of MIIs, the SECC Regulations and D&P Regulations, 2018 were suitably amended and operational guidelines were issued regarding the roles and responsibilities of MD; directorship(s) of the MD in other companies; and appointment, roles and responsibilities of ED, CTO and CISO of the MIIs.
+NSE and BSE
+City
+2024-25
+2025-26
+The geographical distribution of the turnover 
+(based on broker terminal location) shows
+Mumbai / Thane
+61.0
+60.1
+Ahmedabad
+16.2
+16.5
+Kolkata
+1.6
+1.5
+Stock 
+Exchange
+2024-25
+2025-26
+Variation 
+(per cent)
+Hyderabad
+2.4
+1.3
+Rajkot
+0.6
+0.5
+Turnover (₹crore)
+Pune
+0.4
+0.5
+NSE
+2,81,27,848
+2,60,62,617
+ -7.3
+Chennai
+0.8
+0.4
+BSE
+ 19,33,907 
+ 19,63,647 
+ 1.5
+MSEI
+26
+98
+274
+Kanpur
+0.1
+0.2
+Total
+3,00,61,781
+2,80,26,362
+ -6.8
+Others
+11.4
+12.2
+All India Market Capitalisation (₹crore)
+Total
+100
+100
+All India
+4,13,75,586
+ 4,11,55,003
+-0.5
+2024-25*
+2025-26
+Trading Frequency 
+(Range of Days)
+BSE
+NSE
+BSE
+NSE
+D. 
+Trading 
+Frequency: 
+During 
+2025-26, 
+the 
+proportion of equity stocks trading for more 
+than 100 days saw diverging trends across 
+major exchanges. At NSE, this figure declined
+Above 100
+4,014
+2,441
+4270
+2,682
+91-100
+23
+15
+33
+25
+81-90
+40
+20
+37
+10
+51-60
+49
+16
+58
+22
+Total Turnover to GDP Ratio
+41-50
+52
+14
+50
+10
+Market 
+Capitalisation 
+to GDP Ratio 
+(All India)
+31-40
+51
+11
+47
+4
+Equity 
+Derivatives 
+Segment 
+(Premium)
+Year
+21-30
+52
+23
+44
+17
+Cash 
+Segment
+11-20
+37
+9
+44
+34
+1-10
+71
+68
+69
+83
+2024-25
+130.1
+94.5
+201.6
+Below 1
+427
+0
+393
+0
+2025-26
+118.8
+80.9
+169.0
+Total
+4,879
+2,650
+5,127
+2,928
+60
+Quantity Delivered 
+(as per cent of 
+Quantity Traded)
+Value Delivered 
+(as per cent of 
+Value Traded)
+40
+Clearing 
+Corporation
+20
+-
+2024-25
+2025-26
+2024-25
+2025-26
+-20
+NCL
+22.6
+30.2
+24.7
+30.9
+ICCL
+28.9
+25.7
+21.9
+15.0
+Insurance
+MFs
+New Pension Scheme
+Banks+ DFIs+ Others
+Total
+23.6
+29.3
+24.4
+27.4
+Particulars
+NSDL
+CDSL
+31-Mar-25
+31-Mar-26
+31-Mar-25
+31-Mar-26
+No. of Investor Accounts (lakh)
+395
+444
+1,530
+1,801
+No. of Listed Companies Signed up for Demat
+6,287*
+6,668
+6,657
+7,006
+Quantity of Listed Equity in Demat Form (crore)
+85,230
+1,01,756
+41,628
+46,357
+Value of Listed Equity in Demat Form (₹crore) 
+3,52,07,811
+3,47,78,796
+61,13,471
+63,93,060
+Across CDSL and NSDL
+No. of Unique Demat Accounts (lakh)
+31-Mar-25
+31-Mar-26
+1,043
+1,218
+Reason for Suspension
+BSE
+NSE
+MSEI
+2024-25*
+2025-26
+2024-25
+2025-26
+2024-25*
+2025-26
+Non-Payment of Annual Fees
+28
+8
+3#
+0
+22
+0
+Surveillance Measures
+0
+0
+0
+0
+0
+0
+Non-Compliance of LODR Regulations (Corporate 
+Governance Related) [Regulation 17(1), 18(1), 27(2)]
+3
+3
+3
+0
+0
+0
+Any Other (Reg. 31, 33, 34 and Reg. 76 of SEBI 
+(Depositories and Participant) Regulation, 2018
+29
+26
+7
+8
+0
+1
+Procedural
+30
+23
+27
+25
+0
+0
+Total
+90
+60
+40
+33
+22
+1
+Suspensions Revoked during the Year
+89
+72
+4
+2
+10
+5
+Reason for Delisting
+BSE
+NSE
+MSEI
+2024-25*
+2025-26
+2024-25
+2025-26
+2024-25
+2025-26
+Voluntary Delisting
+10
+12
+5
+10
+3
+3
+Compulsory Delisting
+67
+31
+5^
+3
+0
+2
+Delisting Pursuant to Liquidation 
+0
+0
+0
+0
+1
+0
+Any Other (Procedural Delisting) 
+9
+17
+1
+0
+0
+3
+Total
+86
+60
+11
+13
+4
+8
+Category
+BSE^
+NSE^
+Total
+2024-25
+2025-26
+2024-25
+2025-26
+2024-25
+2025-26
+Proprietary Traders
+37.3
+36.6
+29.2
+30.9
+29.7
+31.3
+Domestic Institutions*
+2.2
+3.0
+2.3
+2.8
+2.3
+2.8
+FPIs
+5.6
+7.6
+14.6
+14.3
+14.0
+13.8
+Mutual Funds
+3.1
+6.9
+9.1
+10.1
+8.7
+9.9
+Corporates
+6.1
+4.7
+4.6
+3.7
+4.7
+3.7
+Others**
+45.7
+41.2
+40.2
+38.2
+40.5
+38.4
+Total
+100
+100
+100
+100
+100
+100
+Mode of Trading
+BSE
+NSE*
+Total
+2024-25
+2025-26
+2024-25
+2025-26
+2024-25
+2025-26
+Co-location
+ 39.6 
+ 30.3 
+36.5
+39.4
+ 36.7 
+ 38.7
+Mobile
+ 24.9 
+ 24.7 
+20.7
+21.4
+ 20.9 
+ 21.7
+Non-Algo
+ 20.1 
+ 18.2 
+14.3
+12.3
+ 14.7 
+ 12.7
+Internet Based Trading
+ 7.9 
+ 7.2 
+7.8
+7.6
+ 7.8 
+ 7.6
+Algorithmic Trading
+ 4.7 
+ 15.3 
+13.2
+12.5
+ 12.6 
+ 12.7
+Direct Market Access 
+ 0.4 
+ 1.4 
+6.8
+4.8
+ 6.4 
+ 4.6
+Smart Order Routing
+ 1.7 
+ 2.5 
+0.7
+2.0
+ 0.8 
+ 2.0
+FOW-NOW
+ 0.7 
+ 0.4 
+-
+-
+ 0.0 
+ 0.0
+Total
+ 100 
+ 100
+ 100 
+ 100 
+ 100 
+ 100
+Percentage share 
+in Gross Turnover
+Percentage share in the
+Total Clients (as on)
+Exchange
+2024-25
+2025-26
+March 31, 
+2025
+March 31, 
+2026
+BSE
+54.9*
+53.2
+32.3*
+32.7
+NSE
+41.5
+41.6
+48.3
+51.5
+Particulars
+BSE
+NSE
+Total
+2024-25*
+2025-26
+2024-25
+2025-26
+2024-25
+2025-26
+Share of Top-100 Brokers in 
+Annual Cash Market Turnover 
+90.3
+91.2
+90.5
+91.0
+90.5
+91.0
+Share of Top-100 Scrips/Securities 
+in Annual Cash Market Turnover 
+43.6
+44.5
+51.0
+49.1
+50.5
+48.8
+Settled through Clearing Corporations*
+Off-market Transfer**
+Listed Corporate 
+Bonds
+Unlisted Corporate 
+Bonds
+Listed Corporate 
+Bonds
+Unlisted Corporate 
+Bonds
+Period
+No. of 
+Trades 
+Settled
+No. of 
+Trades 
+Settled
+No. of 
+Trades 
+Settled
+No. of 
+Trades 
+Settled
+Amount
+(₹crore)
+Amount
+(₹crore)
+Amount
+(₹crore)
+Amount
+(₹crore)
+2024-25
+11,00,916
+15,52,176
+32,239
+1,03,807
+23,456
+11,827
+34,211
+42,122
+2025-26
+26,83,066
+18,96,164
+74,319
+2,21,690
+34,162
+32,023
+50,307
+57,270
+No. of 
+Participants 
+Registered 
+During the 
+Year
+Total no. of 
+Responses to 
+the RFQs
+No. of 
+Participants
+No. of Unique 
+Participants*
+Total no. of 
+RFQs Initiated
+Number of 
+Trades
+Traded Value 
+(₹crore)
+Period
+2024-25
+182
+2,04,507
+595
+3,13,656
+3,01,949
+2,76,467
+5,29,147
+2025-26
+230
+15,86,311
+657
+18,42,362
+18,38,008
+17,84,184
+7,31,818
+Amount (₹ lakh crore)
+Percentage Share
+Category
+BSE
+NSE*
+BSE
+NSE*
+2024-25
+2025-26
+2024-25
+2025-26
+2024-25
+2025-26
+2024-25
+2025-26
+Mutual Funds
+0.2
+0.1
+8.4
+11.3
+6.1
+2.2
+29.0
+32.1
+Banks
+0.2
+0.1
+6.1
+6.6
+4.6
+0.9
+21.1
+18.7
+Insurance Companies
+0.1
+0.0
+2.5
+3.0
+2.7
+0.5
+8.7
+8.5
+Trading Members
+0.7
+1.3
+1.8
+2.2
+18.3
+21.4
+6.1
+6.1
+Corporates
+0.9
+1.6
+2.9
+3.3
+23.9
+26.0
+9.8
+9.4
+Primary Dealers
+0.0
+0.0
+1.7
+1.8
+1.2
+0.6
+5.8
+5.2
+FPIs
+0.0
+0.0
+1.7
+2.0
+0.7
+0.2
+5.9
+5.6
+Domestic Financial 
+Institutions (Other than 
+MFs, Insurance, Banks)
+1.0
+1.8
+2.5
+3.1
+24.5
+29.9
+8.5
+8.7
+Others
+0.7
+1.1
+1.4
+2.0
+18.1
+18.3
+5.0
+5.7
+Total
+3.9
+6.1
+29.0
+35.2
+100
+100
+100
+100
+Contracts
+Parameter
+BSE
+NSE
+2024-25
+2025-26
+2024-25
+2025-26
+Options
+Index
+ 3,055 
+ 2,816 
+ 10,091 
+ 3,469
+Stock
+ 0.0 
+ 0.0 
+ 175 
+ 175
+No of Contracts Traded 
+(in crore)
+Futures
+Index
+ 0.1 
+ 0.1 
+ 12 
+ 4
+Stock
+ 0.0 
+ 0.0 
+ 52 
+ 48
+Notional Turnover 
+(₹ Lakh crore)
+Options
+Index
+ 27,556 
+ 46,227 
+ 76,586 
+ 62,574
+Stock
+ 0.0 
+ 0.0 
+ 1,311 
+ 1,222
+Premium Turnover 
+(₹ lakh crore)
+Options
+Index
+ 22.4 
+ 48.2 
+ 136 
+ 125
+Stock
+ 0.0 
+ 0.0 
+ 20 
+ 18
+Turnover 
+(₹ lakh crore)
+Futures
+Index
+ 0.5 
+ 0.8 
+ 88 
+ 73
+Stock
+ 0.0 
+ 0.0 
+ 375 
+ 320
+No. of Contracts 
+Outstanding (in lakh)
+18.1
+15.3
+15.3
+149
+Open Interest at the 
+End of the Year
+Value (₹ lakh crore)
+2.8
+2.2
+2.2
+13
+Index/Stock Futures
+Index/Stock Options
+Year
+Total
+MTM 
+Settlement
+Final 
+Settlement
+Premium 
+Settlement
+Exercise 
+Settlement
+2024-25
+5,20,012
+5,150
+1,97,639
+45,424
+7,68,225
+2025-26
+5,40,896
+5,044
+1,56,664
+27,013
+7,29,617
+70
+Percentage Share 
+in Gross / Notional 
+Turnover
+Percentage 
+Share of the 
+Total Clients
+63.6
+60.0
+60
+Exchange
+50
+2024-25
+2025-26
+31-Mar-25 31-Mar-26
+40
+33.2
+NSE
+ 64.0 
+ 65.9 
+ 40.2 
+ 41.2
+28.6
+30
+BSE
+75.1
+69.0
+43.6
+72.7
+20
+Particulars
+2024-25
+2025-26
+Variation 
+(per cent)
+Annualised Volatility 
+(per cent)
+MCX iCOMDEX Composite
+15,483
+24,218
+56.4
+30.2
+MCX iCOMDEX Bullion
+21,375
+36,173
+69.2
+35.2
+MCX iCOMDEX Metal
+17,840
+21,153
+18.6
+18.5
+MCX iCOMDEX Energy
+5,755
+8,395
+45.9
+41.7
+Exchanges
+No. of Permitted
+Commodities
+No. of Commodities
+available for trading
+No. of traded commodities
+during 2025-26
+Non-Agri
+Agri
+Non-Agri
+Agri
+Non-Agri
+Agri
+MCX
+13
+5
+13
+5
+14
+4
+BSE
+7
+0
+7
+0
+0
+0
+NCDEX
+1
+19
+1
+19
+0
+11
+NSE
+10
+0
+10
+0
+5
+0
+Change 
+year-on-
+year
+(per cent)
+Particulars
+2024-25
+2025-26
+All-India Total Turnover (₹crore)
+Futures
+71,41,361
+1,66,43,000
+133.1
+Options (notional)
+5,08,30,600 12,21,68,457
+140.3
+Options (premium)
+8,12,439
+16,83,116
+107.2
+MCX
+Futures
+70,05,485
+1,64,88,278
+135.4
+Options (notional)
+4,95,12,692 12,07,40,086
+143.9
+Options (premium)
+8,07,693
+16,72,788
+107.1
+Domestic 
+Financial 
+Institutional 
+Investors
+Segment
+Year
+FPOs/ 
+Farmers
+VCPs/ 
+Hedgers
+Proprietary 
+traders
+Foreign 
+Participants
+Others
+Agri
+2024-25
+0.2
+12.9
+26.7
+0.0
+0.0
+60.3
+2025-26
+0.3
+12.9
+32.0
+0.3
+0.0
+54.5
+Non-Agri
+2024-25
+0.0
+1.4
+55.3
+0.1
+1.8
+41.5
+2025-26
+0.0
+1.2
+57.0
+0.1
+2.2
+39.5
+No. of 
+Applications 
+Approved
+Median Time Taken for 
+Approval 
+(No. of Working Days)
+Sr. 
+No.
+Contract Type
+Contract Name
+Applicant 
+Exchange
+Brent Crude Oil Futures 
+contract
+NSE
+1
+Commodity 
+Futures 
+Contracts
+5
+14.0
+Indian Natural Gas
+NSE
+Gold 10 grams Futures 
+Contract
+NSE
+Electricity Futures
+NSE and MCX
+2
+Options on 
+Futures 
+Contract
+Futures with Silver Micro (1 kg)
+MCX
+2
+9.5
+Bullion Index
+MCX
+Particulars
+Total No. of 
+Registered 
+Warehouses
+No. of Warehouse 
+Service Providers
+Capacity of 
+Warehouses (MT)
+Capacity Utilised 
+(MT)
+Percentage of 
+Capacity Utilised
+MCX
+Agri
+10
+2
+9,750
+230
+2.4
+Bullion
+10
+4
+29,375
+11,482
+39.1
+Metal
+14
+2
+53,758
+29,414
+54.7
+BSE
+Agri
+0
+0
+0
+0
+0.0
+Metal
+0
+0
+0
+0
+0.0
+NCDEX
+Agri
+110
+7
+2,60,193
+1,13,286
+43.5
+Metal
+1
+1
+1,166
+0
+0.0
+NSE
+Bullion
+1
+1
+100
+0
+0.0
+Metal
+3
+1
+1,450
+0
+0.0
+No. of Contracts 
+Traded (Lakh)
+Turnover 
+(₹crore)
+A. 
+Market 
+Concentration: 
+During 
+2025-26, 
+NSE further increased its dominance in the 
+currency derivatives segment, with its market 
+share rising to 99.5 per cent from 94.3 per 
+cent in the previous year. Within this segment, 
+the share of futures in total notional turnover 
+increased significantly to 98.8 per cent, up 
+from 89.3 per cent in 2024-25. Furthermore, 
+trading remained highly skewed with 95.2 per 
+cent of the total turnover concentrated in USD-
+INR futures contracts (Table 4.27).
+Exchange
+2024-25
+2025-26
+2024-25
+2025-26
+BSE
+47
+0
+39,304
+0
+MSEI
+63 
+5 
+54,103
+4,600
+NSE
+1,829
+997
+ 13,75,014 8,81,862
+Total
+1,939
+1,002
+14,68,421
+8,86,462
+Type
+Currency Pair
+Exchanges
+A. 
+Settlement: 
+During 
+2025-26, 
+currency 
+options and currency futures recorded significant 
+declines in settled trades. The currency options 
+fell by 92.8 per cent while futures also fell by 
+23.4 per cent, over the previous year. As a 
+result, the total value of settled trades for both 
+currency options and futures declined by 25.7 
+per cent. The value reached ₹7,742 crore, down 
+from ₹10,426 crore recorded during 2024-25. 
+This trend follows a 60 per cent decline already 
+witnessed during 2024-25 (Table 4.26).
+2024-25
+2025-26
+USD-INR
+86.3
+95.2
+EURO-INR
+1.1
+1.7
+Futures
+GBP-INR
+1.6
+1.8
+Others
+0.4
+0.2
+USD-INR
+10.7
+1.2
+EURO-INR
+0.0
+0.0
+Options
+GBP-INR
+0.0
+0.0
+Others
+0.0
+0.0
+Total
+100
+100
+Currency Futures
+Currency Options
+Year
+Total
+MTM 
+Settlement
+Final 
+Settlement
+Premium 
+Settlement
+Exercise 
+Settlement
+2024-25
+9,574
+495
+310
+47
+10,426
+2025-26
+ 7,566 
+ 150 
+ 15 
+ 11 
+ 7,742
+Exchanges 
+(NSE, BSE and MSEI)
+4.6.2  Market Activity and Trends Observed
+Category
+During 2025-26, the aggregate turnover in IRD 
+segment fell by 23.4 per cent to ₹19,379 crore. 
+This contraction follows a significant 56.6 per 
+cent decline witnessed in the previous year. As a 
+consequence, the open interest in this segment also 
+came down from ₹830 crore in 2024-25 to ₹736 
+crore at the end of 2025-26 (Table 4.29).
+2024-25
+2025-26
+Proprietary Trades
+73.3
+56.2
+FPIs
+7.4
+15.8
+Banks
+1.7
+2.8
+Corporates
+8.1
+15.4
+Others
+9.6
+9.8
+Total
+100
+100
+A. 
+Settlement: During 2025-26, the MTM settlement 
+in interest rate futures rose by 6 per cent, 
+reaching ₹353 crore compared to ₹333 crore in 
+the previous year. Although the final settlement 
+saw a slight contraction of 3.3 per cent, falling 
+to ₹12.7 crore, the overall settlement amount 
+grew by 5.6 per cent to ₹365 crore during the 
+same period (Table 4.30).
+Year
+Index/Stock Futures
+Total
+MTM 
+Settlement
+Final 
+Settlement
+4.6.1  Policy Developments
+2024-25
+333
+13.1
+346
+No specific policy development w.r.t. IRD was 
+initiated during 2025-26. However, the overall 
+policy developments for various products traded in
+2025-26
+353
+12.7
+365
+Exchange
+No. of Contracts Traded 
+(Lakh)
+Turnover 
+(₹crore)
+Open Interest at the End of 
+Year (₹crore)
+2024-25
+2025-26
+2024-25
+2025-26
+2024-25
+2025-26
+NSE
+ 12 
+ 10 
+ 25,307 
+ 19,379 
+ 830 
+ 736
+Cancel-
+lation/ 
+Surren-
+der of 
+Mem-
+berships
+Brokers 
+as on 
+March 
+31, 2026
+Net 
+Addition 
+during 
+the Year
+BSE
+1227
+39
+21
+1245
+18
+NSE
+1,213
+39
+19
+1233
+20
+MSEI
+291
+49
+8
+332
+41
+Equity Derivatives
+4.7 INTERMEDIARIES ASSOCIATED
+BSE
+932
+48
+12
+968
+36
+NSE
+1148
+39
+23
+1164
+16
+According to section 12(1) of the SEBI Act, 1992, no 
+intermediary associated with the securities market 
+shall buy, sell, or deal in securities except under and 
+in accordance with the certificate of registration 
+obtained from the board in accordance with 
+regulations made under the SEBI Act.
+MSEI
+269
+47
+7
+309
+40
+Currency Derivatives
+BSE
+547
+7
+16
+538
+-9
+NSE
+727
+12
+55
+684
+-43
+MSEI
+460
+22
+12
+470
+10
+Debt
+4.7.1  Stock Brokers
+BSE
+295
+12
+4
+303
+8
+Since 1992, the certificates of registration to brokers 
+were being granted under the SEBI (Stock Brokers) 
+Regulations, 1992. However, due to dynamic and 
+evolving nature of stock broking business and as 
+announced in the Union Budget for 2023-24 to carry 
+out a comprehensive review of existing regulations, 
+the SEBI (Stock Broker) Regulations, 1992 were 
+replaced with SEBI (Stock Brokers) Regulations, 
+2026.
+NSE
+284
+23
+10
+297
+13
+MSEI
+13
+15
+1
+27
+14
+Commodity Derivatives
+BSE
+295
+10
+2
+303
+8
+NSE
+378
+31
+4
+405
+27
+MCX
+545*
+58#
+19
+584
+39
+NCDEX
+225
+10
+19
+216
+-9
+Brokers 
+as on 
+March 
+31, 2025
+Addition 
+during 
+the Year 
+2025-26
+Category
+2024-25
+2025-26
+Stock 
+Exchange
+Proprietary Trades
+10.6
+36.2
+Corporate
+72.7
+56.3
+Insurance Companies
+0.0
+0.1
+FPIs
+0.2
+0.5
+Cash Segment
+Banks
+0.0
+0.0
+Others
+16.5
+6.9
+Stock 
+Exchange
+Total 
+No. of 
+Stock 
+Brokers
+Number
+Percentage Share
+Propri-
+etorship
+Part-
+nership
+Corpo-
+rate
+LLP
+Others 
+(if any)
+Propri-
+etor-
+ship
+Part-
+nership
+Corpo-
+rate
+LLP
+Others 
+(if any)
+Cash Segment
+BSE
+1245
+96
+32
+1078
+39
+0
+7.7
+2.6
+86.6
+3.1
+0.0
+NSE
+1233
+38
+42
+1110
+43
+0
+3.1
+3.4
+90.0
+3.5
+0.0
+MSEI
+332
+13
+7
+304
+8
+0
+3.9
+2.1
+91.6
+2.4
+0.0
+Equity Derivatives
+BSE
+968
+27
+18
+887
+36
+0
+2.8
+1.9
+91.6
+3.7
+0.0
+NSE
+1164
+31
+39
+1046
+48
+0
+2.7
+3.4
+89.9
+4.1
+0.0
+MSEI
+309
+12
+7
+285
+5
+0
+3.9
+2.3
+92.2
+1.6
+0.0
+Currency Derivatives
+BSE
+538
+7
+6
+492
+13
+20
+1.3
+1.1
+91.4
+2.4
+3.7
+NSE
+684
+8
+13
+647
+16
+0
+1.2
+1.9
+94.6
+2.3
+0.0
+MSEI
+470
+23
+16
+427
+4
+0
+4.9
+3.4
+90.9
+0.9
+0.0
+Debt
+BSE
+303
+4
+1
+291
+4
+3
+1.3
+0.3
+96.0
+1.3
+1.0
+NSE
+297
+3
+3
+290
+1
+0
+1.0
+1.0
+97.6
+0.3
+0.0
+MSEI
+27
+0
+0
+27
+0
+0
+0.0
+0.0
+100.0
+0.0
+0.0
+Commodity Derivatives
+MCX
+584
+12
+26
+532
+14
+0
+2.1
+4.5
+91.1
+2.4
+0.0
+NCDEX
+216
+4
+11
+199
+2
+0
+1.9
+5.1
+92.1
+0.9
+0.0
+NSE
+405
+4
+11
+376
+14
+0
+1.0
+2.7
+92.8
+3.5
+0.0
+BSE
+303
+2
+5
+286
+10
+0
+0.7
+1.7
+94.4
+3.3
+0.0
+Registered 
+Clearing 
+Members as of 
+March 31, 2026
+Clearing 
+Members as of 
+March 31, 2025
+Cancellation/ 
+Surrender of 
+Memberships
+Clearing 
+Corporations
+Addition during 
+2025-26
+Net Addition 
+during the Year
+Cash Segment
+ICCL
+1,245
+12
+20
+1,237
+-8
+NCL
+1,066
+20
+32
+1,054
+-12
+Equity Derivatives
+ICCL
+202
+13
+1
+214
+12
+NCL
+628
+28
+13
+643
+15
+Currency Derivatives
+ICCL
+115
+2
+4
+113
+-2
+NCL
+276
+7
+14
+269
+-7
+Debt
+ICCL
+55
+7
+1
+61
+6
+NCL
+122
+9
+4
+127
+5
+Commodity Derivatives
+MCXCCL
+220
+29
+23
+226
+6
+NCCL
+106
+6
+5
+107
+1
+NCL
+97
+29
+-
+126
+29
+ICCL
+40
+2
+2
+40
+0
+Number
+Percentage Share
+Total No. 
+of Clearing 
+Members
+Clearing 
+Corporations
+Propri-
+etor-ship
+Part-
+ner-ship
+Corpo-
+rate
+LLP
+Others 
+(if any)
+Propri-
+etor-ship
+Part-
+ner-ship
+Corpo-
+rate
+LLP
+Others 
+(if any)
+Cash Segment
+ICCL
+1,237
+127
+27
+1,055
+28
+-
+10.3
+2.2
+85.3
+2.3
+-
+NCL
+1,054
+32
+27
+963
+25
+7
+3.0
+2.6
+91.4
+2.4
+0.7
+Equity Derivatives
+ICCL
+214
+1
+1
+206
+6
+-
+0.5
+0.5
+96.3
+2.8
+-
+NCL
+643
+9
+9
+593
+19
+13
+1.4
+1.4
+92.2
+3.0
+2.0
+Currency Derivatives
+ICCL
+113
+1
+2
+110
+-
+-
+0.9
+1.8
+97.3
+-
+-
+NCL
+269
+1
+1
+238
+6
+23
+0.4
+0.4
+88.5
+2.2
+8.6
+Debt
+ICCL
+61
+-
+-
+61
+-
+-
+-
+-
+100.0
+-
+-
+NCL
+127
+-
+-
+119
+-
+8
+-
+-
+93.7
+-
+6.3
+Commodities Derivatives
+MCXCCL
+226
+3
+4
+211
+8
+-
+1.3
+1.8
+93.4
+3.5
+-
+NCCL
+107
+3
+4
+99
+1
+2.8
+3.7
+92.5
+0.9
+-
+NCL
+126
+1
+1
+114
+7
+3
+0.8
+0.8
+90.5
+5.6
+2.4
+ICCL
+40
+1
+-
+39
+-
+-
+2.5
+-
+97.5
+-
+-
+Registered 
+Depository 
+Participants as on 
+March 31, 2025
+Cancellations / 
+Surrender of 
+Memberships 
+during 2025-26
+Registered 
+Depository 
+Participants as on 
+March 31, 2026
+Addition during 
+2025-26
+Net Addition 
+during the year
+Depository
+NSDL
+294
+22
+5
+294
+17
+CDSL
+574
+25
+14
+585
+11
+Registered 
+Intermediaries 
+as on March 31, 
+2025
+Registered 
+Intermediaries 
+as on March 31, 
+2026
+New 
+Registrations 
+during 2025-26
+Cancellations/
+Surrender 
+during 2025-26
+Pending as on 
+March 31, 2026
+Type of Intermediary
+KRA
+5
+1
+0
+0
+6
+RTA
+77
+5
+2
+7
+80
+Stock Brokers
+4,744
+56
+79
+4
+4,721
+Depository Participants
+850*
+41
+4
+2
+887
+Investment Advisors
+931
+329
+279
+43
+981
+Research Analyst
+1,577
+514
+265
+130
+1,826
+During 2025-26
+Balance 
+Carried 
+Forward 
+from March 
+31, 2025
+Median Time 
+for Processing 
+Applications (in 
+working days) 
+2025-26
+Pending as 
+on March 31, 
+2026
+Applications 
+Rejected / 
+Returned / 
+Withdrawn
+Type of Intermediary
+Application 
+Received
+Registration 
+Granted
+RTA
+2
+16
+6
+2
+7
+48
+Stock Brokers
+5
+83
+82
+2
+4
+22
+Depository Participants
+0*
+57
+55
+0
+2
+15
+Investment Advisors
+26
+298
+329
+9
+43
+15
+Research Analyst
+99
+852
+514
+25
+130
+15
+BSE
+NSE^
+MSEI
+MCX*
+NCDEX*
+Category
+31-
+Mar-25
+31-
+Mar-26
+31-
+Mar-25
+31-
+Mar-26
+31-
+Mar-25
+31-
+Mar-26
+31-
+Mar-25
+31-
+Mar-26
+31-
+Mar-25
+31-
+Mar-26
+Foreign Shareholding (A)
+23.0
+23.3
+29.3
+28.1
+4.2
+3.4
+22.9
+27.0
+0.8
+6.6
+FDI
+-
+-
+21.7
+20.35
+-
+-
+-
+-
+-
+-
+FPI
+18.3
+19.42
+6.3
+6.3
+-
+-
+21.8
+26.1
+-
+-
+Others
+4.8
+3.84
+1.2
+1.43
+4.2
+3.4
+1.0
+0.9
+0.8
+6.59
+Domestic Shareholding (B)
+77.0
+76.7
+70.8
+71.9
+95.8
+96.6
+77.2
+73.0
+99.2
+93.4
+Banks
+0.1
+0.08
+4.7
+4.57
+10.8
+5.9
+15.0
+15.1
+13.32
+7.53
+Insurance Companies
+11.0
+11.88
+19.4
+19.34
+-
+-
+0.0
+-
+11.1
+8.64
+Mutual Funds
+10.6
+12.52
+-
+-
+-
+-
+35.6
+34.0
+-
+-
+Pension Funds
+-
+0.18
+-
+-
+-
+-
+0.0
+-
+-
+-
+Domestic Financial Institutions 
+(Other than Mutual Funds, 
+Banks, Insurance and Pension 
+Funds)
+0.5
+0.42
+5.3
+5.44
+-
+1.8
+7.5
+5.3
+11.1
+7.28
+Corporates
+41.1
+39.17
+18.3
+16.91
+34.2
+37.0
+2.5
+2.3
+39.3
+35.86
+Individuals
+11.6
+10.44
+21.4
+23.96
+46.0
+48.3
+16.3
+16.2
+23.2
+25.7
+Others^
+2.1
+2.04
+1.7
+1.7
+4.8
+3.6
+0.2
+0.2
+1.2
+8.4
+Total (Foreign + Domestic)
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+Clearing Corporation
+Parent Exchange
+Indian Clearing Corporation Limited
+Bombay Stock Exchange
+NSE Clearing Limited
+National Stock Exchange
+National Commodity Clearing Limited
+National Commodity and Derivative Exchange
+Multi Commodity Exchange Clearing Corporation Limited
+Multi Commodity Exchange
+AMC Repo Clearing Limited
+AMCs in proportion to their respective assets under 
+management for open-ended debt-oriented mutual fund 
+schemes
+management. ARCL was recognized as a LPCC 
+by SEBI in January 2022 (Table 4.40).
+operational link between the depositories 
+and the investors. As of March 31, 2026, the 
+shareholding structure at CDSL remained 
+stable with domestic and foreign holdings at 
+86.2 per cent and 13.8 per cent, respectively. 
+In contrast, NSDL’s shareholding structure 
+shifted significantly as foreign ownership rose 
+to 15.1 per cent, reducing domestic shareholding 
+to 84.9 per cent. Among domestic shareholders, 
+individuals remained the largest shareholders 
+in CDSL at 54.1 per cent, whereas banks held the 
+largest stake in NSDL at 30.4 per cent, followed 
+by individuals at 28 per cent (Table 4.41).
+C. 
+Depositories: NSDL and CDSL serve as the two 
+principal central securities depositories within 
+India’s capital market infrastructure. Their core 
+mandate is the custody and maintenance of 
+financial instruments in a dematerialised 
+format, ensuring security, efficiency, and 
+seamless accessibility for beneficiary owners. 
+These depositories operate through a network of 
+authorised intermediaries known as Depository 
+Participants (DPs), who act as the primary
+Category
+CDSL
+NSDL
+31-Mar-25
+31-Mar-26
+31-Mar-25
+31-Mar-26
+Foreign Shareholding
+ 13.8 
+ 13.8 
+0.0
+15.1
+- FDI
+ - 
+ - 
+-
+- FPI
+ 11.3 
+ 11.4 
+-
+3.2
+- Others
+ 2.5 
+ 2.5 
+0.0
+11.9
+Domestic Shareholding
+ 86.2
+ 86.2
+100.0
+84.9
+- Banks
+ 0.0 
+0.1 
+59.3
+30.4
+- Insurance Companies
+ 8.1 
+7.7 
+1.4
+1.6
+- Domestic Financial Institutions (Other than Banks 
+and Corporates) (including MFs, NBFCs, AIFs)
+7.3
+6.6
+7.5
+5.6
+- Individuals
+ 53.1
+ 54.1 
+3.8
+28.0
+- Corporates
+ 17.5
+ 17.2
+27.8
+17.9
+- Others
+ 0.3 
+ 0.5 
+0.2
+1.3
+Total (Foreign + Domestic)
+ 100 
+ 100 
+100
+100

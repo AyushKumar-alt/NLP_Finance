@@ -1,0 +1,249 @@
+INFLATION: TAMED AND ANCHORED
+This chapter provides a comprehensive analysis of recent trends in global and domestic inflation, with a particular focus on the period up to December 2025. Globally, inflation has moderated significantly from its post-pandemic highs, with advanced economies stabilising at 2–3 per cent and emerging markets, including India, experiencing a notable decrease in the rate of inflation. The moderation is attributed to easing commodity prices, particularly in food and energy, as well as responsive monetary policies by central banks. India stands out for achieving a sharp decline in headline inflation, alongside robust GDP growth, reflecting strong macroeconomic fundamentals and effective monetary policy.
+Domestically, retail inflation (CPI) has followed a clear downward trajectory, reaching 1.7 per cent in 2025–26, driven primarily by a steep decline in food prices—especially vegetables, pulses, and spices—supported by favourable agricultural conditions and timely policy interventions. Core inflation, while appearing sticky, is shown to be largely influenced by surges in precious metals; when these are excluded, underlying inflationary pressures are more subdued. The analysis highlights the critical role of government interventions in stabilising food and edible oil prices.
+The chapter also explores sectoral price dynamics, noting a long-term decline in the terms of trade for manufacturing relative to agriculture, which has implications for resource allocation and investment. On the other hand, regional inflation patterns reveal greater volatility in rural areas due to higher food weights in consumption baskets. However, overall, state-level inflation outcomes have converged within the Reserve Bank of India's tolerance band, with few exceptions. The Chapter also examines the drivers of divergence in state-level inflation experiences.
+Looking ahead, the outlook remains favourable, with projections of inflation staying within target ranges, supported by strong agricultural output, stable global commodity prices, and continued policy vigilance. However, risks from currency fluctuations, base metal price surges and global uncertainties persist, warranting ongoing monitoring and adaptive policy responses.
+5.1. The world has seen a broad-based and sustained moderation in inflation across advanced, emerging, and developing economies this year. The global headline inflation (Chart V. 1) has declined from a peak of 8.7 per cent in calendar year (CY) 2022 to 4.2 per cent in CY 2025. Following the post-pandemic surge to 7.3 per cent, inflation rates have stabilised in the range of 2-3 per cent in advanced economies (AEs), while they have moderated in emerging market and developing economies (EMDEs) to 5.3 per cent from an elevated level of 9.7 per cent. According to IMF records, for the comparable period, India recorded an inflation rate of 2.8 per cent, while China continued to experience price stagnation.
+5.2. In the United States, headline inflation declined from 3.0 per cent in 2024 to 2.7 per cent in 2025, driven largely by moderating core services inflation, along with continued negative inflation in major commodity prices. However, inflationary pressures may resurface in the US, with the eventual pass-through of increased tariffs to the final consumers and monetary easing by the Fed. Similarly, the Euro region experienced a slight moderation in its headline inflation, which declined from 2.3 per cent to 2.1 per cent this year, driven largely by easing energy and food prices, despite the Russia- Ukraine war raging in Europe. On the other hand, headline inflation in the United Kingdom rose to 3.4 per cent compared to 2.5 per cent in 2024, due to high service inflation, as well as pressure from persistent policy rate cuts. Another outlier, Japan, saw a structural shift away from chronic low inflation/deflation toward sustained, wage‑driven inflation, with its headline inflation rising from 2.7 per cent in 2024 to 3.3 per cent in 2025, associated with a weakening of its currency, resulting in higher import prices for Japanese staple rice and moderate services inflation.
+Monetary Policy responses of global central banks
+5.3. In response to easing or moderate inflationary pressures and considering the domestic growth pangs, central banks in AEs have continued to reduce policy rates during the current year, with cumulative cuts ranging from 75 to 100 basis points in the UK, the Euro Area, and the United States.1 The Reserve Bank of India, during the same period, reduced the policy rate by 125 basis points. The Bank of Japan (BoJ), which ended its negative interest rate regime in 2024, remained an outlier among major economies by increasing its policy rate by 50 basis points in response to its rising inflation.
+Drivers of Global Inflation
+5.4. Global inflationary pressures could be contained as there was a general decline in oil and food prices alongside easing inflation in key commodities (Chart V.2). Following the decline in previous years, food prices remained relatively stable in the first half of 2025, before dipping into the negative terrain by October 2025. Oil prices have decreased by more than 20 per cent compared to the start of the Calendar Year, with inflation remaining in the negative zone throughout the year.
+5.5. Global prices of key metals (Chart V. 3), such as aluminium and copper, declined in the first half of 2025 but recovered slowly in the second half of the year. Recently, copper prices have been surging due to Data Centre/AI demands, as well as tight supplies. For many months, iron remained in the deflationary zone. The subdued inflation in these critical commodities has contributed to reduced input costs in several industrial goods.
+Growth-Inflation Trade-off in EMDEs
+5.6. While economic growth in a majority of EMDEs remained below the EMDE average of 4.2 per cent, inflation outcomes varied widely across countries (Chart V. 4). In Brazil, headline inflation rose steadily from 4.4 per cent in 2024 to 5.2 per cent in 2025, before easing in subsequent months as service inflation moderated. Russia experienced subdued GDP growth alongside persistently high inflation, reflecting the ongoing conflict in Ukraine and related trade sanctions. In contrast, inflation moderated in several major Southeast Asian economies, including Malaysia, Indonesia, and the Philippines, supported by lower imported commodity costs. Notably, China experienced significant deflation during the year, driven by weak domestic demand, export pressures arising from tariff regimes, and excess capacity in several manufacturing industries, which kept producer prices in negative territory.
+5.7. Among major EMDEs, India has recorded one of the sharpest declines in headline inflation, amounting to about 1.8 percentage points (Chart V. 5). Importantly, this disinflation has occurred alongside robust GDP growth of 8 per cent in the H1 of FY26, underscoring India’s strong macroeconomic fundamentals and its ability to sustain growth while effectively managing price pressures, or in other words, without overheating. While upgrading India’s sovereign rating, global rating agencies have also acknowledged the credibility and effectiveness of India's inflation management. For instance, S&P observed that “Monetary policy reform to switch to inflation targeting has reaped dividends. Inflationary expectations are better anchored than they were a decade ago. Between 2008 and 2014, India's inflation reached double-digits on numerous occasions. In the past three years, despite volatility in global energy prices and supply-side shocks, CPI growth averaged 5.5 per cent. In recent months, it stayed at the lower bound of the Reserve Bank of India's (RBI) target range of 2-6 per cent. These developments, coupled with a deep domestic capital market, reflect a more stable and supportive environment for monetary settings.”
+5.8. Over the past four years, average retail inflation, as measured by the Consumer Price Index (CPI), has followed a clear downward trajectory (Chart V.6), declining steadily from 6.7 per cent in the financial year (FY) 2022–23 to 1.7 per cent in 2025–26 (up to December). The pace of disinflation was particularly pronounced in the current year, given that inflation was at 4.6 per cent in 2024–25. In fact, April-December 2025 marked the lowest average inflation rate in the current CPI series. The factory-gate basic
+Sustained moderation in retail inflation
+price for producers, as measured by the Wholesale Price Index (WPI)-based inflation, has consistently been lower than CPI inflation in these years and has mirrored the broad disinflationary trend, while exerting a moderating effect on the CPI.
+5.9. The current disinflationary phase commenced in October 2024, when retail inflation stood at 6.2 per cent. During the first half of 2025–26 (H1 of FY26), headline inflation declined sharply from 3.2 per cent in April 2025 to 1.4 per cent in September 2025, averaging 2.2 per cent over the period. Inflation eased further to 0.3 per cent in October 2025—the lowest reading in the current CPI (2012=100) series. This disinflation was driven primarily by the food items, reflecting favourable weather conditions and higher production that boosted supply (Chart V. 7). In contrast, core inflation—which excludes volatile components such as food and fuel—remained relatively stable and has shown a modest uptick during this period, rising from 3.8 per cent in October 2024 to 4.62 per cent in December 2025.
+Softening Core, if precious metals are excluded
+5. 10. The apparent divergence between headline and core inflation creates an impression of sticky core inflation, suggesting that underlying price pressures are firming even as headline inflation softens. The average reading of core inflation indeed shows an increase from 3.5 per cent in FY25 to about 4.3 per cent in FY26 (or a rise from 3.19 per cent in April 2024 to 4.62 per cent in December 2025), indicating persistence in non-food, non-fuel inflation. However, a more granular assessment reveals that this persistence is largely driven by sharp increases in the prices of precious metals—gold and silver—which have touched lifetime highs amid heightened global uncertainty and strong safe-haven demand. When these components are excluded, core inflation exhibits a declining trajectory, broadly mirroring the moderation in headline inflation (Chart V. 8). The resulting wedge between usual core inflation and these adjusted core measures amounts to approximately 235 basis points (excluding only precious metals) and 226 basis points (excluding both precious metals and the effects of petrol and diesel prices on the core). Notably, between June and December, core inflation excluding precious metals decelerated from 3.4 per cent to 2.3 per cent, even as the standard core measure remained elevated at around 4.6 per cent. This divergence indicates that the recent firmness in core inflation primarily reflects price pressures from precious metals rather than a broad-based strengthening of underlying inflationary momentum.
+5.11. Inflation can be decomposed into two components: the momentum effect and the base effect. The momentum effect captures the month-on-month price changes in the current year, while the base effect reflects the influence of price movements in the corresponding months of the previous year on year-on-year inflation. In FY26, the base effect played a dominant role in shaping the inflation trajectory, with its downward influence outweighing the momentum effect in seven out of nine months, thereby exerting significant disinflationary pressure (Chart V. 9). Although price pressures did emerge during the year, they were relatively contained and confined to a few months.
+Drivers of Food Disinflation
+5.12. As shown in Chart V. 7, food inflation experienced a steady decline throughout the year, entering deflationary territory since June 2025. In fact, October 2025 witnessed the biggest monthly decline of (-) 5.02 per cent in the present CPI series. The sharp moderation was driven primarily by a sustained and steep decline in vegetable prices, which remained deeply negative for much of the year, alongside a continuous fall in pulses inflation over nearly nine months (Chart V.10). Spice prices also remained in deflation for an extended period of 18 months, though the magnitude of decline was relatively modest. Inflation in cereals had been declining throughout the year, from 6.2 per cent in January 2025 to merely (-) 0.4 per cent in December 2025. Together, these trends in key food components contributed significantly to the unprecedented easing of overall price pressures during the year.
+Dominance of the base effect
+5.13. Prior to the recent moderation, pulse prices had remained elevated for several months during 2023 and 2024, reflecting production shortfalls and low carry-forward stocks that exerted significant upward pressure on prices. With domestic production recovering, supported by stable imports and an improved stock position, pulse’s inflation began to ease in the current year.
+5.14. Given that India’s pulses market is structurally characterised by excess demand, the Government closely monitors mandi prices using analytical tools to obtain early signals of price movements, enabling timely policy responses to pre-empt retail price volatility. In this context, considering the expansion in tur acreage, procurement of 6.5 lakh metric tonnes in the previous season, and higher global exportable surplus, an import duty of 30 per cent on yellow peas, (a close substitute product for chana) was imposed in October 2025—ahead of the chana sowing season—to safeguard farmer interests, support domestic prices, and avoid sharp price corrections. Similarly, imports of masoor and chana (Bengal gram) are currently subject to a 10 per cent import duty.
+5.15. Overall, timely trade policy decisions, strategic buffer stock management, and targeted market interventions have enabled effective management of the pulses price cycle, with retail price volatility moderating over the past decade, even in years of production shortfall. The degree of volatility in prices of pulses has been much lower during 2022-24 in comparison with 2015-17, despite a similar level of challenge in the domestic production front, as is evident from Chart V.11 below:
+basis CPI weight) from Jan.2015 to 11 Jan. 2026.
+Source: Calculated from the daily data given by the Department of Consumer Affairs
+5.16. In the food basket, the prices of protein-rich food items such as eggs, meat and fish had declined for some months, but recovered soon in the later months (Chart V. 12). Inflation in milk products, however, remained stable at around 2.6 per cent.
+5.17. Unlike the previous year, horticultural commodities did not witness a surge in inflation during the current year; instead, their prices declined sharply. The contraction was particularly pronounced for potatoes, onions, tomatoes, and garlic, with price fall ranging between 20 and 40 per cent (Chart V.13), while deflation in other vegetables was more moderate. Owing to seasonality in production and arrivals, their perishable nature, and susceptibility to weather shocks, prices of these commodities tend to be highly volatile. Given the central role of TOP commodities (tomatoes, onions and potatoes) in the consumption basket of Indian households, the Government actively intervenes to contain excessive price fluctuations through buffer stocking and market release operations. In 2025–26, onion buffer stocks were released from September
+2025 through direct retail sales to consumers at discounted prices, as well as supplies to mandis and wholesale markets in major consumption centres. Additionally, the use of rail transport for onion movement—initiated in 2024–25—was further scaled up in 2025–26 to ensure more cost-effective and efficient market intervention.
+5.18. Amid the sharp disinflation observed across several food items, the experience of edible oils stands out. The edible oil market in India is characterised by structural excess demand, with over 50 per cent of domestic consumption met through imports, rendering domestic prices highly sensitive to global price movements, exchange rate fluctuations, and trade policy changes. In response to sharply falling prices, the Government imposed a basic customs duty (BCD) of 20 per cent on crude edible oils in September 2024, which helped support domestic prices. Subsequently, with prices rising again in FY26, the duty was reduced to 10 per cent in June 2025 to alleviate upward price pressures. The impact of this reduction is evident, as the pace of edible oil inflation has moderated since August 2025 (Chart V. 14).
+Agricultural activity creates a benign environment for inflation
+5.19. The agricultural outlook in FY26 has been broadly favourable for inflation outcomes. The precipitation levels were generally supportive, with about 30 states/UTs recording normal or excess rainfall. Cereal production reached a record high of about 3,320 lakh tonnes in 2024–25, supported by strong yields in rice, wheat, and coarse cereals. For 2025–26, the first advance estimates—covering only the kharif season so far—place cereal output at around 1,659 lakh tonnes. Pulses production recorded modest gains in 2024–25, reaching approximately 257 lakh tonnes, although variability across individual crops persisted. Oilseeds registered a sharp increase, with output of the nine major oilseeds rising to around 430 lakh tonnes in 2024–25, led by soybean, groundnut, and rapeseed–mustard.
+5.20. Rabi sowing in the current year exceeded last year’s levels, with total cropped area expanding by 3.3 per cent year-on-year (as of 16 Jan 2026), supported by improved reservoir storage and soil moisture conditions. Pulses’ acreage increased (3.8 per cent), led by expansion in the area under gram cultivation. Oilseeds sowing rose by 3.5 per cent, driven by an expansion in rapeseed/mustard and safflower, which is expected to support edible oil availability, even as groundnut and sesamum acreage declined. Overall, the foodgrain area increased by 3.0 per cent, indicating a good Rabi season and strengthened food security.
+Drivers of Core inflation
+5.21. The four major components of the core CPI basket – (i) clothing and footwear, (ii) housing, (iii) health and (iv) transport and communication – account for nearly one-third of the CPI basket and more than 60 per cent of the core measure. The price movements in these components, therefore, play an important role in shaping the behaviour of core inflation. Over the past two years, inflation has been gradually easing in three of the four components, while fluctuating in the fourth. Since Q2 of FY26, signs of disinflation appeared in these components other than housing (Chart V.15).
+5.22. Housing inflation declined steadily through 2023 and early 2024 and thereafter stayed stable. This pattern reflects the nature of rental and housing-related prices, which are typically revised infrequently (often annually) and are influenced by negotiated agreements rather than spot market conditions. Health inflation shows a similar profile, with a gradual easing from higher levels in 2023 to lower and more stable levels thereafter. Prices in this category may be shaped by service delivery costs, administered fees, and institutional pricing practices, which tend to adjust slowly over time. As a result, these categories contribute stability to the core basket. Further, since July 2025, it has been experiencing moderation.
+5. 23. Inflation in ‘clothing and footwear’ fell sharply from elevated levels in early 2023 to lower levels by 2024-25. This disinflation reflects easing input costs, improved supply conditions and competitive pressures in goods markets where prices adjust more frequently. Unlike housing and health, prices in this category respond relatively quickly to changes in costs and demand, allowing inflation to decline when pressures abate. Transport and communication inflation, by contrast, remains lower on average but exhibits episodic movements. These short-lived fluctuations are driven by specific sub-components, such as fares, fuel-linked services, and changes in telecom pricing. However, since June 2025, disinflationary trends have appeared in the transport and communication component.
+GDP DEFLATORS: MANUFACTURING’S REVERSAL IN TERMS OF TRADE
+5.24. The GDP deflator is a broad measure of general price level in an economy. It is defined as the ratio of nominal GDP to real GDP. Unlike CPI or WPI, it reflects economy- wide price movements, including in services and changes in the composition of output,
+making it a comprehensive indicator that can be used to understand inflationary or deflationary pressures in the economy.
+5.25. Following the logic of GDP deflators, one could find the implicit price deflator for a sector as the ratio of its Nominal or Current price GVA to Real or Constant price GVA. It’s essentially a price index for that sector, pivoting around the base year with a value of 1 as the current and constant price values remain the same for the base year in a data series. The ratio of manufacturing to agriculture sector deflators tells how manufacturing prices have moved relative to agricultural prices. If the ratio is greater than 1, then Manufacturing prices are higher relative to agricultural prices, which implies better terms of trade for manufacturing and vice versa.
+5.26. It is observed that the agricultural GDP deflator has grown faster than the other sectors (Chart V.16). By FY25, it is at 2.17 relative to the 2011–12 base year. The GDP deflators of Industry and Manufacturing rose at a slower pace — 1.55 for industry and 1.41 for manufacturing by FY25, while that of services was better off at 1.75.
+5.27. Accordingly, the terms of trade for the manufacturing sector with respect to the agriculture sector, i.e., the ratio of the Manufacturing Deflator to the Agricultural Deflator, starts high (~1.29 in FY05) and steadily declines by 50 per cent to 0.65 in FY25, while its ratio with the service sector deflator declines by 25 per cent to 0.81 by FY25. Unlike agriculture, where prices may have risen due to the prevalence of government support, which sees an annual guaranteed price increase, or services, which enjoy more
+pricing power, manufacturing is usually characterised by global competition, cost- cutting technologies, and narrower margins, which might be accounting for this decline in terms of trade.2
+5.28. This declining terms of trade also translates as lower share of manufacturing in the GVA in current price terms, which has seen a decline from 17-18 per cent two decades ago to around 14 per cent in FY25, while its share in GVA in constant price terms and share in Gross Value of Output (GVO) have remained fairly constant at 18 per cent and 38 per cent, respectively.
+5.29. Better terms of trade in favour of agriculture might encourage resource shift towards agriculture, i.e., more land put to agricultural use, labour going back to agriculture, the evidence of both of which is visible in the Indian economy. On the other hand, declining relative prices for manufacturing mean that the sector might face tighter margins as input costs (especially those from agriculture) rise, and this could deter investment if it is prolonged. However, profit margins of India Inc have not shown any signs of stress, indicating the adoption of other cost-cutting or labour- saving innovations to preserve competitiveness. This also underscores the requirements for “Farm-to-Fork” policies that streamline the supply chain from producers to consumers—emphasising freshness, local sourcing, and fewer intermediaries, thereby reducing overall cost in the economy.
+5.30. Throughout much of 2023 and 2024, rural inflation remained above urban inflation (Chart V. 17). This pattern reflects differences in consumption weights across rural and urban baskets, particularly the larger share of food items in rural consumption, which renders rural inflation more responsive to movements in food prices. Elevated inflation during 2023 and mid-2024 coincides with food price pressures, during which the rural-urban gap widened. As food inflation eased in 2025, inflation declined across both sectors, with inflation in the rural sector going below that in the urban sector. As food prices are more volatile, rural inflation across the states has shown greater volatility than inflation in urban areas.
+Rural vs Urban Inflation
+5.31. In contrast to headline inflation, core inflation in rural and urban areas follows a smoother and more gradual adjustment path, declining steadily through 2023 and early 2024 before stabilising within a relatively narrow range thereafter (Chart V. 18). Rural core inflation remains marginally higher than urban core inflation, but the gap is modest and stable, indicating broadly similar pricing behaviour and demand pattern across regions once volatile food and fuel components are excluded.
+5.32. The state-level incidence of inflation in 2025-26 (April-December) followed the national trend, with an across-the-board reduction in inflation, except in Kerala and Lakshadweep, where retail inflation breached the upper tolerance band of 6 per cent. In the rest of the states, average inflation remained within the 2-6 per cent tolerance band of the Reserve Bank of India, or below that (Table V. 1). Overall, the clustering of State- level inflation outcomes within the tolerance band suggests increasing synchronisation
+of inflation across States, with residual deviations largely driven by local relative-price movements rather than broad-based inflationary persistence.
+5.33. Using monthly State-wise CPI inflation data from January 2014 to December 2025, Chart V. 19 examines how inflation outcomes across states compare with the All-India average and whether such differences tend to persist over time, i.e., whether some states consistently have higher or lower inflation than the national average. The horizontal axis shows the average difference between a State’s inflation rate and the national average, called as mean gap inflation3, while the vertical axis captures the persistence of these differences, indicating whether inflation gaps tended to fade quickly or carry over into subsequent months.
+5.34. The chart suggests that inflation differentials across States were not purely transitory. All States exhibited positive persistence, implying that deviations from the national average often extended beyond a single month.4 Far-end States in the South and Northeast tended to have recorded inflation above the national average, with relatively higher persistence. States such as Delhi and Himachal Pradesh, on the other hand, were typically below the national average, with comparable persistence. Several States clustered close to the national average, though with differing degrees of persistence.
+5.35. Overall, the pattern suggests that while national factors remain central in shaping inflation outcomes, State-level inflation dynamics display heterogeneity over time. An
+examination of inflation and wage rates at the state-level over a decade indicates that the states with an average wage rate above the national wage (i.e. positive mean wage gap) tend to experience a relatively higher inflation (i.e. a positive mean gap inflation) (Chart V. 20). A recent study has also highlighted the significance of wage rates in increasing inflation disparity across the states.5 Our further analysis demonstrated that the state-level inflation rates show a significant positive association with wage rates, state-level GDP growth rates and COVID impact (indicating inflation increases with the increase in wage rate and GSDP growth rate, and that COVID had a structural step-up influence on the price situation). However, the share of industrial output showed some negative association with the state-level inflation, reflecting the benign effect of supply- side efficiencies in manufacturing sector in dampening price pressures. GST imposition was found to be price neutral for state-level inflation differential. Variables such as weighted average lending rate, fiscal deficit ratio and credit intensity do not exhibit a robust independent association with inflation once state-specific and year-specific effects are accounted for in the 10-year duration. The share of agricultural output, did not seem to have a meaningful impact at the local level for the 10-year duration under study as production structures may be oriented more to national and export markets rather than flooding the local markets.6 While the present results highlight important associations, they should be viewed as indicative rather than definitive, and need more comprehensive study incorporating a broader set of explanatory factors and their dynamics.
+post+δ2covid+uit, where πit is state-level inflation and Xit represents the vector of other independent variables such as, log of wage rate, weighted average lending rate, log of state-level GSPD, state’s fiscal deficit ratio, share of agricultural output in state GVA, share of industrial output in state GVA, credit-deposit ratio in that state. Dummy variables were given for the Covid-19 years of 2020 & 2021 (δ2covid) and post-GST implementation period (δ1GST_post) starting from 2018. While the wage rate and state-level GSDP growth were significant at less than 1 per cent level, the Covid dummy and share of industrial output were significant at less than 5 per cent and 10 per cent levels respectively. The standard errors were clustered at the State level.
+5.36. To conclude, the RBI and IMF have projected a progressive increase in headline inflation in the upcoming fiscal, bringing the levels within the targeted range of 4 per cent (± 2 per cent). In December 2025, the RBI revised its inflation projections for FY26 from 2.6 per cent to 2.0 per cent, owing to a good kharif harvest and healthy rabi sowing. IMF has projected an inflation rate of 2.8 per cent in FY26 and 4.0 per cent in FY27. The RBI’s forecast for headline Inflation for Q1 and Q2 of FY27 currently stands at 3.9 and 4 per cent.
+5.37. The below-normal temperature experienced through most of the months in 2025 coupled with above-normal monsoon, which augmented reservoir levels, has favorably influenced kharif harvests, created strong sowing momentum in the ongoing Rabi season and improved the stock position of foodgrains.7 These factors are likely to keep food inflation at moderate levels in the upcoming months. Furthermore, the government's efforts to increase fertiliser supply may help keep input prices in agriculture in check, thereby containing inflationary pressures in the food basket. The continued pass-through of GST rate rationalisation into commodity prices may also temper inflationary pressures on the cost side. The depreciation of the currency could pave the way for imported inflation. However, global commodity prices are expected to remain soft, thereby limiting the impact. According to the World Bank’s Commodity Prices Outlook, October 2025, global commodity prices are expected to decline by approximately 7 per cent in FY27, primarily driven by subdued crude oil prices amid
+oversupply. Geopolitics may come in the way of this prediction, however. On the other hand, the prices of base metals, such as iron, copper, and aluminium, are expected to increase moderately. For instance, in copper, both demand pressures (especially given its usage for green technology and data centres) and supply disruptions might keep its price elevated. The prices of precious metals, both gold and silver, are likely to continue increasing due to their sustained demand as safe-haven investments amid global uncertainties, unless a durable peace is established and trade wars are resolved. Some commentators feel that the torrid pace set by gold and silver in 2025 may not be sustained. If they are correct, core inflation excluding precious metals may be higher, not lower. In conclusion, India’s inflation rate – headline and core excluding precious metals – will likely be higher in FY27 than in FY26. However, we believe it is unlikely to be a concern.
+States/UTs
+2022-23
+2023-24
+2024-25
+2025- 26 
+(Apr-Dec)
+Andaman and Nicobar Islands
+6.12
+3.47
+2.73
+2.16
+Andhra Pradesh
+7.57
+5.54
+4.41
+1.39
+Assam
+6.54
+4.59
+5.06
+0.16
+Bihar
+5.74
+5.84
+6.04
+0.01
+Chandigarh
+5.87
+4.28
+4.25
+1.95
+Chhattisgarh
+4.72
+3.43
+5.78
+1.25
+Dadra and Nagar Haveli
+6.43
+6.49
+4.75
+0.36
+Daman and Diu
+5.62
+4.83
+4.88
+2.60
+Delhi
+4.00
+2.55
+2.40
+0.96
+Goa
+3.16
+2.94
+3.54
+4.77
+Gujarat
+6.94
+5.70
+4.42
+1.31
+Haryana
+7.51
+6.60
+5.23
+1.61
+Himachal Pradesh
+4.51
+5.04
+4.04
+2.17
+Jammu and Kashmir
+6.34
+4.15
+4.48
+3.60
+Jharkhand
+6.16
+5.73
+3.78
+1.29
+Karnataka
+5.49
+5.79
+4.93
+3.14
+Kerala
+5.79
+4.97
+5.89
+8.05
+Lakshadweep
+7.28
+3.57
+3.05
+6.69
+Madhya Pradesh
+7.48
+4.36
+4.74
+0.75
+Maharashtra
+7.33
+5.12
+4.07
+2.13
+Manipur
+1.43
+9.96
+6.50
+-0.15
+Meghalaya
+4.28
+4.07
+4.03
+1.50
+Mizoram
+7.89
+4.46
+3.37
+2.47
+Nagaland
+6.06
+3.36
+3.99
+2.79
+Odisha
+6.02
+6.54
+5.98
+0.12
+Puducherry
+6.20
+5.28
+4.74
+2.58
+Punjab
+6.08
+5.53
+4.16
+3.27
+Rajasthan
+6.92
+6.39
+4.34
+0.81
+Sikkim
+6.81
+3.52
+2.45
+1.60
+Tamil Nadu
+5.95
+5.42
+4.65
+2.45
+Telangana
+8.61
+6.36
+3.67
+0.20
+Tripura
+6.98
+6.07
+4.60
+0.57
+Uttar Pradesh
+7.07
+5.76
+5.30
+0.30
+Uttarakhand
+6.51
+5.56
+4.19
+2.16
+West Bengal
+7.09
+4.47
+3.87
+1.52
+All India
+6.66
+5.36
+4.63
+1.72

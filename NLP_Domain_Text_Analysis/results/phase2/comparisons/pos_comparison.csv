@@ -1,0 +1,4 @@
+method,dataset_size,gold_sentences,accuracy_if_available,precision_if_available,recall_if_available,f1_if_available,domain_terms_corrected,observed_changes,limitations
+default_pos,412,30,0.9223,0.7461,0.7928,0.7571,0,baseline distribution over the whole corpus,no domain awareness; acronyms and -isation nouns mis-tagged
+custom_rule_pos,412,30,0.7913,0.6678,0.6168,0.6139,665,665 of 366035 corpus tokens re-tagged (0.1817%),dictionary based; no context beyond the token itself
+custom_ml_pos,130,9,0.8769,0.7991,0.8001,0.7764,,"trained on 366317 tokens (366035 silver, 282 gold)",single annotator gold set of 130 tokens; silver training labels come from spaCy

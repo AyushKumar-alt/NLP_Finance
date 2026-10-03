@@ -1,0 +1,345 @@
+For financial markets and critical market infrastructure, forward-looking, and multi-pronged strategy to address quantum-related  risks  can  affect  confidentiality emerging risks from quantum computing. (exposure of sensitive data), integrity (forged signatures To address the emerging risks such as accelerated or tampered transactions), and availability (disruption obsolescence of existing cryptographic standards, during rushed cryptographic changes). ‘Harvest-Now-Decrypt-later’, ‘Trust-Now-Forge-later’, Recognizing the potential of Quantum Computing to etc. SEBI has embedded quantum resiliency as a core disrupt cryptographic security and impact systemic pillar of its cybersecurity and cyber resiliency strategy, trust in financial markets, SEBI has adopted a proactive, aligned with India’s National Quantum Mission (NQM). (Contd.)
+To further fortify the securities market against the  risks of impersonation and fraud, SEBI introduced  a standardized and validated UPI framework. This  initiative aims to protect investors from unregistered  entities that often mislead the public by collecting funds  without authorization. The implementation involved  a coordinated effort between SEBI, NPCI, banks, and intermediaries to ensure a seamless transition for  the investor. Effective from October 1, 2025, SEBI has  implemented this framework, and has directed all  the investor facing intermediaries to accept the UPI  payments from individual investors only through @valid  UPI handle. (Contd.)
+Background parameters, the platform assigns risk scores and  generates structured, audit-ready alerts, transitioning  surveillance from manual to automated. The proliferation of social media has fundamentally  altered the landscape of retail participation, but  it has also introduced significant risks through  unauthorized and fraudulent activities. To counter the  rise of finfluencers misconduct and digital fraud, SEBI  operationalized Project SUDARSAN (Surveillance of  Unauthorized Digital Activity via Real-time Scanner for  Anti-fraud), an AI-powered intelligence platform. This  AI-powered RegTech platform represents a paradigm  shift in surveillance, moving from reactive monitoring to  proactive, real-time intelligence gathering. The system also provides continuous surveillance of  public content across platforms including major social  media platforms scanning videos, messages, images,  and advertisements. It is specifically engineered to  detect deceptive practices such as “guaranteed return”  claims, fraudulent certifications, impersonation of  regulated entities, and the provision of unregistered  investment advice. Operational Impact and Efficiency Technological Framework Since its commencement in November 2025, the platform  has identified over 20,000 instances of fraudulent  content and posts across social media, significantly  reducing the manual oversight burden while upholding  market integrity. Project SUDARSAN utilizes advanced multimodal AI to  analyze spoken language, visual cues, and contextual  intent, including content in regional languages. By  integrating these signals with behavioral and regulatory 9.2.4  Capacity Planning and Real Time Performance  Monitoring Framework The format, inter-alia, mandates uniform reporting of audit observations across specified domains including IT systems, network architecture, and SEBI has stipulated a framework for capacity  planning and real time performance monitoring  for the commodity derivatives segment of MIIs.  The framework, inter-alia, mandates adoption of  a proactive capacity planning approach based on  historical utilisation, peak load handling capability  and projected business growth, conduct of periodic  stress testing, and implementation of real-time  monitoring of system performance parameters  such as throughput and latency, to ensure system  resilience and uninterrupted market operations. regulatory compliance, along with classification of observations based on risk severity and timelines for remediation. This is a SupTech initiative, enabling consistency in reporting and more effective supervisory assessment by SEBI. 9.2.6  Upgradation of Super App - A unified application for investors In order to provide investors with a bird’s eye view of their securities related data across stock brokers and depository participants, a unified app 9.2.5  Standardized format for System and Network  audit report of MIIs was launched on February 20, 2025. Building upon the existing features, further enhancements were undertaken during 2025-26. These include features In order to increase the data quality, capture relevant  information in a streamlined and standardized  manner across MIIs, SEBI has prescribed the  standardized format for reporting the system  and network audit for MIIs, thereby enhancing IT  governance and ensuring uniformity in reporting. such as complaint/dispute resolution, access to recommendations of proxy advisers on resolutions and removal of recommendations of proxy advisors against whom any enforcement action has been taken.
+To improve efficiency, digitise quasi-judicial proceedings  and strengthen cybersecurity oversight of SEBI  regulated entities, SEBI launched three pioneering IT  solutions during 2025-26. These platforms represent  a strategic shift toward a paperless, transparent, and  data-driven regulatory ecosystem. focusing on adjudication proceedings, facilitating direct  interaction of SEBI with external entities (noticees/  their authorised representatives). Through this portal,  external entities can i.  Access and download SCNs issued by SEBI; ii.  Submit replies to SCN and post-hearing documents/ submissions; Single  Universal  Platform  for  Communications  (SUPCOMS) iii.  Submit various requests to the adjudication officer  viz. inspection of documents, extension of time to  file reply, etc.; A platform to streamline communication with external  entities and enhance institutional memory was designed  to replace traditional, email-centric interactions with  SEBI. This transition ensures that, going forward, all  communications with regulated or non-regulated  entities remains easily accessible for both SEBI and the  entity. iv.  Participate in proceedings through a dedicated  online hearings module. The portal is also integrated with the SEBI’s internal  case management ensuring an end-to-end digital  workflow that accelerates the disposal of enforcement  matters. The e-Adjudication Portal is operational and  can be accessed through the https://eadjudication.sebi. gov.in. The new platform ensures that all official department- level communications are stored centrally so that  no vital information is lost when employees change  roles or leave the organization. It provides a user- friendly interface to manage access rights, automated  notifications and easy on-boarding for regulated or non- regulated entities. Additionally, it maintains a complete  audit trail that allows users to download records of  every interaction for full accountability. Market participants are encouraged to utilize this  facility for adjudication matters. Detailed instructions  and functional guidelines are available on the portal. Cyber-Sec Audit Compliance (C-SAC) E-adjudication portal To  strengthen  the  supervisory  landscape,  SEBI  developed C-SAC, an AI-enabled platform designed  to automate the cybersecurity oversight of regulated  entities. This tool replaces the previously manual cyber As part of SEBI’s commitment to a paperless regulatory  framework, a next-gen platform was designed to  digitally enable quasi-judicial proceedings, initially (Contd.)
+together over 100 professionals, representing
+To strengthen cyber resilience across the securities
+ten different sets of organizations and spanning
+market ecosystem, SEBI conceptualized a Market
+across a wide range of roles related to
+Security Operations Centre (M-SOC) under the
+technology domains from REs.
+cybersecurity and cyber resilience framework
+B. Training for Information Security Auditors:
+(CSCRF) for SEBI regulated entities (REs).
+SEBI, in association with RRU and NISM, also
+The key objectives of M-SOC include:
+conducted a five-days residential training
+program in November 2025, combining theory
+i. Providing cost-effective and robust
+and hands-on sessions for information
+cybersecurity services to smaller REs;
+security auditors. With participation from 115
+ii. Enabling access to detection, monitoring,
+professionals representing diverse technology
+and incident response capabilities;
+domains, the program covered critical audit
+controls and exposure to advanced security
+iii. Bridging the technological and capability
+gap for self-certification and small-size
+C. Table Top Exercise for SEBI REs: As part of its
+Both NSE and BSE established M-SOCs in April
+ongoing efforts to strengthen cyber resilience
+2025 as a shared, scalable and cost-efficient cyber
+across the securities market, SEBI conducted
+9.1.2 SEBI’s Cybersecurity Capacity Building Program
+such as data analytics, artificial intelligence, and
+advanced surveillance tools to strengthen market
+During the year, SEBI has conducted a series of
+oversight. These initiatives aim to enhance real-time
+capacity building programs for its REs, aligned
+surveillance, improve risk preparedness against
+with global best practices and designed to address
+cyber threats, and enable more robust and efficient
+emerging cyber risks. Some of the key capacity
+investigation mechanisms. At the same time,
+building programs are mentioned below:
+SEBI continues to focus on simplifying business
+A. SEBI Cybersecurity Exercise: SEBI has
+operations through technology-driven processes,
+conducted a cybersecurity exercise in August
+while prioritizing investor trust, enablement, and
+2025, in association with national security
+protection in an evolving digital landscape.
+council secretariat, Rashtriya Raksha University
+(RRU) and NISM. The exercise combined theory
+and hands-on sessions. The exercise brought
+Rapid technological advancements are fundamentally
+security utility. As of March 30, 2026, a total of 376
+reshaping the market ecosystem, driving greater
+REs - including stock brokers, PMS entities, AIFs,
+speed, complexity, and interconnectedness across
+and credit rating agencies - have been on-boarded
+across M-SOCs of NSE and BSE.
+financial systems. Recognizing this shift, SEBI is
+committed to leveraging emerging technologies
+D. Workshop on Quantum Resiliency: SEBI conducted proactive workshops on quantum resiliency with participation from over 100 representatives of SEBI REs, fostering collective learning on quantum implications, migration strategies and quantum resilient planning.
+a series of cyber security table top exercises (TTX) during 2025-26 in co-ordination with CERT-In and under the guidance of the high powered steering committee on cyber security (HPSC-CS). During the year, four TTXs were conducted, including one comprehensive full- day cybersecurity session. This extended session included keynote addresses by domain experts, a focused workshop on cyber crisis management plan, collaborative ransomware playbook development, and a digitally simulated TTX to provide an immersive, hands- on experience to participants. The theme for this year TTX, “Proactive Defense: Incident Preparedness, Response, Recovery, and Third- Party Risk Governance,” guided the design and discussions of the exercises. The outreach during the year was particularly oriented towards small and mid-sized REs such as stock brokers, portfolio managers, and AMCs.
+9.1.3  Special Purpose Comprehensive Validation Audit
+SEBI has undertaken a process to analyze and improve the cyber hygiene, cybersecurity posture and resilience of the securities market by examining the Cyber Audits, vulnerability assessment and penetration testing (VAPT) and cyber capability index through a special purpose comprehensive validation audit of systemically important REs.
+During 2025-26, SEBI has conducted the validation audit for 13 stock brokers.
+A total of 202 participants representing 107 unique REs took part in these exercises. The participant base comprised senior leadership, cybersecurity professionals, compliance officers, and operational teams, chief information security officers/chief technical officers (CISOs/CTOs), enabling multi-dimensional deliberations spanning governance, technology, and incident response (Chart 9.1).
+SEBI ensures that cyber incidents in the securities market are reported within prescribed timelines and are continuously monitored until closure. Based on the incident’s severity, matters are placed before HPSC-CS for guidance and recommendations to further strengthen cybersecurity and cyber resilience across REs. SEBI also identifies the underlying non-compliances that contributed to the incident and initiates appropriate regulatory actions, as necessary. During 2025-26, 36 cyber incidents were reported to SEBI through the cyber incidents reporting portal (Chart 9.2).
+ii. Classification and compliance requirements of REs
+To incorporate post-quantum readiness, SEBI has
+SEBI has embedded quantum readiness and cryptographic resilience into its internal IT transformation roadmap in three phases: discover, observer and transform.
+issued directions, requiring REs to:
+i. Maintain a comprehensive cryptographic asset
+SEBI is also a proactive member in India’s NQM Task Force sub-groups. Through its capacity building programs and global engagements via IOSCO Fintech Task Force, SEBI is increasing awareness and readiness of India’s securities market against quantum related threats.
+ii. Assessment of PQC and Quantum Key Distribution
+iii. Enhancement of Cryptographic agility
+iv. Continuous ecosystem monitoring
+v. Roadmap development and workforce upskilling
+B. Implementation of Digital Accessibility: To ensure effective participation of persons with disabilities in the securities market, their access to digital platforms of REs is necessary. For this purpose, SEBI issued a circular dated July 31, 2025 mandating its REs to ensure that the securities market is accessible to every individual, including persons with disabilities, as mandated by Rights of Persons with Disabilities Act, 2016 and corresponding rules.
+9.2.1  Investor Enablement and Protection
+A. Advertiser verification API: SEBI has
+implemented an API-based framework in
+collaboration with social media platform
+providers (SMPPs) to ensure that only
+verified, SEBI-registered intermediaries can
+run advertisements related to the securities
+market. As part of the verification framework,
+advertisers are required to undergo a verification
+C. Enhancing Investor Safety through Validated UPI and SEBI Check: To fortify the securities market against fraud, SEBI implemented a standardized, validated UPI framework. This coordinated initiative protects investors from unauthorized fund collection by unregistered entities. Under the new rules, investor-facing intermediaries must accept individual payments exclusively through a validated “@” UPI handle (Box 9.2).
+process with the respective SMPP using a
+two-factor authentication mechanism and
+upon successful verification, such advertisers
+are permitted to publish their advertisements
+on these platforms. The API facilitates real-
+time verification of advertiser’s credentials
+against SEBI’s database, strengthening
+investor protection by curbing misleading and
+2.0 Portal, which required manual download of
+individual STRs in PDF format and subsequent
+Empowering Investors with “SEBI Check”
+A Secure Payment Story: The “@valid” Framework
+The core of this safety mechanism is a structured UPI address system mandatory for all SEBI registered investor-facing intermediaries. Each dedicated UPI ID follows a specific format to ensure transparency:
+Complementing the new UPI IDs is the “SEBI Check” tool.
+This digital functionality empowers investors to verify
+the authenticity of an intermediary before transferring
+any funds. By manually entering a UPI ID or scanning a
+QR code, investors can confirm:
+• Exclusive Handle: The IDs utilize a unique and exclusive handle, ‘@valid’, combined with the name of the issuing self-certified syndicate bank (e.g., name.brk@validhdfc).
+• The validity of the intermediary’s registration.
+• The corresponding bank account number of the
+• Username and Suffix: Intermediaries use a readable business name followed by a mandatory category suffix, such as .brk for stock brokers or .mf for mutual funds.
+The circular was issued on 11th June 2025, followed by
+a successful and timely rollout on 1st October 2025. The
+following table shows the funds or fees received by a
+few selected categories of the retail investor-facing
+• Visual Assurance: When making a payment, investors will see a thumbs-up icon inside a green triangle on their app’s confirmation screen. This icon only needs to be trusted when shown in the beneficiary (receiver’s) name confirmation screen on the UPI app, and not inside the UPI QR code being shown for the payment. The absence of this icon serves as a critical warning that the recipient may be an unauthorized entity.
+intermediaries through the verified UPI IDs during
+October 2025 to March 2026.
+No. of Transactions Total Amount (₹ crore)
+Mutual Funds 70,36,111 8,475
+Research Analysts 2,52,653 107
+Investment Advisors 56,725 19
+submission of feedback through the same
+interface. This workflow presented significant
+To safeguard retail investors from the proliferation of
+operational bottlenecks, particularly when
+financial fraud on social media, SEBI operationalized
+managing high volumes of data.
+Project SUDARSAN, an AI-powered intelligence
+To enhance operational efficiency, an internal
+web-based application has been developed.
+9.2.3  Surveillance, Investigation and Enforcement
+By leveraging FIU APIs, this system automates
+A. Integration with FINNET: The Financial
+the retrieval and viewing of STRs, introducing
+Intelligence Unit – India (FIU-IND) disseminates
+several critical enhancements to the workflow.
+suspicious transaction reports (STRs) to SEBI
+It enables bulk download of multiple STRs
+for regulatory oversight and action. Earlier, the
+directly into the format required by SEBI and
+processing of these reports relied on the FINEX
+facilitates direct submission of feedback to FIU-
+9.2.7  Regulatory (AI) Driven Advertisement Reviewer
+disguised as educational content, the absence of mandatory disclaimers etc. The tool has been successfully deployed for AMCs at the AMFI.
+To strengthen investor protection and ensure
+regulatory compliance within the Indian securities
+9.2.8  Ease of Doing Business
+market, an AI-powered monitoring and enforcement
+support tool, R(AI)DAR, was developed and deployed
+A. During 2025-26, three major IT solutions were launched to improve the efficiency and speed of communication with external entities, to digitally enable quasi-judicial proceedings and to strengthen cybersecurity supervision of REs (Box 9.4).
+for AMCs. The system functions as a regulatory
+intelligence tool designed to automate the review
+of advertising and investor education materials.
+R(AI)DAR effectively identifies various compliance
+violations, including the promotion of products
+health check-up process with an automated, precision- driven workflow.
+assessments across the supervisory landscape remain timely, consistent, and scalable.
+C-SAC performs an in-depth analysis of cybersecurity controls defined in the CSCRF. By evaluating these controls within the submitted audit reports, it also generates a weighted risk score and ensures that the
+In 2025-26, the platform successfully processed cyber audit reports for 8 MIIs and 23 mutual funds, significantly enhancing SEBI’s ability to monitor systemic cyber risks.
+B. Enhancements in SEBI Intermediaries Portal
+regulatory oversight and monitoring by ensuring mapping of records of registration, ATR and SCORES of all individual IAs to the continued registration number issued to the merged non-individual IA.
+i. Securities Transaction Price Index Automation: As mandated by Office of Economic Adviser, Ministry of Commerce & Industry, SEBI computes Securities Transaction Price Index (STPI) every quarter using data collected from REs. To facilitate the data collection and index computation process, STPI system has been implemented which automates data submission and validation via the SEBI intermediaries’ portal, using built-in logic to compute weighted indices. This automated workflow simplifies re-submissions and base-year adjustments with minimal manual intervention.
+9.3.1  Regulatory Supervision and Compliance Management
+A. InfoMerge: InfoMerge is an in-house developed application in SEBI Analytics portal for the Investigation Department. The portal automates multiple investigation activities such as data acquisition, data analysis and report generation, thereby reducing case processing time considerably. The system is currently being used to examine PIT and PFUTP cases. During the year, following enhancements were made:
+ii. Facility for Investment Advisers/ Research Analysts structure conversion: To enhance operational flexibility and reduce procedural complexities, new provisions have been enabled in SEBI intermediaries portal enabling IAs and RAs to apply for conversion from full- time to part-time registration, as well as the provision for retaining registration number in cases where multiple individual IAs merge and transition into a single non- individual IA entity. This eliminated the need for fresh registration and provided a structured, workflow based mechanism for submission, review and approval by competent authority. It also improves the
+i. Analysis of various datasets like KYC, trade logs etc. to identify suspicious patterns and linkages and preparation of AI generated summary report;
+ii. Generation of standardized report including compilation of essential case details such as corporate announcements and price- volume charts;
+iii. Suspect connection visualization;
+iv. Automated summons generation;
+v. Automated note preparation for
+appointment of investigation authority.
+vi. The facility of common portal was extended
+for submission of periodic compliance
+i. Offsite inspection alerts were developed
+reports by clearing members.
+for monitoring of stock brokers, depository
+participants, investment advisers and
+9.3.2  Compliance and Supervision
+registrar and transfer agents as a part of
+A. Next Gen Compliance Dashboard for AIF: Next
+Gen Compliance Dashboard serves as a unified
+ii. System was developed for online monitoring
+source of truth for AIF compliance, centralizing
+of system audit of stock brokers.
+industry metrics, filing statuses, and audit
+reports. It provides interactive visualizations
+iii. As a step towards facilitating reporting
+and detailed, fund-specific data insights
+by REs, a common portal – ‘Samuhik
+9.3.3  Technology for Internal Administration and
+Prativedan Manch’ was developed for
+submission of periodic compliance reports
+iv. Identification of trading terminals for
+A. Enhancements in SEBI Website: During 2025-
+protection against unauthorized trades and
+26, following enhancements were done in SEBI
+misuse of trading terminals.
+v. Technology based measures were
+i. Rationalisation of Scheme Information
+implemented to create secure trading
+environment (Sim binding): The UCC of
+ii. Modifications in Legal Internship portal and
+the client is binded with the device and
+development of General Stream Internship
+mobile number so as to create secure
+iii. Development of application module for Young Professionals;
+redressal. The portal streamlines the scheduling process, allowing the Chairman’ office to share available time slots which employees can book conveniently.
+iv. Updated directory, department, and organization structure pages to display dynamic data synced from SEBI’s HRMS.
+E. Repository for PACL matters: A unified module has been developed for easy access and maintenance of consolidated database of PACL properties, and objections received, if any. The repository will serve as a single source of truth to track the status of thousands of properties, objections filed by claimants, and also monitor the disposal process, ensuring transparency in the management of the PACL asset inventory.
+B. Enhancements in Case Management System: During 2025-26, following enhancements were done in case management system (CMS):
+i. Development of modules to digitize processes and steps related to or involved in search and seizure activities, delivery of unserved SCNs and summary settlement proceedings, to enhance the ease of stakeholders.
+F. Migration to NIC E-mail: During 2025-26, SEBI migrated from an on premise Email solution to a cloud based email solution provided by NIC. The solution contains integrated email and calendar, instant messaging, file storage, productivity tools, automated email relay and task management applications.
+ii. Launched holding statement API to provide real-time access to validated financial holding data and entity master API, to provide unified PAN-based entity profiles across departments.
+G. SAP Enterprise Resource Planning: SAP enterprise resource planning (ERP) is used in SEBI for managing enterprise resources encompassing SAP human capital management, SAP payroll and claims, SAP finance and controlling and treasury and risk management modules.
+iii. Integrated CBDT data interface with CMS enabling authorized officers to access PAN-based demographic information in real time.
+C. EOffice: SEBI implemented eOffice - a digital workplace solution from NIC. This eOffice application is also used by Central Government Departments/ Ministries, State Government Departments/ Ministries and Public Sector Undertakings. The file creation, movement and tracking have completely been digitized through eOffice application, thus reducing logistical load of moving physical files and thus improving efficiency.
+During 2025-26, major process automation and enhancements undertaken in SEBI’s SAP ERP system are as under:
+i. To ensure faster and more secure payments for salaries and staff claims, SEBI implemented host-to-host integration with its bank. This setup automates file exchanges directly between servers, replacing manual email and offline methods. Consequently, it minimizes manual handling, mitigates tampering and malware risks, and accelerates processing times;
+D. Meet with Chairman: To foster a culture of transparency and direct engagement, meet with Chairman application was developed. This digital platform serves as a dedicated channel for open communication and grievance
+9.4.1  SEBI’s Engagement in Global Fintech Fest 2025
+of financial assets. For this report, TWG is
+now working on second phase of status
+SEBI expanded its engagement at Global Fintech
+update on tokenisation adoption and equity
+Fest 2025 (GFF) organized during October 7-9, 2025,
+tokens. SEBI contributed in drafting the
+Mumbai. As part of GFF, SEBI leadership participated
+survey questionnaire and volunteered to
+in dialogues engaging international regulators,
+work on FTF members’ survey analysis
+Fintech firms, start-ups, and securities market
+and drafting Phase 2 report.
+stakeholders. A total of 20 panel discussions were
+held covering potential use of technology across a
+iii. As a member of QWG, SEBI contributed
+broad spectrum of areas in securities market. SEBI
+to a key focus area: ‘Assessing capacity
+in quantum computing and quantum
+also organized a hackathon in collaboration with
+9.4.2   IOSCO Fintech Task Force
+ERP accounting, and direct disbursements,
+SEBI is an active member of FTF. The FTF is
+currently working on three different work streams
+iv. Automated petty cash reimbursements for
+through its working groups on Artificial Intelligence,
+ROs, LOs and PNS Paydirect cards through
+Tokenisation and Quantum Computing. SEBI is
+for FTF published report titled tokenization
+ii. Host-to Host Integration was implemented
+MIIs. The hackathon invited tech-oriented solutions
+addressing challenges in the capital markets - fraud
+for processing of bills of SEBI ROs, vastly
+prevention, enhancing retail investor education
+reducing turnaround times for vendor
+& engagement, illiquidity in bond markets and
+member compliance monitoring. The hackathon
+iii. Deployed a dedicated Lawyer Bill
+drew 872 applications from start-ups, students, and
+Payments module allowing empaneled
+technology professionals, resulting in 97 prototypes
+lawyers to submit bills directly. The system
+and 6 winning projects.
+automates Legal Department approval,
+currently Vice-chair of QWG and a member of the
+v. Implementation of automated arrears
+artificial intelligence working group (AIWG) and
+processing in SAP Payroll system;
+tokenisation working group (TWG).
+vi. Introduced multiple digitization initiatives
+i. As a member of AIWG, SEBI contributed
+in loan module to enhance user experience.
+towards drafting of survey questionnaire,
+compilation of survey response for
+H. Wrapper APIs for Gen-AI capabilities: To
+Indian capital markets and in-depth
+empower internal application development
+analysis of global respondents’ survey
+teams, a secure and scalable cluster of wrapper
+responses. SEBI authored chapter on one
+APIs has been implemented and deployed.
+of the three layers of supervisory toolkit
+These APIs provide access to advanced text,
+recommendations report which is in the
+video and image processing capabilities,
+final stages of approval by IOSCO Board.
+adhering to open API specifications, fostering
+efficient development and deployment of Gen-
+ii. As a member of TWG, SEBI participated in
+the member survey carried out by TWG for
+assessing tokenisation adoption in India
+there was nearly 35 per cent decrease in VAPT observations for 2025-26, compared to the previous year.
+preparedness + Taking stock of quantum
+preparedness measures being undertaken’.
+SEBI also reviewed the literature survey
+shared by the IOSCO to learn from the best
+B. ISO 27001: 2022 certification: SEBI obtained ISO 27001:2022 certification on March 26, 2024, valid for three years, confirming that SEBI has implemented a standardized Information Security Management System (ISMS) for its IT systems. The ISMS underwent its first annual surveillance audit in March 2025 and second annual surveillance audit in March 2026. After both audits, the auditors recommended that SEBI’s ISO 27001:2022 certification for the ISMS should be continued.
+practices around the world covering risk
+assessment, PQC transition methods, etc.
+9.4.3  India Innovation Pavilion at Singapore FinTech
+9.5.1  Cybersecurity Audits and Supervision
+A. VAPT at SEBI: SEBI conducts annual VAPT of its
+IT systems. For the year 2025-26, SEBI engaged
+a new CERT-In empaneled auditor to perform
+the VAPT of SEBI’s IT systems. Subsequently,
+SEBI showcased the technological advancement
+in Indian securities market in the India innovation
+pavilion at the Singapore FinTech Festival 2025.
+The key innovative products showcased by SEBI
+i. @Valid (Validated UPI handles) and SEBI
+C. IT Systems Audit and Cyber Audit: System and cyber audits identify effectiveness of internal controls, ensuring compliance with the organization’s IT and cybersecurity policies and improving overall organizational performance. SEBI successfully completed its IT System audit and cyber audit for 2025-26. Further, this year’s cyber audit was conducted based on CSCRF controls.
+ii. Logging and Monitoring Application (LAMA)
+– to help trading members proactively
+manage IT system risks;
+iii. Investor Risk Reduction Access (IRRA)
+platform – a fallback mechanism for
+investors during technical glitches in IT
+systems of trading members;
+D. Digital Accessibility Audit: SEBI has embarked on its digital accessibility journey by conducting digital accessibility audits for its digital platforms in accordance with WCAG 2.2 international standard to ensure the accessibility of SEBI’s digital platforms like websites and mobile apps to everyone, including persons with disabilities.
+iv. Regulatory AI-Driven Advertisement
+Reviewer R(AI)DAR – to monitor compliance
+of mutual fund advertisements with SEBI’s
+v. Cybersecurity initiatives such as M-SOC
+and cyber capability index to strengthen
+securities market’s cyber resilience and
+E. CISO Dashboard: SEBI designed and implemented a centralized security monitoring dashboard for the CISO, enabling real-time visibility into the organization’s security posture. The dashboard panels were systematically classified based on the NIST framework to ensure structured and standards-aligned monitoring. It provides comprehensive insights into organizational assets, highlights non-
+During the year, 12 security operations centre (SOC)
+technologies were upgraded including security
+information and event management, database
+activity monitoring, data classification tool, DNS
+security, endpoint detection and response, endpoint
+protection platform, encrypted traffic management,
+IT service management, next generation intrusion
+prevention system, network monitoring solution,
+web application firewall and sandboxing solution.
+9.5.3   Working Group on Technology Roadmap for MIIs
+compliant systems, and identifies critical
+alerts and anomalies. Advanced drill-down
+capabilities allow deeper examination and
+A working group chaired by Dr. D.B. Phatak, Professor Emeritus, IIT Bombay has been constituted to formulate a short term (5 years) and long term (10 years) technology roadmap for MIIs. It has been constituted in view of the rapid evolution of technology and the increasing role of digital systems in market operations, surveillance, risk management, investor protection, and regulatory oversight. The working group will take a holistic and forward-looking view on adoption of emerging technologies by MIIs such as AI/ML, distributed ledger technology, cloud computing, SupTech and RegTech solutions, tokenisation, and quantum-safe systems.
+efficient query analysis supporting proactive

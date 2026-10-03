@@ -1,0 +1,18 @@
+Query Q08: RBI AND "repo rate"
+Type: boolean_and (Central bank and its policy instrument)
+Expected domain: regulator
+Pipeline-normalized terms: RBI, repo rate
+Matched terms: rate, rbi, repo
+Missing terms: (none)
+Results: 3 content unit(s) in 2 document(s)
+Execution time: 21.094 ms
+
+   1. score=5.2113 D03 | p9 | 3.10 | D03_P009_SEC_3_10_PAR001
+      matched: rate, rbi, repo
+      ...e evolving macroeconomic and financial developments outlined in the previous section, the RBI undertook several key monetary policy actions in FY26 (April-December). These measures were designed to support...
+   2. score=5.2113 D20 | p4 | II | D20_P004_II_PAR001
+      matched: rate, rbi, repo
+      ...was supported by good monsoons, higher agricultural output, easing supply chains, and GST rate rationalisation from September 2025. The Reserve Bank of India (RBI), responding to the benign inflation environment,...
+   3. score=5.1747 D03 | p11 | 3.16 | D03_P011_SEC_3_16_PAR001
+      matched: rate, rbi, repo
+      3.16 Throughout FY26, the RBI remained agile in its liquidity management, ensuring that adequate liquidity was maintained in the banking system. This proactive approach facilitated effective transmission to the money...
