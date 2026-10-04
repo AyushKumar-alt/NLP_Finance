@@ -5,11 +5,11 @@ This chapter outlines key institutional and internal activities that enable SEBI
 • Shri Shirish Chandra Murmu, Deputy Governor, RBI. was nominated as Member on the SEBI Board under Section 4(1)(c) of the SEBI Act, 1992 in terms of Government of India notification dated November 26, 2025 in place of Shri M. Rajeshwar Rao.
 offices in Delhi, Chennai, Kolkata, and Ahmedabad. In Mumbai, in addition to the Head Office, which is located in Bandra Kurla Complex, SEBI operates through three additional office premises, two within Bandra Kurla Complex and one at Nariman Point. A local office is also functional in Indore.
 The Human Resources Department (HRD) strengthened organizational performance and staff welfare in 2025-26 through a series of targeted productivity enhancing initiatives.
-The Audit Committee continued to fulfill its responsibilities in compliance with its charter. The committee reviewed the financial statement of accounts and held discussions with both the internal auditors and SEBI management. Based on these comprehensive reviews and discussions, the committee remains confident that SEBI’s annual statement of accounts presents a fair view in accordance with Generally Accepted Accounting Principles (GAAPs) in all material aspects. Furthermore, the committee evaluated the internal control systems and expressed satisfaction with their effectiveness. To ensure independent oversight, the committee members also met separately to discuss the disclosures in the Annual Statement of Accounts without management or internal auditors present.
 During 2025-26, 22 staff members across various grades transitioned out of the Board’s
 SEBI maintains a Pan-India presence with its headquarters located in Mumbai and regional
 As on March 31, 2026, the total number of employees totalled 1,105 across various grades. The staff includes 1,041 officers and 64 secretarial and support personnel, comprising 791 men and 314 women. HRD conducts regular manpower assessments to ensure the Board is staffed to meet future responsibilities, particularly in market regulation and fraud prevention. In line with these requirements, the recruitment process for 135 Grade A officers was initiated in 2025-26 to strengthen organisational capacity.
 A. Grade-wise Distribution: The grade-wise distribution of the staff members as on March 31, 2026, is provided in Table 13.3.
+The Audit Committee continued to fulfill its responsibilities in compliance with its charter. The committee reviewed the financial statement of accounts and held discussions with both the internal auditors and SEBI management. Based on these comprehensive reviews and discussions, the committee remains confident that SEBI’s annual statement of accounts presents a fair view in accordance with Generally Accepted Accounting Principles (GAAPs) in all material aspects. Furthermore, the committee evaluated the internal control systems and expressed satisfaction with their effectiveness. To ensure independent oversight, the committee members also met separately to discuss the disclosures in the Annual Statement of Accounts without management or internal auditors present.
 D. Promotions: Promotion exercises were carried out at various grades and successfully completed in a time-bound manner. Details of the promotion exercises conducted during 2025-26 are provided in Table 13.7.
 A. Implementation of eOffice: The eOffice portal, developed by the National Informatics Centre (NIC) under the Government of India, was launched in September 2025 for processing all official correspondence and file movements. Implementation of eOffice marks an important milestone in enhancing efficiency, transparency, ease of operation, confidentiality, and inter- departmental coordination in official work, besides aligning with national standards of digital governance. SEBI has successfully transitioned from traditional paper-based workflows to a modern digital ecosystem by adopting eOffice. This transformation is a strategic step toward building a more agile, accountable, and digitally empowered SEBI. ​
 A Working Group was constituted to address career stagnation and make recommendations for changes to promotion policy. Taking into account the recommendations of the Working Group and suggestions received from employees on various issues, including zone of consideration for promotion, weightage to annual performance assessment report and departmental promotion committee, empanelment of candidates for promotion, certification requirements for promotion, etc., a comprehensive review was undertaken, and a revised promotion policy was issued.
@@ -44,7 +44,8 @@ and their families to promote wellness, mindfulness and physical well-being, on 
 Department of Economic and Policy analysis is SEBI’s research arm, undertaking policy-oriented research, advanced data analytics, and integrated data management. Its other core mandates encompass fostering data democratization, ensuring financial stability, and managing regulatory coordination and reporting. Furthermore, the department is responsible for SEBI’s official publications and the organization of high-level international conferences. During 2025-26, DEPA spearheaded several strategic initiatives, as detailed below:
 to the Central Government in August 2025. Handbook of Statistics offering historical data upto the end of 2024-25 was released. Monthly bulletins were published to provide insights on market performance, global financial trends, policy updates and key statistics. All publications are accessible via the SEBI website. Further, analysis and statistics were provided throughout the year to Government of India, Government of Maharashtra and other regulators for various publications, meetings etc.
 households engage with securities market products - from awareness to participation to disengagement - and what drives or blocks this journey. The survey report is disseminated on the SEBI website (Box 13.1).
-F. Household Savings through Securities Market: SEBI, in consultation with RBI and MoSPI, has revised the computation methodology to incorporate all segments and the actual data (aggregated at investor PAN level) pertaining to household savings through the Indian securities market, which in the past was majorly computed based on estimates. The revised data were included in the GDP series published by MoSPI in February 2026, with base year revised to 2022-23.
+F. Household Savings through Securities Market:
+SEBI, in consultation with RBI and MoSPI, has revised the computation methodology to incorporate all segments and the actual data (aggregated at investor PAN level) pertaining to household savings through the Indian securities market, which in the past was majorly computed based on estimates. The revised data were included in the GDP series published by MoSPI in February 2026, with base year revised to 2022-23.
 A series of talks/lectures were organized under SEBI Discussion Forums (SDFs) aimed at capacity building and knowledge enhancement. During the year, five such sessions were organized.
 A mechanism to compute the number of unique investors based on investor PAN was put in place during the year. The process involves de-duplicating the PANs present across Depositories and RTAs to arrive at the investor count.
 D. Securities Transaction Price Index (STPI): The STPI is a specialized metric compiled and submitted quarterly to the Ministry of Commerce & Industry. It serves as a core component of the Business Service Price Index, designed to enhance the measurement of inflation within financial services. Currently, the base year for STPI calculation is 2022-23. STPI computation involves sourcing data from approximately 256 entities. During 2025-26, the entire process of collating data and computation of the index and sub-indices has been automated. Going forward, this automation will significantly reduce manual intervention at various stages of data collection, validation and index computation, thereby enhancing operational efficiency and accuracy. It will also enable faster turnaround time and creation of a centralized repository of historical data facilitating improved data consistency.
@@ -67,8 +68,9 @@ D. Rajbhasha Meetings: During the year, meetings of the Official Language Implem
 H. Internal Rajbhasha Inspections: In accordance with the requirements of the Official Language Policy of the GoI and in view of the targets assigned in the Annual Programme issued by
 Office was honoured with “Rajbhasha Gaurav” Shield and one Regional Office was honoured with “Rajbhahsa Pratishtha” Shield for putting in maximum efforts towards the effective implementation of the Official Language Policy.
 the Department of Official Language, Ministry of Home Affairs, GoI, inspections of one Regional Office and 24 Departments of the Head Office were conducted by Official Language Division of SEBI.
-M. Hindi Workshops: During the year, six Hindi workshops were organized for the officers and other staff members of SEBI to make them aware of various requirements of the Official Language Policy of the GoI.
+M. Hindi Workshops: During the year, six Hindi
 I. Rajbhasha Competitions: In order to encourage the staff members to use Hindi in their official work, four Hindi competitions were organized during the year. Altogether 104 participants took part in these competitions.
+workshops were organized for the officers and other staff members of SEBI to make them aware of various requirements of the Official Language Policy of the GoI.
 J. Hindi Pakhwada: Hindi Pakhwada was organized during September 14-29, 2025 in SEBI offices to promote the usage of official language. On the occasion of ‘Hindi Diwas’, a message from the desk of Chairperson was released to encourage use of Hindi by SEBI staff. In addition, activities such as, display of banners of Hindi Pakhwada in all the offices of SEBI, various competitions for staff members were also organised. In addition, information regarding the availability of Hindi books in the library, Head Office was circulated to staff members by highlighting excerpts from the books of a few renowned authors.
 The Internal Inspection Department (IID) serves as an internal oversight mechanism of SEBI with respect to the systems and procedures of various departments and adherence to internal benchmarks. IID also identifies areas for improvement and recommends corrective actions to enhance departmental productivity and effectiveness. The inspections conducted by IID are classified into three categories - comprehensive inspections; Management Information System (MIS) report- based reviews; and thematic and case-specific examinations.
 During 2025-26, IID carried out inspections across multiple departments of SEBI, reviewing the systems and procedures in place and compliance with internal benchmarks and timelines. It also monitored the implementation status of its previous recommendations on an ongoing basis. As a new initiative, IID conducted a programme on the sharing of best practices observed in various departments with officers on an inter-departmental basis. This was with the aim of enhancing the learning curve, as well as to explore replication of best practices wherever appropriate.
@@ -82,14 +84,16 @@ C. Vigilance Adda: Vigilance Department has launched an ongoing employee outreac
 i. The Vigilance Department launched “Manthan,” a pioneering evaluation and sensitization initiative designed to engage employees across all grades in SEBI. This program utilized an anonymous 30-item questionnaire to gather candid insights into ethical conduct, moral dilemmas, and vigilance regulations.
 ii. The survey under “Manthan” was conducted on September 18, 2025, with a robust participation rate of over 80 per cent of SEBI officials. Preliminary findings were presented during the Vigilance Awareness Week (VAW) on October 31, 2025, culminating in the official unveiling of the final report by the SEBI Chairman on January 01, 2026. The report has since been submitted to the Central Vigilance Commission (CVC).
 D. Vigilance Awareness Week 2025:
-i. Vigilance Awareness Week (VAW) 2025 was observed in SEBI in a befitting manner on the theme ‘‘सतर्ककता: हमाारीी साझाा जिKम्मेदाारीी’’ “Vigilance: Our Shared Responsibility”. A series of awareness, sensitisation and outreach initiatives were undertaken during the campaign period to promote ethical conduct, integrity and transparency across SEBI.
+i. Vigilance Awareness Week (VAW) 2025 was observed in SEBI in a befitting manner on the theme ‘‘सतर्ककता: हमाारीी साझाा जिKम्मेेदाारीी’’ “Vigilance: Our Shared Responsibility”. A series of awareness, sensitisation and outreach initiatives were undertaken during the campaign period to promote ethical conduct, integrity and transparency across SEBI.
 ii. As a result of “Manthan”, measures regarding capacity building and policy review have been initiated. The initiative enabled the identification of training needs, ethical concerns, and systemic improvement areas. It strengthened awareness and dialogue on integrity and transparency.
 ii. The opening ceremony was held on October 31, 2025, at SEBI’s Mumbai headquarters, attended by the Chairman and senior management. The occasion was graced by Shri Abhay, IPS (Retd.), as Chief Guest. During the event, the Chairman
 administered the integrity pledge to staff members, followed by insightful addresses on vigilance and ethics from the Chief Guest, the Chairman, and the CVO.
 Circle-Mumbai, NISM, Patalganga regarding functions of vigilance administration, changing dynamics & applicability of PC Act and prohibition of insider trading.
 iii. Banners, standees, and posters related to VAW 2025 were prominently displayed across all office premises. In addition, relevant screensavers were deployed on all office computers to reinforce awareness. The messages of the dignitaries, viz., Hon’ble President of India, Hon’ble Vice President of India, Prime Minister of India and the Central Vigilance Commission on the theme of VAW 2025 were displayed on the digital screen near reception area of offices of SEBI during the week.
-vii. During September-October 2025, SEBI hosted various competitions - from debates to short video making - centered on the VAW 2025 theme. The initiative garnered widespread participation from employees and their families. To celebrate their creativity, the entries and performance snapshots were featured on digital displays across all SEBI offices throughout the week.
-viii. Further, as per CVC instructions, SEBI carried out various preventive vigilance measures during the three-month campaign period (18th August 2025 till 17th November 2025). The information for compliance under each of these areas by SEBI were collated from different departments and the Action Taken Reports as per the prescribed formats were submitted to CVC.
+vii. During September-October 2025, SEBI
+hosted various competitions - from debates to short video making - centered on the VAW 2025 theme. The initiative garnered widespread participation from employees and their families. To celebrate their creativity, the entries and performance snapshots were featured on digital displays across all SEBI offices throughout the week.
+viii. Further, as per CVC instructions, SEBI
+carried out various preventive vigilance measures during the three-month campaign period (18th August 2025 till 17th November 2025). The information for compliance under each of these areas by SEBI were collated from different departments and the Action Taken Reports as per the prescribed formats were submitted to CVC.
 iv. To publicize, the theme of VAW 2025 was displayed on SEBI website (https://sebi.gov.in), SEBI Investors Website (https://investor.sebi.gov.in/), and NISM website (https://nism.ac.in). A voice message was added to the Interactive Voice Response (IVR) in the toll-free SEBI Helpline numbers during the week, informing callers about VAW 2025 and e-pledge initiative of CVC. In addition, the Office of Investor Awareness and Education (OIAE) was requested to incorporate a dedicated slide on the CVC e-pledge in its investor workshops to encourage wider stakeholder participation towards the goal of a corruption-free India.
 E. Reports and returns: Information on Probity Portal, Quarterly Progress Report of works/ purchase/consultancy, Quarterly Performance Report, and Annual Report on vigilance activities are being regularly submitted to DoPT/CVC after collating information from concerned departments.
 v. As part of outreach activities, at the behest of SEBI, the stock exchanges, Depositories, AMFI and the AMCs published information about the observance of VAW 2025 on their websites and social media accounts during the week, and encouraged people to take e-pledge by providing a link to the e-pledge website of CVC (https://pledge.cvc.nic.in/)
@@ -108,8 +112,7 @@ breakdown of these recurring and non-recurring
 During 2025–26, SEBI’s total collection from fees and other charges (unaudited*) reached ₹2,563 crore, marking an increase from the ₹2,334
 streams collected from market intermediaries is
 presented in Table 13.12. Recurring fees constituted
-Recurring Fees# Non- recurring Fees##
-Recurring Fees# Non- recurring Fees##
+The Securities and Exchange Board of India (Delegation of Statutory and Financial Powers) Order, 2019 dated July 31, 2019 was substituted by the
 1 2 (1+2) 3 4 (3+4)
 Regulatory Fees-Stock Exchanges commodity 9.4 0.0 9.4 17.4 0.0 17.4
 Public Issue of Debt 0.0 0.1 0.1 0.0 0.1 0.1
@@ -125,11 +128,12 @@ Vault Manager 0.0 0.0 0.0 0.0 0.0 0.0
 Processing Fee - Compounding of Offence 0.0 2.0 2.0 0.0 0.4 0.4
 Processing Fees - Consent Order 0.0 1.2 1.2 0.0 1.3 1.3
 Total 1780.5 553.6 2334.1 1866.4 696.3 2562.7
-Notes: i. *indicates subject to audit by Comptroller and Auditor General. ii. #Recurring fees: Fees which is received on annual/3-yearly/5-yearly basis (includes Fee/Service Fee/annual fee/Listing Fees from exchanges/Regulatory Fees from stock exchanges). iii. ##Non-recurring fees: Fees which is received on one-time basis. Includes fee for Offer Documents Filed/Registration Fee/Application Fee/Takeover Fees/Informal Guidance Scheme/FPI Registration/Conversion etc. iv. Since the amount realized by way of penalties on or after 29.10.2002 has been credited to the Consolidated Fund of India, therefore, the same has not been included in the fees income of SEBI since 2003-04. v. Stock brokers and sub-brokers fee includes annual fees and turnover fees. vi. Stock brokers and derivatives fees are of recurring nature and depend on the trading turnover of the stock brokers and members.
+Notes: i. *indicates subject to audit by Comptroller and Auditor General. ii. #Recurring fees: Fees which is received on annual/3-yearly/5-yearly basis (includes Fee/Service Fee/annual fee/Listing Fees from exchanges/Regulatory Fees from stock exchanges). iii. ##Non-recurring fees: Fees which is received on one-time basis. Includes fee for Offer Documents Filed/Registration
+Fee/Application Fee/Takeover Fees/Informal Guidance Scheme/FPI Registration/Conversion etc. iv. Since the amount realized by way of penalties on or after 29.10.2002 has been credited to the Consolidated Fund of India,
+therefore, the same has not been included in the fees income of SEBI since 2003-04. v. Stock brokers and sub-brokers fee includes annual fees and turnover fees. vi. Stock brokers and derivatives fees are of recurring nature and depend on the trading turnover of the stock brokers and
 Securities and Exchange Board of India (Delegation of Statutory and Financial Powers) Order, 2025 dated October 6, 2025 (DoP Order). The DoP Order provides for the delegation of the statutory and financial powers of the Board to its officials.
 73 percent of the total collections this year, down slightly from 76 percent in the previous fiscal year. In the recurring category, regulatory fees from stock exchanges generated the highest revenue at ₹1,349 crore, followed by collections from custodians of securities (₹149 crore) and registration fees from equity and derivatives segment members (₹146 crore). Meanwhile, primary market offer documents led the non-recurring category with ₹338 crore, followed by takeover fees at ₹124 crore and foreign portfolio investor fees at ₹105 crore.
 During 2025-26, the delegation of certain powers and functions under the SEBI Act, 1992, the SCRA, 1956, the Depositories Act, 1996, and the rules, regulations, and laws made thereunder, which were to be appropriately provided for in the DoP Order, were suitably incorporated. For administrative convenience, the delegation of functions that are routine or incidental or consequential in nature were also effectively delegated to the officials of the Board.
-The Securities and Exchange Board of India (Delegation of Statutory and Financial Powers) Order, 2019 dated July 31, 2019 was substituted by the
 Protection was established for receiving and processing the information pertaining to the violation of the insider trading laws submitted through the Voluntary Information Disclosure (VID) Form. The VID Form has been made available for download on the website of SEBI. A separate inward and outward channel has been put in place for communicating with the informants while maintaining confidentiality. An online facility for filing of such forms is also made available on the website of SEBI. OIP also maintains a dedicated hotline number for providing information relating to the submission of the VID Form.
 13.13  SOURCES OF FUNDS AND MAJOR AREAS OF EXPENDITURE
 The details of the sources of fund and major areas of expenditure for 2025-26 is provided in Table 13.13 below.
@@ -162,32 +166,32 @@ SEBI under Section 4 (1)(d) of the SEBI Act, 1992
 by Government of India vide notification dated
 Name
 Position
-Provision of appointment/nomination 
+Provision of appointment/nomination
 under the SEBI Act, 1992
 Shri Tuhin Kanta Pandey
 Chairman
 Appointed under Section 4(1)(a)
 Shri Amarjeet Singh
-Whole Time Member
 Appointed under Section 4(1)(d)
 Shri Kamlesh Chandra Varshney
+Whole Time Member
 Shri Sandip Pradhan
 Shri N. Venkatram
 Part-Time Member
-Ms. Deepti Gaur Mukerjee 
+Ms. Deepti Gaur Mukerjee
 Part-Time Member
 Nominated under Section 4(1)(b)
 Ms. Anuradha Thakur
 Shri Shirish Chandra Murmu 
 Nominated under Section 4(1)(c)
-Number of 
+Number of
+Number of
 meetings 
-held during 
-the tenure
-Number of 
-meetings 
-attended
+held during
 Name
+meetings
+attended
+the tenure
 Chairman
 Shri Tuhin Kanta Pandey
  4 
@@ -206,7 +210,7 @@ furnished with requisite amenities and facilities to
 make the space operational for use of SRO.
 Shri. Ananth Narayan 
 Gopalakrishnan
- 2#
+2#
 2
 Shri Amarjeet Singh
 4
@@ -301,11 +305,11 @@ service due to retirement/resignation/demise
 (Table 13.4).
 Age 
 (Years)
-No. of 
+No. of
+No. of
 Staff 
 Members
 Per cent
-No. of 
 Staff 
 Members
 Per cent
@@ -350,14 +354,14 @@ C.
 Region-wise Distribution: As on March 31, 2026, 
 95 staff members (around 8.60 per cent of the 
 total employee strength) in various grades
-Staff Details Grade Wise
 2024-25
 2025-26
+Staff Details Grade Wise
 No. of employees
-Percentage of 
+Percentage of
 total
 No. of employees
-Percentage of 
+Percentage of
 total
 Head Office
 1015
@@ -394,9 +398,9 @@ Total
 100
 1105
 100
+No. of Employees Promoted
 Promoted From
 Promoted To
-No. of Employees Promoted
 2024-25
 2025-26
 CGM
@@ -457,7 +461,7 @@ CIC in SEBI matters
 34
 48
 No. of appeals rejected/
-dismissed by CIC 
+dismissed by CIC
 33
 44
 I. 
@@ -469,7 +473,7 @@ which SEBI furnished information and material
 for replies. The number of PQs received/replied 
 session-wise is given in Table 13.10.
 No. of appeals with directions 
-by CIC to furnish information 
+by CIC to furnish information
 1
 4
 The details of Appeals before the Central Information
@@ -486,9 +490,9 @@ Ministry of Finance in a time-bound manner.
 The Parliament Questions (PQ) Cell of SEBI is the
 interface between SEBI and the Government of India
 for parliament questions and parliament committee
+No. of Questions Received/ Replied
 Parliament Session
 Period
-No. of Questions Received/ Replied
 Starred
 Unstarred
 Monsoon Session
@@ -528,22 +532,22 @@ Finance on Demand for Grants (2025-26) of the Ministry of Corporate Affairs – 
 Particulars
 2024-25
 2025-26*
-Recurring 
-Fees#
+Recurring
+Recurring
 Non-
-recurring 
-Fees##
-Recurring 
-Fees#
-Non-
-recurring 
-Fees##
+recurring
 Total 
 Fees 
 Received
+Non-
+recurring
 Total 
 Fees 
 Received
+Fees#
+Fees#
+Fees##
+Fees##
 1
 2
 (1+2)

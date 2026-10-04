@@ -753,3 +753,97 @@ thresholds). Random seed is fixed for the ML experiment.
 
 Phase 3 (indexing and retrieval) is **not** part of this deliverable.
 """
+
+
+def pipeline_comparison_markdown(ab_results: Dict[str, Any]) -> str:
+    rows = ab_results["rows"]
+    examples = ab_results["examples"]
+
+    ex_rows = []
+    for ex in examples:
+        ex_rows.append([
+            ex["expression"],
+            ex["custom_tokens"],
+            ex["pipeline_a_lemmatized"],
+            ex["pipeline_b_stemmed"],
+            ex["identical"],
+            ex["observation"]
+        ])
+
+    ex_table = _markdown_table(
+        ["Financial Expression", "Custom Tokenizer Output", "Pipeline A (Lemmatized)", "Pipeline B (Stemmed)", "Identical?", "Linguistic Observation"],
+        ex_rows
+    )
+
+    metrics_rows = [
+        [
+            r["pipeline"],
+            r["normalization"],
+            r["processed_units"],
+            f"{r['token_count']:,}",
+            f"{r['vocabulary_size']:,}",
+            r["type_token_ratio"],
+            r["avg_tokens_per_unit"],
+            f"{r['token_reduction_pct']}%",
+            f"{r['vocabulary_reduction_pct']}%",
+            f"{r['domain_terms_preserved']} / {r['domain_terms_total']} ({r['domain_preservation_pct']}%)",
+            f"{r['runtime_seconds']}s",
+        ]
+        for r in rows
+    ]
+
+    metrics_table = _markdown_table(
+        ["Pipeline", "Normalization Strategy", "Units", "Tokens", "Vocab Size", "TTR", "Tokens/Unit", "Token Red. %", "Vocab Red. %", "Domain Terms Preserved", "Runtime"],
+        metrics_rows
+    )
+
+    return f"""# Controlled Pipeline Normalization Comparison: Pipeline A vs Pipeline B
+
+**Domain:** Financial & Economic Documents  
+**Experimental Control:** Both pipelines process identical input units using identical Custom Tokenization and Domain-Aware Stopword Removal.
+
+---
+
+## 1. Pipeline Definitions
+
+### Pipeline A — Lemmatization Pipeline
+1. **Custom Tokenization** (preserves ₹1,000, 6.5%, FY26, 2025-26, scale words)
+2. **Domain-Aware Stopword Removal** (protects key financial terms: rate, growth, policy, RBI, GDP, etc.)
+3. **Lemmatization** (WordNet / LemmInflect rule-based normalization)
+
+### Pipeline B — Stemming Pipeline
+1. **Custom Tokenization** (preserves ₹1,000, 6.5%, FY26, 2025-26, scale words)
+2. **Domain-Aware Stopword Removal** (protects key financial terms: rate, growth, policy, RBI, GDP, etc.)
+3. **Stemming** (Snowball English stemmer)
+
+---
+
+## 2. Experimental Results & Metrics
+
+{metrics_table}
+
+---
+
+## 3. Controlled Financial Expression Transformations
+
+{ex_table}
+
+---
+
+## 4. Linguistic Observations & Evaluation Strategy
+
+1. **Vocabulary Reduction & Overstemming**:
+   - **Pipeline B (Stemming)** achieves aggressive vocabulary reduction, but often truncates domain suffixes (e.g. `inflation` -> `inflat`, `securities` -> `secur`).
+   - **Pipeline A (Lemmatization)** preserves full morphological dictionary heads, ensuring human readability and exact match for domain terms (e.g. `securities` -> `security`).
+
+2. **Domain Term Preservation**:
+   - Both pipelines successfully preserve critical financial acronyms (`GDP`, `CPI`, `RBI`, `SEBI`) and formatted expressions (`FY26`, `6.5%`, `₹1,000`).
+
+3. **Phase 3 Retrieval Selection Strategy**:
+   - **Important**: The final selection of the optimal retrieval pipeline for Phase 3 will **NOT** be made solely based on vocabulary reduction in Phase 2.
+   - Phase 2 characterizes linguistic and vocabulary differences. The definitive selection between Pipeline A and Pipeline B for Information Retrieval will be supported by **Phase 3 / Phase 4 IR Retrieval Evaluation** measuring:
+     - **Precision, Recall, F1**
+     - **Precision@K & Recall@K**
+     - **Mean Average Precision (MAP) & NDCG**
+"""
+

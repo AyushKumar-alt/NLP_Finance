@@ -1,19 +1,19 @@
 rule_id,rule,status,detail,evidence
-P01,"the inverted index passes its own structural validation (no duplicate, unsorted or dangling postings)",PASS,"21305 terms, 191817 postings, 0 structural problem(s)","every posting is unique, sorted and resolvable"
-P02,every posting resolves to a provenance record in the index,PASS,191817 postings checked against 6005 unit records,no dangling unit references
-P03,posting lists are sorted by unit_id and contain no duplicate units,PASS,21305 posting lists checked,all posting lists sorted and duplicate-free
-P04,source_id -> document_id -> page_number -> section_id -> unit_id is preserved for every indexed unit,PASS,6005 unit records checked across 31 documents,full provenance chain present for every unit
-P05,"every posting carries token positions, so phrase search is positional",PASS,21305 terms carry positions,all postings positional
-P06,a final pipeline is selected from the measured criteria with a stated reason,PASS,pipeline_a=0.7855; pipeline_b=0.8272,"Pipeline B - stemming then stopword removal wins on the weighted score (0.8272 vs 0.7855, margin +0.0417). Decomposition: financial_expression_preservation 3048/3792 = 0.8038 x0.35 = 0.2813; domain_term_recall 101/101 = 1.0000 x0.25 = 0.2500; variant_collapse_rate 7/12 = 0.5833 x0.25 = 0.1458; query_answerability 15/15 = 1.0000 x0.15 = 0.1500. The two pipelines are equal on 3 of 4 criteria; the margin comes from variant_collapse_rate (7/12 = 0.5833 vs 5/12 = 0.4167, +0.1667 x0.25 = +0.0417)."
+P01,"the inverted index passes its own structural validation (no duplicate, unsorted or dangling postings)",PASS,"21403 terms, 195567 postings, 0 structural problem(s)","every posting is unique, sorted and resolvable"
+P02,every posting resolves to a provenance record in the index,PASS,195567 postings checked against 6134 unit records,no dangling unit references
+P03,posting lists are sorted by unit_id and contain no duplicate units,PASS,21403 posting lists checked,all posting lists sorted and duplicate-free
+P04,source_id -> document_id -> page_number -> section_id -> unit_id is preserved for every indexed unit,PASS,6134 unit records checked across 31 documents,full provenance chain present for every unit
+P05,"every posting carries token positions, so phrase search is positional",PASS,21403 terms carry positions,all postings positional
+P06,a final pipeline is selected from the measured criteria with a stated reason,PASS,pipeline_a=0.6807; pipeline_a_lemma=0.6807; pipeline_b=0.8265; pipeline_b_stem=0.8265,Scores are equal (0.8265) and no tie-breaker separated the pipelines; the lexicographically first pipeline name is kept.
 P07,"every criterion rate is in [0, 1] and the weights sum to 1.0",PASS,"weights: {'financial_expression_preservation': 0.35, 'domain_term_recall': 0.25, 'variant_collapse_rate': 0.25, 'query_answerability': 0.15} (sum 1.0)",all normalized scores and weights are valid
-P08,every phrase term is composed of index terms that exist on their own,PASS,2570 phrase terms checked,all phrase terms decompose into indexed unigrams
-P09,at least one configured domain query is answered by the final index,PASS,15/15 queries answered,Q01=50; Q02=50; Q03=50; Q04=23; Q05=25; Q06=6; Q07=11; Q08=3; Q09=50; Q10=50; Q11=50; Q12=50; Q13=50; Q14=23; Q15=15
-P10,no unit is returned twice for the same query,PASS,506 result rows checked,"every (query, unit) pair appears once"
-P11,every result row carries provenance that matches the index,PASS,506 rows verified against the provenance store,all rows traceable to their Phase 1 unit
+P08,every phrase term is composed of index terms that exist on their own,PASS,2640 phrase terms checked,all phrase terms decompose into indexed unigrams
+P09,at least one configured domain query is answered by the final index,PASS,15/15 queries answered,Q01=50; Q02=50; Q03=50; Q04=23; Q05=25; Q06=6; Q07=11; Q08=3; Q09=50; Q10=50; Q11=50; Q12=50; Q13=50; Q14=24; Q15=15
+P10,no unit is returned twice for the same query,PASS,507 result rows checked,"every (query, unit) pair appears once"
+P11,every result row carries provenance that matches the index,PASS,507 rows verified against the provenance store,all rows traceable to their Phase 1 unit
 P12,"the Boolean parser rejects bare NOT, unbalanced parentheses and malformed operators without using eval()",PASS,"6 malformed queries tested, 6 rejected",all malformed queries raised QuerySyntaxError
 P13,"the Boolean parser accepts AND, OR, A AND NOT B and parenthesized groups",PASS,6 supported forms tested,all supported forms parsed
 P14,"A AND NOT B returns a strict subset of A (set difference, not a full-corpus scan)",PASS,'inflation' -> 98 units; 'inflation AND NOT food' -> 81 units; removed 17 of 17 co-occurring unit(s),no unit outside the positive set was returned
 P15,every required Phase 3 output file exists and is non-empty,PASS,14/14 files present and non-empty,all required artefacts written
-P16,every Phase 3 CSV and JSON output parses cleanly,PASS,7 CSV and 4 JSON files checked,all outputs parse cleanly
-P17,"results are ranked deterministically: ranks are contiguous, scores are non-increasing and ties break on unit_id",PASS,15 queries checked over 506 rows,ordering is deterministic for every query
+P16,every Phase 3 CSV and JSON output parses cleanly,PASS,7 CSV and 5 JSON files checked,all outputs parse cleanly
+P17,"results are ranked deterministically: ranks are contiguous, scores are non-increasing and ties break on unit_id",PASS,15 queries checked over 507 rows,ordering is deterministic for every query
 P18,Phase 3 writes only under its own declared output paths; no Phase 1 or Phase 2 artefact is a write target,PASS,"15/15 managed outputs are inside phase3/, plus the run log",all Phase 3 outputs are confined to the declared results directory and logs/

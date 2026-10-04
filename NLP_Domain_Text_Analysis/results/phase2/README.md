@@ -14,12 +14,12 @@ JSON, and every example keeps its `document_id / page_number / section / unit_id
 
 ## 2. Input from Phase 1
 
-* `data/corpus/structured/corpus.jsonl` - 8104 units from
+* `data/corpus/structured/corpus.jsonl` - 8311 units from
   31 documents (885 pages)
 * `data/corpus/metadata/document_registry.csv`, `source_registry.csv` - provenance
 * text selection policy: **`prose_tables`** =
-  paragraph, reference, box, table -> 6005 units,
-  2084810 characters
+  paragraph, reference, box, table -> 6134 units,
+  2081530 characters
 
 The loader builds `Corpus -> Document -> Page -> Section -> Unit`, so a result can
 always be cited as `document -> page -> section -> unit`.
@@ -96,41 +96,41 @@ common words, rare words, acronyms, numbers and dates.
 
 | method | tokens | vocabulary | date tokens | percentage tokens | currency tokens |
 |---|---|---|---|---|---|
-| nltk | 349891 | 18080 | 6952 | 361 | 1014 |
-| custom | 346276 | 18684 | 6179 | 2170 | 1044 |
-| spacy | 366035 | 15942 | 7100 | 356 | 1034 |
-| hybrid | 344722 | 19519 | 6618 | 2258 | 1154 |
+| nltk | 349344 | 18035 | 6939 | 359 | 1016 |
+| custom | 345677 | 18628 | 6169 | 2167 | 1046 |
+| spacy | 365068 | 15899 | 7090 | 354 | 1036 |
+| hybrid | 344141 | 19463 | 6613 | 2255 | 1155 |
 
 ### Date and number aware tokenization
 
 | category | expressions detected | surviving standard tokenization | intact rate |
 |---|---|---|---|
-| TOTAL | 49926 | 6413 | 12.85% |
+| TOTAL | 49851 | 6431 | 12.9% |
 
 ### Stopwords
 
 | strategy | list size | remaining tokens | token reduction |
 |---|---|---|---|
-| none | 0 | 344722 | 0.0% |
-| standard_english | 326 | 241278 | 30.01% |
-| domain_aware | 329 | 241977 | 29.81% |
+| none | 0 | 344141 | 0.0% |
+| standard_english | 198 | 250215 | 27.29% |
+| domain_aware | 213 | 249744 | 27.43% |
 
 ### Stemming
 
 | stemmer | unique stems | vocabulary reduction | colliding stems |
 |---|---|---|---|
-| porter | 14295 | 26.71% | 7189 |
-| snowball_english | 14301 | 26.68% | 7162 |
-| lancaster | 13069 | 33.0% | 6290 |
+| porter | 14243 | 26.77% | 7169 |
+| snowball_english | 14250 | 26.73% | 7142 |
+| lancaster | 13023 | 33.04% | 6274 |
 
 ### Lemmatization
 
 | method | unique lemmas | vocabulary reduction | needs POS |
 |---|---|---|---|
-| wordnet_lookup_pos_agnostic | 12195 | 23.44% | False |
-| wordnet_lookup_pos_aware | 12195 | 23.44% | True |
-| spacy_rule_based | 13330 | 16.32% | False |
-| lemminflect_rulebased | 13169 | 17.33% | True |
+| wordnet_lookup_pos_agnostic | 15886 | 0.0% | False |
+| wordnet_lookup_pos_aware | 15886 | 0.0% | True |
+| spacy_rule_based | 13295 | 16.31% | False |
+| lemminflect_rulebased | 13135 | 17.32% | True |
 
 ### POS tagging (scored only on the manually annotated gold sample)
 
@@ -138,39 +138,39 @@ common words, rare words, acronyms, numbers and dates.
 |---|---|---|---|---|
 | default_pos | 412 | 30 | 0.9223 | 0.7571 |
 | custom_rule_pos | 412 | 30 | 0.7913 | 0.6139 |
-| custom_ml_pos | 130 | 9 | 0.8769 | 0.7764 |
+| custom_ml_pos |  | 0 |  |  |
 
 ### Named entities
 
 | measure | value |
 |---|---|
-| general spaCy entities | 26793 |
+| general spaCy entities | 26717 |
 | general spaCy labels | 18 |
-| domain dictionary mentions | 4951 |
+| domain dictionary mentions | 4968 |
 | domain categories | 8 |
-| error-analysis rows | 146 |
+| error-analysis rows | 145 |
 
 ### N-grams
 
 | n | total | unique | top n-gram with words |
 |---|---|---|---|
-| 1 | 344722 | 24452 | over (x530) |
-| 2 | 338717 | 157151 | over the (x194) |
-| 3 | 332716 | 268828 | over the past (x51) |
-| 4 | 326715 | 303942 | over the past few (x5) |
-| 5 | 320715 | 310349 | over the past few years (x3) |
+| 1 | 344141 | 24389 | achieving (x40) |
+| 2 | 338007 | 156887 | achieving strategic (x1) |
+| 3 | 331878 | 268305 | achieving strategic resilience (x1) |
+| 4 | 325751 | 303211 | achieving strategic resilience and (x1) |
+| 5 | 319627 | 309454 | achieving strategic resilience and indispensability (x1) |
 
 ### BPE
 
 | measure | value |
 |---|---|
 | vocabulary | 8000 |
-| tokens for the whole sample | 469401 |
-| bytes per token | 4.441 |
+| tokens for the whole sample | 468203 |
+| bytes per token | 4.446 |
 
 ## 13. Output files
 
-Key artefacts (the full list of 105 written files is in
+Key artefacts (the full list of 107 written files is in
 `phase2_summary.json` -> `outputs`):
 
 * `bpe/bpe_examples.csv`
@@ -186,6 +186,8 @@ Key artefacts (the full list of 105 written files is in
 * `comparisons/experiment_manifest.csv`
 * `comparisons/ngram_comparison.csv`
 * `comparisons/phase2_master_comparison.csv`
+* `comparisons/pipeline_comparison.csv`
+* `comparisons/pipeline_comparison.md`
 * `comparisons/pos_comparison.csv`
 * `comparisons/representative_sample.csv`
 * `comparisons/tokenization_method_comparison.csv`

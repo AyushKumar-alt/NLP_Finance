@@ -642,6 +642,18 @@ def run(config: Optional[Phase2Config] = None, verbose: bool = False) -> Dict[st
         list(before_after[0].keys()),
     )
 
+    ab_result = comparisons.run_pipeline_ab_comparison(sample, config, logger)
+    write_csv(
+        comparisons_dir / "pipeline_comparison.csv",
+        ab_result["rows"],
+        list(ab_result["rows"][0].keys()),
+    )
+    (comparisons_dir / "pipeline_comparison.md").write_text(
+        reporting.pipeline_comparison_markdown(ab_result),
+        encoding=config.encoding,
+    )
+    metrics["pipeline_ab_comparison"] = ab_result["rows"]
+
     ner_rows_for_master = [
         {
             "total_entities": general_ner["total_entities"],

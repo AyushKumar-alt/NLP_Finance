@@ -2,37 +2,37 @@ section,metric,value,unit,source,note
 phase1,documents_found,31,documents,results/phase1/validation_report.json,
 phase1,documents_processed,31,documents,results/phase1/validation_report.json,
 phase1,pages,885,pages,results/phase1/validation_report.json,
-phase1,content_units,8104,units,results/phase1/validation_report.json,
+phase1,content_units,8311,units,results/phase1/validation_report.json,
 phase1,validation_status,PASS,,results/phase1/validation_report.json,
-phase2,selected_units,6005,units,results/phase2/phase2_summary.json,policy 'prose_tables'
-phase2,selected_characters,2084810,characters,results/phase2/phase2_summary.json,
+phase2,selected_units,6134,units,results/phase2/phase2_summary.json,policy 'prose_tables'
+phase2,selected_characters,2081530,characters,results/phase2/phase2_summary.json,
 phase2,bpe_vocabulary,8000,tokens,results/phase2/phase2_summary.json,
-phase2,ner_entities,26793,entities,results/phase2/phase2_summary.json,
-phase2,ner_domain_mentions,4951,mentions,results/phase2/phase2_summary.json,
-phase2,tokenization_nltk_tokens,349891,tokens,results/phase2/tokenization/tokenization_comparison.csv,
-phase2,tokenization_custom_tokens,346276,tokens,results/phase2/tokenization/tokenization_comparison.csv,
-phase2,tokenization_spacy_tokens,366035,tokens,results/phase2/tokenization/tokenization_comparison.csv,
-phase2,tokenization_hybrid_tokens,344722,tokens,results/phase2/tokenization/tokenization_comparison.csv,
+phase2,ner_entities,26717,entities,results/phase2/phase2_summary.json,
+phase2,ner_domain_mentions,4968,mentions,results/phase2/phase2_summary.json,
+phase2,tokenization_nltk_tokens,349344,tokens,results/phase2/tokenization/tokenization_comparison.csv,
+phase2,tokenization_custom_tokens,345677,tokens,results/phase2/tokenization/tokenization_comparison.csv,
+phase2,tokenization_spacy_tokens,365068,tokens,results/phase2/tokenization/tokenization_comparison.csv,
+phase2,tokenization_hybrid_tokens,344141,tokens,results/phase2/tokenization/tokenization_comparison.csv,
 phase3,final_pipeline,pipeline_b,,results/phase3/final_pipeline.json,
-phase3,index_terms,21305,terms,results/phase3/index_statistics.csv,
-phase3,total_postings,191817,postings,results/phase3/index_statistics.csv,
-phase3,postings_per_term,9.0034,postings/term,results/phase3/index_statistics.csv,
-phase3,phrase_terms,2570,phrases,results/phase3/index_statistics.csv,
+phase3,index_terms,21403,terms,results/phase3/index_statistics.csv,
+phase3,total_postings,195567,postings,results/phase3/index_statistics.csv,
+phase3,postings_per_term,9.1374,postings/term,results/phase3/index_statistics.csv,
+phase3,phrase_terms,2640,phrases,results/phase3/index_statistics.csv,
 phase3,queries_answered,15,queries,results/phase3/phase3_summary.json,
-phase4,judged_pairs,139,query-unit pairs,results/phase4/relevance_judgments.csv,
-phase4,judged_relevant,130,pairs,results/phase4/relevance_judgments.csv,
-phase4,judged_not_relevant,9,pairs,results/phase4/relevance_judgments.csv,
+phase4,judged_pairs,166,query-unit pairs,results/phase4/relevance_judgments.csv,
+phase4,judged_relevant,155,pairs,results/phase4/relevance_judgments.csv,
+phase4,judged_not_relevant,11,pairs,results/phase4/relevance_judgments.csv,
 phase4,judgment_pool_depth,10,units per query,config/phase4_config.yaml,
-phase4,precision_macro,0.9511111111111111,rate,results/phase4/evaluation_summary.csv,macro average over the query set
-phase4,precision_micro,0.9489,rate,results/phase4/evaluation_summary.csv,"ratio of summed counts, not a mean of ratios"
-phase4,recall_macro,1.0,rate,results/phase4/evaluation_summary.csv,macro average over the query set
-phase4,recall_micro,1.0,rate,results/phase4/evaluation_summary.csv,"ratio of summed counts, not a mean of ratios"
-phase4,f1_macro,0.9729302832244009,rate,results/phase4/evaluation_summary.csv,macro average over the query set
-phase4,f1_micro,0.9738,rate,results/phase4/evaluation_summary.csv,"ratio of summed counts, not a mean of ratios"
-phase4,precision_at_5_macro,0.9067,rate,results/phase4/evaluation_summary.csv,
-phase4,recall_at_5_macro,0.5508,rate,results/phase4/evaluation_summary.csv,
-phase4,recall_at_5_micro,0.5231,rate,results/phase4/evaluation_summary.csv,
+phase4,precision_macro,0.9571428571428572,rate,results/phase4/evaluation_summary.csv,macro average over the query set
+phase4,precision_micro,0.9559,rate,results/phase4/evaluation_summary.csv,"ratio of summed counts, not a mean of ratios"
+phase4,recall_macro,0.8722507993096228,rate,results/phase4/evaluation_summary.csv,macro average over the query set
+phase4,recall_micro,0.8387,rate,results/phase4/evaluation_summary.csv,"ratio of summed counts, not a mean of ratios"
+phase4,f1_macro,0.9053154967190055,rate,results/phase4/evaluation_summary.csv,macro average over the query set
+phase4,f1_micro,0.8935,rate,results/phase4/evaluation_summary.csv,"ratio of summed counts, not a mean of ratios"
+phase4,precision_at_5_macro,0.92,rate,results/phase4/evaluation_summary.csv,
+phase4,recall_at_5_macro,0.4923,rate,results/phase4/evaluation_summary.csv,
+phase4,recall_at_5_micro,0.4452,rate,results/phase4/evaluation_summary.csv,
 phase4,precision_at_10_macro,0.8667,rate,results/phase4/evaluation_summary.csv,
-phase4,recall_at_10_macro,1.0,rate,results/phase4/evaluation_summary.csv,
-phase4,recall_at_10_micro,1.0,rate,results/phase4/evaluation_summary.csv,
-phase4,mean_query_execution_ms,481.456,ms,results/phase4/evaluation_results.csv,
+phase4,recall_at_10_macro,0.8723,rate,results/phase4/evaluation_summary.csv,
+phase4,recall_at_10_micro,0.8387,rate,results/phase4/evaluation_summary.csv,
+phase4,mean_query_execution_ms,306.556,ms,results/phase4/evaluation_results.csv,

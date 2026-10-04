@@ -1,16 +1,16 @@
 query_id,query,query_type,description,expected_domain,configured_terms,normalized_terms,matched_terms,missing_terms,syntax_valid,answered,result_units,result_documents,top10_score_sum,execution_time_ms
-Q01,inflation,keyword,Single economic indicator,economic,inflation,inflat,inflat,,true,true,50,7,12.2224,476.482
-Q02,GDP,keyword,Gross domestic product acronym,economic,gdp,gdp,gdp,,true,true,50,14,11.7937,357.755
-Q03,FDI,keyword,Foreign direct investment flow,economic,fdi,fdi,fdi,,true,true,50,4,11.5281,157.501
-Q04,monetary policy,phrase,Ordered two-word policy phrase,economic,monetary;policy,monetari;polici,monetari;polici,,true,true,23,6,41.6502,149.71
-Q05,financial stability,phrase,Ordered two-word stability phrase,financial_stability,financial;stability,financi;stabil,financi;stabil,,true,true,25,9,42.0951,372.893
-Q06,current account deficit,phrase,Ordered three-word external sector phrase,economic,current;account;deficit,current;account;deficit,current;account;deficit,,true,true,6,5,30.9272,140.48
-Q07,GDP AND inflation,boolean_and,Both terms in the same content unit,economic,gdp;inflation,GDP;inflation,gdp;inflat,,true,true,11,7,21.8887,123.265
-Q08,"RBI AND ""repo rate""",boolean_and,Central bank and its policy instrument,regulator,rbi;repo rate,RBI;repo rate,rate;rbi;repo,,true,true,3,2,15.5973,21.094
-Q09,banking AND credit,boolean_and,Banking sector with credit,banking,banking;credit,banking;credit,bank;credit,,true,true,50,11,22.2473,200.285
-Q10,GDP OR GVA,boolean_or,Either national accounts aggregate,economic,gdp;gva,GDP;GVA,gdp;gva,,true,true,50,10,18.5167,406.587
-Q11,inflation OR disinflation,boolean_or,Price movement alternatives,economic,inflation;disinflation,inflation;disinflation,disinfl;inflat,,true,true,50,7,19.9631,272.722
-Q12,inflation AND NOT food,boolean_not,Inflation excluding food-price passages,economic,inflation,inflation;food,inflat,,true,true,50,7,11.9841,233.77
-Q13,banking AND NOT insurance,boolean_not,Banking passages without insurance,banking,banking,banking;insurance,bank,,true,true,50,14,11.6458,536.471
-Q14,GDP AND investment,boolean_and,Growth aggregate with investment,economic,gdp;investment,GDP;investment,gdp;invest,,true,true,23,10,21.7294,83.681
-Q15,(GDP OR GVA) AND policy,boolean_group,Grouped OR inside AND,economic,gdp;gva;policy,GDP;GVA;policy,gdp;gva;polici,,true,true,15,9,21.4682,60.405
+Q01,inflation,keyword,Single economic indicator,economic,inflation,inflat,inflat,,true,true,50,7,12.2224,230.182
+Q02,GDP,keyword,Gross domestic product acronym,economic,gdp,gdp,gdp,,true,true,50,14,11.7937,319.701
+Q03,FDI,keyword,Foreign direct investment flow,economic,fdi,fdi,fdi,,true,true,50,4,11.5281,116.175
+Q04,monetary policy,phrase,Ordered two-word policy phrase,economic,monetary;policy,monetari;polici,monetari;polici,,true,true,23,6,41.6502,64.235
+Q05,financial stability,phrase,Ordered two-word stability phrase,financial_stability,financial;stability,financi;stabil,financi;stabil,,true,true,25,9,42.0951,109.59
+Q06,current account deficit,phrase,Ordered three-word external sector phrase,economic,current;account;deficit,current;account;deficit,current;account;deficit,,true,true,6,5,30.9272,33.32
+Q07,GDP AND inflation,boolean_and,Both terms in the same content unit,economic,gdp;inflation,GDP;inflation,gdp;inflat,,true,true,11,7,21.8887,38.632
+Q08,"RBI AND ""repo rate""",boolean_and,Central bank and its policy instrument,regulator,rbi;repo rate,RBI;repo rate,rate;rbi;repo,,true,true,3,2,15.5973,10.492
+Q09,banking AND credit,boolean_and,Banking sector with credit,banking,banking;credit,banking;credit,bank;credit,,true,true,50,11,22.2473,162.182
+Q10,GDP OR GVA,boolean_or,Either national accounts aggregate,economic,gdp;gva,GDP;GVA,gdp;gva,,true,true,50,10,18.5167,386.621
+Q11,inflation OR disinflation,boolean_or,Price movement alternatives,economic,inflation;disinflation,inflation;disinflation,disinfl;inflat,,true,true,50,7,19.9631,223.746
+Q12,inflation AND NOT food,boolean_not,Inflation excluding food-price passages,economic,inflation,inflation;food,inflat,,true,true,50,7,11.9841,190.09
+Q13,banking AND NOT insurance,boolean_not,Banking passages without insurance,banking,banking,banking;insurance,bank,,true,true,50,13,11.6458,489.168
+Q14,GDP AND investment,boolean_and,Growth aggregate with investment,economic,gdp;investment,GDP;investment,gdp;invest,,true,true,24,10,21.8392,72.835
+Q15,(GDP OR GVA) AND policy,boolean_group,Grouped OR inside AND,economic,gdp;gva;policy,GDP;GVA;policy,gdp;gva;polici,,true,true,15,9,21.5236,49.592

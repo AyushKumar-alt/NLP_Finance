@@ -69,8 +69,8 @@ evaluation:
   # unjudged for query q has not been declared non-relevant; it is excluded
   # from that query's metric denominator and counted in `unjudged` instead.
   unjudged_policy: "exclude_from_precision_denominator"   # exclude | count_as_not_relevant
-  pipelines: ["pipeline_b"]      # the Phase 3 selected pipeline is the primary one
-  compare_pipelines: true        # also evaluate the runner-up for Table J
+  pipelines: ["pipeline_a_lemma", "pipeline_b_stem"]      # evaluate both pipelines on ground truth relevance
+  compare_pipelines: true        # compare both pipelines
 
 # --------------------------------------------------------------------------
 # OUTPUT

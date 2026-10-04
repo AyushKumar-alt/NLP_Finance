@@ -15,11 +15,11 @@ const navItems: Array<{ href: string; label: string }> = [
   { href: "/ngrams", label: "N-grams" },
   { href: "/bpe", label: "BPE" },
   { href: "/pipelines", label: "Pipelines" },
-  { href: "/index", label: "Index" },
   { href: "/search", label: "Search" },
   { href: "/evaluation", label: "Evaluation" },
   { href: "/about", label: "About" },
 ];
+
 
 export function Navigation() {
   const pathname = usePathname();

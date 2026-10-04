@@ -1,6 +1,6 @@
-Over the past three decades, the mutual fund industry easier comprehension and quick reference. has undergone significant growth and transformation, ii.  Principle-based drafting: Provisions containing  rationale, commentary, or extracts of regulations  were removed to ensure a precise, principle- based and “to-the-point” approach. including changes in market practices and widespread adoption of technology in the investment management space. To keep pace with evolving market dynamics and to safeguard investor interests, the mutual fund iii.  Reorganization  and  thematic  structuring:  Provisions  were  systematically  reorganized  across chapters to improve logical flow and  navigation. regulatory framework has been periodically updated over time. While these incremental amendments addressed specific regulatory needs, they also resulted in an increasingly extensive and layered iv.  Consolidation of valuation provisions: Valuation- related provisions, previously dispersed across  multiple sections, were consolidated into a  dedicated chapter to enhance coherence and  accessibility. regulatory structure. This created a need to undertake a comprehensive review of the Regulations aimed at offering stakeholders greater clarity, improved readability, and enhanced structural coherence. v.  Integration of operational provisions: Provisions  removed from the Regulations but requiring  operational continuity, as well as certain prudential  limits and valuation guidelines, were incorporated  within the master circular at appropriate places to  ensure completeness of the framework. While simplifying compliance, the revised framework retains the core principles, safeguards, and regulatory intent built over the years, and further strengthens investor protection, transparency, and governance standards within the mutual fund ecosystem. The revised SEBI (Mutual Fund) Regulations, 2026 was  notified on January 14, 2026. vi.  Standardization:  Scheme-related  disclosures  (SID, SAI, KIM) were transitioned into prescribed  formats. Also all templates were reviewed and  grouped under a dedicated “Formats” section for  improved usability. Pursuant to the notification of SEBI (Mutual Funds)  Regulations, 2026, a comprehensive review of the  master circular for mutual funds was undertaken to  align it with the Regulations and also enhance clarity,  simplify provisions, and improving ease of compliance.  Some of the key features of the review include: vii. Digitalization and ‘Go Green’ initiative: Requirements  of newspaper advertisements were rationalized,  with greater emphasis placed on website  disclosures and digital communication modes  such as SMS and email, in line with SEBI’s “go  green” initiative. i.  Improved readability and quick reference: Complex  provisions, such as those relating to Gold ETF,  Silver ETF and cumulative gross exposure limits  etc., were converted into tabular formats to enable D.  Rationalization of B30 Incentive Framework: The  incentive structure for mutual fund distributors  in respect of investments from B30 (beyond  top 30 cities) locations has been rationalized  to enhance financial inclusion and improve  transparency. The revised framework provides  for additional incentives only for investments  from new individual investors (new PAN) at  the industry level. Incentives are capped at  one per cent of the first application amount  (subject to one-year holding period for lump sums) and total investments made during the  first year (in case of SIPs), subject to an overall  cap of ₹2,000 per investor. Such incentives  are funded through the investor education  and awareness fund thereby ensuring that no  additional expense is charged to the scheme.  The changes also promote uniform applicability  across schemes, reduce the scope for selective  charging of incentives, and discourage churn- driven distribution practices.
+Over the past three decades, the mutual fund industry easier comprehension and quick reference. has undergone significant growth and transformation, ii.  Principle-based drafting: Provisions containing  rationale, commentary, or extracts of regulations  were removed to ensure a precise, principle- based and “to-the-point” approach. including changes in market practices and widespread adoption of technology in the investment management space. To keep pace with evolving market dynamics and to safeguard investor interests, the mutual fund iii.  Reorganization  and  thematic  structuring:  Provisions  were  systematically  reorganized  across chapters to improve logical flow and  navigation. regulatory framework has been periodically updated over time. While these incremental amendments addressed specific regulatory needs, they also resulted in an increasingly extensive and layered iv.  Consolidation of valuation provisions: Valuation- related provisions, previously dispersed across  multiple sections, were consolidated into a  dedicated chapter to enhance coherence and  accessibility. regulatory structure. This created a need to undertake a comprehensive review of the Regulations aimed at offering stakeholders greater clarity, improved readability, and enhanced structural coherence. v.  Integration of operational provisions: Provisions  removed from the Regulations but requiring  operational continuity, as well as certain prudential  limits and valuation guidelines, were incorporated  within the master circular at appropriate places to  ensure completeness of the framework. While simplifying compliance, the revised framework retains the core principles, safeguards, and regulatory intent built over the years, and further strengthens investor protection, transparency, and governance standards within the mutual fund ecosystem. The revised SEBI (Mutual Fund) Regulations, 2026 was  notified on January 14, 2026. vi.  Standardization:  Scheme-related  disclosures  (SID, SAI, KIM) were transitioned into prescribed  formats. Also all templates were reviewed and  grouped under a dedicated “Formats” section for  improved usability. Pursuant to the notification of SEBI (Mutual Funds)  Regulations, 2026, a comprehensive review of the  master circular for mutual funds was undertaken to  align it with the Regulations and also enhance clarity,  simplify provisions, and improving ease of compliance.  Some of the key features of the review include: vii. Digitalization and ‘Go Green’ initiative: Requirements of newspaper advertisements were rationalized,  with greater emphasis placed on website  disclosures and digital communication modes  such as SMS and email, in line with SEBI’s “go  green” initiative. i.  Improved readability and quick reference: Complex  provisions, such as those relating to Gold ETF,  Silver ETF and cumulative gross exposure limits  etc., were converted into tabular formats to enable D.  Rationalization of B30 Incentive Framework: The  incentive structure for mutual fund distributors  in respect of investments from B30 (beyond  top 30 cities) locations has been rationalized  to enhance financial inclusion and improve  transparency. The revised framework provides  for additional incentives only for investments  from new individual investors (new PAN) at  the industry level. Incentives are capped at  one per cent of the first application amount  (subject to one-year holding period for lump sums) and total investments made during the  first year (in case of SIPs), subject to an overall  cap of ₹2,000 per investor. Such incentives  are funded through the investor education  and awareness fund thereby ensuring that no  additional expense is charged to the scheme.  The changes also promote uniform applicability  across schemes, reduce the scope for selective  charging of incentives, and discourage churn- driven distribution practices.
 E.  Amendment to Regulation 17(a): To enhance  operational flexibility for Category II AIFs,  SEBI amended the AIF Regulations to address  possible shrinkage in pool of unlisted debt  securities available for investment by Category  II AIFs. Category II AIFs are required to hold  a majority of their investments in unlisted  securities. As current listing norms for debt  securities mandate that entities with listed  debt must issue fresh debt only in listed form,  the resultant drop in availability of unlisted  debt securities can come in the way of AIFs  complying with the minimum investment norms  in unlisted securities. Consequently, SEBI  allowed Category II AIFs to treat listed debt B.  Flexibility  to  Make  Co-investments:  To  streamline the co-investment landscape, SEBI  amended the AIF Regulations to allow Category  I and II AIFs to offer co-investment opportunities  to Accredited Investors through ‘Co-investment  Scheme’ (CIV), a distinct scheme within the AIF  ecosystem. This complements the existing PMS  route for co-investment and provides investors
-Angel Fund’ is a sub-category of AIFs dedicated for  channelizing risk capital from Angel Investors to start- ups in need. Unlike other AIFs where investment decision  is taken by the Manager, investments by Angel Funds  are made upon obtaining explicit investor consent for  each investment. A review of the regulatory framework  for Angel Funds indicated gaps in operational clarity and  concerns about offering investment opportunities to a  wide range of investors, some of whom may not have  commensurate risk appetite for investment in illiquid  assets. The existing prudential norms and investment  conditions also required revision to provide more  flexibility and ease of operations. (i)  Relaxation of floor and cap for investment in a  start-up from ₹25 lakh - ₹10 crore to ₹10 lakh  – ₹25 crore. Consequently, Angel Funds will  be able to invest higher amounts in a start- up. At the same time, they will also be able to  start investing in a start-up with an amount  as low as ₹10 lakh. (ii)  Removal of concentration limit of 25 per  cent (of total investments) for investment in a  start-up, thereby extending flexibility to Angel  Funds in providing funding to start-ups. (iii) Allowing contributions from more than  200 Accredited Investors in an investment.  This would enhance channelization of capital  to a start-up through Angel Funds, as Angel  Funds can accept contribution from more  number of investors (as against existing limit)  for investment in a start-up. One of the core principles of SEBI is to ensure sustainable  capital formation across securities market and facilitate  investments into start-ups. At the same time, there is  also a need to ensure that only those investors with  risk capability are shown offers to invest in unlisted  start-ups through Angel Funds. Considering the same,  SEBI (Alternative Investment Funds) Regulations were  amended to streamline the regulatory framework  for Angel Funds with respect to their fundraising  processes, investment conditions, operational aspects  and governance. Some of the key features of the revised  regulatory framework for Angel Funds are as under – (iv) Enabling follow on investment in an investee  company which is no longer a start-up, so  that Angel Investors can preserve the value  of their initial investments made in such  companies through Angel Funds. (v)  Removal of maximum 5-year limit for drawing  down capital from an investor, so that flow of  capital to start-up through Angel Funds is not  affected by any time limit. (a) To ensure that only those investors with risk  capability are shown offers to invest in unlisted  start-ups, Angel Funds have been mandated to  on-board and offer investment opportunities to  Accredited Investors only. Accredited Investors are  those who meet commensurate net-worth and/or  income criteria specified by SEBI, and are certified  by a SEBI recognised accreditation agency after  verification. In addition, SEBI (Issue of Capital and  Disclosure Requirements) Regulations, 2018 have  been amended to include Accredited Investors as  Qualified Institutional Buyers (QIBs) for the limited  purpose of investments in Angel Funds only. This  would allow Angel Funds to show opportunities to  a wider pool of eligible investors, while staying in  conformity with Companies Act, 2013. (c)  Further,  to  ensure  fairness  and  enhance  governance, Angel Funds/their managers have  been mandated to adopt a defined methodology  for allocation of investment opportunity among  consenting investors, adhere to principle of pro- rata rights of investors, have minimum continuing  interest in each investment and carry out annual  audit of compliance with PPM terms, among others. These measures would help rationalise the fund raising  process such that only investors with adequate risk  appetite and appreciation are offered opportunities  for investment in start-ups. It will also strengthen  governance mechanisms, provide investment flexibility  and operational clarity to Angel Funds. In long run, these  norms are envisaged to enhance ease of doing business  for Angel Funds and improve funding for start-ups  through the Angel Funds, with necessary safeguards in  place. (b) On the strength of the aforesaid mandate, various  substantial flexibilities have been extended to  Angel Funds for investment in start-ups as given  below –
+Angel Fund’ is a sub-category of AIFs dedicated for  channelizing risk capital from Angel Investors to start- ups in need. Unlike other AIFs where investment decision  is taken by the Manager, investments by Angel Funds  are made upon obtaining explicit investor consent for  each investment. A review of the regulatory framework  for Angel Funds indicated gaps in operational clarity and  concerns about offering investment opportunities to a  wide range of investors, some of whom may not have  commensurate risk appetite for investment in illiquid  assets. The existing prudential norms and investment  conditions also required revision to provide more  flexibility and ease of operations. (i)  Relaxation of floor and cap for investment in a  start-up from ₹25 lakh - ₹10 crore to ₹10 lakh  – ₹25 crore. Consequently, Angel Funds will  be able to invest higher amounts in a start- up. At the same time, they will also be able to  start investing in a start-up with an amount  as low as ₹10 lakh. (ii)  Removal of concentration limit of 25 per  cent (of total investments) for investment in a  start-up, thereby extending flexibility to Angel  Funds in providing funding to start-ups. (iii) Allowing contributions from more than 200 Accredited Investors in an investment.  This would enhance channelization of capital  to a start-up through Angel Funds, as Angel  Funds can accept contribution from more  number of investors (as against existing limit)  for investment in a start-up. One of the core principles of SEBI is to ensure sustainable  capital formation across securities market and facilitate  investments into start-ups. At the same time, there is  also a need to ensure that only those investors with  risk capability are shown offers to invest in unlisted  start-ups through Angel Funds. Considering the same,  SEBI (Alternative Investment Funds) Regulations were  amended to streamline the regulatory framework  for Angel Funds with respect to their fundraising  processes, investment conditions, operational aspects  and governance. Some of the key features of the revised  regulatory framework for Angel Funds are as under – (iv) Enabling follow on investment in an investee company which is no longer a start-up, so  that Angel Investors can preserve the value  of their initial investments made in such  companies through Angel Funds. (v)  Removal of maximum 5-year limit for drawing  down capital from an investor, so that flow of  capital to start-up through Angel Funds is not  affected by any time limit. (a) To ensure that only those investors with risk capability are shown offers to invest in unlisted  start-ups, Angel Funds have been mandated to  on-board and offer investment opportunities to  Accredited Investors only. Accredited Investors are  those who meet commensurate net-worth and/or  income criteria specified by SEBI, and are certified  by a SEBI recognised accreditation agency after  verification. In addition, SEBI (Issue of Capital and  Disclosure Requirements) Regulations, 2018 have  been amended to include Accredited Investors as  Qualified Institutional Buyers (QIBs) for the limited  purpose of investments in Angel Funds only. This  would allow Angel Funds to show opportunities to  a wider pool of eligible investors, while staying in  conformity with Companies Act, 2013. (c)  Further,  to  ensure  fairness  and  enhance  governance, Angel Funds/their managers have  been mandated to adopt a defined methodology  for allocation of investment opportunity among  consenting investors, adhere to principle of pro- rata rights of investors, have minimum continuing  interest in each investment and carry out annual  audit of compliance with PPM terms, among others. These measures would help rationalise the fund raising  process such that only investors with adequate risk  appetite and appreciation are offered opportunities  for investment in start-ups. It will also strengthen  governance mechanisms, provide investment flexibility  and operational clarity to Angel Funds. In long run, these  norms are envisaged to enhance ease of doing business  for Angel Funds and improve funding for start-ups  through the Angel Funds, with necessary safeguards in  place. (b) On the strength of the aforesaid mandate, various substantial flexibilities have been extended to  Angel Funds for investment in start-ups as given  below –
 The reporting framework for AIFs was revised with a  view to enhance efficiency, reduce compliance burden,  and improve data relevance. As an ease of doing business  measure for AIFs, the quarterly reporting format has  been substantially condensed and simplified, resulting  in a reduction of approximately 53 per cent in data  points compared to the earlier format. SEBI has also introduced a comprehensive annual reporting format where comprehensive submissions will be required to be made by AIFs. Overall, the above rationalization shall result in reduction of data points by 35 per cent. The first annual report, covering 2025-26, is due by May 31, 2026.
 A. Review of Mutual Funds Regulations, 1996: Following a comprehensive review of the Mutual Funds regulatory framework, SEBI introduced the SEBI (Mutual Funds) Regulations, 2026 to simplify compliance, improve readability and strengthen investor protection (Box 5.1).
 B. Introduction of Incentive Framework for Mutual Fund Distributors: SEBI introduced an incentive structure for mutual fund distributors to encourage participation from new women investors (identified via new PAN). Aligned with the B30 incentive framework, this includes a cap of up to one per cent of eligible investments, subject to an overall limit of ₹2,000 per investor. This initiative is aimed at gender inclusion and financial awareness within the mutual fund industry.
@@ -94,9 +94,11 @@ v. Review of conditions for enhanced borrowings beyond 49 per cent by InvITs
 ii. Harmonizing the disclosure and offer procedures with those of a Follow-on Public Offer.
 vi. Timeline for filling up of vacancy in the office of the Board of Directors of Manager of REIT (including SM REIT)/Investment Manager of InvIT was aligned with LODR Regulations, providing a time period of three months to manager of REIT/ investment manager of InvIT to fill any vacancy on its Board of Directors (other than a vacancy arising due to expiration of the term of office of the director)
 J. Review of Financial Information Disclosures: SEBI vide circulars dated May 07, 2025 revised Chapter 3 and Chapter 4 of the Master Circular for REITs and InvITs. The chapters dealt with (a) disclosure of financial information in offer document/placement memorandum (b) continuous disclosures and compliances. The standardized reporting formats benefits issuer (i.e. REITs and InvITs) as well as investors (in the form of better informed investment decisions).
-vii. Permitting adjustment of negative cash flows at HoldCos against distributions received from SPV for calculating net distributable cash flows; and
+vii. Permitting adjustment of negative cash
+flows at HoldCos against distributions received from SPV for calculating net distributable cash flows; and
 K. Investor Protection for InvITs and REITs: The following amendments were made to InvIT regulations and REIT Regulations respectively
-viii. Alignment of minimum allotment lot for primary market with the trading lot size
+viii. Alignment of minimum allotment lot for
+primary market with the trading lot size
 to enhance investor protection for InvITs and REITs:
 i. List of services provided to investors and their legal rights.
 i. Restricting investment in unlisted equity shares of companies by REITs except for its HoldCos/SPVs
@@ -106,9 +108,9 @@ ii. Expanding the roles and responsibilities of trustee for REITs, InvITs and SM
 5.5.2  Market Activity and Trends Observed
 As on March 31, 2026, the number of registered InvITs increased to 28 (25 listed) compared to 26 in the previous year. Further, the number of registered REITs remained the same at six, however the count of listed REITs rose to five from four. During the same period, InvITs mobilised ₹21,025 crore, marking a 21.3 per cent decrease from ₹26,715 crore mobilized in 2024-25. Whereas, REITs raised ₹9,300 crore through three issues in 2025-26 (Table 5.22 and 5.23).
 L. Review of Investor Charter for REITs and InvITs: There was no single document that clearly outlined the rights and responsibilities of investors of the REIT/InvIT. SEBI vide circulars dated June 12, 2025 introduced a formal Investor Charter for REITs and InvITs. The investor charter inter-alia includes:
-Scheme Category
-No. of Schemes 
+No. of Schemes
 Launched
+Scheme Category
 2024-25
 2025-26
 A. Open-Ended Schemes
@@ -119,14 +121,14 @@ Income/Debt Oriented
 Schemes
 10
 16
-ii. Growth/Equity Oriented 
+ii. Growth/Equity Oriented
 Schemes
 70
 63
 iii. Hybrid Schemes
 12
 15
-M. Streamlining of Mutual Fund Reports/Filings: 
+M. Streamlining of Mutual Fund Reports/Filings:
 As 
 part 
 of 
@@ -136,7 +138,7 @@ compliance simplification measures, SEBI after
 reviewing the reports and filings submitted by 
 mutual funds has discontinued the requirement 
 for AMCs to file 52 reports and notices.
-iv. Solution Oriented 
+iv. Solution Oriented
 Schemes
 3
 0
@@ -161,7 +163,7 @@ applicable NAV for repurchase of units in these
 schemes was extended from existing 3 PM to 
 7 PM, applicable only for repurchase of units 
 received through online mode.
-ii. Growth/Equity Oriented 
+ii. Growth/Equity Oriented
 Schemes
 0
 0
@@ -182,18 +184,18 @@ Fund of Funds Schemes
 Table 5.1: Number of Mutual Funds Registered
 Private Sector Mutual Funds
 Public Sector Mutual Funds
-Grand 
-Total
-Open
-Close
-Interval
-Total
-Open
-Close
-Interval
-Total
+Grand
 Financial 
 Year
+Total
+Open
+Close
+Interval
+Total
+Open
+Close
+Interval
+Total
 Mobilisation of Funds
 2024-25
 1,07,54,242
@@ -257,36 +259,36 @@ Net Inflows/Outflows
 -
 98,980
 7,36,021
-Net Inflow 
+Net Inflow
+Net AUM
+Funds 
+Mobilized
+Repurchase/
 (+ve)/
-Outflow 
-(-ve) 
-(₹crore)
-Net AUM 
+Outflow
+No. of 
+Schemes
+No. of 
+Folios
 as on 
 March 
 31, 2026 
 (₹crore)
 (As on March 31, 2026)
 (From April 01, 2025 to March 31, 2026)
-Funds 
-Mobilized 
-(₹crore)
-Repurchase/
-Redemption 
-(₹crore)
-No. of 
-Schemes
-No. of 
-Folios
+Redemption
 Scheme Category
+(₹crore)
+(₹crore)
+(-ve) 
+(₹crore)
 A. Open ended Schemes
 1,865 27,34,52,370
 1,57,48,822
 1,50,10,172
 7,38,649
 73,48,614
-i. Income/Debt Oriented 
+i. Income/Debt Oriented
 Schemes
 335
 82,84,434
@@ -294,7 +296,7 @@ Schemes
 1,38,97,332
 22,162
 16,51,502
-ii. Growth/Equity Oriented 
+ii. Growth/Equity Oriented
 Schemes
 568
 18,27,31,153
@@ -330,7 +332,7 @@ B. Close Ended Schemes
 3,396
 -2,587
 24,732
-i. Income/Debt Oriented 
+i. Income/Debt Oriented
 Schemes
 77
 2,33,813
@@ -338,7 +340,7 @@ Schemes
 3,115
 -2,306
 21,174
-ii. Growth/Equity Oriented 
+ii. Growth/Equity Oriented
 Schemes
 13
 2,47,165
@@ -360,7 +362,7 @@ C. Interval Schemes
 42
 -42
 30
-i. Income/Debt Oriented 
+i. Income/Debt Oriented
 Schemes
 3
 911
@@ -368,7 +370,7 @@ Schemes
 42
 -42
 30
-ii. Growth/Equity Oriented 
+ii. Growth/Equity Oriented
 Schemes
 -
 -
@@ -411,28 +413,28 @@ lakh crore the previous year (Table 5.5). During
 Equity
 Debt
 Total
-Financial 
+Financial
+Net 
+Purchase/
+Net 
+Purchase/
+Net 
+Purchase/
+Gross 
+Purchase
+Gross
+Gross 
+Purchase
+Gross
+Gross 
+Purchase
+Gross
 Year
-Net 
-Purchase/
 Sales
-Net 
-Purchase/
 Sales
-Net 
-Purchase/
 Sales
-Gross 
-Purchase
-Gross 
 Sales
-Gross 
-Purchase
-Gross 
 Sales
-Gross 
-Purchase
-Gross 
 Sales
 2024-25
 30,80,655
@@ -454,23 +456,23 @@ Sales
 83,76,225
 80,68,819
 3,07,407
-Annual Return Range 
-(per cent)
 No. of schemes
+Annual Return Range
+(per cent)
 2024-25
 2025-26
 from -5 to <=0
 172
 492
-Financial 
+Financial
+from 0 to <=5
+218
+373
 Year
 Equity
 Debt
 Others
 Total
-from 0 to <=5
-218
-373
 from 5 to <=10
 852
 539
@@ -487,56 +489,56 @@ from 5 to <=10
 24,33,747
 4,62,154
 75,80,884
+Percentage 
+to Total Net
 Category
 Year 
 (As on March 31)
 No. of Folios
-Percentage to 
-Total Folios
+Percentage to
 AUM 
 (₹crore)
-Percentage 
-to Total Net 
+Total Folios
 Assets
-Individuals
 2024-25
 22,84,44,305 
 97.4 
 38,17,886 
 58.1
+Individuals
 2025-26
 26,75,31,378 
 97.7 
 42,96,350
 58.3
-NRIs/OCBS
 2024-25
 40,20,149
 1.7 
  2,59,788 
 4.0
+NRIs/OCBS
 2025-26
  47,10,893 
 1.7 
  2,88,189
 3.9
-FPIs
 2024-25
 196 
 0.0 
  3,952 
 0.1
+FPIs
 2025-26
 299 
 0.0 
  3,224 
 0.0
-Corporates/Institutions/Others
 2024-25
  20,43,421 
 0.9 
 24,92,662 
 37.9
+Corporates/Institutions/Others
 2025-26
  16,91,689 
 0.6 
@@ -567,21 +569,21 @@ Total
 1,41,55,550
 3,38,77,743
 6,14,05,970
-Gross Inflows 
-through SIPs
+Gross Inflows
 Net Inflows 
 through SIPs
+No. of contributing
 Average Net 
-Monthly Inflows 
-(₹crore)
-(₹crore)
-(₹crore)
-No. of contributing 
-SIP Accounts 
-(in lakh)
-Financial 
+Monthly Inflows
+Financial
+AUM through SIPs
+through SIPs
+SIP Accounts
 Year
-AUM through SIPs 
+(₹crore)
+(in lakh)
+(₹crore)
+(₹crore)
 (₹crore)
 2024-25
 1,005
@@ -595,8 +597,8 @@ AUM through SIPs
 3,49,589
 1,96,957
 16,413
-Folio Value (₹)
 Number of SIP Folios
+Folio Value (₹)
 2024-25
 2025-26
 less than ₹500
@@ -624,7 +626,7 @@ in 2025-26 from 0.002 per cent in the previous
 year.
 Year
 Unclaimed 
-Redemption Amount 
+Redemption Amount
 Unclaimed 
 Dividend Amount
 2024-25
@@ -633,30 +635,30 @@ Dividend Amount
 2025-26
  1,122 
 2,689
-Per cent of Default 
-and Restructured 
-Amount to Total 
-Debt Schemes 
-AUM
+Per cent of Default
 Default and 
-Restructured 
-Amount** 
-(₹crore)
-Total (Cumulative) 
+Restructured
+Total (Cumulative)
+Outstanding
+No. of 
+Instances of
+No. of 
+Instances of 
+Restructuring
+and Restructured
 Amount 
-Recovered@ after 
-Default (₹crore)
-Outstanding 
+Recovered@ after
 Default and 
 Restructured 
 Amount (₹crore)
 Year
-No. of 
-Instances of 
+Amount to Total
+Amount**
 Defaults
-No. of 
-Instances of 
-Restructuring
+Debt Schemes
+(₹crore)
+Default (₹crore)
+AUM
 2024-25
 2 
 - 
@@ -683,8 +685,7 @@ fund distributors grew from 1,78,289 as of
 March 31, 2025, to 1,98,873 by March 31, 2026 
 (Table 5.14).
 5.2 ALTERNATIVE INVESTMENT FUNDS
-No. of AIFs registered 
-as on
+No. of AIFs registered
 A. 
 Category-wise Registration of AIFs: As of March 
 31, 2026, the total number of registered AIFs 
@@ -692,10 +693,11 @@ rose to 1,829, up from 1,526 the previous year
 (Table 5.15). Year-on-year, Category I, II, and III 
 AIFs saw registrations grow by 17.1 per cent, 
 18.2 per cent, and 26.5 per cent, respectively.
+as on
 Category of AIFs
-March 31, 
+March 31,
 2025
-March 31, 
+March 31,
 2026
 Category I - Total
 321 
@@ -759,17 +761,17 @@ were invested in unlisted equity shares, equity-
 Type of AIF
 As on March 31, 2025
 As on March 31, 2026
-Commitments 
-Raised
+Commitments
 Funds 
 Raised
-Investments 
+Investments
+Commitments
+Funds 
+Raised
+Investments
+Raised
 Made
-Commitments 
 Raised
-Funds 
-Raised
-Investments 
 Made
 Category I Total
  89,083 
@@ -845,8 +847,7 @@ Grand Total
 Type of Instruments
 As on March 31, 2025
 As on March 31, 2026
-Funds Invested 
-(₹crore)
+Funds Invested
 Share 
 (per cent)
 Funds 
@@ -854,6 +855,7 @@ Invested
 (₹crore)
 Share 
 (per cent)
+(₹crore)
 Unlisted Equity Shares/Equity Linked Instruments/ 
 LLP Interest
 2,07,292 
@@ -898,17 +900,17 @@ Total
 100
 Category of AIF
 Investments 
-made in Medium 
-Enterprises
+made in Medium
 Investments 
-made in Micro 
-Enterprises
+made in Micro
 Investments 
-made in Small 
-Enterprises
-Investments 
+made in Small
+Investments
 made in 
 Start-ups
+Enterprises
+Enterprises
+Enterprises
 Category I Total
 302
 418
@@ -950,15 +952,15 @@ Grand Total
 1,186
 20,029
 Cancellation/
-Surrender during 
-2025-26
+Surrender during
 Type of Intermediary
-Registered as on 
+Registered as on
+New Registrations
+Registered as on
 March 31, 2025
-New Registrations 
 during 2025-26
-Registered as on 
 March 31, 2026
+2025-26
 Portfolio Managers
 472
 49
@@ -1011,9 +1013,9 @@ EPFO/PFs)
 3,19,639 3,05,562
 6,283
 41,41,718
-Year
 Discretionary (₹crore)
 Non-Discretionary (₹crore)
+Year
 Inflow
 Outflow
 Net Inflow (+ve)/
@@ -1076,24 +1078,24 @@ Assets under Management (₹crore)
 6,37,290
 359
 853
-Application 
+Application
+Median Time 
+for processing
+Application
+Registration
 Rejected/
 Returned/
 Withdrawn
-Median Time 
-for processing 
-application (in 
-working days)
-Application 
-Received 
-Registration 
-Granted
-Type
-Balance Carry 
-Forward from 
-March 31, 2025
+Balance Carry
 Pending as on 
 March 31, 2026
+Received
+Granted
+Type
+Forward from 
+March 31, 2025
+application (in 
+working days)
 During 2025-26
 InvITs
 0

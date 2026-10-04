@@ -5,7 +5,7 @@ Pipeline-normalized terms: financi, stabil
 Matched terms: financi, stabil
 Missing terms: (none)
 Results: 25 content unit(s) in 9 document(s)
-Execution time: 372.893 ms
+Execution time: 109.590 ms
 
    1. score=4.2386 D03 | p4 | 3.7 | D03_P004_SEC_3_7_PAR001
       matched: financi, stabil

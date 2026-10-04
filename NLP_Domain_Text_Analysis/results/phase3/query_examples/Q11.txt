@@ -5,7 +5,7 @@ Pipeline-normalized terms: inflation, disinflation
 Matched terms: disinfl, inflat
 Missing terms: (none)
 Results: 50 content unit(s) in 7 document(s)
-Execution time: 272.722 ms
+Execution time: 223.746 ms
 
    1. score=2.2386 D01 | p24 | 1.29 | D01_P024_SEC_1_29_PAR001
       matched: disinfl, inflat

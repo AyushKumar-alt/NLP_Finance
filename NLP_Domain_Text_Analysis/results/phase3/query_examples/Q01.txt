@@ -5,7 +5,7 @@ Pipeline-normalized terms: inflat
 Matched terms: inflat
 Missing terms: (none)
 Results: 50 content unit(s) in 7 document(s)
-Execution time: 476.482 ms
+Execution time: 230.182 ms
 
    1. score=1.2603 D05 | p7 | 5.9 | D05_P007_SEC_5_9_PAR002
       matched: inflat

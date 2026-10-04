@@ -67,6 +67,7 @@ Tier III: Low strategic urgency or high-cost substitution
 16.39. For these items, indigenisation may be unwarranted. Risk may be better managed through diversified sourcing, inventory buffers, or contractual safeguards rather than domestic production. Attempting to indigenise such inputs risks raising downstream costs, weakening export competitiveness, and converting resilience policy into implicit taxation of the manufacturing ecosystem. In such cases, restraint itself is a form of strategic discipline.
 From Import Substitution to Strategic Resilience and Strategic Indispensability
 16.40. These tiers are not static. Items may move across tiers as technologies mature, costs decline, or geopolitical conditions change. What matters is that indigenisation proceeds sequentially rather than simultaneously, with policy effort concentrated where strategic returns are highest. Where feasible, indigenisation should culminate in export capability, which is the distinguishing feature of intelligent import substitution.
+A Tiered Framework for Strategic Indigenisation
 A new National Input Cost Reduction Strategy: competitiveness as infrastructure
 16.41. For export discipline to work in India’s favour, competitiveness must be achievable and affordable. Resilience strategies can fail if they raise costs across the economy. A repeated lesson from successful industrialisers is that protecting final goods while leaving input costs high makes it harder to scale production and compete internationally. Affordable and reliable inputs are foundational to competitiveness. For India, if indigenisation is to strengthen resilience without eroding exports, it must be paired with systematic input-cost reduction. This is the rationale for a National Input Cost Reduction Strategy.
 16.42. Input costs of raw materials, intermediates, energy, logistics, and compliance shape competitiveness across sectors. Unlike final-goods protection, which benefits a narrow set of producers, elevated input costs impose diffuse and persistent penalties on downstream manufacturing, exports, and employment. Thin margins in export- oriented manufacturing, high sensitivity among MSMEs, and weaker incentives to invest in upgrading make this constraint binding. In this sense, input costs function like infrastructure, as they may raise transaction costs across the economy.
@@ -95,7 +96,7 @@ Vietnam’s recent manufacturing success underscores the importance of continuou
 This approach made Vietnam an attractive destination for global supply chains seeking diversification. While its domestic technological base remains limited, its integration into global manufacturing networks has accelerated learning and capability formation.
 The lesson here is not that protection is unnecessary, but that competitiveness is multi- dimensional. Cost structures, regulatory efficiency, and labour productivity matter as much as tariff policy.
 16.56. Despite their differences, East Asian experiences share a common institutional logic, i.e., the presence of an entrepreneurial state. This does not mean a state that replaces markets, but one that is willing to experiment, take calculated risks, absorb failures, and dynamically reallocate support. This approach becomes especially critical in an environment where policy is made under uncertainty, outcomes cannot be known in advance, and mistakes cannot always be reversed without cost.
-16.57. Three features stand out: i. Outcome-oriented bureaucracy: Officials are evaluated on results, not rule- following.
+16.57. Three features stand out: i. Outcome-oriented bureaucracy: Officials are evaluated on results, not rule-
 ii. Failure tolerance with learning: Errors are acceptable; stagnation is not.
 iii. Credible withdrawal of support: Exit is as important as entry.
 16.58. These features are conspicuously absent in systems where industrial policy has failed. Where bureaucracy is punished for honest failure, risk aversion dominates. Where support cannot be withdrawn, inefficiency is entrenched. In such systems, institutions respond to uncertainty not by learning and adapting, but by avoiding action altogether, weakening state capacity over time.
@@ -105,12 +106,13 @@ From Swadeshi to Strategic Resilience to Strategic Indispensability
 From Import Substitution to Strategic Resilience and Strategic Indispensability
 in terms of making the industry meet world standards. India also needs to build domestic capacity in areas that would make it strategically resilient. Strategic resilience is about building buffers and strengths to withstand external shocks. It means investment in national strength. Intelligent Import Substitution is the first step in investing in national strength. ‘Investment in national strength’ takes us to the next stage of ‘strategic resilience’ and then to the final stage of ‘strategic indispensability.’ Table XVI.1 formalises this distinction by placing import substitution, strategic resilience, and strategic indispensability side by side in terms of their core purpose.
 Dimension Import Substitution Strategic Resilience Strategic Indispensability
-Time Horizon Short-to-medium term industrial policy tool. Medium-to-long term national capability framework.
+Short-to-medium term industrial policy tool.
+Medium-to-long term national capability framework.
 Long-term structural positioning in global value chains and institutions.
 Produce at home: focus on domestic value addition.
 Diversify and secure: mix of domestic, allied, and friendly sources.
 Shape and anchor: build and control critical global interdependencies.
-From Import Substitution to Strategic Resilience and Strategic Indispensability
+Strategic Resilience and Strategic Indispensability
 16.64. Aatmanirbhar Bharat is often discussed as a defensive response to supply chain disruptions, geopolitical tensions, or economic coercion. While resilience is a necessary objective, it is not a sufficient one in itself. A nation that merely absorbs shocks remains reactive. A nation that shapes outcomes becomes influential. This is a higher bar than self-sufficiency and a more demanding aspiration than resilience.
 This distinction between resilience and influence is also reflected in external comparative assessments of economic power in Asia, discussed in Box XVI.2.
 India’s profile in the Index is instructive. India has now reached major power status in Asia, and its overall power continues to grow steadily. For the first time since the Index was launched in 2018, India’s ranking on economic relationships has improved. Notably, India has overtaken China as the leading destination for inward investment in Asia, after the United States, measured on a ten-year cumulative basis. This reflects both the geopolitical diversification of supply chains and India’s growing attractiveness as an investment destination.
@@ -118,6 +120,7 @@ At the same time, the Index highlights persistent gaps. India ranks 3rd in overa
 The picture that emerges is mixed but revealing. India has demonstrated strong resilience and absorptive capacity in the face of global shocks. The next phase of its development challenge is different: to move from being primarily a recipient of stability to becoming a source of stability and opportunity for others.
 This transition from resilience to interdependence is central to India’s journey towards Viksit Bharat. It underscores that competitiveness, export capability, and deep integration into regional and global production networks are essential instruments of influence in a fragmented world.
 16.65. The highest form of economic power is influence exercised without coercion, when others align with our interests because it is in their interest to do so. Strategic indispensability delivers precisely this form of power. With strategic indispensability comes global influence. When global firms rely on Indian production, when supply
+From Import Substitution to Strategic Resilience and Strategic Indispensability
 chains cannot be easily reconfigured without India, and when Indian exports are trusted by default, the country’s voice carries weight beyond its borders. This is the promise of Aatmanirbhar Bharat grounded in strategy.
 16.66. In simple terms, when the world moves from ‘thinking about buying Indian’ to ‘buying Indian without thinking’, India will have attained strategic indispensability. The Prime Minister threw down the gauntlet to the industry in his address to the nation on Independence Day, when he said that Swadeshi meant producing goods of the highest quality at the lowest possible price, so that people would be automatically drawn to buying Indian.
 Manufacturing, Export capability, and currency strength
@@ -220,9 +223,7 @@ can be shaped; national
 power lies in being a 
 node that others cannot 
 bypass.
-Policy Tools Tariffs, local content 
-mandates, subsidies, 
-protective measures.
+Policy Tools Tariffs, local content
 Building horizontal 
 and ecosystem 
 efficiencies to enhance 
@@ -231,16 +232,18 @@ for global dominance
 Risk Focus
 Trade deficit, industrial 
 underdevelopment.
-Systemic vulnerabilities, 
-including energy 
-shocks, pandemics, 
-cyberattacks, and 
-geopolitical coercion.
 Supply chain mapping, 
 redundancy planning, 
 friend-shoring, 
 stockpiling, dual 
 sourcing, R&D security.
+mandates, subsidies, 
+protective measures.
+Systemic vulnerabilities, 
+including energy 
+shocks, pandemics, 
+cyberattacks, and 
+geopolitical coercion.
 Global influence or 
 relevance, over-
 exposure to external 

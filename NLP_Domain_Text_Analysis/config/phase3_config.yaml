@@ -107,44 +107,74 @@ ngrams:
   filter_all_punctuation: true
 
 # --------------------------------------------------------------------------
-# PIPELINE A - stopwords first, then lemmatization
+# PIPELINE A - Custom Tokenizer -> Domain Stopwords -> Lemmatization
 # --------------------------------------------------------------------------
 pipeline_a:
-  name: "Pipeline A - domain-aware stopwords then lemmatization"
+  name: "Pipeline A - Lemmatization (LemmInflect/WordNet)"
   tokenizer: "hybrid"                       # Phase 2 hybrid_tokenize
   date_number_strategy: "typed_protect"     # Phase 2 date_number_tokenizer
   stopword_strategy: "domain_aware"         # Phase 2 stopwords.build_strategies
-  morphology: "lemmatize"                   # Phase 2 lemmatization.lemmatize_view
-  morphology_algorithm: "wordnet_lookup_pos_agnostic"
-  # order decides the sequence of morphology and stopword removal
+  morphology: "lemmatize"                   # Phase 2 lemmatization
+  morphology_algorithm: "lemminflect_rulebased"
   order: ["tokenize", "date_number", "stopwords", "morphology", "pos", "ner", "ngrams"]
-  pos_strategy: "phase2_evidence"           # spaCy tags measured in Phase 2 (V12/V13)
+  pos_strategy: "phase2_evidence"           # spaCy tags measured in Phase 2
   ner_strategy: "phase2_consumed"           # Phase 2 ner_entities.csv + custom_ner_results.csv
   ngram_max: 5
   index_representation: "lemma_terms_with_positions"
   notes: >-
-    Baseline order recommended by the assignment; the Phase 2 order experiment
-    (stopword_removal_then_stemming vs stemming_then_stopword_removal) is the
-    evidence for putting stopword removal before morphology.
+    Pipeline A controlled configuration matching Phase 2 comparison:
+    Custom Tokenization -> Domain-Aware Stopwords -> Lemmatization.
 
-# --------------------------------------------------------------------------
-# PIPELINE B - morphology first (stemming), then stopword removal
-# --------------------------------------------------------------------------
-pipeline_b:
-  name: "Pipeline B - stemming then stopword removal"
+pipeline_a_lemma:
+  name: "Pipeline A - Lemmatization (LemmInflect/WordNet)"
   tokenizer: "hybrid"
   date_number_strategy: "typed_protect"
-  stopword_strategy: "standard_english"
+  stopword_strategy: "domain_aware"
+  morphology: "lemmatize"
+  morphology_algorithm: "lemminflect_rulebased"
+  order: ["tokenize", "date_number", "stopwords", "morphology", "pos", "ner", "ngrams"]
+  pos_strategy: "phase2_evidence"
+  ner_strategy: "phase2_consumed"
+  ngram_max: 5
+  index_representation: "lemma_terms_with_positions"
+  notes: >-
+    Pipeline A controlled configuration matching Phase 2 comparison:
+    Custom Tokenization -> Domain-Aware Stopwords -> Lemmatization.
+
+# --------------------------------------------------------------------------
+# PIPELINE B - Custom Tokenizer -> Domain Stopwords -> Stemming
+# --------------------------------------------------------------------------
+pipeline_b:
+  name: "Pipeline B - Stemming (Snowball English)"
+  tokenizer: "hybrid"
+  date_number_strategy: "typed_protect"
+  stopword_strategy: "domain_aware"
   morphology: "stem"
-  morphology_algorithm: "porter"
-  order: ["tokenize", "date_number", "morphology", "stopwords", "pos", "ner", "ngrams"]
+  morphology_algorithm: "snowball_english"
+  order: ["tokenize", "date_number", "stopwords", "morphology", "pos", "ner", "ngrams"]
   pos_strategy: "phase2_evidence"
   ner_strategy: "phase2_consumed"
   ngram_max: 5
   index_representation: "stem_terms_with_positions"
   notes: >-
-    Tests the effect of changing the processing order: morphology is applied
-    first, so stopword matching happens on stems.
+    Pipeline B controlled configuration matching Phase 2 comparison:
+    Custom Tokenization -> Domain-Aware Stopwords -> Stemming.
+
+pipeline_b_stem:
+  name: "Pipeline B - Stemming (Snowball English)"
+  tokenizer: "hybrid"
+  date_number_strategy: "typed_protect"
+  stopword_strategy: "domain_aware"
+  morphology: "stem"
+  morphology_algorithm: "snowball_english"
+  order: ["tokenize", "date_number", "stopwords", "morphology", "pos", "ner", "ngrams"]
+  pos_strategy: "phase2_evidence"
+  ner_strategy: "phase2_consumed"
+  ngram_max: 5
+  index_representation: "stem_terms_with_positions"
+  notes: >-
+    Pipeline B controlled configuration matching Phase 2 comparison:
+    Custom Tokenization -> Domain-Aware Stopwords -> Stemming.
 
 # --------------------------------------------------------------------------
 # FINAL PIPELINE SELECTION

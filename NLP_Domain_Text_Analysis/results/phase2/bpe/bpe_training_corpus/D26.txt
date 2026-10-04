@@ -1,5 +1,5 @@
 To inform investors against the various types of frauds,  from fraudulent schemes and misleading financial ad- vice, SEBI launched an awareness campaign, popular- ly known as SEBI vs SCAM. The campaign strategically  leverages social media platforms like YouTube, Insta- gram, Facebook, X and WhatsApp to share impactful ed- ucational content. overarching message was to encourage investors to be cautious and research thoroughly before acting on any investment tips. The campaign witnessed the launch of theme based campaigns leveraging on popularity of Bollywood, pop- ular folk tales like Digital villains of India, Akbar-Birbal tales, Scams vs ladders etc., collaborations like “NSE SEBI, in collaboration with MIIs and AMFI, has developed  creative multi-media content such as videos, podcasts,  and infographics to highlight various scams and their  modus operandi. Innovative outreach efforts included an  Augmented Reality Filter Game on Instagram for avoid- ing a scam, the multilingual “Slam the Scam” rap song,  and an “Audio Stories” series, targeting the younger au- dience. Additionally, several notable educational videos  were released on social media cautioning against un- registered investment advisors, fake trading app scams,  phishing links, FPI scams, pump and dump schemes,  finfluencers and deepfake scams, etc. Other important  themes include risks of taking loans for trading, dan- gers of courses promising guaranteed returns, and dis- tinguishing genuine investment advice from fraud. The Ki Paathshaala” on Kaun Banega Crorepati, “Slam the Scams” rap video, digital collaboration with digital cre- ators like Anand Bazar Social for Bangla speaking au- dience, WeAreYuvaa for Gen-Z/Youth and Banda Rupaya for Marathi speaking audience etc. Engaging formats such as memes, gamified quizzes, vox pops, and short awareness challenges further en- hanced public participation. Culturally inspired initia- tives like “Nine Money Mantras” during Navratri and “Financial Lessons with Squid Game” blended entertain- ment with education. Games like Scams and Ladders were designed and published in the newspapers to help investor identify the scams.
-The Problem: Rise of fake trading apps protocol prior to initiating any financial transfer. SEBI  ‘CVV’ is defined as under: In recent times, retail investors have increasingly been  targeted by scammers using spoof or fraudulent trading  applications. These illicit platforms are meticulously  designed to mimic the platforms of well-known, SEBI- registered brokers. Investors often download these  fake applications, believing that their transactions are  being executed within the regulated securities market.  In reality, the funds are stolen by scammers, while the  investments displayed within such applications are  entirely fabricated. C – Check: Use the SEBI Check feature in the Saa₹thi  app to confirm the legitimacy of the recipient bank  account. V – Validate: Ensure the authenticity of UPI ID through  the SEBI Check tool from Saa₹thi app V – Verify: Always look for the “Verified” label on the  google play store before downloading and using any  stock trading application. The Solution: SEBI’s partnership with Google The Goal: Identify Before Investing To combat this, SEBI has collaborated with Google  to introduce a first-of-its-kind “Verified” Label on  the Google Play Store. Now, any stock trading app  that belongs to a genuine, SEBI-registered broker  will display a “Verified” badge. This simple visual tool  allows investors to confirm at a glance that they are  downloading a legitimate app from a regulated entity.  While this has started with stock brokers, the idea is  to expand this verification to other apps, such as those  for mutual funds and investment advisers, in the future. This unique initiative is a major step towards making  the digital space safer. By prioritising the verification of  app’s identity, investors can proactively safeguard their  capital against fraudulent activities. Notification of SEBI as an Authorised Agency MoF, vide gazette notification dated December 8, 2025,  has notified SEBI as an authorised agency under  section 79(3)(b) of the Information Technology Act, 2000  read with rule 3(1)(d) of the Information Technology  (Intermediary Guidelines and Digital Media Ethics Code)  Rules, 2021. The “CVV” Safety Checklist To ensure safety in the digital investment ecosystem,  the investors are encouraged to follow the “CVV” v.  In  order  to  provide  investors  with vii. To enhance digital security for mutual  fund holdings, SEBI introduced a voluntary  debit freeze facility for both demat and  non-demat folios, allowing investors to  prevent unauthorized debits through a  secure locking and unlocking mechanism  managed via the MF Central platform. independent verification of the risk and return metrics claims of IAs, RAs and algorithmic trading providers, PaRRVA for risk-return performance verification was introduced. vi.  In an effort to enhance investor protection viii. To enhance investor convenience and reduce  operational risks, SEBI dispensed with the  issuance of the Letter of Confirmation,  enabling the direct credit of securities into  demat accounts and reducing the service  timeline from approximately 150 days to 30  days. and curb financial fraud, SEBI has advised its regulated/ registered entities to only use the ‘1600’ phone number series exclusively for service and transactional voice calls to their existing customers. This will enhance investor security and minimise the risk of fraud by unscrupulous entities using regular 10 digit numbers.
+The Problem: Rise of fake trading apps protocol prior to initiating any financial transfer. SEBI  ‘CVV’ is defined as under: In recent times, retail investors have increasingly been  targeted by scammers using spoof or fraudulent trading  applications. These illicit platforms are meticulously  designed to mimic the platforms of well-known, SEBI- registered brokers. Investors often download these  fake applications, believing that their transactions are  being executed within the regulated securities market.  In reality, the funds are stolen by scammers, while the  investments displayed within such applications are  entirely fabricated. C – Check: Use the SEBI Check feature in the Saa₹thi  app to confirm the legitimacy of the recipient bank  account. V – Validate: Ensure the authenticity of UPI ID through  the SEBI Check tool from Saa₹thi app V – Verify: Always look for the “Verified” label on the  google play store before downloading and using any  stock trading application. The Solution: SEBI’s partnership with Google The Goal: Identify Before Investing To combat this, SEBI has collaborated with Google  to introduce a first-of-its-kind “Verified” Label on  the Google Play Store. Now, any stock trading app  that belongs to a genuine, SEBI-registered broker  will display a “Verified” badge. This simple visual tool  allows investors to confirm at a glance that they are  downloading a legitimate app from a regulated entity.  While this has started with stock brokers, the idea is  to expand this verification to other apps, such as those  for mutual funds and investment advisers, in the future. This unique initiative is a major step towards making  the digital space safer. By prioritising the verification of  app’s identity, investors can proactively safeguard their  capital against fraudulent activities. Notification of SEBI as an Authorised Agency MoF, vide gazette notification dated December 8, 2025,  has notified SEBI as an authorised agency under  section 79(3)(b) of the Information Technology Act, 2000  read with rule 3(1)(d) of the Information Technology  (Intermediary Guidelines and Digital Media Ethics Code)  Rules, 2021. The “CVV” Safety Checklist To ensure safety in the digital investment ecosystem,  the investors are encouraged to follow the “CVV” v.  In  order  to  provide  investors  with vii. To enhance digital security for mutual fund holdings, SEBI introduced a voluntary  debit freeze facility for both demat and  non-demat folios, allowing investors to  prevent unauthorized debits through a  secure locking and unlocking mechanism  managed via the MF Central platform. independent verification of the risk and return metrics claims of IAs, RAs and algorithmic trading providers, PaRRVA for risk-return performance verification was introduced. vi.  In an effort to enhance investor protection viii. To enhance investor convenience and reduce and curb financial fraud, SEBI has advised operational risks, SEBI dispensed with the  issuance of the Letter of Confirmation,  enabling the direct credit of securities into  demat accounts and reducing the service  timeline from approximately 150 days to 30  days. its regulated/ registered entities to only use the ‘1600’ phone number series exclusively for service and transactional voice calls to their existing customers. This will enhance investor security and minimise the risk of fraud by unscrupulous entities using regular 10 digit numbers.
 8.1.1  Investor education and awareness programmes
 initiatives, both SEBI and MIIs encourage investors
 to practice due diligence before investing and also
@@ -476,9 +476,6 @@ During the last year, two online portals namely SECURE (https://secure.sebi.gov.
 SCORES enables the investor to directly lodge
 the complaints online and such complaints are
 considered as ‘E-complaint’. Also, any physical
-Complaints pending for less than 3 months 1,212 138 1
-Complaints pending for more than 3 months 42 30 0
-Total complaints pending 1,254 168 1
 8.3.3  Status of Investor Grievances Received,
 The status of investor grievances/alerts through
 launched. The SECURE portal, launched on April
@@ -494,13 +491,18 @@ inputs/alerts received during the year increased to
 860 from 440 during the last year. Any regulatory
 actions pursuant to the scrutiny of the inputs/alerts
 received are published on the SEBI website.
+Complaints pending for less than 3 months 1,212 138 1
+unfreezing of account received via email. iv. # Pending Actionable Grievances with entities,
+Complaints pending for more than 3 months 42 30 0
+designated bodies, SEBI and investor awaiting review v. ~ Grievance disposed during 2025-26 include pending
+Total complaints pending 1,254 168 1
+actionable grievance from 2024-25.
 Chapter 8 Protection of the Investor Interests
 The category-wise and region-wise distribution of the complaints received and redressed in 2025-26 are given in Table 8.4 and 8.5 respectively.
 28 pending cases as compared to 55 at the end of previous year. The details of complaints received, resolved and pending are given in Table 8.6.
 during previous year. The resolution of 13,223 complaints resulted in pendency of 1,089 complaints (Table 8.7).
 The number of complaints against listed companies received by the stock exchanges also increased marginally to 13,621 cases, up from 12,473 received
 The details of complaints/arbitration cases with stock exchanges related to other intermediaries through SMART ODR is given in Table 8.8.
-Chapter 8 Protection of the Investor Interests
 8.4.1  Investor Protection and Education Fund of SEBI
 The details of the inflow and utilization of the IPEF of
 SEBI is provided in Table 8.9 and 8.10, respectively.
@@ -509,6 +511,7 @@ used for compensating investors if a defaulting member’s assets are insufficie
 A brief account of the inflow and utilization of
 Investor Protection and Education Funds (IPEFs) of
 SEBI and MIIs is given below:
+Chapter 8 Protection of the Investor Interests
 Stock exchanges and depositories are mandated
 to establish an Investor Protection Fund (IPF) to
 support market integrity, investor welfare and
@@ -523,47 +526,47 @@ State/UT
  RISA 
  AMFI and AMCs 
  Investor 
-Associations 
- Visit to SEBI/
-Visit by SEBI 
- Total
+Associations
+Visit to SEBI/
+Total
 Sr. 
 No.
-No. of 
-Pro-
-grams
+Visit by SEBI
+No. of
 No. of 
 Partici-
+No. of
+No. of 
+Partici-
+No. of
+No. of 
+Partici-
+No. of
+No. of 
+Partici-
+No. of
+No. of 
+Partici-
+No. of
+No. of 
+Partici-
+Pro-
+grams
+Pro-
+grams
+Pro-
+grams
+Pro-
+grams
+Pro-
+grams
+Pro-
+grams
 pants
-No. of 
-Pro-
-grams
-No. of 
-Partici-
 pants
-No. of 
-Pro-
-grams
-No. of 
-Partici-
 pants
-No. of 
-Pro-
-grams
-No. of 
-Partici-
 pants
-No. of 
-Pro-
-grams
-No. of 
-Partici-
 pants
-No. of 
-Pro-
-grams
-No. of 
-Partici-
 pants
 1 
  Maharashtra 
@@ -845,7 +848,7 @@ pants
 662
 34,262
 22 Jammu and 
-Kashmir 
+Kashmir
 595
 26,475
 22
@@ -1017,7 +1020,7 @@ and Diu
 86
 4,127
 35 Andaman and 
-Nicobar Islands 
+Nicobar Islands
 33
 1,590
 2
@@ -1101,9 +1104,7 @@ Pending Actionable Grievances#
 SECURE
 56
 1
-Particulars
 Total Pending Actionable Cases
-(As on March 31, 2026)
 Sr. 
 No. Category
 SCORES SECURE
@@ -1144,9 +1145,9 @@ Exchange
 8
 Listed Company-IPO/Prelisting /Offer 
 Document (Debenture and Bonds)
+8.3.5  SEBI toll-free helpline
 1,216
 NA
-8.3.5  SEBI toll-free helpline
 SEBI, in 2011, had launched toll-free helpline service 
 numbers 1800 266 7575/1800 22 7575 to facilitate 
 replies to various queries of the general public on 
@@ -1224,8 +1225,6 @@ NA
 NA
 26 Small and Medium Real Estate 
 Investment Trusts (SM REITs)
-37
-NA
 8.3.6  Complaints and Arbitration Cases Against 
 Trading Members
 During 2025-26, the number of complaints received 
@@ -1235,6 +1234,8 @@ while the number of complaints pending increased
 marginally to 1,911 from 1,435 at the end of previous 
 year. This increase is majorly on account of increase 
 in service related complaints. In addition, 299 cases
+37
+NA
 27 Category 1 Alternative Investment Fund
 29
 NA
@@ -1262,9 +1263,9 @@ Total
 320
 for arbitration were received as compared to 288
 in the previous year, however, there were only
-Region
 SCORES
 SECURE
+Region
 Received Redressed
 Received Redressed
 Head Office Region (Maharashtra, Diu & Daman)
@@ -1464,8 +1465,8 @@ B. Arbitration Cases
 36
 8
 promote investor education. Apart from these
-Particulars
 As at end of
+Particulars
 common objectives, IPF of stock exchanges is also
 2024-25
 2025-26
@@ -1482,7 +1483,7 @@ March
 b. Other Receipts
  453.1 
  399.5
-C. Utilisation/Expenses incurred from 
+C. Utilisation/Expenses incurred from
 the Fund (a+b+c)
  92.5 
  91.3
@@ -1520,7 +1521,7 @@ Investor Protection Fund of Depositories
 Utilization of IPEF
 2024-25
 2025-26
-C. Utilisation/Expenses incurred from 
+C. Utilisation/Expenses incurred from
 the Fund
  21.6 
  32.52

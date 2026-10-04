@@ -1,4 +1,4 @@
-﻿"""Run the Phase 3 retrieval subsystem against the Phase 4 judgments.
+"""Run the Phase 3 retrieval subsystem against the Phase 4 judgments.
 
 The evaluator never re-implements ranking, tokenization or boolean logic. It
 calls :class:`src.phase3.retrieval.RetrievalEngine`, takes the ranking it
@@ -35,8 +35,10 @@ from .metrics import (
     aggregate_at_k,
     average_precision,
     evaluate_ranking,
+    ndcg_at_k,
     precision_at_k,
     recall_at_k,
+    reciprocal_rank,
 )
 from .relevance import RelevanceStore
 
@@ -166,11 +168,14 @@ def evaluate_query(
         "precision": counts.precision,
         "recall": counts.recall,
         "f1": counts.f1,
-        "average_precision": average_precision(head, labels),
+        "average_precision": average_precision(head, labels, counts.relevant_total),
+        "reciprocal_rank": reciprocal_rank(head, labels),
     }
-    for k in k_values:
+    all_k = sorted(set(list(k_values) + [1, 3, 5, 10]))
+    for k in all_k:
         metrics[f"precision_at_{k}"] = precision_at_k(head, labels, k)
         metrics[f"recall_at_{k}"] = recall_at_k(head, labels, k, counts.relevant_total)
+        metrics[f"ndcg_at_{k}"] = ndcg_at_k(head, labels, k, counts.relevant_total)
     result.metrics = metrics
 
     # --- full ranking view ------------------------------------------------

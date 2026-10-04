@@ -128,11 +128,13 @@ Equity
 Debt
 -124
 -595
-Mutual 
-fund
+PRIMARY MARKET
+AND OTHERS
+Mutual
 Hybrid
 -9
 -56
+fund
 Solution Oriented
 -
 -3
@@ -150,21 +152,21 @@ No.
 Country
 No. of FPIs as on
 AUC as on (₹crore)
-March 31, 
+March 31,
 2025
-March 31, 
+March 31,
 2026
 Change %
-March 31, 
+March 31,
 2025
-March 31, 
+March 31,
 2026
 Change %
 Share (%) 
-as on Mar 
+as on Mar
+Share (%) 
+as on Mar
 31, 2025
-Share (%) 
-as on Mar 
 31, 2026
 1
 USA
@@ -287,18 +289,18 @@ Total
 100
 Year
 Upper Limit
-(A)
 Investment
-(B)
 Unutilised Auctioned 
 Limits available with FPIs
-(C)
 Total Investment
-(D)=(B)+(C)
 % of Limits Utilised
-(E)
 Limit Available 
 for Investment
+(A)
+(B)
+(D)=(B)+(C)
+(E)
+(C)
 (F)
 2024-25
 7,63,503 
@@ -371,22 +373,22 @@ Others
 Total
 47,665
 64,745
-As at the 
-end of
-Notional Value 
-of ODIs
-Notional Value 
-of ODIs on 
-Equity
+As at the
+Notional Value
+Notional Value
 Notional Value 
 of ODIs on Debt
 Notional 
-Value of ODIs 
-on Hybrid 
-Securities
+Value of ODIs
 AUC of FPIS
 Notional Value 
-of ODIs as a % of 
+of ODIs as a % of
+end of
+of ODIs
+of ODIs on
+Equity
+on Hybrid 
+Securities
 AUC of FPIs
 2024-25
 1,35,764

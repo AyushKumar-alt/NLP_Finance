@@ -120,7 +120,6 @@ few selected categories of the retail investor-facing
 • Visual Assurance: When making a payment, investors will see a thumbs-up icon inside a green triangle on their app’s confirmation screen. This icon only needs to be trusted when shown in the beneficiary (receiver’s) name confirmation screen on the UPI app, and not inside the UPI QR code being shown for the payment. The absence of this icon serves as a critical warning that the recipient may be an unauthorized entity.
 intermediaries through the verified UPI IDs during
 October 2025 to March 2026.
-No. of Transactions Total Amount (₹ crore)
 Mutual Funds 70,36,111 8,475
 Research Analysts 2,52,653 107
 Investment Advisors 56,725 19

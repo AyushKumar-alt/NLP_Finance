@@ -1,0 +1,112 @@
+[
+  {
+    "query_type": "keyword",
+    "query_text": "inflation",
+    "count_a": 50,
+    "count_b": 50,
+    "top_a": "D05_P007_SEC_5_9_PAR002 (score 1.2603, doc D05, section: 'DOMESTIC INFLATION')",
+    "top_b": "D05_P007_SEC_5_9_PAR002 (score 1.2603, doc D05, section: 'DOMESTIC INFLATION')",
+    "top_id_a": "D05_P007_SEC_5_9_PAR002",
+    "top_id_b": "D05_P007_SEC_5_9_PAR002",
+    "differ": false
+  },
+  {
+    "query_type": "keyword",
+    "query_text": "GDP",
+    "count_a": 50,
+    "count_b": 50,
+    "top_a": "D02_P041_SEC_2_56_PAR002 (score 1.2500, doc D02, section: 'CONCLUSION AND OUTLOOK')",
+    "top_b": "D02_P041_SEC_2_56_PAR002 (score 1.2500, doc D02, section: 'CONCLUSION AND OUTLOOK')",
+    "top_id_a": "D02_P041_SEC_2_56_PAR002",
+    "top_id_b": "D02_P041_SEC_2_56_PAR002",
+    "differ": false
+  },
+  {
+    "query_type": "keyword",
+    "query_text": "securities",
+    "count_a": 50,
+    "count_b": 50,
+    "top_a": "D21_BOX009 (score 1.2386, doc D21, section: 'Municipal Bonds')",
+    "top_b": "D21_BOX009 (score 1.2386, doc D21, section: 'Municipal Bonds')",
+    "top_id_a": "D21_BOX009",
+    "top_id_b": "D21_BOX009",
+    "differ": false
+  },
+  {
+    "query_type": "phrase",
+    "query_text": "fiscal deficit",
+    "count_a": 29,
+    "count_b": 29,
+    "top_a": "D02_BOX017 (score 4.3010, doc D02, section: 'Central Government Debt')",
+    "top_b": "D02_BOX017 (score 4.3010, doc D02, section: 'Central Government Debt')",
+    "top_id_a": "D02_BOX017",
+    "top_id_b": "D02_BOX017",
+    "differ": false
+  },
+  {
+    "query_type": "phrase",
+    "query_text": "repo rate",
+    "count_a": 7,
+    "count_b": 7,
+    "top_a": "D03_P001_UNKNOWN_PAR002 (score 4.1747, doc D03, section: 'UNKNOWN')",
+    "top_b": "D03_P001_UNKNOWN_PAR002 (score 4.1747, doc D03, section: 'UNKNOWN')",
+    "top_id_a": "D03_P001_UNKNOWN_PAR002",
+    "top_id_b": "D03_P001_UNKNOWN_PAR002",
+    "differ": false
+  },
+  {
+    "query_type": "phrase",
+    "query_text": "non-performing assets",
+    "count_a": 4,
+    "count_b": 4,
+    "top_a": "D03_P013_SEC_3_20_PAR001 (score 4.1945, doc D03, section: 'FINANCIAL INTERMEDIATION')",
+    "top_b": "D03_P013_SEC_3_20_PAR001 (score 4.1945, doc D03, section: 'FINANCIAL INTERMEDIATION')",
+    "top_id_a": "D03_P013_SEC_3_20_PAR001",
+    "top_id_b": "D03_P013_SEC_3_20_PAR001",
+    "differ": false
+  },
+  {
+    "query_type": "boolean",
+    "query_text": "inflation AND growth",
+    "count_a": 26,
+    "count_b": 27,
+    "top_a": "D05_P019_SEC_5_35_PAR001 (score 2.2698, doc D05, section: '(Jan 2014 \u2013 Dec 2025)')",
+    "top_b": "D05_P019_SEC_5_35_PAR001 (score 2.2698, doc D05, section: '(Jan 2014 \u2013 Dec 2025)')",
+    "top_id_a": "D05_P019_SEC_5_35_PAR001",
+    "top_id_b": "D05_P019_SEC_5_35_PAR001",
+    "differ": true
+  },
+  {
+    "query_type": "boolean",
+    "query_text": "GDP OR GVA",
+    "count_a": 50,
+    "count_b": 50,
+    "top_a": "D01_P015_SEC_1_19_PAR001 (score 2.1505, doc D01, section: 'TRENDS IN THE DOMESTIC ECONOMY')",
+    "top_b": "D01_P015_SEC_1_19_PAR001 (score 2.1505, doc D01, section: 'TRENDS IN THE DOMESTIC ECONOMY')",
+    "top_id_a": "D01_P015_SEC_1_19_PAR001",
+    "top_id_b": "D01_P015_SEC_1_19_PAR001",
+    "differ": false
+  },
+  {
+    "query_type": "boolean",
+    "query_text": "inflation AND NOT food",
+    "count_a": 50,
+    "count_b": 50,
+    "top_a": "D05_P007_SEC_5_9_PAR002 (score 1.2603, doc D05, section: 'DOMESTIC INFLATION')",
+    "top_b": "D05_P007_SEC_5_9_PAR002 (score 1.2603, doc D05, section: 'DOMESTIC INFLATION')",
+    "top_id_a": "D05_P007_SEC_5_9_PAR002",
+    "top_id_b": "D05_P007_SEC_5_9_PAR002",
+    "differ": false
+  },
+  {
+    "query_type": "boolean",
+    "query_text": "(RBI OR SEBI) AND regulation",
+    "count_a": 50,
+    "count_b": 50,
+    "top_a": "D10_P027_SEC_10_68_PAR001 (score 3.1505, doc D10, section: 'INTRODUCTION')",
+    "top_b": "D03_P053_SEC_3_94_PAR001 (score 3.1747, doc D03, section: 'Foreign Portfolio Investment')",
+    "top_id_a": "D10_P027_SEC_10_68_PAR001",
+    "top_id_b": "D03_P053_SEC_3_94_PAR001",
+    "differ": true
+  }
+]

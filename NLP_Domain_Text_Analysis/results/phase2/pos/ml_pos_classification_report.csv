@@ -1,15 +1,1 @@
 method,label,precision,recall,f1,support,default_spacy_precision,default_spacy_recall,default_spacy_f1
-custom_ml_pos,ADJ,1,0.7692,0.8696,13,1,1,1
-custom_ml_pos,ADP,0.9,0.9,0.9,10,0.9,0.9,0.9
-custom_ml_pos,ADV,1,0.7143,0.8333,7,1,0.7143,0.8333
-custom_ml_pos,AUX,1,1,1,6,1,1,1
-custom_ml_pos,CCONJ,1,1,1,6,1,1,1
-custom_ml_pos,DET,1,0.75,0.8571,8,1,0.875,0.9333
-custom_ml_pos,NOUN,0.881,0.9487,0.9136,39,0.9744,0.9744,0.9744
-custom_ml_pos,NUM,1,0.6667,0.8,3,1,1,1
-custom_ml_pos,PART,0.6667,0.6667,0.6667,3,0.75,1,0.8571
-custom_ml_pos,PRON,0,0,0,1,0,0,0
-custom_ml_pos,PROPN,0.2857,1,0.4444,2,1,1,1
-custom_ml_pos,PUNCT,0.9412,1,0.9697,16,1,1,1
-custom_ml_pos,SCONJ,0.6667,1,0.8,2,0.6667,1,0.8
-custom_ml_pos,VERB,0.8462,0.7857,0.8148,14,0.9333,1,0.9655

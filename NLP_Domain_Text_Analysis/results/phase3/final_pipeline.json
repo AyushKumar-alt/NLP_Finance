@@ -1,9 +1,9 @@
 {
   "final_pipeline": "pipeline_b",
-  "final_pipeline_name": "Pipeline B - stemming then stopword removal",
-  "score": 0.827162,
-  "margin_over_runner_up": 0.041666,
-  "reason": "Pipeline B - stemming then stopword removal wins on the weighted score (0.8272 vs 0.7855, margin +0.0417). Decomposition: financial_expression_preservation 3048/3792 = 0.8038 x0.35 = 0.2813; domain_term_recall 101/101 = 1.0000 x0.25 = 0.2500; variant_collapse_rate 7/12 = 0.5833 x0.25 = 0.1458; query_answerability 15/15 = 1.0000 x0.15 = 0.1500. The two pipelines are equal on 3 of 4 criteria; the margin comes from variant_collapse_rate (7/12 = 0.5833 vs 5/12 = 0.4167, +0.1667 x0.25 = +0.0417).",
+  "final_pipeline_name": "Pipeline B - Stemming (Snowball English)",
+  "score": 0.826534,
+  "margin_over_runner_up": 0.0,
+  "reason": "Scores are equal (0.8265) and no tie-breaker separated the pipelines; the lexicographically first pipeline name is kept.",
   "criteria_weights": {
     "financial_expression_preservation": 0.35,
     "domain_term_recall": 0.25,
@@ -20,15 +20,15 @@
   ],
   "scores": {
     "pipeline_a": {
-      "pipeline_name": "Pipeline A - domain-aware stopwords then lemmatization",
-      "total_score": 0.785496,
+      "pipeline_name": "Pipeline A - Lemmatization (LemmInflect/WordNet)",
+      "total_score": 0.680701,
       "criteria": {
         "financial_expression_preservation": {
-          "rate": 0.803797,
+          "rate": 0.802004,
           "weight": 0.35,
-          "weighted": 0.281329,
-          "numerator": 3048,
-          "denominator": 3792
+          "weighted": 0.280701,
+          "numerator": 3042,
+          "denominator": 3793
         },
         "domain_term_recall": {
           "rate": 1.0,
@@ -38,10 +38,10 @@
           "denominator": 101
         },
         "variant_collapse_rate": {
-          "rate": 0.416667,
+          "rate": 0.0,
           "weight": 0.25,
-          "weighted": 0.104167,
-          "numerator": 5,
+          "weighted": 0.0,
+          "numerator": 0,
           "denominator": 12
         },
         "query_answerability": {
@@ -52,20 +52,57 @@
           "denominator": 15
         }
       },
-      "index_terms": 22552,
-      "total_postings": 186189,
-      "processing_time_seconds": 12.616
+      "index_terms": 26155,
+      "total_postings": 195579,
+      "processing_time_seconds": 106.346
     },
-    "pipeline_b": {
-      "pipeline_name": "Pipeline B - stemming then stopword removal",
-      "total_score": 0.827162,
+    "pipeline_a_lemma": {
+      "pipeline_name": "Pipeline A - Lemmatization (LemmInflect/WordNet)",
+      "total_score": 0.680701,
       "criteria": {
         "financial_expression_preservation": {
-          "rate": 0.803797,
+          "rate": 0.802004,
           "weight": 0.35,
-          "weighted": 0.281329,
-          "numerator": 3048,
-          "denominator": 3792
+          "weighted": 0.280701,
+          "numerator": 3042,
+          "denominator": 3793
+        },
+        "domain_term_recall": {
+          "rate": 1.0,
+          "weight": 0.25,
+          "weighted": 0.25,
+          "numerator": 101,
+          "denominator": 101
+        },
+        "variant_collapse_rate": {
+          "rate": 0.0,
+          "weight": 0.25,
+          "weighted": 0.0,
+          "numerator": 0,
+          "denominator": 12
+        },
+        "query_answerability": {
+          "rate": 1.0,
+          "weight": 0.15,
+          "weighted": 0.15,
+          "numerator": 15,
+          "denominator": 15
+        }
+      },
+      "index_terms": 26155,
+      "total_postings": 195579,
+      "processing_time_seconds": 104.553
+    },
+    "pipeline_b": {
+      "pipeline_name": "Pipeline B - Stemming (Snowball English)",
+      "total_score": 0.826534,
+      "criteria": {
+        "financial_expression_preservation": {
+          "rate": 0.802004,
+          "weight": 0.35,
+          "weighted": 0.280701,
+          "numerator": 3042,
+          "denominator": 3793
         },
         "domain_term_recall": {
           "rate": 1.0,
@@ -89,9 +126,46 @@
           "denominator": 15
         }
       },
-      "index_terms": 21305,
-      "total_postings": 191817,
-      "processing_time_seconds": 21.636
+      "index_terms": 21403,
+      "total_postings": 195567,
+      "processing_time_seconds": 12.26
+    },
+    "pipeline_b_stem": {
+      "pipeline_name": "Pipeline B - Stemming (Snowball English)",
+      "total_score": 0.826534,
+      "criteria": {
+        "financial_expression_preservation": {
+          "rate": 0.802004,
+          "weight": 0.35,
+          "weighted": 0.280701,
+          "numerator": 3042,
+          "denominator": 3793
+        },
+        "domain_term_recall": {
+          "rate": 1.0,
+          "weight": 0.25,
+          "weighted": 0.25,
+          "numerator": 101,
+          "denominator": 101
+        },
+        "variant_collapse_rate": {
+          "rate": 0.583333,
+          "weight": 0.25,
+          "weighted": 0.145833,
+          "numerator": 7,
+          "denominator": 12
+        },
+        "query_answerability": {
+          "rate": 1.0,
+          "weight": 0.15,
+          "weighted": 0.15,
+          "numerator": 15,
+          "denominator": 15
+        }
+      },
+      "index_terms": 21403,
+      "total_postings": 195567,
+      "processing_time_seconds": 12.467
     }
   }
 }

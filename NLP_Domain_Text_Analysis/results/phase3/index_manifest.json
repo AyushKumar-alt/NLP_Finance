@@ -1,19 +1,19 @@
 {
   "phase": 3,
   "final_pipeline": "pipeline_b",
-  "pipeline_name": "Pipeline B - stemming then stopword removal",
+  "pipeline_name": "Pipeline B - Stemming (Snowball English)",
   "text_selection_policy": "prose_tables",
   "corpus": {
     "documents": 31,
     "pages": 885,
-    "units_total": 8104,
+    "units_total": 8311,
     "units_by_type": {
       "box": 153,
       "figure": 340,
-      "footnote": 1047,
-      "heading": 360,
-      "other": 349,
-      "paragraph": 5631,
+      "footnote": 1040,
+      "heading": 412,
+      "other": 382,
+      "paragraph": 5760,
       "reference": 4,
       "table": 220
     },
@@ -24,83 +24,83 @@
       "box",
       "table"
     ],
-    "selected_units": 6005,
-    "selected_characters": 2084810
+    "selected_units": 6134,
+    "selected_characters": 2081530
   },
-  "indexed_units": 6005,
+  "indexed_units": 6134,
   "documents": 31,
   "inputs": {
     "corpus_jsonl": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\data\\corpus\\structured\\corpus.jsonl",
-      "sha256": "87af1dc6240659de861a79e33396617cfc761e8e85dff7c1f4c85d267aa2258c"
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\data\\corpus\\structured\\corpus.jsonl",
+      "sha256": "246625f8a9b4c6570df0d232d85c7e789686b8fe3b335fb5826cce8c505dd916"
     },
     "document_registry": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\data\\corpus\\metadata\\document_registry.csv",
-      "sha256": "69a9c32c1e2f64e3d76fa9455a2de5505e51330e9b811a29bcd9d51a0875c252"
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\data\\corpus\\metadata\\document_registry.csv",
+      "sha256": "75471c8db269a13c30caa675e9c9bd6bb9f41fb6ce9c8fc92667b7cd0a70065a"
     },
     "source_registry": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\data\\corpus\\metadata\\source_registry.csv",
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\data\\corpus\\metadata\\source_registry.csv",
       "sha256": "2ae81753f036f0432ed637f6464510597c44491c23db118138c3bdaf0db4b53f"
     },
     "phase2_config": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\config\\phase2_config.yaml",
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\config\\phase2_config.yaml",
       "sha256": "769dd53333b608238d27d4a992d2aad09569a0ce44fae1fffc587bffd310eddf"
     },
     "phase2_results_dir": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase2",
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase2",
       "sha256": ""
     },
     "phase2_tokenization_comparison": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase2\\tokenization\\tokenization_comparison.csv",
-      "sha256": "9c4c48999e42c696743145698faee0b9821696ee9e61dd475edc2155c923ecdf"
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase2\\tokenization\\tokenization_comparison.csv",
+      "sha256": "cfa3654f3aec55fed89266eeb9b92699ef23941f9664cd03b1e6fa2d5d62b803"
     },
     "phase2_stopword_comparison": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase2\\preprocessing\\stopword_comparison.csv",
-      "sha256": "c428e0e370a408f958fdd26c05c08410fb8e6e3cd944140ff560edf52fd305d4"
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase2\\preprocessing\\stopword_comparison.csv",
+      "sha256": "109f7b65a29c8824a46be4dde4f5db0c205dd0c25e259f99130333bc1bd985f1"
     },
     "phase2_stemming_comparison": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase2\\stemming\\stemming_comparison.csv",
-      "sha256": "deee2029d677849af7430fd84005707fb3fe6ed1288689ec942e8915b9e8fe9b"
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase2\\stemming\\stemming_comparison.csv",
+      "sha256": "e6e9fb813753838d7aab75e558e639308e5cba98e318fb4195f767e487f436e7"
     },
     "phase2_order_comparison": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase2\\stemming\\stopword_stemming_order_comparison.csv",
-      "sha256": "244331c1136d8c5f8955c09af6522fe72a1ec942bed0c3e0b6fac8defd4925a9"
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase2\\stemming\\stopword_stemming_order_comparison.csv",
+      "sha256": "047434c2c6db6baac79cf468779209ab169a0cb8e52bacb42c0ab43e7c198fb9"
     },
     "phase2_lemmatization_comparison": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase2\\lemmatization\\lemmatization_comparison.csv",
-      "sha256": "396644816430a175b7d2f77b1f06445749c6682fd89af1f05c6e5c7433b35bda"
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase2\\lemmatization\\lemmatization_comparison.csv",
+      "sha256": "30035df9eadf837dc9e757faccfd269250a1e5141107d12007ab53b851618817"
     },
     "phase2_date_number_comparison": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase2\\tokenization\\date_number_comparison.csv",
-      "sha256": "73acd75258316e8976efa7d1b4297a601842693b4f106b543a5c0d2bc003b5fe"
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase2\\tokenization\\date_number_comparison.csv",
+      "sha256": "e217bdc9b81d7c0480b96e77074e31babcbae6b51fbe2bdb738df5b7049657e5"
     },
     "phase2_pos_comparison": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase2\\comparisons\\pos_comparison.csv",
-      "sha256": "c564195083c202bd8ef1021879f32be3c56e51e96fc97257eb0fae7f28e1c552"
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase2\\comparisons\\pos_comparison.csv",
+      "sha256": "9d5ccc86e1b5920fb07fec7c33e7aac7c305459ab57c0f3f4a4d437db3c77285"
     },
     "phase2_ngram_summary": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase2\\phase2_summary.json",
-      "sha256": "ca17d961788fd3bfe2a70687a23bb4414212497efd593a088613d1bc47e6d253"
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase2\\phase2_summary.json",
+      "sha256": "e33ad78ebabdcb9071e46e9855967ae812b2e8e9c376b2c30e02d71283f13ac4"
     },
     "phase2_ngrams_dir": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase2\\ngrams",
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase2\\ngrams",
       "sha256": ""
     },
     "phase2_domain_phrases": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase2\\ngrams\\domain_phrases.csv",
-      "sha256": "78dbe14364ac4165ccac187c07a15f7b9d95a60a51bdda606d29246a3b8da42d"
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase2\\ngrams\\domain_phrases.csv",
+      "sha256": "aa77775bca63feba62b4d241feac925b54dcfd6c073b7a4b8054d1b6d303f62f"
     },
     "phase2_ner_entities": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase2\\ner\\ner_entities.csv",
-      "sha256": "451c035b19282fd1061078524e76c189ecbdc12ffb6d4fa91b41209bda06e295"
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase2\\ner\\ner_entities.csv",
+      "sha256": "fba91e0672ba70e61df0a3c307f1adce4d1650185f51022be4326a859bbb59a6"
     },
     "phase2_domain_entities": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase2\\ner\\custom_ner_results.csv",
-      "sha256": "c2ff837688b0240e97230c2e0c2367adb554628a18bed21ec23a98f863c4e3c2"
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase2\\ner\\custom_ner_results.csv",
+      "sha256": "d4bf631362650b7b386dbc8283d4e303d103f0473eee17985105448601c30949"
     },
     "phase2_validation_report": {
-      "path": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase2\\phase2_validation_report.csv",
-      "sha256": "405142a2dd0b449a94848813f6a2cad743b86c753074a6212b5d82bd56f1880c"
+      "path": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase2\\phase2_validation_report.csv",
+      "sha256": "92a8bb6e3e68d2b2a4bf087a67302a4f080a663c1e0656aad029a3ba4c980188"
     }
   },
   "settings": {
@@ -160,34 +160,34 @@
   },
   "index": {
     "file": "inverted_index.json",
-    "terms": 21305,
-    "units": 6005,
+    "terms": 21403,
+    "units": 6134,
     "documents": 31,
-    "bytes": 9899160
+    "bytes": 10092469
   },
   "statistics": {
-    "index_terms": 21305,
-    "unigram_terms": 18735,
-    "phrase_terms": 2570,
-    "total_postings": 191817,
-    "unigram_postings": 168445,
-    "phrase_postings": 23372,
-    "postings_per_term": 9.0034,
-    "indexed_units": 6005,
+    "index_terms": 21403,
+    "unigram_terms": 18763,
+    "phrase_terms": 2640,
+    "total_postings": 195567,
+    "unigram_postings": 171569,
+    "phrase_postings": 23998,
+    "postings_per_term": 9.1374,
+    "indexed_units": 6134,
     "indexed_documents": 31,
-    "units_per_document": 193.71,
-    "total_positions": 226368,
-    "mean_positions_per_posting": 1.1801,
-    "postings_per_unit": 31.9429,
-    "singleton_terms": 10857,
-    "terms_in_90_percent_of_postings": 6934,
-    "mean_term_frequency": 10.6251,
-    "mean_document_frequency": 3.2179,
-    "longest_posting_list": 1074,
-    "longest_posting_term": "thi",
-    "hapax_ratio": 0.5096,
-    "top_terms": "india(1396);thi(1327);ha(1255);market(983);ai(980);sebi(897);sector(810);global(798);develop(785);invest(746);growth(724);servic(709);govern(689);financi(679);state(647);dure(635);increas(627);year(614);wa(603);2025-26(588);support(581);improv(578);trade(577);product(560);capit(547)",
-    "top_phrases": "dure_2025-26(227);march_31(128);mutual_fund(126);secur_market(112);2024-25_2025-26(96);india_ha(78);suppli_chain(77);labour_market(73);dure_year(70);previou_year(68);dure_period(67);stock_exchang(65);eas_busi(59);0_0(57);skill_develop(57);govern_ha(56);revis_estim(56);valu_chain(55);h_1(54);strateg_indispens(54);strateg_resili(54);capit_expenditur(53);sebi_act(53);sebi_ha(53);servic_export(52)"
+    "units_per_document": 197.87,
+    "total_positions": 230004,
+    "mean_positions_per_posting": 1.1761,
+    "postings_per_unit": 31.8825,
+    "singleton_terms": 10869,
+    "terms_in_90_percent_of_postings": 6931,
+    "mean_term_frequency": 10.7463,
+    "mean_document_frequency": 3.2419,
+    "longest_posting_list": 1043,
+    "longest_posting_term": "'s",
+    "hapax_ratio": 0.5078,
+    "top_terms": "'s(1446);india(1413);market(982);ai(978);sebi(898);sector(813);global(793);develop(784);invest(745);increas(733);growth(727);servic(714);govern(688);financi(679);state(645);year(621);also(613);2025-26(593);support(582);improv(578);trade(571);can(567);product(556);capit(549);system(543)",
+    "top_phrases": "india_'s(651);march_31(125);mutual_fund(125);secur_market(112);2024-25_2025-26(97);suppli_chain(76);labour_market(73);sebi_'s(69);previous_year(68);stock_exchang(65);shift_toward(61);eas_busi(59);0_0(57);skill_develop(57);countri_'s(56);revis_estim(56);strateg_resili(56);strateg_indispens(55);valu_chain(55);h_1(54);capit_expenditur(53);sebi_act(53);servic_export(52);recent_year(51);privat_sector(50)"
   },
   "reproducibility": {
     "random_seed": 42,

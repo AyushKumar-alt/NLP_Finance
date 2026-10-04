@@ -22,6 +22,7 @@ pool-bounded by construction. The pool depth is reported with every result.
 
 from __future__ import annotations
 
+import math
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Sequence
 
@@ -176,22 +177,75 @@ def recall_at_k(
     return Metric(hits / total, "")
 
 
-def average_precision(ranking: Sequence[str], labels: Dict[str, int]) -> Metric:
-    """Mean precision at the ranks of the relevant units actually retrieved.
+def average_precision(
+    ranking: Sequence[str], labels: Dict[str, int], relevant_total: Optional[int] = None
+) -> Metric:
+    """Mean precision at the ranks of relevant units divided by total relevant items R_q.
 
-    Uses the number of *retrieved* relevant units as the denominator, which is
-    the ``R_precision`` variant; with a pool-bounded label set this is a lower
-    bound on MAP, and is reported as such.
+    AP(q) = (1 / R_q) * sum_{k: rel(k)=1} P@k
+    where R_q is the total number of judged relevant items for query q in the pool.
     """
+    total = relevant_total if relevant_total is not None else sum(
+        1 for value in labels.values() if value == 1
+    )
+    if total == 0:
+        return Metric(0.0, "" if ranking else NO_RELEVANT)
+
     hits = 0
-    precisions: List[float] = []
+    precision_sum = 0.0
     for position, unit_id in enumerate(ranking, start=1):
         if labels.get(unit_id) == 1:
             hits += 1
-            precisions.append(hits / position)
-    if not precisions:
+            precision_sum += hits / position
+
+    if precision_sum == 0.0:
         return Metric(0.0, "" if ranking else NO_DENOMINATOR)
-    return Metric(sum(precisions) / len(precisions), "")
+    return Metric(precision_sum / total, "")
+
+
+def dcg_at_k(ranking: Sequence[str], labels: Dict[str, int], k: int) -> float:
+    """Discounted Cumulative Gain at K for binary relevance labels."""
+    if k <= 0:
+        return 0.0
+    dcg = 0.0
+    for position, unit_id in enumerate(list(ranking)[:k], start=1):
+        rel = 1 if labels.get(unit_id) == 1 else 0
+        if rel > 0:
+            dcg += rel / math.log2(position + 1)
+    return dcg
+
+
+def idcg_at_k(labels: Dict[str, int], k: int, relevant_total: Optional[int] = None) -> float:
+    """Ideal DCG at K assuming ideal ranking with all relevant items first."""
+    if k <= 0:
+        return 0.0
+    total_rel = relevant_total if relevant_total is not None else sum(1 for v in labels.values() if v == 1)
+    ideal_count = min(k, total_rel)
+    idcg = 0.0
+    for position in range(1, ideal_count + 1):
+        idcg += 1.0 / math.log2(position + 1)
+    return idcg
+
+
+def ndcg_at_k(
+    ranking: Sequence[str], labels: Dict[str, int], k: int, relevant_total: Optional[int] = None
+) -> Metric:
+    """Normalized Discounted Cumulative Gain at K (nDCG@K)."""
+    if k <= 0:
+        return Metric(None, "K must be positive")
+    idcg = idcg_at_k(labels, k, relevant_total=relevant_total)
+    if idcg == 0.0:
+        return Metric(0.0, "" if ranking else NO_RELEVANT)
+    dcg = dcg_at_k(ranking, labels, k)
+    return Metric(dcg / idcg, "")
+
+
+def reciprocal_rank(ranking: Sequence[str], labels: Dict[str, int]) -> Metric:
+    """Reciprocal Rank (RR): 1 / rank of first relevant unit retrieved."""
+    for position, unit_id in enumerate(ranking, start=1):
+        if labels.get(unit_id) == 1:
+            return Metric(1.0 / position, "")
+    return Metric(0.0, "" if ranking else NO_DENOMINATOR)
 
 
 # ----------------------------------------------------------------------

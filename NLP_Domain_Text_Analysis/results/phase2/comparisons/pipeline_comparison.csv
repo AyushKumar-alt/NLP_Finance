@@ -1,0 +1,3 @@
+pipeline,normalization,processed_units,token_count,vocabulary_size,type_token_ratio,avg_tokens_per_unit,token_reduction_pct,vocabulary_reduction_pct,domain_terms_preserved,domain_terms_total,domain_preservation_pct,runtime_seconds
+Pipeline A,Lemmatization (LemmInflect/WordNet),6134,250794,18445,0.108,40.89,27.45,0.76,14,14,100,0.2099
+Pipeline B,Stemming (Snowball English),6134,250794,13116,0.0727,40.89,27.45,29.43,14,14,100,0.4192

@@ -5,7 +5,7 @@ Pipeline-normalized terms: RBI, repo rate
 Matched terms: rate, rbi, repo
 Missing terms: (none)
 Results: 3 content unit(s) in 2 document(s)
-Execution time: 21.094 ms
+Execution time: 10.492 ms
 
    1. score=5.2113 D03 | p9 | 3.10 | D03_P009_SEC_3_10_PAR001
       matched: rate, rbi, repo

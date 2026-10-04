@@ -1,11 +1,11 @@
 metric,value,detail
 vocabulary_size,8000,size of the trained BPE vocabulary (includes special tokens)
 merge_operations,7998,vocabulary entries beyond the special tokens; each corresponds to one learned merge
-training_units,6005,corpus units used for training (policy 'prose_tables')
-corpus_token_count,469401,tokens produced by BPE over the whole experiment sample
-corpus_characters,2084810,characters in the experiment sample (compression reference)
-bytes_per_token,4.441,characters per BPE token
-observed_word_types,25186,distinct whitespace word types in the sample (pre-tokenization reference)
+training_units,6134,corpus units used for training (policy 'prose_tables')
+corpus_token_count,468203,tokens produced by BPE over the whole experiment sample
+corpus_characters,2081530,characters in the experiment sample (compression reference)
+bytes_per_token,4.446,characters per BPE token
+observed_word_types,25134,distinct whitespace word types in the sample (pre-tokenization reference)
 out_of_vocabulary_words,0,byte-level BPE has no OOV: every byte sequence is representable
 subword_tokens[common],1,the -> the
 subword_tokens[common],1,growth -> growth

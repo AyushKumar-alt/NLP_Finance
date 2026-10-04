@@ -5,7 +5,7 @@ Pipeline-normalized terms: GDP, GVA
 Matched terms: gdp, gva
 Missing terms: (none)
 Results: 50 content unit(s) in 10 document(s)
-Execution time: 406.587 ms
+Execution time: 386.621 ms
 
    1. score=2.1505 D01 | p15 | 1.19 | D01_P015_SEC_1_19_PAR001
       matched: gdp, gva
@@ -28,7 +28,7 @@ Execution time: 406.587 ms
    7. score=2.1193 D08 | p17 | 8.35 | D08_P017_SEC_8_35_PAR001
       matched: gdp, gva
       ...extile industry, with a size of about USD 179 billion, contributes close to 2 per cent of GDP and accounts for about 11 per cent of the manufacturing GVA. India is the world's largest cultivator of cotton by...
-   8. score=1.2500 D02 | p41 | 2.56 | D02_P041_SEC_2_56_PAR003
+   8. score=1.2500 D02 | p41 | 2.56 | D02_P041_SEC_2_56_PAR002
       matched: gdp
       ...ry and World Bank’s world development indicators’ database, general government revenue to GDP ratios for OECD countries at middle-income per capita GDP levels (US$2,000-US$3,000 in current prices, comparable to...
    9. score=1.1945 D02 | p4 | 2.7 | D02_P004_SEC_2_7_PAR001

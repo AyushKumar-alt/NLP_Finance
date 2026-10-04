@@ -5,9 +5,9 @@ Pipeline-normalized terms: gdp
 Matched terms: gdp
 Missing terms: (none)
 Results: 50 content unit(s) in 14 document(s)
-Execution time: 357.755 ms
+Execution time: 319.701 ms
 
-   1. score=1.2500 D02 | p41 | 2.56 | D02_P041_SEC_2_56_PAR003
+   1. score=1.2500 D02 | p41 | 2.56 | D02_P041_SEC_2_56_PAR002
       matched: gdp
       ...ry and World Bank’s world development indicators’ database, general government revenue to GDP ratios for OECD countries at middle-income per capita GDP levels (US$2,000-US$3,000 in current prices, comparable to...
    2. score=1.1945 D02 | p4 | 2.7 | D02_P004_SEC_2_7_PAR001

@@ -5,7 +5,7 @@ Pipeline-normalized terms: inflation, food
 Matched terms: inflat
 Missing terms: (none)
 Results: 50 content unit(s) in 7 document(s)
-Execution time: 233.770 ms
+Execution time: 190.090 ms
 
    1. score=1.2603 D05 | p7 | 5.9 | D05_P007_SEC_5_9_PAR002
       matched: inflat

@@ -122,16 +122,16 @@ def _spec_from_config(key: str, section: Dict[str, Any]) -> PipelineSpec:
 
 
 def load_pipeline_specs(config: Any) -> Dict[str, PipelineSpec]:
-    """Read ``pipeline_a`` and ``pipeline_b`` from the configuration."""
+    """Read pipeline_a and pipeline_b (and pipeline_a_lemma / pipeline_b_stem) from configuration."""
     specs: Dict[str, PipelineSpec] = {}
-    for key in ("pipeline_a", "pipeline_b"):
+    for key in ("pipeline_a", "pipeline_b", "pipeline_a_lemma", "pipeline_b_stem"):
         section = config.section(key)
-        if not section:
-            raise KeyError(f"{key} missing from the Phase 3 configuration")
-        specs[key] = _spec_from_config(key, section)
-    if specs["pipeline_a"].order == specs["pipeline_b"].order:
+        if section:
+            specs[key] = _spec_from_config(key, section)
+    if "pipeline_a" not in specs or "pipeline_b" not in specs:
+        raise KeyError("pipeline_a and pipeline_b must be defined in config/phase3_config.yaml")
+    if specs["pipeline_a"].morphology == specs["pipeline_b"].morphology and specs["pipeline_a"].morphology_algorithm == specs["pipeline_b"].morphology_algorithm and specs["pipeline_a"].order == specs["pipeline_b"].order:
         raise ValueError(
-            "pipeline_a and pipeline_b have the same component order; the comparison "
-            "would not test anything. Change 'order' in config/phase3_config.yaml."
+            "pipeline_a and pipeline_b are identical; the comparison would not test anything."
         )
     return specs

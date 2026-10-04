@@ -20,7 +20,12 @@ data/corpus/metadata/baseline_term_dictionary.csv
 results/phase1/
 logs/
 
+# Frontend & Node
+frontend/.next/
+frontend/node_modules/
+scratch/
+
 # Never commit the source PDFs - the originals live outside the project and are
 # read-only. data/source_pdfs/ stays empty on purpose.
 data/source_pdfs/*
-!data/source_pdfs/.gitkeep
+!data/source_pdfs/.gitkeep

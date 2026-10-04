@@ -378,9 +378,9 @@ class Phase1Runner:
         input_dir = self.config.input_directory
         for key in managed:
             directory = self.config.out_path(key)
-            # Safety net: never purge the read-only input directory.
-            if directory == input_dir or input_dir in directory.parents:
-                raise RuntimeError(f"refusing to clean {directory}: inside the input directory")
+            # Safety net: never purge the read-only input directory or its ancestors.
+            if directory == input_dir or directory in input_dir.parents:
+                raise RuntimeError(f"refusing to clean {directory}: is input directory or ancestor")
             if directory.exists():
                 shutil.rmtree(directory)
             directory.mkdir(parents=True, exist_ok=True)

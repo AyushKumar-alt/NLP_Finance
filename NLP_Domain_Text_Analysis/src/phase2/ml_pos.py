@@ -27,6 +27,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List, Optional, Sequence, Tuple
 
+import numpy as np
+
 from .config import Phase2Config, log_event
 from .spacy_pipeline import SpacyAnnotations
 
@@ -387,6 +389,15 @@ def classification_metrics(
     }
 
 
+def _ensure_int32_indices(matrix: object) -> object:
+    """Ensure scipy sparse matrix indices and indptr use 32-bit integers."""
+    if hasattr(matrix, "indices") and getattr(matrix, "indices").dtype != np.int32:
+        matrix.indices = getattr(matrix, "indices").astype(np.int32)
+    if hasattr(matrix, "indptr") and getattr(matrix, "indptr").dtype != np.int32:
+        matrix.indptr = getattr(matrix, "indptr").astype(np.int32)
+    return matrix
+
+
 # ----------------------------------------------------------------------
 # Experiment
 # ----------------------------------------------------------------------
@@ -457,6 +468,7 @@ def run_ml_pos(
 
     vectorizer = DictVectorizer(sparse=True)
     X = vectorizer.fit_transform(train_X)
+    _ensure_int32_indices(X)
     classifier = SGDClassifier(loss="log_loss", max_iter=50, tol=1e-4, random_state=seed)
     classifier.fit(X, train_y)
 
@@ -474,7 +486,9 @@ def run_ml_pos(
             prev_token = tokens[position - 1] if position > 0 else "<BOS>"
             next_token = tokens[position + 1] if position + 1 < len(tokens) else "<EOS>"
             context_rows.append(token_features(row.token, prev_token, next_token, enabled_features))
-        context_predictions = list(classifier.predict(vectorizer.transform(context_rows)))
+        X_test = vectorizer.transform(context_rows)
+        _ensure_int32_indices(X_test)
+        context_predictions = list(classifier.predict(X_test))
         for offset, row in enumerate(rows):
             test_tokens.append(row.token)
             test_gold.append(row.gold_pos)

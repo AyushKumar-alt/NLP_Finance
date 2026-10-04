@@ -1,6 +1,6 @@
-Over the past few years, ‘Economic Statecraft’, broadly defined as the deliberate use of  economic means to achieve strategic ends, has witnessed a rapid resurgence. This shift  reflects rising geopolitical competition, concerns over technological dominance and  vulnerabilities exposed in traditional global value chains. How does economic policy differ from economic statecraft? Economic policy employs  traditional instruments, including fiscal, monetary, and trade tools, to achieve economic  objectives such as reducing deficits, controlling inflation, and promoting economic growth.  Economic statecraft goes a step further by employing economic tools to achieve foreign  policy or national security objectives, such as compelling a country to stop hostilities with a  third party or to liberalise its markets. 5 Ibid 5 5
+achieving strategic resilience and indispensability Over the past few years, ‘Economic Statecraft’, broadly defined as the deliberate use of  economic means to achieve strategic ends, has witnessed a rapid resurgence. This shift  reflects rising geopolitical competition, concerns over technological dominance and  vulnerabilities exposed in traditional global value chains. How does economic policy differ from economic statecraft? Economic policy employs  traditional instruments, including fiscal, monetary, and trade tools, to achieve economic  objectives such as reducing deficits, controlling inflation, and promoting economic growth.  Economic statecraft goes a step further by employing economic tools to achieve foreign  policy or national security objectives, such as compelling a country to stop hostilities with a  third party or to liberalise its markets. 5 Ibid 5 5
 The Covid-19 pandemic necessitated multiple lockdowns to prevent the spread of the virus  in India. While they contributed to saving lives, the lockdowns disrupted economic activity.  Even as multiple high-frequency indicators helped gauge sectoral performance, it was  imperative to form an internal estimate of the direction of economic activity and growth to  guide policymaking. This became all the more important as official estimates of quarterly GDP  growth are released two months after the end of the quarter. It was against this backdrop that  the economic division developed and refined a GDP Nowcasting model for internal use. Nowcasting refers to the prediction of the present, the very near future and the very recent  past, and that makes it more effective in shorter horizon forecasting (Banbura, Gianonne & 18 18
-Sound public policy rests on timely, credible and granular data. Recognising this, the  government has undertaken a comprehensive strengthening of the National Statistical  System, spanning new data generation, survey modernisation, macroeconomic rebasing,  digital dissemination and data harmonisation. Together, these efforts aim to improve  evidence-based decision-making in a rapidly changing economy. Expanding the data frontier through new surveys To address long-standing data gaps, several major surveys are being introduced or relaunched. The Annual Survey of Incorporated Service Sector Enterprises (ASISSE), expected to  commence from April 2026, will for the first time provide a systematic coverage of the  incorporated services sector. This complements the existing Annual Survey of Unincorporated  Sector Enterprises (ASUSE), which regularly covers the unincorporated segment of the  services sector. The All India Debt and Investment Survey (AIDIS) 2026–27, scheduled to be conducted  from July 2026 to June 2027, will provide comprehensive information on household  asset ownership and indebtedness across rural and urban areas. The survey will aid in  understanding credit markets and assessing inequality in asset distribution. Alongside this,  the Situation Assessment Survey (SAS) on Rural Agricultural Households 2026–27 will  offer a holistic picture of farm households, covering incomes, production, indebtedness,  technology use and access to government schemes. To fill a critical information gap, a dedicated Household Income Survey is planned tentatively  in 2026. As regular surveys on household income have not been conducted in India, a Technical 23 with parameters p = 1, d = 0, and q = 1, i.e., as an ARIMAX process with AR(1), I(0) and MA(1) 21 21
+From Data Generation to Data Readiness Sound public policy rests on timely, credible and granular data. Recognising this, the  government has undertaken a comprehensive strengthening of the National Statistical  System, spanning new data generation, survey modernisation, macroeconomic rebasing,  digital dissemination and data harmonisation. Together, these efforts aim to improve  evidence-based decision-making in a rapidly changing economy. Expanding the data frontier through new surveys To address long-standing data gaps, several major surveys are being introduced or relaunched. The Annual Survey of Incorporated Service Sector Enterprises (ASISSE), expected to  commence from April 2026, will for the first time provide a systematic coverage of the  incorporated services sector. This complements the existing Annual Survey of Unincorporated  Sector Enterprises (ASUSE), which regularly covers the unincorporated segment of the  services sector. The All India Debt and Investment Survey (AIDIS) 2026–27, scheduled to be conducted  from July 2026 to June 2027, will provide comprehensive information on household  asset ownership and indebtedness across rural and urban areas. The survey will aid in  understanding credit markets and assessing inequality in asset distribution. Alongside this,  the Situation Assessment Survey (SAS) on Rural Agricultural Households 2026–27 will  offer a holistic picture of farm households, covering incomes, production, indebtedness,  technology use and access to government schemes. To fill a critical information gap, a dedicated Household Income Survey is planned tentatively  in 2026. As regular surveys on household income have not been conducted in India, a Technical 23 with parameters p = 1, d = 0, and q = 1, i.e., as an ARIMAX process with AR(1), I(0) and MA(1) 21 21
 Chapter 2 of the Economic Survey 2022–23 assessed India’s medium-term potential growth  at around 6.5 per cent, with the possibility of rising to 7-8 per cent conditional on sustained  structural reforms. The period since then allows a reassessment of whether the continued  cycle of reforms in the economy has begun to strengthen the economy’s productive capacity,  leading to an upward shift in potential growth. The Box argues that this is indeed the case.
 STATE OF THE ECONOMY: PUSHING THE GROWTH FRONTIER
 The global economic environment remains uncertain, shaped by geopolitical tensions, trade disruptions, and divergent growth and inflation outcomes across major economies. While global activity has shown resilience in the near term, underlying vulnerabilities persist, including elevated fiscal pressures, fragmented supply chains, and an increased reliance on economic policy instruments for strategic purposes.
@@ -9,11 +9,13 @@ The chapter analyses demand and supply-side developments during the first half o
 The chapter reviews key macroeconomic fundamentals, including inflation, financial sector conditions, fiscal developments, external sector performance, and labour market trends. Inflation has moderated, financial sector balance sheets remain healthy, and fiscal policy continues to strike a balance between supporting growth and consolidation. The external sector remains manageable, supported by services exports and adequate foreign exchange reserves.
 Looking ahead, while global uncertainties remain elevated, domestic growth drivers are expected to continue supporting economic activity. With macroeconomic stability in place and ongoing reform efforts, the economy appears well-positioned to sustain growth in the near term. The outlook for FY27 is shaped by these domestic strengths, alongside evolving external conditions. The chapter concludes that India’s medium-term growth potential has strengthened to 7 per cent, positioning the economy on a path of steady expansion amid global uncertainty.
 1.1. Since the last version of the Economic Survey was published, the global economy has been subjected to multiple upheavals. The most disruptive amongst these disturbances was the imposition of tariffs by the USA on imports from its trade partners. The long promised reciprocal tariffs, announced in April 2025, initially sparked concerns about lower growth and higher inflation in the global economy which have proven to be transient in the short run. This was due to multiple reasons. Trade agreements between the US and certain trading partners have considerably lowered the US’s effective tariff rate. According to the IMF's World Economic Outlook (WEO), October 2025, US households and businesses increased their spending ahead of expected tariff hikes. In some instances, delays in tariff implementation allowed businesses to postpone raising prices and frontload their exports. As a result, global economic activity has remained relatively stable in the short term. This is reflected in the IMF’s projections of growth and inflation for advanced economies (AEs) and emerging market and developing economies (EMDEs) made at various points in time between January 2025 and January 2026 (Table I.1). Growth in EMDEs for the year 2025 is eventually higher than the levels projected in April 2025, while that in AEs is projected to be better than initially feared, primarily driven by strong growth in the US. For the year 2025, inflation in AEs is expected to have remained stubbornly higher by 40 basis points compared to initial projections, while that in EMDEs is expected to have declined further (Table I.1).
+projections vis-a-vis Jan' 25 forecasts
 1.2. These aggregated statistics, however, hide emerging frailties in economic activity
 State of the Economy
 within and across countries. Growth in the US has remained strong, primarily driven by investment in artificial intelligence (AI). Total IT investment, which also includes spending by businesses on equipment and software to facilitate AI use, has accounted for nearly half of GDP growth in recent quarters, helping to mitigate the negative effects of trade tariffs on growth.1 This strong growth has been accompanied by inflation remaining stubbornly above the 2 per cent target and a rising unemployment rate. While inflation in Europe is broadly trending towards the European Central Bank’s target, growth in the region’s economies has been mixed. Forecasts by the European Commission2 indicate that growth rates in Germany, Italy, and France are expected to remain moderate, while Spain is anticipated to outperform. In Asia, the Chinese economy continues to face deflationary pressures amid headwinds stemming from the crisis in its property sector, indicating tepid domestic demand, even as Chinese merchandise exports remain a key driver of its growth. Growth in the Japanese economy remains moderate, while inflation continues to exceed the Bank of Japan’s (BOJ) target of 2 per cent.
 1.3. Globally, the shift from aggressive monetary policy tightening to a neutral or accommodative stance is still underway. However, the aforementioned variance in growth-inflation dynamics has led to divergent trajectories of central bank policy rates across these economies (Charts I.1 and I.2). This has implications for capital flows as fund houses trot the globe in search of higher yields.
 generally smaller than the record deficits of 2020 and 2021, when substantial fiscal stimulus was used to address the pandemic impact, they are still significantly higher than pre-pandemic levels, except in Brazil and India (Chart I.3). Long-term borrowing costs for the world’s biggest economies have stayed elevated as investors question the ability of governments to cover massive budget deficits. These pressures are showing in elevated bond yields across major AEs, particularly in the ultra-long tenure segment (Chart I.4). Earlier in May 2025, 30-year bond yields reached a peak of 5.15 per cent in the US, approaching levels last seen in 2007. Those in Japan exceeded the highest on record in data since 1999, with auctions in both countries drawing tepid demand. Long- dated bonds in the UK, Germany and Australia also faced selling pressure.3
+economies are higher than
 1.5. Global economic uncertainty remains elevated compared to historical trends (Chart I.5), primarily on account of fragmentation in geopolitical relationships and lower visibility on policy continuity. This, coupled with the aforementioned macroeconomic developments, has led to a deterioration in global foreign direct investment (FDI) flows. As per the United Nations Conference on Trade and Development’s (UNCTAD) World Investment Report 20254, FDI flows in 2024, barring those in certain conduit economies, declined by 11 per cent YoY (Chart I.6). Capital flows are also increasingly being shaped by the surge in demand across the AI supply chain in a few countries. While FDI flows in most developed countries fell, they rose by 19.7 per cent in the US. Among the top 10 highest-value greenfield projects announced in 2024, four were in
 State of the Economy
 semiconductor manufacturing, with three of them located in the United States.5 Data centre development is also expanding rapidly, driven by growing digital demand and strategic industrial policies.
@@ -48,6 +50,8 @@ Demand side: Domestic drivers anchor GDP growth in FY26
 1.10. It may be noted that implicit H2 estimates derived from the FAE indicate a slight moderation in consumption growth. FAE, however, are based on an extrapolation of FY25 consumption levels using data available up to November and are therefore subject to revision as additional information becomes available. Subsequent estimates, incorporating full-year data, will provide a more complete assessment of private consumption performance during FY26, including the impact of recent tax reforms. Currently, the strong consumption growth observed in H1, along with supportive high- frequency indicators during Q3 of FY26, suggests that private consumption is likely to remain resilient throughout the year.
 1.11. The key high-frequency indicators for the third quarter of FY26, including automobile and tractor sales, as well as air passenger traffic, signal the continuation of the robust demand conditions (Table I.3). Furthermore, in the November 2025 round of the NABARD Rural Economic Conditions and Sentiments Survey11 79.2 per cent of rural households reported increased consumption during the last year, with the share of monthly income spent on consumption rising to about 67 per cent, the highest since the survey’s inception. This buoyancy in consumption demand can be attributed to the positive impact of GST rate rationalisation and softer inflation, improving the real purchasing power of rural non-farm income.
 State of the Economy
+shifts to higher level
+resilient domestic demand (YoY growth, per cent)
 1.12. Along with consumption, investment has continued to anchor growth in FY26, with the share of gross fixed capital formation (GFCF) estimated at 30.0 per cent. Investment activity strengthened in the first half of the year, with, GFCF expanding by 7.6 per cent, exceeding the pace recorded in the corresponding period last year and remaining above the pre-pandemic average of 7.1 per cent (Chart I.9). This momentum was buoyed by sustained public capital expenditure12 and a revival in private investment activity as evident from corporate announcements.13 Reflecting this strength, the share of GFCF in GDP remained steady at 30.5 per cent in H1 of FY26, well above the pre- pandemic average of 28.6 per cent (Chart I.10). Together, these developments indicate a strengthening of the investment cycle, supporting growth.
 State of the Economy
 1.13. The implicit H2 estimate of GFCF for FY2614 indicates a firming of the investment cycle, likely driven by continued growth in non-food bank credit, coupled with capacity utilisation remaining above its long-term average. High-frequency indicators for the third quarter also suggest healthy investment activity. In particular, the Index of Industrial Production (IIP) shows sustained strength in capital goods, while imports of capital goods continue to record strong growth. (Table I.4).
@@ -60,6 +64,7 @@ State of the Economy
 6 for details). By contrast, allied activities, particularly livestock and fisheries, have grown at relatively stable rates of around 5-6 per cent (Chart I.14). As their share in agricultural GVA has increased, aggregate agricultural growth has increasingly reflected a weighted outcome of volatile crop performance and a relatively stable expansion in allied sectors.
 1.18. Rabi sowing has been progressing well, aided by replenished reservoir levels, adequate soil moisture, and sufficient availability of inputs. As of 16 January 2026, areas sown under major crops, wheat and gram, are respectively 1.9 per cent and 5.1 per cent higher than the corresponding period last year. Agricultural supply prospects, therefore, remain supportive. This is expected to strengthen farm incomes and sustain rural demand, enabling agriculture to provide a steady contribution to overall growth momentum in the second half of FY26.
 1.19. Regarding the industry, a concern is often raised about its declining share in GVA. The compression in manufacturing’s GVA share stems from relative price effects rather than reflecting a decline in manufacturing activities (See section ‘GDP Deflators: Manufacturing’s Reversal in Terms of Trade’ in Chapter V) and higher intermediate consumption, which reduces net value added relative to sectors with greater pricing power, particularly services. In real (constant) price terms, manufacturing’s share has remained steady at around 17-18 per cent (Chart I.16). Manufacturing’s gross value of output (GVO) has remained broadly stable at around 38 per cent, comparable to services, indicating that output has been sustained. Moreover, in FY26, the industrial sector is expected to gain momentum, growing at 6.2 per cent, up from 5.9 per cent in FY25.
+remains stable in real terms
 1.20. This assessment is supported by developments in the first half of FY26. The sector recorded growth of 7.0 per cent in the first half of FY26, exceeding the growth of 6.1 per cent in H1 of FY25 and the pre-COVID trend of 5.2 per cent (Chart I.17). Manufacturing was the primary driver, expanding by 8.4 per cent, reflecting resilient demand conditions and improved utilisation of existing capacities. Capacity utilisation in manufacturing remained above its long-run average during this period.18 Growth in electricity, gas, water supply and other utilities was relatively modest at 2.4 per cent, lower than the pre-pandemic trend. The mining sector contracted by 1.8 per cent, partly due to disruptions caused by excessive rainfall.
 1.21. Despite weather-related disruptions, construction activity recorded a 7.4 per cent growth, lower than in H1 of FY25 but underpinned by sustained public capital expenditure and ongoing momentum in infrastructure projects (See Chapter 9 for details). Overall, industrial growth remained broad-based, with most segments performing above their pre-pandemic trends.
 1.22. The high-frequency indicators for Q3 of FY26, including the PMI manufacturing, IIP manufacturing, and e-way bill generation, signal a strengthening of manufacturing activity underpinned by robust demand (Table I.5). Construction indicators, such as steel consumption and cement production, have witnessed a steady growth. Looking ahead, momentum in industrial activity is expected to remain buoyant, boosted by the rationalisation of GST and a favourable demand outlook.
@@ -74,9 +79,11 @@ Reichlin, 2010).19 The basic principle of nowcasting is the exploitation of the 
 Amongst the multiple HFIs, 17 indicators with strong correlation with quarterly GDP growth are chosen. These are the Index of Industrial Production (IIP), automobile sales, non-oil exports, non-oil non-gold imports, PMI manufacturing, PMI Services, electricity consumption, tractor sales, air passenger traffic, number of aircraft movements, rail freight traffic, port cargo traffic, cement production, steel production, central government gross tax revenues, and coal production. The dataset spans January 2006 through the most recent available period.
 The underlying model employed is a Dynamic Factor Model (DFM) described in Stock and Watson (1989).20 The DFM is a statistical model used to capture the shared dynamics of multiple time series by representing them as a function of a few unobserved (latent) factors.
 These factors summarise the co-movement among the observed variables while isolating idiosyncratic noise. The model can be expressed in a state-space framework comprising an observation equation and a state equation. The observation equation links the observed variables Yt (an n × 1 vector) to the latent factors Ft (a k × 1 vector) as follows:
-Yt = ΛFt + εt where Λ is the n × k matrix of factor loadings, and εt is the n × 1 vector of idiosyncratic errors assumed to be uncorrelated across series and over time. The state equation models the evolution of the latent factors Ft: Ft = ΦFt–1 + vt where Φ is the k × k transition matrix, and vt is the k × 1 vector of factor disturbances typically assumed to follow a multivariate normal distribution.
+Yt = ΛFt + εt where Λ is the n × k matrix of factor loadings, and εt is the n × 1 vector of idiosyncratic errors assumed to be uncorrelated across series and over time. The state equation models the evolution of the latent factors Ft:
+Ft = ΦFt–1 + vt where Φ is the k × k transition matrix, and vt is the k × 1 vector of factor disturbances typically assumed to follow a multivariate normal distribution.
 In this case, Yt is the vector of standardised YoY growth of the HFIs.21 The number of factors to be extracted is determined by the variance explained by each additional factor. This is
 visualised in a “scree plot”.22 The factors which explain the maximum variance in the movement of these transformed HFIs are used for estimating DFM here. Once the monthly factor is extracted, it is then resampled to a quarterly frequency, taking the mean of the monthly factor values within each quarter.
+plot behind the nowcasting model
 22 Nowcasting models often rely on DFMs to extract a small number of latent factors that capture the common movement across many indicators. The scree plot helps identify the number of factors that explain most of the variation, thereby ensuring parsimony in the model by avoiding overfitting through discarding noise-driven components. A sharp drop in values indicates the point beyond which additional factors add little explanatory power.
 1.28 The increasing use of high-frequency indicators and analytical tools such as nowcasting underscores the importance of timely, credible and granular data for macroeconomic assessment and policymaking. In this context, ongoing efforts to strengthen India’s National Statistical System covering data generation, survey modernisation, macroeconomic rebasing and digital dissemination assume particular relevance. These initiatives are discussed in Box I.3.
 State of the Economy
@@ -122,10 +129,12 @@ Supportive fiscal policy strategy underpinning domestic demand
 State of the Economy
 year. Recent tax policy reforms, including the restructuring of personal income tax and the rationalisation of the GST rate, have supported consumption demand while sustaining revenues in absolute terms. On the expenditure side, capital outlays recorded a strong year-over-year increase, reaching nearly 60 per cent of the budgeted allocation by November 2025. Also, the growth in revenue expenditure remained contained, reinforcing the quality of public spending.
 1.31. The central government’s fiscal trajectory stands out for combining consolidation with sustained public investment, earning three sovereign rating upgrades this year Between FY20 and FY25 (Provisional Actual), the share of capital spending in total central government expenditure increased from about 12.5 per cent to 22.6 per cent, while effective capex as a share of GDP rose from roughly 2.6 per cent to 4.0 per cent. Even as the states are overshooting their revenue deficit, the central government, through its Special Assistance to States for Capital Expenditure/Investment (SASCI), has successfully incentivised the States to maintain capital expenditure at around 2.4 per cent of GDP. The expansion of unconditional cash transfers across several States has contributed to rising revenue expenditure, with implications for fiscal space and public investment at the state level (See Chapter II). Based on the broad trends observed during the year, the central government remains well on track to achieve its envisaged fiscal consolidation path, aiming to attain a fiscal deficit target of 4.4 per cent of GDP by FY26. As of November 2025, the union government’s fiscal deficit stood at 62.3 per cent of the Budget Estimates.
+US bonds indicates lower risk premium
 1.32. Markets have acknowledged and rewarded the government’s commitment to fiscal discipline through lower sovereign bond yields, with the spread over U.S. bonds declining by more than half (Chart I.22). Alongside a lower repo rate, these declining
 yields, which serve as benchmarks for borrowing costs across the economy, will itself act as a fiscal stimulus. Credit ratings agency, S&P Ratings, has acknowledged the credibility of and the commitment to the fiscal glide path, while upgrading India’s rating from ‘BBB-’ to ‘BBB’. CareEdge Global, in initiating its coverage of India, too assigned a ‘BBB+’ rating, underscoring India’s robust economic performance and fiscal discipline.
 Monetary Transmission and the Changing Credit Mix
 1.33. Alongside the fiscal stimulus provided by higher public capital expenditure and tax reductions, monetary support was delivered through a cumulative reduction of 125 basis points in the policy repo rate since February 2025 (as inflationary pressures moderated), complemented by an injection of durable liquidity via cash reserve ratio cuts (₹ 2.5 lakh crore25), open market operations (₹6.95 lakh crore26) and forex swap of around $25 billion. These measures have been effectively transmitted to the banking system. The weighted average lending rate (WALR) on fresh Rupee loans by scheduled commercial banks declined by 59 basis points (bps), while the WALR on outstanding Rupee loans declined by 69 bps between February and November 2025. Concurrently, the banking sector has further strengthened its balance sheets, with gross non-performing asset (NPA) ratios declining to multi-decade lows of 2.2 per cent, the half-yearly slippage ratio27 remaining stable at 0.7 per cent, and profitability improving, supported by higher profit after tax and robust net interest margins.
+resources to commercial sector in
 State of the Economy
 1.34. While YoY growth of outstanding non-food credit stands at a reasonably stable rate of around 11.4 per cent as of November 2025 (Chart I.23), India’s commercial sector is tapping into alternative sources of financing, thereby offsetting any moderation in bank credit. The faster transmission of monetary policy has enabled market-based financial instruments to serve as a viable funding source for large corporations. Additionally, as the profitability of these corporations has grown over time, their internal resources have become available for business growth. Together, these trends have decreased their reliance on bank credit. In April-November 2025, within the overall flow of financial resources, there has been a significant increase in the flow from non-bank sources, (Chart I.24) which rose by 29.3 per cent YoY, alongside a robust expansion in non-food bank credit of 18.3 per cent (YoY).
 External sector projected to be stable, but headwinds persist
@@ -266,12 +275,6 @@ Global
 Inflation: Green = downward revision, Red = upward revision
 Real Growth, YoY, Percent
 Production Approach (Supply Side)
-H1:
-FY25
-H1: 
-FY26
-FY25 
-(PE)
 FY26 
 (FAE)
 Agriculture, Livestock, Forestry & Fishing
@@ -296,6 +299,12 @@ Manufacturing
 7.0
 Electricity, Gas, Water Supply & Other 
 Utility Services
+H1:
+FY25
+H1: 
+FY26
+FY25
+(PE)
 6.5
 2.4
 5.9
@@ -362,12 +371,6 @@ GDP
 7.4
 Share as % of Nominal GDP, Percent
 Production Approach (Supply Side)
-H1: 
-FY25
-H1: 
-FY26
-FY25 
-(PE)
 FY26 
 (FAE)
 Agriculture, Livestock, Forestry & Fishing
@@ -392,6 +395,12 @@ Manufacturing
 12.8
 Electricity, Gas, Water Supply & Other Utility 
 Services
+H1: 
+FY25
+H1: 
+FY26
+FY25
+(PE)
 2.5
 2.4
 2.4
@@ -445,15 +454,15 @@ Exports
 21.2
 21.2
 21.5
-Sector
-Indicators
 Q1 
 FY26
 Q2 
 FY26
 Q3 
 FY26
-Monthly Avg 
+Monthly Avg
+Sector
+Indicators
 YoY Growth 
 (FY16-FY20)
 UPI Transaction
@@ -531,7 +540,7 @@ Indicators
 Q1 FY26
 Q2 FY26
 Q3 FY26
-Monthly Avg 
+Monthly Avg
 YoY Growth 
 (FY16-FY20)
 E-way bill generation
@@ -611,7 +620,7 @@ FY23
 FY24
 FY25 
 (Est.)
-FY26 -FY30 
+FY26 -FY30
 (Est)
 Capital stock growth (%)*
 7.6

@@ -35,7 +35,6 @@ $840 billion,$840 billion,$840 billion,$840 billion,true,$840 billion,all algori
 -18 per cent,-18 per cent,-18 per cent,-18 per cent,true,-18 per cent,all algorithms agree
 -2 per cent,-2 per cent,-2 per cent,-2 per cent,true,-2 per cent,all algorithms agree
 -2.2 per cent,-2.2 per cent,-2.2 per cent,-2.2 per cent,true,-2.2 per cent,all algorithms agree
--20  per cent,-20  per cent,-20  per cent,-20  per cent,true,-20  per cent,all algorithms agree
 -20 per cent,-20 per cent,-20 per cent,-20 per cent,true,-20 per cent,all algorithms agree
 -21 per cent,-21 per cent,-21 per cent,-21 per cent,true,-21 per cent,all algorithms agree
 -23 per cent,-23 per cent,-23 per cent,-23 per cent,true,-23 per cent,all algorithms agree
@@ -83,6 +82,7 @@ $840 billion,$840 billion,$840 billion,$840 billion,true,$840 billion,all algori
 -kilometre,-kilometr,-kilometr,-kilometre,false,-kilometr;-kilometre,"algorithms diverge (porter, snowball_english reduce this form)"
 -m,-m,-m,-m,true,-m,all algorithms agree
 -mar,-mar,-mar,-mar,true,-mar,all algorithms agree
+-mile-wide,-mile-wid,-mile-wid,-mile-wide,false,-mile-wid;-mile-wide,"algorithms diverge (porter, snowball_english reduce this form)"
 -minute,-minut,-minut,-minute,false,-minut;-minute,"algorithms diverge (porter, snowball_english reduce this form)"
 -month,-month,-month,-month,true,-month,all algorithms agree
 -percentage-point,-percentage-point,-percentage-point,-percentage-point,true,-percentage-point,all algorithms agree
@@ -117,14 +117,12 @@ $840 billion,$840 billion,$840 billion,$840 billion,true,$840 billion,all algori
 //aim.gov.in/images/waste-water-ver,//aim.gov.in/images/waste-water-v,//aim.gov.in/images/waste-water-v,//aim.gov.in/images/waste-water-ver,false,//aim.gov.in/images/waste-water-v;//aim.gov.in/images/waste-water-ver,"algorithms diverge (porter, snowball_english reduce this form)"
 //bhoopalapally.telangana.gov.in/tourist-place/kaleshwaram-lift-irrigation-project/,//bhoopalapally.telangana.gov.in/tourist-place/kaleshwaram-lift-irrigation-project/,//bhoopalapally.telangana.gov.in/tourist-place/kaleshwaram-lift-irrigation-project/,//bhoopalapally.telangana.gov.in/tourist-place/kaleshwaram-lift-irrigation-project/,true,//bhoopalapally.telangana.gov.in/tourist-place/kaleshwaram-lift-irrigation-project/,all algorithms agree
 //bhuvan-app,//bhuvan-app,//bhuvan-app,//bhuvan-app,true,//bhuvan-app,all algorithms agree
-//budgetlab,//budgetlab,//budgetlab,//budgetlab,true,//budgetlab,all algorithms agree
 //cbseacademic.nic.in/web_material/circulars/,//cbseacademic.nic.in/web_material/circulars/,//cbseacademic.nic.in/web_material/circulars/,//cbseacademic.nic.in/web_material/circulars/,true,//cbseacademic.nic.in/web_material/circulars/,all algorithms agree
 //cdnbbsr.s,//cdnbbsr.,//cdnbbsr.s,//cdnbbsr.s,false,//cdnbbsr.;//cdnbbsr.s,algorithms diverge (porter reduce this form)
 //cea.nic.in/,//cea.nic.in/,//cea.nic.in/,//cea.nic.in/,true,//cea.nic.in/,all algorithms agree
 //consumeraffairs.nic.in,//consumeraffairs.nic.in,//consumeraffairs.nic.in,//consumeraffairs.nic.in,true,//consumeraffairs.nic.in,all algorithms agree
 //data.humdata.org/dataset/social-connectedness-index,//data.humdata.org/dataset/social-connectedness-index,//data.humdata.org/dataset/social-connectedness-index,//data.humdata.org/dataset/social-connectedness-index,true,//data.humdata.org/dataset/social-connectedness-index,all algorithms agree
 //dataforgood.facebook.com/,//dataforgood.facebook.com/,//dataforgood.facebook.com/,//dataforgood.facebook.com/,true,//dataforgood.facebook.com/,all algorithms agree
-//doi,//doi,//doi,//doi,true,//doi,all algorithms agree
 //doi.org/,//doi.org/,//doi.org/,//doi.org/,true,//doi.org/,all algorithms agree
 //eadjudication.sebi,//eadjudication.sebi,//eadjudication.sebi,//eadjudication.sebi,true,//eadjudication.sebi,all algorithms agree
 //fisheries.bihar.gov.in/stateschemes.aspx,//fisheries.bihar.gov.in/stateschemes.aspx,//fisheries.bihar.gov.in/stateschemes.aspx,//fisheries.bihar.gov.in/stateschemes.aspx,true,//fisheries.bihar.gov.in/stateschemes.aspx,all algorithms agree
@@ -140,7 +138,6 @@ $840 billion,$840 billion,$840 billion,$840 billion,true,$840 billion,all algori
 //pledge.cvc.nic.in/,//pledge.cvc.nic.in/,//pledge.cvc.nic.in/,//pledge.cvc.nic.in/,true,//pledge.cvc.nic.in/,all algorithms agree
 //rkvy.da.gov.in/uploads/sucessstory/gujarat/,//rkvy.da.gov.in/uploads/sucessstory/gujarat/,//rkvy.da.gov.in/uploads/sucessstory/gujarat/,//rkvy.da.gov.in/uploads/sucessstory/gujarat/,true,//rkvy.da.gov.in/uploads/sucessstory/gujarat/,all algorithms agree
 //rtionline.gov.in,//rtionline.gov.in,//rtionline.gov.in,//rtionline.gov.in,true,//rtionline.gov.in,all algorithms agree
-//sansad.in/getfile/annex/,//sansad.in/getfile/annex/,//sansad.in/getfile/annex/,//sansad.in/getfile/annex/,true,//sansad.in/getfile/annex/,all algorithms agree
 //sebi.gov.in,//sebi.gov.in,//sebi.gov.in,//sebi.gov.in,true,//sebi.gov.in,all algorithms agree
 //secure.sebi.gov.in,//secure.sebi.gov.in,//secure.sebi.gov.in,//secure.sebi.gov.in,true,//secure.sebi.gov.in,all algorithms agree
 //sice.nism.ac.in/,//sice.nism.ac.in/,//sice.nism.ac.in/,//sice.nism.ac.in/,true,//sice.nism.ac.in/,all algorithms agree
@@ -151,8 +148,6 @@ $840 billion,$840 billion,$840 billion,$840 billion,true,$840 billion,all algori
 //tinyurl.com/bde,//tinyurl.com/bd,//tinyurl.com/bd,//tinyurl.com/bde,false,//tinyurl.com/bd;//tinyurl.com/bde,"algorithms diverge (porter, snowball_english reduce this form)"
 //tinyurl.com/bdfu,//tinyurl.com/bdfu,//tinyurl.com/bdfu,//tinyurl.com/bdfu,true,//tinyurl.com/bdfu,all algorithms agree
 //tinyurl.com/bdfuwfdc,//tinyurl.com/bdfuwfdc,//tinyurl.com/bdfuwfdc,//tinyurl.com/bdfuwfdc,true,//tinyurl.com/bdfuwfdc,all algorithms agree
-//tinyurl.com/f,//tinyurl.com/f,//tinyurl.com/f,//tinyurl.com/f,true,//tinyurl.com/f,all algorithms agree
-//tinyurl.com/mpdyxra,//tinyurl.com/mpdyxra,//tinyurl.com/mpdyxra,//tinyurl.com/mpdyxra,true,//tinyurl.com/mpdyxra,all algorithms agree
 //tinyurl.com/mr,//tinyurl.com/mr,//tinyurl.com/mr,//tinyurl.com/mr,true,//tinyurl.com/mr,all algorithms agree
 //tinyurl.com/mrcxmn,//tinyurl.com/mrcxmn,//tinyurl.com/mrcxmn,//tinyurl.com/mrcxmn,true,//tinyurl.com/mrcxmn,all algorithms agree
 //tinyurl.com/ms,//tinyurl.com/m,//tinyurl.com/m,//tinyurl.com/ms,false,//tinyurl.com/m;//tinyurl.com/ms,"algorithms diverge (porter, snowball_english reduce this form)"
@@ -191,7 +186,6 @@ $840 billion,$840 billion,$840 billion,$840 billion,true,$840 billion,all algori
 //www.pib.gov.in/pressnotedetails.aspx,//www.pib.gov.in/pressnotedetails.aspx,//www.pib.gov.in/pressnotedetails.aspx,//www.pib.gov.in/pressnotedetails.aspx,true,//www.pib.gov.in/pressnotedetails.aspx,all algorithms agree
 //www.thelancet.com/journals/lancet/article/piis,//www.thelancet.com/journals/lancet/article/pii,//www.thelancet.com/journals/lancet/article/pii,//www.thelancet.com/journals/lancet/article/piis,false,//www.thelancet.com/journals/lancet/article/pii;//www.thelancet.com/journals/lancet/article/piis,"algorithms diverge (porter, snowball_english reduce this form)"
 //www.thelancet.com/series-do/ultra-processed-food,//www.thelancet.com/series-do/ultra-processed-food,//www.thelancet.com/series-do/ultra-processed-food,//www.thelancet.com/series-do/ultra-processed-food,true,//www.thelancet.com/series-do/ultra-processed-food,all algorithms agree
-/as,/a,/as,/as,false,/a;/as,algorithms diverge (porter reduce this form)
 /assistant,/assist,/assist,/assistant,false,/assist;/assistant,"algorithms diverge (porter, snowball_english reduce this form)"
 /bhu-aadhaar,/bhu-aadhaar,/bhu-aadhaar,/bhu-aadhaar,true,/bhu-aadhaar,all algorithms agree
 /children,/children,/children,/children,true,/children,all algorithms agree
@@ -671,7 +665,6 @@ $840 billion,$840 billion,$840 billion,$840 billion,true,$840 billion,all algori
 26 oct,26 oct,26 oct,26 oct,true,26 oct,all algorithms agree
 26 per cent,26 per cent,26 per cent,26 per cent,true,26 per cent,all algorithms agree
 26 separate,26 separ,26 separ,26 separate,false,26 separ;26 separate,"algorithms diverge (porter, snowball_english reduce this form)"
-26 september,26 septemb,26 septemb,26 september,false,26 septemb;26 september,"algorithms diverge (porter, snowball_english reduce this form)"
 26.2 per cent,26.2 per cent,26.2 per cent,26.2 per cent,true,26.2 per cent,all algorithms agree
 26.32 crore,26.32 crore,26.32 crore,26.32 crore,true,26.32 crore,all algorithms agree
 26.5 per cent,26.5 per cent,26.5 per cent,26.5 per cent,true,26.5 per cent,all algorithms agree
@@ -693,7 +686,6 @@ $840 billion,$840 billion,$840 billion,$840 billion,true,$840 billion,all algori
 27.7 per cent,27.7 per cent,27.7 per cent,27.7 per cent,true,27.7 per cent,all algorithms agree
 27.8 per cent,27.8 per cent,27.8 per cent,27.8 per cent,true,27.8 per cent,all algorithms agree
 27.9 per cent,27.9 per cent,27.9 per cent,27.9 per cent,true,27.9 per cent,all algorithms agree
-28 december,28 decemb,28 decemb,28 december,false,28 decemb;28 december,"algorithms diverge (porter, snowball_english reduce this form)"
 28 lakh,28 lakh,28 lakh,28 lakh,true,28 lakh,all algorithms agree
 28 may 2026,28 may 2026,28 may 2026,28 may 2026,true,28 may 2026,all algorithms agree
 28 november 2025,28 november 2025,28 november 2025,28 november 2025,true,28 november 2025,all algorithms agree
@@ -928,7 +920,6 @@ $840 billion,$840 billion,$840 billion,$840 billion,true,$840 billion,all algori
 42.3 per cent,42.3 per cent,42.3 per cent,42.3 per cent,true,42.3 per cent,all algorithms agree
 42.4 per cent,42.4 per cent,42.4 per cent,42.4 per cent,true,42.4 per cent,all algorithms agree
 42.66 crore,42.66 crore,42.66 crore,42.66 crore,true,42.66 crore,all algorithms agree
-42.78  crore,42.78  crore,42.78  crore,42.78  crore,true,42.78  crore,all algorithms agree
 43 dec,43 dec,43 dec,43 dec,true,43 dec,all algorithms agree
 43 per cent,43 per cent,43 per cent,43 per cent,true,43 per cent,all algorithms agree
 43.3 per cent,43.3 per cent,43.3 per cent,43.3 per cent,true,43.3 per cent,all algorithms agree
@@ -1376,7 +1367,6 @@ _english.pdf,_english.pdf,_english.pdf,_english.pdf,true,_english.pdf,all algori
 _id,_id,_id,_id,true,_id,all algorithms agree
 _levels,_level,_level,_levels,false,_level;_levels,"algorithms diverge (porter, snowball_english reduce this form)"
 _nuts,_nut,_nut,_nuts,false,_nut;_nuts,"algorithms diverge (porter, snowball_english reduce this form)"
-_p,_p,_p,_p,true,_p,all algorithms agree
 a,a,a,a,true,a,all algorithms agree
 a+b,a+b,a+b,a+b,true,a+b,all algorithms agree
 a+b+c,a+b+c,a+b+c,a+b+c,true,a+b+c,all algorithms agree
@@ -2269,7 +2259,6 @@ aquaculture,aquacultur,aquacultur,aquacult,false,aquacult;aquacultur,"algorithms
 aquatic,aquat,aquat,aqu,false,aqu;aquat,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
 aquifers,aquif,aquif,aqu,false,aqu;aquif,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
 ar,ar,ar,ar,true,ar,all algorithms agree
-ar-,ar-,ar-,ar-,true,ar-,all algorithms agree
 arabia,arabia,arabia,arab,false,arab;arabia,algorithms diverge (lancaster reduce this form)
 araria,araria,araria,arar,false,arar;araria,algorithms diverge (lancaster reduce this form)
 araya,araya,araya,aray,false,aray;araya,algorithms diverge (lancaster reduce this form)
@@ -2521,7 +2510,6 @@ augmentation,augment,augment,aug,false,aug;augment,"algorithms diverge (lancaste
 augmented,augment,augment,aug,false,aug;augment,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
 augmenting,augment,augment,aug,false,aug;augment,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
 august,august,august,august,true,august,all algorithms agree
-august  2024,august  2024,august  2024,august  2024,true,august  2024,all algorithms agree
 august 2008,august 2008,august 2008,august 2008,true,august 2008,all algorithms agree
 august 2019,august 2019,august 2019,august 2019,true,august 2019,all algorithms agree
 august 2020,august 2020,august 2020,august 2020,true,august 2020,all algorithms agree
@@ -2599,6 +2587,7 @@ avoids,avoid,avoid,avoid,true,avoid,all algorithms agree
 avyay,avyay,avyay,avyay,true,avyay,all algorithms agree
 awaas,awaa,awaa,awaa,true,awaa,all algorithms agree
 awaited,await,await,await,true,await,all algorithms agree
+awaiting,await,await,await,true,await,all algorithms agree
 award,award,award,award,true,award,all algorithms agree
 awarded,award,award,award,true,award,all algorithms agree
 awarding,award,award,award,true,award,all algorithms agree
@@ -2915,6 +2904,7 @@ bill,bill,bill,bil,false,bil;bill,algorithms diverge (lancaster reduce this form
 billing,bill,bill,bil,false,bil;bill,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
 billion,billion,billion,bil,false,bil;billion,algorithms diverge (lancaster reduce this form)
 billion.,billion.,billion.,billion.,true,billion.,all algorithms agree
+billions,billion,billion,bil,false,bil;billion,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
 bills,bill,bill,bil,false,bil;bill,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
 bima,bima,bima,bim,false,bim;bima,algorithms diverge (lancaster reduce this form)
 bin,bin,bin,bin,true,bin,all algorithms agree
@@ -3313,7 +3303,6 @@ cams,cam,cam,cam,true,cam,all algorithms agree
 can,can,can,can,true,can,all algorithms agree
 canada,canada,canada,canad,false,canad;canada,algorithms diverge (lancaster reduce this form)
 canara,canara,canara,canar,false,canar;canara,algorithms diverge (lancaster reduce this form)
-canaries,canari,canari,can,false,can;canari,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
 cancel,cancel,cancel,cancel,true,cancel,all algorithms agree
 cancel-,cancel-,cancel-,cancel-,true,cancel-,all algorithms agree
 cancellation,cancel,cancel,cancel,true,cancel,all algorithms agree
@@ -3427,7 +3416,6 @@ cases,case,case,cas,false,cas;case,"algorithms diverge (lancaster, porter, snowb
 cash,cash,cash,cash,true,cash,all algorithms agree
 cash-flow,cash-flow,cash-flow,cash-flow,true,cash-flow,all algorithms agree
 cash-flow-based,cash-flow-bas,cash-flow-bas,cash-flow-based,false,cash-flow-bas;cash-flow-based,"algorithms diverge (porter, snowball_english reduce this form)"
-cash-in,cash-in,cash-in,cash-in,true,cash-in,all algorithms agree
 cash-rich,cash-rich,cash-rich,cash-rich,true,cash-rich,all algorithms agree
 cashflows,cashflow,cashflow,cashflow,true,cashflow,all algorithms agree
 cashlessness,cashless,cashless,cashless,true,cashless,all algorithms agree
@@ -3631,7 +3619,6 @@ chandigarh,chandigarh,chandigarh,chandigarh,true,chandigarh,all algorithms agree
 chandra,chandra,chandra,chandr,false,chandr;chandra,algorithms diverge (lancaster reduce this form)
 chandrakant,chandrak,chandrak,chandrak,true,chandrak,all algorithms agree
 chandrayaan,chandrayaan,chandrayaan,chandraya,false,chandraya;chandrayaan,algorithms diverge (lancaster reduce this form)
-chandrika,chandrika,chandrika,chandrik,false,chandrik;chandrika,algorithms diverge (lancaster reduce this form)
 change,chang,chang,chang,true,chang,all algorithms agree
 change-in-law,change-in-law,change-in-law,change-in-law,true,change-in-law,all algorithms agree
 change.,change.,change.,change.,true,change.,all algorithms agree
@@ -3732,7 +3719,6 @@ chords,chord,chord,chord,true,chord,all algorithms agree
 chores,chore,chore,chor,false,chor;chore,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
 chose,chose,chose,chos,false,chos;chose,algorithms diverge (lancaster reduce this form)
 chosen,chosen,chosen,chos,false,chos;chosen,algorithms diverge (lancaster reduce this form)
-chris,chri,chris,chris,false,chri;chris,algorithms diverge (porter reduce this form)
 christakis,christaki,christaki,christakis,false,christaki;christakis,"algorithms diverge (porter, snowball_english reduce this form)"
 christian,christian,christian,christian,true,christian,all algorithms agree
 christiano,christiano,christiano,christiano,true,christiano,all algorithms agree
@@ -3864,7 +3850,6 @@ close-ended,close-end,close-end,close-ended,false,close-end;close-ended,"algorit
 closed,close,close,clos,false,clos;close,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
 closed-loop,closed-loop,closed-loop,closed-loop,true,closed-loop,all algorithms agree
 closely,close,close,clos,false,clos;close,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
-closeness,close,close,clos,false,clos;close,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
 closer,closer,closer,clos,false,clos;closer,algorithms diverge (lancaster reduce this form)
 closes,close,close,clos,false,clos;close,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
 closest,closest,closest,closest,true,closest,all algorithms agree
@@ -3983,7 +3968,6 @@ coincides,coincid,coincid,coincid,true,coincid,all algorithms agree
 coinciding,coincid,coincid,coincid,true,coincid,all algorithms agree
 coins,coin,coin,coin,true,coin,all algorithms agree
 coinvest-,coinvest-,coinvest-,coinvest-,true,coinvest-,all algorithms agree
-coir,coir,coir,coir,true,coir,all algorithms agree
 coking,coke,coke,cok,false,cok;coke,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
 cold,cold,cold,cold,true,cold,all algorithms agree
 cold-chain,cold-chain,cold-chain,cold-chain,true,cold-chain,all algorithms agree
@@ -3999,3 +3983,19 @@ collapse,collaps,collaps,collaps,true,collaps,all algorithms agree
 collapsed,collaps,collaps,collaps,true,collaps,all algorithms agree
 collapsing,collaps,collaps,collaps,true,collaps,all algorithms agree
 collated,collat,collat,col,false,col;collat,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
+collateral,collater,collater,col,false,col;collater,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
+collateral-,collateral-,collateral-,collateral-,true,collateral-,all algorithms agree
+collateral-free,collateral-fre,collateral-fre,collateral-free,false,collateral-fre;collateral-free,"algorithms diverge (porter, snowball_english reduce this form)"
+collating,collat,collat,col,false,col;collat,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
+colleague,colleagu,colleagu,colleagu,true,colleagu,all algorithms agree
+collect,collect,collect,collect,true,collect,all algorithms agree
+collected,collect,collect,collect,true,collect,all algorithms agree
+collecting,collect,collect,collect,true,collect,all algorithms agree
+collection,collect,collect,collect,true,collect,all algorithms agree
+collections,collect,collect,collect,true,collect,all algorithms agree
+collections.,collections.,collections.,collections.,true,collections.,all algorithms agree
+collective,collect,collect,collect,true,collect,all algorithms agree
+collectively,collect,collect,collect,true,collect,all algorithms agree
+collectivisation,collectivis,collectivis,collect,false,collect;collectivis,"algorithms diverge (lancaster, porter, snowball_english reduce this form)"
+college,colleg,colleg,colleg,true,colleg,all algorithms agree
+college-preparatory,college-preparatori,college-preparatori,college-preparatory,false,college-preparatori;college-preparatory,"algorithms diverge (porter, snowball_english reduce this form)"

@@ -15,8 +15,7 @@ Main Tax Proposals in the Finance Bill
 ▪ Rationalisation of penalty and prosecution: Several offences have been decriminalised, or entail a maximum imprisonment of two years.
 ▪ Tax collected at source (TCS): TCS on remittance of more than Rs 10 lakh for the purposes of education or medical treatment has been reduced from 5% to 2%. TCS on sale of overseas tour package, including expenses for travel or hotel stay, has been reduced from 5% and 20% (depending on the amount) to 2%.
 ▪ Finance and Economy: A ‘High Level Committee on Banking for Viksit Bharat’ will be set up to review the sector. The Foreign Exchange Management (Non-debt Instruments) Rules will be reviewed to simplify framework for foreign investments. Individual Persons Resident Outside India (PROI) will be permitted to invest in equity instruments of listed Indian companies through the Portfolio Investment Scheme. The investment limit under this scheme will be increased from 5% to 10% for individual PROI. A market making framework (with access to funds and derivatives on corporate bond indices) and total return swaps on corporate bonds have been proposed. An incentive of Rs 100 crore has been announced for single bond issuance of more than Rs 1,000 crore to encourage issuance of municipal bonds.
-February 1, 2026 PRS Legislative Research ◼ Institute for Policy Research Studies 3rd Floor, Gandharva Mahavidyalaya ◼ 212, Deen Dayal Upadhyaya Marg ◼ New Delhi – 110002
-Tel: (011) 4343 4035, 2323 4801 ◼ www.prsindia.org
+February 1, 2026 PRS Legislative Research ◼ Institute for Policy Research Studies 3rd Floor, Gandharva Mahavidyalaya ◼ 212, Deen Dayal Upadhyaya Marg ◼ New Delhi – 110002 Tel: (011) 4343 4035, 2323 4801 ◼ www.prsindia.org
 Union Budget 2026-27 Analysis PRS Legislative Research
 ▪ Industry and Commerce: A scheme will be introduced to revive 200 legacy industrial clusters through updated technology and infrastructure. An integrated programme for the textile sector will be introduced with five sub-parts: (i) National Fibre Scheme, (ii) Textile Expansion and Employment Scheme, (iii) National Handloom and Handicraft Scheme, (iv) Tex-Eco Initiative, and (v) Samarth 2.0. To strengthen khadi, handloom and handicrafts, Mahatma Gandhi Gram Swaraj initiative has been proposed. To enable the creation of ‘Champion SMEs,’ following initiatives are proposed: (i) SME Growth Fund, with outlay of Rs 10,000 crore, (ii) top up of Self-Reliant India Fund, and (iii) liquidity support.
 ▪ Infrastructure: Public capex will be increased from Rs 11.2 lakh crore to Rs 12.2 lakh crore. An Infrastructure Risk Guarantee Fund will be set up to strengthen the confidence of private developers. Five tourism destinations will be developed in the Purvodaya states and 4,000 electric buses will be allocated to the region. A dedicated freight corridor will connect Surat to Dankuni and 20 new national waterways will be operationalised over the next five years. Schemes will be launched for Enhancement of Construction and Infrastructure Equipments and for container manufacturing.
@@ -82,8 +81,7 @@ Outstanding Liabilities (% of GDP)
 Interest Payment as % of Revenue Receipts
 0% 10% 20% 30% 40% 50% 60% 70%
 61% 59% 58% 57% 56% 56% 56%
-37% 39% 39% 37% 38% 40%
-37% 37% 37% 35% 37% 38% 36%
+37% 37% 37% 35% 37% 38% 36% 42% 37% 39% 39% 37% 38% 40%
 February 1, 2026 - 8 -
 Union Budget 2026-27 Analysis PRS Legislative Research
 Annexure: Recommendations of the 16th Finance Commission
@@ -95,10 +93,13 @@ The Report of the 16th Finance Commission (Chair: Dr. Arvind Panagariya) was tab
 DISCLAIMER: This document is being furnished to you for your information. You may choose to reproduce or redistribute this report for non-commercial purposes in part or in full to any other person with due acknowledgement of PRS Legislative Research (“PRS”). The opinions expressed herein are entirely those of the author(s). PRS makes every effort to use reliable and comprehensive information, but PRS does not represent that the contents of the report are accurate or complete. PRS is an independent, not-for-profit group. This document has been prepared without regard to the objectives or opinions of those who may receive it.
 February 1, 2026 - 9 -
 Actuals 
-2024-25
+2024-25 
 Budgeted
+2025-26 
 Revised
+2025-26 
 Budgeted
+2026-27 
 % change (2025-26
 RE to 2026-27 BE) 
 Revenue Expenditure 
@@ -210,9 +211,6 @@ Primary Deficit
 0.7% 
  
 Sources: Budget at a Glance, Union Budget Documents 2026-27; PRS.
-2025-26
-2025-26
-2026-27
 Expenditure which brings a change to the government’s assets or 
 liabilities (such as construction of roads or recovery of loans) is 
 capital expenditure, and all other expenses are revenue expenditure 
@@ -237,10 +235,13 @@ achieving the targets.
 Budget Estimate
 Actual Disinvestment
 Actuals 
-2024-25
+2024-25 
 Budgeted
+2025-26 
 Revised
+2025-26 
 Budgeted
+2026-27 
 % change (2025-26
 RE to 2026-27 BE) 
 A. Gross Tax Revenue 
@@ -370,9 +371,6 @@ Borrowings
 16,95,768 
 8.8% 
 Sources: Receipts Budget, Union Budget Documents 2026-27; PRS.
-2025-26
-2025-26
-2026-27
 ▪ 
 Indirect taxes: Total indirect tax collections are estimated to be Rs 16,79,130 crore in 2026-27. Of this, the government 
 has estimated to raise Rs 10,19,020 crore from CGST.
@@ -391,10 +389,13 @@ February 1, 2026
  
 - 4 -
 Actuals 
-2024-25
+2024-25 
 Budgeted
+2025-26 
 Revised
+2025-26 
 Budgeted
+2026-27 
 % change (2025-26
 RE to 2026-27 BE) 
 Central Expenditure 
@@ -494,23 +495,20 @@ Total Expenditure
 53,47,315 
 7.7% 
 Sources: Budget at a Glance, Union Budget Documents 2026-27; PRS.
-2025-26
-2025-26
-2026-27
 Expenditure by Ministries 
 In 2026-27, the top 13 ministries in terms of allocations account for 54% of the estimated total expenditure (Table 4). Of 
 these, the Ministry of Defence has the highest allocation in 2026-27, at Rs 7,84,678 crore, accounting for 15% of the total 
 budgeted expenditure of the central government. Other ministries with high allocations include: (i) Road Transport and 
 Highways (6% of total expenditure), (ii) Railways (5%), and (iii) Home Affairs (5%).
 Actuals 
-2024-25
+2024-25 
 Budgeted
+2025-26 
 Revised
+2025-26 
 Budgeted
+2026-27 
 % change (2025-26 RE
-2025-26
-2025-26
-2026-27
 to 2026-27 BE) 
 Defence 
 6,36,003 
@@ -602,10 +600,13 @@ February 1, 2026
  
 - 5 -
 Actuals 
-2024-25
+2024-25 
 Budgeted
+2025-26 
 Revised
+2025-26 
 Budgeted
+2026-27 
 % change (2025-26
 RE to 2026-27 BE) 
 Food subsidy 
@@ -645,15 +646,15 @@ Total
 4,54,773 
 -3.1% 
 Sources: Expenditure Profile, Union Budget 2026-27; PRS.
-2025-26
-2025-26
-2026-27
 Expenditure on Major Schemes
 Actuals 
-2024-25
+2024-25 
 Budgeted
+2025-26 
 Revised
+2025-26 
 Budgeted
+2026-27 
 % change (2025-26 RE
 to 2026-27 BE) 
 VB-G RAM G 
@@ -745,9 +746,6 @@ Sources: Expenditure Profile, Union Budget 2026-27; PRS.
 ▪ 
 VB-G RAM G has the highest allocation in 2026-27 (Rs 95,692 crore). In December 2025, MGNREGA was replaced by 
 the VB-G RAM G Act. In 2026-27, MGNREGS has also been allocated Rs 30,000 crore.
-2025-26
-2025-26
-2026-27
 ▪ 
 Jal Jeevan Mission has been allocated Rs 67,670 crore in 2026-27. In 2025-26, the revised estimate (Rs 17,000 crore) is 
 significantly lower than the budget estimate (Rs 67,000 crore).
@@ -763,10 +761,10 @@ February 1, 2026
 % change 
 (2025-26 RE to
 Actuals 
-2024-25
+2024-25 
 Revised
+2025-26 
 Budgeted
-2025-26
 2026-27
 2026-27 BE) 
 Welfare of Women 
@@ -802,9 +800,11 @@ North Eastern Region
 1,08,335 
 22.1%
 Actuals 
-2024-25
+2024-25 
 Budgeted
+2025-26 
 Revised
+2025-26 
 Budgeted
 2026-27 
 Fiscal Deficit 
@@ -817,8 +817,6 @@ Revenue Deficit
 1.5% 
 1.5% 
 1.5%
-2025-26
-2025-26
 Revenue deficit is the excess of revenue expenditure over 
 revenue receipts. Such a deficit implies that the 
 government needs to borrow funds to meet recurring 
@@ -830,13 +828,13 @@ Primary Deficit
 0.8% 
 0.8% 
 0.7%
-16th FC 
-2026-31
 Criteria 
 14th FC 
-2015-20
+2015-20 
 15th FC 
-2021-26
+2021-26 
+16th FC 
+2026-31
 Income Distance 
 50.0 
 45.0 

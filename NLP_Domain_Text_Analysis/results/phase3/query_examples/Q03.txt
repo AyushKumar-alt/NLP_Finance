@@ -5,7 +5,7 @@ Pipeline-normalized terms: fdi
 Matched terms: fdi
 Missing terms: (none)
 Results: 50 content unit(s) in 4 document(s)
-Execution time: 157.501 ms
+Execution time: 116.175 ms
 
    1. score=1.2500 D04 | p34 | 4.78 | D04_BOX003
       matched: fdi

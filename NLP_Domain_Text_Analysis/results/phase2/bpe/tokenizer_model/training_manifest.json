@@ -1,7 +1,7 @@
 {
   "training_mode": "all_selected_units",
   "training_documents": 31,
-  "training_units": 6005,
+  "training_units": 6134,
   "training_files": [
     "D01.txt",
     "D02.txt",

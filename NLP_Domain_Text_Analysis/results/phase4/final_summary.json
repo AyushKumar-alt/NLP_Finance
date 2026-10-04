@@ -4,14 +4,14 @@
   "elapsed_seconds": null,
   "selected_pipeline": "pipeline_b",
   "inputs": {
-    "phase3_config": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\config\\phase3_config.yaml",
-    "phase3_index": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase3\\inverted_index.json",
-    "relevance_judgments": "C:\\Users\\user\\Downloads\\NLP document\\NLP_Domain_Text_Analysis\\results\\phase4\\relevance_judgments.csv"
+    "phase3_config": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\config\\phase3_config.yaml",
+    "phase3_index": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase3\\inverted_index.json",
+    "relevance_judgments": "C:\\Users\\calpo\\OneDrive\\Documents\\NLP\\NLP_Domain_Text_Analysis\\results\\phase4\\relevance_judgments.csv"
   },
   "judgments": {
-    "pairs": 139,
-    "relevant": 130,
-    "not_relevant": 9,
+    "pairs": 166,
+    "relevant": 155,
+    "not_relevant": 11,
     "pool_depth": 10,
     "annotator": "single annotator: implementing author (Phase 4)",
     "judgment_method": "pooled manual judgment; rubric recorded per row in the notes column",
@@ -33,19 +33,19 @@
         "not_relevant": 0
       },
       "Q04": {
-        "judged": 10,
-        "relevant": 7,
-        "not_relevant": 3
+        "judged": 12,
+        "relevant": 10,
+        "not_relevant": 2
       },
       "Q05": {
         "judged": 10,
-        "relevant": 8,
-        "not_relevant": 2
+        "relevant": 9,
+        "not_relevant": 1
       },
       "Q06": {
-        "judged": 6,
-        "relevant": 6,
-        "not_relevant": 0
+        "judged": 12,
+        "relevant": 7,
+        "not_relevant": 5
       },
       "Q07": {
         "judged": 10,
@@ -58,13 +58,13 @@
         "not_relevant": 0
       },
       "Q09": {
-        "judged": 10,
-        "relevant": 10,
+        "judged": 18,
+        "relevant": 18,
         "not_relevant": 0
       },
       "Q10": {
-        "judged": 10,
-        "relevant": 10,
+        "judged": 11,
+        "relevant": 11,
         "not_relevant": 0
       },
       "Q11": {
@@ -78,23 +78,123 @@
         "not_relevant": 0
       },
       "Q13": {
-        "judged": 10,
-        "relevant": 10,
+        "judged": 17,
+        "relevant": 17,
         "not_relevant": 0
       },
       "Q14": {
-        "judged": 10,
-        "relevant": 8,
-        "not_relevant": 2
+        "judged": 12,
+        "relevant": 11,
+        "not_relevant": 1
       },
       "Q15": {
-        "judged": 10,
-        "relevant": 8,
+        "judged": 11,
+        "relevant": 9,
         "not_relevant": 2
       }
     }
   },
   "evaluation": {
+    "pipeline_a_lemma": {
+      "pipeline": "pipeline_a_lemma",
+      "judged_depth": 10,
+      "unjudged_policy": "exclude_from_precision_denominator",
+      "queries_evaluated": 15,
+      "queries_failed": 0,
+      "aggregates": {
+        "judged_depth": {
+          "queries": 15,
+          "queries_scored": 15,
+          "queries_undefined": 0,
+          "undefined_reasons": {},
+          "macro": {
+            "precision": 0.9764,
+            "recall": 0.882,
+            "f1": 0.9183,
+            "precision_at_defined_queries": 0.9764,
+            "recall_at_defined_queries": 0.882,
+            "f1_at_defined_queries": 0.9183
+          },
+          "micro": {
+            "precision": 0.9776,
+            "recall": 0.8452,
+            "f1": 0.9066
+          },
+          "micro_counts": {
+            "retrieved": 138,
+            "judged": 134,
+            "unjudged": 4,
+            "relevant_retrieved": 131,
+            "relevant_total": 155
+          }
+        }
+      },
+      "at_k": {
+        "5": {
+          "k": 5,
+          "macro_precision_at_k": 0.96,
+          "macro_recall_at_k": 0.513,
+          "queries_with_defined_precision_at_k": 15,
+          "queries_with_defined_recall_at_k": 15,
+          "relevant_retrieved_at_k": 72,
+          "relevant_total": 155,
+          "pooled_precision_at_k": 14.4,
+          "micro": {
+            "k": 5,
+            "pooled_hits": 72,
+            "pooled_slots": 73,
+            "pooled_precision_at_k": 0.9863,
+            "pooled_recall_at_k": 0.4645,
+            "relevant_total": 155
+          }
+        },
+        "10": {
+          "k": 10,
+          "macro_precision_at_k": 0.8733,
+          "macro_recall_at_k": 0.882,
+          "queries_with_defined_precision_at_k": 15,
+          "queries_with_defined_recall_at_k": 15,
+          "relevant_retrieved_at_k": 131,
+          "relevant_total": 155,
+          "pooled_precision_at_k": 13.1,
+          "micro": {
+            "k": 10,
+            "pooled_hits": 131,
+            "pooled_slots": 138,
+            "pooled_precision_at_k": 0.9493,
+            "pooled_recall_at_k": 0.8452,
+            "relevant_total": 155
+          }
+        }
+      },
+      "document_level": {
+        "queries": 15,
+        "queries_scored": 15,
+        "queries_undefined": 0,
+        "undefined_reasons": {},
+        "macro": {
+          "precision": 0.684,
+          "recall": 1.0,
+          "f1": 0.7883,
+          "precision_at_defined_queries": 0.684,
+          "recall_at_defined_queries": 1.0,
+          "f1_at_defined_queries": 0.7883
+        },
+        "micro": {
+          "precision": 0.6162,
+          "recall": 1.0,
+          "f1": 0.7625
+        },
+        "micro_counts": {
+          "retrieved": 99,
+          "judged": 99,
+          "unjudged": 0,
+          "relevant_retrieved": 61,
+          "relevant_total": 61
+        }
+      },
+      "problems": []
+    },
     "pipeline_b": {
       "pipeline": "pipeline_b",
       "judged_depth": 10,
@@ -108,62 +208,62 @@
           "queries_undefined": 0,
           "undefined_reasons": {},
           "macro": {
-            "precision": 0.9511,
-            "recall": 1.0,
-            "f1": 0.9729,
-            "precision_at_defined_queries": 0.9511,
-            "recall_at_defined_queries": 1.0,
-            "f1_at_defined_queries": 0.9729
+            "precision": 0.9571,
+            "recall": 0.8723,
+            "f1": 0.9053,
+            "precision_at_defined_queries": 0.9571,
+            "recall_at_defined_queries": 0.8723,
+            "f1_at_defined_queries": 0.9053
           },
           "micro": {
-            "precision": 0.9489,
-            "recall": 1.0,
-            "f1": 0.9738
+            "precision": 0.9559,
+            "recall": 0.8387,
+            "f1": 0.8935
           },
           "micro_counts": {
             "retrieved": 139,
-            "judged": 137,
-            "unjudged": 2,
+            "judged": 136,
+            "unjudged": 3,
             "relevant_retrieved": 130,
-            "relevant_total": 130
+            "relevant_total": 155
           }
         }
       },
       "at_k": {
         "5": {
           "k": 5,
-          "macro_precision_at_k": 0.9067,
-          "macro_recall_at_k": 0.5508,
+          "macro_precision_at_k": 0.92,
+          "macro_recall_at_k": 0.4923,
           "queries_with_defined_precision_at_k": 15,
           "queries_with_defined_recall_at_k": 15,
-          "relevant_retrieved_at_k": 68,
-          "relevant_total": 130,
-          "pooled_precision_at_k": 13.6,
+          "relevant_retrieved_at_k": 69,
+          "relevant_total": 155,
+          "pooled_precision_at_k": 13.8,
           "micro": {
             "k": 5,
-            "pooled_hits": 68,
+            "pooled_hits": 69,
             "pooled_slots": 73,
-            "pooled_precision_at_k": 0.9315,
-            "pooled_recall_at_k": 0.5231,
-            "relevant_total": 130
+            "pooled_precision_at_k": 0.9452,
+            "pooled_recall_at_k": 0.4452,
+            "relevant_total": 155
           }
         },
         "10": {
           "k": 10,
           "macro_precision_at_k": 0.8667,
-          "macro_recall_at_k": 1.0,
+          "macro_recall_at_k": 0.8723,
           "queries_with_defined_precision_at_k": 15,
           "queries_with_defined_recall_at_k": 15,
           "relevant_retrieved_at_k": 130,
-          "relevant_total": 130,
+          "relevant_total": 155,
           "pooled_precision_at_k": 13.0,
           "micro": {
             "k": 10,
             "pooled_hits": 130,
             "pooled_slots": 139,
             "pooled_precision_at_k": 0.9353,
-            "pooled_recall_at_k": 1.0,
-            "relevant_total": 130
+            "pooled_recall_at_k": 0.8387,
+            "relevant_total": 155
           }
         }
       },
@@ -173,24 +273,124 @@
         "queries_undefined": 0,
         "undefined_reasons": {},
         "macro": {
-          "precision": 0.5962,
+          "precision": 0.6206,
           "recall": 1.0,
-          "f1": 0.7242,
-          "precision_at_defined_queries": 0.5962,
+          "f1": 0.7449,
+          "precision_at_defined_queries": 0.6206,
           "recall_at_defined_queries": 1.0,
-          "f1_at_defined_queries": 0.7242
+          "f1_at_defined_queries": 0.7449
         },
         "micro": {
-          "precision": 0.5398,
+          "precision": 0.5664,
           "recall": 1.0,
-          "f1": 0.7011
+          "f1": 0.7232
         },
         "micro_counts": {
           "retrieved": 113,
           "judged": 113,
           "unjudged": 0,
-          "relevant_retrieved": 61,
-          "relevant_total": 61
+          "relevant_retrieved": 64,
+          "relevant_total": 64
+        }
+      },
+      "problems": []
+    },
+    "pipeline_b_stem": {
+      "pipeline": "pipeline_b_stem",
+      "judged_depth": 10,
+      "unjudged_policy": "exclude_from_precision_denominator",
+      "queries_evaluated": 15,
+      "queries_failed": 0,
+      "aggregates": {
+        "judged_depth": {
+          "queries": 15,
+          "queries_scored": 15,
+          "queries_undefined": 0,
+          "undefined_reasons": {},
+          "macro": {
+            "precision": 0.9571,
+            "recall": 0.8723,
+            "f1": 0.9053,
+            "precision_at_defined_queries": 0.9571,
+            "recall_at_defined_queries": 0.8723,
+            "f1_at_defined_queries": 0.9053
+          },
+          "micro": {
+            "precision": 0.9559,
+            "recall": 0.8387,
+            "f1": 0.8935
+          },
+          "micro_counts": {
+            "retrieved": 139,
+            "judged": 136,
+            "unjudged": 3,
+            "relevant_retrieved": 130,
+            "relevant_total": 155
+          }
+        }
+      },
+      "at_k": {
+        "5": {
+          "k": 5,
+          "macro_precision_at_k": 0.92,
+          "macro_recall_at_k": 0.4923,
+          "queries_with_defined_precision_at_k": 15,
+          "queries_with_defined_recall_at_k": 15,
+          "relevant_retrieved_at_k": 69,
+          "relevant_total": 155,
+          "pooled_precision_at_k": 13.8,
+          "micro": {
+            "k": 5,
+            "pooled_hits": 69,
+            "pooled_slots": 73,
+            "pooled_precision_at_k": 0.9452,
+            "pooled_recall_at_k": 0.4452,
+            "relevant_total": 155
+          }
+        },
+        "10": {
+          "k": 10,
+          "macro_precision_at_k": 0.8667,
+          "macro_recall_at_k": 0.8723,
+          "queries_with_defined_precision_at_k": 15,
+          "queries_with_defined_recall_at_k": 15,
+          "relevant_retrieved_at_k": 130,
+          "relevant_total": 155,
+          "pooled_precision_at_k": 13.0,
+          "micro": {
+            "k": 10,
+            "pooled_hits": 130,
+            "pooled_slots": 139,
+            "pooled_precision_at_k": 0.9353,
+            "pooled_recall_at_k": 0.8387,
+            "relevant_total": 155
+          }
+        }
+      },
+      "document_level": {
+        "queries": 15,
+        "queries_scored": 15,
+        "queries_undefined": 0,
+        "undefined_reasons": {},
+        "macro": {
+          "precision": 0.6206,
+          "recall": 1.0,
+          "f1": 0.7449,
+          "precision_at_defined_queries": 0.6206,
+          "recall_at_defined_queries": 1.0,
+          "f1_at_defined_queries": 0.7449
+        },
+        "micro": {
+          "precision": 0.5664,
+          "recall": 1.0,
+          "f1": 0.7232
+        },
+        "micro_counts": {
+          "retrieved": 113,
+          "judged": 113,
+          "unjudged": 0,
+          "relevant_retrieved": 64,
+          "relevant_total": 64
         }
       },
       "problems": []
@@ -199,45 +399,45 @@
   "runner_up_retrieval_statistics": {
     "pipeline_a": {
       "pipeline": "pipeline_a",
-      "pipeline_name": "Pipeline A - domain-aware stopwords then lemmatization",
+      "pipeline_name": "Pipeline A - Lemmatization (LemmInflect/WordNet)",
       "queries": 15,
       "answered": 15,
       "answerability": 1.0,
-      "total_units_returned": 259,
-      "total_documents_returned": 57,
-      "mean_units_per_query": 17.2667,
-      "mean_execution_time_ms": 194.086,
-      "queries_with_missing_terms": 9,
+      "total_units_returned": 442,
+      "total_documents_returned": 103,
+      "mean_units_per_query": 29.4667,
+      "mean_execution_time_ms": 1625.305,
+      "queries_with_missing_terms": 0,
       "by_query_type": {
         "keyword": {
           "queries": 3,
           "answered": 3,
-          "units": 100
+          "units": 150
         },
         "phrase": {
           "queries": 3,
           "answered": 3,
-          "units": 6
+          "units": 53
         },
         "boolean_and": {
           "queries": 4,
           "answered": 4,
-          "units": 53
+          "units": 43
         },
         "boolean_or": {
           "queries": 2,
           "answered": 2,
-          "units": 50
+          "units": 100
         },
         "boolean_not": {
           "queries": 2,
           "answered": 2,
-          "units": 50
+          "units": 82
         },
         "boolean_group": {
           "queries": 1,
           "answered": 1,
-          "units": 0
+          "units": 14
         }
       },
       "failures": [],

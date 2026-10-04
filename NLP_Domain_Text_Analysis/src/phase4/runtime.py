@@ -8,11 +8,12 @@ JSON by hand, so the API and the Phase 3 CLI cannot drift apart.
 from __future__ import annotations
 
 import logging
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Dict, Optional
 
 from src.phase2.load_corpus import Corpus, Unit, load_corpus
 from src.phase3.config import Phase3Config, load_config as load_phase3_config
+from src.phase3.index_builder import IndexBuilder
 from src.phase3.inverted_index import InvertedIndex
 from src.phase3.pipeline_runner import PipelineRunner
 from src.phase3.pipelines import PipelineSpec, load_pipeline_specs
@@ -31,6 +32,7 @@ class Phase3Runtime:
     final_pipeline: str
     load_seconds: float = 0.0
     logger: Optional[logging.Logger] = None
+    _engine_cache: Dict[str, RetrievalEngine] = field(default_factory=dict)
 
     @property
     def spec(self) -> PipelineSpec:
@@ -40,7 +42,25 @@ class Phase3Runtime:
         key = pipeline_key or self.final_pipeline
         if key not in self.specs:
             raise KeyError(f"unknown pipeline '{key}'; known: {sorted(self.specs)}")
-        return build_engine(self.index, self.specs[key], self.runner, self.config, self.corpus)
+
+        if key in self._engine_cache:
+            return self._engine_cache[key]
+
+        spec = self.specs[key]
+        # The persisted inverted_index.json belongs exclusively to Pipeline B / pipeline_b_stem.
+        if key in ("pipeline_b", "pipeline_b_stem") and (
+            self.final_pipeline in ("pipeline_b", "pipeline_b_stem") or self.index.term_count == 21403
+        ):
+            idx = self.index
+        else:
+            builder = IndexBuilder(self.config, self.runner)
+            pipe_res = self.runner.run(spec, self.corpus.selected_units())
+            build_res = builder.build(pipe_res, self.corpus)
+            idx = build_res.index
+
+        eng = build_engine(idx, spec, self.runner, self.config, self.corpus)
+        self._engine_cache[key] = eng
+        return eng
 
     def unit(self, unit_id: str) -> Optional[Unit]:
         for unit in self.corpus.units:
@@ -86,7 +106,7 @@ def load_phase3_runtime(
             with final_path.open("r", encoding="utf-8") as handle:
                 chosen = str(json.load(handle).get("final_pipeline", ""))
     if chosen not in specs:
-        chosen = "pipeline_b" if "pipeline_b" in specs else sorted(specs)[0]
+        chosen = "pipeline_a_lemma" if "pipeline_a_lemma" in specs else ("pipeline_a" if "pipeline_a" in specs else sorted(specs)[0])
 
     runtime = Phase3Runtime(
         config=config,

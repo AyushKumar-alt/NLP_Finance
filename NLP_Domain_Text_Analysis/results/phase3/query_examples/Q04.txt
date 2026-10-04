@@ -5,7 +5,7 @@ Pipeline-normalized terms: monetari, polici
 Matched terms: monetari, polici
 Missing terms: (none)
 Results: 23 content unit(s) in 6 document(s)
-Execution time: 149.710 ms
+Execution time: 64.235 ms
 
    1. score=4.1747 D03 | p1 | UNKNOWN | D03_P001_UNKNOWN_PAR002
       matched: monetari, polici

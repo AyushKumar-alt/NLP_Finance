@@ -5,7 +5,7 @@ Pipeline-normalized terms: GDP, inflation
 Matched terms: gdp, inflat
 Missing terms: (none)
 Results: 11 content unit(s) in 7 document(s)
-Execution time: 123.265 ms
+Execution time: 38.632 ms
 
    1. score=2.2603 D05 | p19 | 5.35 | D05_P019_SEC_5_35_PAR001
       matched: gdp, inflat

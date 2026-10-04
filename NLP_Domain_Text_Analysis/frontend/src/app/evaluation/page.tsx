@@ -64,10 +64,11 @@ function EvaluationContent() {
   const perQuery = report.per_query ?? { items: [] };
 
   return (
-    <PageContainer title="Evaluation" description="Phase 4 relevance evaluation of Pipeline B.">
+    <PageContainer title="Evaluation" description="Phase 4 dual-pipeline evaluation. FINAL SELECTED PIPELINE = Pipeline A (Lemmatization).">
       {/* Methodology callouts */}
       <SectionCard title="Methodology Notes">
         <ul className="space-y-2 text-sm list-disc list-inside">
+          <li className="font-semibold text-green-700">FINAL SELECTED PIPELINE = Pipeline A (Lemmatization) | MAP: 0.9328 | nDCG@10: 0.9632 | P@10: 0.8467 | MRR: 1.0000</li>
           {report.notes.map((n: string, i: number) => <li key={i}>{n}</li>)}
         </ul>
         {report.judgment_summary?.per_query && (

@@ -107,21 +107,23 @@ investment. By equipping potential investors with the necessary skills and insig
 The Institute also conducts the SEBI Investor Awareness Test in four languages, namely English, Hindi, Marathi and Bengali. This initiative of SEBI seeks to empower individuals with essential knowledge about basic concepts of savings and
 i. NISM-Series-III-C: Securities Intermediaries Compliance (Fund)
 NISM offers Continuing Professional Education (CPE and e-CPE) Programs. During the year, 18 CPEs and e-CPEs were offered. The institute undertakes comprehensive annual revisions of these programs to ensure their relevance and alignment with evolving regulatory and market requirements.
-ii. NISM-Series-XIX-D: Category I and II AIF Managers
+ii. NISM-Series-XIX-D: Category I and II AIF
+During 2025-26, NISM signed 24 agreements, comprising MoUs, MoAs and a Collaboration Agreement. These collaborations through mutual co-operation are focused on various aspects such as capacity building, promoting financial education, research, publications, training and improving financial literacy in the country. The detailed list of these agreements is available on Institute’s website at https://www.nism.ac.in/collaborations//.
 iii. NISM-Series-XIX-E: Category III AIF Managers
 Total enrollment across CPE programs reached 1,12,307 during 2025-26. Of these, 53,187 enrollments (47 per cent) were for the classroom- based and 59,120 enrollments (53 per cent) were for the online e-CPE programs, reflecting a balanced preference among the market participants for both learning modes (Table 12.5). The list of CPE programs is available at https://www.nism.ac.in/.
-iv. NISM Series XXV-A: Persons Associated with Research Services (Sales and Other Non-Core Services)
-v. NISM-IFSCA-01: Certification Course on Anti Money Laundering and Counter Terrorist Financing in the IFSC
+iv. NISM Series XXV-A: Persons Associated
+with Research Services (Sales and Other Non-Core Services)
+v. NISM-IFSCA-01: Certification Course on Anti
+Money Laundering and Counter Terrorist Financing in the IFSC
 During the year, NISM undertook a comprehensive quarterly revision of all certification examinations, ensuring their continued relevance and alignment with evolving regulatory and market requirements (Table 12.4). The list of NISM certifications can be accessed at https://www.nism.ac.in/certifications/.
-During 2025-26, NISM signed 24 agreements, comprising MoUs, MoAs and a Collaboration Agreement. These collaborations through mutual co-operation are focused on various aspects such as capacity building, promoting financial education, research, publications, training and improving financial literacy in the country. The detailed list of these agreements is available on Institute’s website at https://www.nism.ac.in/collaborations//.
 Chapter 12 National Institute of Securities Markets
 Apart from the above, NISM also signed 443 Letters of Understanding with HEIs. This effort resulted in creation of 67 test centers for conducting NISM certification examinations within these HEIs for their own students in 2025-26. In its endeavor to provide continuous learning for NISM-certified candidates, 123 regulatory alerts were sent to keep them abreast with market developments and NISM certification examinations during 2025-26. NISM also conducted more than 200 sessions on ‘Career in Securities Market’, engaging more than
 15,000 students across various institutions. Various initiatives, such as the one above contributed to the significant growth of Institute’s digital outreach, with over two lakh followers on LinkedIn and 3 lakh subscribers on YouTube, enhancing visibility and stakeholder engagement.
 NISM is at present a fully self-funded organization and its sources of funds and expenditure during 2025-26 are given in Table 12.6.
+No. of Students Enrolled
 Sr.
 No.
-Name of the Program 
-No. of Students Enrolled
+Name of the Program
 2024-25
 2025-26
 1
@@ -169,17 +171,17 @@ Certificate Program in Financial Analytics @
 Corporate and Securities Markets Compliance (Executive) Program @
 42
 -
+Resource persons
+Number of
+No. of Colleges
+No. of students/
 CSR Sponsor organizations
-Resource persons 
-involved in the 
-project*
-No. of Colleges 
-covered
-Number of 
+involved in the
 programs 
 completed
-No. of students/ 
+covered
 beneficiaries**
+project*
 2024-25
 Kotak Securities Ltd.
 164

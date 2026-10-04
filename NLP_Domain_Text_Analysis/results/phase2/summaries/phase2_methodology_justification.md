@@ -1,7 +1,7 @@
 # Phase 2 methodology and justification
 
 Domain: Financial / Economic documents (Phase 1 corpus, policy `prose_tables`).
-Corpus actually processed: **6005 units / 2084810 characters**
+Corpus actually processed: **6134 units / 2081530 characters**
 from 31 documents and 885 pages.
 
 Every number below was produced by `python -m src.phase2.run` on that corpus. Nothing
@@ -33,10 +33,10 @@ rather than argued.
 
 | tokenizer | total_tokens | vocabulary_size | date_tokens | percentage_tokens | currency_tokens | avg_tokens_per_sentence |
 |---|---|---|---|---|---|---|
-| nltk | 349891 | 18080 | 6952 | 361 | 1014 | 22.68 |
-| custom | 346276 | 18684 | 6179 | 2170 | 1044 | 22.45 |
-| spacy | 366035 | 15942 | 7100 | 356 | 1034 | 23.73 |
-| hybrid | 344722 | 19519 | 6618 | 2258 | 1154 | 22.35 |
+| nltk | 349344 | 18035 | 6939 | 359 | 1016 | 22.54 |
+| custom | 345677 | 18628 | 6169 | 2167 | 1046 | 22.3 |
+| spacy | 365068 | 15899 | 7090 | 354 | 1036 | 23.55 |
+| hybrid | 344141 | 19463 | 6613 | 2255 | 1155 | 22.2 |
 
 
 
@@ -62,9 +62,9 @@ claim: the numbers come from the same token stream.
 
 | strategy | stopword_list_size | total_tokens | token_reduction_percent | vocabulary_reduction_percent |
 |---|---|---|---|---|
-| none | 0 | 344722 | 0.0 | 0.0 |
-| standard_english | 326 | 241278 | 30.01 | 1.34 |
-| domain_aware | 329 | 241977 | 29.81 | 1.35 |
+| none | 0 | 344141 | 0.0 | 0.0 |
+| standard_english | 198 | 250215 | 27.29 | 0.63 |
+| domain_aware | 213 | 249744 | 27.43 | 0.71 |
 
 
 
@@ -80,9 +80,9 @@ so the claim is visible rather than asserted.
 
 | algorithm | unique_stems | vocabulary_reduction_percent | colliding_stems | execution_time_seconds |
 |---|---|---|---|---|
-| porter | 14295 | 26.71 | 7189 | 1.557 |
-| snowball_english | 14301 | 26.68 | 7162 | 0.752 |
-| lancaster | 13069 | 33.0 | 6290 | 0.796 |
+| porter | 14243 | 26.77 | 7169 | 1.8 |
+| snowball_english | 14250 | 26.73 | 7142 | 0.96 |
+| lancaster | 13023 | 33.04 | 6274 | 1.296 |
 
 
 
@@ -109,10 +109,10 @@ into the lemma.
 
 | method | pos_required | unique_lemmas | vocabulary_reduction_percent | limitations |
 |---|---|---|---|---|
-| wordnet_lookup_pos_agnostic | False | 12195 | 23.44 | no POS input, so verbs and adjectives are lemmatized as nouns; domain coinages absent from WordNet are returned unchanged |
-| wordnet_lookup_pos_aware | True | 12195 | 23.44 | needs reliable POS, so a POS-tagging error propagates into the lemma; domain coinages still unchanged |
-| spacy_rule_based | False | 13330 | 16.32 | trained on general English; financial coinages (e.g. disinflation) are usually left unchanged |
-| lemminflect_rulebased | True | 13169 | 17.33 | rule tables cover standard English inflections only; irregular financial nouns are unchanged |
+| wordnet_lookup_pos_agnostic | False | 15886 | 0.0 | no POS input, so verbs and adjectives are lemmatized as nouns; domain coinages absent from WordNet are returned unchanged |
+| wordnet_lookup_pos_aware | True | 15886 | 0.0 | needs reliable POS, so a POS-tagging error propagates into the lemma; domain coinages still unchanged |
+| spacy_rule_based | False | 13295 | 16.31 | trained on general English; financial coinages (e.g. disinflation) are usually left unchanged |
+| lemminflect_rulebased | True | 13135 | 17.32 | rule tables cover standard English inflections only; irregular financial nouns are unchanged |
 
 
 
@@ -138,7 +138,7 @@ labels only and are never treated as truth.
 |---|---|---|---|---|
 | default_pos | 412 | 0.9223 | 0.7571 | 0 |
 | custom_rule_pos | 412 | 0.7913 | 0.6139 | 665 |
-| custom_ml_pos | 130 | 0.8769 | 0.7764 |  |
+| custom_ml_pos |  |  |  |  |
 
 
 
@@ -160,8 +160,8 @@ The domain layer in `ner/domain_entity_dictionary.csv` is deliberately
 financial categories the model cannot express. Its limitation is equally important -
 it is dictionary based and therefore context free.
 
-General NER entities: 26793; domain mentions:
-4951; systematic error rows: 146.
+General NER entities: 26717; domain mentions:
+4968; systematic error rows: 145.
 
 ## 9. Why n-grams matter for financial phrases
 
@@ -177,11 +177,11 @@ streams are reported.
 
 | n | total_ngrams | unique_ngrams | top_ngram | top_ngram_frequency |
 |---|---|---|---|---|
-| 1 | 344722 | 24452 | , | 20724 |
-| 2 | 338717 | 157151 | , and | 2728 |
-| 3 | 332716 | 268828 | ai ai ai | 393 |
-| 4 | 326715 | 303942 | ai ai ai ai | 330 |
-| 5 | 320715 | 310349 | ai ai ai ai ai | 284 |
+| 1 | 344141 | 24389 | , | 20645 |
+| 2 | 338007 | 156887 | , and | 2727 |
+| 3 | 331878 | 268305 | ai ai ai | 393 |
+| 4 | 325751 | 303211 | ai ai ai ai | 330 |
+| 5 | 319627 | 309454 | ai ai ai ai ai | 284 |
 
 
 
@@ -194,8 +194,8 @@ single tokens, and domain terms split into sub-word pieces. Vocabulary size and
 corpus token cost are in `bpe/bpe_statistics.csv`.
 
 - BPE vocabulary: 8000 entries, 7998 learned merges
-- BPE tokens for the whole sample: 469401
-- Bytes/characters per BPE token: 4.441
+- BPE tokens for the whole sample: 468203
+- Bytes/characters per BPE token: 4.446
 
 ## 11. What is deliberately *not* claimed
 

@@ -20,7 +20,7 @@ function SearchContent() {
   const [query, setQuery] = useState("monetary policy");
   const [queryType, setQueryType] = useState<QueryType | "">("");
   const [topK, setTopK] = useState(10);
-  const [pipeline, setPipeline] = useState<"pipeline_a" | "pipeline_b">("pipeline_b");
+  const [pipeline, setPipeline] = useState<string>("pipeline_a_lemma");
   const [result, setResult] = useState<SearchResponse | null>(null);
   const [parseResult, setParseResult] = useState<ParseResponse | null>(null);
   const [loading, setLoading] = useState(false);
@@ -73,7 +73,7 @@ function SearchContent() {
   const showError = error && !loading;
 
   return (
-    <PageContainer title="Search" description="Run a query through the Phase 3 retrieval engine. Only the selected pipeline (B) is scored against relevance judgments.">
+    <PageContainer title="Search" description="Run a query through the retrieval engine. FINAL SELECTED PIPELINE = Pipeline A (Lemmatization).">
       <SectionCard title="Query Builder">
         <div className="space-y-4">
           <div>
@@ -134,18 +134,18 @@ function SearchContent() {
               <label className="block text-sm font-medium mb-1">Pipeline</label>
               <select
                 value={pipeline}
-                onChange={(e) => setPipeline(e.target.value as "pipeline_a" | "pipeline_b")}
-                className="w-full px-3 py-2 border border-gray-300 rounded"
+                onChange={(e) => setPipeline(e.target.value)}
+                className="w-full px-3 py-2 border border-gray-300 rounded font-medium"
               >
-                <option value="pipeline_b">Pipeline B (final, scored)</option>
-                <option value="pipeline_a">Pipeline A (retrieval stats only)</option>
+                <option value="pipeline_a_lemma">Pipeline A — Lemmatization (FINAL SELECTED WINNER)</option>
+                <option value="pipeline_b_stem">Pipeline B — Snowball Stemming (Comparison Option)</option>
               </select>
             </div>
             <div className="flex items-end">
               <button
                 onClick={runSearch}
                 disabled={loading || !query.trim() || (parseResult?.valid === false)}
-                className="w-full px-4 py-2 bg-blue-600 text-white rounded disabled:opacity-50"
+                className="w-full px-4 py-2 bg-blue-600 text-white rounded font-medium disabled:opacity-50 hover:bg-blue-700 transition-colors"
               >
                 {loading ? "Searching…" : "Search"}
               </button>
@@ -164,11 +164,11 @@ function SearchContent() {
       )}
 
       {result && (
-        <SectionCard title="Results">
+        <SectionCard title="Ranked Results">
           {/* Query echo + metadata */}
           <div className="grid md:grid-cols-4 gap-4 mb-4">
             <Badge variant="info">Query type: {result.query_type}</Badge>
-            <Badge variant="info">Pipeline: {result.pipeline_name}</Badge>
+            <Badge variant="success">Pipeline: {result.pipeline_name}</Badge>
             <Badge variant="info">Method: {result.retrieval_method}</Badge>
             <Badge variant="info">Docs: {result.result_documents}</Badge>
           </div>
@@ -194,19 +194,26 @@ function SearchContent() {
 
           {/* Hits */}
           <div className="space-y-4">
-            {result.results.map((hit) => (
-              <div key={hit.unit_id} className="border border-gray-200 rounded-lg p-4 hover:bg-gray-50">
+            {result.results.map((hit, idx) => (
+              <div key={hit.unit_id} className="border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition-colors">
                 <div className="flex justify-between items-start mb-2">
-                  <div className="flex items-center gap-2">
-                    <code className="text-sm font-medium">{hit.unit_id}</code>
-                    <Badge variant="success">{hit.score.toFixed(4)}</Badge>
-                    <Badge variant="info">{hit.unit_type}</Badge>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <Badge variant="default">Rank #{idx + 1}</Badge>
+                    <code className="text-sm font-semibold">{hit.unit_id}</code>
+                    <Badge variant="success">Score: {hit.score.toFixed(4)}</Badge>
+                    <Badge variant="info">Type: {hit.unit_type}</Badge>
+                    {hit.document_id && <Badge variant="default">Doc: {hit.document_id}</Badge>}
+                    {hit.source_id && <Badge variant="default">Source: {hit.source_id}</Badge>}
+                    {hit.page_number && <Badge variant="default">Page {hit.page_number}</Badge>}
                   </div>
-                  <div className="text-right text-sm text-gray-500">
+                  <div className="text-right text-xs text-gray-500 font-mono">
                     {hit.citation}
                   </div>
                 </div>
-                <p className="text-gray-700 mb-2 line-clamp-3">{hit.snippet}</p>
+                {hit.section_title && hit.section_title !== "UNKNOWN" && (
+                  <p className="text-xs text-gray-500 font-medium mb-1">Section: {hit.section_title}</p>
+                )}
+                <p className="text-gray-800 mb-2 line-clamp-3 leading-relaxed">{hit.snippet}</p>
                 <div className="flex flex-wrap gap-1">
                   {hit.matched_terms_list.map((t) => (
                     <code key={t} className="text-xs bg-blue-50 text-blue-800 px-1.5 py-0.5 rounded">{t}</code>

@@ -1,35 +1,35 @@
 experiment,method,total_tokens,unique_tokens,vocabulary_size,main_metric,main_result,notes
-tokenization,nltk,349891,27497,18080,avg_tokens_per_sentence,22.68,18823 numeric / 6952 date / 361 percentage / 1014 currency tokens; 3.156s
-tokenization,custom,346276,27422,18684,avg_tokens_per_sentence,22.45,18316 numeric / 6179 date / 2170 percentage / 1044 currency tokens; 2.392s
-tokenization,spacy,366035,25002,15942,avg_tokens_per_sentence,23.73,20819 numeric / 7100 date / 356 percentage / 1034 currency tokens; 29.135s
-tokenization,hybrid,344722,28112,19519,avg_tokens_per_sentence,22.35,18380 numeric / 6618 date / 2258 percentage / 1154 currency tokens; 6.014s
-stopword_removal,none,344722,28112,19505,token_reduction_percent,0,list size 0 (spacy.lang.en.stop_words.STOP_WORDS)
-stopword_removal,standard_english,241278,27652,19244,token_reduction_percent,30.01,list size 326 (spacy.lang.en.stop_words.STOP_WORDS)
-stopword_removal,domain_aware,241977,27650,19241,token_reduction_percent,29.81,list size 329 (spacy.lang.en.stop_words.STOP_WORDS)
-stemming,porter,344722,19242,14295,vocabulary_reduction_percent,26.71,7189 stems shared by several surface forms
-stemming,snowball_english,344722,19248,14301,vocabulary_reduction_percent,26.68,7162 stems shared by several surface forms
-stemming,lancaster,344722,18016,13069,vocabulary_reduction_percent,33,6290 stems shared by several surface forms
-lemmatization,wordnet_lookup_pos_agnostic,366035,20173,12195,vocabulary_reduction_percent,23.44,POS required: False (none)
-lemmatization,wordnet_lookup_pos_aware,366035,20173,12195,vocabulary_reduction_percent,23.44,POS required: True (spaCy universal POS from the shared pass)
-lemmatization,spacy_rule_based,366035,21257,13330,vocabulary_reduction_percent,16.32,POS required: False (none)
-lemmatization,lemminflect_rulebased,366035,21108,13169,vocabulary_reduction_percent,17.33,POS required: True (spaCy universal POS from the shared pass)
-preprocessing_pipeline,1_tokenized_baseline (hybrid domain-aware tokenizer (no filtering)),344722,28112,19505,vocabulary_change_vs_baseline_percent,0,avg tokens/unit 57.41
-preprocessing_pipeline,2_stopword_removed (domain-aware stopword strategy),241977,27650,19241,vocabulary_change_vs_baseline_percent,1.35,avg tokens/unit 40.3
-preprocessing_pipeline,3_stemmed (Porter stemmer applied after stopword removal),241977,19033,14086,vocabulary_change_vs_baseline_percent,27.78,avg tokens/unit 40.3
-preprocessing_pipeline,4_lemmatized (WordNet lookup lemmatizer applied after stopword removal),241977,22977,15620,vocabulary_change_vs_baseline_percent,19.92,avg tokens/unit 40.3
-preprocessing_pipeline,5_standard_stopwords (standard English stopword list (for comparison)),241278,27652,19244,vocabulary_change_vs_baseline_percent,1.34,avg tokens/unit 40.18
-ngrams,1-gram,344722,24452,24452,top_ngram_frequency,20724,"top n-gram: ,"
-ngrams,2-gram,338717,157151,157151,top_ngram_frequency,2728,"top n-gram: , and"
-ngrams,3-gram,332716,268828,268828,top_ngram_frequency,393,top n-gram: ai ai ai
-ngrams,4-gram,326715,303942,303942,top_ngram_frequency,330,top n-gram: ai ai ai ai
-ngrams,5-gram,320715,310349,310349,top_ngram_frequency,284,top n-gram: ai ai ai ai ai
+tokenization,nltk,349344,27452,18035,avg_tokens_per_sentence,22.54,18744 numeric / 6939 date / 359 percentage / 1016 currency tokens; 2.717s
+tokenization,custom,345677,27365,18628,avg_tokens_per_sentence,22.3,18230 numeric / 6169 date / 2167 percentage / 1046 currency tokens; 2.056s
+tokenization,spacy,365068,24953,15899,avg_tokens_per_sentence,23.55,20760 numeric / 7090 date / 354 percentage / 1036 currency tokens; 37.376s
+tokenization,hybrid,344141,28048,19463,avg_tokens_per_sentence,22.2,18276 numeric / 6613 date / 2255 percentage / 1155 currency tokens; 6.182s
+stopword_removal,none,344141,28048,19449,token_reduction_percent,0,list size 0 (nltk.corpus.stopwords:english)
+stopword_removal,standard_english,250215,27807,19326,token_reduction_percent,27.29,list size 198 (nltk.corpus.stopwords:english)
+stopword_removal,domain_aware,249744,27786,19311,token_reduction_percent,27.43,list size 213 (nltk.corpus.stopwords:english)
+stemming,porter,344141,19183,14243,vocabulary_reduction_percent,26.77,7169 stems shared by several surface forms
+stemming,snowball_english,344141,19190,14250,vocabulary_reduction_percent,26.73,7142 stems shared by several surface forms
+stemming,lancaster,344141,17963,13023,vocabulary_reduction_percent,33.04,6274 stems shared by several surface forms
+lemmatization,wordnet_lookup_pos_agnostic,365068,24953,15886,vocabulary_reduction_percent,0,POS required: False (none)
+lemmatization,wordnet_lookup_pos_aware,365068,24953,15886,vocabulary_reduction_percent,0,POS required: True (spaCy universal POS from the shared pass)
+lemmatization,spacy_rule_based,365068,21218,13295,vocabulary_reduction_percent,16.31,POS required: False (none)
+lemmatization,lemminflect_rulebased,365068,21069,13135,vocabulary_reduction_percent,17.32,POS required: True (spaCy universal POS from the shared pass)
+preprocessing_pipeline,1_tokenized_baseline (hybrid domain-aware tokenizer (no filtering)),344141,28048,19449,vocabulary_change_vs_baseline_percent,0,avg tokens/unit 56.1
+preprocessing_pipeline,2_stopword_removed (domain-aware stopword strategy),249744,27786,19311,vocabulary_change_vs_baseline_percent,0.71,avg tokens/unit 40.71
+preprocessing_pipeline,3_stemmed (Porter stemmer applied after stopword removal),249744,19065,14125,vocabulary_change_vs_baseline_percent,27.37,avg tokens/unit 40.71
+preprocessing_pipeline,4_lemmatized (WordNet lookup lemmatizer applied after stopword removal),249744,27786,19311,vocabulary_change_vs_baseline_percent,0.71,avg tokens/unit 40.71
+preprocessing_pipeline,5_standard_stopwords (standard English stopword list (for comparison)),250215,27807,19326,vocabulary_change_vs_baseline_percent,0.63,avg tokens/unit 40.79
+ngrams,1-gram,344141,24389,24389,top_ngram_frequency,20645,"top n-gram: ,"
+ngrams,2-gram,338007,156887,156887,top_ngram_frequency,2727,"top n-gram: , and"
+ngrams,3-gram,331878,268305,268305,top_ngram_frequency,393,top n-gram: ai ai ai
+ngrams,4-gram,325751,303211,303211,top_ngram_frequency,330,top n-gram: ai ai ai ai
+ngrams,5-gram,319627,309454,309454,top_ngram_frequency,284,top n-gram: ai ai ai ai ai
 bpe,byte_level_bpe,,,8000,vocabulary_size,8000,size of the trained BPE vocabulary (includes special tokens)
 bpe,byte_level_bpe,,,,merge_operations,7998,vocabulary entries beyond the special tokens; each corresponds to one learned merge
-bpe,byte_level_bpe,469401,,,corpus_token_count,469401,tokens produced by BPE over the whole experiment sample
-bpe,byte_level_bpe,,,,bytes_per_token,4.441,characters per BPE token
+bpe,byte_level_bpe,468203,,,corpus_token_count,468203,tokens produced by BPE over the whole experiment sample
+bpe,byte_level_bpe,,,,bytes_per_token,4.446,characters per BPE token
 pos_tagging,default_pos,412,,,accuracy_on_manually_annotated_sample,0.9223,no domain awareness; acronyms and -isation nouns mis-tagged
 pos_tagging,custom_rule_pos,412,,,accuracy_on_manually_annotated_sample,0.7913,dictionary based; no context beyond the token itself
-pos_tagging,custom_ml_pos,130,,,accuracy_on_manually_annotated_sample,0.8769,single annotator gold set of 130 tokens; silver training labels come from spaCy
-ner,general_ner,26793,18,,entities_found,26793,"top labels: CARDINAL:6715, ORG:6507, DATE:4502, GPE:3043, MONEY:2493, PERSON:1171"
-ner,custom_domain_ner,4951,189,,domain_mentions,4951,"complementary dictionary layer, not a replacement"
-date_number_tokenization,standard_vs_typed,,,,expressions_intact_after_standard_tokenization_percent,12.85,49926 typed expressions detected; 27718 typed component tokens produced
+pos_tagging,custom_ml_pos,,,,accuracy_on_manually_annotated_sample,,single annotator gold set of  tokens; silver training labels come from spaCy
+ner,general_ner,26717,18,,entities_found,26717,"top labels: CARDINAL:6688, ORG:6511, DATE:4483, GPE:3044, MONEY:2491, PERSON:1150"
+ner,custom_domain_ner,4968,189,,domain_mentions,4968,"complementary dictionary layer, not a replacement"
+date_number_tokenization,standard_vs_typed,,,,expressions_intact_after_standard_tokenization_percent,12.9,49851 typed expressions detected; 27633 typed component tokens produced

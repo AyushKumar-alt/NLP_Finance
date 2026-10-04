@@ -1,6 +1,6 @@
 document_id,page_number,unit_id,section_id,section_title,token,token_index,default_tag,custom_tag,sentence
-D01,5,D01_BOX001,D01_SEC_1_6,GLOBAL ECONOMIC GROWTH – FRAGILE AND DIVERGING,fiscal,71,JJ,NOUN,"employs   traditional instruments , including fiscal , monetary , and trade tools"
-D01,5,D01_BOX001,D01_SEC_1_6,GLOBAL ECONOMIC GROWTH – FRAGILE AND DIVERGING,monetary,73,JJ,NOUN,"traditional instruments , including fiscal , monetary , and trade tools , to"
+D01,5,D01_BOX001,D01_SEC_1_6,GLOBAL ECONOMIC GROWTH – FRAGILE AND DIVERGING,fiscal,76,JJ,NOUN,"employs   traditional instruments , including fiscal , monetary , and trade tools"
+D01,5,D01_BOX001,D01_SEC_1_6,GLOBAL ECONOMIC GROWTH – FRAGILE AND DIVERGING,monetary,78,JJ,NOUN,"traditional instruments , including fiscal , monetary , and trade tools , to"
 D01,1,D01_P001_UNKNOWN_PAR002,UNKNOWN,UNKNOWN,fiscal,42,JJ,NOUN,"underlying vulnerabilities persist , including elevated fiscal pressures , fragmented supply chains ,"
 D01,1,D01_P001_UNKNOWN_PAR005,UNKNOWN,UNKNOWN,fiscal,14,JJ,NOUN,"inflation , financial sector conditions , fiscal developments , external sector performance ,"
 D01,1,D01_P001_UNKNOWN_PAR005,UNKNOWN,UNKNOWN,fiscal,38,JJ,NOUN,"balance sheets remain healthy , and fiscal policy continues to strike a balance"
@@ -42,8 +42,8 @@ D01,28,D01_P028_SEC_1_36_PAR001,D01_SEC_1_36,Methodology,billion,147,CD,NOUN,"to
 D01,30,D01_P030_SEC_1_43_PAR001,D01_SEC_1_43,OUTLOOK AND WAY FORWARD,monetary,49,JJ,NOUN,"economies has trended downward , and monetary policies are therefore expected to become"
 D01,32,D01_P032_SEC_1_46_PAR004,D01_SEC_1_46,OUTLOOK AND WAY FORWARD,macro,33,JJ,NOUN,", along with an improvement in macro - financial fundamentals . The assumptions"
 D01,34,D01_P034_SEC_3_PAR003,D01_SEC_3,Trend TFP: digital infrastructure and allocative efficiency,macro,48,JJ,NOUN,of sustained reforms interacting with strong macro - financial fundamentals . This assessment
-D01,17,D01_T006,D01_SEC_1_22,TRENDS IN THE DOMESTIC ECONOMY,Core,37,NNP,ADJ,2.0 4.3 3.6 3.1 8 - Core Industries 1.5 4.5 1.9 3.5 PMI
-D02,5,D02_BOX001,D02_SEC_2_8,Fiscal Developments,core,54,NN,ADJ,"than coercive enforcement . At its core , the NUDGE framework leverages large"
+D01,17,D01_T006,D01_SEC_1_22,TRENDS IN THE DOMESTIC ECONOMY,Core,36,NNP,ADJ,2.0 4.3 3.6 3.1 8 - Core Industries 1.5 4.5 1.9 3.5 PMI
+D02,5,D02_BOX001,D02_SEC_2_8,Fiscal Developments,core,60,NN,ADJ,"than coercive enforcement . At its core , the NUDGE framework leverages large"
 D02,22,D02_BOX011,D02_SEC_2_33,OVERVIEW OF STATE GOVERNMENT FINANCES,Fiscal,0,JJ,NOUN,Fiscal devolution is a core feature of
 D02,22,D02_BOX011,D02_SEC_2_33,OVERVIEW OF STATE GOVERNMENT FINANCES,fiscal,10,JJ,NOUN,core feature of India ’s intergovernmental fiscal architecture . Transfers   from the
 D02,22,D02_BOX011,D02_SEC_2_33,OVERVIEW OF STATE GOVERNMENT FINANCES,fiscal,20,JJ,NOUN,"  from the Centre expand the fiscal space available to States , but"
@@ -55,23 +55,17 @@ D02,22,D02_BOX011,D02_SEC_2_33,OVERVIEW OF STATE GOVERNMENT FINANCES,fiscal,223,
 D02,22,D02_BOX011,D02_SEC_2_33,OVERVIEW OF STATE GOVERNMENT FINANCES,fiscal,240,JJ,NOUN,more on their deployment . Higher fiscal deficits   are associated with weaker
 D02,22,D02_BOX011,D02_SEC_2_33,OVERVIEW OF STATE GOVERNMENT FINANCES,macro,252,JJ,NOUN,"weaker subsequent growth , highlighting the macro - stability costs of   undisciplined"
 D02,26,D02_BOX013,D02_SEC_2_40,Notes:,fiscal,6,JJ,NOUN,A major boost to States ’ fiscal capacity in recent years has come
-D02,34,D02_BOX017,D02_SEC_S73,Central Government Debt,fiscal,8,JJ,NOUN,"year of the pandemic , the fiscal deficit of the Central Government reached"
-D02,34,D02_BOX017,D02_SEC_S73,Central Government Debt,fiscal,80,JJ,NOUN,to reducing the Central Government ’s fiscal deficit ratio by at least half
-D02,34,D02_BOX017,D02_SEC_S73,Central Government Debt,fiscal,97,JJ,NOUN,The   government has targeted a fiscal deficit of 4.4 per cent for
-D02,34,D02_BOX017,D02_SEC_S73,Central Government Debt,fiscal,138,JJ,NOUN,"and succeeded in bringing down the fiscal deficit ratio as promised , despite"
-D02,34,D02_BOX017,D02_SEC_S73,Central Government Debt,fiscal,159,JJ,NOUN,even while improving the quality of fiscal expenditure with   a concurrent emphasis
-D02,34,D02_BOX017,D02_SEC_S73,Central Government Debt,fiscal,181,JJ,NOUN,"conservative and   prudent approach to fiscal management , which enhanced fiscal credibility"
-D02,34,D02_BOX017,D02_SEC_S73,Central Government Debt,fiscal,186,JJ,NOUN,"to fiscal management , which enhanced fiscal credibility , led to India ’s"
-D02,34,D02_BOX017,D02_SEC_S73,Central Government Debt,fiscal,219,JJ,NOUN,", the government outlined a new fiscal   glide path , aiming to"
-D02,34,D02_BOX017,D02_SEC_S73,Central Government Debt,fiscal,258,JJ,NOUN,to - GDP ratio as the fiscal anchor was consistent with   global
-D02,34,D02_BOX017,D02_SEC_S73,Central Government Debt,fiscal,279,JJ,NOUN,"reliable measure of the government ’s fiscal   performance , as it captures"
-D02,34,D02_BOX017,D02_SEC_S73,Central Government Debt,fiscal,293,JJ,NOUN,cumulative effect of past and current fiscal decisions .
-D02,39,D02_BOX019,D02_SEC_S87,Fiscal Developments,fiscal,9,JJ,NOUN,"of debt sustainability rests on the fiscal response function ( FRF ) ,"
-D02,39,D02_BOX019,D02_SEC_S87,Fiscal Developments,fiscal,63,JJ,NOUN,"( β > 0 ) , fiscal policy is sustainable regardless of whether"
-D02,39,D02_BOX019,D02_SEC_S87,Fiscal Developments,fiscal,124,JJ,NOUN,specifications and the concept of “ fiscal fatigue ” and “ fiscal  
-D02,39,D02_BOX019,D02_SEC_S87,Fiscal Developments,fiscal,129,JJ,NOUN,“ fiscal fatigue ” and “ fiscal   space ” in advanced economies
-D02,39,D02_BOX019,D02_SEC_S87,Fiscal Developments,fiscal,187,JJ,NOUN,the   strength and symmetry of fiscal reactions in euro - area countries
-D02,39,D02_BOX019,D02_SEC_S87,Fiscal Developments,fiscal,216,JJ,NOUN,  been employed to estimate the fiscal response function for general government in
+D02,34,D02_BOX017,D02_SEC_S79,Central Government Debt,fiscal,8,JJ,NOUN,"year of the pandemic , the fiscal deficit of the Central Government reached"
+D02,34,D02_BOX017,D02_SEC_S79,Central Government Debt,fiscal,80,JJ,NOUN,to reducing the Central Government ’s fiscal deficit ratio by at least half
+D02,34,D02_BOX017,D02_SEC_S79,Central Government Debt,fiscal,97,JJ,NOUN,The   government has targeted a fiscal deficit of 4.4 per cent for
+D02,34,D02_BOX017,D02_SEC_S79,Central Government Debt,fiscal,138,JJ,NOUN,"and succeeded in bringing down the fiscal deficit ratio as promised , despite"
+D02,34,D02_BOX017,D02_SEC_S79,Central Government Debt,fiscal,159,JJ,NOUN,even while improving the quality of fiscal expenditure with   a concurrent emphasis
+D02,34,D02_BOX017,D02_SEC_S79,Central Government Debt,fiscal,181,JJ,NOUN,"conservative and   prudent approach to fiscal management , which enhanced fiscal credibility"
+D02,34,D02_BOX017,D02_SEC_S79,Central Government Debt,fiscal,186,JJ,NOUN,"to fiscal management , which enhanced fiscal credibility , led to India ’s"
+D02,34,D02_BOX017,D02_SEC_S79,Central Government Debt,fiscal,219,JJ,NOUN,", the government outlined a new fiscal   glide path , aiming to"
+D02,34,D02_BOX017,D02_SEC_S79,Central Government Debt,fiscal,258,JJ,NOUN,to - GDP ratio as the fiscal anchor was consistent with   global
+D02,34,D02_BOX017,D02_SEC_S79,Central Government Debt,fiscal,279,JJ,NOUN,"reliable measure of the government ’s fiscal   performance , as it captures"
+D02,34,D02_BOX017,D02_SEC_S79,Central Government Debt,fiscal,293,JJ,NOUN,cumulative effect of past and current fiscal decisions .
 D02,1,D02_P001_UNKNOWN_PAR002,UNKNOWN,UNKNOWN,fiscal,11,JJ,NOUN,"debt remains elevated globally , and fiscal space is under strain across countries"
 D02,1,D02_P001_UNKNOWN_PAR002,UNKNOWN,UNKNOWN,fiscal,23,JJ,NOUN,"countries , the Central Government ’s fiscal trajectory stands out for combining consolidation"
 D02,1,D02_P001_UNKNOWN_PAR002,UNKNOWN,UNKNOWN,fiscal,39,JJ,NOUN,"investment . The government ’s calibrated fiscal strategy , anchored in credible deficit"
@@ -97,6 +91,7 @@ D02,3,D02_P003_SEC_2_3_PAR001,D02_SEC_2_3,CENTRAL GOVERNMENT FINANCES,fiscal,40,
 D02,3,D02_P003_SEC_2_3_PAR001,D02_SEC_2_3,CENTRAL GOVERNMENT FINANCES,fiscal,48,JJ,NOUN,"alongside retained flexibility , thereby allowing fiscal policy to support rather than constrain"
 D02,3,D02_P003_SEC_2_3_PAR001,D02_SEC_2_3,CENTRAL GOVERNMENT FINANCES,fiscal,80,JJ,NOUN,"term glide path , targeting a fiscal deficit below 4.5 per cent of"
 D02,3,D02_P003_SEC_2_4_PAR001,D02_SEC_2_4,CENTRAL GOVERNMENT FINANCES,fiscal,4,JJ,NOUN,"2.4 Accordingly , the fiscal deficit declined from 9.2 per cent"
+D02,3,D02_P003_SEC_2_4_PAR002,D02_SEC_2_4,CENTRAL GOVERNMENT FINANCES,fiscal,0,JJ,NOUN,fiscal deficit of the Centre2
 D02,3,D02_P003_UNKNOWN_PAR001,D02_SEC_S05,CENTRAL GOVERNMENT FINANCES,Fiscal,0,JJ,NOUN,Fiscal policy as a key anchor of
 D02,4,D02_P004_SEC_2_5_PAR001,D02_SEC_2_5,CENTRAL GOVERNMENT FINANCES,fiscal,13,JJ,NOUN,"volatility , government revenues have strengthened fiscal capacity , allowing expenditure needs to"
 D02,6,D02_P006_SEC_2_10_PAR001,D02_SEC_2_10,Fiscal Developments,fiscal,4,JJ,NOUN,"2.10 During the current fiscal year , the major direct taxes10"
@@ -117,33 +112,33 @@ D02,21,D02_P021_SEC_2_33_PAR001,D02_SEC_2_33,OVERVIEW OF STATE GOVERNMENT FINANC
 D02,22,D02_P022_SEC_2_33_PAR001,D02_SEC_2_33,OVERVIEW OF STATE GOVERNMENT FINANCES,fiscal,124,JJ,NOUN,"investment execution capacity , and aligning fiscal devolution with growth - enhancing public"
 D02,23,D02_P023_SEC_2_37_PAR001,D02_SEC_2_37,Fiscal Developments,fiscal,3,JJ,NOUN,"2.37 The combined fiscal deficit of State Governments , as"
 D02,23,D02_P023_SEC_2_37_PAR001,D02_SEC_2_37,Fiscal Developments,fiscal,113,JJ,NOUN,exclusively for capital expenditure – the fiscal deficit is back in the range
-D02,23,D02_P023_UNKNOWN_PAR001,D02_SEC_S56,Fiscal Developments,fiscal,81,JJ,NOUN,"- go ’ system report lower fiscal deficits , as their future pension"
-D02,23,D02_P023_UNKNOWN_PAR001,D02_SEC_S56,Fiscal Developments,fiscal,106,JJ,NOUN,a current expenditure that enlarges their fiscal deficit .
-D02,23,D02_P023_UNKNOWN_PAR003,D02_SEC_S56,Fiscal Developments,fiscal,3,JJ,NOUN,Increasing revenue and fiscal deficit while capex remains intact
+D02,23,D02_P023_UNKNOWN_PAR001,D02_SEC_S59,Fiscal Developments,fiscal,81,JJ,NOUN,"- go ’ system report lower fiscal deficits , as their future pension"
+D02,23,D02_P023_UNKNOWN_PAR001,D02_SEC_S59,Fiscal Developments,fiscal,106,JJ,NOUN,a current expenditure that enlarges their fiscal deficit .
+D02,23,D02_P023_UNKNOWN_PAR003,D02_SEC_S59,Fiscal Developments,fiscal,3,JJ,NOUN,Increasing revenue and fiscal deficit while capex remains intact
 D02,24,D02_P024_SEC_2_38_PAR001,D02_SEC_2_38,Fiscal Developments,fiscal,48,JJ,NOUN,A key driver of this renewed fiscal stress has been lagging revenue growth
 D02,25,D02_P025_SEC_2_40_PAR001,D02_SEC_2_40,Notes:,fiscal,31,JJ,NOUN,"in FY25(PA ) , thereby constraining fiscal space at the combined State level"
 D02,25,D02_P025_SEC_2_40_PAR001,D02_SEC_2_40,Notes:,fiscal,132,JJ,NOUN,protecting growth - oriented spending amid fiscal pressures.27 ( See Box II.6 )
 D02,27,D02_P027_SEC_2_41_PAR001,D02_SEC_2_41,Fiscal Developments,fiscal,106,JJ,NOUN,"absorb a rising share of available fiscal space , the scope for expanding"
 D02,27,D02_P027_SEC_2_41_PAR001,D02_SEC_2_41,Fiscal Developments,fiscal,132,JJ,NOUN,revenues and elevated deficits . The fiscal trade - offs and medium -
-D02,27,D02_P027_UNKNOWN_PAR001,D02_SEC_S63,Fiscal Developments,fiscal,24,JJ,NOUN,", and supports medium - term fiscal health ."
-D02,29,D02_P029_UNKNOWN_PAR002,D02_SEC_S66,Fiscal Developments,fiscal,45,JJ,NOUN,up and persistence raise concerns about fiscal sustainability and medium - term growth
-D02,29,D02_P029_UNKNOWN_PAR002,D02_SEC_S66,Fiscal Developments,fiscal,85,JJ,NOUN,this expansion has occurred amid constrained fiscal space . The combined gross fiscal
-D02,29,D02_P029_UNKNOWN_PAR002,D02_SEC_S66,Fiscal Developments,fiscal,91,JJ,NOUN,fiscal space . The combined gross fiscal deficit of States rose from 2.6
-D02,29,D02_P029_UNKNOWN_PAR002,D02_SEC_S66,Fiscal Developments,fiscal,178,JJ,NOUN,"receipts in FY24 , leaving limited fiscal room ."
-D02,29,D02_P029_UNKNOWN_PAR003,D02_SEC_S66,Fiscal Developments,fiscal,98,JJ,NOUN,", often becomes the casualty when fiscal pressures intensify , with adverse implications"
+D02,27,D02_P027_UNKNOWN_PAR001,D02_SEC_S66,Fiscal Developments,fiscal,24,JJ,NOUN,", and supports medium - term fiscal health ."
+D02,29,D02_P029_UNKNOWN_PAR002,D02_SEC_S71,Fiscal Developments,fiscal,45,JJ,NOUN,up and persistence raise concerns about fiscal sustainability and medium - term growth
+D02,29,D02_P029_UNKNOWN_PAR002,D02_SEC_S71,Fiscal Developments,fiscal,85,JJ,NOUN,this expansion has occurred amid constrained fiscal space . The combined gross fiscal
+D02,29,D02_P029_UNKNOWN_PAR002,D02_SEC_S71,Fiscal Developments,fiscal,91,JJ,NOUN,fiscal space . The combined gross fiscal deficit of States rose from 2.6
+D02,29,D02_P029_UNKNOWN_PAR002,D02_SEC_S71,Fiscal Developments,fiscal,178,JJ,NOUN,"receipts in FY24 , leaving limited fiscal room ."
+D02,29,D02_P029_UNKNOWN_PAR003,D02_SEC_S71,Fiscal Developments,fiscal,98,JJ,NOUN,", often becomes the casualty when fiscal pressures intensify , with adverse implications"
 D02,30,D02_P030_SEC_2_42_PAR001,D02_SEC_2_42,Fiscal Developments,fiscal,4,JJ,NOUN,2.42 During the current fiscal year ( as on end November
-D02,30,D02_P030_UNKNOWN_PAR002,D02_SEC_S66,Fiscal Developments,fiscal,119,JJ,NOUN,"bound , reducing long - term fiscal rigidity while strengthening human capital outcomes"
-D02,30,D02_P030_UNKNOWN_PAR003,D02_SEC_S66,Fiscal Developments,fiscal,14,JJ,NOUN,reprioritisation within State budgets . Preserving fiscal space for capital formation and human
-D02,33,D02_P033_UNKNOWN_PAR001,D02_SEC_S73,Central Government Debt,fiscal,76,JJ,NOUN,"debt has reinforced the credibility of fiscal policy , even as global public"
-D02,33,D02_P033_UNKNOWN_PAR001,D02_SEC_S73,Central Government Debt,fiscal,140,JJ,NOUN,provides a detailed discussion of the fiscal policy framework for the Central Government
-D02,34,D02_P034_UNKNOWN_PAR001,D02_SEC_S73,Central Government Debt,fiscal,34,JJ,NOUN,"Act , and commit to a fiscal deficit target of 3 per cent"
-D02,34,D02_P034_UNKNOWN_PAR001,D02_SEC_S73,Central Government Debt,fiscal,107,JJ,NOUN,"once . This eroded India ’s fiscal credibility , and it has taken"
-D02,34,D02_P034_UNKNOWN_PAR001,D02_SEC_S73,Central Government Debt,fiscal,120,JJ,NOUN,five years of sustained commitment to fiscal prudence post - Covid to win
-D02,34,D02_P034_UNKNOWN_PAR002,D02_SEC_S73,Central Government Debt,fiscal,6,JJ,NOUN,"In this regard , the new fiscal policy framework has announced a debt"
-D02,34,D02_P034_UNKNOWN_PAR002,D02_SEC_S73,Central Government Debt,fiscal,49,JJ,NOUN,government flexibility to fine - tune fiscal policy in response to emerging needs
-D02,34,D02_P034_UNKNOWN_PAR002,D02_SEC_S73,Central Government Debt,fiscal,78,JJ,NOUN,"the current target is met and fiscal deficits decline gradually , a new"
-D02,34,D02_P034_UNKNOWN_PAR002,D02_SEC_S73,Central Government Debt,macro,123,JJ,NOUN,after a period of lower global macro uncertainty and after debt and/or deficit
-D02,35,D02_P035_UNKNOWN_PAR001,D02_SEC_S75,Fiscal Developments,macro,16,JJ,NOUN,has enabled effective transmission of domestic macro - financial conditions to government borrowing
+D02,30,D02_P030_UNKNOWN_PAR002,D02_SEC_S71,Fiscal Developments,fiscal,119,JJ,NOUN,"bound , reducing long - term fiscal rigidity while strengthening human capital outcomes"
+D02,30,D02_P030_UNKNOWN_PAR003,D02_SEC_S71,Fiscal Developments,fiscal,14,JJ,NOUN,reprioritisation within State budgets . Preserving fiscal space for capital formation and human
+D02,33,D02_P033_UNKNOWN_PAR001,D02_SEC_S79,Central Government Debt,fiscal,76,JJ,NOUN,"debt has reinforced the credibility of fiscal policy , even as global public"
+D02,33,D02_P033_UNKNOWN_PAR001,D02_SEC_S79,Central Government Debt,fiscal,140,JJ,NOUN,provides a detailed discussion of the fiscal policy framework for the Central Government
+D02,34,D02_P034_UNKNOWN_PAR001,D02_SEC_S79,Central Government Debt,fiscal,34,JJ,NOUN,"Act , and commit to a fiscal deficit target of 3 per cent"
+D02,34,D02_P034_UNKNOWN_PAR001,D02_SEC_S79,Central Government Debt,fiscal,107,JJ,NOUN,"once . This eroded India ’s fiscal credibility , and it has taken"
+D02,34,D02_P034_UNKNOWN_PAR001,D02_SEC_S79,Central Government Debt,fiscal,120,JJ,NOUN,five years of sustained commitment to fiscal prudence post - Covid to win
+D02,34,D02_P034_UNKNOWN_PAR002,D02_SEC_S79,Central Government Debt,fiscal,6,JJ,NOUN,"In this regard , the new fiscal policy framework has announced a debt"
+D02,34,D02_P034_UNKNOWN_PAR002,D02_SEC_S79,Central Government Debt,fiscal,49,JJ,NOUN,government flexibility to fine - tune fiscal policy in response to emerging needs
+D02,34,D02_P034_UNKNOWN_PAR002,D02_SEC_S79,Central Government Debt,fiscal,78,JJ,NOUN,"the current target is met and fiscal deficits decline gradually , a new"
+D02,34,D02_P034_UNKNOWN_PAR002,D02_SEC_S79,Central Government Debt,macro,123,JJ,NOUN,after a period of lower global macro uncertainty and after debt and/or deficit
+D02,35,D02_P035_UNKNOWN_PAR001,D02_SEC_S81,Fiscal Developments,macro,16,JJ,NOUN,has enabled effective transmission of domestic macro - financial conditions to government borrowing
 D02,36,D02_P036_SEC_2_49_PAR001,D02_SEC_2_49,States’ Debt,fiscal,25,JJ,NOUN,are key variables in assessing the fiscal health of States . A sustainable
 D02,36,D02_P036_SEC_2_49_PAR001,D02_SEC_2_49,States’ Debt,fiscal,58,JJ,NOUN,"/ RR ratio allows for greater fiscal space in undertaking productive expenditure ,"
 D02,36,D02_P036_SEC_2_50_PAR001,D02_SEC_2_50,States’ Debt,fiscal,14,JJ,NOUN,"RR ratios highlight wide differences in fiscal health across States , these differences"
@@ -152,18 +147,24 @@ D02,37,D02_P037_SEC_2_51_PAR001,D02_SEC_2_51,GENERAL GOVERNMENT FINANCES,fiscal,
 D02,37,D02_P037_SEC_2_51_PAR001,D02_SEC_2_51,GENERAL GOVERNMENT FINANCES,fiscal,66,JJ,NOUN,". As the Central Government continues fiscal consolidation over the medium term ,"
 D02,37,D02_P037_SEC_2_52_PAR001,D02_SEC_2_52,GENERAL GOVERNMENT FINANCES,fiscal,58,JJ,NOUN,"debt unwinding , EMEs face persistent fiscal pressures and more constrained adjustment space"
 D02,37,D02_P037_SEC_2_52_PAR001,D02_SEC_2_52,GENERAL GOVERNMENT FINANCES,fiscal,145,JJ,NOUN,"that prudent , growth - friendly fiscal consolidation is achievable under challenging global"
-D02,37,D02_P037_UNKNOWN_PAR001,D02_SEC_S82,Fiscal Developments,fiscal,17,JJ,NOUN,"and standardisation of State - level fiscal data , particularly on off -"
+D02,37,D02_P037_UNKNOWN_PAR001,D02_SEC_S88,Fiscal Developments,fiscal,17,JJ,NOUN,"and standardisation of State - level fiscal data , particularly on off -"
 D02,38,D02_P038_SEC_2_53_PAR001,D02_SEC_2_53,GENERAL GOVERNMENT FINANCES,fiscal,107,JJ,NOUN,"GDP ratio stable , while undertaking fiscal consolidation when warranted . Barro ("
 D02,38,D02_P038_SEC_2_53_PAR001,D02_SEC_2_53,GENERAL GOVERNMENT FINANCES,core,129,NN,ADJ,productive government spending ( especially on core
-D02,39,D02_P039_UNKNOWN_PAR001,D02_SEC_S87,Fiscal Developments,fiscal,33,JJ,NOUN,"for India , based on the fiscal response function ( FRF ) ,"
-D02,39,D02_P039_UNKNOWN_PAR002,D02_SEC_S87,Fiscal Developments,fiscal,78,JJ,NOUN,"dummy variable to factor in conscious fiscal consolidation years , such as post"
-D02,39,D02_P039_UNKNOWN_PAR003,D02_SEC_S87,Fiscal Developments,fiscal,2,JJ,NOUN,The estimated fiscal response function provides clear evidence that
-D02,39,D02_P039_UNKNOWN_PAR003,D02_SEC_S87,Fiscal Developments,fiscal,11,JJ,NOUN,provides clear evidence that India ’s fiscal policy has been sustainable in the
-D02,40,D02_P040_UNKNOWN_PAR001,D02_SEC_S87,Fiscal Developments,fiscal,21,JJ,NOUN,ratio . This signals that Indian fiscal policy has historically been responsive to
-D02,40,D02_P040_UNKNOWN_PAR001,D02_SEC_S87,Fiscal Developments,fiscal,60,JJ,NOUN,"of yvar indicates counter - cyclical fiscal behaviour , wherein primary balance improves"
-D02,40,D02_P040_UNKNOWN_PAR001,D02_SEC_S87,Fiscal Developments,fiscal,112,JJ,NOUN,"the trend . Consequently , the fiscal deficit increases , causing the primary"
-D02,40,D02_P040_UNKNOWN_PAR001,D02_SEC_S87,Fiscal Developments,fiscal,233,JJ,NOUN,indicates that institutional reforms and explicit fiscal rules have significantly induced fiscal discipline
-D02,40,D02_P040_UNKNOWN_PAR001,D02_SEC_S87,Fiscal Developments,fiscal,238,JJ,NOUN,"explicit fiscal rules have significantly induced fiscal discipline , as reflected in the"
+D02,39,D02_P039_UNKNOWN_PAR001,D02_SEC_S93,Fiscal Developments,fiscal,33,JJ,NOUN,"for India , based on the fiscal response function ( FRF ) ,"
+D02,39,D02_P039_UNKNOWN_PAR002,D02_SEC_S93,Fiscal Developments,fiscal,9,JJ,NOUN,"of debt sustainability rests on the fiscal response function ( FRF ) ,"
+D02,39,D02_P039_UNKNOWN_PAR002,D02_SEC_S93,Fiscal Developments,fiscal,60,JJ,NOUN,"( β > 0 ) , fiscal policy is sustainable regardless of whether"
+D02,39,D02_P039_UNKNOWN_PAR002,D02_SEC_S93,Fiscal Developments,fiscal,118,JJ,NOUN,specifications and the concept of “ fiscal fatigue ” and “ fiscal space
+D02,39,D02_P039_UNKNOWN_PAR002,D02_SEC_S93,Fiscal Developments,fiscal,123,JJ,NOUN,“ fiscal fatigue ” and “ fiscal space ” in advanced economies ;
+D02,39,D02_P039_UNKNOWN_PAR002,D02_SEC_S93,Fiscal Developments,fiscal,177,JJ,NOUN,altered the strength and symmetry of fiscal reactions in euro - area countries
+D02,39,D02_P039_UNKNOWN_PAR003,D02_SEC_S93,Fiscal Developments,fiscal,20,JJ,NOUN,has been employed to estimate the fiscal response function for general government in
+D02,39,D02_P039_UNKNOWN_PAR005,D02_SEC_S93,Fiscal Developments,fiscal,78,JJ,NOUN,"dummy variable to factor in conscious fiscal consolidation years , such as post"
+D02,39,D02_P039_UNKNOWN_PAR006,D02_SEC_S93,Fiscal Developments,fiscal,2,JJ,NOUN,The estimated fiscal response function provides clear evidence that
+D02,39,D02_P039_UNKNOWN_PAR006,D02_SEC_S93,Fiscal Developments,fiscal,11,JJ,NOUN,provides clear evidence that India ’s fiscal policy has been sustainable in the
+D02,40,D02_P040_UNKNOWN_PAR001,D02_SEC_S93,Fiscal Developments,fiscal,21,JJ,NOUN,ratio . This signals that Indian fiscal policy has historically been responsive to
+D02,40,D02_P040_UNKNOWN_PAR001,D02_SEC_S93,Fiscal Developments,fiscal,60,JJ,NOUN,"of yvar indicates counter - cyclical fiscal behaviour , wherein primary balance improves"
+D02,40,D02_P040_UNKNOWN_PAR001,D02_SEC_S93,Fiscal Developments,fiscal,112,JJ,NOUN,"the trend . Consequently , the fiscal deficit increases , causing the primary"
+D02,40,D02_P040_UNKNOWN_PAR001,D02_SEC_S93,Fiscal Developments,fiscal,233,JJ,NOUN,indicates that institutional reforms and explicit fiscal rules have significantly induced fiscal discipline
+D02,40,D02_P040_UNKNOWN_PAR001,D02_SEC_S93,Fiscal Developments,fiscal,238,JJ,NOUN,"explicit fiscal rules have significantly induced fiscal discipline , as reflected in the"
 D02,41,D02_P041_SEC_2_55_PAR001,D02_SEC_2_55,CONCLUSION AND OUTLOOK,fiscal,4,JJ,NOUN,2.55 India ’s recent fiscal performance reflects a careful balancing of
 D02,41,D02_P041_SEC_2_55_PAR001,D02_SEC_2_55,CONCLUSION AND OUTLOOK,fiscal,14,JJ,NOUN,careful balancing of growth imperatives and fiscal prudence . Strong macroeconomic fundamentals have
 D02,41,D02_P041_SEC_2_55_PAR001,D02_SEC_2_55,CONCLUSION AND OUTLOOK,fiscal,26,JJ,NOUN,have been reinforced by a calibrated fiscal strategy that prioritised capital expenditure while
@@ -178,8 +179,7 @@ D02,42,D02_P042_SEC_2_57_PAR001,D02_SEC_2_57,CONCLUSION AND OUTLOOK,fiscal,58,JJ
 D02,42,D02_P042_SEC_2_57_PAR001,D02_SEC_2_57,CONCLUSION AND OUTLOOK,fiscal,66,JJ,NOUN,"across levels of government , where fiscal policy is oriented toward expanding productive"
 D02,42,D02_P042_SEC_2_57_PAR001,D02_SEC_2_57,CONCLUSION AND OUTLOOK,fiscal,86,JJ,NOUN,"permanent expenditure commitments . Strengthening the fiscal capacity of local bodies , in"
 D02,42,D02_P042_SEC_2_58_PAR001,D02_SEC_2_58,CONCLUSION AND OUTLOOK,fiscal,78,JJ,NOUN,"improve expenditure disbursements , and enhance fiscal transparency . Together , these measures"
-D02,40,D02_T009,D02_SEC_S87,Fiscal Developments,fiscal,86,JJ,NOUN,is 0.05 . 2.54 India ’s fiscal model stands out particularly when assessed
-D03,21,D03_BOX003,D03_SEC_3_41,FINANCIAL INTERMEDIATION,billion,53,CD,NOUN,"payments business will reach USD 97 billion by 2027 , with AI making"
+D02,40,D02_T009,D02_SEC_S93,Fiscal Developments,fiscal,84,JJ,NOUN,is 0.05 . 2.54 India ’s fiscal model stands out particularly when assessed
 D03,1,D03_P001_SEC_3_1_PAR001,D03_SEC_3_1,INTRODUCTION,Monetary,1,JJ,NOUN,3.1 Monetary management and financial intermediation are fundamental
 D03,1,D03_P001_SEC_3_1_PAR001,D03_SEC_3_1,INTRODUCTION,Monetary,23,JJ,NOUN,"stability , and financial inclusion . Monetary management , led by the Reserve"
 D03,1,D03_P001_UNKNOWN_PAR002,UNKNOWN,UNKNOWN,monetary,2,JJ,NOUN,India 's monetary and financial sectors have exhibited robust
@@ -201,7 +201,8 @@ D03,12,D03_P012_SEC_3_17_PAR001,D03_SEC_3_17,Liquidity Conditions,Monetary,1,JJ,
 D03,12,D03_P012_SEC_3_18_PAR001,D03_SEC_3_18,FINANCIAL INTERMEDIATION,monetary,4,JJ,NOUN,3.18 Financial intermediaries implement monetary policy by transmitting the central bank
 D03,17,D03_P017_SEC_3_31_PAR001,D03_SEC_3_31,FINANCIAL INTERMEDIATION,monetary,62,JJ,NOUN,credit . The quicker transmission of monetary policy has made market - based
 D03,18,D03_P018_SEC_3_33_PAR001,D03_SEC_3_33,FINANCIAL INTERMEDIATION,Core,57,NNP,ADJ,"Furthermore , the integration of the Core Banking Solution and other IT systems"
-D03,21,D03_P021_SEC_3_41_PAR002,D03_SEC_3_41,FINANCIAL INTERMEDIATION,monetary,10,JJ,NOUN,"utilises AI to enhance statistics for monetary policy , supplement data with sources"
+D03,21,D03_P021_SEC_3_41_PAR002,D03_SEC_3_41,FINANCIAL INTERMEDIATION,billion,50,CD,NOUN,"payments business will reach USD 97 billion by 2027 , with AI making"
+D03,21,D03_P021_SEC_3_41_PAR004,D03_SEC_3_41,FINANCIAL INTERMEDIATION,monetary,10,JJ,NOUN,"utilises AI to enhance statistics for monetary policy , supplement data with sources"
 D03,22,D03_P022_SEC_3_41_PAR007,D03_SEC_3_41,FINANCIAL INTERMEDIATION,core,21,NN,ADJ,"consumer confidence . It identifies seven core guiding principles , referred to as"
 D03,30,D03_P030_SEC_3_50_PAR002,D03_SEC_3_50,FINANCIAL INTERMEDIATION,macro,73,JJ,NOUN,and to align technological change with macro - level financial development .
 D03,34,D03_P034_SEC_3_64_PAR001,D03_SEC_3_64,FINANCIAL INTERMEDIATION,monetary,133,JJ,NOUN,"a GST overhaul , easing of monetary policy , and receding inflation ,"
@@ -251,7 +252,7 @@ D04,22,D04_P022_SEC_4_50_PAR003,D04_SEC_4_50,• World (0.3),reverse,68,VB,NOUN,
 D04,23,D04_P023_UNKNOWN_PAR002,D04_SEC_S53,Industry Response,core,114,NN,ADJ,TRIPS agreement . This demonstrated a core structural insight : over- reliance on
 D04,23,D04_P023_UNKNOWN_PAR003,D04_SEC_S53,Industry Response,million,109,CD,NOUN,"market , valued at USD 532.10 million in CY 2005 , and is"
 D04,23,D04_P023_UNKNOWN_PAR003,D04_SEC_S53,Industry Response,billion,122,CD,NOUN,"expected to grow to USD 90.4 billion by CY 2030.53,54 These collaborative models"
-D04,24,D04_P024_SEC_4_51_PAR003,D04_SEC_4_51,Industry Response,billion,17,CD,NOUN,", it translates to USD 1.9 billion ."
+D04,24,D04_P024_SEC_4_51_PAR002,D04_SEC_4_51,Industry Response,billion,17,CD,NOUN,", it translates to USD 1.9 billion ."
 D04,24,D04_P024_UNKNOWN_PAR001,D04_SEC_S53,Industry Response,billion,53,CD,NOUN,pharmaceutical exports increased from USD 1.9 billion to USD 30.5 billion in FY25
 D04,24,D04_P024_UNKNOWN_PAR001,D04_SEC_S53,Industry Response,billion,57,CD,NOUN,"USD 1.9 billion to USD 30.5 billion in FY25 , representing a nearly"
 D04,25,D04_P025_SEC_4_55_PAR001,D04_SEC_4_55,Industry Response,fiscal,6,JJ,NOUN,"4.55 Together , these regulatory and fiscal measures provide an integrated framework of"
@@ -269,7 +270,6 @@ D04,29,D04_P029_SEC_4_64_PAR001,D04_SEC_4_64,Remittances,billion,37,CD,NOUN,infl
 D04,29,D04_P029_SEC_4_64_PAR001,D04_SEC_4_64,Remittances,billion,43,CD,NOUN,"billion in FY11 to USD 135.4 billion ( provisional ) in FY25 ,"
 D04,30,D04_P030_SEC_4_66_PAR001,D04_SEC_4_66,Remittances,macro,61,JJ,NOUN,"outlook , as countries with stronger macro fundamentals typically attract more stable and"
 D04,31,D04_P031_SEC_4_68_PAR001,D04_SEC_4_68,Remittances,billion,21,CD,NOUN,remained broadly stable at USD 867 billion ( 57 per cent of global
-D04,31,D04_P031_SEC_4_69_PAR002,D04_SEC_4_69,Remittances,billion,57,CD,NOUN,global flows of about USD 230 billion .
 D04,33,D04_P033_SEC_4_74_PAR001,D04_SEC_4_74,Remittances,billion,3,CD,NOUN,attracting USD 114 billion . This is well ahead of
 D04,33,D04_P033_SEC_4_74_PAR001,D04_SEC_4_74,Remittances,billion,14,CD,NOUN,"ahead of Malaysia ( USD 74 billion ) , Singapore ( USD 39"
 D04,33,D04_P033_SEC_4_74_PAR001,D04_SEC_4_74,Remittances,billion,21,CD,NOUN,") , Singapore ( USD 39 billion ) , Vietnam ( USD 32"
@@ -343,8 +343,8 @@ D05,12,D05_P012_SEC_5_22_PAR001,D05_SEC_5_22,DOMESTIC INFLATION,core,112,NN,ADJ,
 D05,16,D05_P016_SEC_5_31_PAR001,D05_SEC_5_31,INFLATION: REGIONAL PICTURE,headline,5,VB,ADJ,"5.31 . In contrast to headline inflation , core inflation in rural"
 D05,16,D05_P016_SEC_5_31_PAR001,D05_SEC_5_31,INFLATION: REGIONAL PICTURE,core,8,NN,ADJ,"In contrast to headline inflation , core inflation in rural and urban areas"
 D05,16,D05_P016_SEC_5_31_PAR001,D05_SEC_5_31,INFLATION: REGIONAL PICTURE,core,46,NN,ADJ,Chart V. 18 ) . Rural core inflation remains marginally higher than urban
-D05,19,D05_P019_SEC_5_35_PAR001,D05_SEC_5_35,STATE-LEVEL DYNAMICS,fiscal,190,JJ,NOUN,"as weighted average lending rate , fiscal deficit ratio and credit intensity do"
-D05,19,D05_P019_SEC_5_35_PAR002,D05_SEC_5_35,STATE-LEVEL DYNAMICS,fiscal,40,JJ,NOUN,"- level GSPD , state ’s fiscal deficit ratio , share of agricultural"
+D05,19,D05_P019_SEC_5_35_PAR001,D05_SEC_5_35,(Jan 2014 – Dec 2025),fiscal,190,JJ,NOUN,"as weighted average lending rate , fiscal deficit ratio and credit intensity do"
+D05,19,D05_P019_SEC_5_35_PAR002,D05_SEC_5_35,(Jan 2014 – Dec 2025),fiscal,40,JJ,NOUN,"- level GSPD , state ’s fiscal deficit ratio , share of agricultural"
 D05,20,D05_P020_SEC_5_36_PAR001,D05_SEC_5_36,OUTLOOK FOR INFLATION,headline,15,NN,ADJ,"have projected a progressive increase in headline inflation in the upcoming fiscal ,"
 D05,20,D05_P020_SEC_5_36_PAR001,D05_SEC_5_36,OUTLOOK FOR INFLATION,fiscal,20,JJ,NOUN,"in headline inflation in the upcoming fiscal , bringing the levels within the"
 D05,20,D05_P020_SEC_5_36_PAR001,D05_SEC_5_36,OUTLOOK FOR INFLATION,headline,96,NN,ADJ,. The RBI ’s forecast for headline Inflation for Q1 and Q2 of
@@ -359,49 +359,49 @@ D06,9,D06_P009_SEC_6_15_PAR001,D06_SEC_6_15,INTRODUCTION,million,166,CD,NOUN,"pr
 D06,11,D06_P011_SEC_6_16_PAR003,D06_SEC_6_16,INTRODUCTION,fiscal,91,JJ,NOUN,"per cent over the last four fiscal years , and cereals excluding maize"
 D06,14,D06_P014_SEC_6_22_PAR001,D06_SEC_6_22,Quality Seeds,million,143,CD,NOUN,( SLUSI)66 has surveyed approximately 39 million hectares and produced digital soil maps
 D06,14,D06_P014_SEC_6_22_PAR001,D06_SEC_6_22,Quality Seeds,million,152,CD,NOUN,"produced digital soil maps for 18 million hectares , providing evidence - based"
-D06,19,D06_P019_SEC_6_27_PAR001,D06_SEC_6_27,Credit,million,112,CD,NOUN,with annual inseminations rising from 76.23 million in 2017–18 to 88.32 million in
-D06,19,D06_P019_SEC_6_27_PAR001,D06_SEC_6_27,Credit,million,117,CD,NOUN,"76.23 million in 2017–18 to 88.32 million in 2024–25 , enabling 126 districts"
-D06,19,D06_P019_SEC_6_28_PAR001,D06_SEC_6_28,Credit,million,59,CD,NOUN,"fodder crops is estimated at 9.13 million hectares , accounting for about 4.61"
-D06,21,D06_P021_SEC_6_33_PAR001,D06_SEC_6_33,Credit,million,233,CD,NOUN,", providing insurance coverage to 3.3 million beneficiaries , and delivering livelihood support"
+D06,19,D06_P019_SEC_6_27_PAR001,D06_SEC_6_27,Region,million,112,CD,NOUN,with annual inseminations rising from 76.23 million in 2017–18 to 88.32 million in
+D06,19,D06_P019_SEC_6_27_PAR001,D06_SEC_6_27,Region,million,117,CD,NOUN,"76.23 million in 2017–18 to 88.32 million in 2024–25 , enabling 126 districts"
+D06,19,D06_P019_SEC_6_28_PAR001,D06_SEC_6_28,Region,million,59,CD,NOUN,"fodder crops is estimated at 9.13 million hectares , accounting for about 4.61"
+D06,21,D06_P021_SEC_6_33_PAR001,D06_SEC_6_33,Region,million,233,CD,NOUN,", providing insurance coverage to 3.3 million beneficiaries , and delivering livelihood support"
 D06,24,D06_P024_SEC_6_38_PAR010,D06_SEC_6_38,PRICE AND INCOME SUPPORT,fiscal,7,JJ,NOUN,incentives can be financed from the fiscal savings created by reducing the accumulation
 D06,25,D06_P025_SEC_6_38_PAR004,D06_SEC_6_38,PRICE AND INCOME SUPPORT,fiscal,4,JJ,NOUN,A portion of the fiscal savings should be reinvested in post
-D06,25,D06_P025_UNKNOWN_PAR001,D06_SEC_S44,Conclusion,fiscal,24,JJ,NOUN,"to increase farmer incomes , alleviate fiscal pressures , and enhance long -"
-D06,25,D06_P025_UNKNOWN_PAR001,D06_SEC_S44,Conclusion,core,41,NN,ADJ,security . The approach preserves the core strengths of India ’s foodgrain system
+D06,25,D06_P025_UNKNOWN_PAR001,D06_SEC_S51,Conclusion,fiscal,24,JJ,NOUN,"to increase farmer incomes , alleviate fiscal pressures , and enhance long -"
+D06,25,D06_P025_UNKNOWN_PAR001,D06_SEC_S51,Conclusion,core,41,NN,ADJ,security . The approach preserves the core strengths of India ’s foodgrain system
 D06,28,D06_P028_SEC_6_49_PAR001,D06_SEC_6_49,Food Processing,billion,44,CD,NOUN,"processed foods , totalled USD 49.43 billion , accounting for approximately 11.2 per"
-D07,30,D07_BOX013,D07_SEC_7_52,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,157,CD,NOUN,", it generated over USD 130 billion and supported more than   900,000"
-D07,30,D07_BOX013,D07_SEC_7_52,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,177,CD,NOUN,music tourism alone contributed £ 6.6 billion ( USD   8.1 billion )
-D07,30,D07_BOX013,D07_SEC_7_52,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,182,CD,NOUN,6.6 billion ( USD   8.1 billion ) in 2022 ( about 0.3
 D07,7,D07_P007_SEC_7_13_PAR002,D07_SEC_7_13,GLOBAL SERVICES TRENDS AND INDIA’S EXPERIENCE,million,73,CD,NOUN,construction . Services added nearly 40 million jobs over the past six years
 D07,14,D07_P014_SEC_7_18_PAR001,D07_SEC_7_18,GLOBAL SERVICES TRENDS AND INDIA’S EXPERIENCE,million,31,CD,NOUN,with annual savings exceeding USD 500 million and improved cost competitiveness .
 D07,15,D07_P015_SEC_7_21_PAR003,D07_SEC_7_21,GLOBAL SERVICES TRENDS AND INDIA’S EXPERIENCE,fiscal,62,JJ,NOUN,"large - scale employment , or fiscal stability ."
 D07,18,D07_P018_SEC_7_24_PAR001,D07_SEC_7_24,SUB-SECTORAL PERFORMANCE AND DRIVERS,million,76,CD,NOUN,"NRIs ) , rose to 20.57 million , marking an increase of 8.9"
 D07,19,D07_P019_SEC_7_26_PAR001,D07_SEC_7_26,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,142,CD,NOUN,"tourism market at about USD 8.7 billion in 2025 , with projections of"
 D07,19,D07_P019_SEC_7_26_PAR001,D07_SEC_7_26,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,151,CD,NOUN,", with projections of USD 16.2 billion by 2030.26"
-D07,21,D07_P021_SEC_7_32_PAR001,D07_SEC_7_32,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,67,CD,NOUN,"IT&ITeS industry revenues at USD 283 billion in FY25 , ( including hardware"
-D07,22,D07_P022_SEC_7_34_PAR001,D07_SEC_7_34,SUB-SECTORAL PERFORMANCE AND DRIVERS,core,24,NN,ADJ,"firms ’ global operations , undertaking core activities such as product development ,"
-D07,23,D07_P023_SEC_7_37_PAR001,D07_SEC_7_37,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,45,CD,NOUN,"is estimated at about USD 6.0 billion in 2023 , growing at about"
-D07,24,D07_P024_SEC_7_39_PAR001,D07_SEC_7_39,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,147,CD,NOUN,expenditure rose from about US$ 7.1 billion in 2012 to US$ 12.7 billion
-D07,24,D07_P024_SEC_7_39_PAR001,D07_SEC_7_39,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,153,CD,NOUN,"billion in 2012 to US$ 12.7 billion in 2022 , around 65 per"
-D07,25,D07_P025_SEC_7_42_PAR001,D07_SEC_7_42,SUB-SECTORAL PERFORMANCE AND DRIVERS,million,32,CD,NOUN,Indian ports35 increased from about 1052 million tonnes in FY15 to around 1603
-D07,25,D07_P025_SEC_7_42_PAR001,D07_SEC_7_42,SUB-SECTORAL PERFORMANCE AND DRIVERS,million,39,CD,NOUN,tonnes in FY15 to around 1603 million tonnes in FY25 . This momentum
-D07,25,D07_P025_SEC_7_42_PAR001,D07_SEC_7_42,SUB-SECTORAL PERFORMANCE AND DRIVERS,million,125,CD,NOUN,national waterways increased from approximately 18.1 million tonnes in FY14 to over 145.5
-D07,25,D07_P025_SEC_7_42_PAR001,D07_SEC_7_42,SUB-SECTORAL PERFORMANCE AND DRIVERS,million,132,CD,NOUN,"tonnes in FY14 to over 145.5 million tonnes in FY25 , reflecting improved"
-D07,25,D07_P025_SEC_7_43_PAR001,D07_SEC_7_43,SUB-SECTORAL PERFORMANCE AND DRIVERS,million,35,CD,NOUN,"9.4 per cent , reaching 411.8 million passengers , driven by broad -"
-D07,26,D07_P026_SEC_7_45_PAR001,D07_SEC_7_45,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,52,CD,NOUN,"loading by Indian Railways exceeded 1.6 billion tonnes , witnessing a slight expansion"
-D07,26,D07_P026_SEC_7_45_PAR001,D07_SEC_7_45,SUB-SECTORAL PERFORMANCE AND DRIVERS,million,104,CD,NOUN,"per cent and reaching about 1,215 million tonnes ( MT )"
-D07,27,D07_P027_SEC_7_45_PAR002,D07_SEC_7_45,SUB-SECTORAL PERFORMANCE AND DRIVERS,core,16,NN,ADJ,was supported by strong demand from core sectors such as coal ( 601
-D07,27,D07_P027_SEC_7_46_PAR001,D07_SEC_7_46,SUB-SECTORAL PERFORMANCE AND DRIVERS,million,18,CD,NOUN,daily freight loading rising from 4.2 million tonnes in 2024 to about 4.4
-D07,27,D07_P027_SEC_7_46_PAR001,D07_SEC_7_46,SUB-SECTORAL PERFORMANCE AND DRIVERS,million,25,CD,NOUN,tonnes in 2024 to about 4.4 million tonnes in 2025 . This has
-D07,27,D07_P027_SEC_7_47_PAR001,D07_SEC_7_47,SUB-SECTORAL PERFORMANCE AND DRIVERS,million,60,CD,NOUN,telephone connections rose from about 933 million in 2014 to over 1.2 billion
-D07,27,D07_P027_SEC_7_47_PAR001,D07_SEC_7_47,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,66,CD,NOUN,"million in 2014 to over 1.2 billion by November 2025 , with tele"
-D07,27,D07_P027_SEC_7_48_PAR001,D07_SEC_7_48,SUB-SECTORAL PERFORMANCE AND DRIVERS,core,46,NN,ADJ,"and 5 G ( NSA ) core network technologies , placing it among"
-D07,29,D07_P029_SEC_7_51_PAR001,D07_SEC_7_51,SUB-SECTORAL PERFORMANCE AND DRIVERS,trillion,81,CD,NOUN,"’s size at around ₹ 2.5 trillion in 202441 , driven by rising"
-D07,29,D07_P029_SEC_7_52_PAR001,D07_SEC_7_52,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,92,CD,NOUN,"revenue size of approximately ₹ 103 billion in 2024 , supported by skilled"
-D07,29,D07_P029_SEC_7_52_PAR001,D07_SEC_7_52,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,128,CD,NOUN,"revenues estimated at around ₹ 232 billion in 2024 , supported by a"
-D07,31,D07_P031_SEC_7_53_PAR001,D07_SEC_7_53,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,31,CD,NOUN,. Valued at about USD 8.4 billion ( around 2 per cent of
-D07,31,D07_P031_SEC_7_53_PAR001,D07_SEC_7_53,SUB-SECTORAL PERFORMANCE AND DRIVERS,billion,52,CD,NOUN,"projected to expand to USD 44 billion over the next decade46 , driven"
-D07,31,D07_P031_SEC_7_53_PAR001,D07_SEC_7_53,SUB-SECTORAL PERFORMANCE AND DRIVERS,million,107,CD,NOUN,"effort has earned nearly USD 143 million and EUR 272 million47 , reflecting"
-D07,31,D07_P031_SEC_7_54_PAR001,D07_SEC_7_54,SUB-SECTORAL PERFORMANCE AND DRIVERS,million,96,CD,NOUN,"services market valued at USD 495 million in 202450 , driven by applications"
+D07,21,D07_P021_SEC_7_32_PAR001,D07_SEC_7_32,New Global Cycle,billion,67,CD,NOUN,"IT&ITeS industry revenues at USD 283 billion in FY25 , ( including hardware"
+D07,22,D07_P022_SEC_7_34_PAR001,D07_SEC_7_34,New Global Cycle,core,24,NN,ADJ,"firms ’ global operations , undertaking core activities such as product development ,"
+D07,23,D07_P023_SEC_7_37_PAR001,D07_SEC_7_37,New Global Cycle,billion,45,CD,NOUN,"is estimated at about USD 6.0 billion in 2023 , growing at about"
+D07,24,D07_P024_SEC_7_39_PAR001,D07_SEC_7_39,New Global Cycle,billion,147,CD,NOUN,expenditure rose from about US$ 7.1 billion in 2012 to US$ 12.7 billion
+D07,24,D07_P024_SEC_7_39_PAR001,D07_SEC_7_39,New Global Cycle,billion,153,CD,NOUN,"billion in 2012 to US$ 12.7 billion in 2022 , around 65 per"
+D07,25,D07_P025_SEC_7_42_PAR001,D07_SEC_7_42,New Global Cycle,million,32,CD,NOUN,Indian ports35 increased from about 1052 million tonnes in FY15 to around 1603
+D07,25,D07_P025_SEC_7_42_PAR001,D07_SEC_7_42,New Global Cycle,million,39,CD,NOUN,tonnes in FY15 to around 1603 million tonnes in FY25 . This momentum
+D07,25,D07_P025_SEC_7_42_PAR001,D07_SEC_7_42,New Global Cycle,million,125,CD,NOUN,national waterways increased from approximately 18.1 million tonnes in FY14 to over 145.5
+D07,25,D07_P025_SEC_7_42_PAR001,D07_SEC_7_42,New Global Cycle,million,132,CD,NOUN,"tonnes in FY14 to over 145.5 million tonnes in FY25 , reflecting improved"
+D07,25,D07_P025_SEC_7_43_PAR001,D07_SEC_7_43,New Global Cycle,million,35,CD,NOUN,"9.4 per cent , reaching 411.8 million passengers , driven by broad -"
+D07,26,D07_P026_SEC_7_45_PAR001,D07_SEC_7_45,New Global Cycle,billion,52,CD,NOUN,"loading by Indian Railways exceeded 1.6 billion tonnes , witnessing a slight expansion"
+D07,26,D07_P026_SEC_7_45_PAR001,D07_SEC_7_45,New Global Cycle,million,104,CD,NOUN,"per cent and reaching about 1,215 million tonnes ( MT )"
+D07,27,D07_P027_SEC_7_45_PAR002,D07_SEC_7_45,New Global Cycle,core,16,NN,ADJ,was supported by strong demand from core sectors such as coal ( 601
+D07,27,D07_P027_SEC_7_46_PAR001,D07_SEC_7_46,New Global Cycle,million,18,CD,NOUN,daily freight loading rising from 4.2 million tonnes in 2024 to about 4.4
+D07,27,D07_P027_SEC_7_46_PAR001,D07_SEC_7_46,New Global Cycle,million,25,CD,NOUN,tonnes in 2024 to about 4.4 million tonnes in 2025 . This has
+D07,27,D07_P027_SEC_7_47_PAR001,D07_SEC_7_47,New Global Cycle,million,60,CD,NOUN,telephone connections rose from about 933 million in 2014 to over 1.2 billion
+D07,27,D07_P027_SEC_7_47_PAR001,D07_SEC_7_47,New Global Cycle,billion,66,CD,NOUN,"million in 2014 to over 1.2 billion by November 2025 , with tele"
+D07,27,D07_P027_SEC_7_48_PAR001,D07_SEC_7_48,New Global Cycle,core,46,NN,ADJ,"and 5 G ( NSA ) core network technologies , placing it among"
+D07,29,D07_P029_SEC_7_51_PAR001,D07_SEC_7_51,New Global Cycle,trillion,81,CD,NOUN,"’s size at around ₹ 2.5 trillion in 202441 , driven by rising"
+D07,29,D07_P029_SEC_7_52_PAR001,D07_SEC_7_52,New Global Cycle,billion,92,CD,NOUN,"revenue size of approximately ₹ 103 billion in 2024 , supported by skilled"
+D07,29,D07_P029_SEC_7_52_PAR001,D07_SEC_7_52,New Global Cycle,billion,128,CD,NOUN,"revenues estimated at around ₹ 232 billion in 2024 , supported by a"
+D07,30,D07_P030_SEC_7_52_PAR001,D07_SEC_7_52,New Global Cycle,billion,148,CD,NOUN,", it generated over USD 130 billion and supported more than 900,000 jobs"
+D07,30,D07_P030_SEC_7_52_PAR001,D07_SEC_7_52,New Global Cycle,billion,167,CD,NOUN,music tourism alone contributed £ 6.6 billion ( USD 8.1 billion ) in
+D07,30,D07_P030_SEC_7_52_PAR001,D07_SEC_7_52,New Global Cycle,billion,171,CD,NOUN,£ 6.6 billion ( USD 8.1 billion ) in 2022 ( about 0.3
+D07,31,D07_P031_SEC_7_53_PAR001,D07_SEC_7_53,New Global Cycle,billion,31,CD,NOUN,. Valued at about USD 8.4 billion ( around 2 per cent of
+D07,31,D07_P031_SEC_7_53_PAR001,D07_SEC_7_53,New Global Cycle,billion,52,CD,NOUN,"projected to expand to USD 44 billion over the next decade46 , driven"
+D07,31,D07_P031_SEC_7_53_PAR001,D07_SEC_7_53,New Global Cycle,million,107,CD,NOUN,"effort has earned nearly USD 143 million and EUR 272 million47 , reflecting"
+D07,31,D07_P031_SEC_7_54_PAR001,D07_SEC_7_54,New Global Cycle,million,96,CD,NOUN,"services market valued at USD 495 million in 202450 , driven by applications"
 D08,20,D08_BOX007,D08_SEC_8_41,National Manufacturing Mission,million,72,CD,NOUN,"25 per cent and generate 143 million jobs , along with boosting merchandise"
 D08,20,D08_BOX007,D08_SEC_8_41,National Manufacturing Mission,trillion,84,CD,NOUN,merchandise exports to   USD 1.2 trillion by deepening integration into GVCs .
 D08,20,D08_BOX007,D08_SEC_8_41,National Manufacturing Mission,core,200,NN,ADJ,- led growth . The other core activities are expected to address vital
@@ -423,9 +423,9 @@ D08,16,D08_P016_SEC_8_34_PAR001,D08_SEC_8_34,Pharmaceuticals,billion,35,CD,NOUN,
 D08,17,D08_P017_SEC_8_35_PAR001,D08_SEC_8_35,Pharmaceuticals,billion,16,CD,NOUN,"a size of about USD 179 billion , contributes close to 2 per"
 D08,17,D08_P017_SEC_8_36_PAR001,D08_SEC_8_36,Pharmaceuticals,billion,44,CD,NOUN,"Handicrafts ) increased to USD 37.75 billion in FY25 , up from USD"
 D08,17,D08_P017_SEC_8_36_PAR001,D08_SEC_8_36,Pharmaceuticals,billion,52,CD,NOUN,"FY25 , up from USD 35.87 billion in FY24.26"
-D08,26,D08_P026_UNKNOWN_PAR003,D08_SEC_S55,Design,billion,42,CD,NOUN,"factory can cost around USD 10 billion to set up , largely because"
-D08,27,D08_P027_UNKNOWN_PAR005,D08_SEC_S55,Design,core,43,NN,ADJ,"Semicon India programme together form the core of this strategy , supported by"
-D08,27,D08_P027_UNKNOWN_PAR005,D08_SEC_S55,Design,fiscal,84,JJ,NOUN,"have been launched , each extending fiscal support of 50 per cent of"
+D08,26,D08_P026_UNKNOWN_PAR004,D08_SEC_S56,Design,billion,42,CD,NOUN,"factory can cost around USD 10 billion to set up , largely because"
+D08,27,D08_P027_UNKNOWN_PAR005,D08_SEC_S56,Design,core,43,NN,ADJ,"Semicon India programme together form the core of this strategy , supported by"
+D08,27,D08_P027_UNKNOWN_PAR005,D08_SEC_S56,Design,fiscal,84,JJ,NOUN,"have been launched , each extending fiscal support of 50 per cent of"
 D08,32,D08_P032_SEC_8_57_PAR002,D08_SEC_8_57,Design,core,147,NN,ADJ,"masterplan , build , and operate core infrastructure , ensuring market responsiveness and"
 D08,36,D08_P036_SEC_8_66_PAR001,D08_SEC_8_66,Design,monetary,45,JJ,NOUN,and digital invoicing with a reduced monetary limit for onboarding on TReDS for
 D08,40,D08_P040_SEC_8_70_PAR001,D08_SEC_8_70,INTEGRATING WITH GLOBAL VALUE CHAINS,core,106,NN,ADJ,"duty structures , particularly in several core manufacturing sectors , contributing to a"
@@ -433,8 +433,8 @@ D08,44,D08_P044_SEC_8_72_PAR001,D08_SEC_8_72,CONCLUSION: A ROADMAP FOR THE NEXT 
 D08,44,D08_P044_SEC_8_72_PAR003,D08_SEC_8_72,CONCLUSION: A ROADMAP FOR THE NEXT LEAP,reverse,63,VB,NOUN,", and APIs — possess ‘ reverse leverage . ’"
 D09,15,D09_BOX011,D09_SEC_9_28,Civil Aviation,million,149,CD,NOUN,of operational airports to approximately 575 million   passengers per annum . •
 D09,17,D09_BOX013,D09_SEC_9_33,Civil Aviation,core,107,NN,ADJ,  ownership of port land and core infrastructure while awarding long - term
-D09,19,D09_BOX017,D09_SEC_S37,Digital Initiatives:,million,138,CD,NOUN,", financing includes an € 85 million long - term concessional loan from"
-D09,21,D09_BOX019,D09_SEC_9_36,Digital Initiatives:,million,167,CD,NOUN,to enhance shipbuilding capacity to 4.5 million Gross Tonnage ( GT ) annually
+D09,19,D09_BOX017,D09_SEC_S39,Digital Initiatives:,million,143,CD,NOUN,", financing includes an € 85 million long - term concessional loan from"
+D09,21,D09_BOX019,D09_SEC_9_36,Digital Initiatives:,million,170,CD,NOUN,to enhance shipbuilding capacity to 4.5 million Gross Tonnage ( GT ) annually
 D09,2,D09_P002_SEC_9_3_PAR001,D09_SEC_9_3,UNKNOWN,fiscal,54,JJ,NOUN,"has been sustained over the subsequent fiscal years , reinforcing the objective of"
 D09,3,D09_P003_SEC_9_10_PAR001,D09_SEC_9_10,UNKNOWN,core,33,NN,ADJ,"infrastructure sub - sectors , including core physical infrastructure , energy sector ,"
 D09,8,D09_P008_SEC_9_17_PAR001,D09_SEC_9_17,Public-Private Partnerships,core,16,NN,ADJ,"infrastructure is materially stronger in select core sectors . Roads , ports ,"
@@ -443,9 +443,9 @@ D09,14,D09_P014_SEC_9_28_PAR001,D09_SEC_9_28,Civil Aviation,million,47,CD,NOUN,"
 D09,14,D09_P014_SEC_9_28_PAR001,D09_SEC_9_28,Civil Aviation,million,59,CD,NOUN,air cargo volume grew from 2.53 million metric tonnes ( MMT ) in
 D09,16,D09_P016_SEC_9_29_PAR001,D09_SEC_9_29,Civil Aviation,million,68,CD,NOUN,"currently operates approximately 0.11 airports per million people , significantly lower than the"
 D09,20,D09_P020_SEC_9_36_PAR001,D09_SEC_9_36,Digital Initiatives:,billion,23,CD,NOUN,"69,725 crore ( approximately USD 8.3 billion ) to revitalise the country ’s"
-D09,20,D09_P020_UNKNOWN_PAR001,D09_SEC_S37,Digital Initiatives:,million,98,CD,NOUN,", cumulative ridership has crossed five million passengers , with island communities such"
-D10,9,D10_BOX001,D10_SEC_10_25,INTRODUCTION,million,51,CD,NOUN,"an outlay of USD 285   million ( ₹ 2,365 crore ) ,"
-D10,32,D10_BOX015,D10_SEC_10_76,INTRODUCTION,core,35,NN,ADJ,and rising climate vulnerability . The core challenge is not a shortage of
+D09,20,D09_P020_UNKNOWN_PAR001,D09_SEC_S39,Digital Initiatives:,million,98,CD,NOUN,", cumulative ridership has crossed five million passengers , with island communities such"
+D10,9,D10_BOX001,D10_SEC_10_25,INTRODUCTION,million,54,CD,NOUN,"an outlay of USD 285   million ( ₹ 2,365 crore ) ,"
+D10,32,D10_BOX015,D10_SEC_10_76,Finance Framework,core,36,NN,ADJ,and rising climate vulnerability . The core challenge is not a shortage of
 D10,2,D10_P002_SEC_10_2_PAR001,D10_SEC_10_2,INTRODUCTION,headline,136,NN,ADJ,felt in both reliability stress and headline tariffs .
 D10,4,D10_P004_SEC_10_9_PAR001,D10_SEC_10_9,INTRODUCTION,fiscal,88,JJ,NOUN,"erode growth . Equally , scarce fiscal resources should not be diverted away"
 D10,7,D10_P007_SEC_10_21_PAR001,D10_SEC_10_21,INTRODUCTION,billion,35,CD,NOUN,countries will require between USD 310 billion and USD 365 billion annually by
@@ -463,16 +463,16 @@ D10,26,D10_P026_SEC_10_64_PAR001,D10_SEC_10_64,INTRODUCTION,trillion,9,CD,NOUN,"
 D10,26,D10_P026_SEC_10_64_PAR001,D10_SEC_10_64,INTRODUCTION,trillion,29,CD,NOUN,"global climate finance totalled USD 1.9 trillion , of which private capital accounted"
 D10,26,D10_P026_SEC_10_64_PAR001,D10_SEC_10_64,INTRODUCTION,trillion,40,CD,NOUN,capital accounted for nearly USD 1.3 trillion . More than half of this
 D10,27,D10_P027_SEC_10_69_PAR002,D10_SEC_10_69,INTRODUCTION,billion,17,CD,NOUN,FDI equity investment of $ 6.1 billion during April 2020 – September 2023
-D10,29,D10_P029_SEC_10_72_PAR002,D10_SEC_10_72,INTRODUCTION,billion,52,CD,NOUN,green bonds can unlock USD 2.5–6.9 billion for local bodies driven climate action
-D10,31,D10_P031_SEC_10_75_PAR001,D10_SEC_10_75,INTRODUCTION,billion,73,CD,NOUN,"climate finance – the USD 100 billion annual goal till 2025 , while"
-D10,31,D10_P031_SEC_10_75_PAR001,D10_SEC_10_75,INTRODUCTION,billion,86,CD,NOUN,developed countries reported providing USD 115.9 billion in climate finance to developing countries
-D10,32,D10_P032_SEC_10_76_PAR002,D10_SEC_10_76,INTRODUCTION,prudential,52,JJ,NOUN,( MDBs ) and in the prudential regulations of developed countries . MDBs
-D10,33,D10_P033_SEC_10_76_PAR002,D10_SEC_10_76,INTRODUCTION,billion,40,CD,NOUN,to unlock up to USD 3.4 billion in long - term foreign- exchange
-D10,33,D10_P033_SEC_10_79_PAR001,D10_SEC_10_79,INTRODUCTION,fiscal,29,JJ,NOUN,"private investment , they also create fiscal trade - offs for governments ."
-D10,33,D10_P033_SEC_10_79_PAR001,D10_SEC_10_79,INTRODUCTION,fiscal,58,JJ,NOUN,put more pressure on the limited fiscal space if the risks materialise .
-D10,33,D10_P033_SEC_10_79_PAR001,D10_SEC_10_79,INTRODUCTION,fiscal,83,JJ,NOUN,"attracting investment and the need for fiscal responsibility , transparency , and long"
-D10,34,D10_P034_SEC_10_83_PAR001,D10_SEC_10_83,INTRODUCTION,core,64,NN,ADJ,"rules and notifications . The three core statutes , i.e. , the Water"
-D10,40,D10_P040_SEC_10_98_PAR001,D10_SEC_10_98,INTRODUCTION,core,16,NN,ADJ,an environmental add- on but a core component of India ’s development strategy
+D10,29,D10_P029_SEC_10_72_PAR002,D10_SEC_10_72,Finance Framework,billion,52,CD,NOUN,green bonds can unlock USD 2.5–6.9 billion for local bodies driven climate action
+D10,31,D10_P031_SEC_10_75_PAR001,D10_SEC_10_75,Finance Framework,billion,73,CD,NOUN,"climate finance – the USD 100 billion annual goal till 2025 , while"
+D10,31,D10_P031_SEC_10_75_PAR001,D10_SEC_10_75,Finance Framework,billion,86,CD,NOUN,developed countries reported providing USD 115.9 billion in climate finance to developing countries
+D10,32,D10_P032_SEC_10_76_PAR002,D10_SEC_10_76,Finance Framework,prudential,52,JJ,NOUN,( MDBs ) and in the prudential regulations of developed countries . MDBs
+D10,33,D10_P033_SEC_10_76_PAR002,D10_SEC_10_76,Finance Framework,billion,40,CD,NOUN,to unlock up to USD 3.4 billion in long - term foreign- exchange
+D10,33,D10_P033_SEC_10_79_PAR001,D10_SEC_10_79,Finance Framework,fiscal,29,JJ,NOUN,"private investment , they also create fiscal trade - offs for governments ."
+D10,33,D10_P033_SEC_10_79_PAR001,D10_SEC_10_79,Finance Framework,fiscal,58,JJ,NOUN,put more pressure on the limited fiscal space if the risks materialise .
+D10,33,D10_P033_SEC_10_79_PAR001,D10_SEC_10_79,Finance Framework,fiscal,83,JJ,NOUN,"attracting investment and the need for fiscal responsibility , transparency , and long"
+D10,34,D10_P034_SEC_10_83_PAR001,D10_SEC_10_83,Finance Framework,core,64,NN,ADJ,"rules and notifications . The three core statutes , i.e. , the Water"
+D10,40,D10_P040_SEC_10_98_PAR001,D10_SEC_10_98,Finance Framework,core,16,NN,ADJ,an environmental add- on but a core component of India ’s development strategy
 D11,22,D11_P022_SEC_11_34_PAR001,D11_SEC_11_34,EDUCATION: ENHANCING QUALITY AND ACCESS,billion,74,CD,NOUN,component has increased to USD 3.4 billion in FY24 . Indian students abroad
 D11,30,D11_P030_SEC_11_46_PAR001,D11_SEC_11_46,Swasth Nari Sashakt Parivar Abhiyaan,billion,17,CD,NOUN,in India surged from USD 0.9 billion in 2006 to nearly USD 38
 D11,30,D11_P030_SEC_11_46_PAR001,D11_SEC_11_46,Swasth Nari Sashakt Parivar Abhiyaan,billion,24,CD,NOUN,"in 2006 to nearly USD 38 billion in 2019 , a 40 fold"
@@ -483,7 +483,7 @@ D11,43,D11_P043_SEC_11_65_PAR004,D11_SEC_11_65,Swasth Nari Sashakt Parivar Abhiy
 D12,7,D12_P007_SEC_12_12_PAR001,D12_SEC_12_12,EMPLOYMENT OVERVIEW,core,12,NN,ADJ,"Bharat 2047 places women at the core of the national development agenda ,"
 D12,24,D12_P024_SEC_12_37_PAR001,D12_SEC_12_37,CATALYSING JOB GROWTH,billion,103,CD,NOUN,over 80 crore users and 15 billion UPI transactions per month . Now
 D12,29,D12_P029_SEC_12_45_PAR003,D12_SEC_12_45,SKILL ECOSYSTEM OVERVIEW,core,10,NN,ADJ,to treat employer linkage as a core design feature rather than an add
-D12,38,D12_P038_SEC_12_55_PAR002,D12_SEC_12_55,SKILLING STRATEGIES FOR YOUTH,core,83,NN,ADJ,advanced training institutes . At the core of this strategy was converging ongoing
+D12,38,D12_P038_SEC_12_55_PAR003,D12_SEC_12_55,SKILLING STRATEGIES FOR YOUTH,core,83,NN,ADJ,advanced training institutes . At the core of this strategy was converging ongoing
 D13,1,D13_P001_UNKNOWN_PAR003,UNKNOWN,UNKNOWN,core,25,NN,ADJ,vulnerable and marginalised groups at its core . Government affirmative action in education
 D13,3,D13_P003_SEC_13_8_PAR001,D13_SEC_13_8,INTRODUCTION,monetary,48,JJ,NOUN,significant strides in reducing non - monetary poverty . The WB Multidimensional Poverty
 D13,3,D13_P003_SEC_13_8_PAR001,D13_SEC_13_8,INTRODUCTION,monetary,97,JJ,NOUN,Aayog.4 The index measures non - monetary poverty by considering factors such as
@@ -498,7 +498,7 @@ D13,21,D13_P021_SEC_13_58_PAR005,D13_SEC_13_58,TRANSFORMING THE RURAL ECONOMY,co
 D13,23,D13_P023_SEC_13_66_PAR002,D13_SEC_13_66,TRANSFORMING THE RURAL ECONOMY,trillion,40,CD,NOUN,"be worth a substantial ₹ 128 trillion per year , highlighting the significant"
 D13,26,D13_P026_SEC_13_68_PAR001,D13_SEC_13_68,TRANSFORMING THE RURAL ECONOMY,million,16,CD,NOUN,", and savings of approximately 14 million DALYs.61"
 D14,26,D14_BOX009,D14_SEC_14_60,Evolving Governance,core,76,NN,ADJ,constraints and developmental priorities . The core   governance principles for such an
-D14,31,D14_BOX011,D14_SEC_14_80,Incentivising Localisation,core,14,NN,ADJ,AI era is guided by three core objectives : 1 . Preserve openness
+D14,31,D14_BOX011,D14_SEC_14_80,Incentivising Localisation,core,16,NN,ADJ,AI era is guided by three core objectives : 1 . Preserve openness
 D14,4,D14_P004_SEC_14_6_PAR002,D14_SEC_14_6,ARTIFICIAL INTELLIGENCE IN INDIA’S ECONOMIC CONTEXT,core,3,NN,ADJ,"However , the core uncertainty is not whether AI matters"
 D14,5,D14_P005_SEC_14_6_PAR004,D14_SEC_14_6,ARTIFICIAL INTELLIGENCE IN INDIA’S ECONOMIC CONTEXT,monetary,25,JJ,NOUN,"- pandemic labour market dynamics , monetary conditions , or aggregate demand recovery"
 D14,6,D14_P006_SEC_14_7_PAR001,D14_SEC_14_7,Discussion,core,98,NN,ADJ,It risks hollowing out India ’s core value proposition if adaptation lags .
@@ -510,7 +510,7 @@ D14,18,D14_P018_SEC_14_36_PAR001,D14_SEC_14_36,Concluding Thoughts,million,34,CD
 D14,20,D14_P020_SEC_14_38_PAR001,D14_SEC_14_38,Concluding Thoughts,monetary,19,JJ,NOUN,", where the sovereign is a monetary shareholder in the effort , similar"
 D14,27,D14_P027_SEC_14_61_PAR001,D14_SEC_14_61,Trusted Cross-Border Flows While Retaining Domestic Value,core,10,NN,ADJ,"AI era , data is a core factor of production , which India"
 D14,35,D14_P035_SEC_14_88_PAR002,D14_SEC_14_88,AI SAFETY AND RISKS,core,56,NN,ADJ,protection of individual rights at its core .
-D15,24,D15_BOX007,D15_SEC_15_43,Urbanisation,Million,156,CD,NOUN,Learnings   from Cities with a Million - plus Population . New Delhi
+D15,24,D15_BOX007,D15_SEC_15_43,Urbanisation,Million,160,CD,NOUN,Learnings   from Cities with a Million - plus Population . New Delhi
 D15,1,D15_P001_UNKNOWN_PAR004,UNKNOWN,UNKNOWN,Core,40,NN,ADJ,"overly reliant on private vehicles . Core services such as sanitation , waste"
 D15,1,D15_P001_UNKNOWN_PAR004,UNKNOWN,UNKNOWN,fiscal,84,JJ,NOUN,: fragmented metropolitan governance and limited fiscal autonomy for cities – to plan
 D15,4,D15_P004_SEC_15_7_PAR001,D15_SEC_15_7,The Paradox,fiscal,52,JJ,NOUN,"step toward aligning public policy , fiscal priorities , and planning frameworks with"
@@ -548,8 +548,8 @@ D16,4,D16_P004_SEC_16_8_PAR001,D16_SEC_16_8,UNKNOWN,monetary,16,JJ,NOUN,was to u
 D16,10,D16_P010_SEC_16_26_PAR001,D16_SEC_16_26,UNKNOWN,core,21,NN,ADJ,ability to learn selectively becomes a core element of statecraft . The epic
 D16,12,D16_P012_SEC_16_33_PAR001,D16_SEC_16_33,UNKNOWN,core,39,NN,ADJ,"include defence - critical systems , core infrastructure inputs , energy security components"
 D16,19,D16_P019_SEC_16_60_PAR002,D16_SEC_16_60,The Common Thread: The Entrepreneurial State,core,111,NN,ADJ,by side in terms of their core purpose .
-D16,23,D16_P023_SEC_16_68_PAR002,D16_SEC_16_68,The Common Thread: The Entrepreneurial State,monetary,33,JJ,NOUN,misunderstood as being driven only by monetary orthodoxy or central bank credibility .
-D16,23,D16_P023_SEC_16_70_PAR001,D16_SEC_16_70,The Common Thread: The Entrepreneurial State,Monetary,38,JJ,NOUN,than dependence on capital inflows . Monetary discipline reinforced this foundation ; it
+D16,23,D16_P023_SEC_16_68_PAR002,D16_SEC_16_68,Indispensability: A Comparative Perspective,monetary,33,JJ,NOUN,misunderstood as being driven only by monetary orthodoxy or central bank credibility .
+D16,23,D16_P023_SEC_16_70_PAR001,D16_SEC_16_70,Indispensability: A Comparative Perspective,Monetary,38,JJ,NOUN,than dependence on capital inflows . Monetary discipline reinforced this foundation ; it
 D16,19,D16_T001,D16_SEC_16_60,The Common Thread: The Entrepreneurial State,Core,2,NNP,ADJ,Concept Definition Core Objective Import   Substitution An economic
 D17,2,D17_P002_SEC_16_84_PAR001,D17_SEC_16_84,Economic Survey 2025-26,core,54,NN,ADJ,are taken under uncertainty . This core constraint manifests across multiple domains :
 D17,4,D17_P004_SEC_16_91_PAR001,D17_SEC_16_91,Economic Survey 2025-26,core,100,NN,ADJ,as peripheral technical functions but as core instruments of industrial strategy . Crucially
@@ -570,7 +570,7 @@ D19,9,D19_P009_UNKNOWN_PAR007,D19_SEC_S03,Policy Highlights,Fiscal,1,JJ,NOUN,▪
 D19,9,D19_P009_UNKNOWN_PAR007,D19_SEC_S03,Policy Highlights,fiscal,15,JJ,NOUN,that the Centre should bring down fiscal deficit to 3.5 % of GDP
 D19,9,D19_P009_UNKNOWN_PAR007,D19_SEC_S03,Policy Highlights,fiscal,31,JJ,NOUN,31 . It recommended the annual fiscal deficit limit for states to be
 D19,9,D19_P009_UNKNOWN_PAR007,D19_SEC_S03,Policy Highlights,fiscal,69,JJ,NOUN,their budgets . The definition of fiscal deficit and debt should be expanded
-D19,9,D19_T009,D19_SEC_S03,Policy Highlights,fiscal,188,JJ,NOUN,  10.0   10.0 Tax and fiscal effort   -   2.5  
+D19,9,D19_T009,D19_SEC_S03,Policy Highlights,fiscal,190,JJ,NOUN,  10.0   10.0 Tax and fiscal effort   -   2.5  
 D20,2,D20_P002_SEC_2_1_1_PAR001,D20_SEC_2_1_1,REVIEW OF FINANCIAL MARKETS,fiscal,23,JJ,NOUN,climbed sharply during H1 of the fiscal on account of trade tariff confrontations
 D20,4,D20_P004_II_PAR001,D20_SEC_II,The Spillover to India: From Sporadic to Structural,Headline,45,NN,ADJ,lowest level in several years . Headline inflation touched a historic low of
 D20,4,D20_P004_II_PAR001,D20_SEC_II,The Spillover to India: From Sporadic to Structural,repo,118,JJ,NOUN,125 basis point reduction in the repo rate over the course of the
@@ -605,8 +605,8 @@ D20,5,D20_T001,D20_SEC_2_1_3,The Spillover to India: From Sporadic to Structural
 D20,5,D20_T001,D20_SEC_2_1_3,The Spillover to India: From Sporadic to Structural,fiscal,144,JJ,NOUN,". India ’s adherence to a fiscal consolidation   path , improving inflation"
 D22,17,D22_BOX005,D22_SEC_4_4_1,SECONDARY MARKETS,billion,38,CD,NOUN,"with   generation expanding from 1,168 billion units in FY16 to   an"
 D22,17,D22_BOX005,D22_SEC_4_4_1,SECONDARY MARKETS,billion,47,CD,NOUN,"FY16 to   an estimated 1,837 billion units in FY26 . As the"
-D22,1,D22_P001_UNKNOWN_PAR001,D22_SEC_S01,SECONDARY MARKETS,fiscal,78,JJ,NOUN,. A defining feature of the fiscal year was the maturing role of
-D22,1,D22_P001_UNKNOWN_PAR001,D22_SEC_S01,SECONDARY MARKETS,trillion,162,CD,NOUN,"aggregate market capitalisation to ₹ 411.6 trillion by March 31 , 2026 ,"
+D22,1,D22_P001_UNKNOWN_PAR001,D22_SEC_S02,SECONDARY MARKETS,fiscal,78,JJ,NOUN,. A defining feature of the fiscal year was the maturing role of
+D22,1,D22_P001_UNKNOWN_PAR001,D22_SEC_S02,SECONDARY MARKETS,trillion,162,CD,NOUN,"aggregate market capitalisation to ₹ 411.6 trillion by March 31 , 2026 ,"
 D22,3,D22_P003_SEC_4_1_1_PAR004,D22_SEC_4_1_1,SECONDARY MARKETS,trillion,36,CD,NOUN,6.8 per cent to ₹ 280 trillion from ₹ 301 trillion in 2024
 D22,3,D22_P003_SEC_4_1_1_PAR004,D22_SEC_4_1_1,SECONDARY MARKETS,trillion,40,CD,NOUN,₹ 280 trillion from ₹ 301 trillion in 2024 - 25 . Similarly
 D22,4,D22_P004_SEC_4_1_1_PAR002,D22_SEC_4_1_1,SECONDARY MARKETS,trillion,29,CD,NOUN,"per cent ) to ₹ 411.6 trillion as of March 31 , 2026"
@@ -634,16 +634,16 @@ D22,20,D22_P020_SEC_4_4_4_PAR004,D22_SEC_4_4_4,(Chart 4.13).,trillion,24,CD,NOUN
 D22,20,D22_P020_SEC_4_4_4_PAR004,D22_SEC_4_4_4,(Chart 4.13).,trillion,41,CD,NOUN,"140.3 per cent to ₹ 1,221.7 trillion . The premium turnover also increased"
 D22,20,D22_P020_SEC_4_4_4_PAR004,D22_SEC_4_4_4,(Chart 4.13).,trillion,55,CD,NOUN,107.2 per cent to ₹ 16.8 trillion from ₹ 8.1 trillion during the
 D22,20,D22_P020_SEC_4_4_4_PAR004,D22_SEC_4_4_4,(Chart 4.13).,trillion,59,CD,NOUN,₹ 16.8 trillion from ₹ 8.1 trillion during the period ( Table 4.21
-D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S21,Source: All Exchanges,trillion,27,CD,NOUN,16.8 per cent to ₹ 1.8 trillion from ₹ 1.5 trillion in 2024
-D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S21,Source: All Exchanges,trillion,31,CD,NOUN,₹ 1.8 trillion from ₹ 1.5 trillion in 2024 - 25 . In
-D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S21,Source: All Exchanges,trillion,50,CD,NOUN,"the turnover increased to ₹ 1,386 trillion in 2025 - 26 from ₹"
-D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S21,Source: All Exchanges,trillion,58,CD,NOUN,2025 - 26 from ₹ 578 trillion in 2024 - 25 . Within
-D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S21,Source: All Exchanges,trillion,85,CD,NOUN,491.7 per cent to ₹ 817 trillion from ₹ 138 trillion in the
-D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S21,Source: All Exchanges,trillion,89,CD,NOUN,₹ 817 trillion from ₹ 138 trillion in the previous year . Similarly
-D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S21,Source: All Exchanges,trillion,110,CD,NOUN,"27.6 per cent to ₹ 551 trillion from ₹ 432 trillion , while"
-D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S21,Source: All Exchanges,trillion,114,CD,NOUN,"₹ 551 trillion from ₹ 432 trillion , while that of base metal"
-D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S21,Source: All Exchanges,trillion,130,CD,NOUN,114.4 per cent to ₹ 18.4 trillion from ₹ 8.6 trillion .
-D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S21,Source: All Exchanges,trillion,134,CD,NOUN,₹ 18.4 trillion from ₹ 8.6 trillion .
+D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S22,Source: All Exchanges,trillion,27,CD,NOUN,16.8 per cent to ₹ 1.8 trillion from ₹ 1.5 trillion in 2024
+D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S22,Source: All Exchanges,trillion,31,CD,NOUN,₹ 1.8 trillion from ₹ 1.5 trillion in 2024 - 25 . In
+D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S22,Source: All Exchanges,trillion,50,CD,NOUN,"the turnover increased to ₹ 1,386 trillion in 2025 - 26 from ₹"
+D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S22,Source: All Exchanges,trillion,58,CD,NOUN,2025 - 26 from ₹ 578 trillion in 2024 - 25 . Within
+D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S22,Source: All Exchanges,trillion,85,CD,NOUN,491.7 per cent to ₹ 817 trillion from ₹ 138 trillion in the
+D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S22,Source: All Exchanges,trillion,89,CD,NOUN,₹ 817 trillion from ₹ 138 trillion in the previous year . Similarly
+D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S22,Source: All Exchanges,trillion,110,CD,NOUN,"27.6 per cent to ₹ 551 trillion from ₹ 432 trillion , while"
+D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S22,Source: All Exchanges,trillion,114,CD,NOUN,"₹ 551 trillion from ₹ 432 trillion , while that of base metal"
+D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S22,Source: All Exchanges,trillion,130,CD,NOUN,114.4 per cent to ₹ 18.4 trillion from ₹ 8.6 trillion .
+D22,21,D22_P021_UNKNOWN_PAR002,D22_SEC_S22,Source: All Exchanges,trillion,134,CD,NOUN,₹ 18.4 trillion from ₹ 8.6 trillion .
 D22,31,D22_P031_SEC_4_7_3_PAR001,D22_SEC_4_7_3,Source: All Exchanges,fiscal,2,JJ,NOUN,"During the fiscal year 2025–26 , the total number"
 D22,36,D22_P036_SEC_4_8_PAR005,D22_SEC_4_8,Source: All Exchanges,Core,42,NNP,ADJ,( Sales and Other Non - Core Services ) Certification Examination ” has
 D22,38,D22_T040,D22_SEC_4_8_2,Source: All Exchanges,core,222,NN,ADJ,’s capital market infrastructure . Their core   mandate is the custody and
@@ -652,15 +652,15 @@ D23,11,D23_BOX005,D23_SEC_5_1_2,FUND MANAGEMENT ACTIVITIES,prudential,104,JJ,NOU
 D26,5,D26_P005_SEC_8_1_4_PAR005,D26_SEC_8_1_4,NISM.,core,49,NN,ADJ,"in 13 Indian languages across three core themes : “ Invest responsibly ,"
 D27,3,D27_BOX001,D27_SEC_9_1_4,TECHNOLOGY,core,112,NN,ADJ,has embedded quantum resiliency as a core disrupt cryptographic security and impact systemic
 D27,5,D27_P005_SEC_9_2_1_PAR003,D27_SEC_9_2_1,TECHNOLOGY,core,1,NN,ADJ,The core of this safety mechanism is a
-D28,6,D28_P006_UNKNOWN_PAR001,D28_SEC_S05,(Table 10.2).,monetary,108,JJ,NOUN,"intermediary registrations , undertake adjudication for monetary penalties , or pursue criminal prosecution"
+D28,6,D28_P006_UNKNOWN_PAR001,D28_SEC_S06,(Table 10.2).,monetary,108,JJ,NOUN,"intermediary registrations , undertake adjudication for monetary penalties , or pursue criminal prosecution"
 D28,8,D28_P008_SEC_10_1_4_PAR001,D28_SEC_10_1_4,(Table 10.2).,monetary,46,JJ,NOUN,) for conducting enquiry and imposing monetary penalties for contravention of any provision
 D28,37,D28_P037_SEC_10_6_PAR010,D28_SEC_10_6,Amendment Regulations – 51,core,85,NN,ADJ,for AMCs and trustees . The core objective is the unbundling of costs
-D29,6,D29_BOX001,D29_SEC_S06,Association Europe-Finances-Regulations,trillion,162,CD,NOUN,goal of becoming a USD 30 trillion economy by proactively bolstered the regulatory
-D29,7,D29_P007_UNKNOWN_PAR011,D29_SEC_S06,Association Europe-Finances-Regulations,macro,67,JJ,NOUN,incorporate climate and environmental risks within macro - prudential surveillance and develop system
-D29,7,D29_P007_UNKNOWN_PAR011,D29_SEC_S06,Association Europe-Finances-Regulations,prudential,69,JJ,NOUN,and environmental risks within macro - prudential surveillance and develop system - wide
-D30,5,D30_P005_SEC_12_7_PAR006,D30_SEC_12_7,LITERACY,Core,19,NNP,ADJ,( Sales and Other Non - Core Services )
-D31,8,D31_BOX001,D31_SEC_13_4_7,ORGANIZATIONAL MATTERS,million,319,CD,NOUN,households   ( approx . 213 million ) are aware of at least
-D31,8,D31_BOX001,D31_SEC_13_4_7,ORGANIZATIONAL MATTERS,million,397,CD,NOUN,"cent ( approx . 32.1   million households ) actually invest , highlighting"
-D31,6,D31_P006_SEC_13_5_PAR003,D31_SEC_13_5,ORGANIZATIONAL MATTERS,core,29,NN,ADJ,"integrated data management . Its other core mandates encompass fostering data democratization ,"
-D31,7,D31_P007_SEC_13_4_7_PAR006,D31_SEC_13_4_7,ORGANIZATIONAL MATTERS,core,30,NN,ADJ,Industry . It serves as a core component of the Business Service Price
-D31,17,D31_P017_SEC_13_11_PAR020,D31_SEC_13_11,ORGANIZATIONAL MATTERS,fiscal,17,JJ,NOUN,from 76 percent in the previous fiscal year . In the recurring category
+D29,6,D29_BOX001,D29_SEC_S08,Financial Sector Assessment,trillion,162,CD,NOUN,goal of becoming a USD 30 trillion economy by proactively bolstered the regulatory
+D29,7,D29_P007_UNKNOWN_PAR011,D29_SEC_S08,Financial Sector Assessment,macro,67,JJ,NOUN,incorporate climate and environmental risks within macro - prudential surveillance and develop system
+D29,7,D29_P007_UNKNOWN_PAR011,D29_SEC_S08,Financial Sector Assessment,prudential,69,JJ,NOUN,and environmental risks within macro - prudential surveillance and develop system - wide
+D30,5,D30_P005_UNKNOWN_PAR004,D30_SEC_S10,Managers,Core,9,NNP,ADJ,( Sales and Other Non - Core Services )
+D31,8,D31_BOX001,D31_SEC_13_4_7,Office.,million,319,CD,NOUN,households   ( approx . 213 million ) are aware of at least
+D31,8,D31_BOX001,D31_SEC_13_4_7,Office.,million,397,CD,NOUN,"cent ( approx . 32.1   million households ) actually invest , highlighting"
+D31,6,D31_P006_SEC_13_5_PAR003,D31_SEC_13_5,Office.,core,29,NN,ADJ,"integrated data management . Its other core mandates encompass fostering data democratization ,"
+D31,7,D31_P007_SEC_13_4_7_PAR007,D31_SEC_13_4_7,Office.,core,30,NN,ADJ,Industry . It serves as a core component of the Business Service Price
+D31,17,D31_P017_UNKNOWN_PAR020,D31_SEC_S24,Fees##,fiscal,17,JJ,NOUN,from 76 percent in the previous fiscal year . In the recurring category

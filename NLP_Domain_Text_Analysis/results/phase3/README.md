@@ -4,10 +4,10 @@ Phase 3 consumes Phase 1 (structured corpus) and Phase 2 (NLP experiments) as in
 
 ## Outcome
 
-- Selected pipeline: **Pipeline B - stemming then stopword removal** (`pipeline_b`), score 0.8272
-- Runner-up margin: +0.0417
-- Index: 21305 terms (18735 unigrams, 2570 phrases), 191817 postings, 6005 content units, 31 documents
-- Queries: 15/15 answered (100.0%), 506 unit results in total
+- Selected pipeline: **Pipeline B - Stemming (Snowball English)** (`pipeline_b`), score 0.8265
+- Runner-up margin: +0.0000
+- Index: 21403 terms (18763 unigrams, 2640 phrases), 195567 postings, 6134 content units, 31 documents
+- Queries: 15/15 answered (100.0%), 507 unit results in total
 - Validation: 18/18 rules PASS
 
 ## Files
@@ -42,6 +42,7 @@ Phase 3 consumes Phase 1 (structured corpus) and Phase 2 (NLP experiments) as in
 | phase3/README.md | How to read this directory |
 | phase3/retrieval_results.csv | One row per retrieved content unit, ranked, with provenance and snippet |
 | phase3/retrieval_summary.csv | One row per query: answerability, coverage and execution time |
+| phase3/sanity_queries_comparison.json | Phase 3 output |
 | phase3/validation_report.csv | Every Phase 3 validation rule with its status and evidence |
 
 ## Query set
@@ -60,25 +61,25 @@ Phase 3 consumes Phase 1 (structured corpus) and Phase 2 (NLP experiments) as in
 | Q10 | GDP OR GVA | boolean_or | 50 | 10 | yes |
 | Q11 | inflation OR disinflation | boolean_or | 50 | 7 | yes |
 | Q12 | inflation AND NOT food | boolean_not | 50 | 7 | yes |
-| Q13 | banking AND NOT insurance | boolean_not | 50 | 14 | yes |
-| Q14 | GDP AND investment | boolean_and | 23 | 10 | yes |
+| Q13 | banking AND NOT insurance | boolean_not | 50 | 13 | yes |
+| Q14 | GDP AND investment | boolean_and | 24 | 10 | yes |
 | Q15 | (GDP OR GVA) AND policy | boolean_group | 15 | 9 | yes |
 
 ## Inputs used
 
 Phase 2 evidence cited by the comparison:
 
-- Phase 2 tokenization: hybrid produced 344722 tokens (fewest of the four methods) and kept 2258 percentage tokens against NLTK's 361 (tokenization/tokenization_comparison.csv)
-- Phase 2 tokenization: hybrid kept 1805 fiscal-year tokens against spaCy's 659 (tokenization/tokenization_comparison.csv)
-- Phase 2 tokenization: the custom rule tokenizer detected 2170 percentage tokens against NLTK's 361 (tokenization/tokenization_comparison.csv)
-- Phase 2 date/number experiment: 49926 typed financial expressions were detected but only 6413 (12.85%) survived standard tokenization intact (tokenization/date_number_comparison.csv)
-- Phase 2 stopwords: standard list removed 103444 tokens (30.01%), domain-aware 102745 (29.81%), because 43 protected financial terms survive (preprocessing/stopword_comparison.csv)
-- Phase 2 order experiment: stopword-removal-then-stemming left 241977 tokens, stemming-then-stopword-removal left 247815; the wrong order left 1 unmatched stems such as 'abov', 'everi', 'furthermor' (stemming/stopword_stemming_order_comparison.csv)
-- Phase 2 lemmatization: WordNet POS-agnostic lookup reduced the vocabulary to 12195 (23.44% reduction) (lemmatization/lemmatization_comparison.csv)
-- Phase 2 lemmatization: spaCy's rule lemmatizer kept 13330 lemmas, i.e. it normalizes less aggressively than the WordNet lookup (lemmatization/lemmatization_comparison.csv)
+- Phase 2 tokenization: hybrid produced 344141 tokens (fewest of the four methods) and kept 2255 percentage tokens against NLTK's 359 (tokenization/tokenization_comparison.csv)
+- Phase 2 tokenization: hybrid kept 1818 fiscal-year tokens against spaCy's 661 (tokenization/tokenization_comparison.csv)
+- Phase 2 tokenization: the custom rule tokenizer detected 2167 percentage tokens against NLTK's 359 (tokenization/tokenization_comparison.csv)
+- Phase 2 date/number experiment: 49851 typed financial expressions were detected but only 6431 (12.9%) survived standard tokenization intact (tokenization/date_number_comparison.csv)
+- Phase 2 stopwords: standard list removed 93926 tokens (27.29%), domain-aware 94397 (27.43%), because 43 protected financial terms survive (preprocessing/stopword_comparison.csv)
+- Phase 2 order experiment: stopword-removal-then-stemming left 249744 tokens, stemming-then-stopword-removal left 254385; the wrong order left 1 unmatched stems such as 'abov', 'everi', 'furthermor' (stemming/stopword_stemming_order_comparison.csv)
+- Phase 2 lemmatization: WordNet POS-agnostic lookup reduced the vocabulary to 15886 (0% reduction) (lemmatization/lemmatization_comparison.csv)
+- Phase 2 lemmatization: spaCy's rule lemmatizer kept 13295 lemmas, i.e. it normalizes less aggressively than the WordNet lookup (lemmatization/lemmatization_comparison.csv)
 - Phase 2 POS: default_pos scored 0.9223 accuracy on 412 manually annotated tokens (comparisons/pos_comparison.csv)
 - Phase 2 POS: custom_rule_pos scored 0.7913 accuracy on 412 manually annotated tokens (comparisons/pos_comparison.csv)
-- Phase 2 POS: custom_ml_pos scored 0.8769 accuracy on 130 manually annotated tokens (comparisons/pos_comparison.csv)
+- Phase 2 POS: custom_ml_pos scored  accuracy on  manually annotated tokens (comparisons/pos_comparison.csv)
 
 ## How to reproduce
 

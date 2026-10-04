@@ -14,6 +14,8 @@ The global economic outlook heading into 2026-27 is characterised by heightened 
 forecast, which assumes hostilities remain limited in scope and that the most acute phase of supply disruptions fades by mid-2026, global growth is projected at 3.1 per cent in 2026 and 3.2 per cent in 2027 (Table 2.1), below the long-run historical average of 3.7 per cent for 2000-2019. These projections remain contingent on the ceasefire announced on April 7, 2026, holding and on shipping through the Strait of Hormuz progressively returning to pre-war levels. The IMF has noted that risks are decisively tilted to the downside: a prolonged conflict, deeper
 geopolitical fragmentation, or renewed trade tensions could weaken growth significantly.
 For emerging market and developing economies (EMDE), the impact is expected to be disproportionately severe. The IMF has forecast EMDE growth at 3.9 per cent for 2026, revised down from the pre-conflict estimate of 4.2 per cent. Economies heavily reliant on energy imports face a double burden of higher input costs and weaker external demand, while those with limited fiscal buffers face compounded vulnerabilities. The Financial Stability Board has also flagged risks to global financial stability from rising market volatility, stretched asset valuations, and tighter financial conditions that could amplify the shock across sovereign bond and credit markets.
+IMF staff estimates. ii. For India, data and forecasts are presented on a
+financial year basis (2025-26 shown in 2025 column). Source: World Economic Outlook, April 2026, IMF
 The interplay between these two forces: trade policy overhang in the first half and geopolitical energy disruption in the second, produced a year of striking inter-market divergences. Extraordinary gains in AI and semiconductor-linked equity markets contrasted with significant losses in energy- importing EM equities; gold and energy assets reached multi-year or all-time highs while most fixed income markets saw elevated yield volatility; and the US dollar’s moderate decline over the year masked sharp cross-currency movements in the second half.
 of rate cutting cycles by central banks, resilient technology earnings, and fiscal stimulus across several economies. Fixed income markets, in turn, reflected a gradual recalibration, with yields in most advanced economies declining modestly in response to monetary easing expectations, even as concerns about elevated fiscal deficits in the United States kept long-duration yield spreads from compressing sharply.
 The second phase (from January-March 2026) was defined by the acute geopolitical shock from the Middle East war, which sent energy prices soaring, triggered a broad-based flight to safety, and prompted central banks to pause their easing cycles as inflation risks re-emerged. This led to a sharp repricing of risk across equities, bonds, currencies, and commodities, and fundamentally altered the near-term investment outlook across asset classes.
@@ -35,6 +37,8 @@ In the foreign exchange market, the US Dollar Index experienced a notable downwa
 Among BRICS economies, Brazil’s 10-year yield declined from 15.1 per cent at end-March 2025 to 14.0 per cent by end-March 2026, with the compression reflecting improved fiscal credibility and commodity windfall revenues. China’s 10-year yield remained effectively flat at 1.8 per cent at both ends of the year, constrained at low levels by deflationary pressures and policy support measures. South Africa’s benchmark yield declined notably from 10.6 per cent to 9.3 per cent, supported by improved fiscal management and resilient commodity export revenues.
 During 2025-26, the rupee depreciated the most among the basket, by approximately 9 per cent. The rupee started the financial year at approximately ₹85 per US dollar and progressively weakened: it moved into the ₹86-88 range through August- October 2025, breached ₹90 per dollar in December 2025 amid sharp FPI outflows and trade deadlock with the US, and closed the fiscal at ₹94.8 per dollar.
 India’s 10-year G-Sec yield followed a noteworthy trajectory over the year, as depicted in Chart 2.7. Underpinned by the RBI’s cumulative 100 basis point rate cut and a materially benign domestic inflation environment, the yield eased steadily from 6.6 per
+an increase in the index value denotes depreciation against the US Dollar. ii. For Dollar Index (RHS), an increase denotes
+appreciation of the US Dollar. Base: March 31, 2025 = 100. Source: Bloomberg
 US 10 year G-Sec yield India 10 year G-Sec yield-RHS
 The rupee’s depreciation reflected a combination of factors: imposition of trade tariffs by the US, persistent FPI equity outflows reducing dollar supply, India’s large oil import dependence making it particularly vulnerable to the energy price surge in Q4, and the broader risk-off global environment that channelled capital toward perceived safe-haven assets.
 H2, resulting in net outflows of USD 36 billion and USD 8 billion from South Korea and Taiwan equity markets for the fiscal. On the other hand, China’s equity market recorded a whopping net FPI inflow of USD 130 billion during 2025-26, notwithstanding USD 64 billion net outflows in March 2026 following the outbreak of war in the Middle East.
@@ -167,9 +171,9 @@ different dominant risk. The first phase (broadly
 covering April through December 2025) saw global 
 equity markets adapt to the trade tariff environment, 
 finding support in cooling inflation, the initiation
-Country
 Yield as on 
 Average yield during 2025-26
+Country
 March 31, 2026
 March 31, 2025
 Q1

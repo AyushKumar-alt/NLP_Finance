@@ -1,17 +1,17 @@
 rule_id,rule,status,detail,evidence
 V01,"every Phase 1, Phase 2 and Phase 3 input Phase 4 depends on is present and readable",PASS,9/9 input artefact(s) readable,"data/corpus/**, results/phase1/**, results/phase2/**, results/phase3/**"
 V02,"Phase 4 did not modify any Phase 1, Phase 2 or Phase 3 artefact",PASS,all guarded input hashes unchanged since the start of this run,sha256 of 9 guarded inputs compared before and after the run
-V03,every relevance label is 0 or 1 and every pair has a query id and a unit id,PASS,"139 judgment(s) loaded, 0 problem(s)",results/phase4/relevance_judgments.csv
-V04,"every relevance label records a human decision note (labels are judgments, not scores)",PASS,139/139 label(s) carry a decision note,relevance_judgments.csv notes column
+V03,every relevance label is 0 or 1 and every pair has a query id and a unit id,PASS,"166 judgment(s) loaded, 0 problem(s)",results/phase4/relevance_judgments.csv
+V04,"every relevance label records a human decision note (labels are judgments, not scores)",PASS,166/166 label(s) carry a decision note,relevance_judgments.csv notes column
 V05,every evaluated query has at least one relevance judgment,PASS,15/15 evaluated query/queries judged,relevance_judgments.csv query_id column
 V06,"precision, recall and F1 are computed for the selected pipeline",PASS,15/15 evaluated query/queries have all three metrics defined,results/phase4/evaluation_results.csv
 V07,P@K and R@K are computed at every configured cut-off,PASS,"cut-offs evaluated: [5, 10]",results/phase4/evaluation_summary.csv
 V08,"an undefined metric is reported as undefined, never as zero",PASS,every undefined metric carries a reason,src/phase4/metrics.py Metric.reason
-V09,"every evaluated query returned real, traceable content units",PASS,15/15 query/queries returned units; 506 returned unit id(s) all carry a document and page/table/box locator,results/phase4/evaluation_results.csv retrieved_units
+V09,"every evaluated query returned real, traceable content units",PASS,15/15 query/queries returned units; 507 returned unit id(s) all carry a document and page/table/box locator,results/phase4/evaluation_results.csv retrieved_units
 V10,"keyword, phrase, AND, OR, NOT and grouped queries are all evaluated",PASS,"query types evaluated: ['boolean_and', 'boolean_group', 'boolean_not', 'boolean_or', 'keyword', 'phrase']",results/phase3/query_registry.csv
 V11,every declared Phase 4 output artefact was written and is non-empty,PASS,8 artefact(s) declared,results/phase4/**
 V12,"every metric in the report equals a computed value in [0, 1]",PASS,"all rate metrics are within [0, 1]",results/phase4/evaluation_results.csv
-V13,relevance judgments persist to results/phase4/relevance_judgments.csv,PASS,"139 row(s) on disk, 139 in memory",results/phase4/relevance_judgments.csv
+V13,relevance judgments persist to results/phase4/relevance_judgments.csv,PASS,"166 row(s) on disk, 166 in memory",results/phase4/relevance_judgments.csv
 V14,the evaluation uses the pipeline Phase 3 actually selected,PASS,selected pipeline 'pipeline_b' evaluated,results/phase3/final_pipeline.json
-V15,evaluation_results.csv keeps a stable column schema,PASS,33 columns,"query_id,query,query_type,description,pipeline,evaluable,..."
+V15,evaluation_results.csv keeps a stable column schema,PASS,42 columns,"query_id,query,query_type,description,pipeline,evaluable,..."
 V16,Phase 4 writes only inside results/phase4,PASS,8 declared output(s) all inside phase4/,config/phase4_config.yaml output section

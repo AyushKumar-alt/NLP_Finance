@@ -11,6 +11,7 @@ from src.phase4.metrics import (
     average_precision,
     evaluate_ranking,
     f1_of,
+    ndcg_at_k,
     precision_at_k,
     recall_at_k,
 )
@@ -98,6 +99,41 @@ class TestAveragePrecision:
         metric = average_precision([], {"a": 1})
         assert metric.value == pytest.approx(0.0)
         assert metric.reason == NO_DENOMINATOR
+
+    def test_average_precision_uses_total_relevant_items_denominator(self):
+        # Case: relevant set = {A, B, C}, ranking = [A, X, B]
+        # P@1 = 1/1 = 1.0, P@3 = 2/3 ≈ 0.6667
+        # Expected AP = (1.0 + 2/3) / 3 = (5/3) / 3 = 5/9 ≈ 0.5556
+        labels = {"A": 1, "B": 1, "C": 1, "X": 0}
+        ap = average_precision(["A", "X", "B"], labels, relevant_total=3)
+        assert ap.value == pytest.approx(5 / 9)
+
+
+class TestNDCG:
+    def test_perfect_ranking_is_one(self):
+        labels = {"a": 1, "b": 1, "c": 0}
+        assert ndcg_at_k(["a", "b", "c"], labels, k=3).value == pytest.approx(1.0)
+
+    def test_relevant_result_appearing_later_is_between_zero_and_one(self):
+        labels = {"a": 1, "b": 1, "x": 0}
+        metric = ndcg_at_k(["x", "a", "b"], labels, k=3)
+        assert 0.0 < metric.value < 1.0
+
+    def test_no_relevant_items_is_zero(self):
+        labels = {"a": 0, "b": 0}
+        assert ndcg_at_k(["a", "b"], labels, k=2).value == pytest.approx(0.0)
+
+    def test_k_larger_than_ranking_length(self):
+        labels = {"a": 1, "b": 0}
+        metric = ndcg_at_k(["a", "b"], labels, k=10)
+        assert metric.value == pytest.approx(1.0)
+
+    def test_binary_labels_only(self):
+        labels = {"a": 1, "b": 0, "c": 1}
+        m1 = ndcg_at_k(["a", "b", "c"], labels, k=1)
+        m3 = ndcg_at_k(["a", "b", "c"], labels, k=3)
+        assert m1.value == pytest.approx(1.0)
+        assert 0.0 <= m3.value <= 1.0
 
 
 class TestEvaluateRanking:

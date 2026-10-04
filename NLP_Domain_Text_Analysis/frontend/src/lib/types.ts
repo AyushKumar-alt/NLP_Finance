@@ -340,7 +340,7 @@ export interface SearchRequest {
   query: string;
   query_type?: QueryType;
   top_k?: number;
-  pipeline?: "pipeline_a" | "pipeline_b";
+  pipeline?: string;
 }
 
 export interface SearchHit {

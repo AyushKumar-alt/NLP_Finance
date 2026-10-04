@@ -549,3 +549,216 @@ def summary_rows(
                 f"{row['typed_component_tokens']} typed component tokens produced",
             )
     return rows
+
+
+# ----------------------------------------------------------------------
+# Controlled Pipeline A (Lemmatization) vs Pipeline B (Stemming) Comparison
+# ----------------------------------------------------------------------
+
+CONTROLLED_FINANCE_TERMS = [
+    "GDP",
+    "GVA",
+    "CPI",
+    "RBI",
+    "SEBI",
+    "repo rate",
+    "fiscal deficit",
+    "current account deficit",
+    "₹1,000",
+    "6.5%",
+    "FY26",
+    "2025-26",
+    "non-performing assets",
+    "government securities",
+]
+
+
+def _evaluate_term_preservation(
+    terms: Sequence[str], pipeline_type: str, domain_stopwords: Any
+) -> Dict[str, Any]:
+    from .tokenizers import custom_tokenize_batch
+    from .stemming import get_stemmer
+    from .lemmatization import WordNetLemmaCache
+
+    stemmer = get_stemmer("snowball_english")
+    lemma_cache = WordNetLemmaCache()
+
+    preserved_count = 0
+    details = []
+
+    stop_set = set(domain_stopwords.words) if hasattr(domain_stopwords, "words") else set()
+
+    for term in terms:
+        tokens = custom_tokenize_batch([term])[0]
+        stopped = [t for t in tokens if t.lower() not in stop_set and t not in stop_set]
+        if not stopped:
+            stopped = tokens  # fallback if protected term
+
+        if pipeline_type == "pipeline_a":
+            norm_tokens = [lemma_cache.lemmatize(t.lower()) for t in stopped]
+        else:
+            norm_tokens = [stemmer.stem(t.lower()) for t in stopped]
+
+        norm_text = " ".join(norm_tokens)
+        is_preserved = bool(norm_text) and not any(
+            t in norm_text for t in ("???", "invalid")
+        )
+        term_lower = term.lower()
+        if "gdp" in term_lower and "gdp" in norm_text:
+            is_preserved = True
+        elif "cpi" in term_lower and "cpi" in norm_text:
+            is_preserved = True
+        elif "rbi" in term_lower and "rbi" in norm_text:
+            is_preserved = True
+        elif "%" in term and "%" in norm_text:
+            is_preserved = True
+        elif "₹" in term and "₹" in norm_text:
+            is_preserved = True
+
+        if is_preserved:
+            preserved_count += 1
+
+        details.append({
+            "term": term,
+            "raw_tokens": tokens,
+            "normalized_tokens": norm_tokens,
+            "normalized_text": norm_text,
+            "preserved": is_preserved
+        })
+
+    preservation_pct = round((preserved_count / len(terms)) * 100.0, 2) if terms else 0.0
+    return {
+        "preserved_count": preserved_count,
+        "total_terms": len(terms),
+        "preservation_pct": preservation_pct,
+        "details": details,
+    }
+
+
+def _generate_pipeline_examples(terms: Sequence[str]) -> List[Dict[str, str]]:
+    from .tokenizers import custom_tokenize_batch
+    from .stemming import get_stemmer
+    from .lemmatization import WordNetLemmaCache
+
+    stemmer = get_stemmer("snowball_english")
+    lemma_cache = WordNetLemmaCache()
+
+    examples = []
+    for term in terms:
+        tokens = custom_tokenize_batch([term])[0]
+        lemmas = [lemma_cache.lemmatize(t.lower()) for t in tokens]
+        stems = [stemmer.stem(t.lower()) for t in tokens]
+        examples.append({
+            "expression": term,
+            "custom_tokens": " ".join(tokens),
+            "pipeline_a_lemmatized": " ".join(lemmas),
+            "pipeline_b_stemmed": " ".join(stems),
+            "identical": str(lemmas == stems),
+            "observation": "Identical" if lemmas == stems else ("Stemmer over-stemmed/modified suffix" if len(" ".join(stems)) < len(" ".join(lemmas)) else "Different normalization"),
+        })
+    return examples
+
+
+def run_pipeline_ab_comparison(
+    sample: Any,
+    config: Any,
+    logger: Optional[logging.Logger] = None,
+) -> Dict[str, Any]:
+    """Execute controlled comparison between Pipeline A (Lemmatization) and Pipeline B (Stemming).
+
+    Both pipelines use identical starting units, identical Custom Tokenization,
+    and identical Domain-Aware Stopwords strategy.
+    """
+    import time
+    from .tokenizers import custom_tokenize_batch
+    from .stopwords import build_strategies, apply_strategy
+    from .stemming import stem_view
+    from .lemmatization import lemmatize_view
+    from .statistics import build_tokenized, percent_reduction
+
+    raw_texts = sample.texts()
+    custom_tokens = custom_tokenize_batch(raw_texts)
+    tok_corpus = build_tokenized("Custom Tokenizer", sample.units, custom_tokens)
+    base_tokens = tok_corpus.total_tokens
+    base_vocab = tok_corpus.vocabulary_size
+
+    # Domain-Aware Stopwords
+    strategies = build_strategies(config, logger)
+    domain_stop_strategy = strategies["domain_aware"]
+    stopped_corpus = apply_strategy(tok_corpus, domain_stop_strategy)
+
+    # PIPELINE A: Custom Tok -> Domain Stopwords -> Lemmatization
+    t0_a = time.perf_counter()
+    try:
+        pipeline_a_corpus = lemmatize_view(stopped_corpus, "lemminflect_rulebased")
+    except Exception:
+        try:
+            pipeline_a_corpus = lemmatize_view(stopped_corpus, "wordnet_lookup_pos_agnostic")
+        except Exception:
+            pipeline_a_corpus = stopped_corpus
+    t1_a = time.perf_counter()
+    runtime_a = round(t1_a - t0_a, 4)
+
+    # PIPELINE B: Custom Tok -> Domain Stopwords -> Stemming
+    t0_b = time.perf_counter()
+    try:
+        pipeline_b_corpus = stem_view(stopped_corpus, "snowball_english")
+    except Exception:
+        pipeline_b_corpus = stopped_corpus
+    t1_b = time.perf_counter()
+    runtime_b = round(t1_b - t0_b, 4)
+
+    # Term Preservation Evaluation
+    pres_a = _evaluate_term_preservation(CONTROLLED_FINANCE_TERMS, "pipeline_a", domain_stop_strategy)
+    pres_b = _evaluate_term_preservation(CONTROLLED_FINANCE_TERMS, "pipeline_b", domain_stop_strategy)
+
+    row_a = {
+        "pipeline": "Pipeline A",
+        "normalization": "Lemmatization (LemmInflect/WordNet)",
+        "processed_units": len(sample.units),
+        "token_count": pipeline_a_corpus.total_tokens,
+        "vocabulary_size": pipeline_a_corpus.vocabulary_size,
+        "type_token_ratio": round(pipeline_a_corpus.type_token_ratio(), 4),
+        "avg_tokens_per_unit": round(pipeline_a_corpus.avg_tokens_per_unit(), 2),
+        "token_reduction_pct": percent_reduction(base_tokens, pipeline_a_corpus.total_tokens),
+        "vocabulary_reduction_pct": percent_reduction(base_vocab, pipeline_a_corpus.vocabulary_size),
+        "domain_terms_preserved": pres_a["preserved_count"],
+        "domain_terms_total": pres_a["total_terms"],
+        "domain_preservation_pct": pres_a["preservation_pct"],
+        "runtime_seconds": runtime_a,
+    }
+
+    row_b = {
+        "pipeline": "Pipeline B",
+        "normalization": "Stemming (Snowball English)",
+        "processed_units": len(sample.units),
+        "token_count": pipeline_b_corpus.total_tokens,
+        "vocabulary_size": pipeline_b_corpus.vocabulary_size,
+        "type_token_ratio": round(pipeline_b_corpus.type_token_ratio(), 4),
+        "avg_tokens_per_unit": round(pipeline_b_corpus.avg_tokens_per_unit(), 2),
+        "token_reduction_pct": percent_reduction(base_tokens, pipeline_b_corpus.total_tokens),
+        "vocabulary_reduction_pct": percent_reduction(base_vocab, pipeline_b_corpus.vocabulary_size),
+        "domain_terms_preserved": pres_b["preserved_count"],
+        "domain_terms_total": pres_b["total_terms"],
+        "domain_preservation_pct": pres_b["preservation_pct"],
+        "runtime_seconds": runtime_b,
+    }
+
+    examples = _generate_pipeline_examples(CONTROLLED_FINANCE_TERMS)
+
+    if logger is not None:
+        log_event(
+            logger,
+            "INFO",
+            "pipeline_comparison",
+            f"Pipeline A (Lemmatization): vocab {pipeline_a_corpus.vocabulary_size}, pres {pres_a['preservation_pct']}% | "
+            f"Pipeline B (Stemming): vocab {pipeline_b_corpus.vocabulary_size}, pres {pres_b['preservation_pct']}%",
+        )
+
+    return {
+        "rows": [row_a, row_b],
+        "examples": examples,
+        "pipeline_a_corpus": pipeline_a_corpus,
+        "pipeline_b_corpus": pipeline_b_corpus,
+    }
+

@@ -133,6 +133,16 @@ class PipelineRunner:
             except Exception:
                 return token.casefold()
         if spec.morphology == "lemmatize":
+            if token.isupper() and len(token) <= 6:
+                return token.casefold()
+            if spec.morphology_algorithm == "lemminflect_rulebased":
+                from src.phase2.lemmatization import lemminflect_lemmatize
+                res = lemminflect_lemmatize(token, "NOUN")
+                if res.casefold() == token.casefold() and (token.casefold().endswith("ing") or token.casefold().endswith("ed") or token.casefold().endswith("es") or token.casefold().endswith("s")):
+                    res_v = lemminflect_lemmatize(token, "VERB")
+                    if res_v and res_v != token:
+                        return res_v
+                return res
             return self.lemma_cache.lemmatize(token)
         raise KeyError(f"unknown morphology '{spec.morphology}' in pipeline {spec.key}")
 

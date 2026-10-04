@@ -4,8 +4,8 @@ Expected domain: banking
 Pipeline-normalized terms: banking, insurance
 Matched terms: bank
 Missing terms: (none)
-Results: 50 content unit(s) in 14 document(s)
-Execution time: 536.471 ms
+Results: 50 content unit(s) in 13 document(s)
+Execution time: 489.168 ms
 
    1. score=1.1945 D03 | p10 | 3.13 | D03_P010_SEC_3_13_PAR001
       matched: bank

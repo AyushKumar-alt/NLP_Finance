@@ -114,7 +114,7 @@ class SearchRequest(ApiModel):
         description="Inferred from the query text when omitted, using the Phase 3 rule.",
     )
     top_k: int = Field(default=10, ge=1, le=200)
-    pipeline: Optional[str] = Field(default=None, pattern=r"^pipeline_[ab]$")
+    pipeline: Optional[str] = Field(default=None, pattern=r"^pipeline_[ab](_lemma|_stem)?$")
 
     @field_validator("query")
     @classmethod

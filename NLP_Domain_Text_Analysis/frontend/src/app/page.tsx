@@ -132,7 +132,7 @@ function HomeContent() {
           {[
             { href: "/documents", label: "Browse Documents" },
             { href: "/search", label: "Search Corpus" },
-            { href: "/index", label: "Explore Index" },
+            { href: "/pipelines", label: "Explore Index" },
             { href: "/evaluation", label: "Evaluation Report" },
           ].map((l) => (
             <a

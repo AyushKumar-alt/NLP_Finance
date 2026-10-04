@@ -1,17 +1,1 @@
 method,token,gold_pos,predicted_pos,default_spacy_pos,error_type
-custom_ml_pos,Seven,NUM,PROPN,NUM,wrong_tag
-custom_ml_pos,speed,NOUN,VERB,NOUN,wrong_tag
-custom_ml_pos,’,PART,PUNCT,PART,wrong_tag
-custom_ml_pos,as,ADV,ADP,ADP,wrong_tag
-custom_ml_pos,Precise,ADJ,PROPN,ADJ,wrong_tag
-custom_ml_pos,indiscriminate,ADJ,NOUN,ADJ,wrong_tag
-custom_ml_pos,to,ADP,PART,PART,wrong_tag
-custom_ml_pos,climate,NOUN,VERB,VERB,wrong_tag
-custom_ml_pos,Some,DET,PROPN,DET,wrong_tag
-custom_ml_pos,focus,VERB,NOUN,VERB,wrong_tag
-custom_ml_pos,others,PRON,NOUN,NOUN,wrong_tag
-custom_ml_pos,hold,VERB,NOUN,VERB,wrong_tag
-custom_ml_pos,Regulatory,ADJ,PROPN,ADJ,wrong_tag
-custom_ml_pos,when,ADV,SCONJ,SCONJ,wrong_tag
-custom_ml_pos,lags,VERB,NOUN,VERB,wrong_tag
-custom_ml_pos,Some,DET,PROPN,DET,wrong_tag

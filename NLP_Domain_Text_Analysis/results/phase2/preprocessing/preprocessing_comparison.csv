@@ -1,6 +1,6 @@
 stage,method,total_tokens,unique_tokens,vocabulary_size,type_token_ratio,documents,units,avg_tokens_per_document,avg_tokens_per_unit,token_change_vs_baseline_percent,vocabulary_change_vs_baseline_percent,avg_tokens_per_unit_baseline,avg_tokens_per_unit_change_percent
-1_tokenized_baseline,hybrid domain-aware tokenizer (no filtering),344722,28112,19505,0.08155,31,6005,11120.06,57.41,0,0,57.41,0
-2_stopword_removed,domain-aware stopword strategy,241977,27650,19241,0.114267,31,6005,7805.71,40.3,29.81,1.35,57.41,29.8
-3_stemmed,Porter stemmer applied after stopword removal,241977,19033,14086,0.078656,31,6005,7805.71,40.3,29.81,27.78,57.41,29.8
-4_lemmatized,WordNet lookup lemmatizer applied after stopword removal,241977,22977,15620,0.094955,31,6005,7805.71,40.3,29.81,19.92,57.41,29.8
-5_standard_stopwords,standard English stopword list (for comparison),241278,27652,19244,0.114606,31,6005,7783.16,40.18,30.01,1.34,57.41,30.01
+1_tokenized_baseline,hybrid domain-aware tokenizer (no filtering),344141,28048,19449,0.081501,31,6134,11101.32,56.1,0,0,56.1,0
+2_stopword_removed,domain-aware stopword strategy,249744,27786,19311,0.111258,31,6134,8056.26,40.71,27.43,0.71,56.1,27.43
+3_stemmed,Porter stemmer applied after stopword removal,249744,19065,14125,0.076338,31,6134,8056.26,40.71,27.43,27.37,56.1,27.43
+4_lemmatized,WordNet lookup lemmatizer applied after stopword removal,249744,27786,19311,0.111258,31,6134,8056.26,40.71,27.43,0.71,56.1,27.43
+5_standard_stopwords,standard English stopword list (for comparison),250215,27807,19326,0.111132,31,6134,8071.45,40.79,27.29,0.63,56.1,27.29

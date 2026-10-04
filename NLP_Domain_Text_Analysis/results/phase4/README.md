@@ -19,7 +19,7 @@ ranking produced by the Phase 3 retrieval engine. Nothing is hand-entered.
 ## Relevance judgments
 
 - Judge pool depth: **10** retrieved units per query
-- Pairs judged: **139** (130 relevant, 9 not relevant)
+- Pairs judged: **166** (155 relevant, 11 not relevant)
 - Annotator: single annotator: implementing author (Phase 4)
 - Method: pooled manual judgment; rubric recorded per row in the notes column
 
@@ -40,9 +40,9 @@ same function it is meant to evaluate would not measure anything.
 
 ## Headline result
 
-- Macro precision: **0.9511111111111111**
-- Macro recall: **1.0** (pool-bounded, see below)
-- Macro F1: **0.9729302832244009**
+- Macro precision: **0.9571428571428572**
+- Macro recall: **0.8722507993096228** (pool-bounded, see below)
+- Macro F1: **0.9053154967190055**
 
 ### How to read the recall figure
 

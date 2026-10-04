@@ -1,0 +1,182 @@
+query_id,query_text,unit_id,document_id,source_id,filename,page_number,section_title,unit_type,full_original_unit_text,pipeline_a_rank,pipeline_b_rank
+Q04,monetary policy,D03_P011_SEC_3_16_PAR001,D03,SRC01,echap03.pdf,11,Liquidity Conditions,paragraph,"3.16 Throughout FY26, the RBI remained agile in its liquidity management, ensuring that adequate liquidity was maintained in the banking system. This proactive approach facilitated effective transmission to the money and credit markets, meeting the economy’s productive requirements. As a result, the weighted average call rate, which serves as the operating target of monetary policy, generally remained below the policy repo rate during FY26, averaging 8 basis points below it (up to 8 January 2025).",9,
+Q04,monetary policy,D03_P012_SEC_3_17_PAR001,D03,SRC01,echap03.pdf,12,Liquidity Conditions,paragraph,"3.17 Monetary policy transmission to lending and deposit rates of scheduled commercial banks (SCBs) has been robust amid surplus liquidity conditions. In response to the 100-bps cumulative cut in the policy repo rate, the weighted average lending rates (WALR) of the SCBs declined. During April-November 2025, the WALR of SCBs on fresh rupee loans decreased by 64 basis points, standing at 8.71 per cent in November 2025. Similarly, the WALR of SCBs on outstanding rupee loans has decreased by 56 basis points over the same period, standing at 9.21 per cent in November 2025, reaching its lowest level recorded since September 2022.",10,
+Q06,current account deficit,D22_P025_SEC_4_5_3_PAR002,D22,SRC03,Chapter 04.pdf,25,Source: All Exchanges,paragraph,deficit and straining the current account balance.,10,
+Q06,current account deficit,D20_T001,D20,SRC03,Chapter 02.pdf,5,The Spillover to India: From Sporadic to Structural,table,"Parameter/Countries
+2024
+2025
+2026*
+Real GDP growth (Y-o-Y)
+World
+3.4
+3.4
+3.1
+G7 
+1.7
+1.5
+1.6
+India’s economic outlook, in contrast, remains 
+relatively more resilient. The IMF has estimated 
+India’s real GDP growth at 7.6 per cent for 2025-26 
+and 6.5 per cent for 2026-27 under its reference 
+forecast. The RBI has projected growth of 6.6 per 
+cent for 2026-27, CPI inflation at 5.1 per cent, and core 
+inflation at 4.7 per cent. While the Middle East Conflict 
+introduces near-term risks through higher energy 
+import costs, India being a significant net oil importer, 
+the overall macroeconomic framework remains 
+sound. India’s adherence to a fiscal consolidation 
+path, improving inflation dynamics, strengthened 
+corporate balance sheets, and resilient domestic 
+institutional investment are factors expected to 
+support continued outperformance relative to global 
+peers. However, a prolonged conflict that sustains 
+elevated crude oil prices above USD 100 per barrel 
+would increase the current account deficit and 
+import-led inflationary pressures, warranting close 
+monitoring.
+Brazil
+3.4
+2.3
+1.9
+China
+5.0
+5.0
+4.4
+India
+7.1
+7.6
+6.5
+Russia
+4.9
+1.0
+1.1
+South Africa
+0.5
+1.1
+1.0
+Gross national savings, per cent of GDP
+World
+26.4
+26.1
+26.2
+G7
+19.7
+19.8
+20.2
+Brazil
+14.0
+13.8
+14.1
+China
+42.8
+42.5
+42.3
+India
+33.7
+32.9
+31.9
+Russia
+29.4
+28.0
+28.9
+South Africa
+13.4
+13.3
+12.6
+Gross capital formation, per cent of GDP
+World
+26.2
+25.8
+25.9
+G7
+22.0
+21.9
+22.0
+Brazil
+17.0
+16.8
+16.8
+China
+40.6
+38.8
+38.8
+India
+34.3
+33.9
+34.0
+2.2 SECURITIES MARKET
+Russia
+26.5
+26.4
+25.9
+South Africa
+14.1
+13.9
+13.5
+Global securities markets during 2025-26 navigated 
+two distinct phases, each characterised by a 
+different dominant risk. The first phase (broadly 
+covering April through December 2025) saw global 
+equity markets adapt to the trade tariff environment, 
+finding support in cooling inflation, the initiation",9,
+Q09,banking AND credit,D03_P021_SEC_3_41_PAR002,D03,SRC01,echap03.pdf,21,FINANCIAL INTERMEDIATION,paragraph,"Globally, the adoption of AI in finance is accompanied by parallel developments in international policy. The World Economic Forum’s white paper on AI in Financial Services (January 2025) projects that investments across banking, insurance, capital markets and payments business will reach USD 97 billion by 2027, with AI making substantial contributions to revenue growth in the forthcoming years through enhanced operational efficiency, accuracy and a higher degree of personalisation at scale.34 Further, the AI- powered alternative credit scoring models promote financial inclusion, particularly in developing economies.",6,
+Q09,banking AND credit,D03_P031_SEC_3_52_PAR001,D03,SRC01,echap03.pdf,31,FINANCIAL INTERMEDIATION,paragraph,"3.52 While financial intermediaries fulfil their role in extending credit to diverse economic agents, debtors may occasionally encounter difficulties in their endeavours. This necessitates the implementation of mechanisms to rehabilitate their financial standing or facilitate an honourable exit. It is towards this end that the IBC established a unified framework for resolving corporate distress in India, replacing the earlier fragmented regime of multiple statutes with overlapping jurisdictions. The Code enables financially distressed businesses to be reorganised through a creditor-driven resolution process within defined timelines or liquidated when continuation is not viable. Over nine years, IBC has contributed to improved credit discipline, a reduction in banking sector NPAs, and greater predictability in insolvency outcomes.",3,
+Q09,banking AND credit,D03_P011_SEC_3_16_PAR001,D03,SRC01,echap03.pdf,11,Liquidity Conditions,paragraph,"3.16 Throughout FY26, the RBI remained agile in its liquidity management, ensuring that adequate liquidity was maintained in the banking system. This proactive approach facilitated effective transmission to the money and credit markets, meeting the economy’s productive requirements. As a result, the weighted average call rate, which serves as the operating target of monetary policy, generally remained below the policy repo rate during FY26, averaging 8 basis points below it (up to 8 January 2025).",5,
+Q09,banking AND credit,D16_P002_SEC_16_1_PAR001,D16,SRC01,echap16-1.pdf,2,UNKNOWN,paragraph,"16.1. Following the COVID-19 pandemic, the Indian economy has performed exceptionally well. India’s growth rates are the envy of the world. The growth rate looks set to continue in the coming financial year. India’s potential growth may have shifted higher towards 7.0%. The banking system is in good health. Credit intermediation remains healthy. The private sector is doing well and is investing, but can do more. Capital formation as a percentage of GDP is above 30%. The current account deficit is comfortably low. Foreign exchange reserves are ample. External remittances are strong. The agricultural sector is doing well. Monsoons have been good, and a good Rabi crop is expected. Rural sentiment is buoyant, with positive real wage growth in rural areas and rising rural consumption. Urban consumption, in comparison, is relatively more cautious, although the evidence is anecdotal. Contrasting evidence that paints a different and more optimistic picture is also available, especially since fiscal transfers to households by states have become sizable.",7,
+Q09,banking AND credit,D03_BOX023,D03,SRC01,echap03.pdf,64,CONCLUSION,box,"India’s aspiration to become a Viksit Bharat by mid-century demands a fundamental  rethinking of finance, not merely as funding, but as the architecture of economic  transformation. Finance, in its broader institutional and behavioural sense, governs how  effectively capital is mobilised, allocated, and sustained across the economy. It is the central  enabler. When finance builds trust, fosters competition, and enables innovation, it becomes  the catalyst of development. A nation does not develop by spending more but by expanding its productive base—enabling  firms to invest and scale, households to earn and save securely, and markets to channel  capital efficiently. This requires an enabling environment: rational taxation that supports  enterprise, regulators that foster competition, financial markets that deepen and diversify,  and administrative systems that operate transparently and promptly. Finance for Viksit  Bharat is therefore about shaping conditions that generate and deploy resources efficiently. Fostering certainty and predictability This requires tax systems that are simpler and service-oriented, dispute resolution that  is time-bound and fair, and the decriminalisation of technical offences. Regulators must  promote competition and innovation while safeguarding stability. Credit and capital  supply must move beyond bank dominance through deeper markets and modern financial  infrastructure. Administrative processes should be centred on timeliness, proportionality,  and citizen service. Recasting financial regulation Finance influences growth most visibly through regulation. Historically, India has placed  a premium on banking system stability. As a result, long-term financing channels. Banks  remain dominant, despite not being adequately equipped to finance infrastructure, energy  transition, and large manufacturing projects with long horizons. India’s development  aspirations require a diversified ecosystem where well-managed banks compete alongside  NBFCs, fintechs, and market-based lenders. Diversification distributes risk and builds  resilience, lessening vulnerability to shocks.",4,
+Q09,banking AND credit,D03_T002,D03,SRC01,echap03.pdf,54,Foreign Portfolio Investment,table,"Financial operations in GIFT City
+Achievements
+38 IFSC Banking Units with USD 100+ 
+billion assets; USD 142.98 billion cumulative 
+transactions.80
+Banking and credit operations
+Monthly turnover USD 88+ billion; cumulative 
+derivatives trades USD 1,351 billion; debt 
+listings USD 66+ billion, including USD 15+ 
+billion ESG securities.
+Capital markets and debt
+33 aircraft lessors (303 aviation assets) and 
+34 ship lessors (28 vessels) address India's 
+leased fleet dependency.
+Specialised financial services
+The India International Bullion Exchange has 
+been operational since July 2022, with 185 
+qualified jewellers and a vault capacity of 151 
+tonnes of gold and 930 tonnes of silver.
+Bullion trading
+194 Fund Management Entities managing 310 
+schemes; USD 26.30 billion commitments; 
+52 insurance entities registered.
+Fund management and Insurance
+3.97 Recognising that human capital underpins financial sector growth, two Australian 
+universities have established operational International Branch Campuses in GIFT 
+IFSC, offering master's programs in business analytics, cybersecurity, fintech, and 
+computing. Two UK universities have received in-principle approvals to establish 
+similar campuses.
+3.98 Two developments in 2025 underscore GIFT City's growing regional and 
+operational significance. In June, Sri Lanka's DFCC Bank listed Sri Lankan Rupee 2.5 
+billion in green bonds on the NSE International Exchange—the first listing by a foreign 
+corporation on a GIFT IFSC exchange, signalling the centre's emergence as a regional 
+capital-raising hub. The Foreign Currency Settlement System (FCSS), launched in 
+October 2025, enables the local settlement of foreign-currency transactions between 
+IFSC banking units without routing them through overseas correspondent banks. The 
+FCSS operates on a real-time or near real-time basis, substantially reducing settlement 
+times while enhancing transaction security and cost-effectiveness. This infrastructure 
+positions GIFT City for future innovation in cross-border payments.
+80 PIB Press release Smart Finance, Smart Future: GIFT City, dated 28 November 2025, https://tinyurl.com/
+bdew863h.
+132
+132",2,
+Q09,banking AND credit,D18_P001_UNKNOWN_PAR004,D18,SRC02,Financial-stability-report-June-2026-some-important-takeaways.pdf,1,INTRODUCTION,paragraph,"From a banking and finance perspective, the FSR assumes considerable significance as it provides valuable insights into the evolving regulatory expectations of the RBI. The observations made in the Report often precede important regulatory and supervisory measures relating to capital adequacy, asset quality, liquidity management, credit growth, consumer lending, governance, risk management and financial sector resilience.",8,
+Q09,banking AND credit,D18_P003_VI_PAR005,D18,SRC02,Financial-stability-report-June-2026-some-important-takeaways.pdf,3,Shift Towards Higher-Yield Lending Calls for Continued Vigilance,paragraph,"While the overall assessment of the banking sector remains positive, the Report also flags several emerging risks that require continued vigilance. These observations are particularly relevant for banks while framing their lending, credit appraisal and risk management policies. The key areas highlighted by the RBI are as follows:",9,
+Q10,GDP OR GVA,D02_P004_SEC_2_6_PAR001,D02,SRC01,echap02.pdf,4,CENTRAL GOVERNMENT FINANCES,paragraph,"2.6 Revenue receipts increased from an average of about 8.5 per cent of GDP during the pre-pandemic period (FY16-FY20) to around 9.1 per cent of GDP in the post-pandemic period (FY22-FY25 PA).3 This improvement was driven primarily by higher gross tax revenue, which rose from an average of 10.8 per cent of GDP to about 11.5 per cent of GDP over the same period. The buoyancy of revenues reflects both the strong growth momentum of the domestic economy and the cumulative impact of tax policy and tax administration reforms implemented by the Government. Within the overall stable tax revenues, the performance of individual tax components reveals notable shifts in the composition and sources of revenue growth.",10,
+Q13,banking AND NOT insurance,D03_P009_SEC_3_11_PAR001,D03,SRC01,echap03.pdf,9,MONETARY DEVELOPMENTS,paragraph,"3.11 The RBI also announced a 100-bps reduction in the cash reserve ratio (CRR) to 3.0 per cent of net demand and time liabilities, implemented in a staggered manner during September-November 2025. This decision is expected to release approximately ₹2.5 lakh crore in primary liquidity into the banking system by December 2025.22",6,
+Q13,banking AND NOT insurance,D03_P010_SEC_3_14_PAR001,D03,SRC01,echap03.pdf,10,MONETARY DEVELOPMENTS,paragraph,"3.14 As of 31 December 2025, the money multiplier (MM), i.e., the ratio of M3 to M0, stood at 6.21 vis-à-vis 5.70 a year ago. When adjusted for the reverse repo/standing deposit facility (SDF), which is analytically akin to bankers’ deposits with the central bank, the adjusted MM stood at 6.0. The upward trajectory of the MM indicates improved financial intermediation by the banking system, thereby ensuring adequate systemic liquidity.",7,
+Q13,banking AND NOT insurance,D01_P032_SEC_1_PAR001,D01,SRC01,echap01.pdf,32,Capital stock growth highlights investment revival and capacity expansion,paragraph,"India’s capital stock grew at an average annual rate of about 8.6 per cent during the investment boom of FY03–FY12. However, growth moderated to around 7.6 per cent during FY13–FY20, reflecting balance sheet stress in the corporate and banking sectors, which weighed on investment and capital formation. The pandemic accentuated these constraints, resulting in a further slowdown in capital stock growth, followed by a recovery in the years after the pandemic. (Table I.7).",2,
+Q13,banking AND NOT insurance,D03_P011_SEC_3_16_PAR001,D03,SRC01,echap03.pdf,11,Liquidity Conditions,paragraph,"3.16 Throughout FY26, the RBI remained agile in its liquidity management, ensuring that adequate liquidity was maintained in the banking system. This proactive approach facilitated effective transmission to the money and credit markets, meeting the economy’s productive requirements. As a result, the weighted average call rate, which serves as the operating target of monetary policy, generally remained below the policy repo rate during FY26, averaging 8 basis points below it (up to 8 January 2025).",8,
+Q13,banking AND NOT insurance,D03_P013_SEC_3_19_PAR003,D03,SRC01,echap03.pdf,13,FINANCIAL INTERMEDIATION,paragraph,Performance of the banking sector,9,
+Q13,banking AND NOT insurance,D03_P013_SEC_3_20_PAR001,D03,SRC01,echap03.pdf,13,FINANCIAL INTERMEDIATION,paragraph,"3.20 The stability of the banking system in the country can be attributed to strong capital buffers, low non-performing asset ratios (NPAs), and increasing profitability. The favourable balance sheets of the SCBs bode well for the overall health of the economy. A significant improvement has been observed in the asset quality of SCBs, as evidenced by their gross non-performing asset (GNPA) ratio and net NPA ratio, having reached a multi-decadal low level and record low level, respectively. At the same time, the capital- to-risk-weighted-asset ratio (CRAR) of the SCBs remained strong at 17.2 per cent as of September 2025.",10,
+Q13,banking AND NOT insurance,D03_P002_SEC_3_1_PAR001,D03,SRC01,echap03.pdf,2,INTRODUCTION,paragraph,"supply, interest rates, and liquidity to ensure price stability while supporting sustainable economic growth. It also directly influences financial stability. Effective policy transmission through the banking and financial sector ensures that changes in interest rates and liquidity conditions are efficiently transmitted to businesses and households. This stability is crucial for sustaining growth and preventing financial crises, as a stable financial system enables the smooth allocation of resources and fosters economic resilience in the face of global and domestic shocks.",5,
+Q14,GDP AND investment,D09_P002_SEC_9_4_PAR001,D09,SRC01,echap09.pdf,2,UNKNOWN,paragraph,"9.4 The Government of India’s capital outlay has increased by nearly 89 per cent, from ₹5.92 lakh crore in FY22 to a budgeted allocation of ₹11.21 lakh crore for FY26, recognising the strong multiplier effects that infrastructure generates on the economy. Public expenditure on infrastructure has a high multiplier effect, estimated by studies to be around 2.5 to 3.5 times the GDP over the medium term.1 This means, for every rupee spent by the government in creating infrastructure, GDP gains worth ₹2.5-₹3.5 accrue.2 The scale and consistency of this investment momentum have positioned infrastructure as a cornerstone of India’s growth engine.",10,
+Q15,(GDP OR GVA) AND policy,D02_P039_UNKNOWN_PAR002,D02,SRC01,echap02.pdf,39,Fiscal Developments,paragraph,"The modern testing of debt sustainability rests on the fiscal response function (FRF), pioneered by Henning Bohn (1998)49. Using over a century of U.S. data, Bohn showed that if the primary surplus-to-GDP ratio rises systematically with the lagged debt-to-GDP ratio (β > 0), fiscal policy is sustainable regardless of whether interest rate (r) > nominal GDP growth (g). This insight shifted the focus from arbitrary debt thresholds to governments’ actual behaviour. Subsequent landmark contributions include Ghosh et al. (2013)50, who introduced nonlinear (cubic) specifications and the concept of “fiscal fatigue” and “fiscal space” in advanced economies; Mauro et al. (2015)51, who documented time-varying and occasionally pro-cyclical responses across a broad global panel; and Checherita-Westphal and Ždarek (2015)52, who highlighted how EU institutional rules and crises altered the strength and symmetry of fiscal reactions in euro-area countries.",9,

@@ -5,7 +5,7 @@ Pipeline-normalized terms: banking, credit
 Matched terms: bank, credit
 Missing terms: (none)
 Results: 50 content unit(s) in 11 document(s)
-Execution time: 200.285 ms
+Execution time: 162.182 ms
 
    1. score=2.2603 D18 | p2 | II | D18_P002_II_PAR001
       matched: bank, credit
@@ -22,7 +22,7 @@ Execution time: 200.285 ms
    5. score=2.2258 D08 | p33 | 8.61 | D08_P033_SEC_8_61_PAR001
       matched: bank, credit
       8.61. Despite expanding credit footprints and rising digital integration, access to formal credit remains a binding constraint for many micro-enterprises due to limited collateral and documentation readiness, as is...
-   6. score=2.2258 D08 | p37 | 8.66 | D08_P037_SEC_8_66_PAR003
+   6. score=2.2258 D08 | p37 | 8.67 | D08_P037_SEC_8_67_PAR003
       matched: bank, credit
       This expansion in credit availability has also been accompanied by a gradual shift towards formal financing channels, which is a welcome trend. The share of unincorporated manufacturing establishments accessing...
    7. score=2.2113 D03 | p10 | 3.13 | D03_P010_SEC_3_13_PAR001

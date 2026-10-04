@@ -66,6 +66,7 @@ D. Other Regulatory Actions: In addition to major regulatory actions, SEBI issue
 B. Proceeding under section 11/11(4)/11B/11D of SEBI Act 1992: SEBI issued both interim/ confirmatory and final direction under section 11 of SEBI Act, 1992.
 During 2025-26, SEBI issued 15 interim/ confirmatory orders against 94 entities and 62 final orders against 437 entities. In these orders, SEBI’s directions involved either restraining
 i. Regulatory Action pursuant to Investigation: During 2025-26, administrative warning
+is considered. ii. *Inter-alia includes entities who have availed settlement, proceedings disposed against entities without any further
 b. Intermediaries associated with
 Notes: i. #One advisory letter issued in the context of Alternative Fund Management.
 Chapter 10 Regulatory Action, Supervision and Enforcement
@@ -79,12 +80,17 @@ types of violations for which these entities were
 penalized are given in Table 10.18.
 Stock Broker Regulations/ Circulars 44 35
 Non-compliance with SEBI order 19 5
+issued in previous years. iii. ***Out of the 4,336 pending Recovery Certificates, 3,394 recovery certificates are active and 942 Recovery Certificates
+have been categorized as Difficult to Recover.
 Chapter 10 Regulatory Action, Supervision and Enforcement
 recovered approximately ₹16,379 crore from ₹16,138 crore as on March 31 2025, against the principal liability of ₹25,781 crore. There was no fresh refund made during 2025-26. As of March 31, 2026, the total fund balance, including accrued interest in FDs across various nationalized banks, stood at approximately ₹21,505 crore after remitting ₹5,000 crore to the Central Registrar of Cooperative Societies for disbursing to the investors in schemes of Sahara Group of Co-operative Societies (in compliance with the Hon’ble Supreme Court Order dated September 12, 2025).
-iii. Cases sub-Judice before Various Forums: There are a total 620 matters sub-judice before various Courts, Tribunals and other forums related to matters where recovery certificates are drawn. Recovery proceedings initiated under such recovery certificates are subject to the final decision of the Court or Tribunal or other forum (Table 10.25).
+iii. Cases sub-Judice before Various Forums:
+There are a total 620 matters sub-judice before various Courts, Tribunals and other forums related to matters where recovery certificates are drawn. Recovery proceedings initiated under such recovery certificates are subject to the final decision of the Court or Tribunal or other forum (Table 10.25).
 B. Special Enforcement Cell: The Special Enforcement Cell was constituted by SEBI to specifically implement the directions of the Hon’ble Supreme Court to refund the amounts collected from investors of Sahara India Real Estate Corporation Ltd (SIRECL) and Sahara Housing Investment Corporation Ltd (SHICL), together termed as “Saharas”. The activities of SEBI in this matter are monitored by Justice (Retd.) B. N. Agarwal appointed by the Supreme Court in this matter. As on date, SEBI has filed 23 Status Reports.
 ii. Latest Developments: Saharas filed application No. 232665/2025 before Hon’ble Supreme Court and inter alia prayed for approval of sale of the entire remaining assets of Saharas outrightly in a single lot basis to Adani Properties Private Limited. On January 07, 2026, SEBI submitted its response before the Hon’ble Supreme Court emphasizing that any sale of the Sahara properties should be done in a transparent
 i. Recovery and Refund Status in Saharas Matter: As on March 31, 2026, SEBI has
+Prasad Group of Companies etc. which have been appointed by the Hon’ble Supreme Court of India. ii. ** This covers RC amount involved in the matter of PACL, however, details with respect to recovered amount etc. is
+separately covered in the annual report in the relevant section. iii. ***Including several cases where Justice S.P. Talukdar Committee has been appointed by the Hon’ble Calcutta High Court. iv. #Data across multiple forums have been aggregated.
 Chapter 10 Regulatory Action, Supervision and Enforcement
 the Committee decided to pay the claims of investors in a staggered manner. As on March 31, 2026, the Committee has effected refunds of ₹3,721 crore to 35,74,401 eligible applicants (Table 10.26).
 and fair manner including providing the opportunities for participation in the sale to other interested purchasers and subject to the conditions mentioned by the Hon’ble Supreme Court in its order dated July 11, 2016. Currently, the matter is pending before the Hon’ble Supreme Court.
@@ -98,6 +104,7 @@ i. Status of Refunds in PACL Matter: The refund process began in 2018, with a su
 During 2025-26, 65 prosecution cases were launched against 176 persons/ entities, taking total prosecution
 Chapter 10 Regulatory Action, Supervision and Enforcement
 10.2.5  Settlement and Compounding
+; ₹74,21,875/- was received towards summary settlement charges. Additionally, ₹11,28,67,974.30/- was received towards disgorgement charges.
 I. Settlement: During 2025-26, SEBI received 439
 applications for settlement and disposed of 170
 applications by passing appropriate settlement
@@ -664,7 +671,7 @@ No. of cases
 2024-25
 2025-26
 Cases pending at the beginning 
-of the period 
+of the period
 145
 169
 Cases added during the period
@@ -892,10 +899,10 @@ Total
 94
 62
 437
-Nature of 
-Violation
+Nature of
 2024-25
 2025-26
+Violation
 Interim/ 
 confirmatory
 No of 
@@ -938,9 +945,9 @@ Advisory
 50
 c. 
 Intermediaries/Institutions Associated
-ii. *Includes three administrative warnings with respect 
-to equity listed securities issued to stock exchanges.
+ii. *Includes three administrative warnings with respect
 with Fund Management Activities:
+to equity listed securities issued to stock exchanges.
 Supervisory process also includes
 analysis of periodic filings made by
 letters were issued to 357 entities
@@ -974,11 +981,11 @@ with fund management activities are
 (Table 10.15).
 provided in Table 10.17.
 Intermediary
-Administrative 
+Administrative
+Deficiency
+Advisory
 Warning
-Deficiency 
 Letter
-Advisory 
 Letter
 2024-25
 2025-26
@@ -1071,11 +1078,11 @@ Stock Broker
 17
 2
 Intermediary/Institution
-Administrative 
+Administrative
+Deficiency
+Advisory
 Warning
-Deficiency 
 Letter
-Advisory 
 Letter
 2024-25
 2025-26
@@ -1192,14 +1199,14 @@ Depository Participant
 1
 0
 i. 
-Active Recovery Cases: As on March 31, 
+Active Recovery Cases: As on March 31,
+Merchant Banker
+10
+14
 2026, 8,099 Recovery Certificates (RCs) 
 have been generated, of which 3,394 RCs 
 are active. The category-wise details of 
 active RCs are given in Table 10.22.
-Merchant Banker
-10
-14
 Investment Adviser
 12
 9
@@ -1211,7 +1218,10 @@ Debenture Trustee
 5
 2
 ii. 
-Non-Active Recovery Cases: Once all 
+Non-Active Recovery Cases: Once all
+Alternative Investment Fund
+5
+6
 recovery methods are exhausted, cases 
 with outstanding balances are categorized 
 as ‘non-active. For optimal utilisation of 
@@ -1226,9 +1236,6 @@ proceedings are pending, in order to avoid
 duplication and for better efficiency, dues 
 in respect of such cases are also classified 
 under this category. This classification is
-Alternative Investment Fund
-5
-6
 Mutual Fund
 4
 1
@@ -1264,9 +1271,9 @@ Description
 CIS and 
 DPI Cases
 Penalty/
-Disgorgement/ 
-Fee Cases
+Disgorgement/
 Total
+Fee Cases
 2024-25
 2025-26
 2024-25
@@ -1318,10 +1325,10 @@ Financial Year
 4,335
 4,336***
 Category
-No. of Active pending Recovery 
-Certificates 
+No. of Active pending Recovery
 Amount due with respect to active 
 pending Recovery Certificates (₹ crore)
+Certificates
 2024-25
 2025-26
 2024-25
@@ -1362,7 +1369,7 @@ for such classification. As on March
 involving an amount of ₹2,161 crore have
 been classified as Irrecoverable Cases 
 (Table 10.23).
-Another 310 RCs involving an amount of 
+Another 310 RCs involving an amount of
 ₹84,962.7 crore are subject matter of 
 Court appointed Committees, parallel 
 proceedings, stay/ moratorium by the 
@@ -1443,10 +1450,10 @@ Total
 84,962.7
 Court/Forum
 No. of Cases
-No. of Recovery 
-certificates
+No. of Recovery
 Total amount as per 
-Recovery Certificate 
+Recovery Certificate
+certificates
 (₹ crore)
 2024-25
 2025-26
@@ -1492,11 +1499,11 @@ Total
 1,92,073#
 1,98,206#
 Refund Process
-Type of Claim 
-Applications
+Type of Claim
 No. of Claim 
 Applications
-Amount Refunded 
+Amount Refunded
+Applications
 (₹ crore)
 First Refund Process (From January 
 02, 2018 till March 03, 2018)
@@ -1521,7 +1528,7 @@ During the Year
 As at end of the Year
 No. of cases 
 Against No. of 
-Persons/Entities 
+Persons/Entities
 No. of cases 
 Against No. of 
 Persons/Entities
@@ -1537,12 +1544,17 @@ Persons/Entities
 8,746
 Nature of Violation
 No. of cases filed
+Region
+No. Cases 
+Filed upto
 2024-25
 2025-26
 Non-payment of Penalty imposed 
 by Adjudication Officer/WTM
 30
 51
+Head Office/
+Western Region
 Violation of CIS Regulations, 1999
 1
 1
@@ -1574,6 +1586,8 @@ cases initiated to 2,143 (against 8,746 entities) as on
 March 31, 2026 (Table 10.27).
 Out of the total prosecution cases filed upto March 31,
 2026, the share of Head Office/Western Region was
+SEBI Act, 1992, SCRA & 
+Companies Act 1956/2013
 63.5 per cent and the corresponding pendency was
 58.2 per cent. The region-wise data on prosecution
 cases filed and pending are given in Table 10.29.
@@ -1588,15 +1602,10 @@ As on March 31, 2026, 2,143 prosecution cases have
 been launched, of which 1,828 cases pertained to
 violation of the provisions under the SEBI Act, 1992
 (Table 10.30).
-Region
-No. Cases 
-Filed upto
 No. of Cases 
 Pending upto
 2024-25 2025-26
 2024-25 2025-26
-Head Office/
-Western Region
 1,306
 1,360
 615
@@ -1626,11 +1635,11 @@ As on March 31, 2026, the Courts have disposed of
 295 cases resulted in convictions and 405 cases 
 were compounded (Table 10.31).
 Violation Alleged w.r.t.
-Number of Cases 
+Number of Cases
 launched upto
-March 31, 
+March 31,
 2025
-March 31, 
+March 31,
 2026
 SEBI Act, 1992
 1,763
@@ -1638,8 +1647,6 @@ SEBI Act, 1992
 SEBI Act, 1992 & SCRA, 1956
 100
 100
-SEBI Act, 1992, SCRA & 
-Companies Act 1956/2013
 2
 2
 SEBI Act, 1992 & Companies Act 
@@ -1668,14 +1675,14 @@ Particular
 2024-25
 2025-26
 Type of Decision 
-As on March 
+As on March
 31, 2025
-As on March 
-31, 2026
+As on March
 Pending at the beginning of the 
 period
 282
 429
+31, 2026
 Convictions 
 276
 295
@@ -1719,11 +1726,11 @@ Total
 1,030
 1,094
 Settlement Scheme
-Date of Settlement 
-order
+Date of Settlement
 No. of entities who 
 availed the scheme
-Settlement Amount collected 
+Settlement Amount collected
+order
 for remittance to CFI (₹)
 Venture Capital Funds Settlement 
 Scheme, 2025
@@ -2027,7 +2034,7 @@ Total
 Forum
 Pending as on 
 March 31, 2025
-Filed during 
+Filed during
 2025-26
 Disposed 
 during 2025-26

@@ -5,7 +5,7 @@ Pipeline-normalized terms: current, account, deficit
 Matched terms: current, account, deficit
 Missing terms: (none)
 Results: 6 content unit(s) in 5 document(s)
-Execution time: 140.480 ms
+Execution time: 33.320 ms
 
    1. score=5.1747 D01 | p27 | 1.35 | D01_P027_SEC_1_35_PAR001
       matched: account, current, deficit
