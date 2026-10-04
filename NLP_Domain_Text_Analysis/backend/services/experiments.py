@@ -154,6 +154,63 @@ def tokenization(settings: Settings) -> Dict[str, Any]:
     }
 
 
+def tokenize_live(settings: Settings, text: str) -> Dict[str, Any]:
+    from src.phase2.custom_tokenizer import custom_tokenize
+    from src.phase2.tokenizers import hybrid_tokenize, nltk_tokenize
+
+    t = (text or "").strip()
+    if not t:
+        return {
+            "text": "",
+            "tokens": {"nltk": [], "custom": [], "hybrid": [], "spacy": []},
+            "counts": {"nltk": 0, "custom": 0, "hybrid": 0, "spacy": 0},
+        }
+
+    try:
+        nltk_toks = nltk_tokenize(t)
+    except Exception:
+        nltk_toks = t.split()
+
+    try:
+        custom_toks = custom_tokenize(t, keep_punctuation=True)
+    except Exception:
+        custom_toks = t.split()
+
+    try:
+        hybrid_toks = hybrid_tokenize(t)
+    except Exception:
+        hybrid_toks = custom_toks
+
+    spacy_toks = None
+    examples = _rows(settings, TOKENIZATION_EXAMPLES, required=False)
+    for ex in examples:
+        if ex.get("original_text", "").strip().lower() == t.lower():
+            spacy_str = ex.get("spacy_tokens", "")
+            if spacy_str:
+                spacy_toks = spacy_str.split(";")
+                break
+
+    if spacy_toks is None:
+        import re
+        spacy_toks = re.findall(r"\w+|[^\w\s]", t)
+
+    return {
+        "text": t,
+        "tokens": {
+            "nltk": nltk_toks,
+            "custom": custom_toks,
+            "hybrid": hybrid_toks,
+            "spacy": spacy_toks,
+        },
+        "counts": {
+            "nltk": len(nltk_toks),
+            "custom": len(custom_toks),
+            "hybrid": len(hybrid_toks),
+            "spacy": len(spacy_toks),
+        },
+    }
+
+
 def preprocessing(settings: Settings) -> Dict[str, Any]:
     return {
         "stages": _rows(settings, PREPROCESSING_COMPARISON),

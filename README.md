@@ -188,12 +188,14 @@ POS tagging and NER were executed in Phase 2 as exploratory linguistic analyses.
 | Statistic | Pipeline A (`pipeline_a_lemma`) | Pipeline B (`pipeline_b_stem`) |
 | :--- | :---: | :---: |
 | **Searchable Content Units** | 6,134 | 6,134 |
+| **Phase 2 Post-Stopword Tokens** | 250,794 | 250,794 |
+| **Phase 3/4 Positional Index Tokens** | 249,489 | 249,489 |
 | **Total Index Terms** | 26,155 | 21,403 |
 | **Unigram Terms** | 24,110 | 18,763 |
 | **Phrase Terms** | 2,045 | 2,640 |
 | **Total Postings** | 195,579 | 195,567 |
 
-Pipeline A maintains a larger, more descriptive vocabulary (26,155 terms) because lemmatization preserves distinct grammatical word forms, whereas Pipeline B's stemmer reduces words to shared stems (21,403 terms).
+Pipeline A maintains a larger, more descriptive vocabulary (26,155 terms) because lemmatization preserves distinct grammatical word forms, whereas Pipeline B's stemmer reduces words to shared stems (21,403 terms). Token counts are precisely traced: Phase 2 linguistic filtering produces 250,794 tokens, while Phase 3/4 positional indexing indexes 249,489 input tokens after multi-word phrase construction and token pruning.
 
 ---
 
@@ -203,7 +205,7 @@ The Phase 3 retrieval engine operates directly on the positional inverted indexe
 
 ### Core Index & Search Capabilities
 * **Positional Inverted Index**: Each posting stores the content unit ID, term frequency ($tf$), and the sorted list of token offset positions: `(unit_id, tf, [pos_0, pos_1, ...])`.
-* **Exact Phrase Matching**: Verifies positional adjacency ($pos_{i+1} = pos_i + 1$) directly across posting lists.
+* **Exact Phrase Matching**: Verifies positional adjacency ($pos_{i+1} = pos_i + 1$) directly across posting lists. Outer quotation marks (e.g. `"monetary policy"`) are cleanly normalized so adjacent tokens in the positional index match directly.
 * **Boolean Query AST Parser**: A recursive descent parser builds an Abstract Syntax Tree (AST) supporting:
   * Single keyword queries
   * Exact phrase queries (enclosed in quotation marks)
@@ -211,29 +213,40 @@ The Phase 3 retrieval engine operates directly on the positional inverted indexe
   * Boolean disjunction (`OR`)
   * Boolean negation (`NOT` or `AND NOT`)
   * Nested parenthetical grouping
+* **Strict Boolean Syntax & Ampersand (`&`) Validation**:
+  * The supported Boolean operators are strictly uppercase `AND`, `OR`, `NOT`.
+  * Standalone unquoted `&` is not a supported Boolean operator. The system explicitly validates and rejects standalone `&` with a helpful suggestion (`"& is not a supported Boolean operator. Use AND instead. (e.g. "monetary policy" AND "repo rate")"`), preventing silent misinterpretation as a keyword query.
 
-### Supported Query Syntax Examples
+### Supported Query Syntax Examples & Behavior
 
-| Query Form | Example | Syntax Description |
-| :--- | :--- | :--- |
-| **Keyword** | `inflation` | Single term lookup across index |
-| **Phrase** | `"monetary policy"` | Contiguous multi-word positional match |
-| **Boolean AND** | `GDP AND inflation` | Set intersection of matching candidate units |
-| **Boolean OR** | `GDP OR GVA` | Set union of matching candidate units |
-| **Boolean NOT** | `inflation AND NOT food` | Set difference filtering unwanted topics |
-| **Grouped** | `(GDP OR GVA) AND policy` | Nested parenthetical precedence resolution |
-| **Mixed Phrase & Boolean** | `RBI AND "repo rate"` | Conjunction of keyword and exact phrase |
+| Query Form | Example | Detected Type | Method | Syntax Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Keyword** | `inflation` | `keyword` | `keyword` | Single term lookup across index vocabulary |
+| **Phrase** | `"monetary policy"` | `phrase` | `phrase` | Exact contiguous multi-word positional match |
+| **Boolean AND** | `GDP AND inflation` | `boolean_and` | `boolean_and` | Set intersection; every result satisfies all positive terms |
+| **Boolean OR** | `GDP OR GVA` | `boolean_or` | `boolean_or` | Set union; results matching both rank higher via coverage |
+| **Boolean NOT** | `inflation AND NOT food` | `boolean_not` | `boolean_not` | Excludes hits matching the negative term |
+| **Grouped** | `(GDP OR GVA) AND policy` | `boolean_group` | `boolean_group` | Nested parenthetical precedence resolution |
+| **Mixed Phrase & Boolean** | `RBI AND "repo rate"` | `boolean_and` | `boolean_and` | Conjunction of keyword and exact positional phrase |
+| **Unsupported `&`** | `monetary policy & repo rate` | N/A | N/A | Validation rejection: prompts user to use `AND` |
 
-### Deterministic Ranking Score
-Ranking is fully deterministic. For a candidate content unit, the retrieval score is computed as:
+### Deterministic Custom Retrieval Ranking Score
+The ranking score is a transparent, custom retrieval ranking score designed to order matching content units based on coverage, exactness, and frequency. It is **not** a probability, confidence score, or BM25/TF-IDF metric.
 
-$$\text{Score} = w_{\text{term}} \cdot N_{\text{matched}} + w_{\text{phrase}} \cdot \mathbb{I}_{\text{phrase}} + w_{\text{tf}} \cdot \log_{10}(1 + \text{TF}_{\text{matched}})$$
+For any candidate content unit, the score is computed as:
 
-* $N_{\text{matched}}$: Number of distinct query terms matched in the unit.
-* $\mathbb{I}_{\text{phrase}}$: Binary indicator (1 if an exact phrase match is present, 0 otherwise).
-* $\text{TF}_{\text{matched}}$: Cumulative term frequency of matched terms in the unit.
-* Default weights: $w_{\text{term}} = 1.0$, $w_{\text{phrase}} = 2.0$, $w_{\text{tf}} = 0.25$.
-* Ties are broken deterministically by `unit_id` ascending.
+$$\text{Score} = 1.0 \cdot N_{\text{matched}} + 2.0 \cdot \mathbb{I}_{\text{phrase}} + 0.25 \cdot \log_{10}(1 + \text{TF}_{\text{matched}})$$
+
+* **Matched-Term Component ($1.0 \cdot N_{\text{matched}}$)**: Rewards query-term coverage by adding 1.0 per distinct positive query term matched in the content unit.
+* **Exact Phrase Component ($2.0 \cdot \mathbb{I}_{\text{phrase}}$)**: Awards a bonus of 2.0 when the unit satisfies the exact adjacent phrase constraint.
+* **Term Frequency Component ($0.25 \cdot \log_{10}(1 + \text{TF})$)**: Rewards cumulative occurrence frequency with diminishing returns.
+* **Ties**: Broken deterministically by `unit_id` ascending.
+
+### Multi-Term Evidence Snippet Generation
+To ensure snippets visibly corroborate why a unit was retrieved:
+1. **Multi-Term Windowing**: A sliding window of 220 characters selects the text segment maximizing the count of distinct positive matched terms present in the snippet.
+2. **Phrase Centering**: Quoted phrase queries center the excerpt directly around the exact adjacent phrase match.
+3. **Evidence Continuity Note**: If matched terms occur too far apart to fit within a single snippet window, an explicit note is appended: `[Additional matched term occurs elsewhere in this content unit.]`.
 
 ---
 
@@ -340,12 +353,14 @@ An interactive web application enables exploration of the corpus, index inspecti
   * `Phase3Runtime` service layer
   * Inverted index query engine
 * **Key Capabilities**:
-  * Live search with automatic query mode detection (keyword, phrase, Boolean)
-  * Instant switching between Pipeline A (`pipeline_a_lemma`) and Pipeline B (`pipeline_b_stem`)
-  * Ranked results with match scores, occurrence counts, and highlighted snippets
-  * Hierarchical provenance display (`Source > Document > Page > Section`)
-  * Corpus statistics explorer and document browser
-  * Evaluation metrics dashboard and per-query comparison views
+  * **Search Page User Journey**: Streamlined query builder featuring real-time syntax validation, examples, detected/selected query type, top-K selection, and pipeline toggling.
+  * **Query Type Control**: Supports **Auto-detect** (syntax is the source of truth) as well as explicit manual overrides (`keyword`, `phrase`, `boolean_and`, etc.) forwarded directly to backend execution.
+  * **Score Explainability Tooltip**: Interactive `Ranking Score ⓘ` badge displays an exact mathematical breakdown per result (Matched-term component, Phrase component, and TF component).
+  * **Unambiguous Result Counts**: Clearly presents `Unique Documents`, `Matching Content Units`, and `Showing` (with notice when candidate results hit the Phase 3 cap of 50).
+  * **Per-Result Matched Badges**: Displays distinct chips for terms matched within that specific content unit, preventing false branch implications in `OR` and grouped queries.
+  * **Instant Pipeline Switching**: Toggle between Pipeline A (`pipeline_a_lemma`) and Pipeline B (`pipeline_b_stem`) against independent inverted indexes.
+  * **Hierarchical Provenance**: Strict audit trail (`Source > Document > Page > Section`) on every result hit.
+  * **Corpus Explorer & Evaluation**: Full-corpus document viewer, tokenization comparisons, entity views, and interactive Cranfield evaluation metrics.
 
 ### Web Application Architecture
 
@@ -380,6 +395,7 @@ The FastAPI backend provides REST endpoints for retrieval, index inspection, and
 | `GET` | `/api/evaluation` | Full evaluation metrics across all 15 benchmark queries |
 | `GET` | `/api/evaluation/comparison` | Side-by-side metric comparison table between pipelines |
 | `GET/POST`| `/api/evaluation/judgments` | Retrieve or inspect manual relevance judgments |
+| `POST` | `/api/experiments/tokenize` | Live real-time tokenization comparing Custom, Hybrid, spaCy, and NLTK |
 
 Full interactive API documentation is available via Swagger UI at `http://localhost:8000/docs`.
 

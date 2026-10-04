@@ -343,6 +343,16 @@ export interface SearchRequest {
   pipeline?: string;
 }
 
+export interface ScoreBreakdown {
+  matched_term_count: number;
+  term_component: number;
+  phrase_hit: boolean;
+  phrase_component: number;
+  total_tf: number;
+  tf_component: number;
+  total_score: number;
+}
+
 export interface SearchHit {
   unit_id: string;
   document_id: string;
@@ -360,6 +370,7 @@ export interface SearchHit {
   snippet: string;
   has_section_title: boolean;
   citation: string;
+  score_breakdown?: ScoreBreakdown;
 }
 
 export interface SearchResponse {

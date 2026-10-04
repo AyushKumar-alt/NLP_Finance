@@ -14,6 +14,7 @@ const navItems: Array<{ href: string; label: string }> = [
   { href: "/ner", label: "NER" },
   { href: "/ngrams", label: "N-grams" },
   { href: "/bpe", label: "BPE" },
+  { href: "/index-explorer", label: "Inverted Index" },
   { href: "/pipelines", label: "Pipelines" },
   { href: "/search", label: "Search" },
   { href: "/evaluation", label: "Evaluation" },

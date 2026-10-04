@@ -54,6 +54,36 @@ function NgramsContent() {
         />
       </SectionCard>
 
+      {/* Domain Phrases Highlight */}
+      <SectionCard title="Representative Financial & Economic Domain Phrases">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          {[
+            { phrase: "monetary policy", category: "Central Banking", n: 2 },
+            { phrase: "repo rate", category: "Policy Interest Rate", n: 2 },
+            { phrase: "current account deficit", category: "External Sector", n: 3 },
+            { phrase: "financial stability", category: "Macroprudential", n: 2 },
+            { phrase: "gross domestic product", category: "National Accounts", n: 3 },
+            { phrase: "capital adequacy ratio", category: "Banking Health", n: 3 },
+            { phrase: "foreign direct investment", category: "Capital Inflow", n: 3 },
+            { phrase: "scheduled commercial banks", category: "Financial Sector", n: 3 },
+          ].map((item, idx) => (
+            <div
+              key={idx}
+              onClick={() => {
+                setParams((p) => ({ ...p, n: item.n, search: item.phrase, offset: 0 }));
+              }}
+              className="p-3 bg-blue-50/60 hover:bg-blue-100/70 border border-blue-200 rounded-lg cursor-pointer transition-colors"
+            >
+              <div className="font-mono text-xs font-bold text-blue-900 truncate">{item.phrase}</div>
+              <div className="flex justify-between items-center mt-1.5 text-[10px] text-gray-500">
+                <span>{item.category}</span>
+                <span className="bg-white px-1.5 py-0.5 rounded border border-blue-200 font-semibold">{item.n}-gram</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </SectionCard>
+
       <SectionCard title={`Controls — viewing n=${params.n}`}>
         <div className="flex flex-wrap gap-6 items-end">
           <div className="space-y-1">
@@ -97,16 +127,20 @@ function NgramsContent() {
       <SectionCard title={`Top ${params.n}-grams (${data.total?.toLocaleString() ?? 0} total)`}>
         <DataTable
           columns={[
-            { key: "rank", header: "#" },
+            { key: "rank", header: "#", width: "60px" },
             { key: "ngram", header: "N-gram" },
             { key: "frequency", header: "Frequency" },
             { key: "document_frequency", header: "Doc Freq" },
           ]}
-          rows={data.items ?? []}
+          rows={(data.items ?? []).map((item: any, idx: number) => ({
+            ...item,
+            rank: (params.offset ?? 0) + idx + 1,
+          }))}
           keyField="ngram"
           renderCell={(row, col) => {
-            if (col === "frequency" || col === "document_frequency") return row[col]?.toLocaleString() ?? "—";
-            if (col === "ngram") return <code className="text-sm">{row.ngram ?? "—"}</code>;
+            if (col === "rank") return <span className="text-gray-500 font-mono text-xs">{row.rank}</span>;
+            if (col === "frequency" || col === "document_frequency") return Number(row[col])?.toLocaleString() ?? "—";
+            if (col === "ngram") return <code className="text-sm font-semibold text-blue-900 bg-blue-50 px-1 py-0.5 rounded">{row.ngram ?? "—"}</code>;
             return row[col] ?? "—";
           }}
         />
@@ -122,17 +156,24 @@ function NgramsContent() {
       </SectionCard>
 
       {data.comparison && data.comparison.length > 0 && (
-        <SectionCard title="N-gram Comparison">
+        <SectionCard title="N-gram Comparison (Raw vs Stopword-Filtered)">
           <DataTable
             columns={[
-              { key: "n", header: "N" },
-              { key: "metric", header: "Metric" },
-              { key: "value", header: "Value" },
+              { key: "n", header: "N", width: "60px" },
+              { key: "total_ngrams", header: "Total N-grams" },
+              { key: "unique_ngrams", header: "Unique N-grams" },
+              { key: "singletons", header: "Singletons" },
+              { key: "top_ngram", header: "Top N-gram" },
+              { key: "top_ngram_frequency", header: "Top Frequency" },
+              { key: "meaningful_domain_phrases", header: "Domain Phrases" },
             ]}
             rows={data.comparison}
-            keyField="n"
+            keyField={(row: any, i: number) => `${row.n}_${i}`}
             renderCell={(row, col) => {
-              if (col === "value") return row[col]?.toFixed?.(4) ?? row[col] ?? "—";
+              if (col === "total_ngrams" || col === "unique_ngrams" || col === "singletons" || col === "top_ngram_frequency" || col === "meaningful_domain_phrases") {
+                return Number(row[col])?.toLocaleString() ?? "—";
+              }
+              if (col === "top_ngram") return <code className="text-xs bg-gray-100 px-1 py-0.5 rounded font-mono">{row.top_ngram ?? "—"}</code>;
               return row[col] ?? "—";
             }}
           />

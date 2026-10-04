@@ -153,11 +153,15 @@ PIPELINE B (pipeline_b_stem):
 
 ### Final Index Statistics (6,134 Searchable Units Each)
 * **Pipeline A (`pipeline_a_lemma`)**:
+  * Phase 2 Post-Stopword Tokens: `250,794`
+  * Phase 3/4 Positional Index Tokens: `249,489`
   * Total Index Terms: `26,155`
   * Unigram Terms: `24,110`
   * Phrase Terms: `2,045`
   * Total Postings: `195,579`
 * **Pipeline B (`pipeline_b_stem`)**:
+  * Phase 2 Post-Stopword Tokens: `250,794`
+  * Phase 3/4 Positional Index Tokens: `249,489`
   * Total Index Terms: `21,403`
   * Unigram Terms: `18,763`
   * Phrase Terms: `2,640`
@@ -168,8 +172,18 @@ PIPELINE B (pipeline_b_stem):
 ## 8. Information Retrieval Engine
 
 The Phase 3 engine implements:
-* **Positional Postings**: `(unit_id, tf, [pos_1, pos_2, ...])` enabling exact phrase distance verification.
-* **Abstract Syntax Tree (AST) Boolean Parser**: Supports single terms, exact phrases, `AND`, `OR`, `NOT`, and nested parenthetical expressions.
+* **Positional Postings**: `(unit_id, tf, [pos_1, pos_2, ...])` enabling exact phrase distance verification ($pos_{i+1} = pos_i + 1$).
+* **Abstract Syntax Tree (AST) Boolean Parser**: A recursive descent parser supporting single terms, exact phrases (enclosed in quotation marks), `AND`, `OR`, `NOT`, and nested parenthetical expressions.
+* **Phrase Positional Normalization**: Cleanly strips outer quotation marks so adjacent tokens query positional postings directly.
+* **Strict Boolean Operator Syntax**:
+  * Supported operators: `AND`, `OR`, `NOT`.
+  * Standalone unquoted `&` is detected and blocked across lexer, backend, and frontend validation with: `"& is not a supported Boolean operator. Use AND instead. (e.g. "monetary policy" AND "repo rate")"`.
+* **Deterministic Custom Retrieval Ranking Score**:
+  $$\text{Score} = 1.0 \cdot N_{\text{matched}} + 2.0 \cdot \mathbb{I}_{\text{phrase}} + 0.25 \cdot \log_{10}(1 + \text{TF}_{\text{matched}})$$
+  * Transparently combines query-term coverage (1.0 per distinct positive term), exact phrase bonuses (2.0), and logarithmic term frequency ($0.25 \times \log_{10}(1 + \text{TF})$). Not a probability or confidence score.
+* **Multi-Term Evidence Snippet Generation**:
+  * Sliding window algorithm maximizes the number of distinct positive matched terms captured in the snippet or centers on exact matched phrases.
+  * When terms are far apart, appends an explicit continuity note: `[Additional matched term occurs elsewhere in this content unit.]`.
 
 ---
 
@@ -241,10 +255,16 @@ Following TREC/Cranfield evaluation standards, evaluation is conducted using a *
 
 ## 12. Full-Stack Web Application Architecture
 
-* **Frontend**: Next.js 16 (React, Tailwind CSS, TypeScript)
+* **Frontend**: Next.js 16 (React 19, Tailwind CSS, TypeScript)
 * **Backend API**: FastAPI (Python REST API serving `Phase3Runtime`)
-* **Capabilities**: Live search, mode selection, pipeline toggle, rank/score/snippet display, document/page/section provenance, evaluation dashboard, statistics explorer, document browser.
-* **Test Suite**: `158 / 158` Phase 4 unit/API tests passed.
+* **Capabilities**:
+  * **Search Page User Journey**: Streamlined query builder featuring real-time syntax validation, examples, auto-detect vs manual query type selection, top-K selection, and pipeline toggling.
+  * **Explainable Ranking Score**: Interactive `Ranking Score ⓘ` tooltip providing mathematical breakdowns of term, phrase, and TF components.
+  * **Unambiguous Result Counts**: Clearly distinguishes `Unique Documents`, `Matching Content Units`, and `Showing` (with notice for Phase 3 50-candidate cap).
+  * **Per-Result Matched Badges**: Individual chips for terms matching each specific content unit, properly handling `OR` and grouped satisfaction.
+  * **Pipeline Isolation**: Instant switching between Pipeline A (`pipeline_a_lemma`) and Pipeline B (`pipeline_b_stem`) on independent indexes.
+  * **Provenance & Evaluation**: Hierarchical document/page/section provenance display, corpus statistics explorer, and interactive Cranfield evaluation metrics dashboard.
+* **Test Suite**: Phase 3/4 tests and dedicated search explainability regression test suite (`tests/test_search_explainability_fixes.py`) passing.
 
 ---
 

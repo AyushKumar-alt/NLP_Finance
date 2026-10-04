@@ -6,10 +6,16 @@ from typing import Any, Dict, Optional
 
 from fastapi import APIRouter, HTTPException, Query
 
+from pydantic import BaseModel, Field
+
 from backend.config.settings import get_settings
 from backend.services import artifacts, experiments
 
 router = APIRouter(prefix="/experiments", tags=["phase2"])
+
+
+class TokenizeRequest(BaseModel):
+    text: str = Field(..., min_length=1, max_length=2000)
 
 
 @router.get("/summary", summary="Phase 2 master summary")
@@ -26,6 +32,11 @@ def summary() -> Dict[str, Any]:
 @router.get("/tokenization", summary="Tokenizer comparison, custom rules, date and number handling")
 def tokenization() -> Dict[str, Any]:
     return experiments.tokenization(get_settings())
+
+
+@router.post("/tokenize", summary="Live tokenization across NLTK, spaCy, Custom and Hybrid tokenizers")
+def live_tokenize(request: TokenizeRequest) -> Dict[str, Any]:
+    return experiments.tokenize_live(get_settings(), request.text)
 
 
 @router.get("/preprocessing", summary="Cleaning, stopwords and stopword/morphology order")

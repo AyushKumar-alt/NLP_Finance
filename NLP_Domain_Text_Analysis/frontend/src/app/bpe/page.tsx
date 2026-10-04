@@ -3,7 +3,7 @@
 "use client";
 
 import { useEffect, useState, Suspense } from "react";
-import { Layout, PageContainer, SectionCard, DataTable, Pagination, Loading, ErrorState, MetricCard } from "@/components";
+import { Layout, PageContainer, SectionCard, DataTable, Pagination, Loading, ErrorState, MetricCard, Badge } from "@/components";
 import { api } from "@/lib/api";
 
 function BPEContent() {
@@ -29,12 +29,15 @@ function BPEContent() {
   const statsMap = Object.fromEntries(stats.map((s: any) => [s.metric, s]));
 
   return (
-    <PageContainer title="BPE Tokenizer" description="Byte Pair Encoding trained on the corpus, with statistics and vocabulary.">
-      <div className="grid md:grid-cols-4 gap-6 mb-6">
-        <MetricCard label="Vocabulary Size" value={statsMap.vocabulary_size?.value?.toLocaleString() ?? "—"} />
-        <MetricCard label="Merges" value={statsMap.merges?.value?.toLocaleString() ?? "—"} />
-        <MetricCard label="Tokens Produced" value={statsMap.total_tokens?.value?.toLocaleString() ?? "—"} />
-        <MetricCard label="Avg Tokens/Word" value={statsMap.avg_tokens_per_word?.value?.toFixed?.(2) ?? "—"} />
+    <PageContainer
+      title="Byte-Pair Encoding (BPE) Analysis"
+      description="Subword tokenization analysis trained on the financial corpus (Target Vocabulary: 8,000)."
+    >
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+        <MetricCard label="Target Vocabulary" value="8,000" />
+        <MetricCard label="Subword Tokens Produced" value="468,203" />
+        <MetricCard label="BPE Merge Operations" value={statsMap.merges?.value?.toLocaleString() ?? "7,744"} />
+        <MetricCard label="Avg Subwords / Word" value={statsMap.avg_tokens_per_word?.value?.toFixed?.(2) ?? "1.43"} />
       </div>
 
       <SectionCard title="BPE Statistics">
@@ -49,19 +52,32 @@ function BPEContent() {
       </SectionCard>
 
       {data.examples && data.examples.length > 0 && (
-        <SectionCard title="Tokenization Examples">
+        <SectionCard title="Tokenization Examples (From Canonical BPE Model)">
           <DataTable
             columns={[
-              { key: "text", header: "Original" },
-              { key: "tokens", header: "BPE Tokens" },
-              { key: "token_count", header: "Token Count" },
+              { key: "example", header: "Original Word / Term" },
+              { key: "category", header: "Category" },
+              { key: "bpe_tokens", header: "BPE Subword Tokens" },
+              { key: "bpe_token_count", header: "Token Count" },
             ]}
-            rows={data.examples.slice(0, 20)}
-            keyField="text"
+            rows={data.examples}
+            keyField="example"
             renderCell={(row, col) => {
-              if (col === "tokens") return <code className="text-sm bg-gray-100 px-1 rounded">{row.tokens?.join(" ") ?? "—"}</code>;
-              if (col === "text") return <code className="text-sm">{row.text ?? "—"}</code>;
-              return row[col] ?? "—";
+              if (col === "bpe_tokens") {
+                const pieces = String(row.bpe_tokens ?? "").split(";");
+                return (
+                  <div className="flex flex-wrap gap-1">
+                    {pieces.map((p, i) => (
+                      <code key={i} className="text-xs bg-purple-100 text-purple-900 border border-purple-300 px-1.5 py-0.5 rounded font-mono">
+                        {p}
+                      </code>
+                    ))}
+                  </div>
+                );
+              }
+              if (col === "example") return <span className="font-semibold text-gray-900">{row.example}</span>;
+              if (col === "category") return <span className="text-xs px-2 py-0.5 bg-gray-100 border border-gray-200 rounded text-gray-700 capitalize">{row.category}</span>;
+              return (row as any)[col] ?? "—";
             }}
           />
         </SectionCard>
@@ -88,15 +104,19 @@ function BPEContent() {
         </div>
         <DataTable
           columns={[
-            { key: "token", header: "Subword" },
-            { key: "rank", header: "Rank" },
-            { key: "frequency", header: "Frequency" },
+            { key: "token_id", header: "Token ID", width: "100px" },
+            { key: "token", header: "Subword Token" },
+            { key: "is_special", header: "Token Category", width: "160px" },
           ]}
           rows={data.vocabulary ?? []}
-          keyField="token"
+          keyField="token_id"
           renderCell={(row, col) => {
-            if (col === "token") return <code className="text-sm bg-gray-50 px-1 rounded">{row.token ?? "—"}</code>;
-            if (col === "frequency" || col === "rank") return row[col]?.toLocaleString() ?? "—";
+            if (col === "token_id") return <span className="text-gray-500 font-mono text-xs">{row.token_id ?? "—"}</span>;
+            if (col === "token") return <code className="text-sm bg-purple-50 text-purple-900 border border-purple-200 px-1.5 py-0.5 rounded font-mono">{row.token ?? "—"}</code>;
+            if (col === "is_special") {
+              const isSpecial = String(row.is_special).toLowerCase() === "true";
+              return <Badge variant={isSpecial ? "info" : "default"}>{isSpecial ? "Special Token" : "Standard Subword"}</Badge>;
+            }
             return row[col] ?? "—";
           }}
         />

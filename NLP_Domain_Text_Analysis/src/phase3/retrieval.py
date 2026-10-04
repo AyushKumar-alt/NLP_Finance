@@ -108,28 +108,88 @@ class RetrievalEngine:
             return ""
         wanted = {term.casefold() for term in matched_terms} | {t.casefold() for t in phrase_terms}
         if not wanted:
-            return text[:snippet_chars].strip()
-
-        surfaces: List[str] = []
-        for token in self.runner.tokenize_text(self.spec, unit.text):
-            term = self.runner.term_for(self.spec, token)
-            if term in wanted and token not in surfaces:
-                surfaces.append(token)
+            return text[:snippet_chars].strip() + ("..." if len(text) > snippet_chars else "")
 
         lowered = text.casefold()
-        positions = [lowered.find(surface.casefold()) for surface in surfaces]
-        positions = [p for p in positions if p >= 0]
-        if not positions:
-            return text[:snippet_chars].strip()
 
-        centre = min(positions, key=lambda p: abs(p - min(positions)))
-        start = max(0, centre - context)
-        end = min(len(text), centre + snippet_chars)
-        excerpt = text[start:end].strip()
-        if start > 0:
+        # If an exact phrase is sought and occurs, center directly around it
+        clean_phrase = " ".join(phrase_terms).strip().strip('"').strip("'").casefold()
+        if clean_phrase and clean_phrase in lowered:
+            p_idx = lowered.find(clean_phrase)
+            start = max(0, p_idx - context)
+            end = min(len(text), start + snippet_chars)
+            start = max(0, end - snippet_chars)
+            excerpt = text[start:end].strip()
+            if start > 0:
+                excerpt = "..." + excerpt
+            if end < len(text):
+                excerpt = excerpt + "..."
+            return excerpt
+
+        surfaces_by_term: Dict[str, List[str]] = {}
+        for token in self.runner.tokenize_text(self.spec, unit.text):
+            term = self.runner.term_for(self.spec, token).casefold()
+            if term in wanted:
+                surfaces_by_term.setdefault(term, [])
+                if token not in surfaces_by_term[term]:
+                    surfaces_by_term[term].append(token)
+
+        term_positions: Dict[str, List[int]] = {}
+        for term, s_list in surfaces_by_term.items():
+            t_pos: List[int] = []
+            for s in s_list:
+                s_lower = s.casefold()
+                start_p = 0
+                while True:
+                    idx = lowered.find(s_lower, start_p)
+                    if idx < 0:
+                        break
+                    t_pos.append(idx)
+                    start_p = idx + len(s_lower)
+            if t_pos:
+                term_positions[term] = sorted(t_pos)
+
+        if not term_positions:
+            return text[:snippet_chars].strip() + ("..." if len(text) > snippet_chars else "")
+
+        # Collect all position anchors
+        all_positions: List[int] = []
+        for p_list in term_positions.values():
+            all_positions.extend(p_list)
+        all_positions.sort()
+
+        # Find window of size snippet_chars maximizing distinct term coverage
+        best_coverage = 0
+        best_start = 0
+        best_end = min(len(text), snippet_chars)
+
+        for p in all_positions:
+            w_start = max(0, p - context)
+            w_end = min(len(text), w_start + snippet_chars)
+            w_start = max(0, w_end - snippet_chars)
+            coverage = sum(
+                1 for term, plist in term_positions.items()
+                if any(w_start <= pos < w_end for pos in plist)
+            )
+            if coverage > best_coverage:
+                best_coverage = coverage
+                best_start = w_start
+                best_end = w_end
+
+        excerpt = text[best_start:best_end].strip()
+        if best_start > 0:
             excerpt = "..." + excerpt
-        if end < len(text):
+        if end_pos := best_end < len(text):
             excerpt = excerpt + "..."
+
+        # If any matched term occurs elsewhere in this unit, add an explicit note
+        uncovered = [
+            t for t in term_positions
+            if not any(best_start <= pos < best_end for pos in term_positions[t])
+        ]
+        if uncovered:
+            excerpt += " [Additional matched term occurs elsewhere in this content unit.]"
+
         return excerpt
 
     # ------------------------------------------------------------------
@@ -219,11 +279,12 @@ class RetrievalEngine:
 
     def search_phrase(self, phrase: str) -> SearchOutcome:
         started = time.perf_counter()
-        found = self.phrase_search.search(phrase)
+        clean = phrase.strip().strip('"').strip("'")
+        found = self.phrase_search.search(clean)
         matched = list(found["indexed_terms"])
         missing = list(found["missing"])
         unit_ids = list(found["unit_ids"])
-        postings = self.boolean_search._postings_for_units(phrase, unit_ids, is_phrase=True)
+        postings = self.boolean_search._postings_for_units(clean, unit_ids, is_phrase=True)
         hits = self._hits_from_postings(postings, matched, missing, set(unit_ids), matched)
         return SearchOutcome(
             query=phrase, query_type="phrase", matched_terms=matched, missing_terms=missing,

@@ -64,7 +64,7 @@ def search(request: SearchRequest) -> Dict[str, Any]:
 @router.post("/search/parse", summary="Validate and normalize a query without running it")
 def parse(request: ParseQueryRequest) -> Dict[str, Any]:
     try:
-        return retrieval.parse_query(request.query)
+        return retrieval.parse_query(request.query, request.query_type)
     except ValueError as error:
         raise HTTPException(status_code=400, detail=str(error)) from error
 

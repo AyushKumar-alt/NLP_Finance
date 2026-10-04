@@ -109,6 +109,13 @@ export const api = {
       handle<TokenizerComparison>(r)
     ),
 
+  tokenizeLive: (text: string) =>
+    fetch(buildUrl("/api/experiments/tokenize"), {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text }),
+    }).then((r) => handle<any>(r)),
+
   preprocessing: () =>
     fetch(buildUrl("/api/experiments/preprocessing")).then((r) => handle<any>(r)),
 

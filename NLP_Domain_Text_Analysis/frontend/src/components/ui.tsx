@@ -81,7 +81,7 @@ export function DataTable<T extends Record<string, any>>({
 }: {
   columns: Array<{ key: string; header: string; width?: string }>;
   rows: T[];
-  keyField: string;
+  keyField: string | ((row: T, index: number) => string);
   emptyMessage?: string;
   renderCell?: (row: T, col: string) => ReactNode;
   className?: string;
@@ -89,6 +89,14 @@ export function DataTable<T extends Record<string, any>>({
   if (rows.length === 0) {
     return <EmptyState message={emptyMessage} />;
   }
+
+  const getRowKey = (row: T, index: number) => {
+    if (typeof keyField === "function") {
+      return keyField(row, index);
+    }
+    return String(row[keyField] ?? index);
+  };
+
   return (
     <div className={`overflow-x-auto rounded-lg border border-gray-200 ${className}`}>
       <table className="min-w-full divide-y divide-gray-200">
@@ -107,15 +115,18 @@ export function DataTable<T extends Record<string, any>>({
           </tr>
         </thead>
         <tbody className="bg-white divide-y divide-gray-200">
-          {rows.map((row, rowIndex) => (
-            <tr key={`${String(row[keyField])}-${rowIndex}`} className="hover:bg-gray-50">
-              {columns.map((col) => (
-                <td key={`${String(row[keyField])}-${rowIndex}-${String(col.key)}`} className="px-4 py-3 text-sm text-gray-900">
-                  {renderCell ? renderCell(row, col.key) : String(row[col.key] ?? "")}
-                </td>
-              ))}
-            </tr>
-          ))}
+          {rows.map((row, rowIndex) => {
+            const rk = getRowKey(row, rowIndex);
+            return (
+              <tr key={`${rk}-${rowIndex}`} className="hover:bg-gray-50">
+                {columns.map((col) => (
+                  <td key={`${rk}-${rowIndex}-${String(col.key)}`} className="px-4 py-3 text-sm text-gray-900">
+                    {renderCell ? renderCell(row, col.key) : String(row[col.key] ?? "")}
+                  </td>
+                ))}
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </div>

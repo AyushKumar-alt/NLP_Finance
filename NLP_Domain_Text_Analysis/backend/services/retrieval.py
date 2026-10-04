@@ -8,6 +8,8 @@ disagree about what a query returns.
 
 from __future__ import annotations
 
+import math
+import re
 import threading
 from typing import Any, Dict, List, Optional
 
@@ -97,6 +99,12 @@ def available(settings: Settings) -> Dict[str, Any]:
     }
 
 
+def has_unquoted_ampersand(query: str) -> bool:
+    """Check for standalone '&' outside quotes."""
+    without_quotes = re.sub(r'"[^"]*"|\'[^\']*\'', '', query or '')
+    return bool(re.search(r'(?:^|\s)&(?:\s|$)', without_quotes))
+
+
 # ----------------------------------------------------------------------
 CITATION_TEMPLATE = "{document_id} | p{page_number} | {section_number} | {unit_id}"
 
@@ -118,6 +126,26 @@ def _hit_payload(hit: Dict[str, Any]) -> Dict[str, Any]:
         if ":" in item
     }
     payload["has_section_title"] = bool(hit.get("section_title")) and hit.get("section_title") != "UNKNOWN"
+
+    # Exact Ranking Score breakdown based on verified Phase 3 formula:
+    # score = 1.0 * matched_term_count + 2.0 * phrase_match + 0.25 * log10(1 + total_tf)
+    matched_count = int(hit.get("matched_term_count", len(payload["matched_terms_list"])))
+    term_component = round(1.0 * matched_count, 4)
+    phrase_hit = bool(hit.get("phrase_match", False))
+    phrase_component = 2.0 if phrase_hit else 0.0
+    total_tf = sum(payload["matched_term_frequency_map"].values())
+    tf_component = round(0.25 * math.log10(1 + max(0, total_tf)), 4)
+    total_score = round(float(hit.get("score", term_component + phrase_component + tf_component)), 4)
+
+    payload["score_breakdown"] = {
+        "matched_term_count": matched_count,
+        "term_component": term_component,
+        "phrase_hit": phrase_hit,
+        "phrase_component": phrase_component,
+        "total_tf": total_tf,
+        "tf_component": tf_component,
+        "total_score": total_score,
+    }
     return payload
 
 
@@ -132,6 +160,8 @@ def search(
     text = (query or "").strip()
     if not text:
         raise ValueError("query must not be empty")
+    if has_unquoted_ampersand(text):
+        raise ValueError("& is not a supported Boolean operator. Use AND instead.")
     resolved = query_type or query_type_of(text)
     try:
         active = engine(settings, pipeline)
@@ -200,7 +230,7 @@ def excluded_terms(query: str, query_type: str) -> List[str]:
     return found
 
 
-def parse_query(query: str) -> Dict[str, Any]:
+def parse_query(query: str, query_type: Optional[str] = None) -> Dict[str, Any]:
     """Validate and normalize a query without running it. Powers the live builder.
 
     Boolean queries go through the Phase 3 parser, so the GUI reports the same
@@ -212,7 +242,15 @@ def parse_query(query: str) -> Dict[str, Any]:
     text = (query or "").strip()
     if not text:
         raise ValueError("query must not be empty")
-    kind = query_type_of(text)
+    if has_unquoted_ampersand(text):
+        return {
+            "query": text,
+            "query_type": query_type or query_type_of(text),
+            "normalized": None,
+            "valid": False,
+            "error": "& is not a supported Boolean operator. Use AND instead.",
+        }
+    kind = query_type or query_type_of(text)
     if kind in ("keyword", "phrase"):
         return {
             "query": text,

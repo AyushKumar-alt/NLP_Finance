@@ -100,6 +100,8 @@ def tokenize_query(query: str) -> List[QueryToken]:
         elif kind == "rparen":
             tokens.append(QueryToken("RPAREN", text))
         else:
+            if text == "&":
+                raise QuerySyntaxError("& is not a supported Boolean operator. Use AND instead.")
             upper = text.upper()
             if upper in OPERATORS:
                 tokens.append(QueryToken(upper, upper))
